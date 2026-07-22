@@ -1,0 +1,33 @@
+# CPU-only demonstration: deterministic fakes, small budgets, no optional deps.
+experiments:
+  name: cpu_demo
+  tags: ["demo", "cpu"]
+
+corpus:
+  source: demo
+
+retrieval:
+  strategy: bm25
+  top_k: 3
+
+nli:
+  classifier: lexical
+
+generation:
+  adapter: fake
+  deterministic: true
+  evidence_token_budget: 256
+  reserved_output_tokens: 64
+  context_limit: 4096
+  max_new_tokens: 256
+
+caching:
+  enabled: false
+
+logging:
+  level: INFO
+  log_documents: false
+
+reproducibility:
+  seed: 0
+  deterministic: true

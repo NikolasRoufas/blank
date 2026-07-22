@@ -1,0 +1,20 @@
+{
+  "benchmark": "fever",
+  "setting": "gold_evidence",
+  "split": "valid",
+  "source_file": "/Users/nikolasroufas/.cache/huggingface/hub/datasets--copenlu--fever_gold_evidence/snapshots/a6b8d891d393e97a4efac791afffb2d7de5e57c6/valid.jsonl",
+  "source_file_sha256_first1mb": "9fa887fa5ad1072fac8393540da528f9998ba3ce5d2d7e02047f68bd4bd41c93",
+  "adapter_version": "1.0.0",
+  "schema_version": "1.6.0",
+  "num_examples_loaded": 100,
+  "label_counts": {
+    "refutes": 34,
+    "supports": 34,
+    "not_enough_info": 32
+  },
+  "dataset_fingerprint_first100": "57ac92ea3e5cb14971bf7986659aee72d0cfbb073148c50cdcc9f7d267c53a0b",
+  "prepared_at": "2026-06-28T22:48:41.568191+00:00",
+  "warnings": [
+    "gold-evidence setting (not full-wiki retrieval)"
+  ]
+}

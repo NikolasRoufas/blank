@@ -1,0 +1,25 @@
+{
+  "source": "efficiency-results.csv",
+  "x": "system",
+  "y": [
+    "latency_ms"
+  ],
+  "systems": [
+    "passage_rag",
+    "reranked_passage_rag",
+    "claim_only_rag",
+    "graph_no_propagation",
+    "graph_top_claim",
+    "graph_coherent_subgraph",
+    "graph_no_temporal",
+    "graph_no_contradiction",
+    "graph_with_propagation",
+    "full_egrag"
+  ],
+  "rendering": "not rendered (matplotlib not installed; no network to install)",
+  "outputs_expected": [
+    "latency_by_variant.pdf",
+    "latency_by_variant.png"
+  ],
+  "generation_command": "python artifacts/paper-results/figures/latency_by_variant.py"
+}

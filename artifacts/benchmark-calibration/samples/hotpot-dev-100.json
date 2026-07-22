@@ -1,0 +1,1459 @@
+{
+  "benchmark": "hotpotqa",
+  "split": "validation (development)",
+  "name": "hotpot-dev-100",
+  "size": 100,
+  "seed": 20260629,
+  "dataset_fingerprint_sha256": "d126f3e43c3bfea9cc969179f62fcbb6032031786f5dbc15b4e3ac21bf5e1d2c",
+  "selection": "deterministic stratified by type(bridge~55%/comparison~25%)+yes/no~20%; seeded; NEVER by model success",
+  "type_distribution": {
+    "bridge": 55,
+    "comparison": 45
+  },
+  "yes_no": 25,
+  "gold_coverage_distribution": {
+    "full": 28,
+    "partial": 45,
+    "none": 27
+  },
+  "context_length_buckets": {
+    "mid": 63,
+    "short": 13,
+    "long": 24
+  },
+  "full_coverage_subset_ids": [
+    "5a79395455429970f5fffe7d",
+    "5add23e45542992ae4cec4a1",
+    "5a8f08c2554299458435d530",
+    "5a8e4d9855429917b4a5bd8d",
+    "5ab85c8d55429934fafe6d84",
+    "5a845b2d5542996488c2e520",
+    "5abafb6d5542992ccd8e7e92",
+    "5ab5cd0d554299488d4d9a30",
+    "5ae1d32a554299492dc91b9c",
+    "5ade69e455429975fa854ec5",
+    "5a852cd05542997b5ce3ffb0",
+    "5a72d7b35542991f9a20c5be",
+    "5a70f1685542994082a3e40f",
+    "5a7a276d5542996c55b2dd27",
+    "5a8c42445542996e8ac88a3f",
+    "5ab7bfe955429928e1fe38c2",
+    "5a8d8e4f5542994ba4e3dca7",
+    "5a86ea445542994775f60780",
+    "5ae377415542992e3233c40a",
+    "5ac07a17554299294b219000",
+    "5a7323ad5542994cef4bc476",
+    "5ab811395542990e739ec80f",
+    "5ade15a45542997545bbbe46",
+    "5abeb0da5542997ec76fd34b",
+    "5a8660ba55429960ec39b684",
+    "5a893fc855429951533612f0",
+    "5a87c0945542996e4f30890b",
+    "5addfe1c5542995b365fabaf"
+  ],
+  "full_coverage_subset_note": "Use ONLY this subset for supporting-fact/evidence/bridge-connectivity PROXY metrics; headline answer EM/F1 use all ids.",
+  "example_ids": [
+    "5a79395455429970f5fffe7d",
+    "5ac24cea55429951e9e6853a",
+    "5ae00a27554299025d62a3bb",
+    "5add23e45542992ae4cec4a1",
+    "5a8f08c2554299458435d530",
+    "5a77b13655429967ab105235",
+    "5a8e4d9855429917b4a5bd8d",
+    "5a7912f655429974737f796c",
+    "5a881d2355429938390d3eeb",
+    "5ae690b055429908198fa622",
+    "5ab85c8d55429934fafe6d84",
+    "5ac270e05542992f1f2b38c9",
+    "5a7b43735542992d025e67cb",
+    "5ac5101455429924173fb592",
+    "5a7c02c45542996dd594b880",
+    "5a778b1e55429949eeb29ee3",
+    "5ab7f1315542991d322237d1",
+    "5a7a9b9a5542990198eaf160",
+    "5a83bfc8554299123d8c21a1",
+    "5a845b2d5542996488c2e520",
+    "5ab916e155429919ba4e23a4",
+    "5a794119554299029c4b5f3c",
+    "5a8a429955429930ff3c0d34",
+    "5ae7ae9a5542993210983ef2",
+    "5ab3e07e55429969a97a81e5",
+    "5abafb6d5542992ccd8e7e92",
+    "5ab5cd0d554299488d4d9a30",
+    "5a721a7655429971e9dc9271",
+    "5ab5b0f75542992aa134a38c",
+    "5ac385f8554299741d48a279",
+    "5ae1d32a554299492dc91b9c",
+    "5a7dedef5542995f4f40231a",
+    "5ab9b1fd5542996be202058e",
+    "5ade69e455429975fa854ec5",
+    "5ac4f2235542996feb3fe995",
+    "5ae2b794554299495565db10",
+    "5a852cd05542997b5ce3ffb0",
+    "5a72d7b35542991f9a20c5be",
+    "5abae3b05542996606241661",
+    "5ab674ee5542995eadeefff2",
+    "5a796bfd55429970f5fffeac",
+    "5a712beb5542994082a3e61c",
+    "5a70f1685542994082a3e40f",
+    "5a7a276d5542996c55b2dd27",
+    "5a8c42445542996e8ac88a3f",
+    "5ac0dcf25542996f0d89cc2c",
+    "5a8afa4d55429949d91db44c",
+    "5ab7bfe955429928e1fe38c2",
+    "5ae7fb1155429952e35ea9eb",
+    "5ade4801554299728e26c6ab",
+    "5abe044d5542991f661060a7",
+    "5a8d8e4f5542994ba4e3dca7",
+    "5a86ea445542994775f60780",
+    "5a7b895c5542997c3ec97206",
+    "5a7b48b15542995eb53be8eb",
+    "5ac31456554299741d48a1b4",
+    "5a8a1aea5542992e4fca8508",
+    "5abbdb335542992ccd8e7fc1",
+    "5ae377415542992e3233c40a",
+    "5ac07a17554299294b219000",
+    "5a74bdce55429929fddd84e1",
+    "5ac294b955429921a00aafd0",
+    "5a7c34905542996dd594b8d5",
+    "5ae095f055429924de1b7103",
+    "5a7323ad5542994cef4bc476",
+    "5a7c74a65542990527d554b0",
+    "5a8bbddf5542997f31a41db2",
+    "5a802fb8554299485f598582",
+    "5ac00278554299012d1db56b",
+    "5a72bd0b5542992359bc318f",
+    "5abbb42555429931dba144af",
+    "5a7e22ed5542995ed0d166a7",
+    "5a7f19eb55429934daa2fcdb",
+    "5ab811395542990e739ec80f",
+    "5ae077805542993d6555eb6e",
+    "5abe76c255429965af743f15",
+    "5a85fc995542996432c5715f",
+    "5ab8f57b5542991b5579f097",
+    "5a7ba83f5542995eb53be981",
+    "5ac322c95542995ef918c117",
+    "5ae5390355429960a22e0271",
+    "5ade15a45542997545bbbe46",
+    "5ac3b4e0554299741d48a2ec",
+    "5ab7484c5542992aa3b8c80d",
+    "5a82800855429966c78a6a2f",
+    "5abeb0da5542997ec76fd34b",
+    "5a8660ba55429960ec39b684",
+    "5ac3ac8255429939154138ad",
+    "5a7ec61a55429934daa2fc5f",
+    "5adbe1c5554299438c868cc4",
+    "5a893fc855429951533612f0",
+    "5a8778d25542994846c1cd89",
+    "5ab25004554299722f9b4cd7",
+    "5adeda67554299728e26c7db",
+    "5a87c0945542996e4f30890b",
+    "5a887898554299206df2b2a2",
+    "5abdbf3755429933744ab818",
+    "5addfe1c5542995b365fabaf",
+    "5ae25ed15542992decbdccd2",
+    "5ac21ac05542991316484bee"
+  ],
+  "examples": [
+    {
+      "example_id": "5a79395455429970f5fffe7d",
+      "type": "bridge",
+      "answer": "Maxwell Smart",
+      "yes_no": false,
+      "gold_pages": [
+        "Get Smart, Again!",
+        "Barbara Feldon"
+      ],
+      "gold_coverage": "full",
+      "num_documents": 40,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5ac24cea55429951e9e6853a",
+      "type": "bridge",
+      "answer": "Kate Millett",
+      "yes_no": false,
+      "gold_pages": [
+        "Midge Mackenzie",
+        "Kate Millett"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 44,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5ae00a27554299025d62a3bb",
+      "type": "bridge",
+      "answer": "Chengdu Aircraft Corporation",
+      "yes_no": false,
+      "gold_pages": [
+        "Chengdu J-7",
+        "CAC/PAC JF-17 Thunder"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 34,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5add23e45542992ae4cec4a1",
+      "type": "bridge",
+      "answer": "Art Bell",
+      "yes_no": false,
+      "gold_pages": [
+        "The Coming Global Superstorm",
+        "Art Bell"
+      ],
+      "gold_coverage": "full",
+      "num_documents": 35,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5a8f08c2554299458435d530",
+      "type": "bridge",
+      "answer": "Peter Kay's Car Share",
+      "yes_no": false,
+      "gold_pages": [
+        "Sian Gibson",
+        "Peter Kay's Car Share"
+      ],
+      "gold_coverage": "full",
+      "num_documents": 35,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5a77b13655429967ab105235",
+      "type": "bridge",
+      "answer": "Norman Borlaug",
+      "yes_no": false,
+      "gold_pages": [
+        "Green Revolution in India",
+        "Norman Borlaug"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 41,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5a8e4d9855429917b4a5bd8d",
+      "type": "bridge",
+      "answer": "Tom Rob",
+      "yes_no": false,
+      "gold_pages": [
+        "Worldview Entertainment",
+        "Child 44 (film)"
+      ],
+      "gold_coverage": "full",
+      "num_documents": 29,
+      "ctx_bucket": "short"
+    },
+    {
+      "example_id": "5a7912f655429974737f796c",
+      "type": "bridge",
+      "answer": "January 30, 1930",
+      "yes_no": false,
+      "gold_pages": [
+        "Superman IV: The Quest for Peace",
+        "Gene Hackman"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 45,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5a881d2355429938390d3eeb",
+      "type": "bridge",
+      "answer": "Love and Theft",
+      "yes_no": false,
+      "gold_pages": [
+        "If You Ever Get Lonely",
+        "Love and Theft (duo)"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 52,
+      "ctx_bucket": "long"
+    },
+    {
+      "example_id": "5ae690b055429908198fa622",
+      "type": "bridge",
+      "answer": "Ellesmere Port",
+      "yes_no": false,
+      "gold_pages": [
+        "Jamell Anderson",
+        "Cheshire Phoenix"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 45,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5ab85c8d55429934fafe6d84",
+      "type": "bridge",
+      "answer": "Austria Wien",
+      "yes_no": false,
+      "gold_pages": [
+        "Raphael Holzhauser",
+        "FK Austria Wien"
+      ],
+      "gold_coverage": "full",
+      "num_documents": 37,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5ac270e05542992f1f2b38c9",
+      "type": "bridge",
+      "answer": "High Knob",
+      "yes_no": false,
+      "gold_pages": [
+        "Elk Valley, Tennessee",
+        "Cumberland Mountains"
+      ],
+      "gold_coverage": "none",
+      "num_documents": 60,
+      "ctx_bucket": "long"
+    },
+    {
+      "example_id": "5a7b43735542992d025e67cb",
+      "type": "bridge",
+      "answer": "video game",
+      "yes_no": false,
+      "gold_pages": [
+        "Ratatouille (video game)",
+        "PlayStation 3"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 54,
+      "ctx_bucket": "long"
+    },
+    {
+      "example_id": "5ac5101455429924173fb592",
+      "type": "bridge",
+      "answer": "Every Rose Has Its Thorn",
+      "yes_no": false,
+      "gold_pages": [
+        "The Apprentice (U.S. season 9)",
+        "Bret Michaels"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 50,
+      "ctx_bucket": "long"
+    },
+    {
+      "example_id": "5a7c02c45542996dd594b880",
+      "type": "bridge",
+      "answer": "Estates Theatre in Prague",
+      "yes_no": false,
+      "gold_pages": [
+        "Heidi Brunner",
+        "La clemenza di Tito"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 68,
+      "ctx_bucket": "long"
+    },
+    {
+      "example_id": "5a778b1e55429949eeb29ee3",
+      "type": "bridge",
+      "answer": "Nashville Tribute Band",
+      "yes_no": false,
+      "gold_pages": [
+        "Nashville Tribute Band",
+        "Diamond Rio"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 44,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5ab7f1315542991d322237d1",
+      "type": "bridge",
+      "answer": "Los Angeles",
+      "yes_no": false,
+      "gold_pages": [
+        "Look At Us Now",
+        "Lost Kings"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 37,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5a7a9b9a5542990198eaf160",
+      "type": "bridge",
+      "answer": "1989",
+      "yes_no": false,
+      "gold_pages": [
+        "I Remember (AlunaGeorge album)",
+        "Zhu (musician)"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 43,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5a83bfc8554299123d8c21a1",
+      "type": "bridge",
+      "answer": "$26 billion",
+      "yes_no": false,
+      "gold_pages": [
+        "Just Do It",
+        "Swoosh"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 48,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5a845b2d5542996488c2e520",
+      "type": "bridge",
+      "answer": "Atlanta, Georgia",
+      "yes_no": false,
+      "gold_pages": [
+        "Back Up n da Chevy",
+        "Boyz n da Hood"
+      ],
+      "gold_coverage": "full",
+      "num_documents": 32,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5ab916e155429919ba4e23a4",
+      "type": "bridge",
+      "answer": "Chiwetel Ejiofor",
+      "yes_no": false,
+      "gold_pages": [
+        "12 Years a Slave (score)",
+        "Chiwetel Ejiofor"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 27,
+      "ctx_bucket": "short"
+    },
+    {
+      "example_id": "5a794119554299029c4b5f3c",
+      "type": "bridge",
+      "answer": "\"Baz\" Luhrmann",
+      "yes_no": false,
+      "gold_pages": [
+        "Nellee Hooper",
+        "Baz Luhrmann"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 46,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5a8a429955429930ff3c0d34",
+      "type": "bridge",
+      "answer": "1912",
+      "yes_no": false,
+      "gold_pages": [
+        "Simon Bloom",
+        "Universal Pictures"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 39,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5ae7ae9a5542993210983ef2",
+      "type": "bridge",
+      "answer": "Tainted Love",
+      "yes_no": false,
+      "gold_pages": [
+        "Rihanna videography",
+        "SOS (Rihanna song)"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 42,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5ab3e07e55429969a97a81e5",
+      "type": "bridge",
+      "answer": "Surtees Racing Organisation team",
+      "yes_no": false,
+      "gold_pages": [
+        "1962 German Grand Prix",
+        "John Surtees"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 54,
+      "ctx_bucket": "long"
+    },
+    {
+      "example_id": "5abafb6d5542992ccd8e7e92",
+      "type": "bridge",
+      "answer": "the second",
+      "yes_no": false,
+      "gold_pages": [
+        "White Love (Starship Planet song)",
+        "Starship Entertainment"
+      ],
+      "gold_coverage": "full",
+      "num_documents": 41,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5ab5cd0d554299488d4d9a30",
+      "type": "bridge",
+      "answer": "The State of Nevada",
+      "yes_no": false,
+      "gold_pages": [
+        "Mark VI monorail",
+        "Las Vegas Monorail"
+      ],
+      "gold_coverage": "full",
+      "num_documents": 41,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5a721a7655429971e9dc9271",
+      "type": "bridge",
+      "answer": "Christopher Rich",
+      "yes_no": false,
+      "gold_pages": [
+        "Reba (season 1)",
+        "Christopher Rich (actor)"
+      ],
+      "gold_coverage": "none",
+      "num_documents": 47,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5ab5b0f75542992aa134a38c",
+      "type": "bridge",
+      "answer": "\"Mona Leaves-a\"",
+      "yes_no": false,
+      "gold_pages": [
+        "I, (Annoyed Grunt)-bot",
+        "Mona Simpson (The Simpsons)"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 64,
+      "ctx_bucket": "long"
+    },
+    {
+      "example_id": "5ac385f8554299741d48a279",
+      "type": "bridge",
+      "answer": "Alfred Preis",
+      "yes_no": false,
+      "gold_pages": [
+        "Attack on Pearl Harbor in popular culture",
+        "USS Arizona Memorial"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 42,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5ae1d32a554299492dc91b9c",
+      "type": "bridge",
+      "answer": "2011",
+      "yes_no": false,
+      "gold_pages": [
+        "Fifty Shades Freed",
+        "Fifty Shades (novel series)"
+      ],
+      "gold_coverage": "full",
+      "num_documents": 30,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5a7dedef5542995f4f40231a",
+      "type": "bridge",
+      "answer": "Michael Patrick Smith",
+      "yes_no": false,
+      "gold_pages": [
+        "Chalk and Cheese",
+        "Michael Crawford"
+      ],
+      "gold_coverage": "none",
+      "num_documents": 32,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5ab9b1fd5542996be202058e",
+      "type": "bridge",
+      "answer": "Valley Falls",
+      "yes_no": false,
+      "gold_pages": [
+        "Caleb Stegall",
+        "Jefferson County, Kansas"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 47,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5ade69e455429975fa854ec5",
+      "type": "bridge",
+      "answer": "Tinu Suresh Desai",
+      "yes_no": false,
+      "gold_pages": [
+        "1920 (film series)",
+        "1920 (film)"
+      ],
+      "gold_coverage": "full",
+      "num_documents": 42,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5ac4f2235542996feb3fe995",
+      "type": "bridge",
+      "answer": "the eldest Von Trapp daughter",
+      "yes_no": false,
+      "gold_pages": [
+        "Darleen Carr",
+        "Charmian Carr"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 31,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5ae2b794554299495565db10",
+      "type": "bridge",
+      "answer": "February 18, 1965",
+      "yes_no": false,
+      "gold_pages": [
+        "Michel'le (album)",
+        "Dr. Dre"
+      ],
+      "gold_coverage": "none",
+      "num_documents": 29,
+      "ctx_bucket": "short"
+    },
+    {
+      "example_id": "5a852cd05542997b5ce3ffb0",
+      "type": "bridge",
+      "answer": "Bay of Fundy",
+      "yes_no": false,
+      "gold_pages": [
+        "George McCall Theal",
+        "Saint John, New Brunswick"
+      ],
+      "gold_coverage": "full",
+      "num_documents": 34,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5a72d7b35542991f9a20c5be",
+      "type": "bridge",
+      "answer": "Seventeen",
+      "yes_no": false,
+      "gold_pages": [
+        "Pledis Entertainment",
+        "Seventeen (band)"
+      ],
+      "gold_coverage": "full",
+      "num_documents": 39,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5abae3b05542996606241661",
+      "type": "bridge",
+      "answer": "The Boz",
+      "yes_no": false,
+      "gold_pages": [
+        "Lawless (TV series)",
+        "Brian Bosworth"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 39,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5ab674ee5542995eadeefff2",
+      "type": "bridge",
+      "answer": "three official languages",
+      "yes_no": false,
+      "gold_pages": [
+        "Hivange",
+        "Luxembourg"
+      ],
+      "gold_coverage": "none",
+      "num_documents": 41,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5a796bfd55429970f5fffeac",
+      "type": "bridge",
+      "answer": "A simple iron boar crest",
+      "yes_no": false,
+      "gold_pages": [
+        "Pioneer Helmet",
+        "Benty Grange helmet"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 55,
+      "ctx_bucket": "long"
+    },
+    {
+      "example_id": "5a712beb5542994082a3e61c",
+      "type": "bridge",
+      "answer": "Peter Dinklage",
+      "yes_no": false,
+      "gold_pages": [
+        "Little Fugitive (2006 film)",
+        "Peter Dinklage"
+      ],
+      "gold_coverage": "none",
+      "num_documents": 59,
+      "ctx_bucket": "long"
+    },
+    {
+      "example_id": "5a70f1685542994082a3e40f",
+      "type": "bridge",
+      "answer": "Symphony No. 7",
+      "yes_no": false,
+      "gold_pages": [
+        "Violin Sonata No. 5 (Beethoven)",
+        "Symphony No. 7 (Beethoven)"
+      ],
+      "gold_coverage": "full",
+      "num_documents": 31,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5a7a276d5542996c55b2dd27",
+      "type": "bridge",
+      "answer": "Colonel Charles Hastings Judd",
+      "yes_no": false,
+      "gold_pages": [
+        "Charles Hastings Judd",
+        "Kal\u0101kaua"
+      ],
+      "gold_coverage": "full",
+      "num_documents": 36,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5a8c42445542996e8ac88a3f",
+      "type": "bridge",
+      "answer": "Black Panthers",
+      "yes_no": false,
+      "gold_pages": [
+        "Mary Williams (activist)",
+        "Tom Hayden"
+      ],
+      "gold_coverage": "full",
+      "num_documents": 37,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5ac0dcf25542996f0d89cc2c",
+      "type": "bridge",
+      "answer": "Jane Mayer",
+      "yes_no": false,
+      "gold_pages": [
+        "Dark Money (book)",
+        "Koch family"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 44,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5a8afa4d55429949d91db44c",
+      "type": "bridge",
+      "answer": "The Fault in Our Stars",
+      "yes_no": false,
+      "gold_pages": [
+        "Not About Angels",
+        "The Fault in Our Stars"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 53,
+      "ctx_bucket": "long"
+    },
+    {
+      "example_id": "5ab7bfe955429928e1fe38c2",
+      "type": "bridge",
+      "answer": "casting, job opportunities, and career advice",
+      "yes_no": false,
+      "gold_pages": [
+        "Erik Marcisak",
+        "Backstage (magazine)"
+      ],
+      "gold_coverage": "full",
+      "num_documents": 48,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5ae7fb1155429952e35ea9eb",
+      "type": "bridge",
+      "answer": "100 metres",
+      "yes_no": false,
+      "gold_pages": [
+        "Harold Davis (athlete)",
+        "Men's 100 metres world record progression"
+      ],
+      "gold_coverage": "none",
+      "num_documents": 38,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5ade4801554299728e26c6ab",
+      "type": "bridge",
+      "answer": "69th Cannes Film Festival",
+      "yes_no": false,
+      "gold_pages": [
+        "Wolf and Sheep",
+        "2016 Cannes Film Festival"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 37,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5abe044d5542991f661060a7",
+      "type": "bridge",
+      "answer": "NAACP",
+      "yes_no": false,
+      "gold_pages": [
+        "Bolling\u2013Gatewood House",
+        "Ida B. Wells"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 52,
+      "ctx_bucket": "long"
+    },
+    {
+      "example_id": "5a8d8e4f5542994ba4e3dca7",
+      "type": "bridge",
+      "answer": "approximately 3 mi",
+      "yes_no": false,
+      "gold_pages": [
+        "Gamston, Rushcliffe",
+        "NG postcode area"
+      ],
+      "gold_coverage": "full",
+      "num_documents": 25,
+      "ctx_bucket": "short"
+    },
+    {
+      "example_id": "5a86ea445542994775f60780",
+      "type": "bridge",
+      "answer": "the second half of the third season",
+      "yes_no": false,
+      "gold_pages": [
+        "Once Upon a Time (season 5)",
+        "Zelena (Once Upon a Time)"
+      ],
+      "gold_coverage": "full",
+      "num_documents": 54,
+      "ctx_bucket": "long"
+    },
+    {
+      "example_id": "5a7b895c5542997c3ec97206",
+      "type": "bridge",
+      "answer": "Futurama",
+      "yes_no": false,
+      "gold_pages": [
+        "Das Bus",
+        "David X. Cohen"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 71,
+      "ctx_bucket": "long"
+    },
+    {
+      "example_id": "5a7b48b15542995eb53be8eb",
+      "type": "bridge",
+      "answer": "Microsoft Office",
+      "yes_no": false,
+      "gold_pages": [
+        "Google for Education",
+        "Google Docs, Sheets, and Slides"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 56,
+      "ctx_bucket": "long"
+    },
+    {
+      "example_id": "5ac31456554299741d48a1b4",
+      "type": "comparison",
+      "answer": "Lawson",
+      "yes_no": false,
+      "gold_pages": [
+        "Lawson (band)",
+        "American Music Club"
+      ],
+      "gold_coverage": "none",
+      "num_documents": 51,
+      "ctx_bucket": "long"
+    },
+    {
+      "example_id": "5a8a1aea5542992e4fca8508",
+      "type": "comparison",
+      "answer": "yes",
+      "yes_no": true,
+      "gold_pages": [
+        "Myles Kennedy",
+        "SafetySuit"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 37,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5abbdb335542992ccd8e7fc1",
+      "type": "comparison",
+      "answer": "no",
+      "yes_no": true,
+      "gold_pages": [
+        "NRG Energy",
+        "Raymond James Financial"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 52,
+      "ctx_bucket": "long"
+    },
+    {
+      "example_id": "5ae377415542992e3233c40a",
+      "type": "comparison",
+      "answer": "Pearl Zane Grey",
+      "yes_no": false,
+      "gold_pages": [
+        "Zane Grey",
+        "Bhabananda Deka"
+      ],
+      "gold_coverage": "full",
+      "num_documents": 44,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5ac07a17554299294b219000",
+      "type": "comparison",
+      "answer": "public use airport",
+      "yes_no": false,
+      "gold_pages": [
+        "Jos\u00e9 Aponte de la Torre Airport",
+        "Boulder City Municipal Airport"
+      ],
+      "gold_coverage": "full",
+      "num_documents": 39,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5a74bdce55429929fddd84e1",
+      "type": "comparison",
+      "answer": "Vladimir Igorevich Arnold",
+      "yes_no": false,
+      "gold_pages": [
+        "Georg Cantor",
+        "Vladimir Arnold"
+      ],
+      "gold_coverage": "none",
+      "num_documents": 30,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5ac294b955429921a00aafd0",
+      "type": "comparison",
+      "answer": "Macworld",
+      "yes_no": false,
+      "gold_pages": [
+        "Macworld",
+        "Soaps In Depth"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 41,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5a7c34905542996dd594b8d5",
+      "type": "comparison",
+      "answer": "Andre Kirk Agassi",
+      "yes_no": false,
+      "gold_pages": [
+        "Ana Kasparian",
+        "Andre Agassi"
+      ],
+      "gold_coverage": "none",
+      "num_documents": 28,
+      "ctx_bucket": "short"
+    },
+    {
+      "example_id": "5ae095f055429924de1b7103",
+      "type": "comparison",
+      "answer": "B. Reeves Eason",
+      "yes_no": false,
+      "gold_pages": [
+        "B. Reeves Eason",
+        "Albert S. Rogell"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 24,
+      "ctx_bucket": "short"
+    },
+    {
+      "example_id": "5a7323ad5542994cef4bc476",
+      "type": "comparison",
+      "answer": "Chantal Claret",
+      "yes_no": false,
+      "gold_pages": [
+        "Chantal Claret",
+        "Max Green (musician)"
+      ],
+      "gold_coverage": "full",
+      "num_documents": 29,
+      "ctx_bucket": "short"
+    },
+    {
+      "example_id": "5a7c74a65542990527d554b0",
+      "type": "comparison",
+      "answer": "The Wind in the Willows",
+      "yes_no": false,
+      "gold_pages": [
+        "The Wind in the Willows",
+        "The Bears and I"
+      ],
+      "gold_coverage": "none",
+      "num_documents": 39,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5a8bbddf5542997f31a41db2",
+      "type": "comparison",
+      "answer": "no",
+      "yes_no": true,
+      "gold_pages": [
+        "Without the King",
+        "Italy in a Day"
+      ],
+      "gold_coverage": "none",
+      "num_documents": 59,
+      "ctx_bucket": "long"
+    },
+    {
+      "example_id": "5a802fb8554299485f598582",
+      "type": "comparison",
+      "answer": "board game",
+      "yes_no": false,
+      "gold_pages": [
+        "Careers (board game)",
+        "The Really Nasty Horse Racing Game"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 49,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5ac00278554299012d1db56b",
+      "type": "comparison",
+      "answer": "director",
+      "yes_no": false,
+      "gold_pages": [
+        "Raj Kapoor",
+        "Mike Cahill (director)"
+      ],
+      "gold_coverage": "none",
+      "num_documents": 61,
+      "ctx_bucket": "long"
+    },
+    {
+      "example_id": "5a72bd0b5542992359bc318f",
+      "type": "comparison",
+      "answer": "Mark S. Hoplamazian",
+      "yes_no": false,
+      "gold_pages": [
+        "Andrea Martin",
+        "Mark Hoplamazian"
+      ],
+      "gold_coverage": "none",
+      "num_documents": 43,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5abbb42555429931dba144af",
+      "type": "comparison",
+      "answer": "George Bernard Shaw",
+      "yes_no": false,
+      "gold_pages": [
+        "Jean-Paul Sartre",
+        "George Bernard Shaw"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 32,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5a7e22ed5542995ed0d166a7",
+      "type": "comparison",
+      "answer": "Bernard Malamud",
+      "yes_no": false,
+      "gold_pages": [
+        "Bernard Malamud",
+        "Lois McMaster Bujold"
+      ],
+      "gold_coverage": "none",
+      "num_documents": 31,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5a7f19eb55429934daa2fcdb",
+      "type": "comparison",
+      "answer": "Stone Temple Pilots",
+      "yes_no": false,
+      "gold_pages": [
+        "Milky Chance",
+        "Stone Temple Pilots"
+      ],
+      "gold_coverage": "none",
+      "num_documents": 52,
+      "ctx_bucket": "long"
+    },
+    {
+      "example_id": "5ab811395542990e739ec80f",
+      "type": "comparison",
+      "answer": "Africa",
+      "yes_no": false,
+      "gold_pages": [
+        "Cussonia",
+        "Ternstroemia"
+      ],
+      "gold_coverage": "full",
+      "num_documents": 47,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5ae077805542993d6555eb6e",
+      "type": "comparison",
+      "answer": "no",
+      "yes_no": true,
+      "gold_pages": [
+        "Lance King",
+        "Han Seung-yeon"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 38,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5abe76c255429965af743f15",
+      "type": "comparison",
+      "answer": "director",
+      "yes_no": false,
+      "gold_pages": [
+        "John Landis",
+        "Gore Verbinski"
+      ],
+      "gold_coverage": "none",
+      "num_documents": 46,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5a85fc995542996432c5715f",
+      "type": "comparison",
+      "answer": "Joseph Leo Mankiewicz",
+      "yes_no": false,
+      "gold_pages": [
+        "Joseph L. Mankiewicz",
+        "Tony Kaye (director)"
+      ],
+      "gold_coverage": "none",
+      "num_documents": 35,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5ab8f57b5542991b5579f097",
+      "type": "comparison",
+      "answer": "no",
+      "yes_no": true,
+      "gold_pages": [
+        "Thomas H. Ince",
+        "Joseph McGrath (film director)"
+      ],
+      "gold_coverage": "none",
+      "num_documents": 34,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5a7ba83f5542995eb53be981",
+      "type": "comparison",
+      "answer": "\"Billy\" Corgan",
+      "yes_no": false,
+      "gold_pages": [
+        "Billy Corgan",
+        "Jeff Martin (Canadian musician)"
+      ],
+      "gold_coverage": "none",
+      "num_documents": 42,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5ac322c95542995ef918c117",
+      "type": "comparison",
+      "answer": "The General",
+      "yes_no": false,
+      "gold_pages": [
+        "Watercolor Artist",
+        "The General (magazine)"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 38,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5ae5390355429960a22e0271",
+      "type": "comparison",
+      "answer": "no",
+      "yes_no": true,
+      "gold_pages": [
+        "Xinxiang",
+        "Qionglai City"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 25,
+      "ctx_bucket": "short"
+    },
+    {
+      "example_id": "5ade15a45542997545bbbe46",
+      "type": "comparison",
+      "answer": "yes",
+      "yes_no": true,
+      "gold_pages": [
+        "Upper Crust Pizzeria",
+        "Eatza Pizza"
+      ],
+      "gold_coverage": "full",
+      "num_documents": 54,
+      "ctx_bucket": "long"
+    },
+    {
+      "example_id": "5ac3b4e0554299741d48a2ec",
+      "type": "comparison",
+      "answer": "yes",
+      "yes_no": true,
+      "gold_pages": [
+        "The Datsuns",
+        "The Black Crowes"
+      ],
+      "gold_coverage": "none",
+      "num_documents": 34,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5ab7484c5542992aa3b8c80d",
+      "type": "comparison",
+      "answer": "no",
+      "yes_no": true,
+      "gold_pages": [
+        "James Schuyler",
+        "A. E. Housman"
+      ],
+      "gold_coverage": "none",
+      "num_documents": 36,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5a82800855429966c78a6a2f",
+      "type": "comparison",
+      "answer": "no",
+      "yes_no": true,
+      "gold_pages": [
+        "Loot (2008 film)",
+        "Air Force, Incorporated"
+      ],
+      "gold_coverage": "none",
+      "num_documents": 64,
+      "ctx_bucket": "long"
+    },
+    {
+      "example_id": "5abeb0da5542997ec76fd34b",
+      "type": "comparison",
+      "answer": "yes",
+      "yes_no": true,
+      "gold_pages": [
+        "Monkey Kingdom",
+        "Anaganaga O Dheerudu"
+      ],
+      "gold_coverage": "full",
+      "num_documents": 48,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5a8660ba55429960ec39b684",
+      "type": "comparison",
+      "answer": "yes",
+      "yes_no": true,
+      "gold_pages": [
+        "Kettering University",
+        "University of New Mexico"
+      ],
+      "gold_coverage": "full",
+      "num_documents": 38,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5ac3ac8255429939154138ad",
+      "type": "comparison",
+      "answer": "yes",
+      "yes_no": true,
+      "gold_pages": [
+        "APB (band)",
+        "Sleeper (band)"
+      ],
+      "gold_coverage": "none",
+      "num_documents": 21,
+      "ctx_bucket": "short"
+    },
+    {
+      "example_id": "5a7ec61a55429934daa2fc5f",
+      "type": "comparison",
+      "answer": "yes",
+      "yes_no": true,
+      "gold_pages": [
+        "Staten Island Catapult",
+        "This Is Elvis"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 36,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5adbe1c5554299438c868cc4",
+      "type": "comparison",
+      "answer": "yes",
+      "yes_no": true,
+      "gold_pages": [
+        "Chasing Coral",
+        "9/11: Press for Truth"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 43,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5a893fc855429951533612f0",
+      "type": "comparison",
+      "answer": "no",
+      "yes_no": true,
+      "gold_pages": [
+        "Chien Fran\u00e7ais Blanc et Orange",
+        "Cretan Hound"
+      ],
+      "gold_coverage": "full",
+      "num_documents": 29,
+      "ctx_bucket": "short"
+    },
+    {
+      "example_id": "5a8778d25542994846c1cd89",
+      "type": "comparison",
+      "answer": "yes",
+      "yes_no": true,
+      "gold_pages": [
+        "Stefan Edberg",
+        "\u00c9douard Roger-Vasselin"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 25,
+      "ctx_bucket": "short"
+    },
+    {
+      "example_id": "5ab25004554299722f9b4cd7",
+      "type": "comparison",
+      "answer": "no",
+      "yes_no": true,
+      "gold_pages": [
+        "Battle of Stones River",
+        "Battle of the Ch'ongch'on River"
+      ],
+      "gold_coverage": "none",
+      "num_documents": 60,
+      "ctx_bucket": "long"
+    },
+    {
+      "example_id": "5adeda67554299728e26c7db",
+      "type": "comparison",
+      "answer": "no",
+      "yes_no": true,
+      "gold_pages": [
+        "Water dropwort",
+        "Costus"
+      ],
+      "gold_coverage": "none",
+      "num_documents": 37,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5a87c0945542996e4f30890b",
+      "type": "comparison",
+      "answer": "no",
+      "yes_no": true,
+      "gold_pages": [
+        "Portland International Airport",
+        "Gerald R. Ford International Airport"
+      ],
+      "gold_coverage": "full",
+      "num_documents": 31,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5a887898554299206df2b2a2",
+      "type": "comparison",
+      "answer": "no",
+      "yes_no": true,
+      "gold_pages": [
+        "Broughtonia",
+        "Perilla"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 50,
+      "ctx_bucket": "long"
+    },
+    {
+      "example_id": "5abdbf3755429933744ab818",
+      "type": "comparison",
+      "answer": "yes",
+      "yes_no": true,
+      "gold_pages": [
+        "Tionne Watkins",
+        "Park So-yeon (singer)"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 34,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5addfe1c5542995b365fabaf",
+      "type": "comparison",
+      "answer": "no",
+      "yes_no": true,
+      "gold_pages": [
+        "Wolfgang Becker",
+        "Jacques Audiard"
+      ],
+      "gold_coverage": "full",
+      "num_documents": 24,
+      "ctx_bucket": "short"
+    },
+    {
+      "example_id": "5ae25ed15542992decbdccd2",
+      "type": "comparison",
+      "answer": "no",
+      "yes_no": true,
+      "gold_pages": [
+        "Sorbaria",
+        "Goldenrod"
+      ],
+      "gold_coverage": "none",
+      "num_documents": 22,
+      "ctx_bucket": "short"
+    },
+    {
+      "example_id": "5ac21ac05542991316484bee",
+      "type": "comparison",
+      "answer": "yes",
+      "yes_no": true,
+      "gold_pages": [
+        "American Heritage (magazine)",
+        "Bon App\u00e9tit"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 51,
+      "ctx_bucket": "long"
+    }
+  ]
+}

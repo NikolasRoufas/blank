@@ -1,0 +1,103 @@
+{
+  "mechanism": "multi_hop",
+  "query": "What did the company announce about revenue?",
+  "passages": [
+    {
+      "source_id": "s1",
+      "text": "The company announced record revenue growth in 2023."
+    },
+    {
+      "source_id": "s2",
+      "text": "Analysts confirmed the company's revenue grew sharply."
+    },
+    {
+      "source_id": "s3",
+      "text": "An unrelated note about office furniture procurement."
+    }
+  ],
+  "claims": [
+    {
+      "id": "clm-91e4e656",
+      "source": "s1",
+      "text": "The company announced record revenue growth in 2023.",
+      "named_entities": [
+        "The"
+      ],
+      "negation": false,
+      "temporal_expressions": [
+        "2023"
+      ],
+      "observed_at": "None"
+    },
+    {
+      "id": "clm-a5d746cf",
+      "source": "s2",
+      "text": "Analysts confirmed the company's revenue grew sharply.",
+      "named_entities": [
+        "Analysts"
+      ],
+      "negation": false,
+      "temporal_expressions": [],
+      "observed_at": "None"
+    },
+    {
+      "id": "clm-743cd40f",
+      "source": "s3",
+      "text": "An unrelated note about office furniture procurement.",
+      "named_entities": [
+        "An"
+      ],
+      "negation": false,
+      "temporal_expressions": [],
+      "observed_at": "None"
+    }
+  ],
+  "candidate_stats": {
+    "num_claims": 3,
+    "possible_pairs": 3,
+    "generated_pairs": 1,
+    "pruned_pairs": 2,
+    "budget_truncated": 0
+  },
+  "candidate_pairs": [
+    {
+      "source": "clm-91e4e656",
+      "target": "clm-a5d746cf",
+      "reasons": [
+        "lexical_overlap"
+      ],
+      "scores": {
+        "entailment": 0.230769,
+        "contradiction": 0.0,
+        "neutral": 0.769231
+      },
+      "thresholds": {
+        "entailment": 0.5,
+        "contradiction": 0.5
+      },
+      "decision": "neutral/no-edge"
+    },
+    {
+      "source": "clm-a5d746cf",
+      "target": "clm-91e4e656",
+      "reasons": [
+        "lexical_overlap"
+      ],
+      "scores": {
+        "entailment": 0.230769,
+        "contradiction": 0.0,
+        "neutral": 0.769231
+      },
+      "thresholds": {
+        "entailment": 0.5,
+        "contradiction": 0.5
+      },
+      "decision": "neutral/no-edge"
+    }
+  ],
+  "final_graph": {
+    "nodes": 3,
+    "edges": 0
+  },
+  "gold_expectation": "multi_hop"
+}

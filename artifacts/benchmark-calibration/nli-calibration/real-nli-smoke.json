@@ -1,0 +1,50 @@
+{
+  "model": "roberta-large-mnli",
+  "revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98",
+  "device": "cpu",
+  "torch": "2.12.1",
+  "transformers": "5.12.1",
+  "label_mapping_version": "1",
+  "label_mapping_issues": [],
+  "label_mapping_valid": true,
+  "load_plus_validate_seconds": 24.4,
+  "directional_infer_seconds": 0.49,
+  "approx_ms_per_single_direction": 61.2,
+  "batch_size": 16,
+  "max_length": 256,
+  "truncation": true,
+  "cases": [
+    {
+      "expected_family": "supports",
+      "relation": "supports",
+      "entail_ab": 0.98,
+      "entail_ba": 0.026,
+      "contradiction": 0.002,
+      "source_first": true
+    },
+    {
+      "expected_family": "contradicts",
+      "relation": "contradicts",
+      "entail_ab": 0.0,
+      "entail_ba": 0.001,
+      "contradiction": 0.999,
+      "source_first": null
+    },
+    {
+      "expected_family": "neutral",
+      "relation": "neutral",
+      "entail_ab": 0.379,
+      "entail_ba": 0.155,
+      "contradiction": 0.369,
+      "source_first": null
+    },
+    {
+      "expected_family": "duplicate",
+      "relation": "duplicate",
+      "entail_ab": 0.994,
+      "entail_ba": 0.994,
+      "contradiction": 0.002,
+      "source_first": null
+    }
+  ]
+}

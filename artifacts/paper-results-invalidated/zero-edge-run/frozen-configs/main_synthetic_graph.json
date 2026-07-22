@@ -1,0 +1,33 @@
+{
+  "bootstrap_samples": 10000,
+  "bootstrap_seed": 12345,
+  "chunk_overlap": 64,
+  "chunk_size": 512,
+  "dataset": "synthetic_graph",
+  "dataset_path": null,
+  "enforce_fairness": true,
+  "evidence_token_budget": 256,
+  "generator": "fake",
+  "limit": null,
+  "name": "main_synthetic_graph",
+  "output_dir": "artifacts/paper-results/runs/main/synthetic_graph",
+  "reserved_output_tokens": 64,
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "top_k": 3,
+  "variants": [
+    "passage_rag",
+    "reranked_passage_rag",
+    "claim_only_rag",
+    "graph_no_propagation",
+    "graph_top_claim",
+    "graph_coherent_subgraph",
+    "graph_no_temporal",
+    "graph_no_contradiction",
+    "graph_with_propagation",
+    "full_egrag"
+  ]
+}

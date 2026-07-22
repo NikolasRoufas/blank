@@ -1,0 +1,33 @@
+{
+  "model": "roberta-large-mnli",
+  "revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98",
+  "label_mapping_valid": true,
+  "n": 4,
+  "correct": 4,
+  "cases": [
+    {
+      "expected": "supports",
+      "relation": "supports",
+      "entail_ab": 0.981,
+      "contradiction": 0.003
+    },
+    {
+      "expected": "contradicts",
+      "relation": "contradicts",
+      "entail_ab": 0.0,
+      "contradiction": 0.999
+    },
+    {
+      "expected": "neutral",
+      "relation": "neutral",
+      "entail_ab": 0.379,
+      "contradiction": 0.369
+    },
+    {
+      "expected": "duplicate",
+      "relation": "duplicate",
+      "entail_ab": 0.994,
+      "contradiction": 0.002
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "support": {
+    "support_edges": 44,
+    "duplicate_edges": 0,
+    "support_edge_recall": 1.0,
+    "duplicate_cluster_accuracy": null
+  },
+  "directional_support": {
+    "support_edges": 40,
+    "duplicate_edges": 0,
+    "support_edge_recall": 1.0,
+    "duplicate_cluster_accuracy": null
+  },
+  "duplicate": {
+    "support_edges": 44,
+    "duplicate_edges": 22,
+    "support_edge_recall": 1.0,
+    "duplicate_cluster_accuracy": 1.0
+  }
+}

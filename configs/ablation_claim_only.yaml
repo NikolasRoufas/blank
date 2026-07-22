@@ -1,0 +1,21 @@
+# Ablation: claim-level evidence without graph construction or reasoning.
+experiments:
+  name: ablation_claim_only
+  tags: ["ablation"]
+  ablation: claim_only
+
+extraction:
+  method: sentence_baseline
+
+graph_construction:
+  enabled: false
+
+propagation:
+  enabled: false
+
+subgraph_selection:
+  strategy: top_claims
+
+generation:
+  adapter: fake
+  deterministic: true

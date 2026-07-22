@@ -1,0 +1,83 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "device": "cpu",
+  "chat_template_applied": true,
+  "decoding": {
+    "deterministic": true,
+    "seed": 0,
+    "max_new_tokens": 96
+  },
+  "n": 6,
+  "valid_output": 6,
+  "valid_output_rate": 1.0,
+  "json_recovery_used": 0,
+  "cases_with_invalid_citation": 0,
+  "insufficient_cases": 1,
+  "insufficient_abstained_correctly": 0,
+  "cases": [
+    {
+      "name": "direct",
+      "valid_output": true,
+      "answer": "Polish",
+      "citations": [
+        "c1"
+      ],
+      "abstained": false,
+      "invalid_citations": [],
+      "latency_ms": 2698
+    },
+    {
+      "name": "two_hop",
+      "valid_output": true,
+      "answer": "France",
+      "citations": [
+        "c2"
+      ],
+      "abstained": false,
+      "invalid_citations": [],
+      "latency_ms": 2872
+    },
+    {
+      "name": "yes_no",
+      "valid_output": true,
+      "answer": "Yes",
+      "citations": [],
+      "abstained": true,
+      "invalid_citations": [],
+      "latency_ms": 2899
+    },
+    {
+      "name": "supports",
+      "valid_output": true,
+      "answer": "Yes",
+      "citations": [
+        "c1"
+      ],
+      "abstained": false,
+      "invalid_citations": [],
+      "latency_ms": 2572
+    },
+    {
+      "name": "refutes",
+      "valid_output": true,
+      "answer": "no",
+      "citations": [
+        "c1"
+      ],
+      "abstained": false,
+      "invalid_citations": [],
+      "latency_ms": 2534
+    },
+    {
+      "name": "insufficient",
+      "valid_output": true,
+      "answer": "2018",
+      "citations": [
+        "c1"
+      ],
+      "abstained": false,
+      "invalid_citations": [],
+      "latency_ms": 2710
+    }
+  ]
+}

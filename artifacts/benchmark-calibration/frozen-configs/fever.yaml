@@ -1,0 +1,58 @@
+# Frozen dev-selected configuration — FEVER (gold-evidence setting)
+# Selected on development data only (copenlu/fever_gold_evidence `valid`).
+# Do NOT change based on test results. See calibration-summary.md for rationale.
+schema_version: "1.0.0"
+adapter_version: "1.0.0"
+benchmark: fever
+dataset: copenlu/fever_gold_evidence
+dataset_setting: gold-evidence (documents are the gold sentences; no distractors)
+split: valid (development)
+dataset_fingerprint_sha256_prefix: "978f5e8b26b2"   # full fingerprint in dataset-manifests/fever.json
+sampling_policy: balanced by label, seeded (seed 20260629); fixed before any system run
+dev_samples:
+  - artifacts/benchmark-calibration/samples/fever-dev-100.json   # 33/33/34
+  - artifacts/benchmark-calibration/samples/fever-smoke-25.json   # 8/8/9
+
+retriever: bm25
+top_k: 5
+chunker: sentence-aware
+chunk_size: 256
+chunk_overlap: 0
+
+extractor:
+  selected: sentence-claim (deterministic)   # real Qwen2.5-0.5B extractor failed structured-output smoke
+  real_candidate: { model: Qwen/Qwen2.5-0.5B-Instruct, status: BLOCKED (0% valid JSON; needs chat template / larger model) }
+  prompt_version: extraction_v1
+  max_claims_per_passage: 5
+
+nli:
+  model: roberta-large-mnli
+  revision: "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+  entailment_threshold: 0.4
+  contradiction_threshold: 0.7
+  duplicate_threshold: 0.8
+  label_mapping_version: "1"
+  contradiction_gate: structural (shared entity/subject required); version 1.0.0
+  selected_on: development partition (prior real-NLI milestone)
+  note: validated on this host (label mapping valid; 4/4 controlled relations correct)
+
+duplicate_policy: distinct-source corroboration only; duplicates preserve provenance, do not add support
+bridges: { enabled: true, min_confidence: 0.5 }
+propagation: { enabled: true }                # inert on FEVER gold-evidence (no edges)
+conflict_resolver: conflict-set (unresolved surfaced as uncertainty)
+selector: greedy-connected                    # see reasoning-calibration: revisit vs top on GPU/real-NLI
+evidence_token_budget: 256
+reserved_output_tokens: 16
+
+generator:
+  selected_for_real_run: PENDING (no usable structured generator on this host)
+  fake_generator_for_deterministic_pilots: FakeTextGenerator
+  real_candidate: { model: Qwen/Qwen2.5-0.5B-Instruct, status: BLOCKED }
+  decoding: { deterministic: true, temperature: 0.0, top_p: 1.0, seed: 0, max_new_tokens: 64 }
+
+seeds: [0]
+metric_definitions:
+  answer: label accuracy, FEVER-score (needs real generator -> deferred)
+  evidence: citation/evidence precision/recall vs gold pages (deterministic OK)
+cache_schema_versions: { keys: content+model+revision+prompt+thresholds+schema (build_nli_cache_key/build_cache_key) }
+status: dev-frozen; answer-side metrics await a usable generator (GPU)

@@ -1,0 +1,10 @@
+{
+  "non_zero_bridges": true,
+  "belief_invariant": true,
+  "zero_bridge_conflicts": true,
+  "hop_coverage_improves": true,
+  "no_bridge_ablation_zero_bridges": true,
+  "no_contradiction_zero": true,
+  "no_propagation_zero_iters": true,
+  "ok": true
+}

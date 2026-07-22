@@ -1,0 +1,92 @@
+{
+  "mechanism": "temporal_supersession",
+  "query": "What is the current headquarters city?",
+  "passages": [
+    {
+      "source_id": "old",
+      "text": "In 2010 the headquarters was located in Springfield."
+    },
+    {
+      "source_id": "new",
+      "text": "As of 2024 the headquarters is located in Rivertown."
+    }
+  ],
+  "claims": [
+    {
+      "id": "clm-3be54d55",
+      "source": "new",
+      "text": "As of 2024 the headquarters is located in Rivertown.",
+      "named_entities": [
+        "As",
+        "Rivertown"
+      ],
+      "negation": false,
+      "temporal_expressions": [
+        "2024"
+      ],
+      "observed_at": "None"
+    },
+    {
+      "id": "clm-9ad8063e",
+      "source": "old",
+      "text": "In 2010 the headquarters was located in Springfield.",
+      "named_entities": [
+        "In",
+        "Springfield"
+      ],
+      "negation": false,
+      "temporal_expressions": [
+        "2010"
+      ],
+      "observed_at": "None"
+    }
+  ],
+  "candidate_stats": {
+    "num_claims": 2,
+    "possible_pairs": 1,
+    "generated_pairs": 1,
+    "pruned_pairs": 0,
+    "budget_truncated": 0
+  },
+  "candidate_pairs": [
+    {
+      "source": "clm-3be54d55",
+      "target": "clm-9ad8063e",
+      "reasons": [
+        "lexical_overlap"
+      ],
+      "scores": {
+        "entailment": 0.333333,
+        "contradiction": 0.0,
+        "neutral": 0.666667
+      },
+      "thresholds": {
+        "entailment": 0.5,
+        "contradiction": 0.5
+      },
+      "decision": "neutral/no-edge"
+    },
+    {
+      "source": "clm-9ad8063e",
+      "target": "clm-3be54d55",
+      "reasons": [
+        "lexical_overlap"
+      ],
+      "scores": {
+        "entailment": 0.333333,
+        "contradiction": 0.0,
+        "neutral": 0.666667
+      },
+      "thresholds": {
+        "entailment": 0.5,
+        "contradiction": 0.5
+      },
+      "decision": "neutral/no-edge"
+    }
+  ],
+  "final_graph": {
+    "nodes": 2,
+    "edges": 0
+  },
+  "gold_expectation": "temporal_supersession"
+}

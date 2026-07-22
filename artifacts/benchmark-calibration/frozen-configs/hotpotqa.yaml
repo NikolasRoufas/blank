@@ -1,0 +1,70 @@
+# Frozen dev-selected configuration — HotpotQA
+# Selected on development data only (fullwiki validation). Do NOT change based on
+# test results. See calibration-summary.md and retrieval-budget/report.md.
+schema_version: "1.0.0"
+adapter_version: "1.0.0"
+benchmark: hotpotqa
+dataset: hotpotqa/hotpot_qa
+config: fullwiki
+split: validation (development)
+dataset_fingerprint_sha256_prefix: "d126f3e43c3bfea9cc969179"   # full in dataset-manifests/hotpotqa.json
+source_file_sha256: "78933c0a31a5f7b420d4effdf4cd4eed573b28c6a3da6179dcf7a02b39e51d03"
+row_count: 7405
+gold_coverage_caveat: >
+  fullwiki: only 28.2% of examples have ALL gold supporting-fact pages present in
+  the provided context. Evidence/support/bridge metrics are PROXY metrics computed
+  on the full-coverage subset only. Prefer the DISTRACTOR split for the final
+  evidence-grounded matrix (download required).
+sampling_policy: stratified by type (bridge~55%/comparison~25%) + yes/no, seeded (20260629); fixed pre-run; never by model success
+dev_samples:
+  - artifacts/benchmark-calibration/samples/hotpot-dev-100.json   # full_coverage_subset_ids reserved for evidence/bridge proxy
+  - artifacts/benchmark-calibration/samples/hotpot-smoke-25.json
+
+retriever: bm25
+top_k: 5            # recall plateaus at 5 (0.875), precision better than k=8; see retrieval-budget
+chunker: sentence-aware
+chunk_size: 256
+chunk_overlap: 0
+
+extractor:
+  selected: sentence-claim (deterministic)   # real extractor failed structured-output smoke
+  real_candidate: { model: Qwen/Qwen2.5-0.5B-Instruct, status: BLOCKED }
+  prompt_version: extraction_v1
+  max_claims_per_passage: 5
+
+nli:
+  model: roberta-large-mnli
+  revision: "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+  entailment_threshold: 0.4
+  contradiction_threshold: 0.7
+  duplicate_threshold: 0.8
+  label_mapping_version: "1"
+  contradiction_gate: structural; version 1.0.0
+  note: NOT wired into the variant runner yet (runner uses LexicalPairClassifier) -> GPU prerequisite
+
+duplicate_policy: distinct-source corroboration only
+bridges: { enabled: true, min_confidence: 0.5, max_degree: TBD-on-GPU, generic_entity_filter: on }
+propagation: { enabled: true }
+conflict_resolver: conflict-set
+selector:
+  selected: greedy-connected
+  WARNING: >
+    On the deterministic CPU pipeline (lexical edges) greedy-connected HALVES
+    multi-hop evidence recall (0.875 -> 0.375) because the lexical graph is nearly
+    edgeless. With real NLI (more edges) this is expected to recover; that is the
+    central GPU hypothesis. If real NLI does not restore recall, switch to
+    top-claim selection. Recorded honestly, not yet resolved.
+evidence_token_budget: 256
+reserved_output_tokens: 16
+
+generator:
+  selected_for_real_run: PENDING (no usable structured generator on this host)
+  fake_generator_for_deterministic_pilots: FakeTextGenerator
+  decoding: { deterministic: true, temperature: 0.0, top_p: 1.0, seed: 0, max_new_tokens: 64 }
+
+seeds: [0]
+metric_definitions:
+  answer: EM, token-F1, joint answer/support (needs real generator -> deferred)
+  evidence: supporting-fact precision/recall/F1, citation recall (proxy, full-coverage subset)
+cache_schema_versions: { keys: content+model+revision+prompt+thresholds+schema }
+status: dev-frozen (structural); answer-side metrics + real-NLI selection await GPU

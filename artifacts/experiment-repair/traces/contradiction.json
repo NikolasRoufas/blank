@@ -1,0 +1,86 @@
+{
+  "mechanism": "contradiction",
+  "query": "Did the merger close on time?",
+  "passages": [
+    {
+      "source_id": "s4",
+      "text": "The merger closed on schedule in June."
+    },
+    {
+      "source_id": "s5",
+      "text": "Reports indicate the merger was delayed past June."
+    }
+  ],
+  "claims": [
+    {
+      "id": "clm-c79cae55",
+      "source": "s4",
+      "text": "The merger closed on schedule in June.",
+      "named_entities": [
+        "The"
+      ],
+      "negation": false,
+      "temporal_expressions": [],
+      "observed_at": "None"
+    },
+    {
+      "id": "clm-8ad91274",
+      "source": "s5",
+      "text": "Reports indicate the merger was delayed past June.",
+      "named_entities": [
+        "Reports"
+      ],
+      "negation": false,
+      "temporal_expressions": [],
+      "observed_at": "None"
+    }
+  ],
+  "candidate_stats": {
+    "num_claims": 2,
+    "possible_pairs": 1,
+    "generated_pairs": 1,
+    "pruned_pairs": 0,
+    "budget_truncated": 0
+  },
+  "candidate_pairs": [
+    {
+      "source": "clm-8ad91274",
+      "target": "clm-c79cae55",
+      "reasons": [
+        "lexical_overlap"
+      ],
+      "scores": {
+        "entailment": 0.25,
+        "contradiction": 0.0,
+        "neutral": 0.75
+      },
+      "thresholds": {
+        "entailment": 0.5,
+        "contradiction": 0.5
+      },
+      "decision": "neutral/no-edge"
+    },
+    {
+      "source": "clm-c79cae55",
+      "target": "clm-8ad91274",
+      "reasons": [
+        "lexical_overlap"
+      ],
+      "scores": {
+        "entailment": 0.25,
+        "contradiction": 0.0,
+        "neutral": 0.75
+      },
+      "thresholds": {
+        "entailment": 0.5,
+        "contradiction": 0.5
+      },
+      "decision": "neutral/no-edge"
+    }
+  ],
+  "final_graph": {
+    "nodes": 2,
+    "edges": 0
+  },
+  "gold_expectation": "contradiction"
+}

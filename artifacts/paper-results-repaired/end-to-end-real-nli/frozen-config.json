@@ -1,0 +1,9 @@
+{
+  "contradiction_threshold": 0.7,
+  "device": "cpu",
+  "duplicate_threshold": 0.8,
+  "entailment_threshold": 0.4,
+  "model": "roberta-large-mnli",
+  "revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98",
+  "selected_on": "development partition (even index per category)"
+}

@@ -1,0 +1,83 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "backend": "transformers.pipeline(text-generation), no chat template",
+  "device": "cpu",
+  "torch": "2.12.1",
+  "transformers": "5.12.1",
+  "decoding": {
+    "deterministic": true,
+    "temperature": 0.0,
+    "seed": 0,
+    "max_new_tokens": 64
+  },
+  "context_limit": 4096,
+  "evidence_budget": 256,
+  "prompt_renderer": "PlainTextEvidenceRenderer",
+  "n_cases": 6,
+  "valid_structured_output": 0,
+  "valid_structured_output_rate": 0.0,
+  "malformed_output": 6,
+  "gen_latency_ms_median": 1621,
+  "determinism": {
+    "case": "direct",
+    "raw1": " {\"answer\": \"Polish\", \"citations\": [], \"uncertainty\": \"\"}, where \"Polish\" is the answer.",
+    "identical_raw": true
+  },
+  "total_seconds_incl_load": 14.2,
+  "cases": [
+    {
+      "parse_ok": false,
+      "error": "GenerationError: malformed structured output: Extra data: line 1 column 57 (char 56)",
+      "answer": null,
+      "name": "direct",
+      "variant": "claim_only_rag",
+      "latency_ms": 5622,
+      "raw_output": " {\"answer\": \"Polish\", \"citations\": [], \"uncertainty\": \"\"}, where \"Polish\" is the answer."
+    },
+    {
+      "parse_ok": false,
+      "error": "GenerationError: malformed structured output: Extra data: line 1 column 56 (char 55)",
+      "answer": null,
+      "name": "two_hop",
+      "variant": "full_egrag",
+      "latency_ms": 1216,
+      "raw_output": " {\"answer\": \"Paris\", \"citations\": [], \"uncertainty\": \"\"}, {\"answer\": \"Paris\", \"citations\": [], \"uncertainty\": \"\"}"
+    },
+    {
+      "parse_ok": false,
+      "error": "GenerationError: malformed structured output: Extra data: line 1 column 54 (char 53)",
+      "answer": null,
+      "name": "yes_no",
+      "variant": "full_egrag",
+      "latency_ms": 1928,
+      "raw_output": " {\"answer\": \"yes\", \"citations\": [], \"uncertainty\": \"\"}, where \"yes\" if we can conclude that \"Scott Derrickson and Ed Wood both American\" from the information provided in the untrusted data, and \"no\" if we cannot conclude that \"Scott Derrickson and Ed Wood both American"
+    },
+    {
+      "parse_ok": false,
+      "error": "GenerationError: malformed structured output: Extra data: line 1 column 54 (char 53)",
+      "answer": null,
+      "name": "fever_supports",
+      "variant": "claim_only_rag",
+      "latency_ms": 1621,
+      "raw_output": " {\"answer\": \"Yes\", \"citations\": [], \"uncertainty\": \"\"}, {\"answer\": \"No\", \"citations\": [\"clm-3e51897c32e77f0d\"], \"uncertainty\": \"High\"}"
+    },
+    {
+      "parse_ok": false,
+      "error": "GenerationError: malformed structured output: Extra data: line 1 column 54 (char 53)",
+      "answer": null,
+      "name": "fever_refutes",
+      "variant": "full_egrag",
+      "latency_ms": 1510,
+      "raw_output": " {\"answer\": \"Yes\", \"citations\": [], \"uncertainty\": \"\"}, {\"answer\": \"No\", \"citations\": [\"clm-f1ceb354fe9b9dee\"], \"uncertainty\": \"High\"}"
+    },
+    {
+      "parse_ok": false,
+      "error": "GenerationError: malformed structured output: expected a JSON object",
+      "answer": null,
+      "name": "insufficient",
+      "variant": "claim_only_rag",
+      "latency_ms": 532,
+      "raw_output": " [{\"answer\":\"2013\",\"uncertainty\":\"Accepted evidence\"},{}]"
+    }
+  ]
+}

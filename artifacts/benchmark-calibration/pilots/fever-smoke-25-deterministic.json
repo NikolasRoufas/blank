@@ -1,0 +1,234 @@
+{
+  "budget_256": {
+    "passage_rag": {
+      "n_scored": 16,
+      "citation_precision": 1.0,
+      "citation_recall": 0.969,
+      "evidence_precision": 1.0,
+      "evidence_recall": 0.969,
+      "avg_graph_nodes": 0,
+      "avg_graph_edges": 0,
+      "avg_selected": 1,
+      "median_latency_ms": 0.1
+    },
+    "reranked_passage_rag": {
+      "n_scored": 16,
+      "citation_precision": 1.0,
+      "citation_recall": 0.969,
+      "evidence_precision": 1.0,
+      "evidence_recall": 0.969,
+      "avg_graph_nodes": 0,
+      "avg_graph_edges": 0,
+      "avg_selected": 1,
+      "median_latency_ms": 0.1
+    },
+    "claim_only_rag": {
+      "n_scored": 16,
+      "citation_precision": 1.0,
+      "citation_recall": 0.969,
+      "evidence_precision": 1.0,
+      "evidence_recall": 0.969,
+      "avg_graph_nodes": 0,
+      "avg_graph_edges": 0,
+      "avg_selected": 1.8,
+      "median_latency_ms": 0.2
+    },
+    "graph_no_propagation": {
+      "n_scored": 16,
+      "citation_precision": 1.0,
+      "citation_recall": 0.969,
+      "evidence_precision": 1.0,
+      "evidence_recall": 0.969,
+      "avg_graph_nodes": 1.8,
+      "avg_graph_edges": 0,
+      "avg_selected": 1,
+      "median_latency_ms": 0.2
+    },
+    "graph_with_propagation": {
+      "n_scored": 16,
+      "citation_precision": 1.0,
+      "citation_recall": 0.969,
+      "evidence_precision": 1.0,
+      "evidence_recall": 0.969,
+      "avg_graph_nodes": 1.8,
+      "avg_graph_edges": 0,
+      "avg_selected": 1,
+      "median_latency_ms": 0.3
+    },
+    "graph_top_claim": {
+      "n_scored": 16,
+      "citation_precision": 1.0,
+      "citation_recall": 0.969,
+      "evidence_precision": 1.0,
+      "evidence_recall": 0.969,
+      "avg_graph_nodes": 1.8,
+      "avg_graph_edges": 0,
+      "avg_selected": 1.8,
+      "median_latency_ms": 0.3
+    },
+    "graph_coherent_subgraph": {
+      "n_scored": 16,
+      "citation_precision": 1.0,
+      "citation_recall": 0.969,
+      "evidence_precision": 1.0,
+      "evidence_recall": 0.969,
+      "avg_graph_nodes": 1.8,
+      "avg_graph_edges": 0,
+      "avg_selected": 1,
+      "median_latency_ms": 0.2
+    },
+    "graph_no_temporal": {
+      "n_scored": 16,
+      "citation_precision": 1.0,
+      "citation_recall": 0.969,
+      "evidence_precision": 1.0,
+      "evidence_recall": 0.969,
+      "avg_graph_nodes": 1.8,
+      "avg_graph_edges": 0,
+      "avg_selected": 1,
+      "median_latency_ms": 0.2
+    },
+    "graph_no_contradiction": {
+      "n_scored": 16,
+      "citation_precision": 1.0,
+      "citation_recall": 0.969,
+      "evidence_precision": 1.0,
+      "evidence_recall": 0.969,
+      "avg_graph_nodes": 1.8,
+      "avg_graph_edges": 0,
+      "avg_selected": 1,
+      "median_latency_ms": 0.2
+    },
+    "full_egrag": {
+      "n_scored": 16,
+      "citation_precision": 1.0,
+      "citation_recall": 0.969,
+      "evidence_precision": 1.0,
+      "evidence_recall": 0.969,
+      "avg_graph_nodes": 1.8,
+      "avg_graph_edges": 0,
+      "avg_selected": 1,
+      "median_latency_ms": 0.2
+    }
+  },
+  "budget_512": {
+    "passage_rag": {
+      "n_scored": 16,
+      "citation_precision": 1.0,
+      "citation_recall": 0.969,
+      "evidence_precision": 1.0,
+      "evidence_recall": 0.969,
+      "avg_graph_nodes": 0,
+      "avg_graph_edges": 0,
+      "avg_selected": 1,
+      "median_latency_ms": 0.1
+    },
+    "reranked_passage_rag": {
+      "n_scored": 16,
+      "citation_precision": 1.0,
+      "citation_recall": 0.969,
+      "evidence_precision": 1.0,
+      "evidence_recall": 0.969,
+      "avg_graph_nodes": 0,
+      "avg_graph_edges": 0,
+      "avg_selected": 1,
+      "median_latency_ms": 0.1
+    },
+    "claim_only_rag": {
+      "n_scored": 16,
+      "citation_precision": 1.0,
+      "citation_recall": 0.969,
+      "evidence_precision": 1.0,
+      "evidence_recall": 0.969,
+      "avg_graph_nodes": 0,
+      "avg_graph_edges": 0,
+      "avg_selected": 1.8,
+      "median_latency_ms": 0.1
+    },
+    "graph_no_propagation": {
+      "n_scored": 16,
+      "citation_precision": 1.0,
+      "citation_recall": 0.969,
+      "evidence_precision": 1.0,
+      "evidence_recall": 0.969,
+      "avg_graph_nodes": 1.8,
+      "avg_graph_edges": 0,
+      "avg_selected": 1,
+      "median_latency_ms": 0.2
+    },
+    "graph_with_propagation": {
+      "n_scored": 16,
+      "citation_precision": 1.0,
+      "citation_recall": 0.969,
+      "evidence_precision": 1.0,
+      "evidence_recall": 0.969,
+      "avg_graph_nodes": 1.8,
+      "avg_graph_edges": 0,
+      "avg_selected": 1,
+      "median_latency_ms": 0.2
+    },
+    "graph_top_claim": {
+      "n_scored": 16,
+      "citation_precision": 1.0,
+      "citation_recall": 0.969,
+      "evidence_precision": 1.0,
+      "evidence_recall": 0.969,
+      "avg_graph_nodes": 1.8,
+      "avg_graph_edges": 0,
+      "avg_selected": 1.8,
+      "median_latency_ms": 0.2
+    },
+    "graph_coherent_subgraph": {
+      "n_scored": 16,
+      "citation_precision": 1.0,
+      "citation_recall": 0.969,
+      "evidence_precision": 1.0,
+      "evidence_recall": 0.969,
+      "avg_graph_nodes": 1.8,
+      "avg_graph_edges": 0,
+      "avg_selected": 1,
+      "median_latency_ms": 0.2
+    },
+    "graph_no_temporal": {
+      "n_scored": 16,
+      "citation_precision": 1.0,
+      "citation_recall": 0.969,
+      "evidence_precision": 1.0,
+      "evidence_recall": 0.969,
+      "avg_graph_nodes": 1.8,
+      "avg_graph_edges": 0,
+      "avg_selected": 1,
+      "median_latency_ms": 0.2
+    },
+    "graph_no_contradiction": {
+      "n_scored": 16,
+      "citation_precision": 1.0,
+      "citation_recall": 0.969,
+      "evidence_precision": 1.0,
+      "evidence_recall": 0.969,
+      "avg_graph_nodes": 1.8,
+      "avg_graph_edges": 0,
+      "avg_selected": 1,
+      "median_latency_ms": 0.2
+    },
+    "full_egrag": {
+      "n_scored": 16,
+      "citation_precision": 1.0,
+      "citation_recall": 0.969,
+      "evidence_precision": 1.0,
+      "evidence_recall": 0.969,
+      "avg_graph_nodes": 1.8,
+      "avg_graph_edges": 0,
+      "avg_selected": 1,
+      "median_latency_ms": 0.2
+    }
+  },
+  "meta": {
+    "sample": "fever-smoke-25",
+    "n_examples_total": 25,
+    "n_with_gold_pages": 16,
+    "generator": "FakeTextGenerator (deterministic; valid structured output)",
+    "note": "FEVER gold-evidence setting: documents ARE the gold sentences (no distractors). NEI examples have no gold pages and are excluded from evidence metrics. This measures evidence selection + graph structure, NOT answer/label accuracy (which needs a usable real generator).",
+    "wall_seconds": 0.1
+  }
+}

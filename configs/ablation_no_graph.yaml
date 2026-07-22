@@ -1,0 +1,18 @@
+# Ablation: claims extracted but no evidence graph (no relations/conflicts).
+experiments:
+  name: ablation_no_graph
+  tags: ["ablation"]
+  ablation: no_graph
+
+graph_construction:
+  enabled: false
+
+propagation:
+  enabled: false
+
+subgraph_selection:
+  strategy: top_claims
+
+generation:
+  adapter: fake
+  deterministic: true

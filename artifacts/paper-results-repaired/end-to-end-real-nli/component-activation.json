@@ -1,0 +1,8 @@
+{
+  "support_edges": 40,
+  "contradiction_edges": 135,
+  "supersession_edges": 22,
+  "duplicate_edges": 88,
+  "conflict_sets": 110,
+  "propagation_iterations": 2050
+}

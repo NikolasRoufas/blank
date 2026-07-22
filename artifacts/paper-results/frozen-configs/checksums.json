@@ -1,0 +1,15 @@
+{
+  "budget_128.json": "c80b0f8943c9f5e87e67a758056ee4f7a5c375164e12e31e6ba66d8ee803d34d",
+  "budget_256.json": "975b3ef208142370a62a0e97afc54202168defc89a7923a066c8bc43efaf64f7",
+  "budget_512.json": "c5e888e26c9d1bd9acf9494ee778f72dc9426924ffb817f5e47c63eab5b3a662",
+  "checksums.json": "c862674da878c2cabaa671dfce41f5e77c966decf996537a46aeaf2fe8ab18b0",
+  "configs/ablation_claim_only.yaml": "7ee3a9143d89ce0cc12ad04b2c09aa660e35e54dd19709fa81f1a97d39a8ed88",
+  "configs/ablation_no_graph.yaml": "34b77fda7b2ecfab4d98ce1161d7e36cfac4c3277bc02a238492e24d32111a77",
+  "configs/ablation_no_propagation.yaml": "549a21b1a348b592442fa095d41e26e9abae96135854a23c5e70f7ab6a7b4ba3",
+  "configs/ablation_passage_rag.yaml": "d286a7e916ffcc539f51a9a397bb69c5adb7a994de58edc542bb1975580aa4b9",
+  "configs/ablation_top_claims.yaml": "027ffa7f44ef1794bd6da71d99a95e5d38043aca10bb3bb7d63204490f6e4cd8",
+  "configs/baseline.yaml": "c0cb9febcbd45eef3825a698914b416aebf8c8fa7b7df8eef2bf7b8c887e9eb8",
+  "configs/cpu_demo.yaml": "f01242bd01dd5d22c115dabf9c7c2b4d361626c942baed95e17c1d330faf7ce6",
+  "main_synthetic_graph.json": "039fa65a4a0e33bd1f8fdf2033e282020519ee31632944cebf1a9f6b16eae655",
+  "main_temporal_conflict.json": "39615b7747704846ff4d17c080927e9c114eb1d8648466dcc543abe8642b442f"
+}

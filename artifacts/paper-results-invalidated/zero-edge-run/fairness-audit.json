@@ -1,0 +1,65 @@
+{
+  "datasets": {
+    "synthetic_graph": {
+      "example_ids": [
+        "syn-1",
+        "syn-2"
+      ],
+      "fairness_issues": [],
+      "same_example_ids_across_variants": true
+    },
+    "temporal_conflict": {
+      "example_ids": [
+        "tmp-1"
+      ],
+      "fairness_issues": [],
+      "same_example_ids_across_variants": true
+    }
+  },
+  "fair": true,
+  "gold_leakage": "none (run_system has no gold parameters)",
+  "intended_isolations": {
+    "claim_only_rag": [
+      "claim_extraction"
+    ],
+    "full_egrag": [],
+    "graph_coherent_subgraph": [
+      "selection"
+    ],
+    "graph_no_contradiction": [
+      "contradiction_edges"
+    ],
+    "graph_no_propagation": [
+      "propagation"
+    ],
+    "graph_no_temporal": [
+      "temporal_edges"
+    ],
+    "graph_top_claim": [
+      "selection"
+    ],
+    "graph_with_propagation": [
+      "propagation"
+    ],
+    "passage_rag": [
+      "retrieval_only"
+    ],
+    "reranked_passage_rag": [
+      "reranking"
+    ]
+  },
+  "shared_settings": {
+    "decoding": "deterministic",
+    "evidence_token_budget": 256,
+    "generator": "fake",
+    "metric_definitions": "single shared implementation (egrag.experiments.metrics)",
+    "reserved_output_tokens": 64,
+    "seeds": [
+      42,
+      123,
+      2026
+    ],
+    "top_k": 3
+  },
+  "unfair_overrides_detected": []
+}

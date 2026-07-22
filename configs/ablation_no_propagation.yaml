@@ -1,0 +1,15 @@
+# Ablation: full graph but no belief propagation (initial beliefs only).
+experiments:
+  name: ablation_no_propagation
+  tags: ["ablation"]
+  ablation: no_propagation
+
+graph_construction:
+  enabled: true
+
+propagation:
+  enabled: false
+
+generation:
+  adapter: fake
+  deterministic: true

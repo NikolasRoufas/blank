@@ -1,0 +1,20 @@
+{
+  "source": "robustness-results.csv",
+  "x": "evidence_token_budget",
+  "y": [
+    "token_f1",
+    "citation_recall",
+    "evidence_recall"
+  ],
+  "systems": [
+    "passage_rag",
+    "claim_only_rag",
+    "full_egrag"
+  ],
+  "rendering": "not rendered (matplotlib not installed; no network to install)",
+  "outputs_expected": [
+    "quality_vs_budget.pdf",
+    "quality_vs_budget.png"
+  ],
+  "generation_command": "python artifacts/paper-results/figures/quality_vs_budget.py"
+}

@@ -1,0 +1,8 @@
+mode,category,support_edge_recall,contradiction_edge_recall,supersession_recall,candidate_pair_recall,conflict_set_recall,conflict_resolution_accuracy,unresolved_conflict_accuracy,required_hop_coverage,selected_subgraph_connectivity,duplicate_cluster_accuracy
+oracle,contradiction,,1.0,,1.0,1.0,,1.0,,1.0,
+oracle,duplicate,1.0,,,1.0,,,,,1.0,1.0
+oracle,multi_hop,1.0,,,1.0,,,,1.0,1.0,
+oracle,preferred_conflict,1.0,1.0,,1.0,1.0,1.0,,,1.0,
+oracle,support,1.0,,,1.0,,,,1.0,1.0,
+oracle,temporal,,,1.0,1.0,,,,,1.0,
+oracle,unresolved_conflict,,1.0,,1.0,1.0,,1.0,,1.0,

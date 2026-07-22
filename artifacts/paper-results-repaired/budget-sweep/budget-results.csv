@@ -1,0 +1,4 @@
+evidence_token_budget,n,mean_required_hop_coverage,mean_selected_claims
+128,22,1.0,2.0
+256,22,1.0,2.0
+512,22,1.0,2.0

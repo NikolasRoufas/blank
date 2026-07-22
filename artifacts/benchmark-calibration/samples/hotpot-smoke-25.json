@@ -1,0 +1,389 @@
+{
+  "benchmark": "hotpotqa",
+  "split": "validation (development)",
+  "name": "hotpot-smoke-25",
+  "size": 25,
+  "seed": 20260629,
+  "dataset_fingerprint_sha256": "d126f3e43c3bfea9cc969179f62fcbb6032031786f5dbc15b4e3ac21bf5e1d2c",
+  "selection": "deterministic stratified by type(bridge~55%/comparison~25%)+yes/no~20%; seeded; NEVER by model success",
+  "type_distribution": {
+    "bridge": 14,
+    "comparison": 11
+  },
+  "yes_no": 7,
+  "gold_coverage_distribution": {
+    "full": 8,
+    "partial": 11,
+    "none": 6
+  },
+  "context_length_buckets": {
+    "mid": 15,
+    "short": 2,
+    "long": 8
+  },
+  "full_coverage_subset_ids": [
+    "5a79395455429970f5fffe7d",
+    "5add23e45542992ae4cec4a1",
+    "5a8f08c2554299458435d530",
+    "5a8e4d9855429917b4a5bd8d",
+    "5ab85c8d55429934fafe6d84",
+    "5ae377415542992e3233c40a",
+    "5ac07a17554299294b219000",
+    "5ade15a45542997545bbbe46"
+  ],
+  "full_coverage_subset_note": "Use ONLY this subset for supporting-fact/evidence/bridge-connectivity PROXY metrics; headline answer EM/F1 use all ids.",
+  "example_ids": [
+    "5a79395455429970f5fffe7d",
+    "5ac24cea55429951e9e6853a",
+    "5ae00a27554299025d62a3bb",
+    "5add23e45542992ae4cec4a1",
+    "5a8f08c2554299458435d530",
+    "5a77b13655429967ab105235",
+    "5a8e4d9855429917b4a5bd8d",
+    "5a7912f655429974737f796c",
+    "5a881d2355429938390d3eeb",
+    "5ae690b055429908198fa622",
+    "5ab85c8d55429934fafe6d84",
+    "5ac270e05542992f1f2b38c9",
+    "5a7b43735542992d025e67cb",
+    "5ac5101455429924173fb592",
+    "5ac31456554299741d48a1b4",
+    "5a8a1aea5542992e4fca8508",
+    "5abbdb335542992ccd8e7fc1",
+    "5ae377415542992e3233c40a",
+    "5ac07a17554299294b219000",
+    "5a74bdce55429929fddd84e1",
+    "5ae5390355429960a22e0271",
+    "5ade15a45542997545bbbe46",
+    "5ac3b4e0554299741d48a2ec",
+    "5ab7484c5542992aa3b8c80d",
+    "5a82800855429966c78a6a2f"
+  ],
+  "examples": [
+    {
+      "example_id": "5a79395455429970f5fffe7d",
+      "type": "bridge",
+      "answer": "Maxwell Smart",
+      "yes_no": false,
+      "gold_pages": [
+        "Get Smart, Again!",
+        "Barbara Feldon"
+      ],
+      "gold_coverage": "full",
+      "num_documents": 40,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5ac24cea55429951e9e6853a",
+      "type": "bridge",
+      "answer": "Kate Millett",
+      "yes_no": false,
+      "gold_pages": [
+        "Midge Mackenzie",
+        "Kate Millett"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 44,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5ae00a27554299025d62a3bb",
+      "type": "bridge",
+      "answer": "Chengdu Aircraft Corporation",
+      "yes_no": false,
+      "gold_pages": [
+        "Chengdu J-7",
+        "CAC/PAC JF-17 Thunder"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 34,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5add23e45542992ae4cec4a1",
+      "type": "bridge",
+      "answer": "Art Bell",
+      "yes_no": false,
+      "gold_pages": [
+        "The Coming Global Superstorm",
+        "Art Bell"
+      ],
+      "gold_coverage": "full",
+      "num_documents": 35,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5a8f08c2554299458435d530",
+      "type": "bridge",
+      "answer": "Peter Kay's Car Share",
+      "yes_no": false,
+      "gold_pages": [
+        "Sian Gibson",
+        "Peter Kay's Car Share"
+      ],
+      "gold_coverage": "full",
+      "num_documents": 35,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5a77b13655429967ab105235",
+      "type": "bridge",
+      "answer": "Norman Borlaug",
+      "yes_no": false,
+      "gold_pages": [
+        "Green Revolution in India",
+        "Norman Borlaug"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 41,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5a8e4d9855429917b4a5bd8d",
+      "type": "bridge",
+      "answer": "Tom Rob",
+      "yes_no": false,
+      "gold_pages": [
+        "Worldview Entertainment",
+        "Child 44 (film)"
+      ],
+      "gold_coverage": "full",
+      "num_documents": 29,
+      "ctx_bucket": "short"
+    },
+    {
+      "example_id": "5a7912f655429974737f796c",
+      "type": "bridge",
+      "answer": "January 30, 1930",
+      "yes_no": false,
+      "gold_pages": [
+        "Superman IV: The Quest for Peace",
+        "Gene Hackman"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 45,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5a881d2355429938390d3eeb",
+      "type": "bridge",
+      "answer": "Love and Theft",
+      "yes_no": false,
+      "gold_pages": [
+        "If You Ever Get Lonely",
+        "Love and Theft (duo)"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 52,
+      "ctx_bucket": "long"
+    },
+    {
+      "example_id": "5ae690b055429908198fa622",
+      "type": "bridge",
+      "answer": "Ellesmere Port",
+      "yes_no": false,
+      "gold_pages": [
+        "Jamell Anderson",
+        "Cheshire Phoenix"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 45,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5ab85c8d55429934fafe6d84",
+      "type": "bridge",
+      "answer": "Austria Wien",
+      "yes_no": false,
+      "gold_pages": [
+        "Raphael Holzhauser",
+        "FK Austria Wien"
+      ],
+      "gold_coverage": "full",
+      "num_documents": 37,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5ac270e05542992f1f2b38c9",
+      "type": "bridge",
+      "answer": "High Knob",
+      "yes_no": false,
+      "gold_pages": [
+        "Elk Valley, Tennessee",
+        "Cumberland Mountains"
+      ],
+      "gold_coverage": "none",
+      "num_documents": 60,
+      "ctx_bucket": "long"
+    },
+    {
+      "example_id": "5a7b43735542992d025e67cb",
+      "type": "bridge",
+      "answer": "video game",
+      "yes_no": false,
+      "gold_pages": [
+        "Ratatouille (video game)",
+        "PlayStation 3"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 54,
+      "ctx_bucket": "long"
+    },
+    {
+      "example_id": "5ac5101455429924173fb592",
+      "type": "bridge",
+      "answer": "Every Rose Has Its Thorn",
+      "yes_no": false,
+      "gold_pages": [
+        "The Apprentice (U.S. season 9)",
+        "Bret Michaels"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 50,
+      "ctx_bucket": "long"
+    },
+    {
+      "example_id": "5ac31456554299741d48a1b4",
+      "type": "comparison",
+      "answer": "Lawson",
+      "yes_no": false,
+      "gold_pages": [
+        "Lawson (band)",
+        "American Music Club"
+      ],
+      "gold_coverage": "none",
+      "num_documents": 51,
+      "ctx_bucket": "long"
+    },
+    {
+      "example_id": "5a8a1aea5542992e4fca8508",
+      "type": "comparison",
+      "answer": "yes",
+      "yes_no": true,
+      "gold_pages": [
+        "Myles Kennedy",
+        "SafetySuit"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 37,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5abbdb335542992ccd8e7fc1",
+      "type": "comparison",
+      "answer": "no",
+      "yes_no": true,
+      "gold_pages": [
+        "NRG Energy",
+        "Raymond James Financial"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 52,
+      "ctx_bucket": "long"
+    },
+    {
+      "example_id": "5ae377415542992e3233c40a",
+      "type": "comparison",
+      "answer": "Pearl Zane Grey",
+      "yes_no": false,
+      "gold_pages": [
+        "Zane Grey",
+        "Bhabananda Deka"
+      ],
+      "gold_coverage": "full",
+      "num_documents": 44,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5ac07a17554299294b219000",
+      "type": "comparison",
+      "answer": "public use airport",
+      "yes_no": false,
+      "gold_pages": [
+        "Jos\u00e9 Aponte de la Torre Airport",
+        "Boulder City Municipal Airport"
+      ],
+      "gold_coverage": "full",
+      "num_documents": 39,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5a74bdce55429929fddd84e1",
+      "type": "comparison",
+      "answer": "Vladimir Igorevich Arnold",
+      "yes_no": false,
+      "gold_pages": [
+        "Georg Cantor",
+        "Vladimir Arnold"
+      ],
+      "gold_coverage": "none",
+      "num_documents": 30,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5ae5390355429960a22e0271",
+      "type": "comparison",
+      "answer": "no",
+      "yes_no": true,
+      "gold_pages": [
+        "Xinxiang",
+        "Qionglai City"
+      ],
+      "gold_coverage": "partial",
+      "num_documents": 25,
+      "ctx_bucket": "short"
+    },
+    {
+      "example_id": "5ade15a45542997545bbbe46",
+      "type": "comparison",
+      "answer": "yes",
+      "yes_no": true,
+      "gold_pages": [
+        "Upper Crust Pizzeria",
+        "Eatza Pizza"
+      ],
+      "gold_coverage": "full",
+      "num_documents": 54,
+      "ctx_bucket": "long"
+    },
+    {
+      "example_id": "5ac3b4e0554299741d48a2ec",
+      "type": "comparison",
+      "answer": "yes",
+      "yes_no": true,
+      "gold_pages": [
+        "The Datsuns",
+        "The Black Crowes"
+      ],
+      "gold_coverage": "none",
+      "num_documents": 34,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5ab7484c5542992aa3b8c80d",
+      "type": "comparison",
+      "answer": "no",
+      "yes_no": true,
+      "gold_pages": [
+        "James Schuyler",
+        "A. E. Housman"
+      ],
+      "gold_coverage": "none",
+      "num_documents": 36,
+      "ctx_bucket": "mid"
+    },
+    {
+      "example_id": "5a82800855429966c78a6a2f",
+      "type": "comparison",
+      "answer": "no",
+      "yes_no": true,
+      "gold_pages": [
+        "Loot (2008 film)",
+        "Air Force, Incorporated"
+      ],
+      "gold_coverage": "none",
+      "num_documents": 64,
+      "ctx_bucket": "long"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "checks": [
+    {
+      "check": "no-duplicate-ids:synthetic_graph",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "same-example-ids:synthetic_graph",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "no-duplicate-ids:temporal_conflict",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "same-example-ids:temporal_conflict",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "all-seeds-deterministic",
+      "ok": true,
+      "detail": "{}"
+    }
+  ],
+  "ok": true
+}

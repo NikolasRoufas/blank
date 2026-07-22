@@ -1,0 +1,22 @@
+{
+  "synthetic_graph|claim_only_rag": true,
+  "synthetic_graph|full_egrag": true,
+  "synthetic_graph|graph_coherent_subgraph": true,
+  "synthetic_graph|graph_no_contradiction": true,
+  "synthetic_graph|graph_no_propagation": true,
+  "synthetic_graph|graph_no_temporal": true,
+  "synthetic_graph|graph_top_claim": true,
+  "synthetic_graph|graph_with_propagation": true,
+  "synthetic_graph|passage_rag": true,
+  "synthetic_graph|reranked_passage_rag": true,
+  "temporal_conflict|claim_only_rag": true,
+  "temporal_conflict|full_egrag": true,
+  "temporal_conflict|graph_coherent_subgraph": true,
+  "temporal_conflict|graph_no_contradiction": true,
+  "temporal_conflict|graph_no_propagation": true,
+  "temporal_conflict|graph_no_temporal": true,
+  "temporal_conflict|graph_top_claim": true,
+  "temporal_conflict|graph_with_propagation": true,
+  "temporal_conflict|passage_rag": true,
+  "temporal_conflict|reranked_passage_rag": true
+}

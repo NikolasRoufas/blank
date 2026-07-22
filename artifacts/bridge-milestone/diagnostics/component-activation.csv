@@ -1,0 +1,7 @@
+variant,support_edges,contradiction_edges,supersession_edges,duplicate_edges,bridge_edges,conflict_sets,prop_iters,required_hop_coverage,connected_rate
+full_egrag,172,66,22,22,30,66,2018,1.0,1.0
+graph_no_bridge,172,66,22,22,0,66,2018,0.0,1.0
+graph_no_propagation,172,66,22,22,30,66,0,1.0,1.0
+graph_no_contradiction,172,0,22,22,30,0,1275,1.0,1.0
+graph_no_temporal,172,66,0,22,30,66,2018,1.0,1.0
+graph_top_claim,172,66,22,22,30,66,2018,1.0,0.6436

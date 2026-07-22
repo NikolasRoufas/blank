@@ -1,0 +1,6 @@
+variant,examples,support_edges,contradiction_edges,supersession_edges,duplicate_edges,conflict_sets,propagation_iterations
+full_egrag,154,40,135,22,88,110,2050
+graph_no_contradiction,154,40,0,22,88,0,400
+graph_no_propagation,154,40,135,22,88,110,0
+graph_top_claim,154,40,135,22,88,110,2050
+graph_no_temporal,154,40,157,0,88,110,2269

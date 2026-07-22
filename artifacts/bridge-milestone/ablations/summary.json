@@ -1,0 +1,80 @@
+{
+  "full_egrag": {
+    "edges": {
+      "support_edges": 172,
+      "contradiction_edges": 66,
+      "supersession_edges": 22,
+      "duplicate_edges": 22,
+      "bridge_edges": 30
+    },
+    "conflict_sets": 66,
+    "propagation_iterations": 2018,
+    "multi_hop_required_hop_coverage": 1.0,
+    "connected_rate": 1.0
+  },
+  "graph_no_bridge": {
+    "edges": {
+      "support_edges": 172,
+      "contradiction_edges": 66,
+      "supersession_edges": 22,
+      "duplicate_edges": 22,
+      "bridge_edges": 0
+    },
+    "conflict_sets": 66,
+    "propagation_iterations": 2018,
+    "multi_hop_required_hop_coverage": 0.0,
+    "connected_rate": 1.0
+  },
+  "graph_no_propagation": {
+    "edges": {
+      "support_edges": 172,
+      "contradiction_edges": 66,
+      "supersession_edges": 22,
+      "duplicate_edges": 22,
+      "bridge_edges": 30
+    },
+    "conflict_sets": 66,
+    "propagation_iterations": 0,
+    "multi_hop_required_hop_coverage": 1.0,
+    "connected_rate": 1.0
+  },
+  "graph_no_contradiction": {
+    "edges": {
+      "support_edges": 172,
+      "contradiction_edges": 0,
+      "supersession_edges": 22,
+      "duplicate_edges": 22,
+      "bridge_edges": 30
+    },
+    "conflict_sets": 0,
+    "propagation_iterations": 1275,
+    "multi_hop_required_hop_coverage": 1.0,
+    "connected_rate": 1.0
+  },
+  "graph_no_temporal": {
+    "edges": {
+      "support_edges": 172,
+      "contradiction_edges": 66,
+      "supersession_edges": 0,
+      "duplicate_edges": 22,
+      "bridge_edges": 30
+    },
+    "conflict_sets": 66,
+    "propagation_iterations": 2018,
+    "multi_hop_required_hop_coverage": 1.0,
+    "connected_rate": 1.0
+  },
+  "graph_top_claim": {
+    "edges": {
+      "support_edges": 172,
+      "contradiction_edges": 66,
+      "supersession_edges": 22,
+      "duplicate_edges": 22,
+      "bridge_edges": 30
+    },
+    "conflict_sets": 66,
+    "propagation_iterations": 2018,
+    "multi_hop_required_hop_coverage": 1.0,
+    "connected_rate": 0.6436
+  }
+}

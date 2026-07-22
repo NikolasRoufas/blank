@@ -1,0 +1,23 @@
+{
+  "dev_examples": 77,
+  "device": "cpu",
+  "examples": 154,
+  "frozen_thresholds": {
+    "contradiction_threshold": 0.7,
+    "device": "cpu",
+    "duplicate_threshold": 0.8,
+    "entailment_threshold": 0.4,
+    "model": "roberta-large-mnli",
+    "revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98",
+    "selected_on": "development partition (even index per category)"
+  },
+  "label_mapping_valid": true,
+  "model": "roberta-large-mnli",
+  "offline": true,
+  "reproduction": "HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1 PYTHONPATH=src .venv/bin/python scripts/run_real_nli_eval.py",
+  "revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98",
+  "runtime_seconds_full_eval": 7.7,
+  "test_examples": 77,
+  "torch": "2.12.1",
+  "transformers": "5.12.1"
+}

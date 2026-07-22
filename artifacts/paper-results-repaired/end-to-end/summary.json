@@ -1,0 +1,14 @@
+{
+  "contradiction": {
+    "examples": 22,
+    "expected_edge_type": "contradiction_edges",
+    "pct_with_expected_edge": 1.0,
+    "pct_with_any_edge": 1.0
+  },
+  "support": {
+    "examples": 22,
+    "expected_edge_type": "support_edges",
+    "pct_with_expected_edge": 0.0,
+    "pct_with_any_edge": 1.0
+  }
+}

@@ -1,0 +1,12 @@
+# Ablation: full pipeline but top-claims selection (no connected-subgraph shaping).
+experiments:
+  name: ablation_top_claims
+  tags: ["ablation"]
+  ablation: top_claims
+
+subgraph_selection:
+  strategy: top_claims
+
+generation:
+  adapter: fake
+  deterministic: true

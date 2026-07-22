@@ -1,0 +1,7 @@
+{
+  "belief_invariant_full_vs_no_bridge": true,
+  "bridge_induced_belief_delta": 0.0,
+  "bridge_induced_conflict_count": 0,
+  "multi_hop_hop_coverage_full": 1.0,
+  "multi_hop_hop_coverage_no_bridge": 0.0
+}

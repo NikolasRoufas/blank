@@ -1,0 +1,11 @@
+{
+  "_note": "SHA-256 over frozen YAML bytes; after freezing do not change settings based on test results.",
+  "fever.yaml": {
+    "bytes": 2780,
+    "sha256": "8cd04f73b50ce621dcbc1e6708c45244803e17c27d061f1da41efd553ccff2c3"
+  },
+  "hotpotqa.yaml": {
+    "bytes": 3300,
+    "sha256": "60dca418fb3b966e4360374ec7a195cf92b043089ae5aabce9fcee11193e161b"
+  }
+}

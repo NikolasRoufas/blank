@@ -1,0 +1,58 @@
+{
+  "models": {
+    "extractor": "Qwen/Qwen2.5-0.5B-Instruct",
+    "nli": "roberta-large-mnli",
+    "generator": "Qwen/Qwen2.5-0.5B-Instruct"
+  },
+  "n": 3,
+  "completed": 3,
+  "cases": [
+    {
+      "id": "e1",
+      "ok": true,
+      "answer": "France",
+      "citations": [
+        "clm-94686fa2f8ec0dbf"
+      ],
+      "abstained": false,
+      "graph_nodes": 1,
+      "latency_ms": 20136
+    },
+    {
+      "id": "e2",
+      "ok": true,
+      "answer": "France",
+      "citations": [
+        "clm-587902f3b8067210"
+      ],
+      "abstained": false,
+      "graph_nodes": 1,
+      "latency_ms": 18838
+    },
+    {
+      "id": "e3",
+      "ok": true,
+      "answer": "Yes",
+      "citations": [
+        "clm-587902f3b8067210"
+      ],
+      "abstained": false,
+      "graph_nodes": 1,
+      "latency_ms": 19344
+    }
+  ],
+  "cold_cache_metrics": {
+    "hits": 0,
+    "misses": 9,
+    "writes": 9
+  },
+  "warm_cache_metrics": {
+    "hits": 9,
+    "misses": 9,
+    "writes": 9
+  },
+  "warm_run_seconds": 0.0,
+  "cold_warm_answers_equal": true,
+  "warm_added_hits": 9,
+  "warm_added_writes": 0
+}

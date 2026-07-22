@@ -1,0 +1,14 @@
+{
+  "dataset_fingerprint": "e05e4163d00b5ad4fa2f10f6f1077f85363e9ee349561dacf75868238f0083b0",
+  "egrag_version": "0.1.0",
+  "environment": {
+    "implementation": "CPython",
+    "platform": "macOS-15.5-arm64-arm-64bit",
+    "python": "3.12.13"
+  },
+  "git_commit": null,
+  "schema_version": "1.5.0",
+  "seeds": [
+    42
+  ]
+}

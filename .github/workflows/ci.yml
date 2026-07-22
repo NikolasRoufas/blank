@@ -1,0 +1,97 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  quality:
+    name: Lint, type-check, test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+      - name: Install Python 3.12
+        run: uv python install 3.12
+      - name: Sync (core + dev)
+        run: uv sync
+      - name: Ruff format check
+        run: uv run ruff format --check .
+      - name: Ruff lint
+        run: uv run ruff check .
+      - name: mypy
+        run: uv run mypy src
+      - name: Core unit tests
+        run: uv run pytest -m "unit"
+      - name: Fake-component integration tests
+        run: uv run pytest -m "integration or e2e"
+      - name: Full test suite
+        run: uv run pytest
+
+  optional-imports:
+    name: Optional dependency import checks (no downloads)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+      - name: Install Python 3.12
+        run: uv python install 3.12
+      - name: Sync with all feature extras
+        run: uv sync --extra all
+      - name: Import optional adapters without loading or downloading models
+        run: |
+          uv run python -c "import egrag.adapters.retrieval.dense, egrag.adapters.reranking.cross_encoder"
+          uv run python -c "import egrag.generation.adapters; import egrag.adapters.graph.networkx_export"
+          uv run python -c "import egrag.adapters.extraction.huggingface"
+
+  build:
+    name: Build package
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+      - name: Build sdist and wheel
+        run: uv build
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: dist/*
+
+  core-only-install:
+    name: Core-only install (no optional extras)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+      - name: Install Python 3.12
+        run: uv python install 3.12
+      - name: Build wheel
+        run: uv build --wheel
+      - name: Install wheel into a clean venv (core only)
+        run: |
+          uv venv --python 3.12 .venv-core
+          uv pip install --python .venv-core dist/*.whl
+      - name: Import without optional dependencies
+        run: |
+          .venv-core/bin/python -c "import egrag; print('egrag', egrag.__version__)"
+      - name: Run the fake-pipeline tests against the core-only install
+        run: |
+          .venv-core/bin/python -m pip install pytest
+          .venv-core/bin/python -m pytest tests/integration/test_full_pipeline_generation.py -q
+      - name: CLI smoke tests (offline, core only)
+        run: |
+          .venv-core/bin/egrag doctor
+          .venv-core/bin/egrag run --query "smoke test"
+          .venv-core/bin/egrag run --query "smoke test" --config configs/cpu_demo.yaml

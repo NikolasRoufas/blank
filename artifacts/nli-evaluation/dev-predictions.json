@@ -1,0 +1,142 @@
+{
+  "chosen": {
+    "entailment_threshold": 0.4,
+    "contradiction_threshold": 0.7,
+    "macro_f1": 0.4564,
+    "support_precision": 1.0,
+    "contradiction_precision": 0.4681,
+    "meets_precision_floor": false
+  },
+  "curve": [
+    {
+      "entailment_threshold": 0.4,
+      "contradiction_threshold": 0.4,
+      "macro_f1": 0.4355,
+      "support_precision": 1.0,
+      "contradiction_precision": 0.4258,
+      "meets_precision_floor": false
+    },
+    {
+      "entailment_threshold": 0.4,
+      "contradiction_threshold": 0.5,
+      "macro_f1": 0.4384,
+      "support_precision": 1.0,
+      "contradiction_precision": 0.4314,
+      "meets_precision_floor": false
+    },
+    {
+      "entailment_threshold": 0.4,
+      "contradiction_threshold": 0.6,
+      "macro_f1": 0.4421,
+      "support_precision": 1.0,
+      "contradiction_precision": 0.443,
+      "meets_precision_floor": false
+    },
+    {
+      "entailment_threshold": 0.4,
+      "contradiction_threshold": 0.7,
+      "macro_f1": 0.4564,
+      "support_precision": 1.0,
+      "contradiction_precision": 0.4681,
+      "meets_precision_floor": false
+    },
+    {
+      "entailment_threshold": 0.5,
+      "contradiction_threshold": 0.4,
+      "macro_f1": 0.362,
+      "support_precision": 1.0,
+      "contradiction_precision": 0.4258,
+      "meets_precision_floor": false
+    },
+    {
+      "entailment_threshold": 0.5,
+      "contradiction_threshold": 0.5,
+      "macro_f1": 0.3649,
+      "support_precision": 1.0,
+      "contradiction_precision": 0.4314,
+      "meets_precision_floor": false
+    },
+    {
+      "entailment_threshold": 0.5,
+      "contradiction_threshold": 0.6,
+      "macro_f1": 0.3687,
+      "support_precision": 1.0,
+      "contradiction_precision": 0.443,
+      "meets_precision_floor": false
+    },
+    {
+      "entailment_threshold": 0.5,
+      "contradiction_threshold": 0.7,
+      "macro_f1": 0.3829,
+      "support_precision": 1.0,
+      "contradiction_precision": 0.4681,
+      "meets_precision_floor": false
+    },
+    {
+      "entailment_threshold": 0.6,
+      "contradiction_threshold": 0.4,
+      "macro_f1": 0.362,
+      "support_precision": 1.0,
+      "contradiction_precision": 0.4258,
+      "meets_precision_floor": false
+    },
+    {
+      "entailment_threshold": 0.6,
+      "contradiction_threshold": 0.5,
+      "macro_f1": 0.3649,
+      "support_precision": 1.0,
+      "contradiction_precision": 0.4314,
+      "meets_precision_floor": false
+    },
+    {
+      "entailment_threshold": 0.6,
+      "contradiction_threshold": 0.6,
+      "macro_f1": 0.3687,
+      "support_precision": 1.0,
+      "contradiction_precision": 0.443,
+      "meets_precision_floor": false
+    },
+    {
+      "entailment_threshold": 0.6,
+      "contradiction_threshold": 0.7,
+      "macro_f1": 0.3829,
+      "support_precision": 1.0,
+      "contradiction_precision": 0.4681,
+      "meets_precision_floor": false
+    },
+    {
+      "entailment_threshold": 0.7,
+      "contradiction_threshold": 0.4,
+      "macro_f1": 0.362,
+      "support_precision": 1.0,
+      "contradiction_precision": 0.4258,
+      "meets_precision_floor": false
+    },
+    {
+      "entailment_threshold": 0.7,
+      "contradiction_threshold": 0.5,
+      "macro_f1": 0.3649,
+      "support_precision": 1.0,
+      "contradiction_precision": 0.4314,
+      "meets_precision_floor": false
+    },
+    {
+      "entailment_threshold": 0.7,
+      "contradiction_threshold": 0.6,
+      "macro_f1": 0.3687,
+      "support_precision": 1.0,
+      "contradiction_precision": 0.443,
+      "meets_precision_floor": false
+    },
+    {
+      "entailment_threshold": 0.7,
+      "contradiction_threshold": 0.7,
+      "macro_f1": 0.3829,
+      "support_precision": 1.0,
+      "contradiction_precision": 0.4681,
+      "meets_precision_floor": false
+    }
+  ],
+  "n_dev_pairs": 308,
+  "criterion": "max macro-F1 over {supports,contradicts,neutral} subject to support/contradiction precision >= 0.8; duplicate_threshold fixed at 0.8"
+}

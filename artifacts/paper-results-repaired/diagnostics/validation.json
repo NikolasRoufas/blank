@@ -1,0 +1,15 @@
+{
+  "checks": [
+    {
+      "check": "oracle-aggregates-recompute-match",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "every-edge-required-example-has-edges",
+      "ok": true,
+      "detail": ""
+    }
+  ],
+  "ok": true
+}

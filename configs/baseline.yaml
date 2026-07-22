@@ -1,0 +1,78 @@
+# EG-RAG baseline configuration.
+# All sections shown explicitly; values equal the framework defaults.
+experiments:
+  name: baseline
+  tags: ["baseline"]
+
+corpus:
+  source: demo
+
+chunking:
+  strategy: sentence
+  chunk_size: 512
+  overlap: 64
+
+retrieval:
+  strategy: bm25
+  top_k: 4
+
+reranking:
+  enabled: false
+
+extraction:
+  method: sentence_baseline
+  prompt_version: extraction_v1
+
+graph_construction:
+  enabled: true
+
+candidate_generation:
+  strategy: pruned
+
+nli:
+  classifier: lexical
+
+temporal_reasoning:
+  enabled: true
+
+source_reliability:
+  strategy: metadata
+
+propagation:
+  enabled: true
+  on_nonconvergence: raise
+
+conflict_resolution:
+  margin: 0.1
+
+subgraph_selection:
+  strategy: greedy_connected
+
+serialization:
+  renderer: plain
+  round_scores: true
+
+generation:
+  adapter: fake
+  deterministic: true
+  evidence_token_budget: 512
+  reserved_output_tokens: 128
+  context_limit: 8192
+
+grounding_verification:
+  enabled: true
+
+caching:
+  enabled: false
+
+logging:
+  level: INFO
+  log_documents: false
+
+security:
+  allow_remote_model_code: false
+
+reproducibility:
+  seed: 0
+  deterministic: true
+  write_manifest: true

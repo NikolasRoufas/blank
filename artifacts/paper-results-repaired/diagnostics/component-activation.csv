@@ -1,0 +1,6 @@
+variant,dataset,examples,support_edges,contradiction_edges,supersession_edges,duplicate_edges,propagation_iterations,conflict_sets,connected_selected,avg_selected_claims
+full_egrag,mechanism_suite,154,176,66,22,22,1997,66,154,2.143
+graph_no_propagation,mechanism_suite,154,176,66,22,22,0,66,154,2.143
+graph_no_temporal,mechanism_suite,154,176,66,0,22,1997,66,154,2.0
+graph_no_contradiction,mechanism_suite,154,176,0,22,22,1254,0,154,1.604
+graph_top_claim,mechanism_suite,154,176,66,22,22,1997,66,110,2.571

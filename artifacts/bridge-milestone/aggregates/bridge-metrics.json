@@ -1,0 +1,6 @@
+{
+  "bridge_precision": 1.0,
+  "bridge_recall": 1.0,
+  "n_examples_with_bridge_gold_or_pred": 30,
+  "total_accepted_bridges": 30
+}

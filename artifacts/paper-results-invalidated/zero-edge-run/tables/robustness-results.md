@@ -1,0 +1,11 @@
+| dataset | evidence_token_budget | system | n_examples | token_f1 | citation_recall | evidence_recall | num_selected | latency_ms |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| synthetic_graph | 128 | passage_rag | 2 | 0.0769 | 1.0 | 1.0 | 2.5 | 0.1133 |
+| synthetic_graph | 128 | claim_only_rag | 2 | 0.0769 | 1.0 | 1.0 | 2.5 | 0.1646 |
+| synthetic_graph | 128 | full_egrag | 2 | 0.0833 | 0.5 | 0.5 | 1.0 | 0.2782 |
+| synthetic_graph | 256 | passage_rag | 2 | 0.0769 | 1.0 | 1.0 | 2.5 | 0.1047 |
+| synthetic_graph | 256 | claim_only_rag | 2 | 0.0769 | 1.0 | 1.0 | 2.5 | 0.1954 |
+| synthetic_graph | 256 | full_egrag | 2 | 0.0833 | 0.5 | 0.5 | 1.0 | 0.3163 |
+| synthetic_graph | 512 | passage_rag | 2 | 0.0769 | 1.0 | 1.0 | 2.5 | 0.1231 |
+| synthetic_graph | 512 | claim_only_rag | 2 | 0.0769 | 1.0 | 1.0 | 2.5 | 0.1646 |
+| synthetic_graph | 512 | full_egrag | 2 | 0.0833 | 0.5 | 0.5 | 1.0 | 0.3161 |

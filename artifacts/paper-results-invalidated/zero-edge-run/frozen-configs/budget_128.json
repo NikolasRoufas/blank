@@ -1,0 +1,26 @@
+{
+  "bootstrap_samples": 10000,
+  "bootstrap_seed": 12345,
+  "chunk_overlap": 64,
+  "chunk_size": 512,
+  "dataset": "synthetic_graph",
+  "dataset_path": null,
+  "enforce_fairness": true,
+  "evidence_token_budget": 128,
+  "generator": "fake",
+  "limit": null,
+  "name": "budget_128",
+  "output_dir": "artifacts/paper-results/runs/budget/128",
+  "reserved_output_tokens": 64,
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "top_k": 3,
+  "variants": [
+    "passage_rag",
+    "claim_only_rag",
+    "full_egrag"
+  ]
+}

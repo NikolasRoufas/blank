@@ -1,0 +1,20 @@
+{
+  "checks": [
+    {
+      "check": "non_zero_semantic_relations",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "aggregates_recompute_match",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "no_contradiction_ablation_zero",
+      "ok": true,
+      "detail": ""
+    }
+  ],
+  "ok": true
+}

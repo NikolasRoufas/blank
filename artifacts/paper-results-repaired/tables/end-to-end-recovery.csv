@@ -1,0 +1,3 @@
+category,examples,expected_edge_type,pct_with_expected_edge,pct_with_any_edge
+contradiction,22,contradiction_edges,1.0,1.0
+support,22,support_edges,0.0,1.0

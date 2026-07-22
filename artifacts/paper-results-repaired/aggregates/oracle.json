@@ -1,0 +1,57 @@
+{
+  "contradiction": {
+    "candidate_pair_recall": 1.0,
+    "conflict_set_recall": 1.0,
+    "contradiction_edge_precision": 1.0,
+    "contradiction_edge_recall": 1.0,
+    "selected_subgraph_connectivity": 1.0,
+    "unresolved_conflict_accuracy": 1.0
+  },
+  "duplicate": {
+    "candidate_pair_recall": 1.0,
+    "duplicate_cluster_accuracy": 1.0,
+    "selected_subgraph_connectivity": 1.0,
+    "support_edge_precision": 1.0,
+    "support_edge_recall": 1.0
+  },
+  "multi_hop": {
+    "candidate_pair_recall": 1.0,
+    "required_claim_recall": 1.0,
+    "required_hop_coverage": 1.0,
+    "selected_subgraph_connectivity": 1.0,
+    "support_edge_precision": 1.0,
+    "support_edge_recall": 1.0
+  },
+  "preferred_conflict": {
+    "candidate_pair_recall": 1.0,
+    "conflict_resolution_accuracy": 1.0,
+    "conflict_set_recall": 1.0,
+    "contradiction_edge_precision": 1.0,
+    "contradiction_edge_recall": 1.0,
+    "selected_subgraph_connectivity": 1.0,
+    "support_edge_precision": 1.0,
+    "support_edge_recall": 1.0
+  },
+  "support": {
+    "candidate_pair_recall": 1.0,
+    "required_claim_recall": 1.0,
+    "required_hop_coverage": 1.0,
+    "selected_subgraph_connectivity": 1.0,
+    "support_edge_precision": 1.0,
+    "support_edge_recall": 1.0
+  },
+  "temporal": {
+    "candidate_pair_recall": 1.0,
+    "selected_subgraph_connectivity": 1.0,
+    "supersession_precision": 1.0,
+    "supersession_recall": 1.0
+  },
+  "unresolved_conflict": {
+    "candidate_pair_recall": 1.0,
+    "conflict_set_recall": 1.0,
+    "contradiction_edge_precision": 1.0,
+    "contradiction_edge_recall": 1.0,
+    "selected_subgraph_connectivity": 1.0,
+    "unresolved_conflict_accuracy": 1.0
+  }
+}

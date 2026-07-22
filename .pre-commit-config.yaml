@@ -1,0 +1,18 @@
+# Pre-commit hooks mirror the CI quality gates so issues are caught locally.
+# Run `uv run pre-commit install` after `uv sync` (pre-commit is optional).
+repos:
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.6.9
+    hooks:
+      - id: ruff-format
+        args: [--check]
+      - id: ruff
+        args: [--no-fix]
+  - repo: local
+    hooks:
+      - id: mypy
+        name: mypy
+        entry: uv run mypy src
+        language: system
+        pass_filenames: false
+        types: [python]

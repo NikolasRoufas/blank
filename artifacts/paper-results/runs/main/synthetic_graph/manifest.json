@@ -1,0 +1,220 @@
+{
+  "dataset": "synthetic_graph",
+  "dataset_fingerprint": "e05e4163d00b5ad4fa2f10f6f1077f85363e9ee349561dacf75868238f0083b0",
+  "egrag_version": "0.1.0",
+  "ended_at": "2026-06-24T02:05:17.531018Z",
+  "environment": {
+    "implementation": "CPython",
+    "platform": "macOS-15.5-arm64-arm-64bit",
+    "python": "3.12.13"
+  },
+  "evidence_token_budget": 256,
+  "experiment_name": "main_synthetic_graph",
+  "fairness_enforced": true,
+  "generator": "fake",
+  "git_commit": null,
+  "num_examples": 2,
+  "reserved_output_tokens": 64,
+  "resolved_config": {
+    "bootstrap_samples": 10000,
+    "bootstrap_seed": 12345,
+    "chunk_overlap": 64,
+    "chunk_size": 512,
+    "dataset": "synthetic_graph",
+    "dataset_path": null,
+    "enforce_fairness": true,
+    "evidence_token_budget": 256,
+    "generator": "fake",
+    "limit": null,
+    "name": "main_synthetic_graph",
+    "output_dir": "artifacts/paper-results/runs/main/synthetic_graph",
+    "reserved_output_tokens": 64,
+    "seeds": [
+      42,
+      123,
+      2026
+    ],
+    "top_k": 3,
+    "variants": [
+      "passage_rag",
+      "reranked_passage_rag",
+      "claim_only_rag",
+      "graph_no_propagation",
+      "graph_top_claim",
+      "graph_coherent_subgraph",
+      "graph_no_temporal",
+      "graph_no_contradiction",
+      "graph_with_propagation",
+      "full_egrag"
+    ]
+  },
+  "schema_version": "1.5.0",
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "started_at": "2026-06-24T02:05:17.509018Z",
+  "top_k": 3,
+  "variants": [
+    {
+      "contradiction": true,
+      "description": "Passage-level RAG.",
+      "evidence_budget_override": null,
+      "family": "passage",
+      "generator_override": null,
+      "isolates": [
+        "retrieval_only"
+      ],
+      "name": "passage_rag",
+      "propagation": true,
+      "rerank": false,
+      "selection": "greedy",
+      "temporal": true,
+      "top_k_override": null
+    },
+    {
+      "contradiction": true,
+      "description": "Passage RAG with score reranking.",
+      "evidence_budget_override": null,
+      "family": "passage",
+      "generator_override": null,
+      "isolates": [
+        "reranking"
+      ],
+      "name": "reranked_passage_rag",
+      "propagation": true,
+      "rerank": true,
+      "selection": "greedy",
+      "temporal": true,
+      "top_k_override": null
+    },
+    {
+      "contradiction": true,
+      "description": "Claim-level RAG without a graph.",
+      "evidence_budget_override": null,
+      "family": "claim",
+      "generator_override": null,
+      "isolates": [
+        "claim_extraction"
+      ],
+      "name": "claim_only_rag",
+      "propagation": true,
+      "rerank": false,
+      "selection": "greedy",
+      "temporal": true,
+      "top_k_override": null
+    },
+    {
+      "contradiction": true,
+      "description": "Graph built, beliefs not propagated.",
+      "evidence_budget_override": null,
+      "family": "graph",
+      "generator_override": null,
+      "isolates": [
+        "propagation"
+      ],
+      "name": "graph_no_propagation",
+      "propagation": false,
+      "rerank": false,
+      "selection": "greedy",
+      "temporal": true,
+      "top_k_override": null
+    },
+    {
+      "contradiction": true,
+      "description": "Graph with top-claim selection.",
+      "evidence_budget_override": null,
+      "family": "graph",
+      "generator_override": null,
+      "isolates": [
+        "selection"
+      ],
+      "name": "graph_top_claim",
+      "propagation": true,
+      "rerank": false,
+      "selection": "top",
+      "temporal": true,
+      "top_k_override": null
+    },
+    {
+      "contradiction": true,
+      "description": "Graph with coherent-subgraph selection.",
+      "evidence_budget_override": null,
+      "family": "graph",
+      "generator_override": null,
+      "isolates": [
+        "selection"
+      ],
+      "name": "graph_coherent_subgraph",
+      "propagation": true,
+      "rerank": false,
+      "selection": "greedy",
+      "temporal": true,
+      "top_k_override": null
+    },
+    {
+      "contradiction": true,
+      "description": "Graph without temporal supersession edges.",
+      "evidence_budget_override": null,
+      "family": "graph",
+      "generator_override": null,
+      "isolates": [
+        "temporal_edges"
+      ],
+      "name": "graph_no_temporal",
+      "propagation": true,
+      "rerank": false,
+      "selection": "greedy",
+      "temporal": false,
+      "top_k_override": null
+    },
+    {
+      "contradiction": false,
+      "description": "Graph without contradiction edges.",
+      "evidence_budget_override": null,
+      "family": "graph",
+      "generator_override": null,
+      "isolates": [
+        "contradiction_edges"
+      ],
+      "name": "graph_no_contradiction",
+      "propagation": true,
+      "rerank": false,
+      "selection": "greedy",
+      "temporal": true,
+      "top_k_override": null
+    },
+    {
+      "contradiction": true,
+      "description": "Graph with belief propagation.",
+      "evidence_budget_override": null,
+      "family": "graph",
+      "generator_override": null,
+      "isolates": [
+        "propagation"
+      ],
+      "name": "graph_with_propagation",
+      "propagation": true,
+      "rerank": false,
+      "selection": "greedy",
+      "temporal": true,
+      "top_k_override": null
+    },
+    {
+      "contradiction": true,
+      "description": "Full EG-RAG pipeline.",
+      "evidence_budget_override": null,
+      "family": "graph",
+      "generator_override": null,
+      "isolates": [],
+      "name": "full_egrag",
+      "propagation": true,
+      "rerank": false,
+      "selection": "greedy",
+      "temporal": true,
+      "top_k_override": null
+    }
+  ],
+  "warnings": []
+}

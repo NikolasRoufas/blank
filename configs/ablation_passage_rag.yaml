@@ -1,0 +1,20 @@
+# Ablation: passage-level RAG (skip claim extraction, graph, and reasoning).
+# The composition root interprets experiments.ablation to bypass those stages.
+experiments:
+  name: ablation_passage_rag
+  tags: ["ablation"]
+  ablation: passage_rag
+
+retrieval:
+  strategy: bm25
+  top_k: 4
+
+graph_construction:
+  enabled: false
+
+propagation:
+  enabled: false
+
+generation:
+  adapter: fake
+  deterministic: true

@@ -1,0 +1,40 @@
+{
+  "name": "fever-smoke-25",
+  "benchmark": "fever",
+  "split": "valid (development)",
+  "selection": "label-balanced, seed=20260629, sorted-stable; chosen before viewing any system output",
+  "size": 25,
+  "label_distribution": {
+    "SUPPORTS": 8,
+    "NOT ENOUGH INFO": 9,
+    "REFUTES": 8
+  },
+  "dataset_fingerprint_sha256": "978f5e8b26b20f13a21903db658fc9ee4d99c4752eae18b87c19e48069d2207f",
+  "example_ids": [
+    "06fe5e3bbac735be1aa72c19f2405175",
+    "07256d35b1f24e908ea40eaa1051ab2d",
+    "08b6d9389b72b23c9497915d31cfdc8f",
+    "0e63adacd54bf66672928d073fe2de8d",
+    "1e8cf5f6055220564f3918369565d9e4",
+    "1f3c6a8eb968fbf9eccc8e2d830ba666",
+    "2044dc8bb70c51c22751885c2b2c0c61",
+    "230b141df95ddc2978ba057f542ecffd",
+    "2585143648209a700eda64d55c3f6fd3",
+    "4e5269c64f6e5fdce98df72ceec53135",
+    "50d1e4cc5525229a43d3a017a94d3526",
+    "65f0490d120cbe2d9d5afa748e075c5d",
+    "7e8731b7effbd14bb8fd2a76c5259e9a",
+    "87b23ccb67781f8cc560c4e9fe6d250e",
+    "8ea0b47c54b7fb761d1419185f63b17d",
+    "94f2edc456bf58af45fcd767419bdc5c",
+    "952eaad0601ba125123f09a1686d805e",
+    "9abb8c47532abe484c5503cbbbb3c1cc",
+    "9f1a26d273fd5bd11f2a672ebf5fd687",
+    "a0ea6a0c8892e5157adedfbb3c7f5ad6",
+    "aa02315da678cb93003ecd3154c5157c",
+    "ad6bc41fe6ebf69a7f90097d86dcac55",
+    "e2a5693a77693ab1cc4557a57eefb5e8",
+    "ee8b5028eab3013d15629236621d9eca",
+    "fe942f89a3207b42e0c640aa24b76806"
+  ]
+}

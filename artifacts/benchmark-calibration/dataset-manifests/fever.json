@@ -1,0 +1,29 @@
+{
+  "benchmark": "fever",
+  "dataset": "copenlu/fever_gold_evidence",
+  "evidence_setting": "gold-evidence (evidence sentences bundled inline)",
+  "split": "valid (development)",
+  "source_file": "/Users/nikolasroufas/.cache/huggingface/hub/datasets--copenlu--fever_gold_evidence/snapshots/a6b8d891d393e97a4efac791afffb2d7de5e57c6/valid.jsonl",
+  "source_file_resolved": "/Users/nikolasroufas/.cache/huggingface/hub/datasets--copenlu--fever_gold_evidence/blobs/ae61c5b6cb11eafcc7d6c33069c68dd5c848f91f",
+  "snapshot_revision": "a6b8d891d393e97a4efac791afffb2d7de5e57c6",
+  "file_size_bytes": 6471611,
+  "sha256": "5da0ccc0ccf77f974611de13f8aac6f78c6bba6293912835099eb6029baa85d9",
+  "row_count": 15935,
+  "label_distribution": {
+    "REFUTES": 4887,
+    "SUPPORTS": 4638,
+    "NOT ENOUGH INFO": 6410
+  },
+  "dataset_fingerprint_sha256": "978f5e8b26b20f13a21903db658fc9ee4d99c4752eae18b87c19e48069d2207f",
+  "schema_version": "1.0.0",
+  "adapter_version": "1.0.0",
+  "examples_with_evidence": 15935,
+  "validation_issues": [],
+  "label_leakage_into_question": 0,
+  "splits_present": [
+    "train",
+    "valid",
+    "test"
+  ],
+  "test_split_used_for_tuning": false
+}

@@ -1,0 +1,29 @@
+{
+  "cpu": "Apple M3",
+  "cpu_cores": 8,
+  "evaluated_locally": true,
+  "framework_version": "0.1.0",
+  "gpu": "none (Apple Silicon integrated GPU; no CUDA; not used)",
+  "machine": "arm64",
+  "memory_bytes": 17179869184,
+  "memory_gib": 16.0,
+  "optional_dependencies_present": {
+    "httpx": false,
+    "matplotlib": false,
+    "networkx": false,
+    "numpy": false,
+    "pyyaml": false,
+    "rank_bm25": false,
+    "sentence_transformers": false,
+    "torch": false,
+    "transformers": false
+  },
+  "os": "macOS-15.5-arm64-arm-64bit",
+  "publicly_released": false,
+  "python_implementation": "CPython",
+  "python_version": "3.12.13",
+  "schema_version": "1.5.0",
+  "source_file_count": 144,
+  "source_fingerprint_sha256": "4e6c12fd16ee12e6593bf1978dc2b1ba8d9c9c1cde00768e74f4d0cf3fbabe52",
+  "version_control": "none (not a git repository)"
+}

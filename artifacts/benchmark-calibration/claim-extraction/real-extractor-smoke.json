@@ -1,0 +1,84 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "extractor": "StructuredClaimExtractor",
+  "prompt_version": "extraction_v1",
+  "backend": "transformers.pipeline(text-generation), no chat template",
+  "device": "cpu",
+  "torch": "2.12.1",
+  "transformers": "5.12.1",
+  "decoding": {
+    "deterministic": true,
+    "seed": 0,
+    "max_new_tokens": 256
+  },
+  "n_cases": 4,
+  "valid_json_output": 0,
+  "valid_json_output_rate": 0.0,
+  "cases_with_grounded_claims": 0,
+  "malformed_output": 4,
+  "total_seconds_incl_load": 99.9,
+  "cases": [
+    {
+      "parse_ok": false,
+      "error": "ExtractionError: model did not return valid JSON: Expecting value: line 1 column 1 (char 0)",
+      "n_claims": 0,
+      "claims": [],
+      "name": "direct",
+      "latency_ms": 18683,
+      "expectation": {
+        "keywords": [
+          "curie",
+          "polish",
+          "physicist"
+        ]
+      }
+    },
+    {
+      "parse_ok": false,
+      "error": "ExtractionError: model did not return valid JSON: Expecting value: line 1 column 1 (char 0)",
+      "n_claims": 0,
+      "claims": [],
+      "name": "multi_fact",
+      "latency_ms": 14637,
+      "expectation": {
+        "keywords": [
+          "eiffel",
+          "paris",
+          "france"
+        ],
+        "min_claims": 2
+      }
+    },
+    {
+      "parse_ok": false,
+      "error": "ExtractionError: model did not return valid JSON: Expecting value: line 1 column 1 (char 0)",
+      "n_claims": 0,
+      "claims": [],
+      "name": "negation",
+      "latency_ms": 23274,
+      "expectation": {
+        "keywords": [
+          "treaty",
+          "ratified"
+        ],
+        "negation": true
+      }
+    },
+    {
+      "parse_ok": false,
+      "error": "ExtractionError: model did not return valid JSON: Expecting value: line 1 column 1 (char 0)",
+      "n_claims": 0,
+      "claims": [],
+      "name": "temporal",
+      "latency_ms": 43305,
+      "expectation": {
+        "keywords": [
+          "google",
+          "deepmind",
+          "2014"
+        ],
+        "temporal": true
+      }
+    }
+  ]
+}

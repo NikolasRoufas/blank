@@ -1,0 +1,35 @@
+{
+  "benchmark": "hotpotqa",
+  "dataset": "hotpotqa/hotpot_qa",
+  "config": "fullwiki",
+  "split": "validation (development)",
+  "status": "LOADED: pyarrow 24.0.0 installed; live parquet load validated.",
+  "schema_version": "1.0.0",
+  "adapter_version": "1.0.0",
+  "source_file": "/Users/nikolasroufas/.cache/huggingface/hub/datasets--hotpotqa--hotpot_qa/snapshots/1908d6afbbead072334abe2965f91bd2709910ab/fullwiki/validation-00000-of-00001.parquet",
+  "snapshot_revision": "1908d6afbbead072334abe2965f91bd2709910ab",
+  "file_size_bytes": 28041820,
+  "sha256": "78933c0a31a5f7b420d4effdf4cd4eed573b28c6a3da6179dcf7a02b39e51d03",
+  "row_count": 7405,
+  "load_seconds": 5.63,
+  "dataset_fingerprint_sha256_prefix": "d126f3e43c3bfea9cc969179",
+  "duplicate_ids": 0,
+  "validate_benchmark_issues": 0,
+  "type_distribution": { "bridge": 5918, "comparison": 1487 },
+  "level_distribution": { "hard": 7405 },
+  "yes_no_answers": 458,
+  "avg_documents_per_example": 42.5,
+  "avg_gold_pages_per_example": 2.0,
+  "gold_evidence_coverage": {
+    "note": "CRITICAL VALIDITY CONSTRAINT. This is the fullwiki split: the per-example context is RETRIEVED paragraphs, so the gold supporting-fact paragraphs are not guaranteed to be present. Evidence/support recall against gold pages is therefore structurally bounded, and bridge required-chain connectivity can only be measured where the full gold chain is present.",
+    "all_gold_pages_present": 2089,
+    "all_gold_pages_present_pct": 28.2,
+    "partial_coverage": 4073,
+    "no_gold_page_present": 1243,
+    "by_type": {
+      "bridge": { "full": 1689, "partial": 3399, "none": 830 },
+      "comparison": { "full": 400, "partial": 674, "none": 413 }
+    },
+    "implication": "Headline answer EM/F1 use the full distribution. Supporting-fact precision/recall, joint score, citation recall, and bridge connectivity are PROXY metrics here and are reported on the full-coverage subset (clearly labelled) to avoid conflating retrieval miss with reasoning failure. The distractor split (gold paragraphs guaranteed present) is recommended for the final evidence-grounded matrix and is downloadable (network now available) but was not re-cached in this milestone."
+  }
+}

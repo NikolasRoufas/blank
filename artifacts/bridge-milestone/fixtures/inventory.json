@@ -1,0 +1,11 @@
+{
+  "contradiction": 22,
+  "directional_support": 20,
+  "duplicate": 22,
+  "hard_neutral": 20,
+  "multi_hop": 30,
+  "preferred_conflict": 22,
+  "support": 22,
+  "temporal": 22,
+  "unresolved_conflict": 22
+}

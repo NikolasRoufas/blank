@@ -1,0 +1,101 @@
+{
+  "dataset": "synthetic_graph",
+  "dataset_fingerprint": "e05e4163d00b5ad4fa2f10f6f1077f85363e9ee349561dacf75868238f0083b0",
+  "egrag_version": "0.1.0",
+  "ended_at": "2026-06-24T02:05:17.673855Z",
+  "environment": {
+    "implementation": "CPython",
+    "platform": "macOS-15.5-arm64-arm-64bit",
+    "python": "3.12.13"
+  },
+  "evidence_token_budget": 512,
+  "experiment_name": "budget_512",
+  "fairness_enforced": true,
+  "generator": "fake",
+  "git_commit": null,
+  "num_examples": 2,
+  "reserved_output_tokens": 64,
+  "resolved_config": {
+    "bootstrap_samples": 10000,
+    "bootstrap_seed": 12345,
+    "chunk_overlap": 64,
+    "chunk_size": 512,
+    "dataset": "synthetic_graph",
+    "dataset_path": null,
+    "enforce_fairness": true,
+    "evidence_token_budget": 512,
+    "generator": "fake",
+    "limit": null,
+    "name": "budget_512",
+    "output_dir": "artifacts/paper-results/runs/budget/512",
+    "reserved_output_tokens": 64,
+    "seeds": [
+      42,
+      123,
+      2026
+    ],
+    "top_k": 3,
+    "variants": [
+      "passage_rag",
+      "claim_only_rag",
+      "full_egrag"
+    ]
+  },
+  "schema_version": "1.5.0",
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "started_at": "2026-06-24T02:05:17.667831Z",
+  "top_k": 3,
+  "variants": [
+    {
+      "contradiction": true,
+      "description": "Passage-level RAG.",
+      "evidence_budget_override": null,
+      "family": "passage",
+      "generator_override": null,
+      "isolates": [
+        "retrieval_only"
+      ],
+      "name": "passage_rag",
+      "propagation": true,
+      "rerank": false,
+      "selection": "greedy",
+      "temporal": true,
+      "top_k_override": null
+    },
+    {
+      "contradiction": true,
+      "description": "Claim-level RAG without a graph.",
+      "evidence_budget_override": null,
+      "family": "claim",
+      "generator_override": null,
+      "isolates": [
+        "claim_extraction"
+      ],
+      "name": "claim_only_rag",
+      "propagation": true,
+      "rerank": false,
+      "selection": "greedy",
+      "temporal": true,
+      "top_k_override": null
+    },
+    {
+      "contradiction": true,
+      "description": "Full EG-RAG pipeline.",
+      "evidence_budget_override": null,
+      "family": "graph",
+      "generator_override": null,
+      "isolates": [],
+      "name": "full_egrag",
+      "propagation": true,
+      "rerank": false,
+      "selection": "greedy",
+      "temporal": true,
+      "top_k_override": null
+    }
+  ],
+  "warnings": []
+}

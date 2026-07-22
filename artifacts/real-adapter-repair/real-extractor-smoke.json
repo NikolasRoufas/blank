@@ -1,0 +1,45 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "device": "cpu",
+  "chat_template_applied": true,
+  "n": 4,
+  "valid_json": 4,
+  "valid_json_rate": 1.0,
+  "schema_valid": 4,
+  "grounded_cases": 0,
+  "recovery_used": 4,
+  "cases": [
+    {
+      "name": "direct",
+      "valid_json": true,
+      "recovered": true,
+      "n_claims": 0,
+      "claims": [],
+      "latency_ms": 9249
+    },
+    {
+      "name": "multi_fact",
+      "valid_json": true,
+      "recovered": true,
+      "n_claims": 0,
+      "claims": [],
+      "latency_ms": 4430
+    },
+    {
+      "name": "negation",
+      "valid_json": true,
+      "recovered": true,
+      "n_claims": 0,
+      "claims": [],
+      "latency_ms": 4542
+    },
+    {
+      "name": "temporal",
+      "valid_json": true,
+      "recovered": true,
+      "n_claims": 0,
+      "claims": [],
+      "latency_ms": 4673
+    }
+  ]
+}
