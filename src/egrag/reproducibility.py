@@ -11,6 +11,7 @@ never records secrets.
 from __future__ import annotations
 
 import hashlib
+import importlib.util
 import platform
 import subprocess
 import sys
@@ -42,13 +43,46 @@ def git_commit() -> str | None:
 
 
 def environment_info() -> dict[str, str]:
-    """Return non-secret environment details for the manifest."""
+    """Return non-secret environment details for the manifest.
 
-    return {
+    Always includes the Python/OS baseline. ``torch``/``transformers``/CUDA/GPU
+    fields are added when informative, but **never by importing those optional
+    packages** — doing so would break the deterministic/offline harness's
+    guarantee that a fake-generator run touches no model library (see
+    ``tests/integration/test_experiment_runner.py::test_uses_only_synthetic_and_no_optional_libs``).
+    Instead this only *inspects* ``sys.modules``: if something else in this
+    process already loaded ``torch`` (i.e. a real Hugging Face adapter actually
+    ran), its already-imported state is read for CUDA/GPU info; otherwise we
+    only record whether the package is installed (via ``find_spec``, which
+    resolves the module without executing it) versus actually used this run.
+    """
+
+    info = {
         "python": sys.version.split()[0],
         "implementation": platform.python_implementation(),
         "platform": platform.platform(),
     }
+    torch = sys.modules.get("torch")
+    info["torch_installed"] = str(importlib.util.find_spec("torch") is not None).lower()
+    info["torch_used_this_run"] = str(torch is not None).lower()
+    if torch is not None:
+        info["torch_version"] = torch.__version__
+        cuda_available = bool(torch.cuda.is_available())
+        info["cuda_available"] = str(cuda_available).lower()
+        if cuda_available:
+            info["cuda_runtime_version"] = str(getattr(torch.version, "cuda", "unavailable"))
+            info["gpu_name"] = torch.cuda.get_device_name(0)
+            info["gpu_count"] = str(torch.cuda.device_count())
+            props = torch.cuda.get_device_properties(0)
+            info["gpu_vram_total_gib"] = str(round(props.total_memory / (1024**3), 1))
+    transformers = sys.modules.get("transformers")
+    info["transformers_installed"] = str(
+        importlib.util.find_spec("transformers") is not None
+    ).lower()
+    info["transformers_used_this_run"] = str(transformers is not None).lower()
+    if transformers is not None:
+        info["transformers_version"] = transformers.__version__
+    return info
 
 
 def corpus_fingerprint(texts: Sequence[str]) -> str:

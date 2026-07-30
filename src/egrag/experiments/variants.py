@@ -73,11 +73,6 @@ class EvidenceExtractor(Protocol):
     ) -> list[AtomicClaim]: ...
 
 
-# A "contradiction off" graph uses an unreachable contradiction threshold so the
-# lexical classifier stores no contradiction edges.
-_NO_CONTRADICTION = ClassificationConfig(contradiction_threshold=1.0)
-
-
 @dataclass(frozen=True)
 class SystemOutput:
     """Non-persisted output of running one variant on one example."""
@@ -205,6 +200,10 @@ class RunComponents:
     cache: CacheBackend | None = None
     retriever_factory: Callable[[Sequence[Passage]], Retriever] | None = None
     chunker: SentenceAwareChunker | None = None
+    # Base NLI thresholds for graph variants; None uses ClassificationConfig()'s
+    # defaults. The graph_no_contradiction ablation still overrides
+    # contradiction_threshold=1.0 on top of this base, regardless.
+    classification_config: ClassificationConfig | None = None
 
 
 _DEFAULT_COMPONENTS = RunComponents()
@@ -227,6 +226,15 @@ def _extractor(components: RunComponents) -> EvidenceExtractor:
 
 def _classifier(components: RunComponents) -> PairClassifier:
     return components.classifier or LexicalPairClassifier()
+
+
+def _classification_config(
+    components: RunComponents, variant: SystemVariant
+) -> ClassificationConfig:
+    base = components.classification_config or ClassificationConfig()
+    if not variant.contradiction:
+        return base.model_copy(update={"contradiction_threshold": 1.0})
+    return base
 
 
 def _token_counter(components: RunComponents) -> TokenCounter:
@@ -441,7 +449,7 @@ def _run_graph(
         )
     builder = GraphBuilder(
         _classifier(components),
-        classification_config=None if variant.contradiction else _NO_CONTRADICTION,
+        classification_config=_classification_config(components, variant),
         temporal_config=TemporalConfig(enabled=variant.temporal),
     )
     graph = builder.build(claims, query=query).graph

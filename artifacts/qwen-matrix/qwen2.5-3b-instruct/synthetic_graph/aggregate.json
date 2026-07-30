@@ -1,0 +1,2226 @@
+{
+  "per_seed": [
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 0.0,
+        "citation_precision": 1.0,
+        "citation_recall": 0.5,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 2322.300635976717,
+        "normalized_exact_match": 0.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 0.0,
+        "num_passages": 2.0,
+        "num_selected": 2.0,
+        "token_estimate": 21.0,
+        "token_f1": 0.0,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 2,
+      "num_failed": 1,
+      "seed": 42,
+      "variant": "passage_rag",
+      "warnings": []
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 0.0,
+        "citation_precision": 1.0,
+        "citation_recall": 0.5,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 2305.4869619663805,
+        "normalized_exact_match": 0.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 0.0,
+        "num_passages": 2.0,
+        "num_selected": 2.0,
+        "token_estimate": 21.0,
+        "token_f1": 0.0,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 2,
+      "num_failed": 1,
+      "seed": 123,
+      "variant": "passage_rag",
+      "warnings": []
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 0.0,
+        "citation_precision": 1.0,
+        "citation_recall": 0.5,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 2348.838023026474,
+        "normalized_exact_match": 0.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 0.0,
+        "num_passages": 2.0,
+        "num_selected": 2.0,
+        "token_estimate": 21.0,
+        "token_f1": 0.0,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 2,
+      "num_failed": 1,
+      "seed": 2026,
+      "variant": "passage_rag",
+      "warnings": []
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 0.0,
+        "citation_precision": 1.0,
+        "citation_recall": 0.5,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 2346.046916092746,
+        "normalized_exact_match": 0.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 0.0,
+        "num_passages": 2.0,
+        "num_selected": 2.0,
+        "token_estimate": 21.0,
+        "token_f1": 0.0,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 2,
+      "num_failed": 1,
+      "seed": 42,
+      "variant": "reranked_passage_rag",
+      "warnings": []
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 0.0,
+        "citation_precision": 1.0,
+        "citation_recall": 0.5,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 2347.082518041134,
+        "normalized_exact_match": 0.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 0.0,
+        "num_passages": 2.0,
+        "num_selected": 2.0,
+        "token_estimate": 21.0,
+        "token_f1": 0.0,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 2,
+      "num_failed": 1,
+      "seed": 123,
+      "variant": "reranked_passage_rag",
+      "warnings": []
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 0.0,
+        "citation_precision": 1.0,
+        "citation_recall": 0.5,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 2217.6318540005013,
+        "normalized_exact_match": 0.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 0.0,
+        "num_passages": 2.0,
+        "num_selected": 2.0,
+        "token_estimate": 21.0,
+        "token_f1": 0.0,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 2,
+      "num_failed": 1,
+      "seed": 2026,
+      "variant": "reranked_passage_rag",
+      "warnings": []
+    },
+    {
+      "metric_kinds": {},
+      "metrics": {},
+      "num_examples": 2,
+      "num_failed": 2,
+      "seed": 42,
+      "variant": "claim_only_rag",
+      "warnings": []
+    },
+    {
+      "metric_kinds": {},
+      "metrics": {},
+      "num_examples": 2,
+      "num_failed": 2,
+      "seed": 123,
+      "variant": "claim_only_rag",
+      "warnings": []
+    },
+    {
+      "metric_kinds": {},
+      "metrics": {},
+      "num_examples": 2,
+      "num_failed": 2,
+      "seed": 2026,
+      "variant": "claim_only_rag",
+      "warnings": []
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 0.0,
+        "citation_precision": 1.0,
+        "citation_recall": 0.5,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 0.5,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1500.8686620276421,
+        "normalized_exact_match": 0.0,
+        "num_claims": 3.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 3.0,
+        "num_passages": 3.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 0.6,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 2,
+      "num_failed": 1,
+      "seed": 42,
+      "variant": "graph_no_propagation",
+      "warnings": [
+        "uncited claim-like sentence: 'The company announced record revenue growth in 2023.'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 0.0,
+        "citation_precision": 1.0,
+        "citation_recall": 0.5,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 0.5,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1494.8337250389159,
+        "normalized_exact_match": 0.0,
+        "num_claims": 3.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 3.0,
+        "num_passages": 3.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 0.6,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 2,
+      "num_failed": 1,
+      "seed": 123,
+      "variant": "graph_no_propagation",
+      "warnings": [
+        "uncited claim-like sentence: 'The company announced record revenue growth in 2023.'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 0.0,
+        "citation_precision": 1.0,
+        "citation_recall": 0.5,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 0.5,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1499.9353329185396,
+        "normalized_exact_match": 0.0,
+        "num_claims": 3.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 3.0,
+        "num_passages": 3.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 0.6,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 2,
+      "num_failed": 1,
+      "seed": 2026,
+      "variant": "graph_no_propagation",
+      "warnings": [
+        "uncited claim-like sentence: 'The company announced record revenue growth in 2023.'"
+      ]
+    },
+    {
+      "metric_kinds": {},
+      "metrics": {},
+      "num_examples": 2,
+      "num_failed": 2,
+      "seed": 42,
+      "variant": "graph_top_claim",
+      "warnings": []
+    },
+    {
+      "metric_kinds": {},
+      "metrics": {},
+      "num_examples": 2,
+      "num_failed": 2,
+      "seed": 123,
+      "variant": "graph_top_claim",
+      "warnings": []
+    },
+    {
+      "metric_kinds": {},
+      "metrics": {},
+      "num_examples": 2,
+      "num_failed": 2,
+      "seed": 2026,
+      "variant": "graph_top_claim",
+      "warnings": []
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 0.0,
+        "citation_precision": 1.0,
+        "citation_recall": 0.5,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 0.5,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1513.686730992049,
+        "normalized_exact_match": 0.0,
+        "num_claims": 3.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 3.0,
+        "num_passages": 3.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 0.6,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 2,
+      "num_failed": 1,
+      "seed": 42,
+      "variant": "graph_coherent_subgraph",
+      "warnings": [
+        "uncited claim-like sentence: 'The company announced record revenue growth in 2023.'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 0.0,
+        "citation_precision": 1.0,
+        "citation_recall": 0.5,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 0.5,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1500.1439800253138,
+        "normalized_exact_match": 0.0,
+        "num_claims": 3.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 3.0,
+        "num_passages": 3.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 0.6,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 2,
+      "num_failed": 1,
+      "seed": 123,
+      "variant": "graph_coherent_subgraph",
+      "warnings": [
+        "uncited claim-like sentence: 'The company announced record revenue growth in 2023.'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 0.0,
+        "citation_precision": 1.0,
+        "citation_recall": 0.5,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 0.5,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1518.8480430515483,
+        "normalized_exact_match": 0.0,
+        "num_claims": 3.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 3.0,
+        "num_passages": 3.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 0.6,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 2,
+      "num_failed": 1,
+      "seed": 2026,
+      "variant": "graph_coherent_subgraph",
+      "warnings": [
+        "uncited claim-like sentence: 'The company announced record revenue growth in 2023.'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 0.0,
+        "citation_precision": 1.0,
+        "citation_recall": 0.5,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 0.5,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1498.014482902363,
+        "normalized_exact_match": 0.0,
+        "num_claims": 3.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 3.0,
+        "num_passages": 3.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 0.6,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 2,
+      "num_failed": 1,
+      "seed": 42,
+      "variant": "graph_no_temporal",
+      "warnings": [
+        "uncited claim-like sentence: 'The company announced record revenue growth in 2023.'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 0.0,
+        "citation_precision": 1.0,
+        "citation_recall": 0.5,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 0.5,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1498.4755279729143,
+        "normalized_exact_match": 0.0,
+        "num_claims": 3.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 3.0,
+        "num_passages": 3.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 0.6,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 2,
+      "num_failed": 1,
+      "seed": 123,
+      "variant": "graph_no_temporal",
+      "warnings": [
+        "uncited claim-like sentence: 'The company announced record revenue growth in 2023.'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 0.0,
+        "citation_precision": 1.0,
+        "citation_recall": 0.5,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 0.5,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1498.787748045288,
+        "normalized_exact_match": 0.0,
+        "num_claims": 3.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 3.0,
+        "num_passages": 3.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 0.6,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 2,
+      "num_failed": 1,
+      "seed": 2026,
+      "variant": "graph_no_temporal",
+      "warnings": [
+        "uncited claim-like sentence: 'The company announced record revenue growth in 2023.'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 0.0,
+        "citation_precision": 1.0,
+        "citation_recall": 0.5,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 0.5,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1501.4095300575718,
+        "normalized_exact_match": 0.0,
+        "num_claims": 3.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 3.0,
+        "num_passages": 3.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 0.6,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 2,
+      "num_failed": 1,
+      "seed": 42,
+      "variant": "graph_no_contradiction",
+      "warnings": [
+        "uncited claim-like sentence: 'The company announced record revenue growth in 2023.'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 0.0,
+        "citation_precision": 1.0,
+        "citation_recall": 0.5,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 0.5,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1509.7499389667064,
+        "normalized_exact_match": 0.0,
+        "num_claims": 3.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 3.0,
+        "num_passages": 3.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 0.6,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 2,
+      "num_failed": 1,
+      "seed": 123,
+      "variant": "graph_no_contradiction",
+      "warnings": [
+        "uncited claim-like sentence: 'The company announced record revenue growth in 2023.'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 0.0,
+        "citation_precision": 1.0,
+        "citation_recall": 0.5,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 0.5,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1512.8087539924309,
+        "normalized_exact_match": 0.0,
+        "num_claims": 3.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 3.0,
+        "num_passages": 3.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 0.6,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 2,
+      "num_failed": 1,
+      "seed": 2026,
+      "variant": "graph_no_contradiction",
+      "warnings": [
+        "uncited claim-like sentence: 'The company announced record revenue growth in 2023.'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 0.0,
+        "citation_precision": 1.0,
+        "citation_recall": 0.5,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 0.5,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1497.9366610059515,
+        "normalized_exact_match": 0.0,
+        "num_claims": 3.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 3.0,
+        "num_passages": 3.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 0.6,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 2,
+      "num_failed": 1,
+      "seed": 42,
+      "variant": "graph_with_propagation",
+      "warnings": [
+        "uncited claim-like sentence: 'The company announced record revenue growth in 2023.'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 0.0,
+        "citation_precision": 1.0,
+        "citation_recall": 0.5,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 0.5,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1509.0262970188633,
+        "normalized_exact_match": 0.0,
+        "num_claims": 3.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 3.0,
+        "num_passages": 3.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 0.6,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 2,
+      "num_failed": 1,
+      "seed": 123,
+      "variant": "graph_with_propagation",
+      "warnings": [
+        "uncited claim-like sentence: 'The company announced record revenue growth in 2023.'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 0.0,
+        "citation_precision": 1.0,
+        "citation_recall": 0.5,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 0.5,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1502.2763159358874,
+        "normalized_exact_match": 0.0,
+        "num_claims": 3.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 3.0,
+        "num_passages": 3.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 0.6,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 2,
+      "num_failed": 1,
+      "seed": 2026,
+      "variant": "graph_with_propagation",
+      "warnings": [
+        "uncited claim-like sentence: 'The company announced record revenue growth in 2023.'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 0.0,
+        "citation_precision": 1.0,
+        "citation_recall": 0.5,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 0.5,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1498.3696540584788,
+        "normalized_exact_match": 0.0,
+        "num_claims": 3.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 3.0,
+        "num_passages": 3.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 0.6,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 2,
+      "num_failed": 1,
+      "seed": 42,
+      "variant": "full_egrag",
+      "warnings": [
+        "uncited claim-like sentence: 'The company announced record revenue growth in 2023.'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 0.0,
+        "citation_precision": 1.0,
+        "citation_recall": 0.5,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 0.5,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1497.0108809648082,
+        "normalized_exact_match": 0.0,
+        "num_claims": 3.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 3.0,
+        "num_passages": 3.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 0.6,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 2,
+      "num_failed": 1,
+      "seed": 123,
+      "variant": "full_egrag",
+      "warnings": [
+        "uncited claim-like sentence: 'The company announced record revenue growth in 2023.'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 0.0,
+        "citation_precision": 1.0,
+        "citation_recall": 0.5,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 0.5,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1495.9202980389819,
+        "normalized_exact_match": 0.0,
+        "num_claims": 3.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 3.0,
+        "num_passages": 3.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 0.6,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 2,
+      "num_failed": 1,
+      "seed": 2026,
+      "variant": "full_egrag",
+      "warnings": [
+        "uncited claim-like sentence: 'The company announced record revenue growth in 2023.'"
+      ]
+    }
+  ],
+  "seed_aggregated": {
+    "claim_only_rag": {},
+    "full_egrag": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.5,
+        "median": 0.5,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 0.5,
+        "median": 0.5,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 1497.100277687423,
+        "median": 1497.0108809648082,
+        "std": 1.227122674418553
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 3.0,
+        "median": 3.0,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 3.0,
+        "median": 3.0,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 3.0,
+        "median": 3.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 13.0,
+        "median": 13.0,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.6,
+        "median": 0.6,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      }
+    },
+    "graph_coherent_subgraph": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.5,
+        "median": 0.5,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 0.5,
+        "median": 0.5,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 1510.8929180229704,
+        "median": 1513.686730992049,
+        "std": 9.659944958537917
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 3.0,
+        "median": 3.0,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 3.0,
+        "median": 3.0,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 3.0,
+        "median": 3.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 13.0,
+        "median": 13.0,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.6,
+        "median": 0.6,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      }
+    },
+    "graph_no_contradiction": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.5,
+        "median": 0.5,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 0.5,
+        "median": 0.5,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 1507.9894076722364,
+        "median": 1509.7499389667064,
+        "std": 5.900015204079735
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 3.0,
+        "median": 3.0,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 3.0,
+        "median": 3.0,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 3.0,
+        "median": 3.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 13.0,
+        "median": 13.0,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.6,
+        "median": 0.6,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      }
+    },
+    "graph_no_propagation": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.5,
+        "median": 0.5,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 0.5,
+        "median": 0.5,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 1498.5459066616993,
+        "median": 1499.9353329185396,
+        "std": 3.248537379632916
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 3.0,
+        "median": 3.0,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 3.0,
+        "median": 3.0,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 3.0,
+        "median": 3.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 13.0,
+        "median": 13.0,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.6,
+        "median": 0.6,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      }
+    },
+    "graph_no_temporal": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.5,
+        "median": 0.5,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 0.5,
+        "median": 0.5,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 1498.4259196401883,
+        "median": 1498.4755279729143,
+        "std": 0.38901219174033275
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 3.0,
+        "median": 3.0,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 3.0,
+        "median": 3.0,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 3.0,
+        "median": 3.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 13.0,
+        "median": 13.0,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.6,
+        "median": 0.6,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      }
+    },
+    "graph_top_claim": {},
+    "graph_with_propagation": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.5,
+        "median": 0.5,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 0.5,
+        "median": 0.5,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 1503.0797579869006,
+        "median": 1502.2763159358874,
+        "std": 5.588304400416992
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 3.0,
+        "median": 3.0,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 3.0,
+        "median": 3.0,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 3.0,
+        "median": 3.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 13.0,
+        "median": 13.0,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.6,
+        "median": 0.6,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      }
+    },
+    "passage_rag": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.5,
+        "median": 0.5,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 2325.541873656524,
+        "median": 2322.300635976717,
+        "std": 21.856528544847535
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 21.0,
+        "median": 21.0,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      }
+    },
+    "reranked_passage_rag": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.5,
+        "median": 0.5,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 2303.5870960447937,
+        "median": 2346.046916092746,
+        "std": 74.44122409000636
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 21.0,
+        "median": 21.0,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      }
+    }
+  }
+}

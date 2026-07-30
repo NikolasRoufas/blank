@@ -1,0 +1,40 @@
+{
+  "claim_only_rag|0": [
+    "uncited claim-like sentence: 'The information provided does not specify the number of memb'"
+  ],
+  "full_egrag|0": [
+    "unresolved conflicts are present but the answer expresses no uncertainty",
+    "uncited claim-like sentence: 'The information provided does not specify the city of the ba'",
+    "uncited claim-like sentence: 'The information provided does not specify which Chinese comp'"
+  ],
+  "graph_coherent_subgraph|0": [
+    "unresolved conflicts are present but the answer expresses no uncertainty",
+    "uncited claim-like sentence: 'The information provided does not specify the city of the ba'",
+    "uncited claim-like sentence: 'The information provided does not specify which Chinese comp'"
+  ],
+  "graph_no_contradiction|0": [],
+  "graph_no_propagation|0": [
+    "unresolved conflicts are present but the answer expresses no uncertainty",
+    "uncited claim-like sentence: 'The information provided does not specify the city of the ba'",
+    "uncited claim-like sentence: 'The evidence provided does not specify which Chinese company'",
+    "uncited claim-like sentence: 'The evidence provided does not contain information about whe'",
+    "uncited claim-like sentence: 'The evidence provided does not specify the birthday of the a'"
+  ],
+  "graph_no_temporal|0": [
+    "unresolved conflicts are present but the answer expresses no uncertainty",
+    "uncited claim-like sentence: 'The information provided does not specify the city of the ba'",
+    "uncited claim-like sentence: 'The information provided does not specify which Chinese comp'"
+  ],
+  "graph_top_claim|0": [
+    "uncited claim-like sentence: 'The information provided does not specify the number of memb'",
+    "unresolved conflicts are present but the answer expresses no uncertainty",
+    "uncited claim-like sentence: 'The information provided does not specify the name of the nu'"
+  ],
+  "graph_with_propagation|0": [
+    "unresolved conflicts are present but the answer expresses no uncertainty",
+    "uncited claim-like sentence: 'The information provided does not specify the city of the ba'",
+    "uncited claim-like sentence: 'The information provided does not specify which Chinese comp'"
+  ],
+  "passage_rag|0": [],
+  "reranked_passage_rag|0": []
+}

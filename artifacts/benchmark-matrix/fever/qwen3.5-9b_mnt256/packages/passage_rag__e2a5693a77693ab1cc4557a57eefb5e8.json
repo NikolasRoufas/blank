@@ -1,0 +1,75 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 44
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "Marco_Polo::p0",
+      "extraction": null,
+      "extraction_confidence": 1.0,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Marco_Polo::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Marco_Polo",
+          "title": "Marco Polo",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 177,
+            "source_id": "Marco_Polo",
+            "start": 0,
+            "text": "The three of them embarked on an epic journey to Asia , returning after 24 years to find Venice at war with Genoa ; Marco was imprisoned and dictated his stories to a cellmate ."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": null,
+      "source_reliability": null,
+      "text": "The three of them embarked on an epic journey to Asia , returning after 24 years to find Venice at war with Genoa ; Marco was imprisoned and dictated his stories to a cellmate .",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "pkg-e2a5693a77693ab1cc4557a57eefb5e8",
+  "query": {
+    "created_at": null,
+    "query_id": "e2a5693a77693ab1cc4557a57eefb5e8",
+    "text": "Marco Polo was a person."
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": null,
+      "claim_id": "Marco_Polo::p0",
+      "rank": 0,
+      "reason": null,
+      "selection_score": 1.0,
+      "status": "accepted",
+      "utility": null
+    }
+  ],
+  "subgraph": null
+}

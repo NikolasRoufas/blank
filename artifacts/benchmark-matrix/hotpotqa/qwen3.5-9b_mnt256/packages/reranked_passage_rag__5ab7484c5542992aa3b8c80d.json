@@ -1,0 +1,243 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 157
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "Clemence Housman::p0",
+      "extraction": null,
+      "extraction_confidence": 1.0,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Clemence Housman::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Clemence Housman",
+          "title": "Clemence Housman",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 57,
+            "source_id": "Clemence Housman",
+            "start": 0,
+            "text": "She was the sister of A. E. Housman and Laurence Housman."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": null,
+      "source_reliability": null,
+      "text": "She was the sister of A. E. Housman and Laurence Housman.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "Keith Jebb::p0",
+      "extraction": null,
+      "extraction_confidence": 1.0,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Keith Jebb::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Keith Jebb",
+          "title": "Keith Jebb",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 132,
+            "source_id": "Keith Jebb",
+            "start": 0,
+            "text": "He is also the author of \"A. E. Housman\" (Seren Press), a work commended by Harold Bloom in the introduction to his \"A. E. Housman\"."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": null,
+      "source_reliability": null,
+      "text": "He is also the author of \"A. E. Housman\" (Seren Press), a work commended by Harold Bloom in the introduction to his \"A. E. Housman\".",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "Locus Solus (journal)::p0",
+      "extraction": null,
+      "extraction_confidence": 1.0,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Locus Solus (journal)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Locus Solus (journal)",
+          "title": "Locus Solus (journal)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 128,
+            "source_id": "Locus Solus (journal)",
+            "start": 0,
+            "text": "The magazine was edited by the poets John Ashbery, Kenneth Koch, and James Schuyler, all of whom contributed to its four issues."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": null,
+      "source_reliability": null,
+      "text": "The magazine was edited by the poets John Ashbery, Kenneth Koch, and James Schuyler, all of whom contributed to its four issues.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "The Invention of Love::p0",
+      "extraction": null,
+      "extraction_confidence": 1.0,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "The Invention of Love::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "The Invention of Love",
+          "title": "The Invention of Love",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 172,
+            "source_id": "The Invention of Love",
+            "start": 0,
+            "text": "The Invention of Love is a 1997 play by Tom Stoppard portraying the life of poet A. E. Housman, focusing specifically on his personal life and love for a college classmate."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": null,
+      "source_reliability": null,
+      "text": "The Invention of Love is a 1997 play by Tom Stoppard portraying the life of poet A. E. Housman, focusing specifically on his personal life and love for a college classmate.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "When I Was One-and-Twenty::p0",
+      "extraction": null,
+      "extraction_confidence": 1.0,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "When I Was One-and-Twenty::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "When I Was One-and-Twenty",
+          "title": "When I Was One-and-Twenty",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 140,
+            "source_id": "When I Was One-and-Twenty",
+            "start": 0,
+            "text": "When I Was One-and-Twenty, or Poem XIII, is the informal name of an untitled poem by A. E. Housman, published in \"A Shropshire Lad\" in 1896."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": null,
+      "source_reliability": null,
+      "text": "When I Was One-and-Twenty, or Poem XIII, is the informal name of an untitled poem by A. E. Housman, published in \"A Shropshire Lad\" in 1896.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "pkg-5ab7484c5542992aa3b8c80d",
+  "query": {
+    "created_at": null,
+    "query_id": "5ab7484c5542992aa3b8c80d",
+    "text": "Do James Schuyler and A. E. Housman have the same nationality?"
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": null,
+      "claim_id": "Clemence Housman::p0",
+      "rank": 0,
+      "reason": null,
+      "selection_score": 1.0,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "Keith Jebb::p0",
+      "rank": 1,
+      "reason": null,
+      "selection_score": 1.0,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "Locus Solus (journal)::p0",
+      "rank": 2,
+      "reason": null,
+      "selection_score": 1.0,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "The Invention of Love::p0",
+      "rank": 3,
+      "reason": null,
+      "selection_score": 1.0,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "When I Was One-and-Twenty::p0",
+      "rank": 4,
+      "reason": null,
+      "selection_score": 1.0,
+      "status": "accepted",
+      "utility": null
+    }
+  ],
+  "subgraph": null
+}

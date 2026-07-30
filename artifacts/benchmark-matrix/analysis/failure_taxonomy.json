@@ -1,0 +1,220 @@
+{
+  "synthetic": {
+    "per_model_category": {
+      "qwen2.5-3b-instruct": {
+        "hallucinated_citation_id": 45
+      },
+      "qwen2.5-7b-instruct": {
+        "hallucinated_citation_id": 33
+      },
+      "qwen3.5-9b": {
+        "hallucinated_citation_id": 39
+      }
+    },
+    "per_model_citation_id_pattern": {
+      "qwen2.5-3b-instruct": {
+        "short_or_compound_id_mismatch": 18,
+        "bracket_formatting_artifact": 3,
+        "clm_prefix_truncated": 15,
+        "hash_prefix_dropped_entirely": 24
+      },
+      "qwen2.5-7b-instruct": {
+        "short_or_compound_id_mismatch": 30,
+        "hash_prefix_dropped_entirely": 3
+      },
+      "qwen3.5-9b": {
+        "short_or_compound_id_mismatch": 24,
+        "hash_prefix_dropped_entirely": 21,
+        "clm_prefix_truncated": 3
+      }
+    },
+    "overall_category": {
+      "hallucinated_citation_id": 117
+    },
+    "overall_citation_id_pattern": {
+      "short_or_compound_id_mismatch": 72,
+      "bracket_formatting_artifact": 3,
+      "clm_prefix_truncated": 18,
+      "hash_prefix_dropped_entirely": 48
+    }
+  },
+  "fever_mnt64": {
+    "per_model_category": {
+      "qwen2.5-3b-instruct": {
+        "hallucinated_citation_id": 88,
+        "generation_truncated_or_malformed_json": 81
+      },
+      "qwen2.5-7b-instruct": {
+        "generation_truncated_or_malformed_json": 31,
+        "hallucinated_citation_id": 79,
+        "other_generation_error": 10
+      },
+      "qwen3.5-9b": {
+        "generation_truncated_or_malformed_json": 160,
+        "hallucinated_citation_id": 30
+      }
+    },
+    "per_model_citation_id_pattern": {
+      "qwen2.5-3b-instruct": {
+        "short_or_compound_id_mismatch": 54,
+        "evidence_metadata_leaked_as_id": 15,
+        "hash_prefix_dropped_entirely": 22,
+        "clm_prefix_truncated": 6
+      },
+      "qwen2.5-7b-instruct": {
+        "short_or_compound_id_mismatch": 30,
+        "hash_prefix_dropped_entirely": 50
+      },
+      "qwen3.5-9b": {
+        "short_or_compound_id_mismatch": 31
+      }
+    },
+    "overall_category": {
+      "hallucinated_citation_id": 197,
+      "generation_truncated_or_malformed_json": 272,
+      "other_generation_error": 10
+    },
+    "overall_citation_id_pattern": {
+      "short_or_compound_id_mismatch": 115,
+      "evidence_metadata_leaked_as_id": 15,
+      "hash_prefix_dropped_entirely": 72,
+      "clm_prefix_truncated": 6
+    }
+  },
+  "fever_mnt256": {
+    "per_model_category": {
+      "qwen2.5-3b-instruct": {
+        "hallucinated_citation_id": 136,
+        "other_generation_error": 2
+      },
+      "qwen2.5-7b-instruct": {
+        "hallucinated_citation_id": 81,
+        "other_generation_error": 10
+      },
+      "qwen3.5-9b": {
+        "hallucinated_citation_id": 41
+      }
+    },
+    "per_model_citation_id_pattern": {
+      "qwen2.5-3b-instruct": {
+        "short_or_compound_id_mismatch": 75,
+        "evidence_metadata_leaked_as_id": 30,
+        "clm_prefix_truncated": 17,
+        "hash_prefix_dropped_entirely": 32
+      },
+      "qwen2.5-7b-instruct": {
+        "short_or_compound_id_mismatch": 30,
+        "hash_prefix_dropped_entirely": 53
+      },
+      "qwen3.5-9b": {
+        "short_or_compound_id_mismatch": 34,
+        "hash_prefix_dropped_entirely": 10
+      }
+    },
+    "overall_category": {
+      "hallucinated_citation_id": 258,
+      "other_generation_error": 12
+    },
+    "overall_citation_id_pattern": {
+      "short_or_compound_id_mismatch": 139,
+      "evidence_metadata_leaked_as_id": 30,
+      "clm_prefix_truncated": 17,
+      "hash_prefix_dropped_entirely": 95
+    }
+  },
+  "hotpotqa_mnt64": {
+    "per_model_category": {
+      "qwen2.5-3b-instruct": {
+        "other:ValidationError": 24,
+        "hallucinated_citation_id": 38,
+        "other_generation_error": 7,
+        "generation_truncated_or_malformed_json": 133
+      },
+      "qwen2.5-7b-instruct": {
+        "other:ValidationError": 24,
+        "other_generation_error": 23,
+        "hallucinated_citation_id": 37,
+        "generation_truncated_or_malformed_json": 74
+      },
+      "qwen3.5-9b": {
+        "other:ValidationError": 24,
+        "generation_truncated_or_malformed_json": 181,
+        "hallucinated_citation_id": 14
+      }
+    },
+    "per_model_citation_id_pattern": {
+      "qwen2.5-3b-instruct": {
+        "short_or_compound_id_mismatch": 56,
+        "clm_prefix_truncated": 6
+      },
+      "qwen2.5-7b-instruct": {
+        "short_or_compound_id_mismatch": 39,
+        "hash_prefix_dropped_entirely": 14
+      },
+      "qwen3.5-9b": {
+        "short_or_compound_id_mismatch": 20
+      }
+    },
+    "overall_category": {
+      "other:ValidationError": 72,
+      "hallucinated_citation_id": 89,
+      "other_generation_error": 30,
+      "generation_truncated_or_malformed_json": 388
+    },
+    "overall_citation_id_pattern": {
+      "short_or_compound_id_mismatch": 115,
+      "clm_prefix_truncated": 6,
+      "hash_prefix_dropped_entirely": 14
+    }
+  },
+  "hotpotqa_mnt256": {
+    "per_model_category": {
+      "qwen2.5-3b-instruct": {
+        "other:ValidationError": 24,
+        "hallucinated_citation_id": 43,
+        "other_generation_error": 45,
+        "generation_truncated_or_malformed_json": 1
+      },
+      "qwen2.5-7b-instruct": {
+        "other:ValidationError": 24,
+        "other_generation_error": 23,
+        "hallucinated_citation_id": 36,
+        "generation_truncated_or_malformed_json": 4
+      },
+      "qwen3.5-9b": {
+        "other:ValidationError": 24,
+        "hallucinated_citation_id": 23,
+        "generation_truncated_or_malformed_json": 23,
+        "other_generation_error": 1
+      }
+    },
+    "per_model_citation_id_pattern": {
+      "qwen2.5-3b-instruct": {
+        "short_or_compound_id_mismatch": 56,
+        "clm_prefix_truncated": 17,
+        "hash_prefix_dropped_entirely": 1
+      },
+      "qwen2.5-7b-instruct": {
+        "short_or_compound_id_mismatch": 38,
+        "hash_prefix_dropped_entirely": 14,
+        "clm_prefix_truncated": 4
+      },
+      "qwen3.5-9b": {
+        "short_or_compound_id_mismatch": 24,
+        "hash_prefix_dropped_entirely": 1,
+        "clm_prefix_truncated": 8
+      }
+    },
+    "overall_category": {
+      "other:ValidationError": 72,
+      "hallucinated_citation_id": 102,
+      "other_generation_error": 69,
+      "generation_truncated_or_malformed_json": 28
+    },
+    "overall_citation_id_pattern": {
+      "short_or_compound_id_mismatch": 118,
+      "clm_prefix_truncated": 29,
+      "hash_prefix_dropped_entirely": 16
+    }
+  }
+}

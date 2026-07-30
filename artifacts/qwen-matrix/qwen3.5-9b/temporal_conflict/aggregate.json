@@ -1,0 +1,2238 @@
+{
+  "per_seed": [
+    {
+      "metric_kinds": {},
+      "metrics": {},
+      "num_examples": 1,
+      "num_failed": 1,
+      "seed": 42,
+      "variant": "passage_rag",
+      "warnings": []
+    },
+    {
+      "metric_kinds": {},
+      "metrics": {},
+      "num_examples": 1,
+      "num_failed": 1,
+      "seed": 123,
+      "variant": "passage_rag",
+      "warnings": []
+    },
+    {
+      "metric_kinds": {},
+      "metrics": {},
+      "num_examples": 1,
+      "num_failed": 1,
+      "seed": 2026,
+      "variant": "passage_rag",
+      "warnings": []
+    },
+    {
+      "metric_kinds": {},
+      "metrics": {},
+      "num_examples": 1,
+      "num_failed": 1,
+      "seed": 42,
+      "variant": "reranked_passage_rag",
+      "warnings": []
+    },
+    {
+      "metric_kinds": {},
+      "metrics": {},
+      "num_examples": 1,
+      "num_failed": 1,
+      "seed": 123,
+      "variant": "reranked_passage_rag",
+      "warnings": []
+    },
+    {
+      "metric_kinds": {},
+      "metrics": {},
+      "num_examples": 1,
+      "num_failed": 1,
+      "seed": 2026,
+      "variant": "reranked_passage_rag",
+      "warnings": []
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 0.5,
+        "evidence_recall": 1.0,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 2906.1646700138226,
+        "normalized_exact_match": 0.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 0.0,
+        "num_passages": 2.0,
+        "num_selected": 2.0,
+        "token_estimate": 26.0,
+        "token_f1": 0.2222222222222222,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 42,
+      "variant": "claim_only_rag",
+      "warnings": [
+        "uncited claim-like sentence: 'As of 2024, the headquarters is located in Rivertown.'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 0.5,
+        "evidence_recall": 1.0,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 2916.9303370872512,
+        "normalized_exact_match": 0.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 0.0,
+        "num_passages": 2.0,
+        "num_selected": 2.0,
+        "token_estimate": 26.0,
+        "token_f1": 0.2222222222222222,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 123,
+      "variant": "claim_only_rag",
+      "warnings": [
+        "uncited claim-like sentence: 'As of 2024, the headquarters is located in Rivertown.'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 0.5,
+        "evidence_recall": 1.0,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 2991.529365070164,
+        "normalized_exact_match": 0.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 0.0,
+        "num_passages": 2.0,
+        "num_selected": 2.0,
+        "token_estimate": 26.0,
+        "token_f1": 0.2222222222222222,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 2026,
+      "variant": "claim_only_rag",
+      "warnings": [
+        "uncited claim-like sentence: 'As of 2024, the headquarters is located in Rivertown.'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 3158.061056979932,
+        "normalized_exact_match": 0.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 2.0,
+        "num_passages": 2.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 0.2222222222222222,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 42,
+      "variant": "graph_no_propagation",
+      "warnings": [
+        "uncited claim-like sentence: 'As of 2024, the headquarters is located in Rivertown.'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 3046.4130389736965,
+        "normalized_exact_match": 0.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 2.0,
+        "num_passages": 2.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 0.2222222222222222,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 123,
+      "variant": "graph_no_propagation",
+      "warnings": [
+        "uncited claim-like sentence: 'As of 2024, the headquarters is located in Rivertown.'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 3075.3032009815797,
+        "normalized_exact_match": 0.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 2.0,
+        "num_passages": 2.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 0.2222222222222222,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 2026,
+      "variant": "graph_no_propagation",
+      "warnings": [
+        "uncited claim-like sentence: 'As of 2024, the headquarters is located in Rivertown.'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 0.5,
+        "evidence_recall": 1.0,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 3064.7584960097447,
+        "normalized_exact_match": 0.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 2.0,
+        "num_passages": 2.0,
+        "num_selected": 2.0,
+        "token_estimate": 26.0,
+        "token_f1": 0.2222222222222222,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 42,
+      "variant": "graph_top_claim",
+      "warnings": [
+        "uncited claim-like sentence: 'As of 2024, the headquarters is located in Rivertown.'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 0.5,
+        "evidence_recall": 1.0,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 2933.9056400349364,
+        "normalized_exact_match": 0.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 2.0,
+        "num_passages": 2.0,
+        "num_selected": 2.0,
+        "token_estimate": 26.0,
+        "token_f1": 0.2222222222222222,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 123,
+      "variant": "graph_top_claim",
+      "warnings": [
+        "uncited claim-like sentence: 'As of 2024, the headquarters is located in Rivertown.'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 0.5,
+        "evidence_recall": 1.0,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 2899.16465501301,
+        "normalized_exact_match": 0.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 2.0,
+        "num_passages": 2.0,
+        "num_selected": 2.0,
+        "token_estimate": 26.0,
+        "token_f1": 0.2222222222222222,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 2026,
+      "variant": "graph_top_claim",
+      "warnings": [
+        "uncited claim-like sentence: 'As of 2024, the headquarters is located in Rivertown.'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 2890.6794709619135,
+        "normalized_exact_match": 0.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 2.0,
+        "num_passages": 2.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 0.2222222222222222,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 42,
+      "variant": "graph_coherent_subgraph",
+      "warnings": [
+        "uncited claim-like sentence: 'As of 2024, the headquarters is located in Rivertown.'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 2892.4713630694896,
+        "normalized_exact_match": 0.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 2.0,
+        "num_passages": 2.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 0.2222222222222222,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 123,
+      "variant": "graph_coherent_subgraph",
+      "warnings": [
+        "uncited claim-like sentence: 'As of 2024, the headquarters is located in Rivertown.'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 2889.5570199238136,
+        "normalized_exact_match": 0.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 2.0,
+        "num_passages": 2.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 0.2222222222222222,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 2026,
+      "variant": "graph_coherent_subgraph",
+      "warnings": [
+        "uncited claim-like sentence: 'As of 2024, the headquarters is located in Rivertown.'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 2918.371959007345,
+        "normalized_exact_match": 0.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 2.0,
+        "num_passages": 2.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 0.2222222222222222,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 42,
+      "variant": "graph_no_temporal",
+      "warnings": [
+        "uncited claim-like sentence: 'As of 2024, the headquarters is located in Rivertown.'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 2887.8244010265917,
+        "normalized_exact_match": 0.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 2.0,
+        "num_passages": 2.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 0.2222222222222222,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 123,
+      "variant": "graph_no_temporal",
+      "warnings": [
+        "uncited claim-like sentence: 'As of 2024, the headquarters is located in Rivertown.'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 2885.1316540967673,
+        "normalized_exact_match": 0.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 2.0,
+        "num_passages": 2.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 0.2222222222222222,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 2026,
+      "variant": "graph_no_temporal",
+      "warnings": [
+        "uncited claim-like sentence: 'As of 2024, the headquarters is located in Rivertown.'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 2896.40301594045,
+        "normalized_exact_match": 0.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 2.0,
+        "num_passages": 2.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 0.2222222222222222,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 42,
+      "variant": "graph_no_contradiction",
+      "warnings": [
+        "uncited claim-like sentence: 'As of 2024, the headquarters is located in Rivertown.'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 2887.3519860208035,
+        "normalized_exact_match": 0.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 2.0,
+        "num_passages": 2.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 0.2222222222222222,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 123,
+      "variant": "graph_no_contradiction",
+      "warnings": [
+        "uncited claim-like sentence: 'As of 2024, the headquarters is located in Rivertown.'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 2886.1938470508903,
+        "normalized_exact_match": 0.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 2.0,
+        "num_passages": 2.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 0.2222222222222222,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 2026,
+      "variant": "graph_no_contradiction",
+      "warnings": [
+        "uncited claim-like sentence: 'As of 2024, the headquarters is located in Rivertown.'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 2965.542513062246,
+        "normalized_exact_match": 0.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 2.0,
+        "num_passages": 2.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 0.2222222222222222,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 42,
+      "variant": "graph_with_propagation",
+      "warnings": [
+        "uncited claim-like sentence: 'As of 2024, the headquarters is located in Rivertown.'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 2927.6439199456945,
+        "normalized_exact_match": 0.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 2.0,
+        "num_passages": 2.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 0.2222222222222222,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 123,
+      "variant": "graph_with_propagation",
+      "warnings": [
+        "uncited claim-like sentence: 'As of 2024, the headquarters is located in Rivertown.'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 2929.2951870011166,
+        "normalized_exact_match": 0.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 2.0,
+        "num_passages": 2.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 0.2222222222222222,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 2026,
+      "variant": "graph_with_propagation",
+      "warnings": [
+        "uncited claim-like sentence: 'As of 2024, the headquarters is located in Rivertown.'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 2939.703452051617,
+        "normalized_exact_match": 0.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 2.0,
+        "num_passages": 2.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 0.2222222222222222,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 42,
+      "variant": "full_egrag",
+      "warnings": [
+        "uncited claim-like sentence: 'As of 2024, the headquarters is located in Rivertown.'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 3035.2452349616215,
+        "normalized_exact_match": 0.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 2.0,
+        "num_passages": 2.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 0.2222222222222222,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 123,
+      "variant": "full_egrag",
+      "warnings": [
+        "uncited claim-like sentence: 'As of 2024, the headquarters is located in Rivertown.'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 2943.2106720050797,
+        "normalized_exact_match": 0.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 2.0,
+        "num_passages": 2.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 0.2222222222222222,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 2026,
+      "variant": "full_egrag",
+      "warnings": [
+        "uncited claim-like sentence: 'As of 2024, the headquarters is located in Rivertown.'"
+      ]
+    }
+  ],
+  "seed_aggregated": {
+    "claim_only_rag": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 0.5,
+        "median": 0.5,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 2938.208124057079,
+        "median": 2916.9303370872512,
+        "std": 46.4902242871078
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 26.0,
+        "median": 26.0,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.2222222222222222,
+        "median": 0.2222222222222222,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      }
+    },
+    "full_egrag": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 2972.7197863394395,
+        "median": 2943.2106720050797,
+        "std": 54.17701488642885
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 13.0,
+        "median": 13.0,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.2222222222222222,
+        "median": 0.2222222222222222,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      }
+    },
+    "graph_coherent_subgraph": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 2890.902617985072,
+        "median": 2890.6794709619135,
+        "std": 1.469930249415112
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 13.0,
+        "median": 13.0,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.2222222222222222,
+        "median": 0.2222222222222222,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      }
+    },
+    "graph_no_contradiction": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 2889.982949670715,
+        "median": 2887.3519860208035,
+        "std": 5.590014279879295
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 13.0,
+        "median": 13.0,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.2222222222222222,
+        "median": 0.2222222222222222,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      }
+    },
+    "graph_no_propagation": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 3093.2590989784026,
+        "median": 3075.3032009815797,
+        "std": 57.94938037489614
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 13.0,
+        "median": 13.0,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.2222222222222222,
+        "median": 0.2222222222222222,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      }
+    },
+    "graph_no_temporal": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 2897.109338043568,
+        "median": 2887.8244010265917,
+        "std": 18.463125661543874
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 13.0,
+        "median": 13.0,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.2222222222222222,
+        "median": 0.2222222222222222,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      }
+    },
+    "graph_top_claim": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 0.5,
+        "median": 0.5,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 2965.9429303525635,
+        "median": 2933.9056400349364,
+        "std": 87.32193895113028
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 26.0,
+        "median": 26.0,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.2222222222222222,
+        "median": 0.2222222222222222,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      }
+    },
+    "graph_with_propagation": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 2940.827206669686,
+        "median": 2929.2951870011166,
+        "std": 21.42000112700005
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 13.0,
+        "median": 13.0,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.2222222222222222,
+        "median": 0.2222222222222222,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      }
+    },
+    "passage_rag": {},
+    "reranked_passage_rag": {}
+  }
+}

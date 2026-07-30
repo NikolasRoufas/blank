@@ -1,0 +1,190 @@
+passage_rag|0|50d1e4cc5525229a43d3a017a94d3526	GenerationError: malformed structured output: truncated or unterminated JSON object
+passage_rag|0|87b23ccb67781f8cc560c4e9fe6d250e	GenerationError: malformed structured output: truncated or unterminated JSON object
+passage_rag|0|ad6bc41fe6ebf69a7f90097d86dcac55	GenerationError: answer cites unknown claim id(s): ['c1']
+passage_rag|0|1e8cf5f6055220564f3918369565d9e4	GenerationError: malformed structured output: truncated or unterminated JSON object
+passage_rag|0|e2a5693a77693ab1cc4557a57eefb5e8	GenerationError: malformed structured output: truncated or unterminated JSON object
+passage_rag|0|a0ea6a0c8892e5157adedfbb3c7f5ad6	GenerationError: answer cites unknown claim id(s): ['c1']
+passage_rag|0|9abb8c47532abe484c5503cbbbb3c1cc	GenerationError: malformed structured output: truncated or unterminated JSON object
+passage_rag|0|1f3c6a8eb968fbf9eccc8e2d830ba666	GenerationError: answer cites unknown claim id(s): ['c1']
+passage_rag|0|65f0490d120cbe2d9d5afa748e075c5d	GenerationError: answer cites unknown claim id(s): ['c1']
+passage_rag|0|2585143648209a700eda64d55c3f6fd3	GenerationError: answer cites unknown claim id(s): ['c1']
+passage_rag|0|8ea0b47c54b7fb761d1419185f63b17d	GenerationError: malformed structured output: truncated or unterminated JSON object
+passage_rag|0|4e5269c64f6e5fdce98df72ceec53135	GenerationError: malformed structured output: truncated or unterminated JSON object
+passage_rag|0|aa02315da678cb93003ecd3154c5157c	GenerationError: malformed structured output: truncated or unterminated JSON object
+passage_rag|0|2044dc8bb70c51c22751885c2b2c0c61	GenerationError: malformed structured output: truncated or unterminated JSON object
+passage_rag|0|ee8b5028eab3013d15629236621d9eca	GenerationError: malformed structured output: truncated or unterminated JSON object
+passage_rag|0|94f2edc456bf58af45fcd767419bdc5c	GenerationError: answer cites unknown claim id(s): ['c1']
+passage_rag|0|06fe5e3bbac735be1aa72c19f2405175	GenerationError: answer cites unknown claim id(s): ['c1']
+passage_rag|0|7e8731b7effbd14bb8fd2a76c5259e9a	GenerationError: answer cites unknown claim id(s): ['c1']
+passage_rag|0|fe942f89a3207b42e0c640aa24b76806	GenerationError: malformed structured output: truncated or unterminated JSON object
+passage_rag|0|07256d35b1f24e908ea40eaa1051ab2d	GenerationError: answer cites unknown claim id(s): ['c1']
+passage_rag|0|230b141df95ddc2978ba057f542ecffd	GenerationError: malformed structured output: truncated or unterminated JSON object
+passage_rag|0|952eaad0601ba125123f09a1686d805e	GenerationError: malformed structured output: truncated or unterminated JSON object
+passage_rag|0|08b6d9389b72b23c9497915d31cfdc8f	GenerationError: answer cites unknown claim id(s): ['c1']
+passage_rag|0|0e63adacd54bf66672928d073fe2de8d	GenerationError: answer cites unknown claim id(s): ['c1']
+reranked_passage_rag|0|50d1e4cc5525229a43d3a017a94d3526	GenerationError: malformed structured output: truncated or unterminated JSON object
+reranked_passage_rag|0|87b23ccb67781f8cc560c4e9fe6d250e	GenerationError: malformed structured output: truncated or unterminated JSON object
+reranked_passage_rag|0|ad6bc41fe6ebf69a7f90097d86dcac55	GenerationError: answer cites unknown claim id(s): ['c1']
+reranked_passage_rag|0|1e8cf5f6055220564f3918369565d9e4	GenerationError: malformed structured output: truncated or unterminated JSON object
+reranked_passage_rag|0|e2a5693a77693ab1cc4557a57eefb5e8	GenerationError: malformed structured output: truncated or unterminated JSON object
+reranked_passage_rag|0|a0ea6a0c8892e5157adedfbb3c7f5ad6	GenerationError: answer cites unknown claim id(s): ['c1']
+reranked_passage_rag|0|9abb8c47532abe484c5503cbbbb3c1cc	GenerationError: malformed structured output: truncated or unterminated JSON object
+reranked_passage_rag|0|1f3c6a8eb968fbf9eccc8e2d830ba666	GenerationError: answer cites unknown claim id(s): ['c1']
+reranked_passage_rag|0|65f0490d120cbe2d9d5afa748e075c5d	GenerationError: answer cites unknown claim id(s): ['c1']
+reranked_passage_rag|0|2585143648209a700eda64d55c3f6fd3	GenerationError: answer cites unknown claim id(s): ['c1']
+reranked_passage_rag|0|8ea0b47c54b7fb761d1419185f63b17d	GenerationError: malformed structured output: truncated or unterminated JSON object
+reranked_passage_rag|0|4e5269c64f6e5fdce98df72ceec53135	GenerationError: malformed structured output: truncated or unterminated JSON object
+reranked_passage_rag|0|aa02315da678cb93003ecd3154c5157c	GenerationError: malformed structured output: truncated or unterminated JSON object
+reranked_passage_rag|0|2044dc8bb70c51c22751885c2b2c0c61	GenerationError: malformed structured output: truncated or unterminated JSON object
+reranked_passage_rag|0|ee8b5028eab3013d15629236621d9eca	GenerationError: malformed structured output: truncated or unterminated JSON object
+reranked_passage_rag|0|94f2edc456bf58af45fcd767419bdc5c	GenerationError: answer cites unknown claim id(s): ['c1']
+reranked_passage_rag|0|06fe5e3bbac735be1aa72c19f2405175	GenerationError: answer cites unknown claim id(s): ['c1']
+reranked_passage_rag|0|7e8731b7effbd14bb8fd2a76c5259e9a	GenerationError: answer cites unknown claim id(s): ['c1']
+reranked_passage_rag|0|fe942f89a3207b42e0c640aa24b76806	GenerationError: malformed structured output: truncated or unterminated JSON object
+reranked_passage_rag|0|07256d35b1f24e908ea40eaa1051ab2d	GenerationError: answer cites unknown claim id(s): ['c1']
+reranked_passage_rag|0|230b141df95ddc2978ba057f542ecffd	GenerationError: malformed structured output: truncated or unterminated JSON object
+reranked_passage_rag|0|952eaad0601ba125123f09a1686d805e	GenerationError: malformed structured output: truncated or unterminated JSON object
+reranked_passage_rag|0|08b6d9389b72b23c9497915d31cfdc8f	GenerationError: answer cites unknown claim id(s): ['c1']
+reranked_passage_rag|0|0e63adacd54bf66672928d073fe2de8d	GenerationError: answer cites unknown claim id(s): ['c1']
+claim_only_rag|0|50d1e4cc5525229a43d3a017a94d3526	GenerationError: malformed structured output: truncated or unterminated JSON object
+claim_only_rag|0|1e8cf5f6055220564f3918369565d9e4	GenerationError: malformed structured output: truncated or unterminated JSON object
+claim_only_rag|0|e2a5693a77693ab1cc4557a57eefb5e8	GenerationError: malformed structured output: truncated or unterminated JSON object
+claim_only_rag|0|65f0490d120cbe2d9d5afa748e075c5d	GenerationError: malformed structured output: truncated or unterminated JSON object
+claim_only_rag|0|2585143648209a700eda64d55c3f6fd3	GenerationError: malformed structured output: truncated or unterminated JSON object
+claim_only_rag|0|8ea0b47c54b7fb761d1419185f63b17d	GenerationError: malformed structured output: truncated or unterminated JSON object
+claim_only_rag|0|4e5269c64f6e5fdce98df72ceec53135	GenerationError: malformed structured output: truncated or unterminated JSON object
+claim_only_rag|0|ee8b5028eab3013d15629236621d9eca	GenerationError: malformed structured output: truncated or unterminated JSON object
+claim_only_rag|0|94f2edc456bf58af45fcd767419bdc5c	GenerationError: malformed structured output: truncated or unterminated JSON object
+claim_only_rag|0|06fe5e3bbac735be1aa72c19f2405175	GenerationError: answer cites unknown claim id(s): ['c1']
+claim_only_rag|0|7e8731b7effbd14bb8fd2a76c5259e9a	GenerationError: malformed structured output: truncated or unterminated JSON object
+claim_only_rag|0|fe942f89a3207b42e0c640aa24b76806	GenerationError: malformed structured output: truncated or unterminated JSON object
+claim_only_rag|0|07256d35b1f24e908ea40eaa1051ab2d	GenerationError: answer cites unknown claim id(s): ['c1', 'c2']
+claim_only_rag|0|230b141df95ddc2978ba057f542ecffd	GenerationError: malformed structured output: truncated or unterminated JSON object
+claim_only_rag|0|952eaad0601ba125123f09a1686d805e	GenerationError: malformed structured output: truncated or unterminated JSON object
+claim_only_rag|0|08b6d9389b72b23c9497915d31cfdc8f	GenerationError: malformed structured output: truncated or unterminated JSON object
+claim_only_rag|0|0e63adacd54bf66672928d073fe2de8d	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_propagation|0|50d1e4cc5525229a43d3a017a94d3526	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_propagation|0|9f1a26d273fd5bd11f2a672ebf5fd687	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_propagation|0|1e8cf5f6055220564f3918369565d9e4	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_propagation|0|e2a5693a77693ab1cc4557a57eefb5e8	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_propagation|0|65f0490d120cbe2d9d5afa748e075c5d	GenerationError: answer cites unknown claim id(s): ['c1']
+graph_no_propagation|0|8ea0b47c54b7fb761d1419185f63b17d	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_propagation|0|4e5269c64f6e5fdce98df72ceec53135	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_propagation|0|aa02315da678cb93003ecd3154c5157c	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_propagation|0|2044dc8bb70c51c22751885c2b2c0c61	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_propagation|0|ee8b5028eab3013d15629236621d9eca	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_propagation|0|94f2edc456bf58af45fcd767419bdc5c	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_propagation|0|7e8731b7effbd14bb8fd2a76c5259e9a	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_propagation|0|fe942f89a3207b42e0c640aa24b76806	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_propagation|0|07256d35b1f24e908ea40eaa1051ab2d	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_propagation|0|230b141df95ddc2978ba057f542ecffd	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_propagation|0|952eaad0601ba125123f09a1686d805e	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_propagation|0|08b6d9389b72b23c9497915d31cfdc8f	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_propagation|0|0e63adacd54bf66672928d073fe2de8d	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_top_claim|0|50d1e4cc5525229a43d3a017a94d3526	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_top_claim|0|9f1a26d273fd5bd11f2a672ebf5fd687	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_top_claim|0|1e8cf5f6055220564f3918369565d9e4	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_top_claim|0|e2a5693a77693ab1cc4557a57eefb5e8	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_top_claim|0|65f0490d120cbe2d9d5afa748e075c5d	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_top_claim|0|8ea0b47c54b7fb761d1419185f63b17d	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_top_claim|0|4e5269c64f6e5fdce98df72ceec53135	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_top_claim|0|aa02315da678cb93003ecd3154c5157c	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_top_claim|0|ee8b5028eab3013d15629236621d9eca	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_top_claim|0|94f2edc456bf58af45fcd767419bdc5c	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_top_claim|0|7e8731b7effbd14bb8fd2a76c5259e9a	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_top_claim|0|fe942f89a3207b42e0c640aa24b76806	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_top_claim|0|07256d35b1f24e908ea40eaa1051ab2d	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_top_claim|0|230b141df95ddc2978ba057f542ecffd	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_top_claim|0|952eaad0601ba125123f09a1686d805e	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_top_claim|0|08b6d9389b72b23c9497915d31cfdc8f	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_top_claim|0|0e63adacd54bf66672928d073fe2de8d	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_coherent_subgraph|0|50d1e4cc5525229a43d3a017a94d3526	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_coherent_subgraph|0|9f1a26d273fd5bd11f2a672ebf5fd687	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_coherent_subgraph|0|1e8cf5f6055220564f3918369565d9e4	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_coherent_subgraph|0|e2a5693a77693ab1cc4557a57eefb5e8	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_coherent_subgraph|0|65f0490d120cbe2d9d5afa748e075c5d	GenerationError: answer cites unknown claim id(s): ['c1']
+graph_coherent_subgraph|0|8ea0b47c54b7fb761d1419185f63b17d	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_coherent_subgraph|0|4e5269c64f6e5fdce98df72ceec53135	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_coherent_subgraph|0|aa02315da678cb93003ecd3154c5157c	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_coherent_subgraph|0|2044dc8bb70c51c22751885c2b2c0c61	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_coherent_subgraph|0|ee8b5028eab3013d15629236621d9eca	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_coherent_subgraph|0|94f2edc456bf58af45fcd767419bdc5c	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_coherent_subgraph|0|7e8731b7effbd14bb8fd2a76c5259e9a	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_coherent_subgraph|0|fe942f89a3207b42e0c640aa24b76806	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_coherent_subgraph|0|07256d35b1f24e908ea40eaa1051ab2d	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_coherent_subgraph|0|230b141df95ddc2978ba057f542ecffd	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_coherent_subgraph|0|952eaad0601ba125123f09a1686d805e	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_coherent_subgraph|0|08b6d9389b72b23c9497915d31cfdc8f	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_coherent_subgraph|0|0e63adacd54bf66672928d073fe2de8d	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_temporal|0|50d1e4cc5525229a43d3a017a94d3526	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_temporal|0|9f1a26d273fd5bd11f2a672ebf5fd687	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_temporal|0|1e8cf5f6055220564f3918369565d9e4	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_temporal|0|e2a5693a77693ab1cc4557a57eefb5e8	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_temporal|0|65f0490d120cbe2d9d5afa748e075c5d	GenerationError: answer cites unknown claim id(s): ['c1']
+graph_no_temporal|0|8ea0b47c54b7fb761d1419185f63b17d	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_temporal|0|4e5269c64f6e5fdce98df72ceec53135	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_temporal|0|aa02315da678cb93003ecd3154c5157c	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_temporal|0|2044dc8bb70c51c22751885c2b2c0c61	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_temporal|0|ee8b5028eab3013d15629236621d9eca	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_temporal|0|94f2edc456bf58af45fcd767419bdc5c	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_temporal|0|7e8731b7effbd14bb8fd2a76c5259e9a	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_temporal|0|fe942f89a3207b42e0c640aa24b76806	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_temporal|0|07256d35b1f24e908ea40eaa1051ab2d	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_temporal|0|230b141df95ddc2978ba057f542ecffd	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_temporal|0|952eaad0601ba125123f09a1686d805e	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_temporal|0|08b6d9389b72b23c9497915d31cfdc8f	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_temporal|0|0e63adacd54bf66672928d073fe2de8d	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_contradiction|0|50d1e4cc5525229a43d3a017a94d3526	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_contradiction|0|9f1a26d273fd5bd11f2a672ebf5fd687	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_contradiction|0|1e8cf5f6055220564f3918369565d9e4	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_contradiction|0|e2a5693a77693ab1cc4557a57eefb5e8	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_contradiction|0|65f0490d120cbe2d9d5afa748e075c5d	GenerationError: answer cites unknown claim id(s): ['c1']
+graph_no_contradiction|0|8ea0b47c54b7fb761d1419185f63b17d	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_contradiction|0|4e5269c64f6e5fdce98df72ceec53135	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_contradiction|0|aa02315da678cb93003ecd3154c5157c	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_contradiction|0|2044dc8bb70c51c22751885c2b2c0c61	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_contradiction|0|ee8b5028eab3013d15629236621d9eca	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_contradiction|0|94f2edc456bf58af45fcd767419bdc5c	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_contradiction|0|7e8731b7effbd14bb8fd2a76c5259e9a	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_contradiction|0|fe942f89a3207b42e0c640aa24b76806	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_contradiction|0|07256d35b1f24e908ea40eaa1051ab2d	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_contradiction|0|230b141df95ddc2978ba057f542ecffd	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_contradiction|0|952eaad0601ba125123f09a1686d805e	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_contradiction|0|08b6d9389b72b23c9497915d31cfdc8f	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_contradiction|0|0e63adacd54bf66672928d073fe2de8d	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_with_propagation|0|50d1e4cc5525229a43d3a017a94d3526	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_with_propagation|0|9f1a26d273fd5bd11f2a672ebf5fd687	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_with_propagation|0|1e8cf5f6055220564f3918369565d9e4	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_with_propagation|0|e2a5693a77693ab1cc4557a57eefb5e8	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_with_propagation|0|65f0490d120cbe2d9d5afa748e075c5d	GenerationError: answer cites unknown claim id(s): ['c1']
+graph_with_propagation|0|8ea0b47c54b7fb761d1419185f63b17d	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_with_propagation|0|4e5269c64f6e5fdce98df72ceec53135	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_with_propagation|0|aa02315da678cb93003ecd3154c5157c	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_with_propagation|0|2044dc8bb70c51c22751885c2b2c0c61	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_with_propagation|0|ee8b5028eab3013d15629236621d9eca	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_with_propagation|0|94f2edc456bf58af45fcd767419bdc5c	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_with_propagation|0|7e8731b7effbd14bb8fd2a76c5259e9a	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_with_propagation|0|fe942f89a3207b42e0c640aa24b76806	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_with_propagation|0|07256d35b1f24e908ea40eaa1051ab2d	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_with_propagation|0|230b141df95ddc2978ba057f542ecffd	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_with_propagation|0|952eaad0601ba125123f09a1686d805e	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_with_propagation|0|08b6d9389b72b23c9497915d31cfdc8f	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_with_propagation|0|0e63adacd54bf66672928d073fe2de8d	GenerationError: malformed structured output: truncated or unterminated JSON object
+full_egrag|0|50d1e4cc5525229a43d3a017a94d3526	GenerationError: malformed structured output: truncated or unterminated JSON object
+full_egrag|0|9f1a26d273fd5bd11f2a672ebf5fd687	GenerationError: malformed structured output: truncated or unterminated JSON object
+full_egrag|0|1e8cf5f6055220564f3918369565d9e4	GenerationError: malformed structured output: truncated or unterminated JSON object
+full_egrag|0|e2a5693a77693ab1cc4557a57eefb5e8	GenerationError: malformed structured output: truncated or unterminated JSON object
+full_egrag|0|65f0490d120cbe2d9d5afa748e075c5d	GenerationError: answer cites unknown claim id(s): ['c1']
+full_egrag|0|8ea0b47c54b7fb761d1419185f63b17d	GenerationError: malformed structured output: truncated or unterminated JSON object
+full_egrag|0|4e5269c64f6e5fdce98df72ceec53135	GenerationError: malformed structured output: truncated or unterminated JSON object
+full_egrag|0|aa02315da678cb93003ecd3154c5157c	GenerationError: malformed structured output: truncated or unterminated JSON object
+full_egrag|0|2044dc8bb70c51c22751885c2b2c0c61	GenerationError: malformed structured output: truncated or unterminated JSON object
+full_egrag|0|ee8b5028eab3013d15629236621d9eca	GenerationError: malformed structured output: truncated or unterminated JSON object
+full_egrag|0|94f2edc456bf58af45fcd767419bdc5c	GenerationError: malformed structured output: truncated or unterminated JSON object
+full_egrag|0|7e8731b7effbd14bb8fd2a76c5259e9a	GenerationError: malformed structured output: truncated or unterminated JSON object
+full_egrag|0|fe942f89a3207b42e0c640aa24b76806	GenerationError: malformed structured output: truncated or unterminated JSON object
+full_egrag|0|07256d35b1f24e908ea40eaa1051ab2d	GenerationError: malformed structured output: truncated or unterminated JSON object
+full_egrag|0|230b141df95ddc2978ba057f542ecffd	GenerationError: malformed structured output: truncated or unterminated JSON object
+full_egrag|0|952eaad0601ba125123f09a1686d805e	GenerationError: malformed structured output: truncated or unterminated JSON object
+full_egrag|0|08b6d9389b72b23c9497915d31cfdc8f	GenerationError: malformed structured output: truncated or unterminated JSON object
+full_egrag|0|0e63adacd54bf66672928d073fe2de8d	GenerationError: malformed structured output: truncated or unterminated JSON object

@@ -11,7 +11,7 @@ from __future__ import annotations
 from datetime import datetime
 from typing import Any, Literal
 
-from pydantic import BaseModel, ConfigDict, Field
+from pydantic import BaseModel, ConfigDict, Field, model_validator
 
 from egrag.domain.models import Document
 from egrag.domain.version import SCHEMA_VERSION
@@ -71,7 +71,15 @@ class SystemVariant(_Model):
 
 
 class ExperimentConfig(_Model):
-    """Configuration for an experiment run (configuration-driven, inspectable)."""
+    """Configuration for an experiment run (configuration-driven, inspectable).
+
+    ``generator`` selects the adapter: ``"fake"`` (deterministic, default) or
+    ``"huggingface"`` (a real local model, e.g. Qwen). The ``generator_*`` fields
+    below apply only to the ``"huggingface"`` adapter and are otherwise ignored;
+    they are recorded verbatim in :class:`ExperimentManifest` either way so a run
+    that used the fake generator is never confused with one that used a real
+    model.
+    """
 
     name: str = Field(min_length=1)
     dataset: str = Field(min_length=1)
@@ -79,16 +87,32 @@ class ExperimentConfig(_Model):
     variants: tuple[str, ...] = Field(min_length=1)
     seeds: tuple[int, ...] = (0,)
     output_dir: str = Field(min_length=1)
-    generator: str = "fake"
+    generator: Literal["fake", "huggingface"] = "fake"
+    generator_model: str | None = None
+    generator_revision: str | None = None
+    generator_device: str = "auto"
+    generator_dtype: str | None = None
+    generator_quantization: Literal["none", "4bit", "8bit"] = "none"
+    generator_disable_thinking: bool = False
+    require_cuda: bool = False
     top_k: int = Field(default=4, ge=1)
     evidence_token_budget: int = Field(default=256, ge=1)
     reserved_output_tokens: int = Field(default=64, ge=0)
+    max_new_tokens: int = Field(default=512, ge=1)
     chunk_size: int = Field(default=512, ge=1)
     chunk_overlap: int = Field(default=64, ge=0)
     limit: int | None = Field(default=None, ge=1)
     enforce_fairness: bool = True
     bootstrap_samples: int = Field(default=1000, ge=1)
     bootstrap_seed: int = Field(default=0, ge=0)
+
+    @model_validator(mode="after")
+    def _huggingface_needs_model(self) -> ExperimentConfig:
+        if self.generator == "huggingface" and not self.generator_model:
+            raise ValueError("generator_model is required when generator is 'huggingface'")
+        if self.generator_quantization != "none" and self.generator != "huggingface":
+            raise ValueError("generator_quantization requires generator: huggingface")
+        return self
 
 
 class ExampleResult(_Model):
@@ -133,6 +157,13 @@ class ExperimentManifest(_Model):
     variants: tuple[SystemVariant, ...]
     seeds: tuple[int, ...]
     generator: str
+    generator_model: str | None = None
+    generator_revision: str | None = None
+    generator_device: str | None = None
+    generator_dtype: str | None = None
+    generator_quantization: str = "none"
+    generator_disable_thinking: bool = False
+    generator_resolved: dict[str, str] = Field(default_factory=dict)
     top_k: int
     evidence_token_budget: int
     reserved_output_tokens: int

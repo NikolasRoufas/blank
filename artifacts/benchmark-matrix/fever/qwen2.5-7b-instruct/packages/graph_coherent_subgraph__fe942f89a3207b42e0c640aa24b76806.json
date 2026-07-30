@@ -1,0 +1,147 @@
+{
+  "budget": {
+    "reserved_output": 16,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 14
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-8510acb3f606cfb7",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Kellogg's::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Kellogg's",
+          "title": "Kellogg's",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 56,
+            "source_id": "Kellogg's",
+            "start": 0,
+            "text": "Kellogg 's holds a Royal Warrant from Queen Elizabeth II"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Kellogg",
+          "Royal Warrant",
+          "Queen Elizabeth II"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Kellogg",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Kellogg 's holds a Royal Warrant from Queen Elizabeth II",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-28ac723db4858441",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Kellogg's::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Kellogg's",
+          "title": "Kellogg's",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 82,
+            "source_id": "Kellogg's",
+            "start": 61,
+            "text": "the Prince of Wales ."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Prince",
+          "Wales"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Prince",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "the Prince of Wales .",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "fe942f89a3207b42e0c640aa24b76806",
+    "text": "Kellogg's products are only manufactured in one country."
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.453529,
+      "claim_id": "clm-8510acb3f606cfb7",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 0.762353,
+      "status": "accepted",
+      "utility": 0.308824
+    }
+  ],
+  "subgraph": null
+}

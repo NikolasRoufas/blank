@@ -1,0 +1,75 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 30
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "Larry_Wilmore::p0",
+      "extraction": null,
+      "extraction_confidence": 1.0,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Larry_Wilmore::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Larry_Wilmore",
+          "title": "Larry Wilmore",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 123,
+            "source_id": "Larry_Wilmore",
+            "start": 0,
+            "text": "Elister L. `` Larry '' Wilmore -LRB- born October 30 , 1961 -RRB- is an American comedian , writer , producer , and actor ."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": null,
+      "source_reliability": null,
+      "text": "Elister L. `` Larry '' Wilmore -LRB- born October 30 , 1961 -RRB- is an American comedian , writer , producer , and actor .",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "pkg-230b141df95ddc2978ba057f542ecffd",
+  "query": {
+    "created_at": null,
+    "query_id": "230b141df95ddc2978ba057f542ecffd",
+    "text": "Larry Wilmore is the writer of Les Miserables."
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": null,
+      "claim_id": "Larry_Wilmore::p0",
+      "rank": 0,
+      "reason": null,
+      "selection_score": 1.0,
+      "status": "accepted",
+      "utility": null
+    }
+  ],
+  "subgraph": null
+}

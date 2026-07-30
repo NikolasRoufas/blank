@@ -1,0 +1,563 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 123
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-09dcf3dc19032ec5",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Roosevelt Roads Naval Station::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Roosevelt Roads Naval Station",
+          "title": "Roosevelt Roads Naval Station",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 79,
+            "source_id": "Roosevelt Roads Naval Station",
+            "start": 0,
+            "text": "The site is run today as Jos\u00e9 Aponte de la Torre Airport, a public use airport."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Aponte",
+          "Torre Airport"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Aponte",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The site is run today as Jos\u00e9 Aponte de la Torre Airport, a public use airport.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-2cc165f3f6be0540",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Boulder City Municipal Airport::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Boulder City Municipal Airport",
+          "title": "Boulder City Municipal Airport",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 200,
+            "source_id": "Boulder City Municipal Airport",
+            "start": 0,
+            "text": "Boulder City Municipal Airport (IATA: KBVU) is a public use airport located one\u00a0nautical mile (2\u00a0km) southwest of the central business district of Boulder City, in Clark County, Nevada, United States."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Boulder City Municipal Airport",
+          "IATA",
+          "KBVU",
+          "Boulder City",
+          "Clark County",
+          "Nevada",
+          "United States"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [
+          "2\u00a0km"
+        ],
+        "subject": "Boulder City Municipal Airport",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Boulder City Municipal Airport (IATA: KBVU) is a public use airport located one nautical mile (2 km) southwest of the central business district of Boulder City, in Clark County, Nevada, United States.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-81c6baaa6e6744da",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Castillo o Torre::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Castillo o Torre",
+          "title": "Castillo o Torre",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 123,
+            "source_id": "Castillo o Torre",
+            "start": 0,
+            "text": "The ruins are classified as a Bien de Inter\u00e9s Cultural landmark, \"Monumento por declaraci\u00f3n gen\u00e9rica\" (12.02.119.001 Code)."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Bien",
+          "Cultural",
+          "Monumento",
+          "Code"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [
+          "12.02",
+          "119.001"
+        ],
+        "subject": "Bien",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The ruins are classified as a Bien de Inter\u00e9s Cultural landmark, \"Monumento por declaraci\u00f3n gen\u00e9rica\" (12.02.119.001 Code).",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-c485eab1bd736650",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Jos\u00e9 Aponte de la Torre Airport::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Jos\u00e9 Aponte de la Torre Airport",
+          "title": "Jos\u00e9 Aponte de la Torre Airport",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 130,
+            "source_id": "Jos\u00e9 Aponte de la Torre Airport",
+            "start": 0,
+            "text": "Jos\u00e9 Aponte de la Torre Airport (IATA: NRR,\u00a0ICAO: TJRV,\u00a0FAA LID: RVR) is a public use airport owned by Puerto Rico Ports Authority"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Aponte",
+          "Torre Airport",
+          "IATA",
+          "NRR",
+          "ICAO",
+          "TJRV",
+          "FAA LID",
+          "RVR",
+          "Puerto Rico Ports Authority"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Aponte",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Jos\u00e9 Aponte de la Torre Airport (IATA: NRR, ICAO: TJRV, FAA LID: RVR) is a public use airport owned by Puerto Rico Ports Authority",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-b9a8e70b4ed21047",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Jos\u00e9 Aponte de la Torre Airport::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Jos\u00e9 Aponte de la Torre Airport",
+          "title": "Jos\u00e9 Aponte de la Torre Airport",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 215,
+            "source_id": "Jos\u00e9 Aponte de la Torre Airport",
+            "start": 135,
+            "text": "located 2 NM from the central business district of Ceiba, a town in Puerto Rico."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "NM",
+          "Ceiba",
+          "Puerto Rico"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "NM",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "located 2 NM from the central business district of Ceiba, a town in Puerto Rico.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-7465bee9949e6131",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Jos\u00e9 Aponte de la Torre::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Jos\u00e9 Aponte de la Torre",
+          "title": "Jos\u00e9 Aponte de la Torre",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 94,
+            "source_id": "Jos\u00e9 Aponte de la Torre",
+            "start": 0,
+            "text": "Jos\u00e9 Ernesto Aponte de la Torre (December 5, 1941 \u2013 May 5, 2007) was a Puerto Rican politician"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [
+          "May"
+        ],
+        "named_entities": [
+          "Ernesto Aponte",
+          "Torre",
+          "Puerto Rican"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Ernesto Aponte",
+        "temporal_expressions": [
+          "December 5, 1941",
+          "May 5, 2007"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Jos\u00e9 Ernesto Aponte de la Torre (December 5, 1941 \u2013 May 5, 2007) was a Puerto Rican politician",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-f56e21ce35c0999b",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Jos\u00e9 Aponte de la Torre::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Jos\u00e9 Aponte de la Torre",
+          "title": "Jos\u00e9 Aponte de la Torre",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 143,
+            "source_id": "Jos\u00e9 Aponte de la Torre",
+            "start": 99,
+            "text": "mayor of Carolina, Puerto Rico for 22 years."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Carolina",
+          "Puerto Rico"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Carolina",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "mayor of Carolina, Puerto Rico for 22 years.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [
+    {
+      "claim_ids": [
+        "clm-2cc165f3f6be0540",
+        "clm-b9a8e70b4ed21047",
+        "clm-c485eab1bd736650"
+      ],
+      "conflict_id": "conflict:0",
+      "members": [
+        {
+          "claim_id": "clm-2cc165f3f6be0540",
+          "independent_support": 0,
+          "propagated_belief": 0.485628,
+          "relation_confidence": 0.979204,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-b9a8e70b4ed21047",
+          "independent_support": 0,
+          "propagated_belief": 0.44351,
+          "relation_confidence": 0.979204,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-c485eab1bd736650",
+          "independent_support": 0,
+          "propagated_belief": 0.472007,
+          "relation_confidence": 0.921636,
+          "source_reliability": 0.5,
+          "timestamp": null
+        }
+      ],
+      "outcome": "unresolved",
+      "preferred_claim_id": null,
+      "relation_ids": [
+        "rel-68e69914a6cc1021",
+        "rel-7fa6c52ffe1e1403"
+      ],
+      "resolution_note": "top two competitors within margin 0.100 (0.486 vs 0.472)",
+      "resolved": false
+    }
+  ],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5ac07a17554299294b219000",
+    "text": "Both Jos\u00e9 Aponte de la Torre Airport and Boulder City Municipal Airport are classified as what type of airport?"
+  },
+  "relations": [
+    {
+      "bridge": null,
+      "direction": "directed",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "entailment",
+        "features": {
+          "entailment": 0.950144
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "entailment above threshold",
+      "relation_confidence": 0.950144,
+      "relation_id": "rel-9fa9ef59acb0e65c",
+      "relation_type": "support",
+      "source_claim_id": "clm-c485eab1bd736650",
+      "target_claim_id": "clm-09dcf3dc19032ec5"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.979204
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.979204,
+      "relation_id": "rel-7fa6c52ffe1e1403",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-2cc165f3f6be0540",
+      "target_claim_id": "clm-b9a8e70b4ed21047"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.921636
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.921636,
+      "relation_id": "rel-68e69914a6cc1021",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-2cc165f3f6be0540",
+      "target_claim_id": "clm-c485eab1bd736650"
+    }
+  ],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.573139,
+      "claim_id": "clm-09dcf3dc19032ec5",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 0.963139,
+      "status": "accepted",
+      "utility": 0.39
+    },
+    {
+      "belief": 0.472007,
+      "claim_id": "clm-c485eab1bd736650",
+      "rank": 1,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.810242,
+      "status": "disputed",
+      "utility": 0.338235
+    },
+    {
+      "belief": 0.485628,
+      "claim_id": "clm-2cc165f3f6be0540",
+      "rank": 2,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.798128,
+      "status": "disputed",
+      "utility": 0.3125
+    },
+    {
+      "belief": 0.44351,
+      "claim_id": "clm-b9a8e70b4ed21047",
+      "rank": 3,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.709639,
+      "status": "disputed",
+      "utility": 0.266129
+    }
+  ],
+  "subgraph": null
+}

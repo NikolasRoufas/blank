@@ -1,0 +1,83 @@
+{
+  "claim_only_rag|0": [
+    "uncited claim-like sentence: 'The provided evidence does not state that The Bee Gees were '",
+    "uncited claim-like sentence: 'The evidence states that Aleister Crowley was English, not F'",
+    "uncited claim-like sentence: 'The provided evidence does not contain information about Buf'",
+    "uncited claim-like sentence: 'The evidence states that Shane Black was born on December 16'",
+    "uncited claim-like sentence: 'The provided evidence does not contain information regarding'",
+    "uncited claim-like sentence: 'A Milli is by a person from the United States, as it is a so'",
+    "uncited claim-like sentence: 'The provided evidence does not contain information about Sha'",
+    "uncited claim-like sentence: 'The provided evidence does not contain information about the'"
+  ],
+  "full_egrag|0": [
+    "uncited claim-like sentence: 'The provided evidence does not state that The Bee Gees were '",
+    "uncited claim-like sentence: 'The evidence states that Aleister Crowley was an English occ'",
+    "uncited claim-like sentence: 'The evidence states that Shane Black was born on December 16'",
+    "uncited claim-like sentence: 'The provided evidence does not support the claim that Michig'",
+    "uncited claim-like sentence: 'It only mentions the Upper Peninsula as a tourist destinatio'",
+    "uncited claim-like sentence: 'A Milli is by a person from the United States, as it is a so'",
+    "uncited claim-like sentence: 'The evidence states that Noah Cyrus is the younger sister of'"
+  ],
+  "graph_coherent_subgraph|0": [
+    "uncited claim-like sentence: 'The provided evidence does not state that The Bee Gees were '",
+    "uncited claim-like sentence: 'The evidence states that Aleister Crowley was an English occ'",
+    "uncited claim-like sentence: 'The evidence states that Shane Black was born on December 16'",
+    "uncited claim-like sentence: 'The provided evidence does not support the claim that Michig'",
+    "uncited claim-like sentence: 'It only mentions the Upper Peninsula as a tourist destinatio'",
+    "uncited claim-like sentence: 'A Milli is by a person from the United States, as it is a so'",
+    "uncited claim-like sentence: 'The evidence states that Noah Cyrus is the younger sister of'"
+  ],
+  "graph_no_contradiction|0": [
+    "uncited claim-like sentence: 'The provided evidence does not state that The Bee Gees were '",
+    "uncited claim-like sentence: 'The evidence states that Aleister Crowley was an English occ'",
+    "uncited claim-like sentence: 'The evidence states that Shane Black was born on December 16'",
+    "uncited claim-like sentence: 'The provided evidence does not support the claim that Michig'",
+    "uncited claim-like sentence: 'It only mentions the Upper Peninsula as a tourist destinatio'",
+    "uncited claim-like sentence: 'A Milli is by a person from the United States, as it is a so'",
+    "uncited claim-like sentence: 'The evidence states that Noah Cyrus is the younger sister of'"
+  ],
+  "graph_no_propagation|0": [
+    "uncited claim-like sentence: 'The provided evidence does not state that The Bee Gees were '",
+    "uncited claim-like sentence: 'The evidence states that Aleister Crowley was an English occ'",
+    "uncited claim-like sentence: 'The evidence states that Shane Black was born on December 16'",
+    "uncited claim-like sentence: 'The provided evidence does not support the claim that Michig'",
+    "uncited claim-like sentence: 'It only mentions the Upper Peninsula as a tourist destinatio'",
+    "uncited claim-like sentence: 'A Milli is by a person from the United States, as it is a so'",
+    "uncited claim-like sentence: 'The evidence states that Noah Cyrus is the younger sister of'"
+  ],
+  "graph_no_temporal|0": [
+    "uncited claim-like sentence: 'The provided evidence does not state that The Bee Gees were '",
+    "uncited claim-like sentence: 'The evidence states that Aleister Crowley was an English occ'",
+    "uncited claim-like sentence: 'The evidence states that Shane Black was born on December 16'",
+    "uncited claim-like sentence: 'The provided evidence does not support the claim that Michig'",
+    "uncited claim-like sentence: 'It only mentions the Upper Peninsula as a tourist destinatio'",
+    "uncited claim-like sentence: 'A Milli is by a person from the United States, as it is a so'",
+    "uncited claim-like sentence: 'The evidence states that Noah Cyrus is the younger sister of'"
+  ],
+  "graph_top_claim|0": [
+    "uncited claim-like sentence: 'The provided evidence does not state that The Bee Gees were '",
+    "uncited claim-like sentence: 'The evidence states that Aleister Crowley was an English occ'",
+    "uncited claim-like sentence: 'The evidence states that Shane Black was born on December 16'",
+    "uncited claim-like sentence: 'The provided evidence does not contain information about Mic'",
+    "uncited claim-like sentence: 'A Milli is by a person from the United States, as it is a so'",
+    "uncited claim-like sentence: 'The evidence states that Noah Cyrus is the younger sister of'",
+    "uncited claim-like sentence: 'The provided evidence does not contain information regarding'"
+  ],
+  "graph_with_propagation|0": [
+    "uncited claim-like sentence: 'The provided evidence does not state that The Bee Gees were '",
+    "uncited claim-like sentence: 'The evidence states that Aleister Crowley was an English occ'",
+    "uncited claim-like sentence: 'The evidence states that Shane Black was born on December 16'",
+    "uncited claim-like sentence: 'The provided evidence does not support the claim that Michig'",
+    "uncited claim-like sentence: 'It only mentions the Upper Peninsula as a tourist destinatio'",
+    "uncited claim-like sentence: 'A Milli is by a person from the United States, as it is a so'",
+    "uncited claim-like sentence: 'The evidence states that Noah Cyrus is the younger sister of'"
+  ],
+  "passage_rag|0": [
+    "uncited claim-like sentence: 'The provided evidence does not contain information about Buf'",
+    "uncited claim-like sentence: 'It only mentions Cordelia Chase appearing in comic books and'"
+  ],
+  "reranked_passage_rag|0": [
+    "uncited claim-like sentence: 'The provided evidence does not contain information about Buf'",
+    "uncited claim-like sentence: 'It only mentions Cordelia Chase appearing in comic books and'"
+  ]
+}

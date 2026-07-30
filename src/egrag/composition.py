@@ -30,6 +30,7 @@ from egrag.generation import (
     TextGenerator,
     validate_config,
 )
+from egrag.hf_runtime import ensure_device_available
 from egrag.reproducibility import build_run_manifest, now
 from egrag.security import check_file_size, safe_artifact_path, validate_url, validate_within_base
 
@@ -76,7 +77,19 @@ def build_generator(config: EGRagConfig) -> TextGenerator:
     if not gen.model:
         raise ConfigurationError("generation.model is required for the huggingface adapter")
     _require("transformers", "local-models")
-    return HuggingFaceGenerator(gen.model, context_limit=gen.context_limit)
+    if gen.quantization != "none":
+        _require("bitsandbytes", "quantization")
+    if gen.require_cuda:
+        ensure_device_available("cuda")
+    return HuggingFaceGenerator(
+        gen.model,
+        context_limit=gen.context_limit,
+        revision=gen.model_revision,
+        device=gen.device,
+        dtype=gen.dtype,
+        quantization=gen.quantization,
+        require_cuda=gen.require_cuda,
+    )
 
 
 def validate_runtime(config: EGRagConfig) -> list[str]:
@@ -177,6 +190,11 @@ def run_pipeline(
             "extractor": "SentenceClaimExtractor",
         },
         model_identifiers={"generator": config.generation.model or config.generation.adapter},
+        model_revisions=(
+            {"generator": config.generation.model_revision}
+            if config.generation.model_revision
+            else {}
+        ),
         prompt_versions={"extraction": config.extraction.prompt_version},
         corpus_texts=[doc.text for doc in documents],
         started_at=started,

@@ -1,0 +1,25 @@
+{
+  "dataset_fingerprint": "ed62de52c963d63483027774784a03a10a74e9fadcd3eb27a7c3f4c84f25fd46",
+  "egrag_version": "0.1.0",
+  "environment": {
+    "cuda_available": "true",
+    "cuda_runtime_version": "13.0",
+    "gpu_count": "1",
+    "gpu_name": "NVIDIA GeForce RTX 3090",
+    "gpu_vram_total_gib": "23.6",
+    "implementation": "CPython",
+    "platform": "Linux-5.15.0-171-generic-x86_64-with-glibc2.39",
+    "python": "3.12.3",
+    "torch_installed": "true",
+    "torch_used_this_run": "true",
+    "torch_version": "2.12.1+cu130",
+    "transformers_installed": "true",
+    "transformers_used_this_run": "true",
+    "transformers_version": "5.12.1"
+  },
+  "git_commit": "3baf2b78ecce503252fc696b27aaf59f67a4c9f9",
+  "schema_version": "1.6.0",
+  "seeds": [
+    0
+  ]
+}

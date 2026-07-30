@@ -1,0 +1,305 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 21
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-4346d3439006ca63",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Upper Crust Pizzeria::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Upper Crust Pizzeria",
+          "title": "Upper Crust Pizzeria",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 84,
+            "source_id": "Upper Crust Pizzeria",
+            "start": 0,
+            "text": "Upper Crust Pizzeria is a Boston, Massachusetts based chain of pizzeria restaurants."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Upper Crust Pizzeria",
+          "Boston",
+          "Massachusetts"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Upper Crust Pizzeria",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Upper Crust Pizzeria is a Boston, Massachusetts based chain of pizzeria restaurants.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-0da0043b54ec90b3",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'it' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "New Haven-style pizza::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "New Haven-style pizza",
+          "title": "New Haven-style pizza",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 161,
+            "source_id": "New Haven-style pizza",
+            "start": 0,
+            "text": "It originated at the Frank Pepe Pizzeria Napoletana and is now served in many other pizza restaurants in the area, most notably Sally's Apizza and Modern Apizza."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Frank Pepe Pizzeria Napoletana",
+          "Sally",
+          "Apizza",
+          "Modern Apizza"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "It",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "It originated at the Frank Pepe Pizzeria Napoletana and is now served in many other pizza restaurants in the area, most notably Sally's Apizza and Modern Apizza.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-cb3400138dee39a7",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Basin and range topography::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Basin and range topography",
+          "title": "Basin and range topography",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 130,
+            "source_id": "Basin and range topography",
+            "start": 0,
+            "text": "Normal faults are on both sides the blocks; creating alternating elevated or subsided blocks, otherwise known as horst and graben."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Normal"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Normal",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Normal faults are on both sides the blocks; creating alternating elevated or subsided blocks, otherwise known as horst and graben.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-c78b70b3893666d1",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Eatza Pizza::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Eatza Pizza",
+          "title": "Eatza Pizza",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 75,
+            "source_id": "Eatza Pizza",
+            "start": 0,
+            "text": "Eatza Pizza was a buffet-style restaurant chain founded in Arizona in 1997."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Eatza Pizza",
+          "Arizona"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Eatza Pizza",
+        "temporal_expressions": [
+          "1997"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Eatza Pizza was a buffet-style restaurant chain founded in Arizona in 1997.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-62cdefbf927df82f",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Tilted block faulting::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Tilted block faulting",
+          "title": "Tilted block faulting",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 166,
+            "source_id": "Tilted block faulting",
+            "start": 0,
+            "text": "The large unit of tilted blocks and associated crust can help form an integral part of metamorphic core complexes and can occur on both continental and oceanic crust."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": null,
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The large unit of tilted blocks and associated crust can help form an integral part of metamorphic core complexes and can occur on both continental and oceanic crust.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5ade15a45542997545bbbe46",
+    "text": "Are both Upper Crust Pizzeria and Eatza Pizza restaurants?"
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.48,
+      "claim_id": "clm-4346d3439006ca63",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 0.855,
+      "status": "accepted",
+      "utility": 0.375
+    }
+  ],
+  "subgraph": null
+}

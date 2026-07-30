@@ -1,0 +1,101 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 39
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-e26274c6c5e16b48",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "David_Packouz::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "David_Packouz",
+          "title": "David Packouz",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 154,
+            "source_id": "David_Packouz",
+            "start": 0,
+            "text": "David Mordechai Packouz -LRB- -LSB- p\u00e6kha\u028as -RSB- born February 16 , 1982 -RRB- is an American former arms dealer , musician , inventor and entrepreneur ."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "David Mordechai Packouz",
+          "LRB",
+          "LSB",
+          "RSB",
+          "RRB",
+          "American"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "David Mordechai Packouz",
+        "temporal_expressions": [
+          "February 16",
+          "1982"
+        ]
+      },
+      "source_reliability": null,
+      "text": "David Mordechai Packouz -LRB- -LSB- p\u00e6kha\u028as -RSB- born February 16 , 1982 -RRB- is an American former arms dealer , musician , inventor and entrepreneur .",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "06fe5e3bbac735be1aa72c19f2405175",
+    "text": "David Packouz is a musician."
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.462,
+      "claim_id": "clm-e26274c6c5e16b48",
+      "rank": 0,
+      "reason": "top base value within budget",
+      "selection_score": 0.792,
+      "status": "accepted",
+      "utility": 0.33
+    }
+  ],
+  "subgraph": null
+}

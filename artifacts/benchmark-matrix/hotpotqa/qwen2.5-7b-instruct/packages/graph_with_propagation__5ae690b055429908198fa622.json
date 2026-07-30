@@ -1,0 +1,365 @@
+{
+  "budget": {
+    "reserved_output": 16,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 23
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-9fbb4adb37e08ff9",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Jamell Anderson::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Jamell Anderson",
+          "title": "Jamell Anderson",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 136,
+            "source_id": "Jamell Anderson",
+            "start": 0,
+            "text": "Jamell Anderson (born 6 July 1990) is a British professional basketball player who plays for British club Cheshire Phoenix as a forward."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Jamell Anderson",
+          "British",
+          "Cheshire Phoenix"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Jamell Anderson",
+        "temporal_expressions": [
+          "1990"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Jamell Anderson (born 6 July 1990) is a British professional basketball player who plays for British club Cheshire Phoenix as a forward.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-eeaf7c14408cf4f2",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "David Kool::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "David Kool",
+          "title": "David Kool",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 89,
+            "source_id": "David Kool",
+            "start": 0,
+            "text": "Kool previously served as assistant coach for the WMU men's basketball team from 2011\u201313."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Kool",
+          "WMU"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Kool",
+        "temporal_expressions": [
+          "2011"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Kool previously served as assistant coach for the WMU men's basketball team from 2011\u201313.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-59ab0e8e7daf7bdd",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "David Kool::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "David Kool",
+          "title": "David Kool",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 142,
+            "source_id": "David Kool",
+            "start": 0,
+            "text": "David Anderson Kool (born September 23, 1987) is a former collegiate basketball player for the Western Michigan Broncos men's basketball team."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "David Anderson Kool",
+          "Western Michigan Broncos"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "David Anderson Kool",
+        "temporal_expressions": [
+          "September 23, 1987"
+        ]
+      },
+      "source_reliability": null,
+      "text": "David Anderson Kool (born September 23, 1987) is a former collegiate basketball player for the Western Michigan Broncos men's basketball team.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-4515a5462f49a82a",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Central Missouri Mules basketball::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Central Missouri Mules basketball",
+          "title": "Central Missouri Mules basketball",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 80,
+            "source_id": "Central Missouri Mules basketball",
+            "start": 0,
+            "text": "The basketball team plays its home games in the Multipurpose Building on campus."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Multipurpose Building"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Multipurpose Building",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The basketball team plays its home games in the Multipurpose Building on campus.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-6cff9742e838a751",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Al-Wakrah Sport Club (basketball)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Al-Wakrah Sport Club (basketball)",
+          "title": "Al-Wakrah Sport Club (basketball)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 153,
+            "source_id": "Al-Wakrah Sport Club (basketball)",
+            "start": 0,
+            "text": "Al Wakrah Basketball Team (Arabic: \u0641\u0631\u064a\u0642 \u0643\u0631\u0629 \u0627\u0644\u0633\u0644\u0629 \u0627\u0644\u0648\u0643\u0631\u0629\u200e \u200e ) is a Qatari professional basketball team based in the city of Al Wakrah, in southern Qatar."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Al Wakrah Basketball Team",
+          "Arabic",
+          "Qatari",
+          "Al Wakrah",
+          "Qatar"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Al Wakrah Basketball Team",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Al Wakrah Basketball Team (Arabic: \u0641\u0631\u064a\u0642 \u0643\u0631\u0629 \u0627\u0644\u0633\u0644\u0629 \u0627\u0644\u0648\u0643\u0631\u0629\u200e \u200e ) is a Qatari professional basketball team based in the city of Al Wakrah, in southern Qatar.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [
+    {
+      "claim_ids": [
+        "clm-59ab0e8e7daf7bdd",
+        "clm-9fbb4adb37e08ff9"
+      ],
+      "conflict_id": "conflict:0",
+      "members": [
+        {
+          "claim_id": "clm-59ab0e8e7daf7bdd",
+          "independent_support": 0,
+          "propagated_belief": 0.477951,
+          "relation_confidence": 0.975161,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-9fbb4adb37e08ff9",
+          "independent_support": 0,
+          "propagated_belief": 0.480622,
+          "relation_confidence": 0.975161,
+          "source_reliability": 0.5,
+          "timestamp": null
+        }
+      ],
+      "outcome": "unresolved",
+      "preferred_claim_id": null,
+      "relation_ids": [
+        "rel-885e0e245c6eb77c"
+      ],
+      "resolution_note": "top two competitors within margin 0.100 (0.481 vs 0.478)",
+      "resolved": false
+    }
+  ],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5ae690b055429908198fa622",
+    "text": "Jamell Anderson plays for the basketball team from what city?"
+  },
+  "relations": [
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.975161
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.975161,
+      "relation_id": "rel-885e0e245c6eb77c",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-59ab0e8e7daf7bdd",
+      "target_claim_id": "clm-9fbb4adb37e08ff9"
+    }
+  ],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.477619,
+      "claim_id": "clm-eeaf7c14408cf4f2",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 0.846667,
+      "status": "accepted",
+      "utility": 0.369048
+    }
+  ],
+  "subgraph": null
+}

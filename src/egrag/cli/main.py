@@ -98,6 +98,17 @@ def run(
     generator: str = typer.Option("fake", "--generator", help="Generator: fake|openai|hf."),
     base_url: str | None = typer.Option(None, "--base-url", help="OpenAI-compatible base URL."),
     model: str | None = typer.Option(None, "--model", help="Model name for openai/hf generators."),
+    revision: str | None = typer.Option(None, "--revision", help="Model revision (hf generator)."),
+    device: str = typer.Option("auto", "--device", help="cpu/mps/cuda/cuda:N/auto (hf generator)."),
+    dtype: str | None = typer.Option(
+        None, "--dtype", help="float32/float16/bfloat16/auto (hf generator)."
+    ),
+    quantization: str = typer.Option(
+        "none", "--quantization", help="none/4bit/8bit (hf generator)."
+    ),
+    require_cuda: bool = typer.Option(
+        False, "--require-cuda/--no-require-cuda", help="fail instead of silently using CPU."
+    ),
     top_k: int = typer.Option(4, "--top-k", help="Passages to retrieve."),
     evidence_budget: int = typer.Option(512, "--evidence-budget", help="Evidence token budget."),
     deterministic: bool = typer.Option(True, "--deterministic/--sampled", help="Decoding mode."),
@@ -133,7 +144,9 @@ def run(
         except (PipelineError, GenerationError, ValueError) as exc:
             _fail(f"pipeline failed: {exc}", _EXIT_FAILURE)
     else:
-        text_generator = _build_generator(generator, base_url, model)
+        text_generator = _build_generator(
+            generator, base_url, model, revision, device, dtype, quantization, require_cuda
+        )
         documents = build_demo_documents()
         gen_config = GenerationConfig(deterministic=deterministic, seed=settings.seed)
         try:
@@ -187,7 +200,16 @@ def run(
         )
 
 
-def _build_generator(name: str, base_url: str | None, model: str | None) -> TextGenerator:
+def _build_generator(
+    name: str,
+    base_url: str | None,
+    model: str | None,
+    revision: str | None = None,
+    device: str = "auto",
+    dtype: str | None = None,
+    quantization: str = "none",
+    require_cuda: bool = False,
+) -> TextGenerator:
     if name == "fake":
         return FakeTextGenerator()
     if name == "openai":
@@ -197,7 +219,14 @@ def _build_generator(name: str, base_url: str | None, model: str | None) -> Text
     if name == "hf":
         if not model:
             _fail("the hf generator requires --model.", _EXIT_CONFIG)
-        return HuggingFaceGenerator(model)
+        return HuggingFaceGenerator(
+            model,
+            revision=revision,
+            device=device,
+            dtype=dtype,
+            quantization=quantization,
+            require_cuda=require_cuda,
+        )
     _fail(f"unknown generator {name!r}; choose fake, openai, or hf.", _EXIT_CONFIG)
 
 

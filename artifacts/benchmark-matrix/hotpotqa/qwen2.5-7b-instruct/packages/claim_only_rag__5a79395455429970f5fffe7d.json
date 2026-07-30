@@ -1,0 +1,362 @@
+{
+  "budget": {
+    "reserved_output": 16,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 193
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-0da6c77a02089810",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Roxane Berard::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Roxane Berard",
+          "title": "Roxane Berard",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 184,
+            "source_id": "Roxane Berard",
+            "start": 0,
+            "text": "Roxane Berard (born January 21, 1933), is a Belgian-born actress who was the leading lady in various episodes of thirty-four different American television series between 1958 and 1967."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Roxane Berard",
+          "Belgian",
+          "American"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Roxane Berard",
+        "temporal_expressions": [
+          "January 21, 1933",
+          "1958",
+          "1967"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Roxane Berard (born January 21, 1933), is a Belgian-born actress who was the leading lady in various episodes of thirty-four different American television series between 1958 and 1967.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-3120729158b6ea60",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Robert Karvelas::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Robert Karvelas",
+          "title": "Robert Karvelas",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 176,
+            "source_id": "Robert Karvelas",
+            "start": 0,
+            "text": "Robert Karvelas (April 3, 1921\u00a0\u2013 December 5, 1991) was an American actor who was notable for his role as the Chief's dense assistant, Larrabee, on the 1960s sitcom \"Get Smart\"."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Robert Karvelas",
+          "American",
+          "Chief",
+          "Larrabee",
+          "Get Smart"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Robert Karvelas",
+        "temporal_expressions": [
+          "April 3, 1921",
+          "December 5, 1991"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Robert Karvelas (April 3, 1921 \u2013 December 5, 1991) was an American actor who was notable for his role as the Chief's dense assistant, Larrabee, on the 1960s sitcom \"Get Smart\".",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-b05d9ea60d128d83",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Barbara Feldon::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Barbara Feldon",
+          "title": "Barbara Feldon",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 154,
+            "source_id": "Barbara Feldon",
+            "start": 0,
+            "text": "Barbara Feldon (born March 12, 1933) is an American character actress who works mostly in the theatre, but is primarily known for her roles on television."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Barbara Feldon",
+          "American"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Barbara Feldon",
+        "temporal_expressions": [
+          "March 12, 1933"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Barbara Feldon (born March 12, 1933) is an American character actress who works mostly in the theatre, but is primarily known for her roles on television.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-b5ed76c8d29157dd",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Get Smart (1995 TV series)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Get Smart (1995 TV series)",
+          "title": "Get Smart (1995 TV series)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 187,
+            "source_id": "Get Smart (1995 TV series)",
+            "start": 0,
+            "text": "Get Smart is an American sitcom sequel to the original 1965\u20131970 NBC/CBS sitcom \"Get Smart\" starring Don Adams and Barbara Feldon reprising their characters of Maxwell Smart and Agent 99."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Get Smart",
+          "American",
+          "NBC",
+          "CBS",
+          "Don Adams",
+          "Barbara Feldon",
+          "Maxwell Smart",
+          "Agent"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Get Smart",
+        "temporal_expressions": [
+          "1965",
+          "1970"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Get Smart is an American sitcom sequel to the original 1965\u20131970 NBC/CBS sitcom \"Get Smart\" starring Don Adams and Barbara Feldon reprising their characters of Maxwell Smart and Agent 99.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-f61353293733343a",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'her' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Barbara Feldon::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Barbara Feldon",
+          "title": "Barbara Feldon",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 77,
+            "source_id": "Barbara Feldon",
+            "start": 0,
+            "text": "Her most prominent role was that of Agent 99 on the 1960s sitcom \"Get Smart\"."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Agent",
+          "Get Smart"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Her",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Her most prominent role was that of Agent 99 on the 1960s sitcom \"Get Smart\".",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "pkg-5a79395455429970f5fffe7d",
+  "query": {
+    "created_at": null,
+    "query_id": "5a79395455429970f5fffe7d",
+    "text": "What was the name of the lead character in the 1960s sitcom \"Get Smart\", which also featured an American actress born in 1933?"
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": null,
+      "claim_id": "clm-0da6c77a02089810",
+      "rank": 0,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-3120729158b6ea60",
+      "rank": 1,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-b05d9ea60d128d83",
+      "rank": 2,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-b5ed76c8d29157dd",
+      "rank": 3,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-f61353293733343a",
+      "rank": 4,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    }
+  ],
+  "subgraph": null
+}

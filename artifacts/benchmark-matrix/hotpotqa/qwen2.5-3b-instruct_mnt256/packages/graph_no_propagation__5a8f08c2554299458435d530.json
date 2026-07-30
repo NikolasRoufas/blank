@@ -1,0 +1,754 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 78
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-24bd767734eccbc6",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Peter Kay's Car Share::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Peter Kay's Car Share",
+          "title": "Peter Kay's Car Share",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 107,
+            "source_id": "Peter Kay's Car Share",
+            "start": 0,
+            "text": "Peter Kay's Car Share is a British sitcom set around supermarket assistant manager John Redmond (Peter Kay)"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Peter Kay",
+          "Car Share",
+          "British",
+          "John Redmond"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Peter Kay",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Peter Kay's Car Share is a British sitcom set around supermarket assistant manager John Redmond (Peter Kay)",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-fc0a9e81e0b9d069",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Peter Kay's Car Share::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Peter Kay's Car Share",
+          "title": "Peter Kay's Car Share",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 157,
+            "source_id": "Peter Kay's Car Share",
+            "start": 112,
+            "text": "promotions rep Kayleigh Kitson (Sian Gibson),"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Kayleigh Kitson",
+          "Sian Gibson"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Kayleigh Kitson",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "promotions rep Kayleigh Kitson (Sian Gibson),",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-2fd27d4f8755fe43",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Peter Kay's Car Share::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Peter Kay's Car Share",
+          "title": "Peter Kay's Car Share",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 212,
+            "source_id": "Peter Kay's Car Share",
+            "start": 162,
+            "text": "their participation in a company car share scheme."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": null,
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "their participation in a company car share scheme.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-acb463ef2d4caa47",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Cradle to Grave::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Cradle to Grave",
+          "title": "Cradle to Grave",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 76,
+            "source_id": "Cradle to Grave",
+            "start": 0,
+            "text": "Cradle to Grave is a 2015 British sitcom set around the life of Danny Baker."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Cradle",
+          "Grave",
+          "British",
+          "Danny Baker"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Cradle",
+        "temporal_expressions": [
+          "2015"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Cradle to Grave is a 2015 British sitcom set around the life of Danny Baker.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-942c89bc3d40b8a2",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Trollied::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Trollied",
+          "title": "Trollied",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 127,
+            "source_id": "Trollied",
+            "start": 0,
+            "text": "Trollied is a British sitcom about employees in a fictional supermarket named \"Valco\", which debuted on Sky 1 on 4 August 2011."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Trollied",
+          "British",
+          "Valco",
+          "Sky"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Trollied",
+        "temporal_expressions": [
+          "2011"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Trollied is a British sitcom about employees in a fictional supermarket named \"Valco\", which debuted on Sky 1 on 4 August 2011.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-6faf413d3ed78e63",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Sian Gibson::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Sian Gibson",
+          "title": "Sian Gibson",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 64,
+            "source_id": "Sian Gibson",
+            "start": 0,
+            "text": "Si\u00e2n Gibson (born Si\u00e2n Foulkes; 15 July 1976) is a Welsh actress"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Gibson",
+          "Foulkes",
+          "Welsh"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Gibson",
+        "temporal_expressions": [
+          "1976"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Si\u00e2n Gibson (born Si\u00e2n Foulkes; 15 July 1976) is a Welsh actress",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-6cdea17047be0ed1",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Sian Gibson::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Sian Gibson",
+          "title": "Sian Gibson",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 155,
+            "source_id": "Sian Gibson",
+            "start": 69,
+            "text": "writer perhaps best known for her collaborations with Peter Kay, including starring in"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [
+          "perhaps"
+        ],
+        "named_entities": [
+          "Peter Kay"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Peter Kay",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "writer perhaps best known for her collaborations with Peter Kay, including starring in",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-3c584ce3785dd7cb",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Sian Gibson::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Sian Gibson",
+          "title": "Sian Gibson",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 280,
+            "source_id": "Sian Gibson",
+            "start": 160,
+            "text": "co-writing the comedy series \"Peter Kay's Car Share\", for which she won the 2016 BAFTA TV Award for Best Scripted Comedy"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Peter Kay",
+          "Car Share",
+          "BAFTA TV Award",
+          "Best Scripted Comedy"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Peter Kay",
+        "temporal_expressions": [
+          "2016"
+        ]
+      },
+      "source_reliability": null,
+      "text": "co-writing the comedy series \"Peter Kay's Car Share\", for which she won the 2016 BAFTA TV Award for Best Scripted Comedy",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-aacf50c60019c86c",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Sian Gibson::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Sian Gibson",
+          "title": "Sian Gibson",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 331,
+            "source_id": "Sian Gibson",
+            "start": 285,
+            "text": "the National Television Award for Best Comedy."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "National Television Award",
+          "Best Comedy"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "National Television Award",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "the National Television Award for Best Comedy.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-0d3ebb7628df806f",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Famous (TV series)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Famous (TV series)",
+          "title": "Famous (TV series)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 166,
+            "source_id": "Famous (TV series)",
+            "start": 0,
+            "text": "Fox gave the comedy series, set around couples therapy, a 10-episode straight-to-series order in April 2016, with the series originally set to start on June 12, 2016."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Fox"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Fox",
+        "temporal_expressions": [
+          "2016",
+          "June 12, 2016"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Fox gave the comedy series, set around couples therapy, a 10-episode straight-to-series order in April 2016, with the series originally set to start on June 12, 2016.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [
+    {
+      "claim_ids": [
+        "clm-24bd767734eccbc6",
+        "clm-942c89bc3d40b8a2",
+        "clm-acb463ef2d4caa47"
+      ],
+      "conflict_id": "conflict:0",
+      "members": [
+        {
+          "claim_id": "clm-24bd767734eccbc6",
+          "independent_support": 0,
+          "propagated_belief": 0.499565,
+          "relation_confidence": 0.95761,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-942c89bc3d40b8a2",
+          "independent_support": 0,
+          "propagated_belief": 0.463333,
+          "relation_confidence": 0.968661,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-acb463ef2d4caa47",
+          "independent_support": 0,
+          "propagated_belief": 0.47,
+          "relation_confidence": 0.968661,
+          "source_reliability": 0.5,
+          "timestamp": null
+        }
+      ],
+      "outcome": "unresolved",
+      "preferred_claim_id": null,
+      "relation_ids": [
+        "rel-20d5c31f72743f8b",
+        "rel-6c8128342344456f",
+        "rel-8ad84a2efca0da4f"
+      ],
+      "resolution_note": "top two competitors within margin 0.100 (0.500 vs 0.470)",
+      "resolved": false
+    },
+    {
+      "claim_ids": [
+        "clm-3c584ce3785dd7cb",
+        "clm-aacf50c60019c86c"
+      ],
+      "conflict_id": "conflict:1",
+      "members": [
+        {
+          "claim_id": "clm-3c584ce3785dd7cb",
+          "independent_support": 0,
+          "propagated_belief": 0.455806,
+          "relation_confidence": 0.765545,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-aacf50c60019c86c",
+          "independent_support": 0,
+          "propagated_belief": 0.43,
+          "relation_confidence": 0.765545,
+          "source_reliability": 0.5,
+          "timestamp": null
+        }
+      ],
+      "outcome": "unresolved",
+      "preferred_claim_id": null,
+      "relation_ids": [
+        "rel-3fd3d292c6e1b936"
+      ],
+      "resolution_note": "top two competitors within margin 0.100 (0.456 vs 0.430)",
+      "resolved": false
+    }
+  ],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5a8f08c2554299458435d530",
+    "text": "Sian Gibson co-wrote which British sitcom, set around a supermarket and car share scheme?"
+  },
+  "relations": [
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.95761
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.95761,
+      "relation_id": "rel-8ad84a2efca0da4f",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-24bd767734eccbc6",
+      "target_claim_id": "clm-942c89bc3d40b8a2"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.93772
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.93772,
+      "relation_id": "rel-6c8128342344456f",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-24bd767734eccbc6",
+      "target_claim_id": "clm-acb463ef2d4caa47"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.765545
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.765545,
+      "relation_id": "rel-3fd3d292c6e1b936",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-3c584ce3785dd7cb",
+      "target_claim_id": "clm-aacf50c60019c86c"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.968661
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.968661,
+      "relation_id": "rel-20d5c31f72743f8b",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-942c89bc3d40b8a2",
+      "target_claim_id": "clm-acb463ef2d4caa47"
+    }
+  ],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.499565,
+      "claim_id": "clm-24bd767734eccbc6",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 0.923478,
+      "status": "disputed",
+      "utility": 0.423913
+    },
+    {
+      "belief": 0.463333,
+      "claim_id": "clm-942c89bc3d40b8a2",
+      "rank": 1,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.796666,
+      "status": "disputed",
+      "utility": 0.333333
+    },
+    {
+      "belief": 0.47,
+      "claim_id": "clm-acb463ef2d4caa47",
+      "rank": 2,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.82,
+      "status": "disputed",
+      "utility": 0.35
+    }
+  ],
+  "subgraph": null
+}

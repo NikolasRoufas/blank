@@ -31,6 +31,8 @@ class HuggingFaceStructuredModel:
         tokenizer_revision: str | None = None,
         device: str | int | None = None,
         dtype: str | None = None,
+        quantization: str | None = None,
+        require_cuda: bool = False,
         apply_chat_template: bool = True,
     ) -> None:
         self._max_new_tokens = max_new_tokens
@@ -42,6 +44,8 @@ class HuggingFaceStructuredModel:
             tokenizer_revision=tokenizer_revision,
             device=device,
             dtype=dtype,
+            quantization=quantization,
+            require_cuda=require_cuda,
         )
 
     def complete(self, prompt: str, *, seed: int = 0, deterministic: bool = True) -> str:

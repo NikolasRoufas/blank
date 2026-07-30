@@ -1,0 +1,2666 @@
+{
+  "per_seed": [
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 1.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 0.5,
+        "evidence_recall": 1.0,
+        "exact_match": 1.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 11700.275196926668,
+        "normalized_exact_match": 1.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 0.0,
+        "num_passages": 2.0,
+        "num_selected": 2.0,
+        "token_estimate": 26.0,
+        "token_f1": 1.0,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 42,
+      "variant": "passage_rag",
+      "warnings": []
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 1.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 0.5,
+        "evidence_recall": 1.0,
+        "exact_match": 1.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 751.7514920327812,
+        "normalized_exact_match": 1.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 0.0,
+        "num_passages": 2.0,
+        "num_selected": 2.0,
+        "token_estimate": 26.0,
+        "token_f1": 1.0,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 123,
+      "variant": "passage_rag",
+      "warnings": []
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 1.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 0.5,
+        "evidence_recall": 1.0,
+        "exact_match": 1.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 748.0479449732229,
+        "normalized_exact_match": 1.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 0.0,
+        "num_passages": 2.0,
+        "num_selected": 2.0,
+        "token_estimate": 26.0,
+        "token_f1": 1.0,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 2026,
+      "variant": "passage_rag",
+      "warnings": []
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 1.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 0.5,
+        "evidence_recall": 1.0,
+        "exact_match": 1.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 755.5896110134199,
+        "normalized_exact_match": 1.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 0.0,
+        "num_passages": 2.0,
+        "num_selected": 2.0,
+        "token_estimate": 26.0,
+        "token_f1": 1.0,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 42,
+      "variant": "reranked_passage_rag",
+      "warnings": []
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 1.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 0.5,
+        "evidence_recall": 1.0,
+        "exact_match": 1.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 750.3502669278532,
+        "normalized_exact_match": 1.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 0.0,
+        "num_passages": 2.0,
+        "num_selected": 2.0,
+        "token_estimate": 26.0,
+        "token_f1": 1.0,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 123,
+      "variant": "reranked_passage_rag",
+      "warnings": []
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 1.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 0.5,
+        "evidence_recall": 1.0,
+        "exact_match": 1.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 750.1518009230494,
+        "normalized_exact_match": 1.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 0.0,
+        "num_passages": 2.0,
+        "num_selected": 2.0,
+        "token_estimate": 26.0,
+        "token_f1": 1.0,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 2026,
+      "variant": "reranked_passage_rag",
+      "warnings": []
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 1.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 0.5,
+        "evidence_recall": 1.0,
+        "exact_match": 1.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1124.173814081587,
+        "normalized_exact_match": 1.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 0.0,
+        "num_passages": 2.0,
+        "num_selected": 2.0,
+        "token_estimate": 26.0,
+        "token_f1": 1.0,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 42,
+      "variant": "claim_only_rag",
+      "warnings": []
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 1.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 0.5,
+        "evidence_recall": 1.0,
+        "exact_match": 1.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1119.6588729508221,
+        "normalized_exact_match": 1.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 0.0,
+        "num_passages": 2.0,
+        "num_selected": 2.0,
+        "token_estimate": 26.0,
+        "token_f1": 1.0,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 123,
+      "variant": "claim_only_rag",
+      "warnings": []
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 1.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 0.5,
+        "evidence_recall": 1.0,
+        "exact_match": 1.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1121.307895053178,
+        "normalized_exact_match": 1.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 0.0,
+        "num_passages": 2.0,
+        "num_selected": 2.0,
+        "token_estimate": 26.0,
+        "token_f1": 1.0,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 2026,
+      "variant": "claim_only_rag",
+      "warnings": []
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 1.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 1.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1101.31249204278,
+        "normalized_exact_match": 1.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 2.0,
+        "num_passages": 2.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 1.0,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 42,
+      "variant": "graph_no_propagation",
+      "warnings": []
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 1.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 1.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1096.5893750544637,
+        "normalized_exact_match": 1.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 2.0,
+        "num_passages": 2.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 1.0,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 123,
+      "variant": "graph_no_propagation",
+      "warnings": []
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 1.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 1.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1097.194163943641,
+        "normalized_exact_match": 1.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 2.0,
+        "num_passages": 2.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 1.0,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 2026,
+      "variant": "graph_no_propagation",
+      "warnings": []
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 1.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 0.5,
+        "evidence_recall": 1.0,
+        "exact_match": 1.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1149.566255044192,
+        "normalized_exact_match": 1.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 2.0,
+        "num_passages": 2.0,
+        "num_selected": 2.0,
+        "token_estimate": 26.0,
+        "token_f1": 1.0,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 42,
+      "variant": "graph_top_claim",
+      "warnings": []
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 1.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 0.5,
+        "evidence_recall": 1.0,
+        "exact_match": 1.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1147.3004239378497,
+        "normalized_exact_match": 1.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 2.0,
+        "num_passages": 2.0,
+        "num_selected": 2.0,
+        "token_estimate": 26.0,
+        "token_f1": 1.0,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 123,
+      "variant": "graph_top_claim",
+      "warnings": []
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 1.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 0.5,
+        "evidence_recall": 1.0,
+        "exact_match": 1.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1118.9342100406066,
+        "normalized_exact_match": 1.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 2.0,
+        "num_passages": 2.0,
+        "num_selected": 2.0,
+        "token_estimate": 26.0,
+        "token_f1": 1.0,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 2026,
+      "variant": "graph_top_claim",
+      "warnings": []
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 1.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 1.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1100.3035900648683,
+        "normalized_exact_match": 1.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 2.0,
+        "num_passages": 2.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 1.0,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 42,
+      "variant": "graph_coherent_subgraph",
+      "warnings": []
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 1.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 1.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1096.240903949365,
+        "normalized_exact_match": 1.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 2.0,
+        "num_passages": 2.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 1.0,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 123,
+      "variant": "graph_coherent_subgraph",
+      "warnings": []
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 1.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 1.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1087.0681279338896,
+        "normalized_exact_match": 1.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 2.0,
+        "num_passages": 2.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 1.0,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 2026,
+      "variant": "graph_coherent_subgraph",
+      "warnings": []
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 1.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 1.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1090.198594960384,
+        "normalized_exact_match": 1.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 2.0,
+        "num_passages": 2.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 1.0,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 42,
+      "variant": "graph_no_temporal",
+      "warnings": []
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 1.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 1.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1086.3924369914457,
+        "normalized_exact_match": 1.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 2.0,
+        "num_passages": 2.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 1.0,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 123,
+      "variant": "graph_no_temporal",
+      "warnings": []
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 1.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 1.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1088.5899050626904,
+        "normalized_exact_match": 1.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 2.0,
+        "num_passages": 2.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 1.0,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 2026,
+      "variant": "graph_no_temporal",
+      "warnings": []
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 1.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 1.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1089.223535032943,
+        "normalized_exact_match": 1.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 2.0,
+        "num_passages": 2.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 1.0,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 42,
+      "variant": "graph_no_contradiction",
+      "warnings": []
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 1.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 1.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1091.0671830642968,
+        "normalized_exact_match": 1.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 2.0,
+        "num_passages": 2.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 1.0,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 123,
+      "variant": "graph_no_contradiction",
+      "warnings": []
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 1.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 1.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1085.3647050680593,
+        "normalized_exact_match": 1.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 2.0,
+        "num_passages": 2.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 1.0,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 2026,
+      "variant": "graph_no_contradiction",
+      "warnings": []
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 1.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 1.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1089.8798150010407,
+        "normalized_exact_match": 1.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 2.0,
+        "num_passages": 2.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 1.0,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 42,
+      "variant": "graph_with_propagation",
+      "warnings": []
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 1.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 1.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1090.408710995689,
+        "normalized_exact_match": 1.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 2.0,
+        "num_passages": 2.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 1.0,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 123,
+      "variant": "graph_with_propagation",
+      "warnings": []
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 1.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 1.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1090.0300010107458,
+        "normalized_exact_match": 1.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 2.0,
+        "num_passages": 2.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 1.0,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 2026,
+      "variant": "graph_with_propagation",
+      "warnings": []
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 1.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 1.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1088.5962250176817,
+        "normalized_exact_match": 1.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 2.0,
+        "num_passages": 2.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 1.0,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 42,
+      "variant": "full_egrag",
+      "warnings": []
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 1.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 1.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1090.3044390724972,
+        "normalized_exact_match": 1.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 2.0,
+        "num_passages": 2.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 1.0,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 123,
+      "variant": "full_egrag",
+      "warnings": []
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 1.0,
+        "answer_evidence_entailment": 1.0,
+        "citation_completeness": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 1.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1093.6893139733002,
+        "normalized_exact_match": 1.0,
+        "num_claims": 2.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 2.0,
+        "num_passages": 2.0,
+        "num_selected": 1.0,
+        "token_estimate": 13.0,
+        "token_f1": 1.0,
+        "unsupported_claim_rate": 0.0
+      },
+      "num_examples": 1,
+      "num_failed": 0,
+      "seed": 2026,
+      "variant": "full_egrag",
+      "warnings": []
+    }
+  ],
+  "seed_aggregated": {
+    "claim_only_rag": {
+      "answer_accuracy": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 0.5,
+        "median": 0.5,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 1121.7135273618624,
+        "median": 1121.307895053178,
+        "std": 2.284639256196545
+      },
+      "normalized_exact_match": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 26.0,
+        "median": 26.0,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      }
+    },
+    "full_egrag": {
+      "answer_accuracy": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 1090.8633260211598,
+        "median": 1090.3044390724972,
+        "std": 2.592133241849191
+      },
+      "normalized_exact_match": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 13.0,
+        "median": 13.0,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      }
+    },
+    "graph_coherent_subgraph": {
+      "answer_accuracy": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 1094.5375406493743,
+        "median": 1096.240903949365,
+        "std": 6.780151130613477
+      },
+      "normalized_exact_match": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 13.0,
+        "median": 13.0,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      }
+    },
+    "graph_no_contradiction": {
+      "answer_accuracy": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 1088.5518077217664,
+        "median": 1089.223535032943,
+        "std": 2.9099788675914464
+      },
+      "normalized_exact_match": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 13.0,
+        "median": 13.0,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      }
+    },
+    "graph_no_propagation": {
+      "answer_accuracy": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 1098.365343680295,
+        "median": 1097.194163943641,
+        "std": 2.570156610596299
+      },
+      "normalized_exact_match": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 13.0,
+        "median": 13.0,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      }
+    },
+    "graph_no_temporal": {
+      "answer_accuracy": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 1088.3936456715066,
+        "median": 1088.5899050626904,
+        "std": 1.9106537971592503
+      },
+      "normalized_exact_match": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 13.0,
+        "median": 13.0,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      }
+    },
+    "graph_top_claim": {
+      "answer_accuracy": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 0.5,
+        "median": 0.5,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 1138.6002963408828,
+        "median": 1147.3004239378497,
+        "std": 17.068969225704613
+      },
+      "normalized_exact_match": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 26.0,
+        "median": 26.0,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      }
+    },
+    "graph_with_propagation": {
+      "answer_accuracy": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 1090.1061756691586,
+        "median": 1090.0300010107458,
+        "std": 0.2725521550584147
+      },
+      "normalized_exact_match": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 13.0,
+        "median": 13.0,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      }
+    },
+    "passage_rag": {
+      "answer_accuracy": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 0.5,
+        "median": 0.5,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 4400.0248779775575,
+        "median": 751.7514920327812,
+        "std": 6322.202501387681
+      },
+      "normalized_exact_match": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 26.0,
+        "median": 26.0,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      }
+    },
+    "reranked_passage_rag": {
+      "answer_accuracy": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 0.5,
+        "median": 0.5,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 752.0305596214408,
+        "median": 750.3502669278532,
+        "std": 3.083825918696895
+      },
+      "normalized_exact_match": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 26.0,
+        "median": 26.0,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      }
+    }
+  }
+}

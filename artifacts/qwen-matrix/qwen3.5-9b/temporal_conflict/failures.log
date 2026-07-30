@@ -1,0 +1,6 @@
+passage_rag|42|tmp-1	GenerationError: answer cites unknown claim id(s): ['p0']
+passage_rag|123|tmp-1	GenerationError: answer cites unknown claim id(s): ['p0']
+passage_rag|2026|tmp-1	GenerationError: answer cites unknown claim id(s): ['p0']
+reranked_passage_rag|42|tmp-1	GenerationError: answer cites unknown claim id(s): ['p0']
+reranked_passage_rag|123|tmp-1	GenerationError: answer cites unknown claim id(s): ['p0']
+reranked_passage_rag|2026|tmp-1	GenerationError: answer cites unknown claim id(s): ['p0']

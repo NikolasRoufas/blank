@@ -1,0 +1,665 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 183
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-1255d9b84d938b82",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Bret Michaels: Life as I Know It::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Bret Michaels: Life as I Know It",
+          "title": "Bret Michaels: Life as I Know It",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 132,
+            "source_id": "Bret Michaels: Life as I Know It",
+            "start": 0,
+            "text": "The pilot for the series aired on May 31, 2010, one week after Michaels was announced the winner of \"Celebrity Apprentice 3\" on NBC."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [
+          "May"
+        ],
+        "named_entities": [
+          "Michaels",
+          "Celebrity Apprentice",
+          "NBC"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Michaels",
+        "temporal_expressions": [
+          "May 31, 2010"
+        ]
+      },
+      "source_reliability": null,
+      "text": "The pilot for the series aired on May 31, 2010, one week after Michaels was announced the winner of \"Celebrity Apprentice 3\" on NBC.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-fcb63cf00b130660",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "The Apprentice (U.S. season 9)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "The Apprentice (U.S. season 9)",
+          "title": "The Apprentice (U.S. season 9)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 134,
+            "source_id": "The Apprentice (U.S. season 9)",
+            "start": 0,
+            "text": "The Celebrity Apprentice 3 (also known as The Apprentice 9) is the ninth installment of the reality game show, \"Celebrity Apprentice\"."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Celebrity Apprentice",
+          "Apprentice"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Celebrity Apprentice",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The Celebrity Apprentice 3 (also known as The Apprentice 9) is the ninth installment of the reality game show, \"Celebrity Apprentice\".",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-df069b709caf9d1d",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "The Apprentice (U.S. season 13)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "The Apprentice (U.S. season 13)",
+          "title": "The Apprentice (U.S. season 13)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 210,
+            "source_id": "The Apprentice (U.S. season 13)",
+            "start": 0,
+            "text": "The Celebrity Apprentice 6 (also known as All-Star Celebrity Apprentice or The Apprentice 13) is the sixth installment of the reality game show, \"Celebrity Apprentice\", which premiered on Sunday, March 3, 2013."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Celebrity Apprentice",
+          "All",
+          "Star Celebrity Apprentice",
+          "Apprentice",
+          "Sunday"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Celebrity Apprentice",
+        "temporal_expressions": [
+          "March 3, 2013"
+        ]
+      },
+      "source_reliability": null,
+      "text": "The Celebrity Apprentice 6 (also known as All-Star Celebrity Apprentice or The Apprentice 13) is the sixth installment of the reality game show, \"Celebrity Apprentice\", which premiered on Sunday, March 3, 2013.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-04469dbb632815ed",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "The Apprentice (U.S. season 7)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "The Apprentice (U.S. season 7)",
+          "title": "The Apprentice (U.S. season 7)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 134,
+            "source_id": "The Apprentice (U.S. season 7)",
+            "start": 0,
+            "text": "The Celebrity Apprentice (also known as The Apprentice 7) is the seventh installment of the reality game show, \"Celebrity Apprentice\"."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Celebrity Apprentice",
+          "Apprentice"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Celebrity Apprentice",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The Celebrity Apprentice (also known as The Apprentice 7) is the seventh installment of the reality game show, \"Celebrity Apprentice\".",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-bacb3a9ca2e43ff6",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "The New Celebrity Apprentice::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "The New Celebrity Apprentice",
+          "title": "The New Celebrity Apprentice",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 42,
+            "source_id": "The New Celebrity Apprentice",
+            "start": 0,
+            "text": "The New Celebrity Apprentice is the eighth"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "New Celebrity Apprentice"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "New Celebrity Apprentice",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The New Celebrity Apprentice is the eighth",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-43be4b323d47e607",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "The New Celebrity Apprentice::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "The New Celebrity Apprentice",
+          "title": "The New Celebrity Apprentice",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 118,
+            "source_id": "The New Celebrity Apprentice",
+            "start": 47,
+            "text": "final installment of the reality game show, \"The Celebrity Apprentice\"."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Celebrity Apprentice"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Celebrity Apprentice",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "final installment of the reality game show, \"The Celebrity Apprentice\".",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [
+    {
+      "claim_ids": [
+        "clm-04469dbb632815ed",
+        "clm-1255d9b84d938b82",
+        "clm-43be4b323d47e607",
+        "clm-bacb3a9ca2e43ff6",
+        "clm-df069b709caf9d1d",
+        "clm-fcb63cf00b130660"
+      ],
+      "conflict_id": "conflict:0",
+      "members": [
+        {
+          "claim_id": "clm-04469dbb632815ed",
+          "independent_support": 0,
+          "propagated_belief": 0.477466,
+          "relation_confidence": 0.977155,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-1255d9b84d938b82",
+          "independent_support": 0,
+          "propagated_belief": 0.483099,
+          "relation_confidence": 0.96991,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-43be4b323d47e607",
+          "independent_support": 0,
+          "propagated_belief": 0.479483,
+          "relation_confidence": 0.778154,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-bacb3a9ca2e43ff6",
+          "independent_support": 0,
+          "propagated_belief": 0.497181,
+          "relation_confidence": 0.927646,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-df069b709caf9d1d",
+          "independent_support": 0,
+          "propagated_belief": 0.490087,
+          "relation_confidence": 0.993843,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-fcb63cf00b130660",
+          "independent_support": 0,
+          "propagated_belief": 0.508775,
+          "relation_confidence": 0.993843,
+          "source_reliability": 0.5,
+          "timestamp": null
+        }
+      ],
+      "outcome": "unresolved",
+      "preferred_claim_id": null,
+      "relation_ids": [
+        "rel-07f4bdc3ae0a7474",
+        "rel-243b9db7d698000e",
+        "rel-4019002d337c557c",
+        "rel-42a53d392f1c384b",
+        "rel-7e4d65be7e55b639",
+        "rel-8256ea279c0deec1",
+        "rel-ab4c29e99a81be21",
+        "rel-ec72a55c337fd518",
+        "rel-fd1de12fd502afc8"
+      ],
+      "resolution_note": "top two competitors within margin 0.100 (0.509 vs 0.497)",
+      "resolved": false
+    }
+  ],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5ac5101455429924173fb592",
+    "text": "What is the name of the number-one single featuring the winner of Celebrity Apprentice 3?"
+  },
+  "relations": [
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.923559
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.923559,
+      "relation_id": "rel-ab4c29e99a81be21",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-04469dbb632815ed",
+      "target_claim_id": "clm-bacb3a9ca2e43ff6"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.977155
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.977155,
+      "relation_id": "rel-fd1de12fd502afc8",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-04469dbb632815ed",
+      "target_claim_id": "clm-df069b709caf9d1d"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.971398
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.971398,
+      "relation_id": "rel-243b9db7d698000e",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-04469dbb632815ed",
+      "target_claim_id": "clm-fcb63cf00b130660"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.96991
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.96991,
+      "relation_id": "rel-42a53d392f1c384b",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-1255d9b84d938b82",
+      "target_claim_id": "clm-df069b709caf9d1d"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.825624
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.825624,
+      "relation_id": "rel-8256ea279c0deec1",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-1255d9b84d938b82",
+      "target_claim_id": "clm-fcb63cf00b130660"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.748037
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.748037,
+      "relation_id": "rel-ec72a55c337fd518",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-43be4b323d47e607",
+      "target_claim_id": "clm-bacb3a9ca2e43ff6"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.778154
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.778154,
+      "relation_id": "rel-07f4bdc3ae0a7474",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-43be4b323d47e607",
+      "target_claim_id": "clm-df069b709caf9d1d"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.927646
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.927646,
+      "relation_id": "rel-4019002d337c557c",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-bacb3a9ca2e43ff6",
+      "target_claim_id": "clm-fcb63cf00b130660"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.993843
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.993843,
+      "relation_id": "rel-7e4d65be7e55b639",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-df069b709caf9d1d",
+      "target_claim_id": "clm-fcb63cf00b130660"
+    }
+  ],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.508775,
+      "claim_id": "clm-fcb63cf00b130660",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 0.895139,
+      "status": "disputed",
+      "utility": 0.386364
+    },
+    {
+      "belief": 0.483099,
+      "claim_id": "clm-1255d9b84d938b82",
+      "rank": 1,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.862729,
+      "status": "disputed",
+      "utility": 0.37963
+    },
+    {
+      "belief": 0.497181,
+      "claim_id": "clm-bacb3a9ca2e43ff6",
+      "rank": 2,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.880514,
+      "status": "disputed",
+      "utility": 0.383333
+    },
+    {
+      "belief": 0.477466,
+      "claim_id": "clm-04469dbb632815ed",
+      "rank": 3,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.841102,
+      "status": "disputed",
+      "utility": 0.363636
+    },
+    {
+      "belief": 0.490087,
+      "claim_id": "clm-df069b709caf9d1d",
+      "rank": 4,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.833837,
+      "status": "disputed",
+      "utility": 0.34375
+    },
+    {
+      "belief": 0.479483,
+      "claim_id": "clm-43be4b323d47e607",
+      "rank": 5,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.840594,
+      "status": "disputed",
+      "utility": 0.361111
+    }
+  ],
+  "subgraph": null
+}

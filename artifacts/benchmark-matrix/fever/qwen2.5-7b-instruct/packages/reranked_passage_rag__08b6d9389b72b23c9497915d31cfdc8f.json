@@ -1,0 +1,75 @@
+{
+  "budget": {
+    "reserved_output": 16,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 50
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "Viola_Davis::p0",
+      "extraction": null,
+      "extraction_confidence": 1.0,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Viola_Davis::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Viola_Davis",
+          "title": "Viola Davis",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 202,
+            "source_id": "Viola_Davis",
+            "start": 0,
+            "text": "Davis ' film breakthrough came in 2008 when her supporting role in the drama Doubt earned her several nominations , including the Golden Globe , SAG , and the Academy Award for Best Supporting Actress ."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": null,
+      "source_reliability": null,
+      "text": "Davis ' film breakthrough came in 2008 when her supporting role in the drama Doubt earned her several nominations , including the Golden Globe , SAG , and the Academy Award for Best Supporting Actress .",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "pkg-08b6d9389b72b23c9497915d31cfdc8f",
+  "query": {
+    "created_at": null,
+    "query_id": "08b6d9389b72b23c9497915d31cfdc8f",
+    "text": "Viola Davis only plays lead roles."
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": null,
+      "claim_id": "Viola_Davis::p0",
+      "rank": 0,
+      "reason": null,
+      "selection_score": 1.0,
+      "status": "accepted",
+      "utility": null
+    }
+  ],
+  "subgraph": null
+}

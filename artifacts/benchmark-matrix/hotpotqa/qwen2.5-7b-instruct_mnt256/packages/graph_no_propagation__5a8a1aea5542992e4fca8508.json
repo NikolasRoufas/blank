@@ -1,0 +1,645 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 41
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-753b07266d37ed54",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "List of songs recorded by Myles Kennedy::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "List of songs recorded by Myles Kennedy",
+          "title": "List of songs recorded by Myles Kennedy",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 63,
+            "source_id": "List of songs recorded by Myles Kennedy",
+            "start": 0,
+            "text": "The group released two albums, 1992's \"Cure Me with the Groove\""
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Cure Me",
+          "Groove"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Cure Me",
+        "temporal_expressions": [
+          "1992"
+        ]
+      },
+      "source_reliability": null,
+      "text": "The group released two albums, 1992's \"Cure Me with the Groove\"",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-a49369f1954ce6c8",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "List of songs recorded by Myles Kennedy::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "List of songs recorded by Myles Kennedy",
+          "title": "List of songs recorded by Myles Kennedy",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 145,
+            "source_id": "List of songs recorded by Myles Kennedy",
+            "start": 68,
+            "text": "1996's \"Deep Down\", on both of which Kennedy was co-credited for songwriting."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Deep Down",
+          "Kennedy"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Deep Down",
+        "temporal_expressions": [
+          "1996"
+        ]
+      },
+      "source_reliability": null,
+      "text": "1996's \"Deep Down\", on both of which Kennedy was co-credited for songwriting.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-832c95121ebad265",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Let Rock Rule Tour::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Let Rock Rule Tour",
+          "title": "Let Rock Rule Tour",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 118,
+            "source_id": "Let Rock Rule Tour",
+            "start": 0,
+            "text": "The Let Rock Rule Tour was a concert tour by American hard rock band Aerosmith that featured Slash (with Myles Kennedy"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Let Rock Rule Tour",
+          "American",
+          "Aerosmith",
+          "Slash",
+          "Myles Kennedy"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Let Rock Rule Tour",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The Let Rock Rule Tour was a concert tour by American hard rock band Aerosmith that featured Slash (with Myles Kennedy",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-5a0dc8965c387f0a",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Let Rock Rule Tour::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Let Rock Rule Tour",
+          "title": "Let Rock Rule Tour",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 160,
+            "source_id": "Let Rock Rule Tour",
+            "start": 123,
+            "text": "the Conspirators) as the opening act."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Conspirators"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Conspirators",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "the Conspirators) as the opening act.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-5fd6073df9893dc6",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Myles Kennedy::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Myles Kennedy",
+          "title": "Myles Kennedy",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 88,
+            "source_id": "Myles Kennedy",
+            "start": 0,
+            "text": "A former guitar instructor from Spokane, Washington, he has worked as a session musician"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Spokane",
+          "Washington"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Spokane",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "A former guitar instructor from Spokane, Washington, he has worked as a session musician",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-6c86c64d27eedb70",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Myles Kennedy::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Myles Kennedy",
+          "title": "Myles Kennedy",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 123,
+            "source_id": "Myles Kennedy",
+            "start": 93,
+            "text": "songwriter, making both studio"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": null,
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "songwriter, making both studio",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-2f4b8ea382e59d35",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Myles Kennedy::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Myles Kennedy",
+          "title": "Myles Kennedy",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 166,
+            "source_id": "Myles Kennedy",
+            "start": 128,
+            "text": "live appearances with several artists,"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": null,
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "live appearances with several artists,",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-45de0c2792ff3a40",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Myles Kennedy::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Myles Kennedy",
+          "title": "Myles Kennedy",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 233,
+            "source_id": "Myles Kennedy",
+            "start": 171,
+            "text": "has been involved with several projects throughout his career."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": null,
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "has been involved with several projects throughout his career.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-71be6aad13ef17b7",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "List of songs recorded by Myles Kennedy::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "List of songs recorded by Myles Kennedy",
+          "title": "List of songs recorded by Myles Kennedy",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 43,
+            "source_id": "List of songs recorded by Myles Kennedy",
+            "start": 0,
+            "text": "Myles Kennedy is an American rock musician."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Myles Kennedy",
+          "American"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Myles Kennedy",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Myles Kennedy is an American rock musician.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-e217628f6a78c815",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Let Rock Rule Tour::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Let Rock Rule Tour",
+          "title": "Let Rock Rule Tour",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 153,
+            "source_id": "Let Rock Rule Tour",
+            "start": 0,
+            "text": "Slash with Myles Kennedy & the Conspirators did not perform at Rock Fest in Wisconsin or at the private show, but performed at all of the other concerts."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Slash",
+          "Myles Kennedy",
+          "Conspirators",
+          "Rock Fest",
+          "Wisconsin"
+        ],
+        "negation": true,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Slash",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Slash with Myles Kennedy & the Conspirators did not perform at Rock Fest in Wisconsin or at the private show, but performed at all of the other concerts.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [
+    {
+      "claim_ids": [
+        "clm-5a0dc8965c387f0a",
+        "clm-e217628f6a78c815"
+      ],
+      "conflict_id": "conflict:0",
+      "members": [
+        {
+          "claim_id": "clm-5a0dc8965c387f0a",
+          "independent_support": 0,
+          "propagated_belief": 0.43,
+          "relation_confidence": 0.970013,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-e217628f6a78c815",
+          "independent_support": 0,
+          "propagated_belief": 0.457586,
+          "relation_confidence": 0.970013,
+          "source_reliability": 0.5,
+          "timestamp": null
+        }
+      ],
+      "outcome": "unresolved",
+      "preferred_claim_id": null,
+      "relation_ids": [
+        "rel-8fb9fdd016ac8cd1"
+      ],
+      "resolution_note": "top two competitors within margin 0.100 (0.458 vs 0.430)",
+      "resolved": false
+    }
+  ],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5a8a1aea5542992e4fca8508",
+    "text": "Are Myles Kennedy and SafetySuit both associated with rock bands?"
+  },
+  "relations": [
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.970013
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.970013,
+      "relation_id": "rel-8fb9fdd016ac8cd1",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-5a0dc8965c387f0a",
+      "target_claim_id": "clm-e217628f6a78c815"
+    },
+    {
+      "bridge": null,
+      "direction": "directed",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "entailment",
+        "features": {
+          "entailment": 0.927048
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "entailment above threshold",
+      "relation_confidence": 0.927048,
+      "relation_id": "rel-76121b44621356b0",
+      "relation_type": "support",
+      "source_claim_id": "clm-832c95121ebad265",
+      "target_claim_id": "clm-71be6aad13ef17b7"
+    }
+  ],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.572857,
+      "claim_id": "clm-71be6aad13ef17b7",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 0.93,
+      "status": "accepted",
+      "utility": 0.357143
+    },
+    {
+      "belief": 0.462,
+      "claim_id": "clm-832c95121ebad265",
+      "rank": 1,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.792,
+      "status": "accepted",
+      "utility": 0.33
+    }
+  ],
+  "subgraph": null
+}

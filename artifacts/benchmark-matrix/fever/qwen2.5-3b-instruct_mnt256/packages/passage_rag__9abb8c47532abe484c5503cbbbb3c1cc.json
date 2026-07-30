@@ -1,0 +1,75 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 64
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "Michigan::p0",
+      "extraction": null,
+      "extraction_confidence": 1.0,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Michigan::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Michigan",
+          "title": "Michigan",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 256,
+            "source_id": "Michigan",
+            "start": 0,
+            "text": "While sparsely populated , the Upper Peninsula is economically important due to its status as a tourist destination as well as its abundance of natural resources , while the Lower Peninsula is a center of manufacturing , services , and high-tech industry ."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": null,
+      "source_reliability": null,
+      "text": "While sparsely populated , the Upper Peninsula is economically important due to its status as a tourist destination as well as its abundance of natural resources , while the Lower Peninsula is a center of manufacturing , services , and high-tech industry .",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "pkg-9abb8c47532abe484c5503cbbbb3c1cc",
+  "query": {
+    "created_at": null,
+    "query_id": "9abb8c47532abe484c5503cbbbb3c1cc",
+    "text": "Michigan is a top destination for recreational fishing."
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": null,
+      "claim_id": "Michigan::p0",
+      "rank": 0,
+      "reason": null,
+      "selection_score": 1.0,
+      "status": "accepted",
+      "utility": null
+    }
+  ],
+  "subgraph": null
+}

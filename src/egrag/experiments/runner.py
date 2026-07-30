@@ -10,11 +10,13 @@ counts and never drop failures.
 
 from __future__ import annotations
 
+import importlib.util
+import sys
 import time
 from pathlib import Path
 
 from egrag import __version__
-from egrag.domain.errors import ConfigurationError
+from egrag.domain.errors import ConfigurationError, MissingDependencyError
 from egrag.experiments import artifacts as art
 from egrag.experiments.datasets import (
     check_dataset_integrity,
@@ -51,18 +53,78 @@ from egrag.experiments.models import (
     SystemVariant,
 )
 from egrag.experiments.stats import aggregate_seeds, mean, paired_comparison
-from egrag.experiments.variants import RunSettings, SystemOutput, get_variant, run_system
-from egrag.generation import FakeTextGenerator, GenerationConfig, TextGenerator
+from egrag.experiments.variants import (
+    RunComponents,
+    RunSettings,
+    SystemOutput,
+    get_variant,
+    run_system,
+)
+from egrag.generation import (
+    FakeTextGenerator,
+    GenerationConfig,
+    HuggingFaceGenerator,
+    TextGenerator,
+)
+from egrag.hf_runtime import ensure_device_available
 from egrag.reproducibility import environment_info, git_commit, now
 from egrag.security import safe_artifact_path
 
 
-def _build_generator(name: str) -> TextGenerator:
-    if name == "fake":
+def _cuda_reset_peak_memory() -> None:
+    """Reset CUDA's peak-allocation counter, if torch/CUDA are already loaded.
+
+    Never imports torch itself (would break the offline/fake-generator
+    invariant); only measures when a real CUDA generator already loaded it.
+    """
+
+    torch = sys.modules.get("torch")
+    if torch is not None and torch.cuda.is_available():
+        torch.cuda.reset_peak_memory_stats()
+
+
+def _cuda_peak_memory_kb() -> int | None:
+    """Return peak CUDA memory allocated (KiB) since the last reset, or None."""
+
+    torch = sys.modules.get("torch")
+    if torch is not None and torch.cuda.is_available():
+        return int(torch.cuda.max_memory_allocated() / 1024)
+    return None
+
+
+def _build_generator(config: ExperimentConfig) -> TextGenerator:
+    """Build the configured generator: the deterministic fake, or a real local
+    Hugging Face model (e.g. Qwen). Real-model construction fails loudly rather
+    than silently falling back to CPU when ``require_cuda`` is set.
+    """
+
+    if config.generator == "fake":
         return FakeTextGenerator()
-    raise ConfigurationError(
-        f"experiment generator {name!r} is not supported offline; use 'fake' "
-        "(real adapters require extras and are out of scope for the deterministic harness)"
+    if config.generator == "huggingface":
+        assert config.generator_model is not None  # guaranteed by config validation
+        if importlib.util.find_spec("transformers") is None:
+            raise MissingDependencyError("transformers", "local-models")
+        if (
+            config.generator_quantization != "none"
+            and importlib.util.find_spec("bitsandbytes") is None
+        ):
+            raise MissingDependencyError("bitsandbytes", "quantization")
+        if config.require_cuda:
+            ensure_device_available("cuda")
+        chat_template_kwargs = (
+            {"enable_thinking": False} if config.generator_disable_thinking else None
+        )
+        return HuggingFaceGenerator(
+            config.generator_model,
+            revision=config.generator_revision,
+            device=config.generator_device,
+            dtype=config.generator_dtype,
+            quantization=config.generator_quantization,
+            require_cuda=config.require_cuda,
+            chat_template_kwargs=chat_template_kwargs,
+        )
+    raise ConfigurationError(  # pragma: no cover - guarded by ExperimentConfig's Literal type
+        f"experiment generator {config.generator!r} is not supported; use 'fake' or 'huggingface'"
     )
 
 
@@ -133,10 +195,20 @@ def _aggregate(results: list[ExampleResult], variant: str, seed: int) -> Aggrega
 
 
 class ExperimentRunner:
-    """Runs experiments and writes inspectable, reproducible artifacts."""
+    """Runs experiments and writes inspectable, reproducible artifacts.
 
-    def __init__(self, config: ExperimentConfig) -> None:
+    ``components`` optionally injects a real extractor/classifier (e.g. a real
+    NLI model) shared across every variant, exactly like the fake-generator
+    pilots' ``RunComponents`` mechanism (see ``egrag.experiments.variants``).
+    ``None`` (the default) preserves prior behavior — the deterministic sentence
+    extractor and lexical classifier — so existing callers are unaffected.
+    """
+
+    def __init__(
+        self, config: ExperimentConfig, *, components: RunComponents | None = None
+    ) -> None:
         self._config = config
+        self._components = components
         # Resolve the output directory first, then validate the *resolved* path.
         # Passing the raw (possibly relative) output_dir to safe_artifact_path
         # would re-join it onto the base and produce a doubly-nested directory.
@@ -173,12 +245,14 @@ class ExperimentRunner:
         done = art.completed_keys(existing)
         results: list[ExampleResult] = list(existing)
 
-        generator = _build_generator(config.generator)
+        generator = _build_generator(config)
         timings: dict[str, float] = {}
 
         for variant in variants:
             for seed in config.seeds:
-                gen_cfg = GenerationConfig(deterministic=True, seed=seed)
+                gen_cfg = GenerationConfig(
+                    deterministic=True, seed=seed, max_new_tokens=config.max_new_tokens
+                )
                 for example in examples:
                     key = (variant.name, seed, example.example_id)
                     if key in done:
@@ -187,6 +261,13 @@ class ExperimentRunner:
                     results.append(result)
                     art.append_jsonl(results_path, result.model_dump_json())
                     timings[f"{variant.name}|{seed}|{example.example_id}"] = result.latency_ms
+
+        generator_resolved: dict[str, str] = {}
+        if isinstance(generator, HuggingFaceGenerator):
+            try:
+                generator_resolved = generator.resolved_runtime_info()
+            except Exception as exc:  # pragma: no cover - best-effort diagnostics only
+                generator_resolved = {"error": f"{type(exc).__name__}: {exc}"}
 
         manifest = ExperimentManifest(
             experiment_name=config.name,
@@ -197,6 +278,13 @@ class ExperimentRunner:
             variants=tuple(variants),
             seeds=config.seeds,
             generator=config.generator,
+            generator_model=config.generator_model,
+            generator_revision=config.generator_revision,
+            generator_device=config.generator_device,
+            generator_dtype=config.generator_dtype,
+            generator_quantization=config.generator_quantization,
+            generator_disable_thinking=config.generator_disable_thinking,
+            generator_resolved=generator_resolved,
             top_k=config.top_k,
             evidence_token_budget=config.evidence_token_budget,
             reserved_output_tokens=config.reserved_output_tokens,
@@ -211,7 +299,7 @@ class ExperimentRunner:
                 + ([f"skipped {skipped} corrupted result lines"] if skipped else [])
             ),
         )
-        self._write_artifacts(manifest, results, examples, variants, timings)
+        self._write_artifacts(manifest, results, examples, variants, timings, generator)
         return manifest
 
     def _run_one(
@@ -225,6 +313,7 @@ class ExperimentRunner:
         from egrag.domain.models import Query
 
         query = Query(query_id=f"{example.example_id}", text=example.question)
+        _cuda_reset_peak_memory()
         start = time.perf_counter()
         try:
             output = run_system(
@@ -234,6 +323,7 @@ class ExperimentRunner:
                 generator=generator,
                 config=gen_cfg,
                 settings=self._settings,
+                components=self._components,
             )
         # Broad by design: any failure must be recorded as a *visible* result
         # (with its error) rather than crashing the run or being dropped.
@@ -246,6 +336,7 @@ class ExperimentRunner:
                 failed=True,
                 error=f"{type(exc).__name__}: {exc}",
                 latency_ms=latency,
+                peak_memory_kb=_cuda_peak_memory_kb(),
             )
         latency = (time.perf_counter() - start) * 1000.0
         metrics, warnings = _compute_metrics(example, output)
@@ -260,6 +351,7 @@ class ExperimentRunner:
             metrics=metrics,
             counts=output.counts,
             latency_ms=latency,
+            peak_memory_kb=_cuda_peak_memory_kb(),
             warnings=tuple(warnings) + output.warnings,
         )
 
@@ -270,6 +362,7 @@ class ExperimentRunner:
         examples: list[DatasetExample],
         variants: list[SystemVariant],
         timings: dict[str, float],
+        generator: TextGenerator,
     ) -> None:
         art.write_json(self._dir / art.CONFIG_FILE, self._config.model_dump(mode="json"))
         art.write_json(self._dir / art.MANIFEST_FILE, manifest.model_dump(mode="json"))
@@ -314,15 +407,23 @@ class ExperimentRunner:
         )
 
         # Evidence packages and graph artifacts for selected (first seed) examples.
-        self._write_example_artifacts(examples, variants)
+        # Reuses the already-built generator (important for real models: avoids a
+        # second, redundant load of a multi-GB checkpoint).
+        self._write_example_artifacts(examples, variants, generator)
 
     def _write_example_artifacts(
-        self, examples: list[DatasetExample], variants: list[SystemVariant]
+        self,
+        examples: list[DatasetExample],
+        variants: list[SystemVariant],
+        generator: TextGenerator,
     ) -> None:
         from egrag.domain.models import Query
 
-        generator = _build_generator(self._config.generator)
-        gen_cfg = GenerationConfig(deterministic=True, seed=self._config.seeds[0])
+        gen_cfg = GenerationConfig(
+            deterministic=True,
+            seed=self._config.seeds[0],
+            max_new_tokens=self._config.max_new_tokens,
+        )
         for variant in variants:
             for example in examples:
                 query = Query(query_id=example.example_id, text=example.question)
@@ -334,6 +435,7 @@ class ExperimentRunner:
                         generator=generator,
                         config=gen_cfg,
                         settings=self._settings,
+                        components=self._components,
                     )
                 # Artifacts are best-effort; any per-example failure is already
                 # recorded as a visible result/failures.log entry by the main loop.

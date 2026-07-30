@@ -1,0 +1,95 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 35
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-9ac7da5a7cbb2ef2",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Bee_Gees::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Bee_Gees",
+          "title": "Bee Gees",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 137,
+            "source_id": "Bee_Gees",
+            "start": 0,
+            "text": "The Bee Gees have sold more than 220 million records worldwide , making them one of the world 's best-selling music artists of all time ."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Bee Gees"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [
+          "220 million"
+        ],
+        "subject": "Bee Gees",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The Bee Gees have sold more than 220 million records worldwide , making them one of the world 's best-selling music artists of all time .",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "87b23ccb67781f8cc560c4e9fe6d250e",
+    "text": "The Bee Gees were producers of music."
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.47,
+      "claim_id": "clm-9ac7da5a7cbb2ef2",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 0.82,
+      "status": "accepted",
+      "utility": 0.35
+    }
+  ],
+  "subgraph": null
+}

@@ -1,0 +1,39 @@
+{
+  "claim_only_rag|0": [
+    "uncited claim-like sentence: 'No, the provided evidence does not contain information about'"
+  ],
+  "full_egrag|0": [
+    "unresolved conflicts are present but the answer expresses no uncertainty",
+    "uncited claim-like sentence: 'The provided text does not contain information about Midge M'"
+  ],
+  "graph_coherent_subgraph|0": [
+    "unresolved conflicts are present but the answer expresses no uncertainty",
+    "uncited claim-like sentence: 'The provided text does not contain information about Midge M'"
+  ],
+  "graph_no_contradiction|0": [
+    "uncited claim-like sentence: 'The winner of Celebrity Apprentice 3 did not have a number-o'",
+    "uncited claim-like sentence: \"The album's third single, 'If You Ever Get Lonely', was rele\"",
+    "uncited claim-like sentence: 'The provided text does not contain information about Midge M'",
+    "uncited claim-like sentence: 'No, the documentaries Loot and Air Force, Incorporated were '",
+    "uncited claim-like sentence: 'Housman was British while James Schuyler was American.'",
+    "uncited claim-like sentence: 'The birthday of the man who played Lex Luthor in Superman IV'"
+  ],
+  "graph_no_propagation|0": [
+    "unresolved conflicts are present but the answer expresses no uncertainty",
+    "uncited claim-like sentence: 'Neither Ratatouille nor PlayStation 3 have a common type of '",
+    "uncited claim-like sentence: 'The provided text does not contain information about Midge M'"
+  ],
+  "graph_no_temporal|0": [
+    "unresolved conflicts are present but the answer expresses no uncertainty",
+    "uncited claim-like sentence: 'The provided text does not contain information about Midge M'"
+  ],
+  "graph_top_claim|0": [
+    "unresolved conflicts are present but the answer expresses no uncertainty"
+  ],
+  "graph_with_propagation|0": [
+    "unresolved conflicts are present but the answer expresses no uncertainty",
+    "uncited claim-like sentence: 'The provided text does not contain information about Midge M'"
+  ],
+  "passage_rag|0": [],
+  "reranked_passage_rag|0": []
+}

@@ -1,0 +1,443 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 59
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-891734153e6907e1",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Chehalem Mountains::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Chehalem Mountains",
+          "title": "Chehalem Mountains",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 148,
+            "source_id": "Chehalem Mountains",
+            "start": 0,
+            "text": "The highest peak in the Chehalem Mountain Range is Bald Peak, rising to 1629 ft , which is also the highest peak point within the Willamette Valley."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Chehalem Mountain Range",
+          "Bald Peak",
+          "Willamette Valley"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Chehalem Mountain Range",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The highest peak in the Chehalem Mountain Range is Bald Peak, rising to 1629 ft , which is also the highest peak point within the Willamette Valley.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-8186c55366204e4a",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "List of peaks named Signal::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "List of peaks named Signal",
+          "title": "List of peaks named Signal",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 82,
+            "source_id": "List of peaks named Signal",
+            "start": 0,
+            "text": "For example, Tennessee's Signal Mountain was used by Native Americans to send fire"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Tennessee",
+          "Signal Mountain",
+          "Native Americans"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Tennessee",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "For example, Tennessee's Signal Mountain was used by Native Americans to send fire",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-e98ec5f439455db5",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "List of peaks named Signal::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "List of peaks named Signal",
+          "title": "List of peaks named Signal",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 129,
+            "source_id": "List of peaks named Signal",
+            "start": 87,
+            "text": "smoke signals across the Tennessee Valley."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Tennessee Valley"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Tennessee Valley",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "smoke signals across the Tennessee Valley.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-c5bfff60d5d7085b",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Balkan Mountains::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Balkan Mountains",
+          "title": "Balkan Mountains",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 124,
+            "source_id": "Balkan Mountains",
+            "start": 0,
+            "text": "The highest peak is Botev at 2,376 m, which makes the mountain range the third highest in the country, after Rila and Pirin."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Botev",
+          "Rila",
+          "Pirin"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Botev",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The highest peak is Botev at 2,376 m, which makes the mountain range the third highest in the country, after Rila and Pirin.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-ce924a5c8d70d559",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Elk Hill (Pennsylvania)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Elk Hill (Pennsylvania)",
+          "title": "Elk Hill (Pennsylvania)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 141,
+            "source_id": "Elk Hill (Pennsylvania)",
+            "start": 0,
+            "text": "Elk Hill, also known as North Knob at its highest point or Elk Mountain, is a mountain in Herrick Township, Susquehanna County, Pennsylvania."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Elk Hill",
+          "North Knob",
+          "Elk Mountain",
+          "Herrick Township",
+          "Susquehanna County",
+          "Pennsylvania"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Elk Hill",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Elk Hill, also known as North Knob at its highest point or Elk Mountain, is a mountain in Herrick Township, Susquehanna County, Pennsylvania.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-ed397b69303cdc94",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Chehalem Mountains::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Chehalem Mountains",
+          "title": "Chehalem Mountains",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 88,
+            "source_id": "Chehalem Mountains",
+            "start": 0,
+            "text": "The Chehalem Mountains are a mountain range located in the Willamette Valley in the U.S."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Chehalem Mountains",
+          "Willamette Valley",
+          "U",
+          "S"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Chehalem Mountains",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The Chehalem Mountains are a mountain range located in the Willamette Valley in the U.S.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-aa04ee1e2344bcd1",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Chehalem Mountains::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Chehalem Mountains",
+          "title": "Chehalem Mountains",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 105,
+            "source_id": "Chehalem Mountains",
+            "start": 89,
+            "text": "state of Oregon."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Oregon"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Oregon",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "state of Oregon.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5ac270e05542992f1f2b38c9",
+    "text": "What is the highest peak in the mountain range in which Elk Valley, Tennessee is located in?"
+  },
+  "relations": [
+    {
+      "bridge": null,
+      "direction": "directed",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "entailment",
+        "features": {
+          "entailment": 0.805984
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "entailment above threshold",
+      "relation_confidence": 0.805984,
+      "relation_id": "rel-eaeb750e3eb997c3",
+      "relation_type": "support",
+      "source_claim_id": "clm-891734153e6907e1",
+      "target_claim_id": "clm-ed397b69303cdc94"
+    }
+  ],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.508261,
+      "claim_id": "clm-891734153e6907e1",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 0.953913,
+      "status": "accepted",
+      "utility": 0.445652
+    },
+    {
+      "belief": 0.493276,
+      "claim_id": "clm-ed397b69303cdc94",
+      "rank": 1,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.893276,
+      "status": "accepted",
+      "utility": 0.4
+    }
+  ],
+  "subgraph": null
+}

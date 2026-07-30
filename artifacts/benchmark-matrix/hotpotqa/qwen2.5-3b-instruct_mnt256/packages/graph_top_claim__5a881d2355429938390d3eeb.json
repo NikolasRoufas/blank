@@ -1,0 +1,433 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 164
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-3c89629c63028f45",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Love and Theft (Love and Theft album)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Love and Theft (Love and Theft album)",
+          "title": "Love and Theft (Love and Theft album)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 98,
+            "source_id": "Love and Theft (Love and Theft album)",
+            "start": 0,
+            "text": "The album's third single, \"If You Ever Get Lonely\", was released to country radio on June 3, 2013."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "You Ever Get Lonely"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "You Ever Get Lonely",
+        "temporal_expressions": [
+          "June 3, 2013"
+        ]
+      },
+      "source_reliability": null,
+      "text": "The album's third single, \"If You Ever Get Lonely\", was released to country radio on June 3, 2013.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-e3e13fff9bfe5d98",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "If You Ever Get Lonely::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "If You Ever Get Lonely",
+          "title": "If You Ever Get Lonely",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 118,
+            "source_id": "If You Ever Get Lonely",
+            "start": 0,
+            "text": "\"If You Ever Get Lonely\" is a song written by Kyle Cook, Lisa Drew, Michael Dulaney, Steven Dale Jones and John Waite."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "You Ever Get Lonely",
+          "Kyle Cook",
+          "Lisa Drew",
+          "Michael Dulaney",
+          "Steven Dale Jones",
+          "John Waite"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "You Ever Get Lonely",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "\"If You Ever Get Lonely\" is a song written by Kyle Cook, Lisa Drew, Michael Dulaney, Steven Dale Jones and John Waite.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-5d2f8a4393df49ae",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Rascal Flatts discography::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Rascal Flatts discography",
+          "title": "Rascal Flatts discography",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 161,
+            "source_id": "Rascal Flatts discography",
+            "start": 0,
+            "text": "Signed to Lyric Street Records since its foundation, the band has released ten studio albums plus a Greatest Hits package, all on the Lyric Street Records label."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Signed",
+          "Lyric Street Records",
+          "Greatest Hits"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Signed",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Signed to Lyric Street Records since its foundation, the band has released ten studio albums plus a Greatest Hits package, all on the Lyric Street Records label.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-c832ede073629c29",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Phil Stacey::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Phil Stacey",
+          "title": "Phil Stacey",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 175,
+            "source_id": "Phil Stacey",
+            "start": 0,
+            "text": "His debut single, \"If You Didn't Love Me\", was released to radio in early 2008 as the lead-off to his self-titled debut album, which was issued April 29, 2008 on Lyric Street."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "You Didn",
+          "Love Me",
+          "Lyric Street"
+        ],
+        "negation": true,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "You Didn",
+        "temporal_expressions": [
+          "2008",
+          "April 29, 2008"
+        ]
+      },
+      "source_reliability": null,
+      "text": "His debut single, \"If You Didn't Love Me\", was released to radio in early 2008 as the lead-off to his self-titled debut album, which was issued April 29, 2008 on Lyric Street.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-1b2808ce25ddcb54",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Thugs Get Lonely Too::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Thugs Get Lonely Too",
+          "title": "Thugs Get Lonely Too",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 93,
+            "source_id": "Thugs Get Lonely Too",
+            "start": 0,
+            "text": "\"Thugs Get Lonely Too\" was 2Pac's first single from his posthumous album \"Loyal to the Game\"."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Thugs Get Lonely Too",
+          "Loyal",
+          "Game"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Thugs Get Lonely Too",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "\"Thugs Get Lonely Too\" was 2Pac's first single from his posthumous album \"Loyal to the Game\".",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [
+    {
+      "claim_ids": [
+        "clm-1b2808ce25ddcb54",
+        "clm-3c89629c63028f45",
+        "clm-c832ede073629c29"
+      ],
+      "conflict_id": "conflict:0",
+      "members": [
+        {
+          "claim_id": "clm-1b2808ce25ddcb54",
+          "independent_support": 0,
+          "propagated_belief": 0.444271,
+          "relation_confidence": 0.722446,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-3c89629c63028f45",
+          "independent_support": 0,
+          "propagated_belief": 0.520253,
+          "relation_confidence": 0.959325,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-c832ede073629c29",
+          "independent_support": 0,
+          "propagated_belief": 0.446124,
+          "relation_confidence": 0.959325,
+          "source_reliability": 0.5,
+          "timestamp": null
+        }
+      ],
+      "outcome": "unresolved",
+      "preferred_claim_id": null,
+      "relation_ids": [
+        "rel-3506dd8156e6d769",
+        "rel-b2aa21eb8cf29024"
+      ],
+      "resolution_note": "top two competitors within margin 0.100 (0.520 vs 0.446)",
+      "resolved": false
+    }
+  ],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5a881d2355429938390d3eeb",
+    "text": "If You Ever Get Lonely was covered by what Lyric Street Records-affiliated band?"
+  },
+  "relations": [
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.722446
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.722446,
+      "relation_id": "rel-3506dd8156e6d769",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-1b2808ce25ddcb54",
+      "target_claim_id": "clm-3c89629c63028f45"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.959325
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.959325,
+      "relation_id": "rel-b2aa21eb8cf29024",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-3c89629c63028f45",
+      "target_claim_id": "clm-c832ede073629c29"
+    }
+  ],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.520253,
+      "claim_id": "clm-3c89629c63028f45",
+      "rank": 0,
+      "reason": "top base value within budget",
+      "selection_score": 0.881364,
+      "status": "disputed",
+      "utility": 0.361111
+    },
+    {
+      "belief": 0.47,
+      "claim_id": "clm-e3e13fff9bfe5d98",
+      "rank": 1,
+      "reason": "top base value within budget",
+      "selection_score": 0.82,
+      "status": "accepted",
+      "utility": 0.35
+    },
+    {
+      "belief": 0.454242,
+      "claim_id": "clm-5d2f8a4393df49ae",
+      "rank": 2,
+      "reason": "top base value within budget",
+      "selection_score": 0.764848,
+      "status": "accepted",
+      "utility": 0.310606
+    },
+    {
+      "belief": 0.446124,
+      "claim_id": "clm-c832ede073629c29",
+      "rank": 3,
+      "reason": "top base value within budget",
+      "selection_score": 0.760227,
+      "status": "disputed",
+      "utility": 0.314103
+    },
+    {
+      "belief": 0.444271,
+      "claim_id": "clm-1b2808ce25ddcb54",
+      "rank": 4,
+      "reason": "top base value within budget",
+      "selection_score": 0.747842,
+      "status": "disputed",
+      "utility": 0.303571
+    }
+  ],
+  "subgraph": null
+}

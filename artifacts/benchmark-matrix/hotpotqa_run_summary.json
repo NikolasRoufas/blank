@@ -1,0 +1,9 @@
+[
+  {
+    "benchmark": "hotpotqa",
+    "model": "qwen3.5-9b",
+    "examples": 25,
+    "seconds": 1559.1,
+    "output_dir": "artifacts/benchmark-matrix/hotpotqa/qwen3.5-9b"
+  }
+]

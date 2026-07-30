@@ -1,0 +1,9 @@
+[
+  {
+    "benchmark": "fever",
+    "model": "qwen3.5-9b",
+    "examples": 25,
+    "seconds": 2183.2,
+    "output_dir": "artifacts/benchmark-matrix/fever/qwen3.5-9b_mnt256"
+  }
+]

@@ -86,9 +86,20 @@ uv run egrag experiment compare --output-dir runs/demo \
 uv run egrag experiment inspect-example --output-dir runs/demo --example-id syn-1
 ```
 
-Runs are deterministic for a fixed seed. The manifest records the framework and
-schema versions, git commit, environment, resolved config, seeds, dataset
-fingerprint, and variant configurations.
+Runs are deterministic for a fixed seed (with the fake generator; a real model's
+determinism depends on `do_sample=False`, which the adapter always sets unless
+sampling is explicitly requested). The manifest records the framework and schema
+versions, git commit, environment (Python, and — when actually used this run,
+never fabricated — torch/transformers versions, CUDA runtime version, GPU name,
+VRAM), resolved config, seeds, dataset fingerprint, and variant configurations.
+
+`--generator` also accepts `huggingface` for a real local model (e.g. Qwen), with
+`--generator-model`/`--generator-device`/`--generator-dtype`/
+`--generator-quantization`/`--generator-disable-thinking`/`--require-cuda` to
+configure it; see "Qwen scale experiments (A/B/C)" in `docs/reproduction.md` for
+the exact commands and the model-selection rationale. Retrieval, extraction, and
+relation-classification methodology are unaffected by this choice — only the
+generator changes.
 
 ## Artifacts and resume
 
@@ -113,10 +124,17 @@ Integration tests that load a real model are skipped unless
 
 ## Limitations
 
-- The bundled generator is a deterministic fake; EM/F1 on the synthetic fixtures
-  are low by construction and exercise the harness, not model quality.
+- The default generator is a deterministic fake; EM/F1 on the synthetic fixtures
+  are low by construction and exercise the harness, not model quality. A real
+  Hugging Face generator (e.g. Qwen) is supported (see "Running" above) and has
+  been smoke-tested on an actual CUDA GPU (`scripts/cuda_smoke_test.py`,
+  `artifacts/cuda-smoke/`) — but as of this writing, no full multi-seed,
+  multi-variant Qwen scale run has been executed and reported; that is a
+  deliberate next step, not a claimed result.
 - Heuristic semantic metrics are lexical proxies.
 - `reranked_passage_rag` matches `passage_rag` on these inputs because the score
   reranker is identity on BM25 order.
-- Deterministic pilots measure evidence structure, not answer quality; real-model
-  benchmark numbers require a GPU run that has not been done.
+- Deterministic pilots measure evidence structure, not answer quality. Real-model
+  answer-quality numbers require running the Qwen scale experiments end to end
+  (`docs/reproduction.md`) and are not yet included in this repository's
+  artifacts.

@@ -1,0 +1,93 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 31
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-fa9baaee06bb7c3e",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Rage_Against_the_Machine::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Rage_Against_the_Machine",
+          "title": "Rage Against the Machine",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 127,
+            "source_id": "Rage_Against_the_Machine",
+            "start": 0,
+            "text": "The same year , growing tensions over the direction of the band prompted de la Rocha to quit , leading to the band 's breakup ."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Rocha"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Rocha",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The same year , growing tensions over the direction of the band prompted de la Rocha to quit , leading to the band 's breakup .",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "pkg-952eaad0601ba125123f09a1686d805e",
+  "query": {
+    "created_at": null,
+    "query_id": "952eaad0601ba125123f09a1686d805e",
+    "text": "Rage Against the Machine is a band."
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": null,
+      "claim_id": "clm-fa9baaee06bb7c3e",
+      "rank": 0,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    }
+  ],
+  "subgraph": null
+}

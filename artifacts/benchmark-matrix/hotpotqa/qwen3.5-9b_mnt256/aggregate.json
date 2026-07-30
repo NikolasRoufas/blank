@@ -1,0 +1,1863 @@
+{
+  "per_seed": [
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 0.3797197591680351,
+        "citation_completeness": 0.0,
+        "citation_precision": 0.0,
+        "citation_recall": 0.0,
+        "contradiction_rate": 1.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 0.14666666666666667,
+        "evidence_recall": 0.3,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 7169.791876594536,
+        "normalized_exact_match": 0.0,
+        "num_claims": 5.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 0.0,
+        "num_passages": 5.0,
+        "num_selected": 4.6,
+        "token_estimate": 181.8,
+        "token_f1": 0.039285714285714285,
+        "unsupported_claim_rate": 0.7333333333333333
+      },
+      "num_examples": 25,
+      "num_failed": 20,
+      "seed": 0,
+      "variant": "passage_rag",
+      "warnings": [
+        "uncited claim-like sentence: 'The provided evidence does not contain the name of the numbe'",
+        "uncited claim-like sentence: 'The provided evidence does not contain information about the'",
+        "uncited claim-like sentence: 'The provided evidence does not contain information regarding'",
+        "uncited claim-like sentence: 'Housman, so it is impossible to determine if they have the s'",
+        "uncited claim-like sentence: 'The provided evidence states that Raymond James Financial is'",
+        "uncited claim-like sentence: 'The provided evidence does not contain the birthday of the m'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 0.3797197591680351,
+        "citation_completeness": 0.0,
+        "citation_precision": 0.0,
+        "citation_recall": 0.0,
+        "contradiction_rate": 1.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 0.14666666666666667,
+        "evidence_recall": 0.3,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 4170.1755384216085,
+        "normalized_exact_match": 0.0,
+        "num_claims": 5.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 0.0,
+        "num_passages": 5.0,
+        "num_selected": 4.6,
+        "token_estimate": 181.8,
+        "token_f1": 0.039285714285714285,
+        "unsupported_claim_rate": 0.7333333333333333
+      },
+      "num_examples": 25,
+      "num_failed": 20,
+      "seed": 0,
+      "variant": "reranked_passage_rag",
+      "warnings": [
+        "uncited claim-like sentence: 'The provided evidence does not contain the name of the numbe'",
+        "uncited claim-like sentence: 'The provided evidence does not contain information about the'",
+        "uncited claim-like sentence: 'The provided evidence does not contain information regarding'",
+        "uncited claim-like sentence: 'Housman, so it is impossible to determine if they have the s'",
+        "uncited claim-like sentence: 'The provided evidence states that Raymond James Financial is'",
+        "uncited claim-like sentence: 'The provided evidence does not contain the birthday of the m'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 0.5190796430901129,
+        "citation_completeness": 0.23809523809523808,
+        "citation_precision": 0.4523809523809524,
+        "citation_recall": 0.35714285714285715,
+        "contradiction_rate": 0.6190476190476191,
+        "empty_prediction": 0.0,
+        "evidence_precision": 0.2015873015873016,
+        "evidence_recall": 0.4523809523809524,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 5783.467654482506,
+        "normalized_exact_match": 0.0,
+        "num_claims": 7.809523809523809,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 0.0,
+        "num_passages": 5.0,
+        "num_selected": 7.095238095238095,
+        "token_estimate": 169.0,
+        "token_f1": 0.09609846111239773,
+        "unsupported_claim_rate": 0.5158730158730159
+      },
+      "num_examples": 25,
+      "num_failed": 4,
+      "seed": 0,
+      "variant": "claim_only_rag",
+      "warnings": [
+        "uncited claim-like sentence: 'The provided evidence does not contain information about the'",
+        "uncited claim-like sentence: 'The name of the number-one single featuring the winner of Ce'",
+        "uncited claim-like sentence: 'Yes, both Upper Crust Pizzeria and Eatza Pizza are restauran'",
+        "uncited claim-like sentence: \"Upper Crust Pizzeria is described as a 'chain of pizzeria re\"",
+        "uncited claim-like sentence: 'Ratatouille and PlayStation 3 share the medium of video game'",
+        "uncited claim-like sentence: \"The lead character in the 1960s sitcom 'Get Smart' was Maxwe\"",
+        "uncited claim-like sentence: 'The show also featured Barbara Feldon, an American actress b'",
+        "uncited claim-like sentence: 'Both Jos\u00e9 Aponte de la Torre Airport and Boulder City Munici'",
+        "uncited claim-like sentence: 'The provided evidence does not contain information about whi'",
+        "uncited claim-like sentence: \"The evidence mentions 'Dark Places' is a 2015 mystery thrill\"",
+        "uncited claim-like sentence: \"The author of the book 'The Coming Global Superstorm' and th\"",
+        "uncited claim-like sentence: \"The evidence mentions that 'Women Talking' included intervie\"",
+        "uncited claim-like sentence: 'The provided evidence confirms that The Black Crowes are a r'",
+        "uncited claim-like sentence: 'The provided evidence does not state whether Xinxiang or Qio'",
+        "uncited claim-like sentence: 'The provided evidence does not contain information regarding'",
+        "uncited claim-like sentence: 'Housman, so it is impossible to determine if they have the s'",
+        "uncited claim-like sentence: \"Sian Gibson co-wrote the British sitcom 'Peter Kay's Car Sha\"",
+        "uncited claim-like sentence: 'The provided evidence states that Raymond James Financial is'",
+        "uncited claim-like sentence: 'Pearl Zane Grey was an American dentist, but the evidence do'",
+        "uncited claim-like sentence: 'The evidence identifies Zane Grey as an author best known fo'",
+        "uncited claim-like sentence: 'There is no evidence provided regarding Bhabananda Deka.'",
+        "uncited claim-like sentence: 'The evidence states that Raphael Holzhauser plays for Austri'",
+        "uncited claim-like sentence: 'The evidence mentions Signal Mountain in Tennessee but does '"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 0.2889721840331494,
+        "citation_completeness": 0.05,
+        "citation_precision": 0.25,
+        "citation_recall": 0.175,
+        "contradiction_rate": 0.95,
+        "empty_prediction": 0.0,
+        "evidence_precision": 0.21833333333333332,
+        "evidence_recall": 0.225,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 6294.867322104983,
+        "normalized_exact_match": 0.0,
+        "num_claims": 8.15,
+        "num_graph_edges": 2.6,
+        "num_graph_nodes": 8.15,
+        "num_passages": 5.0,
+        "num_selected": 2.3,
+        "token_estimate": 64.6,
+        "token_f1": 0.04933823534611884,
+        "unsupported_claim_rate": 0.8
+      },
+      "num_examples": 25,
+      "num_failed": 5,
+      "seed": 0,
+      "variant": "graph_no_propagation",
+      "warnings": [
+        "uncited claim-like sentence: 'The provided evidence does not contain information about the'",
+        "uncited claim-like sentence: 'The provided evidence does not contain the name of the numbe'",
+        "uncited claim-like sentence: 'It only identifies Bret Michaels as the winner of Celebrity '",
+        "uncited claim-like sentence: 'The evidence confirms that Upper Crust Pizzeria is a pizzeri'",
+        "uncited claim-like sentence: 'However, there is no evidence provided regarding whether Eat'",
+        "uncited claim-like sentence: 'Based on the provided evidence, there is no explicit stateme'",
+        "uncited claim-like sentence: 'The evidence mentions the PlayStation 3 in the context of a '",
+        "uncited claim-like sentence: 'The provided evidence does not contain information about Jam'",
+        "uncited claim-like sentence: 'It only mentions David Kool serving as an assistant coach fo'",
+        "unresolved conflicts are present but the answer expresses no uncertainty",
+        "uncited claim-like sentence: 'Both Jos\u00e9 Aponte de la Torre Airport and Boulder City Munici'",
+        "uncited claim-like sentence: 'The provided evidence does not contain information about a 2'",
+        "uncited claim-like sentence: 'The provided evidence does not identify a Lyric Street Recor'",
+        "uncited claim-like sentence: \"One claim mentions 'If You Ever Get Lonely' as a single from\"",
+        "uncited claim-like sentence: 'Another claim mentions an artist signed to Lyric Street Reco'",
+        "uncited claim-like sentence: 'The provided evidence does not contain information about Mid'",
+        "uncited claim-like sentence: 'Myles Kennedy is associated with rock bands, as he is descri'",
+        "uncited claim-like sentence: 'However, the provided evidence does not contain information '",
+        "uncited claim-like sentence: 'The provided evidence defines what a county-level city is an'",
+        "uncited claim-like sentence: 'The provided evidence does not contain information about an '",
+        "uncited claim-like sentence: 'Housman, nor does it confirm whether they share the same nat'",
+        "uncited claim-like sentence: 'The provided evidence does not contain information about Sia'",
+        "uncited claim-like sentence: \"It mentions 'Peter Kay's Car Share' as a British sitcom set \"",
+        "uncited claim-like sentence: \"It also mentions 'Trollied' as a British sitcom about employ\"",
+        "uncited claim-like sentence: \"It mentions 'Cradle to Grave' as a British sitcom set around\"",
+        "uncited claim-like sentence: 'The provided evidence does not state whether NRG Energy or R'",
+        "uncited claim-like sentence: 'It only mentions that Raymond James Financial is an American'",
+        "uncited claim-like sentence: 'According to the provided evidence, Pearl Zane Grey was an A'",
+        "uncited claim-like sentence: 'The evidence regarding Bhabananda Deka does not mention his '"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 0.5014836950952569,
+        "citation_completeness": 0.13333333333333333,
+        "citation_precision": 0.3333333333333333,
+        "citation_recall": 0.26666666666666666,
+        "contradiction_rate": 0.7333333333333333,
+        "empty_prediction": 0.0,
+        "evidence_precision": 0.18000000000000002,
+        "evidence_recall": 0.36666666666666664,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 7124.647490874243,
+        "normalized_exact_match": 0.0,
+        "num_claims": 7.4,
+        "num_graph_edges": 3.0,
+        "num_graph_nodes": 7.4,
+        "num_passages": 5.0,
+        "num_selected": 6.466666666666667,
+        "token_estimate": 171.93333333333334,
+        "token_f1": 0.05878190301052399,
+        "unsupported_claim_rate": 0.5333333333333333
+      },
+      "num_examples": 25,
+      "num_failed": 10,
+      "seed": 0,
+      "variant": "graph_top_claim",
+      "warnings": [
+        "uncited claim-like sentence: 'The provided evidence does not contain information about the'",
+        "uncited claim-like sentence: 'The provided evidence identifies Bret Michaels as the winner'",
+        "uncited claim-like sentence: 'Yes, both Upper Crust Pizzeria and Eatza Pizza are restauran'",
+        "uncited claim-like sentence: \"Upper Crust Pizzeria is described as a 'chain of pizzeria re\"",
+        "unresolved conflicts are present but the answer expresses no uncertainty",
+        "uncited claim-like sentence: 'Ratatouille and PlayStation 3 share the medium of video game'",
+        "uncited claim-like sentence: 'The provided evidence does not contain information about a p'",
+        "uncited claim-like sentence: \"One disputed claim mentions a 'Jamell Anderson' who plays fo\"",
+        "uncited claim-like sentence: \"Another disputed claim mentions 'David Anderson Kool' who pl\"",
+        "uncited claim-like sentence: 'Therefore, based strictly on the supplied evidence, the city'",
+        "uncited claim-like sentence: 'The provided evidence does not contain information about whi'",
+        "uncited claim-like sentence: 'The evidence mentions the Chengdu J-7 as a fighter jet flown'",
+        "uncited claim-like sentence: \"The lead character in the 1960s sitcom 'Get Smart' was Agent\"",
+        "uncited claim-like sentence: 'Both Jos\u00e9 Aponte de la Torre Airport and Boulder City Munici'",
+        "uncited claim-like sentence: 'Myles Kennedy is associated with rock bands, as he is descri'",
+        "uncited claim-like sentence: 'However, the provided evidence does not contain any informat'",
+        "uncited claim-like sentence: 'The provided evidence does not confirm whether Xinxiang or Q'",
+        "uncited claim-like sentence: 'While the evidence defines county-level cities and lists maj'",
+        "uncited claim-like sentence: 'The provided evidence does not contain information regarding'",
+        "uncited claim-like sentence: 'Housman, nor does it state whether they share the same natio'",
+        "uncited claim-like sentence: 'The provided evidence does not state that Raymond James Fina'",
+        "uncited claim-like sentence: 'The evidence does not mention NRG Energy at all.'",
+        "uncited claim-like sentence: 'The provided evidence does not contain the birthday of the m'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 0.31459431724113873,
+        "citation_completeness": 0.045454545454545456,
+        "citation_precision": 0.25757575757575757,
+        "citation_recall": 0.18181818181818182,
+        "contradiction_rate": 0.9090909090909091,
+        "empty_prediction": 0.0,
+        "evidence_precision": 0.2287878787878788,
+        "evidence_recall": 0.25,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 6252.937688185325,
+        "normalized_exact_match": 0.0,
+        "num_claims": 7.954545454545454,
+        "num_graph_edges": 2.4545454545454546,
+        "num_graph_nodes": 7.954545454545454,
+        "num_passages": 5.0,
+        "num_selected": 2.590909090909091,
+        "token_estimate": 72.95454545454545,
+        "token_f1": 0.05050931829619183,
+        "unsupported_claim_rate": 0.7575757575757577
+      },
+      "num_examples": 25,
+      "num_failed": 3,
+      "seed": 0,
+      "variant": "graph_coherent_subgraph",
+      "warnings": [
+        "uncited claim-like sentence: 'The provided evidence does not contain information about the'",
+        "uncited claim-like sentence: 'The provided evidence does not contain the name of the numbe'",
+        "uncited claim-like sentence: 'It only identifies Bret Michaels as the winner of Celebrity '",
+        "uncited claim-like sentence: 'The evidence confirms that Upper Crust Pizzeria is a pizzeri'",
+        "uncited claim-like sentence: 'However, there is no evidence provided regarding whether Eat'",
+        "uncited claim-like sentence: 'Ratatouille and PlayStation 3 share the PlayStation 3 as a c'",
+        "uncited claim-like sentence: 'The provided evidence does not contain information about Jam'",
+        "uncited claim-like sentence: 'It only mentions David Kool serving as an assistant coach fo'",
+        "unresolved conflicts are present but the answer expresses no uncertainty",
+        "uncited claim-like sentence: 'Both Jos\u00e9 Aponte de la Torre Airport and Boulder City Munici'",
+        "uncited claim-like sentence: 'The provided evidence does not contain information about a 2'",
+        "uncited claim-like sentence: 'The provided evidence does not identify a Lyric Street Recor'",
+        "uncited claim-like sentence: \"One claim mentions 'If You Ever Get Lonely' as a single from\"",
+        "uncited claim-like sentence: 'Another claim mentions an artist signed to Lyric Street Reco'",
+        "uncited claim-like sentence: \"The provided evidence does not identify the author of 'The C\"",
+        "uncited claim-like sentence: \"One claim mentions 'Art Bell' in relation to 'Coast to Coast\"",
+        "uncited claim-like sentence: 'The provided evidence does not contain information about Mid'",
+        "uncited claim-like sentence: 'Therefore, it is impossible to determine if they were releas'",
+        "uncited claim-like sentence: 'Myles Kennedy is associated with rock bands, as he is descri'",
+        "uncited claim-like sentence: 'However, the evidence does not explicitly state whether Safe'",
+        "uncited claim-like sentence: 'The provided evidence defines what a county-level city is an'",
+        "uncited claim-like sentence: 'The provided evidence does not contain information about an '",
+        "uncited claim-like sentence: 'Housman, nor does it confirm whether they share the same nat'",
+        "uncited claim-like sentence: 'The provided evidence does not state whether NRG Energy or R'",
+        "uncited claim-like sentence: 'It only mentions that Raymond James Financial is an American'",
+        "uncited claim-like sentence: 'According to the provided evidence, Pearl Zane Grey was an A'",
+        "uncited claim-like sentence: 'The evidence regarding Bhabananda Deka does not mention his '",
+        "uncited claim-like sentence: 'The provided evidence does not contain information linking R'",
+        "uncited claim-like sentence: 'The rejected evidence states that Raphael Holzhauser plays f'",
+        "uncited claim-like sentence: 'The provided evidence does not contain the birthday of the m'",
+        "uncited claim-like sentence: 'While one piece of evidence mentions Gene Hackman returned a'",
+        "uncited claim-like sentence: 'The provided evidence contains conflicting information regar'",
+        "uncited claim-like sentence: 'One source associates the Chehalem Mountains with the Willam'",
+        "uncited claim-like sentence: 'Due to this unresolvable conflict and the lack of direct evi'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 0.31459431724113873,
+        "citation_completeness": 0.045454545454545456,
+        "citation_precision": 0.25757575757575757,
+        "citation_recall": 0.18181818181818182,
+        "contradiction_rate": 0.9090909090909091,
+        "empty_prediction": 0.0,
+        "evidence_precision": 0.2287878787878788,
+        "evidence_recall": 0.25,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 6199.4120407193395,
+        "normalized_exact_match": 0.0,
+        "num_claims": 7.954545454545454,
+        "num_graph_edges": 2.4545454545454546,
+        "num_graph_nodes": 7.954545454545454,
+        "num_passages": 5.0,
+        "num_selected": 2.590909090909091,
+        "token_estimate": 72.95454545454545,
+        "token_f1": 0.05050931829619183,
+        "unsupported_claim_rate": 0.7575757575757577
+      },
+      "num_examples": 25,
+      "num_failed": 3,
+      "seed": 0,
+      "variant": "graph_no_temporal",
+      "warnings": [
+        "uncited claim-like sentence: 'The provided evidence does not contain information about the'",
+        "uncited claim-like sentence: 'The provided evidence does not contain the name of the numbe'",
+        "uncited claim-like sentence: 'It only identifies Bret Michaels as the winner of Celebrity '",
+        "uncited claim-like sentence: 'The evidence confirms that Upper Crust Pizzeria is a pizzeri'",
+        "uncited claim-like sentence: 'However, there is no evidence provided regarding whether Eat'",
+        "uncited claim-like sentence: 'Ratatouille and PlayStation 3 share the PlayStation 3 as a c'",
+        "uncited claim-like sentence: 'The provided evidence does not contain information about Jam'",
+        "uncited claim-like sentence: 'It only mentions David Kool serving as an assistant coach fo'",
+        "unresolved conflicts are present but the answer expresses no uncertainty",
+        "uncited claim-like sentence: 'Both Jos\u00e9 Aponte de la Torre Airport and Boulder City Munici'",
+        "uncited claim-like sentence: 'The provided evidence does not contain information about a 2'",
+        "uncited claim-like sentence: 'The provided evidence does not identify a Lyric Street Recor'",
+        "uncited claim-like sentence: \"One claim mentions 'If You Ever Get Lonely' as a single from\"",
+        "uncited claim-like sentence: 'Another claim mentions an artist signed to Lyric Street Reco'",
+        "uncited claim-like sentence: \"The provided evidence does not identify the author of 'The C\"",
+        "uncited claim-like sentence: \"One claim mentions 'Art Bell' in relation to 'Coast to Coast\"",
+        "uncited claim-like sentence: 'The provided evidence does not contain information about Mid'",
+        "uncited claim-like sentence: 'Therefore, it is impossible to determine if they were releas'",
+        "uncited claim-like sentence: 'Myles Kennedy is associated with rock bands, as he is descri'",
+        "uncited claim-like sentence: 'However, the evidence does not explicitly state whether Safe'",
+        "uncited claim-like sentence: 'The provided evidence defines what a county-level city is an'",
+        "uncited claim-like sentence: 'The provided evidence does not contain information about an '",
+        "uncited claim-like sentence: 'Housman, nor does it confirm whether they share the same nat'",
+        "uncited claim-like sentence: 'The provided evidence does not state whether NRG Energy or R'",
+        "uncited claim-like sentence: 'It only mentions that Raymond James Financial is an American'",
+        "uncited claim-like sentence: 'According to the provided evidence, Pearl Zane Grey was an A'",
+        "uncited claim-like sentence: 'The evidence regarding Bhabananda Deka does not mention his '",
+        "uncited claim-like sentence: 'The provided evidence does not contain information linking R'",
+        "uncited claim-like sentence: 'The rejected evidence states that Raphael Holzhauser plays f'",
+        "uncited claim-like sentence: 'The provided evidence does not contain the birthday of the m'",
+        "uncited claim-like sentence: 'While one piece of evidence mentions Gene Hackman returned a'",
+        "uncited claim-like sentence: 'The provided evidence contains conflicting information regar'",
+        "uncited claim-like sentence: 'One source associates the Chehalem Mountains with the Willam'",
+        "uncited claim-like sentence: 'Due to this unresolvable conflict and the lack of direct evi'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 0.3199627362116584,
+        "citation_completeness": 0.0,
+        "citation_precision": 0.26,
+        "citation_recall": 0.14,
+        "contradiction_rate": 0.84,
+        "empty_prediction": 0.0,
+        "evidence_precision": 0.35333333333333333,
+        "evidence_recall": 0.2,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 4930.198160759173,
+        "normalized_exact_match": 0.0,
+        "num_claims": 7.96,
+        "num_graph_edges": 0.48,
+        "num_graph_nodes": 7.96,
+        "num_passages": 5.0,
+        "num_selected": 1.44,
+        "token_estimate": 39.12,
+        "token_f1": 0.07106521396437362,
+        "unsupported_claim_rate": 0.76
+      },
+      "num_examples": 25,
+      "num_failed": 0,
+      "seed": 0,
+      "variant": "graph_no_contradiction",
+      "warnings": [
+        "uncited claim-like sentence: 'The provided evidence does not contain information about the'",
+        "uncited claim-like sentence: 'The evidence confirms that Upper Crust Pizzeria is a pizzeri'",
+        "uncited claim-like sentence: 'However, there is no evidence provided regarding whether Eat'",
+        "uncited claim-like sentence: 'The provided evidence does not contain information about Jam'",
+        "uncited claim-like sentence: 'It only mentions David Kool serving as an assistant coach fo'",
+        "uncited claim-like sentence: \"The lead character in the 1960s sitcom 'Get Smart' was Agent\"",
+        "uncited claim-like sentence: 'Jos\u00e9 Aponte de la Torre Airport is classified as a public us'",
+        "uncited claim-like sentence: 'There is no evidence provided regarding the classification o'",
+        "uncited claim-like sentence: 'The provided evidence does not contain information about a 2'",
+        "uncited claim-like sentence: 'The provided evidence does not identify the band that covere'",
+        "uncited claim-like sentence: 'The provided evidence states that Art Bell was the original '",
+        "uncited claim-like sentence: 'The provided evidence does not contain information about Mid'",
+        "uncited claim-like sentence: 'The provided evidence confirms that The Black Crowes are a r'",
+        "uncited claim-like sentence: 'Yes, Myles Kennedy is associated with rock bands as he is an'",
+        "uncited claim-like sentence: 'There is no evidence provided in the supplied text to confir'",
+        "uncited claim-like sentence: 'The provided evidence defines what a county-level city is an'",
+        "uncited claim-like sentence: 'The provided evidence does not contain information about an '",
+        "uncited claim-like sentence: 'Housman, nor does it confirm if they share the same national'",
+        "uncited claim-like sentence: \"Sian Gibson co-wrote the British sitcom 'Peter Kay's Car Sha\"",
+        "uncited claim-like sentence: 'The provided evidence does not state whether NRG Energy or R'",
+        "uncited claim-like sentence: 'It only mentions that Raymond James Financial is an American'",
+        "uncited claim-like sentence: 'The name of the Austrian association football club from Vien'",
+        "uncited claim-like sentence: 'The provided evidence does not contain information about Elk'",
+        "uncited claim-like sentence: 'The evidence only discusses the Chehalem Mountains in the Wi'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 0.31459431724113873,
+        "citation_completeness": 0.045454545454545456,
+        "citation_precision": 0.25757575757575757,
+        "citation_recall": 0.18181818181818182,
+        "contradiction_rate": 0.9090909090909091,
+        "empty_prediction": 0.0,
+        "evidence_precision": 0.2287878787878788,
+        "evidence_recall": 0.25,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 6231.330770094329,
+        "normalized_exact_match": 0.0,
+        "num_claims": 7.954545454545454,
+        "num_graph_edges": 2.4545454545454546,
+        "num_graph_nodes": 7.954545454545454,
+        "num_passages": 5.0,
+        "num_selected": 2.590909090909091,
+        "token_estimate": 72.95454545454545,
+        "token_f1": 0.05050931829619183,
+        "unsupported_claim_rate": 0.7575757575757577
+      },
+      "num_examples": 25,
+      "num_failed": 3,
+      "seed": 0,
+      "variant": "graph_with_propagation",
+      "warnings": [
+        "uncited claim-like sentence: 'The provided evidence does not contain information about the'",
+        "uncited claim-like sentence: 'The provided evidence does not contain the name of the numbe'",
+        "uncited claim-like sentence: 'It only identifies Bret Michaels as the winner of Celebrity '",
+        "uncited claim-like sentence: 'The evidence confirms that Upper Crust Pizzeria is a pizzeri'",
+        "uncited claim-like sentence: 'However, there is no evidence provided regarding whether Eat'",
+        "uncited claim-like sentence: 'Ratatouille and PlayStation 3 share the PlayStation 3 as a c'",
+        "uncited claim-like sentence: 'The provided evidence does not contain information about Jam'",
+        "uncited claim-like sentence: 'It only mentions David Kool serving as an assistant coach fo'",
+        "unresolved conflicts are present but the answer expresses no uncertainty",
+        "uncited claim-like sentence: 'Both Jos\u00e9 Aponte de la Torre Airport and Boulder City Munici'",
+        "uncited claim-like sentence: 'The provided evidence does not contain information about a 2'",
+        "uncited claim-like sentence: 'The provided evidence does not identify a Lyric Street Recor'",
+        "uncited claim-like sentence: \"One claim mentions 'If You Ever Get Lonely' as a single from\"",
+        "uncited claim-like sentence: 'Another claim mentions an artist signed to Lyric Street Reco'",
+        "uncited claim-like sentence: \"The provided evidence does not identify the author of 'The C\"",
+        "uncited claim-like sentence: \"One claim mentions 'Art Bell' in relation to 'Coast to Coast\"",
+        "uncited claim-like sentence: 'The provided evidence does not contain information about Mid'",
+        "uncited claim-like sentence: 'Therefore, it is impossible to determine if they were releas'",
+        "uncited claim-like sentence: 'Myles Kennedy is associated with rock bands, as he is descri'",
+        "uncited claim-like sentence: 'However, the evidence does not explicitly state whether Safe'",
+        "uncited claim-like sentence: 'The provided evidence defines what a county-level city is an'",
+        "uncited claim-like sentence: 'The provided evidence does not contain information about an '",
+        "uncited claim-like sentence: 'Housman, nor does it confirm whether they share the same nat'",
+        "uncited claim-like sentence: 'The provided evidence does not state whether NRG Energy or R'",
+        "uncited claim-like sentence: 'It only mentions that Raymond James Financial is an American'",
+        "uncited claim-like sentence: 'According to the provided evidence, Pearl Zane Grey was an A'",
+        "uncited claim-like sentence: 'The evidence regarding Bhabananda Deka does not mention his '",
+        "uncited claim-like sentence: 'The provided evidence does not contain information linking R'",
+        "uncited claim-like sentence: 'The rejected evidence states that Raphael Holzhauser plays f'",
+        "uncited claim-like sentence: 'The provided evidence does not contain the birthday of the m'",
+        "uncited claim-like sentence: 'While one piece of evidence mentions Gene Hackman returned a'",
+        "uncited claim-like sentence: 'The provided evidence contains conflicting information regar'",
+        "uncited claim-like sentence: 'One source associates the Chehalem Mountains with the Willam'",
+        "uncited claim-like sentence: 'Due to this unresolvable conflict and the lack of direct evi'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 0.31459431724113873,
+        "citation_completeness": 0.045454545454545456,
+        "citation_precision": 0.25757575757575757,
+        "citation_recall": 0.18181818181818182,
+        "contradiction_rate": 0.9090909090909091,
+        "empty_prediction": 0.0,
+        "evidence_precision": 0.2287878787878788,
+        "evidence_recall": 0.25,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 6269.86665726343,
+        "normalized_exact_match": 0.0,
+        "num_claims": 7.954545454545454,
+        "num_graph_edges": 2.4545454545454546,
+        "num_graph_nodes": 7.954545454545454,
+        "num_passages": 5.0,
+        "num_selected": 2.590909090909091,
+        "token_estimate": 72.95454545454545,
+        "token_f1": 0.05050931829619183,
+        "unsupported_claim_rate": 0.7575757575757577
+      },
+      "num_examples": 25,
+      "num_failed": 3,
+      "seed": 0,
+      "variant": "full_egrag",
+      "warnings": [
+        "uncited claim-like sentence: 'The provided evidence does not contain information about the'",
+        "uncited claim-like sentence: 'The provided evidence does not contain the name of the numbe'",
+        "uncited claim-like sentence: 'It only identifies Bret Michaels as the winner of Celebrity '",
+        "uncited claim-like sentence: 'The evidence confirms that Upper Crust Pizzeria is a pizzeri'",
+        "uncited claim-like sentence: 'However, there is no evidence provided regarding whether Eat'",
+        "uncited claim-like sentence: 'Ratatouille and PlayStation 3 share the PlayStation 3 as a c'",
+        "uncited claim-like sentence: 'The provided evidence does not contain information about Jam'",
+        "uncited claim-like sentence: 'It only mentions David Kool serving as an assistant coach fo'",
+        "unresolved conflicts are present but the answer expresses no uncertainty",
+        "uncited claim-like sentence: 'Both Jos\u00e9 Aponte de la Torre Airport and Boulder City Munici'",
+        "uncited claim-like sentence: 'The provided evidence does not contain information about a 2'",
+        "uncited claim-like sentence: 'The provided evidence does not identify a Lyric Street Recor'",
+        "uncited claim-like sentence: \"One claim mentions 'If You Ever Get Lonely' as a single from\"",
+        "uncited claim-like sentence: 'Another claim mentions an artist signed to Lyric Street Reco'",
+        "uncited claim-like sentence: \"The provided evidence does not identify the author of 'The C\"",
+        "uncited claim-like sentence: \"One claim mentions 'Art Bell' in relation to 'Coast to Coast\"",
+        "uncited claim-like sentence: 'The provided evidence does not contain information about Mid'",
+        "uncited claim-like sentence: 'Therefore, it is impossible to determine if they were releas'",
+        "uncited claim-like sentence: 'Myles Kennedy is associated with rock bands, as he is descri'",
+        "uncited claim-like sentence: 'However, the evidence does not explicitly state whether Safe'",
+        "uncited claim-like sentence: 'The provided evidence defines what a county-level city is an'",
+        "uncited claim-like sentence: 'The provided evidence does not contain information about an '",
+        "uncited claim-like sentence: 'Housman, nor does it confirm whether they share the same nat'",
+        "uncited claim-like sentence: 'The provided evidence does not state whether NRG Energy or R'",
+        "uncited claim-like sentence: 'It only mentions that Raymond James Financial is an American'",
+        "uncited claim-like sentence: 'According to the provided evidence, Pearl Zane Grey was an A'",
+        "uncited claim-like sentence: 'The evidence regarding Bhabananda Deka does not mention his '",
+        "uncited claim-like sentence: 'The provided evidence does not contain information linking R'",
+        "uncited claim-like sentence: 'The rejected evidence states that Raphael Holzhauser plays f'",
+        "uncited claim-like sentence: 'The provided evidence does not contain the birthday of the m'",
+        "uncited claim-like sentence: 'While one piece of evidence mentions Gene Hackman returned a'",
+        "uncited claim-like sentence: 'The provided evidence contains conflicting information regar'",
+        "uncited claim-like sentence: 'One source associates the Chehalem Mountains with the Willam'",
+        "uncited claim-like sentence: 'Due to this unresolvable conflict and the lack of direct evi'"
+      ]
+    }
+  ],
+  "seed_aggregated": {
+    "claim_only_rag": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 0.5190796430901129,
+        "median": 0.5190796430901129,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.23809523809523808,
+        "median": 0.23809523809523808,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 0.4523809523809524,
+        "median": 0.4523809523809524,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.35714285714285715,
+        "median": 0.35714285714285715,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.6190476190476191,
+        "median": 0.6190476190476191,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 0.2015873015873016,
+        "median": 0.2015873015873016,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 0.4523809523809524,
+        "median": 0.4523809523809524,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 5783.467654482506,
+        "median": 5783.467654482506,
+        "std": 0.0
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 7.809523809523809,
+        "median": 7.809523809523809,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 5.0,
+        "median": 5.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 7.095238095238095,
+        "median": 7.095238095238095,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 169.0,
+        "median": 169.0,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.09609846111239773,
+        "median": 0.09609846111239773,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.5158730158730159,
+        "median": 0.5158730158730159,
+        "std": 0.0
+      }
+    },
+    "full_egrag": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 0.31459431724113873,
+        "median": 0.31459431724113873,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.045454545454545456,
+        "median": 0.045454545454545456,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 0.25757575757575757,
+        "median": 0.25757575757575757,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.18181818181818182,
+        "median": 0.18181818181818182,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.9090909090909091,
+        "median": 0.9090909090909091,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 0.2287878787878788,
+        "median": 0.2287878787878788,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 0.25,
+        "median": 0.25,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 6269.86665726343,
+        "median": 6269.86665726343,
+        "std": 0.0
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 7.954545454545454,
+        "median": 7.954545454545454,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 2.4545454545454546,
+        "median": 2.4545454545454546,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 7.954545454545454,
+        "median": 7.954545454545454,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 5.0,
+        "median": 5.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 2.590909090909091,
+        "median": 2.590909090909091,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 72.95454545454545,
+        "median": 72.95454545454545,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.05050931829619183,
+        "median": 0.05050931829619183,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.7575757575757577,
+        "median": 0.7575757575757577,
+        "std": 0.0
+      }
+    },
+    "graph_coherent_subgraph": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 0.31459431724113873,
+        "median": 0.31459431724113873,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.045454545454545456,
+        "median": 0.045454545454545456,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 0.25757575757575757,
+        "median": 0.25757575757575757,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.18181818181818182,
+        "median": 0.18181818181818182,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.9090909090909091,
+        "median": 0.9090909090909091,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 0.2287878787878788,
+        "median": 0.2287878787878788,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 0.25,
+        "median": 0.25,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 6252.937688185325,
+        "median": 6252.937688185325,
+        "std": 0.0
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 7.954545454545454,
+        "median": 7.954545454545454,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 2.4545454545454546,
+        "median": 2.4545454545454546,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 7.954545454545454,
+        "median": 7.954545454545454,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 5.0,
+        "median": 5.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 2.590909090909091,
+        "median": 2.590909090909091,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 72.95454545454545,
+        "median": 72.95454545454545,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.05050931829619183,
+        "median": 0.05050931829619183,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.7575757575757577,
+        "median": 0.7575757575757577,
+        "std": 0.0
+      }
+    },
+    "graph_no_contradiction": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 0.3199627362116584,
+        "median": 0.3199627362116584,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 0.26,
+        "median": 0.26,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.14,
+        "median": 0.14,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.84,
+        "median": 0.84,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 0.35333333333333333,
+        "median": 0.35333333333333333,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 0.2,
+        "median": 0.2,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 4930.198160759173,
+        "median": 4930.198160759173,
+        "std": 0.0
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 7.96,
+        "median": 7.96,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.48,
+        "median": 0.48,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 7.96,
+        "median": 7.96,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 5.0,
+        "median": 5.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 1.44,
+        "median": 1.44,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 39.12,
+        "median": 39.12,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.07106521396437362,
+        "median": 0.07106521396437362,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.76,
+        "median": 0.76,
+        "std": 0.0
+      }
+    },
+    "graph_no_propagation": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 0.2889721840331494,
+        "median": 0.2889721840331494,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.05,
+        "median": 0.05,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 0.25,
+        "median": 0.25,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.175,
+        "median": 0.175,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.95,
+        "median": 0.95,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 0.21833333333333332,
+        "median": 0.21833333333333332,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 0.225,
+        "median": 0.225,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 6294.867322104983,
+        "median": 6294.867322104983,
+        "std": 0.0
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 8.15,
+        "median": 8.15,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 2.6,
+        "median": 2.6,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 8.15,
+        "median": 8.15,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 5.0,
+        "median": 5.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 2.3,
+        "median": 2.3,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 64.6,
+        "median": 64.6,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.04933823534611884,
+        "median": 0.04933823534611884,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.8,
+        "median": 0.8,
+        "std": 0.0
+      }
+    },
+    "graph_no_temporal": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 0.31459431724113873,
+        "median": 0.31459431724113873,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.045454545454545456,
+        "median": 0.045454545454545456,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 0.25757575757575757,
+        "median": 0.25757575757575757,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.18181818181818182,
+        "median": 0.18181818181818182,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.9090909090909091,
+        "median": 0.9090909090909091,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 0.2287878787878788,
+        "median": 0.2287878787878788,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 0.25,
+        "median": 0.25,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 6199.4120407193395,
+        "median": 6199.4120407193395,
+        "std": 0.0
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 7.954545454545454,
+        "median": 7.954545454545454,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 2.4545454545454546,
+        "median": 2.4545454545454546,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 7.954545454545454,
+        "median": 7.954545454545454,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 5.0,
+        "median": 5.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 2.590909090909091,
+        "median": 2.590909090909091,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 72.95454545454545,
+        "median": 72.95454545454545,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.05050931829619183,
+        "median": 0.05050931829619183,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.7575757575757577,
+        "median": 0.7575757575757577,
+        "std": 0.0
+      }
+    },
+    "graph_top_claim": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 0.5014836950952569,
+        "median": 0.5014836950952569,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.13333333333333333,
+        "median": 0.13333333333333333,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 0.3333333333333333,
+        "median": 0.3333333333333333,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.26666666666666666,
+        "median": 0.26666666666666666,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.7333333333333333,
+        "median": 0.7333333333333333,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 0.18000000000000002,
+        "median": 0.18000000000000002,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 0.36666666666666664,
+        "median": 0.36666666666666664,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 7124.647490874243,
+        "median": 7124.647490874243,
+        "std": 0.0
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 7.4,
+        "median": 7.4,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 3.0,
+        "median": 3.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 7.4,
+        "median": 7.4,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 5.0,
+        "median": 5.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 6.466666666666667,
+        "median": 6.466666666666667,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 171.93333333333334,
+        "median": 171.93333333333334,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.05878190301052399,
+        "median": 0.05878190301052399,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.5333333333333333,
+        "median": 0.5333333333333333,
+        "std": 0.0
+      }
+    },
+    "graph_with_propagation": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 0.31459431724113873,
+        "median": 0.31459431724113873,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.045454545454545456,
+        "median": 0.045454545454545456,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 0.25757575757575757,
+        "median": 0.25757575757575757,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.18181818181818182,
+        "median": 0.18181818181818182,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.9090909090909091,
+        "median": 0.9090909090909091,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 0.2287878787878788,
+        "median": 0.2287878787878788,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 0.25,
+        "median": 0.25,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 6231.330770094329,
+        "median": 6231.330770094329,
+        "std": 0.0
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 7.954545454545454,
+        "median": 7.954545454545454,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 2.4545454545454546,
+        "median": 2.4545454545454546,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 7.954545454545454,
+        "median": 7.954545454545454,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 5.0,
+        "median": 5.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 2.590909090909091,
+        "median": 2.590909090909091,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 72.95454545454545,
+        "median": 72.95454545454545,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.05050931829619183,
+        "median": 0.05050931829619183,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.7575757575757577,
+        "median": 0.7575757575757577,
+        "std": 0.0
+      }
+    },
+    "passage_rag": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 0.3797197591680351,
+        "median": 0.3797197591680351,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 0.14666666666666667,
+        "median": 0.14666666666666667,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 0.3,
+        "median": 0.3,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 7169.791876594536,
+        "median": 7169.791876594536,
+        "std": 0.0
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 5.0,
+        "median": 5.0,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 5.0,
+        "median": 5.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 4.6,
+        "median": 4.6,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 181.8,
+        "median": 181.8,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.039285714285714285,
+        "median": 0.039285714285714285,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.7333333333333333,
+        "median": 0.7333333333333333,
+        "std": 0.0
+      }
+    },
+    "reranked_passage_rag": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 0.3797197591680351,
+        "median": 0.3797197591680351,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 0.14666666666666667,
+        "median": 0.14666666666666667,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 0.3,
+        "median": 0.3,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 4170.1755384216085,
+        "median": 4170.1755384216085,
+        "std": 0.0
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 5.0,
+        "median": 5.0,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 5.0,
+        "median": 5.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 4.6,
+        "median": 4.6,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 181.8,
+        "median": 181.8,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.039285714285714285,
+        "median": 0.039285714285714285,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.7333333333333333,
+        "median": 0.7333333333333333,
+        "std": 0.0
+      }
+    }
+  }
+}

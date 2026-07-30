@@ -1,0 +1,95 @@
+{
+  "budget": {
+    "reserved_output": 16,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 28
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-7eac4a147d668d87",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Cordelia_Chase::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Cordelia_Chase",
+          "title": "Cordelia Chase",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 112,
+            "source_id": "Cordelia_Chase",
+            "start": 0,
+            "text": "Cordelia also appears in both canonical and apocryphal Buffy and Angel material such as comic books and novels ."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Cordelia",
+          "Buffy",
+          "Angel"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Cordelia",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Cordelia also appears in both canonical and apocryphal Buffy and Angel material such as comic books and novels .",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "pkg-9f1a26d273fd5bd11f2a672ebf5fd687",
+  "query": {
+    "created_at": null,
+    "query_id": "9f1a26d273fd5bd11f2a672ebf5fd687",
+    "text": "Buffy Summers appears in a movie."
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": null,
+      "claim_id": "clm-7eac4a147d668d87",
+      "rank": 0,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    }
+  ],
+  "subgraph": null
+}

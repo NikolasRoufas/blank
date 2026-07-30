@@ -1,0 +1,525 @@
+{
+  "budget": {
+    "reserved_output": 16,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 103
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-d2de404ee698e50d",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Pension administration in the United States::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Pension administration in the United States",
+          "title": "Pension administration in the United States",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 121,
+            "source_id": "Pension administration in the United States",
+            "start": 0,
+            "text": "Examples of firms with which these brokers are associated are Raymond James, Edward Jones Investments and Morgan Stanley."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Examples",
+          "Raymond James",
+          "Edward Jones Investments",
+          "Morgan Stanley"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Examples",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Examples of firms with which these brokers are associated are Raymond James, Edward Jones Investments and Morgan Stanley.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-76b6ab7b889ee462",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Allen B. Morgan Jr.::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Allen B. Morgan Jr.",
+          "title": "Allen B. Morgan Jr.",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 49,
+            "source_id": "Allen B. Morgan Jr.",
+            "start": 0,
+            "text": "The firm is now owned by Raymond James Financial."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Raymond James Financial"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Raymond James Financial",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The firm is now owned by Raymond James Financial.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-5f2fd6cb7fc4fa44",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Raymond James Financial::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Raymond James Financial",
+          "title": "Raymond James Financial",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 292,
+            "source_id": "Raymond James Financial",
+            "start": 0,
+            "text": "Raymond James Financial is an American diversified holding company providing financial services to individuals, corporations and municipalities through its subsidiary companies that engage primarily in investment and financial planning, in addition to investment banking and asset management."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Raymond James Financial",
+          "American"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Raymond James Financial",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Raymond James Financial is an American diversified holding company providing financial services to individuals, corporations and municipalities through its subsidiary companies that engage primarily in investment and financial planning, in addition to investment banking and asset management.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-507ebcb94f79eb22",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Robert James (businessman)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Robert James (businessman)",
+          "title": "Robert James (businessman)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 9,
+            "source_id": "Robert James (businessman)",
+            "start": 0,
+            "text": "Robert A."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Robert A"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Robert A",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Robert A.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-177b5a21e4f92767",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Robert James (businessman)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Robert James (businessman)",
+          "title": "Robert James (businessman)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 142,
+            "source_id": "Robert James (businessman)",
+            "start": 10,
+            "text": "James (died 1983) was an American businessman, the founder of Raymond James Financial, an S&P 500-listed financial services company."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "James",
+          "American",
+          "Raymond James Financial",
+          "S",
+          "P"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "James",
+        "temporal_expressions": [
+          "1983"
+        ]
+      },
+      "source_reliability": null,
+      "text": "James (died 1983) was an American businessman, the founder of Raymond James Financial, an S&P 500-listed financial services company.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-d71b2ebf4bb7f204",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Raymond James Morgan Keegan::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Raymond James Morgan Keegan",
+          "title": "Raymond James Morgan Keegan",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 83,
+            "source_id": "Raymond James Morgan Keegan",
+            "start": 0,
+            "text": "Raymond James | Morgan Keegan is the interim name of the former Morgan Keegan & Co."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Raymond James",
+          "Morgan Keegan",
+          "Co"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Raymond James",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Raymond James | Morgan Keegan is the interim name of the former Morgan Keegan & Co.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-054c0a8f46037fc7",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Raymond James Morgan Keegan::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Raymond James Morgan Keegan",
+          "title": "Raymond James Morgan Keegan",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 152,
+            "source_id": "Raymond James Morgan Keegan",
+            "start": 84,
+            "text": "business units acquired by Raymond James Financial on April 2, 2012."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Raymond James Financial"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Raymond James Financial",
+        "temporal_expressions": [
+          "April 2, 2012"
+        ]
+      },
+      "source_reliability": null,
+      "text": "business units acquired by Raymond James Financial on April 2, 2012.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [
+    {
+      "claim_ids": [
+        "clm-d2de404ee698e50d",
+        "clm-d71b2ebf4bb7f204"
+      ],
+      "conflict_id": "conflict:0",
+      "members": [
+        {
+          "claim_id": "clm-d2de404ee698e50d",
+          "independent_support": 0,
+          "propagated_belief": 0.463333,
+          "relation_confidence": 0.910889,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-d71b2ebf4bb7f204",
+          "independent_support": 0,
+          "propagated_belief": 0.45,
+          "relation_confidence": 0.910889,
+          "source_reliability": 0.5,
+          "timestamp": null
+        }
+      ],
+      "outcome": "unresolved",
+      "preferred_claim_id": null,
+      "relation_ids": [
+        "rel-f33f847121bec8b3"
+      ],
+      "resolution_note": "top two competitors within margin 0.100 (0.463 vs 0.450)",
+      "resolved": false
+    }
+  ],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5abbdb335542992ccd8e7fc1",
+    "text": "Are NRG Energy and Raymond James Financial  based in Great Britain?"
+  },
+  "relations": [
+    {
+      "bridge": null,
+      "direction": "directed",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "entailment",
+        "features": {
+          "entailment": 0.871725
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "entailment above threshold",
+      "relation_confidence": 0.871725,
+      "relation_id": "rel-3d43fae9c25569e4",
+      "relation_type": "support",
+      "source_claim_id": "clm-054c0a8f46037fc7",
+      "target_claim_id": "clm-76b6ab7b889ee462"
+    },
+    {
+      "bridge": null,
+      "direction": "directed",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "entailment",
+        "features": {
+          "entailment": 0.813977
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "entailment above threshold",
+      "relation_confidence": 0.813977,
+      "relation_id": "rel-368f172b4e312293",
+      "relation_type": "support",
+      "source_claim_id": "clm-5f2fd6cb7fc4fa44",
+      "target_claim_id": "clm-76b6ab7b889ee462"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.910889
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.910889,
+      "relation_id": "rel-f33f847121bec8b3",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-d2de404ee698e50d",
+      "target_claim_id": "clm-d71b2ebf4bb7f204"
+    }
+  ],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.598627,
+      "claim_id": "clm-76b6ab7b889ee462",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 0.936862,
+      "status": "accepted",
+      "utility": 0.338235
+    },
+    {
+      "belief": 0.457778,
+      "claim_id": "clm-5f2fd6cb7fc4fa44",
+      "rank": 1,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.777222,
+      "status": "accepted",
+      "utility": 0.319444
+    },
+    {
+      "belief": 0.461579,
+      "claim_id": "clm-054c0a8f46037fc7",
+      "rank": 2,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.790526,
+      "status": "accepted",
+      "utility": 0.328947
+    }
+  ],
+  "subgraph": null
+}

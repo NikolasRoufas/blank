@@ -39,3 +39,7 @@ coverage.xml
 # Runtime caches
 .egrag-cache/
 artifacts/**/_cache/
+
+# Mirrored third-party benchmark source data (downloaded, not committed --
+# large datasets are not checked in; re-download via docs/reproduction.md).
+artifacts/benchmark-matrix/_raw_data/

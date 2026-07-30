@@ -1,0 +1,147 @@
+{
+  "budget": {
+    "reserved_output": 16,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 13
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-f675e8a182aa6481",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Dreamer_-LRB-2005_film-RRB-::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Dreamer_-LRB-2005_film-RRB-",
+          "title": "Dreamer -LRB-2005 film-RRB-",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 52,
+            "source_id": "Dreamer_-LRB-2005_film-RRB-",
+            "start": 0,
+            "text": "Dreamer is a 2005 American sports drama film written"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Dreamer",
+          "American"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Dreamer",
+        "temporal_expressions": [
+          "2005"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Dreamer is a 2005 American sports drama film written",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-74872a3847dd51c4",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Dreamer_-LRB-2005_film-RRB-::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Dreamer_-LRB-2005_film-RRB-",
+          "title": "Dreamer -LRB-2005 film-RRB-",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 107,
+            "source_id": "Dreamer_-LRB-2005_film-RRB-",
+            "start": 57,
+            "text": "directed by John Gatins in his directorial debut ."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "John Gatins"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "John Gatins",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "directed by John Gatins in his directorial debut .",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "94f2edc456bf58af45fcd767419bdc5c",
+    "text": "Dreamer (2005 film) was written by John Gatins."
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.491538,
+      "claim_id": "clm-f675e8a182aa6481",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 0.895384,
+      "status": "accepted",
+      "utility": 0.403846
+    }
+  ],
+  "subgraph": null
+}

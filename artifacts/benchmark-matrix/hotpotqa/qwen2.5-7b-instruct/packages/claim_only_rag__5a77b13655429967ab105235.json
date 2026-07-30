@@ -1,0 +1,708 @@
+{
+  "budget": {
+    "reserved_output": 16,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 239
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-3ab73e95ab5f8bcb",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Borlaug Global Rust Initiative::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Borlaug Global Rust Initiative",
+          "title": "Borlaug Global Rust Initiative",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 127,
+            "source_id": "Borlaug Global Rust Initiative",
+            "start": 97,
+            "text": "Nobel Peace Prize Laureate Dr."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Nobel Peace Prize Laureate Dr"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Nobel Peace Prize Laureate Dr",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Nobel Peace Prize Laureate Dr.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-3b597016ac8af6f2",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Borlaug Global Rust Initiative::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Borlaug Global Rust Initiative",
+          "title": "Borlaug Global Rust Initiative",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 203,
+            "source_id": "Borlaug Global Rust Initiative",
+            "start": 171,
+            "text": "lead the Global Rust Initiative."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Global Rust Initiative"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Global Rust Initiative",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "lead the Global Rust Initiative.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-41c8232a9b1caf8c",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Norman Borlaug::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Norman Borlaug",
+          "title": "Norman Borlaug",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 230,
+            "source_id": "Norman Borlaug",
+            "start": 88,
+            "text": "humanitarian who led initiatives worldwide that contributed to the extensive increases in agricultural production termed the Green Revolution."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Green Revolution"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Green Revolution",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "humanitarian who led initiatives worldwide that contributed to the extensive increases in agricultural production termed the Green Revolution.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-48fcfe4a2be346d2",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Irwin Abrams::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Irwin Abrams",
+          "title": "Irwin Abrams",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 158,
+            "source_id": "Irwin Abrams",
+            "start": 0,
+            "text": "Irwin Martin Abrams (February 24, 1914 \u2013 December 16, 2010) was a long-time professor of history at Antioch College, a pioneer in the field of peace research,"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Irwin Martin Abrams",
+          "Antioch College"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Irwin Martin Abrams",
+        "temporal_expressions": [
+          "February 24, 1914",
+          "December 16, 2010"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Irwin Martin Abrams (February 24, 1914 \u2013 December 16, 2010) was a long-time professor of history at Antioch College, a pioneer in the field of peace research,",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-64c779aeb66ec127",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Borlaug Global Rust Initiative::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Borlaug Global Rust Initiative",
+          "title": "Borlaug Global Rust Initiative",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 92,
+            "source_id": "Borlaug Global Rust Initiative",
+            "start": 0,
+            "text": "The BGRI was renamed the Borlaug Global Rust initiative in honor of Green Revolution pioneer"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "BGRI",
+          "Borlaug Global Rust",
+          "Green Revolution"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "BGRI",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The BGRI was renamed the Borlaug Global Rust initiative in honor of Green Revolution pioneer",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-6cdf58cecebfe599",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "World Summit of Nobel Peace Laureates::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "World Summit of Nobel Peace Laureates",
+          "title": "World Summit of Nobel Peace Laureates",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 175,
+            "source_id": "World Summit of Nobel Peace Laureates",
+            "start": 105,
+            "text": "organizes the World Summit of Nobel Peace Laureates on a yearly basis."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "World Summit",
+          "Nobel Peace Laureates"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "World Summit",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "organizes the World Summit of Nobel Peace Laureates on a yearly basis.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-7d347fd9f0c32c87",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Surajit Kumar De Datta::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Surajit Kumar De Datta",
+          "title": "Surajit Kumar De Datta",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 182,
+            "source_id": "Surajit Kumar De Datta",
+            "start": 0,
+            "text": "Surajit Kumar De Datta is an Indian American agronomist who is best known for his high yield variety of rice IR-8 that contributed significantly to the Green Revolution across Asia\"."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Surajit Kumar De Datta",
+          "Indian American",
+          "IR",
+          "Green Revolution",
+          "Asia"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Surajit Kumar De Datta",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Surajit Kumar De Datta is an Indian American agronomist who is best known for his high yield variety of rice IR-8 that contributed significantly to the Green Revolution across Asia\".",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-8674c129e5182fe6",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Norman Borlaug::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Norman Borlaug",
+          "title": "Norman Borlaug",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 83,
+            "source_id": "Norman Borlaug",
+            "start": 0,
+            "text": "Norman Ernest Borlaug (March 25, 1914September 12, 2009) was an American agronomist"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Norman Ernest Borlaug",
+          "American"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Norman Ernest Borlaug",
+        "temporal_expressions": [
+          "March 25",
+          "2009"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Norman Ernest Borlaug (March 25, 1914September 12, 2009) was an American agronomist",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-c6e8c4353101284d",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Irwin Abrams::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Irwin Abrams",
+          "title": "Irwin Abrams",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 207,
+            "source_id": "Irwin Abrams",
+            "start": 163,
+            "text": "a global authority on the Nobel Peace Prize."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Nobel Peace Prize"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Nobel Peace Prize",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "a global authority on the Nobel Peace Prize.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-ea54a89730b01f2c",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "World Summit of Nobel Peace Laureates::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "World Summit of Nobel Peace Laureates",
+          "title": "World Summit of Nobel Peace Laureates",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 100,
+            "source_id": "World Summit of Nobel Peace Laureates",
+            "start": 0,
+            "text": "A permanent staff, mainly composed of volunteers, promotes the work of the Nobel Peace Prize Winners"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Nobel Peace Prize Winners"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Nobel Peace Prize Winners",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "A permanent staff, mainly composed of volunteers, promotes the work of the Nobel Peace Prize Winners",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-efec47a3451364df",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Borlaug Global Rust Initiative::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Borlaug Global Rust Initiative",
+          "title": "Borlaug Global Rust Initiative",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 166,
+            "source_id": "Borlaug Global Rust Initiative",
+            "start": 128,
+            "text": "Norman Borlaug who worked to establish"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Norman Borlaug"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Norman Borlaug",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Norman Borlaug who worked to establish",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "pkg-5a77b13655429967ab105235",
+  "query": {
+    "created_at": null,
+    "query_id": "5a77b13655429967ab105235",
+    "text": "What American agronomist that worked on The Green Revolution won a Nobel Peace Prize?"
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": null,
+      "claim_id": "clm-3ab73e95ab5f8bcb",
+      "rank": 0,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-3b597016ac8af6f2",
+      "rank": 1,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-41c8232a9b1caf8c",
+      "rank": 2,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-48fcfe4a2be346d2",
+      "rank": 3,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-64c779aeb66ec127",
+      "rank": 4,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-6cdf58cecebfe599",
+      "rank": 5,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-7d347fd9f0c32c87",
+      "rank": 6,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-8674c129e5182fe6",
+      "rank": 7,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-c6e8c4353101284d",
+      "rank": 8,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-ea54a89730b01f2c",
+      "rank": 9,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-efec47a3451364df",
+      "rank": 10,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    }
+  ],
+  "subgraph": null
+}

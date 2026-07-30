@@ -107,7 +107,10 @@ class HuggingFaceGenerator:
         tokenizer_revision: str | None = None,
         device: str | int | None = None,
         dtype: str | None = None,
+        quantization: str | None = None,
+        require_cuda: bool = False,
         apply_chat_template: bool = True,
+        chat_template_kwargs: dict[str, Any] | None = None,
     ) -> None:
         self._model_name = model_name
         self._context_limit = context_limit
@@ -118,7 +121,15 @@ class HuggingFaceGenerator:
             tokenizer_revision=tokenizer_revision,
             device=device,
             dtype=dtype,
+            quantization=quantization,
+            require_cuda=require_cuda,
+            chat_template_kwargs=chat_template_kwargs,
         )
+
+    def resolved_runtime_info(self) -> dict[str, str]:
+        """Best-effort resolved model/device/dtype/quantization, for manifests."""
+
+        return self._runtime.resolved_revisions()
 
     def capabilities(self) -> GeneratorCapabilities:
         return GeneratorCapabilities(

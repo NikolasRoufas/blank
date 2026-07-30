@@ -1,0 +1,243 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 188
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "Pension administration in the United States::p0",
+      "extraction": null,
+      "extraction_confidence": 1.0,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Pension administration in the United States::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Pension administration in the United States",
+          "title": "Pension administration in the United States",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 121,
+            "source_id": "Pension administration in the United States",
+            "start": 0,
+            "text": "Examples of firms with which these brokers are associated are Raymond James, Edward Jones Investments and Morgan Stanley."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": null,
+      "source_reliability": null,
+      "text": "Examples of firms with which these brokers are associated are Raymond James, Edward Jones Investments and Morgan Stanley.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "Allen B. Morgan Jr.::p0",
+      "extraction": null,
+      "extraction_confidence": 1.0,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Allen B. Morgan Jr.::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Allen B. Morgan Jr.",
+          "title": "Allen B. Morgan Jr.",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 49,
+            "source_id": "Allen B. Morgan Jr.",
+            "start": 0,
+            "text": "The firm is now owned by Raymond James Financial."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": null,
+      "source_reliability": null,
+      "text": "The firm is now owned by Raymond James Financial.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "Raymond James Financial::p0",
+      "extraction": null,
+      "extraction_confidence": 1.0,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Raymond James Financial::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Raymond James Financial",
+          "title": "Raymond James Financial",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 292,
+            "source_id": "Raymond James Financial",
+            "start": 0,
+            "text": "Raymond James Financial is an American diversified holding company providing financial services to individuals, corporations and municipalities through its subsidiary companies that engage primarily in investment and financial planning, in addition to investment banking and asset management."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": null,
+      "source_reliability": null,
+      "text": "Raymond James Financial is an American diversified holding company providing financial services to individuals, corporations and municipalities through its subsidiary companies that engage primarily in investment and financial planning, in addition to investment banking and asset management.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "Robert James (businessman)::p0",
+      "extraction": null,
+      "extraction_confidence": 1.0,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Robert James (businessman)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Robert James (businessman)",
+          "title": "Robert James (businessman)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 142,
+            "source_id": "Robert James (businessman)",
+            "start": 0,
+            "text": "Robert A. James (died 1983) was an American businessman, the founder of Raymond James Financial, an S&P 500-listed financial services company."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": null,
+      "source_reliability": null,
+      "text": "Robert A. James (died 1983) was an American businessman, the founder of Raymond James Financial, an S&P 500-listed financial services company.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "Raymond James Morgan Keegan::p0",
+      "extraction": null,
+      "extraction_confidence": 1.0,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Raymond James Morgan Keegan::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Raymond James Morgan Keegan",
+          "title": "Raymond James Morgan Keegan",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 152,
+            "source_id": "Raymond James Morgan Keegan",
+            "start": 0,
+            "text": "Raymond James | Morgan Keegan is the interim name of the former Morgan Keegan & Co. business units acquired by Raymond James Financial on April 2, 2012."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": null,
+      "source_reliability": null,
+      "text": "Raymond James | Morgan Keegan is the interim name of the former Morgan Keegan & Co. business units acquired by Raymond James Financial on April 2, 2012.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "pkg-5abbdb335542992ccd8e7fc1",
+  "query": {
+    "created_at": null,
+    "query_id": "5abbdb335542992ccd8e7fc1",
+    "text": "Are NRG Energy and Raymond James Financial  based in Great Britain?"
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": null,
+      "claim_id": "Pension administration in the United States::p0",
+      "rank": 0,
+      "reason": null,
+      "selection_score": 1.0,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "Allen B. Morgan Jr.::p0",
+      "rank": 1,
+      "reason": null,
+      "selection_score": 1.0,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "Raymond James Financial::p0",
+      "rank": 2,
+      "reason": null,
+      "selection_score": 1.0,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "Robert James (businessman)::p0",
+      "rank": 3,
+      "reason": null,
+      "selection_score": 1.0,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "Raymond James Morgan Keegan::p0",
+      "rank": 4,
+      "reason": null,
+      "selection_score": 1.0,
+      "status": "accepted",
+      "utility": null
+    }
+  ],
+  "subgraph": null
+}

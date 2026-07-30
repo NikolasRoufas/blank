@@ -1,0 +1,643 @@
+{
+  "budget": {
+    "reserved_output": 16,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 138
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-e28a66d607f43a0a",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Johnny Colt::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Johnny Colt",
+          "title": "Johnny Colt",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 144,
+            "source_id": "Johnny Colt",
+            "start": 0,
+            "text": "Johnny Colt (born Charles Brandt; May 1, 1966) is an American bass guitar player who formerly played with the southern rock bands Lynyrd Skynyrd"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [
+          "May"
+        ],
+        "named_entities": [
+          "Johnny Colt",
+          "Charles Brandt",
+          "American",
+          "Lynyrd Skynyrd"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Johnny Colt",
+        "temporal_expressions": [
+          "May 1, 1966"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Johnny Colt (born Charles Brandt; May 1, 1966) is an American bass guitar player who formerly played with the southern rock bands Lynyrd Skynyrd",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-5aea3b35b6cea1f7",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Johnny Colt::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Johnny Colt",
+          "title": "Johnny Colt",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 166,
+            "source_id": "Johnny Colt",
+            "start": 149,
+            "text": "The Black Crowes."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Black Crowes"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Black Crowes",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The Black Crowes.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-b721c0f767f44583",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Trigger Hippy::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Trigger Hippy",
+          "title": "Trigger Hippy",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 205,
+            "source_id": "Trigger Hippy",
+            "start": 0,
+            "text": "Formerly of the group are Widespread Panic guitarist Jimmy Herring, former Black Crowes guitarist Audley Freed, session guitarist Tom Bukovac and singer/songwriter and Black Crowes guitarist Jackie Greene."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Formerly",
+          "Widespread Panic",
+          "Jimmy Herring",
+          "Black Crowes",
+          "Audley Freed",
+          "Tom Bukovac",
+          "Jackie Greene"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Formerly",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Formerly of the group are Widespread Panic guitarist Jimmy Herring, former Black Crowes guitarist Audley Freed, session guitarist Tom Bukovac and singer/songwriter and Black Crowes guitarist Jackie Greene.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-1aaa7dde1c037e66",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Marc Ford::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Marc Ford",
+          "title": "Marc Ford",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 40,
+            "source_id": "Marc Ford",
+            "start": 0,
+            "text": "He's a former lead guitarist of the rock"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": null,
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "He's a former lead guitarist of the rock",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-869eb90f2b63a39a",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Marc Ford::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Marc Ford",
+          "title": "Marc Ford",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 75,
+            "source_id": "Marc Ford",
+            "start": 45,
+            "text": "roll jam band The Black Crowes"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Black Crowes"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Black Crowes",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "roll jam band The Black Crowes",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-f29730071bb315f8",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Marc Ford::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Marc Ford",
+          "title": "Marc Ford",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 218,
+            "source_id": "Marc Ford",
+            "start": 80,
+            "text": "the leader of his own bands: Burning Tree, Marc Ford & The Neptune Blues Club, Jefferson Steelflex, Fuzz Machine, Marc Ford & The Sinners."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Burning Tree",
+          "Marc Ford",
+          "Neptune Blues Club",
+          "Jefferson Steelflex",
+          "Fuzz Machine",
+          "Sinners"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Burning Tree",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "the leader of his own bands: Burning Tree, Marc Ford & The Neptune Blues Club, Jefferson Steelflex, Fuzz Machine, Marc Ford & The Sinners.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-1b37eaf0c5800296",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Live at the Greek::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Live at the Greek",
+          "title": "Live at the Greek",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 159,
+            "source_id": "Live at the Greek",
+            "start": 0,
+            "text": "In October 1999, Page teamed up with The Black Crowes for a two-night performance of material from the Led Zeppelin catalogue and old blues and rock standards."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Page",
+          "Black Crowes",
+          "Led Zeppelin"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Page",
+        "temporal_expressions": [
+          "1999"
+        ]
+      },
+      "source_reliability": null,
+      "text": "In October 1999, Page teamed up with The Black Crowes for a two-night performance of material from the Led Zeppelin catalogue and old blues and rock standards.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-f80cc01107897faf",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Trigger Hippy::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Trigger Hippy",
+          "title": "Trigger Hippy",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 130,
+            "source_id": "Trigger Hippy",
+            "start": 0,
+            "text": "Trigger Hippy is an American rock band composed of Black Crowes drummer Steve Gorman, guitarist Guthrie Trapp, singer Joan Osborne"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Trigger Hippy",
+          "American",
+          "Black Crowes",
+          "Steve Gorman",
+          "Guthrie Trapp",
+          "Joan Osborne"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Trigger Hippy",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Trigger Hippy is an American rock band composed of Black Crowes drummer Steve Gorman, guitarist Guthrie Trapp, singer Joan Osborne",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-b83d6697652a8f93",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Trigger Hippy::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Trigger Hippy",
+          "title": "Trigger Hippy",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 155,
+            "source_id": "Trigger Hippy",
+            "start": 135,
+            "text": "bassist Nick Govrik."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Nick Govrik"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Nick Govrik",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "bassist Nick Govrik.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5ac3b4e0554299741d48a2ec",
+    "text": "Are The Datsuns and The Black Crowes both rock bands?"
+  },
+  "relations": [
+    {
+      "bridge": null,
+      "direction": "directed",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "entailment",
+        "features": {
+          "entailment": 0.970033
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "entailment above threshold",
+      "relation_confidence": 0.970033,
+      "relation_id": "rel-023bea808a4f2a58",
+      "relation_type": "support",
+      "source_claim_id": "clm-1b37eaf0c5800296",
+      "target_claim_id": "clm-5aea3b35b6cea1f7"
+    },
+    {
+      "bridge": null,
+      "direction": "directed",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "entailment",
+        "features": {
+          "entailment": 0.975772
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "entailment above threshold",
+      "relation_confidence": 0.975772,
+      "relation_id": "rel-e28f2a7df0baa2a2",
+      "relation_type": "support",
+      "source_claim_id": "clm-869eb90f2b63a39a",
+      "target_claim_id": "clm-5aea3b35b6cea1f7"
+    },
+    {
+      "bridge": null,
+      "direction": "directed",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "entailment",
+        "features": {
+          "entailment": 0.737094
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "entailment above threshold",
+      "relation_confidence": 0.737094,
+      "relation_id": "rel-510917965ac9cf84",
+      "relation_type": "support",
+      "source_claim_id": "clm-b721c0f767f44583",
+      "target_claim_id": "clm-5aea3b35b6cea1f7"
+    },
+    {
+      "bridge": null,
+      "direction": "directed",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "entailment",
+        "features": {
+          "entailment": 0.513104
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "entailment above threshold",
+      "relation_confidence": 0.513104,
+      "relation_id": "rel-45087ff92f877581",
+      "relation_type": "support",
+      "source_claim_id": "clm-f80cc01107897faf",
+      "target_claim_id": "clm-5aea3b35b6cea1f7"
+    }
+  ],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.606816,
+      "claim_id": "clm-5aea3b35b6cea1f7",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 1.0,
+      "status": "accepted",
+      "utility": 0.416667
+    },
+    {
+      "belief": 0.467037,
+      "claim_id": "clm-b721c0f767f44583",
+      "rank": 1,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.80963,
+      "status": "accepted",
+      "utility": 0.342593
+    },
+    {
+      "belief": 0.48,
+      "claim_id": "clm-869eb90f2b63a39a",
+      "rank": 2,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.855,
+      "status": "accepted",
+      "utility": 0.375
+    },
+    {
+      "belief": 0.463333,
+      "claim_id": "clm-1b37eaf0c5800296",
+      "rank": 3,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.796666,
+      "status": "accepted",
+      "utility": 0.333333
+    },
+    {
+      "belief": 0.453077,
+      "claim_id": "clm-f80cc01107897faf",
+      "rank": 4,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.760769,
+      "status": "accepted",
+      "utility": 0.307692
+    }
+  ],
+  "subgraph": null
+}

@@ -1,0 +1,120 @@
+passage_rag|0|50d1e4cc5525229a43d3a017a94d3526	GenerationError: malformed structured output: truncated or unterminated JSON object
+passage_rag|0|ad6bc41fe6ebf69a7f90097d86dcac55	GenerationError: answer cites unknown claim id(s): ['A0']
+passage_rag|0|1e8cf5f6055220564f3918369565d9e4	GenerationError: malformed structured output: truncated or unterminated JSON object
+passage_rag|0|e2a5693a77693ab1cc4557a57eefb5e8	GenerationError: answer cites unknown claim id(s): ['p0']
+passage_rag|0|a0ea6a0c8892e5157adedfbb3c7f5ad6	GenerationError: answer cites unknown claim id(s): ['p0']
+passage_rag|0|1f3c6a8eb968fbf9eccc8e2d830ba666	GenerationError: answer cites unknown claim id(s): ['A_Milli']
+passage_rag|0|65f0490d120cbe2d9d5afa748e075c5d	GenerationError: answer cites unknown claim id(s): ['Prowler_-LRB-comics-RRB-']
+passage_rag|0|2585143648209a700eda64d55c3f6fd3	GenerationError: answer cites unknown claim id(s): ['p0']
+passage_rag|0|8ea0b47c54b7fb761d1419185f63b17d	GenerationError: answer cites unknown claim id(s): ['Tom_Baker_-LRB-English_actor-RRB-']
+passage_rag|0|4e5269c64f6e5fdce98df72ceec53135	GenerationError: model output has an empty or missing 'answer'
+passage_rag|0|94f2edc456bf58af45fcd767419bdc5c	GenerationError: answer cites unknown claim id(s): ['p0']
+passage_rag|0|06fe5e3bbac735be1aa72c19f2405175	GenerationError: answer cites unknown claim id(s): ['c0']
+passage_rag|0|7e8731b7effbd14bb8fd2a76c5259e9a	GenerationError: answer cites unknown claim id(s): ['c0']
+passage_rag|0|230b141df95ddc2978ba057f542ecffd	GenerationError: answer cites unknown claim id(s): ['LW0']
+passage_rag|0|952eaad0601ba125123f09a1686d805e	GenerationError: answer cites unknown claim id(s): ['Rage_Against_the_Machine']
+reranked_passage_rag|0|50d1e4cc5525229a43d3a017a94d3526	GenerationError: malformed structured output: truncated or unterminated JSON object
+reranked_passage_rag|0|ad6bc41fe6ebf69a7f90097d86dcac55	GenerationError: answer cites unknown claim id(s): ['A0']
+reranked_passage_rag|0|1e8cf5f6055220564f3918369565d9e4	GenerationError: malformed structured output: truncated or unterminated JSON object
+reranked_passage_rag|0|e2a5693a77693ab1cc4557a57eefb5e8	GenerationError: answer cites unknown claim id(s): ['p0']
+reranked_passage_rag|0|a0ea6a0c8892e5157adedfbb3c7f5ad6	GenerationError: answer cites unknown claim id(s): ['p0']
+reranked_passage_rag|0|1f3c6a8eb968fbf9eccc8e2d830ba666	GenerationError: answer cites unknown claim id(s): ['A_Milli']
+reranked_passage_rag|0|65f0490d120cbe2d9d5afa748e075c5d	GenerationError: answer cites unknown claim id(s): ['Prowler_-LRB-comics-RRB-']
+reranked_passage_rag|0|2585143648209a700eda64d55c3f6fd3	GenerationError: answer cites unknown claim id(s): ['p0']
+reranked_passage_rag|0|8ea0b47c54b7fb761d1419185f63b17d	GenerationError: answer cites unknown claim id(s): ['Tom_Baker_-LRB-English_actor-RRB-']
+reranked_passage_rag|0|4e5269c64f6e5fdce98df72ceec53135	GenerationError: model output has an empty or missing 'answer'
+reranked_passage_rag|0|94f2edc456bf58af45fcd767419bdc5c	GenerationError: answer cites unknown claim id(s): ['p0']
+reranked_passage_rag|0|06fe5e3bbac735be1aa72c19f2405175	GenerationError: answer cites unknown claim id(s): ['c0']
+reranked_passage_rag|0|7e8731b7effbd14bb8fd2a76c5259e9a	GenerationError: answer cites unknown claim id(s): ['c0']
+reranked_passage_rag|0|230b141df95ddc2978ba057f542ecffd	GenerationError: answer cites unknown claim id(s): ['LW0']
+reranked_passage_rag|0|952eaad0601ba125123f09a1686d805e	GenerationError: answer cites unknown claim id(s): ['Rage_Against_the_Machine']
+claim_only_rag|0|50d1e4cc5525229a43d3a017a94d3526	GenerationError: malformed structured output: truncated or unterminated JSON object
+claim_only_rag|0|8ea0b47c54b7fb761d1419185f63b17d	GenerationError: malformed structured output: truncated or unterminated JSON object
+claim_only_rag|0|4e5269c64f6e5fdce98df72ceec53135	GenerationError: model output has an empty or missing 'answer'
+claim_only_rag|0|06fe5e3bbac735be1aa72c19f2405175	GenerationError: answer cites unknown claim id(s): ['e26274c6c5e16b48']
+claim_only_rag|0|07256d35b1f24e908ea40eaa1051ab2d	GenerationError: answer cites unknown claim id(s): ['c8084a38a4c55d09']
+claim_only_rag|0|0e63adacd54bf66672928d073fe2de8d	GenerationError: answer cites unknown claim id(s): ['1aa6405a38edb504']
+graph_no_propagation|0|50d1e4cc5525229a43d3a017a94d3526	GenerationError: answer cites unknown claim id(s): ['d20e9287b121fa3f']
+graph_no_propagation|0|87b23ccb67781f8cc560c4e9fe6d250e	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_propagation|0|1e8cf5f6055220564f3918369565d9e4	GenerationError: answer cites unknown claim id(s): ['c07dbecf0dea9c64']
+graph_no_propagation|0|65f0490d120cbe2d9d5afa748e075c5d	GenerationError: answer cites unknown claim id(s): ['cf5238131fcc8425']
+graph_no_propagation|0|8ea0b47c54b7fb761d1419185f63b17d	GenerationError: answer cites unknown claim id(s): ['c1']
+graph_no_propagation|0|4e5269c64f6e5fdce98df72ceec53135	GenerationError: model output has an empty or missing 'answer'
+graph_no_propagation|0|2044dc8bb70c51c22751885c2b2c0c61	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_propagation|0|ee8b5028eab3013d15629236621d9eca	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_propagation|0|06fe5e3bbac735be1aa72c19f2405175	GenerationError: answer cites unknown claim id(s): ['e26274c6c5e16b48']
+graph_no_propagation|0|07256d35b1f24e908ea40eaa1051ab2d	GenerationError: answer cites unknown claim id(s): ['c8084a38a4c55d09']
+graph_no_propagation|0|08b6d9389b72b23c9497915d31cfdc8f	GenerationError: answer cites unknown claim id(s): ['c9d99cc5f8e5eb2a']
+graph_no_propagation|0|0e63adacd54bf66672928d073fe2de8d	GenerationError: answer cites unknown claim id(s): ['1aa6405a38edb504']
+graph_top_claim|0|50d1e4cc5525229a43d3a017a94d3526	GenerationError: answer cites unknown claim id(s): ['d20e9287b121fa3f']
+graph_top_claim|0|87b23ccb67781f8cc560c4e9fe6d250e	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_top_claim|0|1e8cf5f6055220564f3918369565d9e4	GenerationError: answer cites unknown claim id(s): ['a8be7321140219a2', 'cfd91e2e83a84d2e']
+graph_top_claim|0|a0ea6a0c8892e5157adedfbb3c7f5ad6	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_top_claim|0|9abb8c47532abe484c5503cbbbb3c1cc	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_top_claim|0|8ea0b47c54b7fb761d1419185f63b17d	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_top_claim|0|4e5269c64f6e5fdce98df72ceec53135	GenerationError: model output has an empty or missing 'answer'
+graph_top_claim|0|ee8b5028eab3013d15629236621d9eca	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_top_claim|0|06fe5e3bbac735be1aa72c19f2405175	GenerationError: answer cites unknown claim id(s): ['e26274c6c5e16b48']
+graph_top_claim|0|230b141df95ddc2978ba057f542ecffd	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_top_claim|0|08b6d9389b72b23c9497915d31cfdc8f	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_top_claim|0|0e63adacd54bf66672928d073fe2de8d	GenerationError: answer cites unknown claim id(s): ['1aa6405a38edb504']
+graph_coherent_subgraph|0|50d1e4cc5525229a43d3a017a94d3526	GenerationError: answer cites unknown claim id(s): ['d20e9287b121fa3f']
+graph_coherent_subgraph|0|87b23ccb67781f8cc560c4e9fe6d250e	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_coherent_subgraph|0|1e8cf5f6055220564f3918369565d9e4	GenerationError: answer cites unknown claim id(s): ['c07dbecf0dea9c64']
+graph_coherent_subgraph|0|65f0490d120cbe2d9d5afa748e075c5d	GenerationError: answer cites unknown claim id(s): ['cf5238131fcc8425']
+graph_coherent_subgraph|0|8ea0b47c54b7fb761d1419185f63b17d	GenerationError: answer cites unknown claim id(s): ['c1']
+graph_coherent_subgraph|0|4e5269c64f6e5fdce98df72ceec53135	GenerationError: model output has an empty or missing 'answer'
+graph_coherent_subgraph|0|2044dc8bb70c51c22751885c2b2c0c61	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_coherent_subgraph|0|ee8b5028eab3013d15629236621d9eca	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_coherent_subgraph|0|06fe5e3bbac735be1aa72c19f2405175	GenerationError: answer cites unknown claim id(s): ['e26274c6c5e16b48']
+graph_coherent_subgraph|0|07256d35b1f24e908ea40eaa1051ab2d	GenerationError: answer cites unknown claim id(s): ['c8084a38a4c55d09']
+graph_coherent_subgraph|0|08b6d9389b72b23c9497915d31cfdc8f	GenerationError: answer cites unknown claim id(s): ['c9d99cc5f8e5eb2a']
+graph_coherent_subgraph|0|0e63adacd54bf66672928d073fe2de8d	GenerationError: answer cites unknown claim id(s): ['1aa6405a38edb504']
+graph_no_temporal|0|50d1e4cc5525229a43d3a017a94d3526	GenerationError: answer cites unknown claim id(s): ['d20e9287b121fa3f']
+graph_no_temporal|0|87b23ccb67781f8cc560c4e9fe6d250e	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_temporal|0|1e8cf5f6055220564f3918369565d9e4	GenerationError: answer cites unknown claim id(s): ['c07dbecf0dea9c64']
+graph_no_temporal|0|65f0490d120cbe2d9d5afa748e075c5d	GenerationError: answer cites unknown claim id(s): ['cf5238131fcc8425']
+graph_no_temporal|0|8ea0b47c54b7fb761d1419185f63b17d	GenerationError: answer cites unknown claim id(s): ['c1']
+graph_no_temporal|0|4e5269c64f6e5fdce98df72ceec53135	GenerationError: model output has an empty or missing 'answer'
+graph_no_temporal|0|2044dc8bb70c51c22751885c2b2c0c61	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_temporal|0|ee8b5028eab3013d15629236621d9eca	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_temporal|0|06fe5e3bbac735be1aa72c19f2405175	GenerationError: answer cites unknown claim id(s): ['e26274c6c5e16b48']
+graph_no_temporal|0|07256d35b1f24e908ea40eaa1051ab2d	GenerationError: answer cites unknown claim id(s): ['c8084a38a4c55d09']
+graph_no_temporal|0|08b6d9389b72b23c9497915d31cfdc8f	GenerationError: answer cites unknown claim id(s): ['c9d99cc5f8e5eb2a']
+graph_no_temporal|0|0e63adacd54bf66672928d073fe2de8d	GenerationError: answer cites unknown claim id(s): ['1aa6405a38edb504']
+graph_no_contradiction|0|50d1e4cc5525229a43d3a017a94d3526	GenerationError: answer cites unknown claim id(s): ['d20e9287b121fa3f']
+graph_no_contradiction|0|87b23ccb67781f8cc560c4e9fe6d250e	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_contradiction|0|1e8cf5f6055220564f3918369565d9e4	GenerationError: answer cites unknown claim id(s): ['c07dbecf0dea9c64']
+graph_no_contradiction|0|65f0490d120cbe2d9d5afa748e075c5d	GenerationError: answer cites unknown claim id(s): ['cf5238131fcc8425']
+graph_no_contradiction|0|8ea0b47c54b7fb761d1419185f63b17d	GenerationError: answer cites unknown claim id(s): ['c1']
+graph_no_contradiction|0|4e5269c64f6e5fdce98df72ceec53135	GenerationError: model output has an empty or missing 'answer'
+graph_no_contradiction|0|2044dc8bb70c51c22751885c2b2c0c61	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_contradiction|0|ee8b5028eab3013d15629236621d9eca	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_no_contradiction|0|06fe5e3bbac735be1aa72c19f2405175	GenerationError: answer cites unknown claim id(s): ['e26274c6c5e16b48']
+graph_no_contradiction|0|07256d35b1f24e908ea40eaa1051ab2d	GenerationError: answer cites unknown claim id(s): ['c8084a38a4c55d09']
+graph_no_contradiction|0|08b6d9389b72b23c9497915d31cfdc8f	GenerationError: answer cites unknown claim id(s): ['c9d99cc5f8e5eb2a']
+graph_no_contradiction|0|0e63adacd54bf66672928d073fe2de8d	GenerationError: answer cites unknown claim id(s): ['1aa6405a38edb504']
+graph_with_propagation|0|50d1e4cc5525229a43d3a017a94d3526	GenerationError: answer cites unknown claim id(s): ['d20e9287b121fa3f']
+graph_with_propagation|0|87b23ccb67781f8cc560c4e9fe6d250e	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_with_propagation|0|1e8cf5f6055220564f3918369565d9e4	GenerationError: answer cites unknown claim id(s): ['c07dbecf0dea9c64']
+graph_with_propagation|0|65f0490d120cbe2d9d5afa748e075c5d	GenerationError: answer cites unknown claim id(s): ['cf5238131fcc8425']
+graph_with_propagation|0|8ea0b47c54b7fb761d1419185f63b17d	GenerationError: answer cites unknown claim id(s): ['c1']
+graph_with_propagation|0|4e5269c64f6e5fdce98df72ceec53135	GenerationError: model output has an empty or missing 'answer'
+graph_with_propagation|0|2044dc8bb70c51c22751885c2b2c0c61	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_with_propagation|0|ee8b5028eab3013d15629236621d9eca	GenerationError: malformed structured output: truncated or unterminated JSON object
+graph_with_propagation|0|06fe5e3bbac735be1aa72c19f2405175	GenerationError: answer cites unknown claim id(s): ['e26274c6c5e16b48']
+graph_with_propagation|0|07256d35b1f24e908ea40eaa1051ab2d	GenerationError: answer cites unknown claim id(s): ['c8084a38a4c55d09']
+graph_with_propagation|0|08b6d9389b72b23c9497915d31cfdc8f	GenerationError: answer cites unknown claim id(s): ['c9d99cc5f8e5eb2a']
+graph_with_propagation|0|0e63adacd54bf66672928d073fe2de8d	GenerationError: answer cites unknown claim id(s): ['1aa6405a38edb504']
+full_egrag|0|50d1e4cc5525229a43d3a017a94d3526	GenerationError: answer cites unknown claim id(s): ['d20e9287b121fa3f']
+full_egrag|0|87b23ccb67781f8cc560c4e9fe6d250e	GenerationError: malformed structured output: truncated or unterminated JSON object
+full_egrag|0|1e8cf5f6055220564f3918369565d9e4	GenerationError: answer cites unknown claim id(s): ['c07dbecf0dea9c64']
+full_egrag|0|65f0490d120cbe2d9d5afa748e075c5d	GenerationError: answer cites unknown claim id(s): ['cf5238131fcc8425']
+full_egrag|0|8ea0b47c54b7fb761d1419185f63b17d	GenerationError: answer cites unknown claim id(s): ['c1']
+full_egrag|0|4e5269c64f6e5fdce98df72ceec53135	GenerationError: model output has an empty or missing 'answer'
+full_egrag|0|2044dc8bb70c51c22751885c2b2c0c61	GenerationError: malformed structured output: truncated or unterminated JSON object
+full_egrag|0|ee8b5028eab3013d15629236621d9eca	GenerationError: malformed structured output: truncated or unterminated JSON object
+full_egrag|0|06fe5e3bbac735be1aa72c19f2405175	GenerationError: answer cites unknown claim id(s): ['e26274c6c5e16b48']
+full_egrag|0|07256d35b1f24e908ea40eaa1051ab2d	GenerationError: answer cites unknown claim id(s): ['c8084a38a4c55d09']
+full_egrag|0|08b6d9389b72b23c9497915d31cfdc8f	GenerationError: answer cites unknown claim id(s): ['c9d99cc5f8e5eb2a']
+full_egrag|0|0e63adacd54bf66672928d073fe2de8d	GenerationError: answer cites unknown claim id(s): ['1aa6405a38edb504']

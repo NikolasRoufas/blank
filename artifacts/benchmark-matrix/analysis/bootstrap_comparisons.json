@@ -1,0 +1,372 @@
+{
+  "synthetic": {
+    "qwen2.5-3b-instruct": [
+      {
+        "metric": "token_f1",
+        "variant_a": "full_egrag",
+        "variant_b": "claim_only_rag",
+        "n_paired": 1,
+        "mean_a": 1.0,
+        "mean_b": 1.0,
+        "mean_delta": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "bootstrap_samples": 2000,
+        "seed": 0,
+        "method": "paired percentile bootstrap (no significance claim)"
+      },
+      {
+        "metric": "citation_recall",
+        "variant_a": "full_egrag",
+        "variant_b": "claim_only_rag",
+        "n_paired": 1,
+        "mean_a": 1.0,
+        "mean_b": 1.0,
+        "mean_delta": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "bootstrap_samples": 2000,
+        "seed": 0,
+        "method": "paired percentile bootstrap (no significance claim)"
+      }
+    ],
+    "qwen2.5-7b-instruct": [
+      {
+        "metric": "token_f1",
+        "variant_a": "full_egrag",
+        "variant_b": "passage_rag",
+        "n_paired": 1,
+        "mean_a": 1.0,
+        "mean_b": 1.0,
+        "mean_delta": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "bootstrap_samples": 2000,
+        "seed": 0,
+        "method": "paired percentile bootstrap (no significance claim)"
+      },
+      {
+        "metric": "citation_recall",
+        "variant_a": "full_egrag",
+        "variant_b": "passage_rag",
+        "n_paired": 1,
+        "mean_a": 1.0,
+        "mean_b": 1.0,
+        "mean_delta": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "bootstrap_samples": 2000,
+        "seed": 0,
+        "method": "paired percentile bootstrap (no significance claim)"
+      }
+    ],
+    "qwen3.5-9b": [
+      {
+        "metric": "token_f1",
+        "variant_a": "full_egrag",
+        "variant_b": "claim_only_rag",
+        "n_paired": 2,
+        "mean_a": 0.4111111111111111,
+        "mean_b": 0.4111111111111111,
+        "mean_delta": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "bootstrap_samples": 2000,
+        "seed": 0,
+        "method": "paired percentile bootstrap (no significance claim)"
+      },
+      {
+        "metric": "citation_recall",
+        "variant_a": "full_egrag",
+        "variant_b": "claim_only_rag",
+        "n_paired": 2,
+        "mean_a": 0.75,
+        "mean_b": 0.75,
+        "mean_delta": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "bootstrap_samples": 2000,
+        "seed": 0,
+        "method": "paired percentile bootstrap (no significance claim)"
+      }
+    ]
+  },
+  "fever_mnt64": {
+    "qwen2.5-3b-instruct": [
+      {
+        "metric": "token_f1",
+        "variant_a": "full_egrag",
+        "variant_b": "passage_rag",
+        "n_paired": 1,
+        "mean_a": 0.125,
+        "mean_b": 0.16666666666666666,
+        "mean_delta": -0.04166666666666666,
+        "ci_low": -0.04166666666666666,
+        "ci_high": -0.04166666666666666,
+        "bootstrap_samples": 2000,
+        "seed": 0,
+        "method": "paired percentile bootstrap (no significance claim)"
+      },
+      {
+        "metric": "citation_recall",
+        "variant_a": "full_egrag",
+        "variant_b": "passage_rag",
+        "n_paired": 1,
+        "mean_a": 1.0,
+        "mean_b": 1.0,
+        "mean_delta": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "bootstrap_samples": 2000,
+        "seed": 0,
+        "method": "paired percentile bootstrap (no significance claim)"
+      }
+    ],
+    "qwen2.5-7b-instruct": [
+      {
+        "metric": "token_f1",
+        "variant_a": "full_egrag",
+        "variant_b": "passage_rag",
+        "n_paired": 4,
+        "mean_a": 0.06274509803921569,
+        "mean_b": 0.08345864661654136,
+        "mean_delta": -0.020713548577325668,
+        "ci_low": -0.07142857142857144,
+        "ci_high": 0.00928792569659443,
+        "bootstrap_samples": 2000,
+        "seed": 0,
+        "method": "paired percentile bootstrap (no significance claim)"
+      },
+      {
+        "metric": "citation_recall",
+        "variant_a": "full_egrag",
+        "variant_b": "passage_rag",
+        "n_paired": 4,
+        "mean_a": 0.375,
+        "mean_b": 0.375,
+        "mean_delta": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "bootstrap_samples": 2000,
+        "seed": 0,
+        "method": "paired percentile bootstrap (no significance claim)"
+      }
+    ]
+  },
+  "fever_mnt256": {
+    "qwen2.5-3b-instruct": [
+      {
+        "metric": "token_f1",
+        "variant_a": "full_egrag",
+        "variant_b": "passage_rag",
+        "n_paired": 4,
+        "mean_a": 0.110343567251462,
+        "mean_b": 0.1312636165577342,
+        "mean_delta": -0.020920049306272212,
+        "ci_low": -0.05153508771929824,
+        "ci_high": 0.009694989106753815,
+        "bootstrap_samples": 2000,
+        "seed": 0,
+        "method": "paired percentile bootstrap (no significance claim)"
+      },
+      {
+        "metric": "citation_recall",
+        "variant_a": "full_egrag",
+        "variant_b": "passage_rag",
+        "n_paired": 4,
+        "mean_a": 1.0,
+        "mean_b": 0.75,
+        "mean_delta": 0.25,
+        "ci_low": 0.0,
+        "ci_high": 0.75,
+        "bootstrap_samples": 2000,
+        "seed": 0,
+        "method": "paired percentile bootstrap (no significance claim)"
+      }
+    ],
+    "qwen2.5-7b-instruct": [
+      {
+        "metric": "token_f1",
+        "variant_a": "full_egrag",
+        "variant_b": "passage_rag",
+        "n_paired": 7,
+        "mean_a": 0.06924951798901378,
+        "mean_b": 0.06272824919441461,
+        "mean_delta": 0.006521268794599183,
+        "ci_low": -0.03544575725026853,
+        "ci_high": 0.04433160824138268,
+        "bootstrap_samples": 2000,
+        "seed": 0,
+        "method": "paired percentile bootstrap (no significance claim)"
+      },
+      {
+        "metric": "citation_recall",
+        "variant_a": "full_egrag",
+        "variant_b": "passage_rag",
+        "n_paired": 7,
+        "mean_a": 0.35714285714285715,
+        "mean_b": 0.35714285714285715,
+        "mean_delta": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "bootstrap_samples": 2000,
+        "seed": 0,
+        "method": "paired percentile bootstrap (no significance claim)"
+      }
+    ],
+    "qwen3.5-9b": [
+      {
+        "metric": "token_f1",
+        "variant_a": "full_egrag",
+        "variant_b": "passage_rag",
+        "n_paired": 13,
+        "mean_a": 0.044066852078852865,
+        "mean_b": 0.04951556429522198,
+        "mean_delta": -0.005448712216369113,
+        "ci_low": -0.014498485972025223,
+        "ci_high": 0.0,
+        "bootstrap_samples": 2000,
+        "seed": 0,
+        "method": "paired percentile bootstrap (no significance claim)"
+      },
+      {
+        "metric": "citation_recall",
+        "variant_a": "full_egrag",
+        "variant_b": "passage_rag",
+        "n_paired": 13,
+        "mean_a": 0.07692307692307693,
+        "mean_b": 0.0,
+        "mean_delta": 0.07692307692307693,
+        "ci_low": 0.0,
+        "ci_high": 0.23076923076923078,
+        "bootstrap_samples": 2000,
+        "seed": 0,
+        "method": "paired percentile bootstrap (no significance claim)"
+      }
+    ]
+  },
+  "hotpotqa_mnt64": {
+    "qwen2.5-3b-instruct": [
+      {
+        "metric": "token_f1",
+        "variant_a": "full_egrag",
+        "variant_b": "claim_only_rag",
+        "n_paired": 3,
+        "mean_a": 0.0,
+        "mean_b": 0.3333333333333333,
+        "mean_delta": -0.3333333333333333,
+        "ci_low": -1.0,
+        "ci_high": 0.0,
+        "bootstrap_samples": 2000,
+        "seed": 0,
+        "method": "paired percentile bootstrap (no significance claim)"
+      },
+      {
+        "metric": "citation_recall",
+        "variant_a": "full_egrag",
+        "variant_b": "claim_only_rag",
+        "n_paired": 3,
+        "mean_a": 0.16666666666666666,
+        "mean_b": 0.16666666666666666,
+        "mean_delta": 0.0,
+        "ci_low": -0.5,
+        "ci_high": 0.5,
+        "bootstrap_samples": 2000,
+        "seed": 0,
+        "method": "paired percentile bootstrap (no significance claim)"
+      }
+    ]
+  },
+  "hotpotqa_mnt256": {
+    "qwen2.5-3b-instruct": [
+      {
+        "metric": "token_f1",
+        "variant_a": "full_egrag",
+        "variant_b": "claim_only_rag",
+        "n_paired": 12,
+        "mean_a": 0.1222943722943723,
+        "mean_b": 0.4060846560846561,
+        "mean_delta": -0.28379028379028376,
+        "ci_low": -0.5115710678210678,
+        "ci_high": -0.07800925925925943,
+        "bootstrap_samples": 2000,
+        "seed": 0,
+        "method": "paired percentile bootstrap (no significance claim)"
+      },
+      {
+        "metric": "citation_recall",
+        "variant_a": "full_egrag",
+        "variant_b": "claim_only_rag",
+        "n_paired": 12,
+        "mean_a": 0.16666666666666666,
+        "mean_b": 0.3333333333333333,
+        "mean_delta": -0.16666666666666666,
+        "ci_low": -0.3333333333333333,
+        "ci_high": 0.0,
+        "bootstrap_samples": 2000,
+        "seed": 0,
+        "method": "paired percentile bootstrap (no significance claim)"
+      }
+    ],
+    "qwen2.5-7b-instruct": [
+      {
+        "metric": "token_f1",
+        "variant_a": "full_egrag",
+        "variant_b": "claim_only_rag",
+        "n_paired": 14,
+        "mean_a": 0.09570494864612511,
+        "mean_b": 0.49575958147386723,
+        "mean_delta": -0.40005463282774206,
+        "ci_low": -0.661938595257923,
+        "ci_high": -0.16716039405115035,
+        "bootstrap_samples": 2000,
+        "seed": 0,
+        "method": "paired percentile bootstrap (no significance claim)"
+      },
+      {
+        "metric": "citation_recall",
+        "variant_a": "full_egrag",
+        "variant_b": "claim_only_rag",
+        "n_paired": 14,
+        "mean_a": 0.25,
+        "mean_b": 0.25,
+        "mean_delta": 0.0,
+        "ci_low": -0.14285714285714285,
+        "ci_high": 0.14285714285714285,
+        "bootstrap_samples": 2000,
+        "seed": 0,
+        "method": "paired percentile bootstrap (no significance claim)"
+      }
+    ],
+    "qwen3.5-9b": [
+      {
+        "metric": "token_f1",
+        "variant_a": "full_egrag",
+        "variant_b": "claim_only_rag",
+        "n_paired": 18,
+        "mean_a": 0.06173361125090113,
+        "mean_b": 0.08450544368836972,
+        "mean_delta": -0.022771832437468605,
+        "ci_low": -0.05002089500367313,
+        "ci_high": 0.0015998084256447333,
+        "bootstrap_samples": 2000,
+        "seed": 0,
+        "method": "paired percentile bootstrap (no significance claim)"
+      },
+      {
+        "metric": "citation_recall",
+        "variant_a": "full_egrag",
+        "variant_b": "claim_only_rag",
+        "n_paired": 18,
+        "mean_a": 0.19444444444444445,
+        "mean_b": 0.3333333333333333,
+        "mean_delta": -0.1388888888888889,
+        "ci_low": -0.2777777777777778,
+        "ci_high": -0.027777777777777776,
+        "bootstrap_samples": 2000,
+        "seed": 0,
+        "method": "paired percentile bootstrap (no significance claim)"
+      }
+    ]
+  }
+}

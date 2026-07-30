@@ -1,0 +1,108 @@
+{
+  "claim_only_rag|0": [
+    "uncited claim-like sentence: 'The information provided does not specify the number of memb'",
+    "uncited claim-like sentence: 'Yes, both Upper Crust Pizzeria and Eatza Pizza are restauran'",
+    "uncited claim-like sentence: 'Yes, Myles Kennedy is associated with rock bands.'",
+    "uncited claim-like sentence: 'He has been involved with several projects including The Con'",
+    "uncited claim-like sentence: 'However, there is no information provided about SafetySuit.'"
+  ],
+  "full_egrag|0": [
+    "uncited claim-like sentence: 'The information provided does not specify the name of the nu'",
+    "unresolved conflicts are present but the answer expresses no uncertainty",
+    "uncited claim-like sentence: 'The information provided does not specify the city of the ba'",
+    "uncited claim-like sentence: 'The information provided does not specify which Chinese comp'",
+    "uncited claim-like sentence: 'The provided evidence does not specify the author of the nov'",
+    "uncited claim-like sentence: 'The information provided does not definitively establish who'",
+    "uncited claim-like sentence: 'The Black Crowes is a rock band, but there is uncertainty re'",
+    "uncited claim-like sentence: 'Yes, Myles Kennedy is associated with rock bands, but there '",
+    "uncited claim-like sentence: 'It is uncertain whether Xinxiang and Qionglai City are both '",
+    "uncited claim-like sentence: 'Housman and James Schuyler have the same nationality.'",
+    "uncited claim-like sentence: 'Raymond James Financial is based in the United States, not G'",
+    "uncited claim-like sentence: 'The evidence provided does not specify the birthday of Gene '",
+    "uncited claim-like sentence: 'The highest peak in the mountain range in which Elk Valley, '"
+  ],
+  "graph_coherent_subgraph|0": [
+    "uncited claim-like sentence: 'The information provided does not specify the name of the nu'",
+    "unresolved conflicts are present but the answer expresses no uncertainty",
+    "uncited claim-like sentence: 'The information provided does not specify the city of the ba'",
+    "uncited claim-like sentence: 'The information provided does not specify which Chinese comp'",
+    "uncited claim-like sentence: 'The provided evidence does not specify the author of the nov'",
+    "uncited claim-like sentence: 'The information provided does not definitively establish who'",
+    "uncited claim-like sentence: 'The Black Crowes is a rock band, but there is uncertainty re'",
+    "uncited claim-like sentence: 'Yes, Myles Kennedy is associated with rock bands, but there '",
+    "uncited claim-like sentence: 'It is uncertain whether Xinxiang and Qionglai City are both '",
+    "uncited claim-like sentence: 'Housman and James Schuyler have the same nationality.'",
+    "uncited claim-like sentence: 'Raymond James Financial is based in the United States, not G'",
+    "uncited claim-like sentence: 'The evidence provided does not specify the birthday of Gene '",
+    "uncited claim-like sentence: 'The highest peak in the mountain range in which Elk Valley, '"
+  ],
+  "graph_no_contradiction|0": [],
+  "graph_no_propagation|0": [
+    "unresolved conflicts are present but the answer expresses no uncertainty",
+    "uncited claim-like sentence: 'The information provided does not specify the city of the ba'",
+    "uncited claim-like sentence: 'The evidence provided does not specify which Chinese company'",
+    "uncited claim-like sentence: 'The provided evidence does not specify the author of the nov'",
+    "uncited claim-like sentence: 'The information provided does not definitively establish who'",
+    "uncited claim-like sentence: 'The evidence provided does not contain information about whe'",
+    "uncited claim-like sentence: 'The Black Crowes is a rock band, but there is uncertainty re'",
+    "uncited claim-like sentence: 'Yes, Myles Kennedy is associated with rock bands, but there '",
+    "uncited claim-like sentence: 'It is uncertain whether Xinxiang and Qionglai City are both '",
+    "uncited claim-like sentence: 'Housman and James Schuyler have the same nationality.'",
+    "uncited claim-like sentence: 'The evidence provided does not definitively state which Brit'",
+    "uncited claim-like sentence: 'The evidence provided does not specify the birthday of the a'",
+    "uncited claim-like sentence: 'The highest peak in the mountain range in which Elk Valley, '"
+  ],
+  "graph_no_temporal|0": [
+    "uncited claim-like sentence: 'The information provided does not specify the name of the nu'",
+    "unresolved conflicts are present but the answer expresses no uncertainty",
+    "uncited claim-like sentence: 'The information provided does not specify the city of the ba'",
+    "uncited claim-like sentence: 'The information provided does not specify which Chinese comp'",
+    "uncited claim-like sentence: 'The provided evidence does not specify the author of the nov'",
+    "uncited claim-like sentence: 'The information provided does not definitively establish who'",
+    "uncited claim-like sentence: 'The Black Crowes is a rock band, but there is uncertainty re'",
+    "uncited claim-like sentence: 'Yes, Myles Kennedy is associated with rock bands, but there '",
+    "uncited claim-like sentence: 'It is uncertain whether Xinxiang and Qionglai City are both '",
+    "uncited claim-like sentence: 'Housman and James Schuyler have the same nationality.'",
+    "uncited claim-like sentence: 'Raymond James Financial is based in the United States, not G'",
+    "uncited claim-like sentence: 'The evidence provided does not specify the birthday of Gene '",
+    "uncited claim-like sentence: 'The highest peak in the mountain range in which Elk Valley, '"
+  ],
+  "graph_top_claim|0": [
+    "uncited claim-like sentence: 'The information provided does not specify the number of memb'",
+    "unresolved conflicts are present but the answer expresses no uncertainty",
+    "uncited claim-like sentence: 'The information provided does not specify the name of the nu'",
+    "uncited claim-like sentence: 'Yes, both Upper Crust Pizzeria and Eatza Pizza are restauran'",
+    "uncited claim-like sentence: 'The information provided does not specify which Jamell Ander'",
+    "uncited claim-like sentence: 'However, Jamell Anderson plays for the Cheshire Phoenix, a B'",
+    "uncited claim-like sentence: 'The evidence provided does not clearly indicate which Chines'",
+    "uncited claim-like sentence: 'Both the Chengdu J-10 and the Chengdu J-7 are developed by t'",
+    "uncited claim-like sentence: 'The Black Crowes is a rock band, but there is conflicting in'",
+    "uncited claim-like sentence: 'Yes, Myles Kennedy is associated with rock bands, but there '",
+    "uncited claim-like sentence: 'The status of Xinxiang and Qionglai City as county-level cit'",
+    "uncited claim-like sentence: 'It is uncertain whether James Schuyler and A.'",
+    "uncited claim-like sentence: 'NRG Energy is not based in Great Britain, but Raymond James '",
+    "uncited claim-like sentence: 'Zane Grey was an author who was also a dentist.'",
+    "uncited claim-like sentence: 'The highest peak in the mountain range in which Elk Valley, '"
+  ],
+  "graph_with_propagation|0": [
+    "uncited claim-like sentence: 'The information provided does not specify the name of the nu'",
+    "unresolved conflicts are present but the answer expresses no uncertainty",
+    "uncited claim-like sentence: 'The information provided does not specify the city of the ba'",
+    "uncited claim-like sentence: 'The information provided does not specify which Chinese comp'",
+    "uncited claim-like sentence: 'The provided evidence does not specify the author of the nov'",
+    "uncited claim-like sentence: 'The information provided does not definitively establish who'",
+    "uncited claim-like sentence: 'The Black Crowes is a rock band, but there is uncertainty re'",
+    "uncited claim-like sentence: 'Yes, Myles Kennedy is associated with rock bands, but there '",
+    "uncited claim-like sentence: 'It is uncertain whether Xinxiang and Qionglai City are both '",
+    "uncited claim-like sentence: 'Housman and James Schuyler have the same nationality.'",
+    "uncited claim-like sentence: 'Raymond James Financial is based in the United States, not G'",
+    "uncited claim-like sentence: 'The evidence provided does not specify the birthday of Gene '",
+    "uncited claim-like sentence: 'The highest peak in the mountain range in which Elk Valley, '"
+  ],
+  "passage_rag|0": [
+    "uncited claim-like sentence: 'The man who played Lex Luthor in Superman IV: The Quest for '"
+  ],
+  "reranked_passage_rag|0": [
+    "uncited claim-like sentence: 'The man who played Lex Luthor in Superman IV: The Quest for '"
+  ]
+}

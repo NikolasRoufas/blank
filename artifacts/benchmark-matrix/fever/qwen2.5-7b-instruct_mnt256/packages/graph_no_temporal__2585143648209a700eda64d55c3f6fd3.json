@@ -1,0 +1,197 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 8
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-cb94c571fe23c09d",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'she' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Noah_Cyrus::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Noah_Cyrus",
+          "title": "Noah Cyrus",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 47,
+            "source_id": "Noah_Cyrus",
+            "start": 0,
+            "text": "She is the youngest daughter of Billy Ray Cyrus"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Billy Ray Cyrus"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "She",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "She is the youngest daughter of Billy Ray Cyrus",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-2743590ddcd8ad3a",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Noah_Cyrus::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Noah_Cyrus",
+          "title": "Noah Cyrus",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 81,
+            "source_id": "Noah_Cyrus",
+            "start": 52,
+            "text": "younger sister of Miley Cyrus"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Miley Cyrus"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Miley Cyrus",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "younger sister of Miley Cyrus",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-b0ead67ce05be358",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Noah_Cyrus::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Noah_Cyrus",
+          "title": "Noah Cyrus",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 99,
+            "source_id": "Noah_Cyrus",
+            "start": 86,
+            "text": "Trace Cyrus ."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Trace Cyrus"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Trace Cyrus",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Trace Cyrus .",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "2585143648209a700eda64d55c3f6fd3",
+    "text": "Noah Cyrus is the youngest sister of Miley Cyrus."
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.518889,
+      "claim_id": "clm-2743590ddcd8ad3a",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 0.991111,
+      "status": "accepted",
+      "utility": 0.472222
+    }
+  ],
+  "subgraph": null
+}

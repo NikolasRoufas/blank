@@ -5,6 +5,40 @@ not published releases.
 
 ## Unreleased
 
+### Added — CUDA server support and real-generator experiments
+- `egrag.hf_runtime`: `ensure_device_available` (fails loudly instead of
+  silently falling back to CPU when CUDA is explicitly required); 4-bit/8-bit
+  `bitsandbytes` quantization (new `quantization` extra); generic
+  `chat_template_kwargs` passthrough (`--generator-disable-thinking` /
+  `enable_thinking=False` for hybrid-reasoning models); `gpu_report` extended
+  with CUDA runtime version, GPU name, VRAM, and transformers version.
+- `egrag.reproducibility.environment_info`: records torch/transformers versions,
+  CUDA availability/runtime version, GPU name, and VRAM — read from already-loaded
+  modules only (never imports them itself), so the deterministic/offline harness
+  still touches no optional model library.
+- `egrag.experiments.runner`: the experiment harness now supports a real
+  `huggingface` generator (previously `"fake"` only), with `generator_model`,
+  `generator_revision`, `generator_device`, `generator_dtype`,
+  `generator_quantization`, `generator_disable_thinking`, and `require_cuda` on
+  `ExperimentConfig`, all recorded verbatim in `ExperimentManifest` alongside the
+  actually-resolved runtime info.
+- `egrag.config.schema.GenerationConfig`/`ExtractionConfig`/`NLIConfig`: added
+  `device`/`dtype`/`model_revision`/`quantization`/`require_cuda` fields (the
+  single-query `run --config` path now threads these through to the adapter).
+  Added the `accelerate` dependency to the `local-models` extra (required by
+  `device_map="auto"`, used by both `device="auto"` resolution and every
+  quantized load — this was previously missing).
+- New `scripts/cuda_smoke_test.py`: a bounded, configurable CUDA/GPU/model
+  smoke test (device report, tokenizer, generator, NLI, one generation, one
+  `full_egrag` example) — run once after provisioning a server, before any real
+  experiment.
+- Real Qwen2.5-3B-Instruct, Qwen2.5-7B-Instruct, and Qwen3.5-9B were validated
+  end to end on an NVIDIA RTX 3090 (24 GB) via `scripts/cuda_smoke_test.py` and
+  `egrag experiment run`; reports under `artifacts/cuda-smoke/`. See
+  `docs/reproduction.md` for the full A/B/C command set and
+  `docs/models.md` for the model-selection rationale (including why there is no
+  Qwen 6B/plain-9B, and the cross-generation caveat for `Qwen/Qwen3.5-9B`).
+
 ### Added — benchmark integration
 - `egrag.experiments.benchmarks`: real **FEVER** adapter
   (`FeverGoldEvidenceDataset`, gold-evidence setting, reads cached JSONL offline)

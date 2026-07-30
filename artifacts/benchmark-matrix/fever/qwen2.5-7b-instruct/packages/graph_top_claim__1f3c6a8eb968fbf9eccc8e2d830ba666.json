@@ -1,0 +1,95 @@
+{
+  "budget": {
+    "reserved_output": 16,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 29
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-3666473b275e79c9",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "A_Milli::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "A_Milli",
+          "title": "A Milli",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 116,
+            "source_id": "A_Milli",
+            "start": 0,
+            "text": "`` A Milli '' , abbreviated occasionally as `` Milli '' , is a song by American hip hop recording artist Lil Wayne ."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Milli",
+          "American",
+          "Lil Wayne"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Milli",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "`` A Milli '' , abbreviated occasionally as `` Milli '' , is a song by American hip hop recording artist Lil Wayne .",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "1f3c6a8eb968fbf9eccc8e2d830ba666",
+    "text": "A Milli is by a person from a country."
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.474444,
+      "claim_id": "clm-3666473b275e79c9",
+      "rank": 0,
+      "reason": "top base value within budget",
+      "selection_score": 0.835555,
+      "status": "accepted",
+      "utility": 0.361111
+    }
+  ],
+  "subgraph": null
+}

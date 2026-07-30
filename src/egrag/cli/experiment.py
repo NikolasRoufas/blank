@@ -46,6 +46,13 @@ def _build_config(
     limit: int | None,
     dataset_path: str | None,
     enforce_fairness: bool,
+    generator_model: str | None = None,
+    generator_revision: str | None = None,
+    generator_device: str = "auto",
+    generator_dtype: str | None = None,
+    generator_quantization: str = "none",
+    generator_disable_thinking: bool = False,
+    require_cuda: bool = False,
 ) -> ExperimentConfig:
     try:
         return ExperimentConfig(
@@ -55,7 +62,14 @@ def _build_config(
             variants=tuple(v.strip() for v in variants.split(",") if v.strip()),
             seeds=tuple(int(s) for s in seeds.split(",") if s.strip()),
             output_dir=output_dir,
-            generator=generator,
+            generator=generator,  # type: ignore[arg-type]
+            generator_model=generator_model,
+            generator_revision=generator_revision,
+            generator_device=generator_device,
+            generator_dtype=generator_dtype,
+            generator_quantization=generator_quantization,  # type: ignore[arg-type]
+            generator_disable_thinking=generator_disable_thinking,
+            require_cuda=require_cuda,
             top_k=top_k,
             evidence_token_budget=evidence_budget,
             limit=limit,
@@ -88,7 +102,26 @@ def run(
     variants: str = typer.Option("passage_rag,claim_only_rag,full_egrag", "--variants"),
     seeds: str = typer.Option("0", "--seeds"),
     output_dir: str = typer.Option(..., "--output-dir"),
-    generator: str = typer.Option("fake", "--generator"),
+    generator: str = typer.Option("fake", "--generator", help="fake or huggingface"),
+    generator_model: str | None = typer.Option(
+        None, "--generator-model", help="HF model id, e.g. Qwen/Qwen2.5-7B-Instruct"
+    ),
+    generator_revision: str | None = typer.Option(None, "--generator-revision"),
+    generator_device: str = typer.Option("auto", "--generator-device", help="cpu/mps/cuda/auto"),
+    generator_dtype: str | None = typer.Option(
+        None, "--generator-dtype", help="float32/float16/bfloat16/auto"
+    ),
+    generator_quantization: str = typer.Option(
+        "none", "--generator-quantization", help="none/4bit/8bit"
+    ),
+    generator_disable_thinking: bool = typer.Option(
+        False,
+        "--generator-disable-thinking/--generator-allow-thinking",
+        help="pass enable_thinking=False to the chat template (hybrid-reasoning models)",
+    ),
+    require_cuda: bool = typer.Option(
+        False, "--require-cuda/--no-require-cuda", help="fail instead of silently using CPU"
+    ),
     top_k: int = typer.Option(4, "--top-k"),
     evidence_budget: int = typer.Option(256, "--evidence-budget"),
     limit: int | None = typer.Option(None, "--limit"),
@@ -109,6 +142,13 @@ def run(
         limit,
         dataset_path,
         enforce_fairness,
+        generator_model,
+        generator_revision,
+        generator_device,
+        generator_dtype,
+        generator_quantization,
+        generator_disable_thinking,
+        require_cuda,
     )
     _execute(config, resume=False)
 
@@ -120,7 +160,26 @@ def resume(
     variants: str = typer.Option("passage_rag,claim_only_rag,full_egrag", "--variants"),
     seeds: str = typer.Option("0", "--seeds"),
     output_dir: str = typer.Option(..., "--output-dir"),
-    generator: str = typer.Option("fake", "--generator"),
+    generator: str = typer.Option("fake", "--generator", help="fake or huggingface"),
+    generator_model: str | None = typer.Option(
+        None, "--generator-model", help="HF model id, e.g. Qwen/Qwen2.5-7B-Instruct"
+    ),
+    generator_revision: str | None = typer.Option(None, "--generator-revision"),
+    generator_device: str = typer.Option("auto", "--generator-device", help="cpu/mps/cuda/auto"),
+    generator_dtype: str | None = typer.Option(
+        None, "--generator-dtype", help="float32/float16/bfloat16/auto"
+    ),
+    generator_quantization: str = typer.Option(
+        "none", "--generator-quantization", help="none/4bit/8bit"
+    ),
+    generator_disable_thinking: bool = typer.Option(
+        False,
+        "--generator-disable-thinking/--generator-allow-thinking",
+        help="pass enable_thinking=False to the chat template (hybrid-reasoning models)",
+    ),
+    require_cuda: bool = typer.Option(
+        False, "--require-cuda/--no-require-cuda", help="fail instead of silently using CPU"
+    ),
     top_k: int = typer.Option(4, "--top-k"),
     evidence_budget: int = typer.Option(256, "--evidence-budget"),
     limit: int | None = typer.Option(None, "--limit"),
@@ -141,6 +200,13 @@ def resume(
         limit,
         dataset_path,
         enforce_fairness,
+        generator_model,
+        generator_revision,
+        generator_device,
+        generator_dtype,
+        generator_quantization,
+        generator_disable_thinking,
+        require_cuda,
     )
     _execute(config, resume=True)
 

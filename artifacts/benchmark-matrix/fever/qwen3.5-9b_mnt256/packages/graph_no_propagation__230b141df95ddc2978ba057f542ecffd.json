@@ -1,0 +1,151 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 28
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-e94a36bba39cd0ea",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Larry_Wilmore::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Larry_Wilmore",
+          "title": "Larry Wilmore",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 10,
+            "source_id": "Larry_Wilmore",
+            "start": 0,
+            "text": "Elister L."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Elister L"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Elister L",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Elister L.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-20224f8f63f9139a",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Larry_Wilmore::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Larry_Wilmore",
+          "title": "Larry Wilmore",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 123,
+            "source_id": "Larry_Wilmore",
+            "start": 11,
+            "text": "`` Larry '' Wilmore -LRB- born October 30 , 1961 -RRB- is an American comedian , writer , producer , and actor ."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Larry",
+          "Wilmore",
+          "LRB",
+          "RRB",
+          "American"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Larry",
+        "temporal_expressions": [
+          "October 30",
+          "1961"
+        ]
+      },
+      "source_reliability": null,
+      "text": "`` Larry '' Wilmore -LRB- born October 30 , 1961 -RRB- is an American comedian , writer , producer , and actor .",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "230b141df95ddc2978ba057f542ecffd",
+    "text": "Larry Wilmore is the writer of Les Miserables."
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.47,
+      "claim_id": "clm-20224f8f63f9139a",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 0.82,
+      "status": "accepted",
+      "utility": 0.35
+    }
+  ],
+  "subgraph": null
+}

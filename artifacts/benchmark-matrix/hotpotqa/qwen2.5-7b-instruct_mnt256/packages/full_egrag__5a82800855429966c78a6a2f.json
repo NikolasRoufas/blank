@@ -1,0 +1,537 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 44
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-58ffb556f32f9ce9",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'it' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "317th Operations Group::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "317th Operations Group",
+          "title": "317th Operations Group",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 78,
+            "source_id": "317th Operations Group",
+            "start": 0,
+            "text": "It was activated in 1992 during the Air Force's Objective Wing reorganization,"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Air Force",
+          "Objective Wing"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "It",
+        "temporal_expressions": [
+          "1992"
+        ]
+      },
+      "source_reliability": null,
+      "text": "It was activated in 1992 during the Air Force's Objective Wing reorganization,",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-cf1d934fec878932",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "317th Operations Group::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "317th Operations Group",
+          "title": "317th Operations Group",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 177,
+            "source_id": "317th Operations Group",
+            "start": 83,
+            "text": "inactivated the following year when all Air Force units at Pope were assigned to the 23d Wing."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Air Force",
+          "Pope",
+          "Wing"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Air Force",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "inactivated the following year when all Air Force units at Pope were assigned to the 23d Wing.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-7613a98008bf51d2",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "William J. Donahue::p1",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "William J. Donahue",
+          "title": "William J. Donahue",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 292,
+            "source_id": "William J. Donahue",
+            "start": 188,
+            "text": "During his 33-year Air Force career, Donahue served in a variety of communications, information, command"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "During",
+          "Air Force",
+          "Donahue"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "During",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "During his 33-year Air Force career, Donahue served in a variety of communications, information, command",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-dad81ba2d5ffd4d2",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "William J. Donahue::p1",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "William J. Donahue",
+          "title": "William J. Donahue",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 357,
+            "source_id": "William J. Donahue",
+            "start": 297,
+            "text": "control positions at virtually every level in the Air Force."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Air Force"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Air Force",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "control positions at virtually every level in the Air Force.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-d626d9405ea2f75a",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Beavercreek, Ohio::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Beavercreek, Ohio",
+          "title": "Beavercreek, Ohio",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 120,
+            "source_id": "Beavercreek, Ohio",
+            "start": 0,
+            "text": "In terms of number of residents in an incorporated area, Beavercreek is third in the region behind Dayton and Kettering."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Beavercreek",
+          "Dayton",
+          "Kettering"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Beavercreek",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "In terms of number of residents in an incorporated area, Beavercreek is third in the region behind Dayton and Kettering.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-0e4f8eab007708c0",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Beavercreek, Ohio::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Beavercreek, Ohio",
+          "title": "Beavercreek, Ohio",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 47,
+            "source_id": "Beavercreek, Ohio",
+            "start": 0,
+            "text": "A part of Beavercreek Township was incorporated"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Beavercreek Township"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Beavercreek Township",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "A part of Beavercreek Township was incorporated",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-a49638ff76bd96ff",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Beavercreek, Ohio::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Beavercreek, Ohio",
+          "title": "Beavercreek, Ohio",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 100,
+            "source_id": "Beavercreek, Ohio",
+            "start": 52,
+            "text": "became the City of Beavercreek in February 1980."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "City",
+          "Beavercreek"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "City",
+        "temporal_expressions": [
+          "1980"
+        ]
+      },
+      "source_reliability": null,
+      "text": "became the City of Beavercreek in February 1980.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-63c66227bb4c9adb",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Lester Lyles::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Lester Lyles",
+          "title": "Lester Lyles",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 206,
+            "source_id": "Lester Lyles",
+            "start": 0,
+            "text": "After retirement from the Air Force in 2003, he became a company director for General Dynamics, DPL Inc., KBR Incorporated, Precision Castparts Corp., MTC Technologies, Battelle Memorial Institute and USAA."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "After",
+          "Air Force",
+          "General Dynamics",
+          "DPL Inc",
+          "KBR Incorporated",
+          "Precision Castparts Corp",
+          "MTC Technologies",
+          "Battelle Memorial Institute",
+          "USAA"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "After",
+        "temporal_expressions": [
+          "2003"
+        ]
+      },
+      "source_reliability": null,
+      "text": "After retirement from the Air Force in 2003, he became a company director for General Dynamics, DPL Inc., KBR Incorporated, Precision Castparts Corp., MTC Technologies, Battelle Memorial Institute and USAA.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [
+    {
+      "claim_ids": [
+        "clm-58ffb556f32f9ce9",
+        "clm-cf1d934fec878932"
+      ],
+      "conflict_id": "conflict:0",
+      "members": [
+        {
+          "claim_id": "clm-58ffb556f32f9ce9",
+          "independent_support": 0,
+          "propagated_belief": 0.474151,
+          "relation_confidence": 0.955885,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-cf1d934fec878932",
+          "independent_support": 0,
+          "propagated_belief": 0.483884,
+          "relation_confidence": 0.955885,
+          "source_reliability": 0.5,
+          "timestamp": null
+        }
+      ],
+      "outcome": "unresolved",
+      "preferred_claim_id": null,
+      "relation_ids": [
+        "rel-38d3c42ee5e118d9"
+      ],
+      "resolution_note": "top two competitors within margin 0.100 (0.484 vs 0.474)",
+      "resolved": false
+    }
+  ],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5a82800855429966c78a6a2f",
+    "text": "Were both documentaries, Loot and Air Force, Incorporated, released in the same year?"
+  },
+  "relations": [
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.955885
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.955885,
+      "relation_id": "rel-38d3c42ee5e118d9",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-58ffb556f32f9ce9",
+      "target_claim_id": "clm-cf1d934fec878932"
+    }
+  ],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.483884,
+      "claim_id": "clm-cf1d934fec878932",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 0.838051,
+      "status": "disputed",
+      "utility": 0.354167
+    },
+    {
+      "belief": 0.474151,
+      "claim_id": "clm-58ffb556f32f9ce9",
+      "rank": 1,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.81506,
+      "status": "disputed",
+      "utility": 0.340909
+    }
+  ],
+  "subgraph": null
+}

@@ -1,0 +1,56 @@
+{
+  "claim_only_rag|0": [],
+  "full_egrag|0": [
+    "unresolved conflicts are present but the answer expresses no uncertainty",
+    "uncited claim-like sentence: 'The provided evidence does not contain information about the'",
+    "uncited claim-like sentence: 'The provided evidence does not contain information about a 2'",
+    "uncited claim-like sentence: 'The provided evidence does not contain information about an '",
+    "uncited claim-like sentence: 'Housman, nor does it confirm whether they share the same nat'"
+  ],
+  "graph_coherent_subgraph|0": [
+    "unresolved conflicts are present but the answer expresses no uncertainty",
+    "uncited claim-like sentence: 'The provided evidence does not contain information about the'",
+    "uncited claim-like sentence: 'The provided evidence does not contain information about a 2'",
+    "uncited claim-like sentence: 'The provided evidence does not contain information about an '",
+    "uncited claim-like sentence: 'Housman, nor does it confirm whether they share the same nat'"
+  ],
+  "graph_no_contradiction|0": [
+    "uncited claim-like sentence: 'The provided evidence does not contain information about an '",
+    "uncited claim-like sentence: 'The provided evidence does not contain information about the'",
+    "uncited claim-like sentence: 'Housman, nor does it confirm if they share the same national'",
+    "uncited claim-like sentence: \"Sian Gibson co-wrote the British sitcom 'Peter Kay's Car Sha\""
+  ],
+  "graph_no_propagation|0": [
+    "unresolved conflicts are present but the answer expresses no uncertainty",
+    "uncited claim-like sentence: 'The provided evidence does not contain information about the'",
+    "uncited claim-like sentence: 'The provided evidence does not contain information about an '",
+    "uncited claim-like sentence: 'Housman, nor does it confirm whether they share the same nat'"
+  ],
+  "graph_no_temporal|0": [
+    "unresolved conflicts are present but the answer expresses no uncertainty",
+    "uncited claim-like sentence: 'The provided evidence does not contain information about the'",
+    "uncited claim-like sentence: 'The provided evidence does not contain information about a 2'",
+    "uncited claim-like sentence: 'The provided evidence does not contain information about an '",
+    "uncited claim-like sentence: 'Housman, nor does it confirm whether they share the same nat'"
+  ],
+  "graph_top_claim|0": [
+    "unresolved conflicts are present but the answer expresses no uncertainty",
+    "uncited claim-like sentence: 'The provided evidence does not contain information regarding'",
+    "uncited claim-like sentence: 'Housman, nor does it state whether they share the same natio'"
+  ],
+  "graph_with_propagation|0": [
+    "unresolved conflicts are present but the answer expresses no uncertainty",
+    "uncited claim-like sentence: 'The provided evidence does not contain information about the'",
+    "uncited claim-like sentence: 'The provided evidence does not contain information about a 2'",
+    "uncited claim-like sentence: 'The provided evidence does not contain information about an '",
+    "uncited claim-like sentence: 'Housman, nor does it confirm whether they share the same nat'"
+  ],
+  "passage_rag|0": [
+    "uncited claim-like sentence: 'The provided evidence does not contain the name of the numbe'",
+    "uncited claim-like sentence: 'The provided evidence does not contain the birthday of the m'"
+  ],
+  "reranked_passage_rag|0": [
+    "uncited claim-like sentence: 'The provided evidence does not contain the name of the numbe'",
+    "uncited claim-like sentence: 'The provided evidence does not contain the birthday of the m'"
+  ]
+}

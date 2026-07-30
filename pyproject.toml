@@ -28,10 +28,12 @@ dependencies = [
 retrieval = ["rank-bm25>=0.2"]
 dense = ["sentence-transformers>=2.2"]
 graph = ["networkx>=3.0"]
-local-models = ["transformers>=4.40", "torch>=2.0"]
+local-models = ["transformers>=4.40", "torch>=2.0", "accelerate>=0.30"]
+quantization = ["bitsandbytes>=0.43"]
 http-models = ["httpx>=0.27"]
 experiments = ["numpy>=1.26"]
 benchmarks = ["pyarrow>=15"]
+visualization = ["matplotlib>=3.8"]
 docs = ["mkdocs>=1.5", "mkdocs-material>=9.0"]
 all = [
     "rank-bm25>=0.2",
@@ -39,6 +41,7 @@ all = [
     "networkx>=3.0",
     "transformers>=4.40",
     "torch>=2.0",
+    "accelerate>=0.30",
     "httpx>=0.27",
     "numpy>=1.26",
 ]

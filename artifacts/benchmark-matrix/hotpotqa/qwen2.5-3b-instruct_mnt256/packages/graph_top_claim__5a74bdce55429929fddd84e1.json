@@ -1,0 +1,695 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 187
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-40c1e32961a18948",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Tav (number)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Tav (number)",
+          "title": "Tav (number)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 169,
+            "source_id": "Tav (number)",
+            "start": 0,
+            "text": "In his work on set theory, Georg Cantor denoted the collection of all cardinal numbers by the last letter of the Hebrew alphabet, \u05ea (transliterated as Taf, Tav, or Taw.)"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Georg Cantor",
+          "Hebrew",
+          "Taf",
+          "Tav",
+          "Taw"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Georg Cantor",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "In his work on set theory, Georg Cantor denoted the collection of all cardinal numbers by the last letter of the Hebrew alphabet, \u05ea (transliterated as Taf, Tav, or Taw.)",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-71e2c153a09d23c6",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'it' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Knaster\u2013Kuratowski fan::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Knaster\u2013Kuratowski fan",
+          "title": "Knaster\u2013Kuratowski fan",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 130,
+            "source_id": "Knaster\u2013Kuratowski fan",
+            "start": 0,
+            "text": "It is also known as Cantor's leaky tent or Cantor's teepee (after Georg Cantor), depending on the presence or absence of the apex."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Cantor",
+          "Georg Cantor"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "It",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "It is also known as Cantor's leaky tent or Cantor's teepee (after Georg Cantor), depending on the presence or absence of the apex.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-bd2ced126d0a8cdd",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Cantor medal::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Cantor medal",
+          "title": "Cantor medal",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 81,
+            "source_id": "Cantor medal",
+            "start": 0,
+            "text": "The prize winners are mathematicians who are associated with the German language."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "German"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "German",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The prize winners are mathematicians who are associated with the German language.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-567a92c413274f3c",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Schr\u00f6der\u2013Bernstein theorem::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Schr\u00f6der\u2013Bernstein theorem",
+          "title": "Schr\u00f6der\u2013Bernstein theorem",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 74,
+            "source_id": "Schr\u00f6der\u2013Bernstein theorem",
+            "start": 0,
+            "text": "In set theory, the Schr\u00f6der\u2013Bernstein theorem (named after Felix Bernstein"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Bernstein",
+          "Felix Bernstein"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Bernstein",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "In set theory, the Schr\u00f6der\u2013Bernstein theorem (named after Felix Bernstein",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-c1bd0e316b0978ac",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Schr\u00f6der\u2013Bernstein theorem::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Schr\u00f6der\u2013Bernstein theorem",
+          "title": "Schr\u00f6der\u2013Bernstein theorem",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 284,
+            "source_id": "Schr\u00f6der\u2013Bernstein theorem",
+            "start": 79,
+            "text": "Ernst Schr\u00f6der, also known as Cantor\u2013Bernstein theorem, or Cantor\u2013Schr\u00f6der\u2013Bernstein after Georg Cantor who first published it without proof) states that, if there exist injective functions \"f\" : \"A\" \u2192 \"B\""
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Ernst",
+          "Cantor",
+          "Bernstein",
+          "Georg Cantor",
+          "B"
+        ],
+        "negation": true,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Ernst",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Ernst Schr\u00f6der, also known as Cantor\u2013Bernstein theorem, or Cantor\u2013Schr\u00f6der\u2013Bernstein after Georg Cantor who first published it without proof) states that, if there exist injective functions \"f\" : \"A\" \u2192 \"B\"",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-bd330074df916d1b",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Schr\u00f6der\u2013Bernstein theorem::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Schr\u00f6der\u2013Bernstein theorem",
+          "title": "Schr\u00f6der\u2013Bernstein theorem",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 325,
+            "source_id": "Schr\u00f6der\u2013Bernstein theorem",
+            "start": 289,
+            "text": "\"g\" : \"B\" \u2192 \"A\" between the sets \"A\""
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "B"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "B",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "\"g\" : \"B\" \u2192 \"A\" between the sets \"A\"",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-acd44c7753fc44ba",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Schr\u00f6der\u2013Bernstein theorem::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Schr\u00f6der\u2013Bernstein theorem",
+          "title": "Schr\u00f6der\u2013Bernstein theorem",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 392,
+            "source_id": "Schr\u00f6der\u2013Bernstein theorem",
+            "start": 330,
+            "text": "\"B\" , then there exists a bijective function \"h\" : \"A\" \u2192 \"B\" ."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "B"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "B",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "\"B\" , then there exists a bijective function \"h\" : \"A\" \u2192 \"B\" .",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-558b42d4502e345d",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Limitation of size::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Limitation of size",
+          "title": "Limitation of size",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 199,
+            "source_id": "Limitation of size",
+            "start": 0,
+            "text": "In the philosophy of mathematics, specifically the philosophical foundations of set theory, limitation of size is a concept developed by Philip Jourdain and/or Georg Cantor to avoid Cantor's paradox."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Philip Jourdain",
+          "Georg Cantor",
+          "Cantor"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Philip Jourdain",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "In the philosophy of mathematics, specifically the philosophical foundations of set theory, limitation of size is a concept developed by Philip Jourdain and/or Georg Cantor to avoid Cantor's paradox.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [
+    {
+      "claim_ids": [
+        "clm-40c1e32961a18948",
+        "clm-567a92c413274f3c",
+        "clm-71e2c153a09d23c6",
+        "clm-acd44c7753fc44ba",
+        "clm-bd330074df916d1b",
+        "clm-c1bd0e316b0978ac"
+      ],
+      "conflict_id": "conflict:0",
+      "members": [
+        {
+          "claim_id": "clm-40c1e32961a18948",
+          "independent_support": 0,
+          "propagated_belief": 0.422722,
+          "relation_confidence": 0.794054,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-567a92c413274f3c",
+          "independent_support": 0,
+          "propagated_belief": 0.388778,
+          "relation_confidence": 0.982764,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-71e2c153a09d23c6",
+          "independent_support": 0,
+          "propagated_belief": 0.413439,
+          "relation_confidence": 0.951934,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-acd44c7753fc44ba",
+          "independent_support": 0,
+          "propagated_belief": 0.445236,
+          "relation_confidence": 0.883578,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-bd330074df916d1b",
+          "independent_support": 0,
+          "propagated_belief": 0.445694,
+          "relation_confidence": 0.883578,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-c1bd0e316b0978ac",
+          "independent_support": 0,
+          "propagated_belief": 0.587007,
+          "relation_confidence": 0.982764,
+          "source_reliability": 0.5,
+          "timestamp": null
+        }
+      ],
+      "outcome": "preferred",
+      "preferred_claim_id": "clm-c1bd0e316b0978ac",
+      "relation_ids": [
+        "rel-32882ea5f9bc626e",
+        "rel-89111f50ac211363",
+        "rel-924406e94609d4c3",
+        "rel-a54a04c9a85949e8",
+        "rel-b7299a652e280e90",
+        "rel-d37ab13678f942d8"
+      ],
+      "resolution_note": "'clm-c1bd0e316b0978ac' leads on belief by at least the margin 0.100",
+      "resolved": true
+    }
+  ],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5a74bdce55429929fddd84e1",
+    "text": "Who died last Vladimir Arnold or Georg Cantor?"
+  },
+  "relations": [
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.794054
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.794054,
+      "relation_id": "rel-32882ea5f9bc626e",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-40c1e32961a18948",
+      "target_claim_id": "clm-c1bd0e316b0978ac"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.982764
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.982764,
+      "relation_id": "rel-89111f50ac211363",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-567a92c413274f3c",
+      "target_claim_id": "clm-c1bd0e316b0978ac"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.951934
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.951934,
+      "relation_id": "rel-924406e94609d4c3",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-71e2c153a09d23c6",
+      "target_claim_id": "clm-c1bd0e316b0978ac"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.883578
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.883578,
+      "relation_id": "rel-d37ab13678f942d8",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-acd44c7753fc44ba",
+      "target_claim_id": "clm-bd330074df916d1b"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.784106
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.784106,
+      "relation_id": "rel-b7299a652e280e90",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-acd44c7753fc44ba",
+      "target_claim_id": "clm-c1bd0e316b0978ac"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.759941
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.759941,
+      "relation_id": "rel-a54a04c9a85949e8",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-bd330074df916d1b",
+      "target_claim_id": "clm-c1bd0e316b0978ac"
+    }
+  ],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.587007,
+      "claim_id": "clm-c1bd0e316b0978ac",
+      "rank": 0,
+      "reason": "top base value within budget",
+      "selection_score": 0.899507,
+      "status": "accepted",
+      "utility": 0.3125
+    },
+    {
+      "belief": 0.44875,
+      "claim_id": "clm-558b42d4502e345d",
+      "rank": 1,
+      "reason": "top base value within budget",
+      "selection_score": 0.745625,
+      "status": "accepted",
+      "utility": 0.296875
+    },
+    {
+      "belief": 0.422722,
+      "claim_id": "clm-40c1e32961a18948",
+      "rank": 2,
+      "reason": "top base value within budget",
+      "selection_score": 0.739389,
+      "status": "rejected",
+      "utility": 0.316667
+    },
+    {
+      "belief": 0.413439,
+      "claim_id": "clm-71e2c153a09d23c6",
+      "rank": 3,
+      "reason": "top base value within budget",
+      "selection_score": 0.723439,
+      "status": "rejected",
+      "utility": 0.31
+    },
+    {
+      "belief": 0.445694,
+      "claim_id": "clm-bd330074df916d1b",
+      "rank": 4,
+      "reason": "top base value within budget",
+      "selection_score": 0.695694,
+      "status": "rejected",
+      "utility": 0.25
+    }
+  ],
+  "subgraph": null
+}

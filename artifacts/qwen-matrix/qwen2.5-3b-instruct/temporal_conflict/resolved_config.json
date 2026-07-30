@@ -1,0 +1,40 @@
+{
+  "bootstrap_samples": 1000,
+  "bootstrap_seed": 0,
+  "chunk_overlap": 64,
+  "chunk_size": 512,
+  "dataset": "temporal_conflict",
+  "dataset_path": null,
+  "enforce_fairness": true,
+  "evidence_token_budget": 256,
+  "generator": "huggingface",
+  "generator_device": "cuda",
+  "generator_disable_thinking": false,
+  "generator_dtype": "bfloat16",
+  "generator_model": "Qwen/Qwen2.5-3B-Instruct",
+  "generator_quantization": "none",
+  "generator_revision": null,
+  "limit": null,
+  "name": "qwen2.5-3b_temporal_conflict",
+  "output_dir": "artifacts/qwen-matrix/qwen2.5-3b-instruct/temporal_conflict",
+  "require_cuda": true,
+  "reserved_output_tokens": 64,
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "top_k": 3,
+  "variants": [
+    "passage_rag",
+    "reranked_passage_rag",
+    "claim_only_rag",
+    "graph_no_propagation",
+    "graph_top_claim",
+    "graph_coherent_subgraph",
+    "graph_no_temporal",
+    "graph_no_contradiction",
+    "graph_with_propagation",
+    "full_egrag"
+  ]
+}

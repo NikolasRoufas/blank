@@ -59,6 +59,10 @@ class ExtractionConfig(_Section):
     method: Literal["sentence_baseline", "structured"] = "sentence_baseline"
     prompt_version: str = "extraction_v1"
     model: str | None = None
+    model_revision: str | None = None
+    device: str = "auto"
+    dtype: str | None = None
+    quantization: Literal["none", "4bit", "8bit"] = "none"
     deduplicate: bool = True
     resolve_clear_pronouns: bool = False
 
@@ -78,6 +82,8 @@ class NLIConfig(_Section):
     classifier: Literal["lexical", "huggingface", "fake"] = "lexical"
     model: str | None = None
     model_revision: str | None = None
+    device: str = "auto"
+    dtype: str | None = None
     entailment_threshold: float = Field(default=0.5, ge=0.0, le=1.0)
     contradiction_threshold: float = Field(default=0.5, ge=0.0, le=1.0)
     duplicate_threshold: float = Field(default=0.8, ge=0.0, le=1.0)
@@ -138,6 +144,7 @@ class SerializationConfig(_Section):
 class GenerationConfig(_Section):
     adapter: Literal["fake", "huggingface", "openai"] = "fake"
     model: str | None = None
+    model_revision: str | None = None
     base_url: str | None = None
     context_limit: int = Field(default=8192, ge=1)
     evidence_token_budget: int = Field(default=512, ge=1)
@@ -149,6 +156,11 @@ class GenerationConfig(_Section):
     timeout_s: float = Field(default=30.0, gt=0.0)
     max_retries: int = Field(default=2, ge=0)
     stream: bool = False
+    # Local (huggingface adapter) runtime settings; ignored by fake/openai.
+    device: str = "auto"
+    dtype: str | None = None
+    quantization: Literal["none", "4bit", "8bit"] = "none"
+    require_cuda: bool = False
 
     @model_validator(mode="after")
     def _context_fits(self) -> GenerationConfig:
@@ -160,6 +172,8 @@ class GenerationConfig(_Section):
             raise ValueError(
                 "generation.reserved_output_tokens must not exceed evidence_token_budget"
             )
+        if self.quantization != "none" and self.adapter != "huggingface":
+            raise ValueError("generation.quantization requires adapter: huggingface")
         return self
 
 

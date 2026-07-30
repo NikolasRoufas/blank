@@ -1,0 +1,1333 @@
+{
+  "per_seed": [
+    {
+      "metric_kinds": {},
+      "metrics": {},
+      "num_examples": 25,
+      "num_failed": 25,
+      "seed": 0,
+      "variant": "passage_rag",
+      "warnings": []
+    },
+    {
+      "metric_kinds": {},
+      "metrics": {},
+      "num_examples": 25,
+      "num_failed": 25,
+      "seed": 0,
+      "variant": "reranked_passage_rag",
+      "warnings": []
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.4,
+        "answer_evidence_entailment": 0.7705882352941177,
+        "citation_completeness": 0.2,
+        "citation_precision": 0.4,
+        "citation_recall": 0.3,
+        "contradiction_rate": 0.2,
+        "empty_prediction": 0.0,
+        "evidence_precision": 0.17,
+        "evidence_recall": 0.4,
+        "exact_match": 0.4,
+        "invalid_citations": 0.0,
+        "latency_ms": 1867.6246892195195,
+        "normalized_exact_match": 0.4,
+        "num_claims": 7.8,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 0.0,
+        "num_passages": 5.0,
+        "num_selected": 7.6,
+        "token_estimate": 172.0,
+        "token_f1": 0.4222222222222222,
+        "unsupported_claim_rate": 0.2
+      },
+      "num_examples": 25,
+      "num_failed": 20,
+      "seed": 0,
+      "variant": "claim_only_rag",
+      "warnings": [
+        "uncited claim-like sentence: 'No, the provided evidence does not contain information about'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.2,
+        "answer_evidence_entailment": 0.49529411764705883,
+        "citation_completeness": 0.0,
+        "citation_precision": 0.1,
+        "citation_recall": 0.1,
+        "contradiction_rate": 0.2,
+        "empty_prediction": 0.0,
+        "evidence_precision": 0.04,
+        "evidence_recall": 0.1,
+        "exact_match": 0.2,
+        "invalid_citations": 0.0,
+        "latency_ms": 2013.409398170188,
+        "normalized_exact_match": 0.2,
+        "num_claims": 8.6,
+        "num_graph_edges": 2.0,
+        "num_graph_nodes": 8.6,
+        "num_passages": 5.0,
+        "num_selected": 2.0,
+        "token_estimate": 54.8,
+        "token_f1": 0.2,
+        "unsupported_claim_rate": 0.6
+      },
+      "num_examples": 25,
+      "num_failed": 20,
+      "seed": 0,
+      "variant": "graph_no_propagation",
+      "warnings": [
+        "unresolved conflicts are present but the answer expresses no uncertainty",
+        "uncited claim-like sentence: 'Neither Ratatouille nor PlayStation 3 have a common type of '",
+        "uncited claim-like sentence: 'The provided text does not contain information about Midge M'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.42857142857142855,
+        "answer_evidence_entailment": 0.7619047619047619,
+        "citation_completeness": 0.14285714285714285,
+        "citation_precision": 0.5,
+        "citation_recall": 0.42857142857142855,
+        "contradiction_rate": 0.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 0.2833333333333333,
+        "evidence_recall": 0.6428571428571429,
+        "exact_match": 0.42857142857142855,
+        "invalid_citations": 0.0,
+        "latency_ms": 1809.6077235615146,
+        "normalized_exact_match": 0.42857142857142855,
+        "num_claims": 7.571428571428571,
+        "num_graph_edges": 1.8571428571428572,
+        "num_graph_nodes": 7.571428571428571,
+        "num_passages": 5.0,
+        "num_selected": 7.428571428571429,
+        "token_estimate": 180.28571428571428,
+        "token_f1": 0.6571428571428571,
+        "unsupported_claim_rate": 0.14285714285714285
+      },
+      "num_examples": 25,
+      "num_failed": 18,
+      "seed": 0,
+      "variant": "graph_top_claim",
+      "warnings": [
+        "unresolved conflicts are present but the answer expresses no uncertainty"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.25,
+        "answer_evidence_entailment": 0.5441176470588235,
+        "citation_completeness": 0.0,
+        "citation_precision": 0.125,
+        "citation_recall": 0.125,
+        "contradiction_rate": 0.25,
+        "empty_prediction": 0.0,
+        "evidence_precision": 0.05,
+        "evidence_recall": 0.125,
+        "exact_match": 0.25,
+        "invalid_citations": 0.0,
+        "latency_ms": 1438.134122028714,
+        "normalized_exact_match": 0.25,
+        "num_claims": 9.0,
+        "num_graph_edges": 2.25,
+        "num_graph_nodes": 9.0,
+        "num_passages": 5.0,
+        "num_selected": 2.25,
+        "token_estimate": 58.5,
+        "token_f1": 0.25,
+        "unsupported_claim_rate": 0.5
+      },
+      "num_examples": 25,
+      "num_failed": 21,
+      "seed": 0,
+      "variant": "graph_coherent_subgraph",
+      "warnings": [
+        "unresolved conflicts are present but the answer expresses no uncertainty",
+        "uncited claim-like sentence: 'The provided text does not contain information about Midge M'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.25,
+        "answer_evidence_entailment": 0.5441176470588235,
+        "citation_completeness": 0.0,
+        "citation_precision": 0.125,
+        "citation_recall": 0.125,
+        "contradiction_rate": 0.25,
+        "empty_prediction": 0.0,
+        "evidence_precision": 0.05,
+        "evidence_recall": 0.125,
+        "exact_match": 0.25,
+        "invalid_citations": 0.0,
+        "latency_ms": 1438.3556625107303,
+        "normalized_exact_match": 0.25,
+        "num_claims": 9.0,
+        "num_graph_edges": 2.25,
+        "num_graph_nodes": 9.0,
+        "num_passages": 5.0,
+        "num_selected": 2.25,
+        "token_estimate": 58.5,
+        "token_f1": 0.25,
+        "unsupported_claim_rate": 0.5
+      },
+      "num_examples": 25,
+      "num_failed": 21,
+      "seed": 0,
+      "variant": "graph_no_temporal",
+      "warnings": [
+        "unresolved conflicts are present but the answer expresses no uncertainty",
+        "uncited claim-like sentence: 'The provided text does not contain information about Midge M'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.13333333333333333,
+        "answer_evidence_entailment": 0.5741376253605356,
+        "citation_completeness": 0.0,
+        "citation_precision": 0.13333333333333333,
+        "citation_recall": 0.06666666666666667,
+        "contradiction_rate": 0.26666666666666666,
+        "empty_prediction": 0.0,
+        "evidence_precision": 0.26666666666666666,
+        "evidence_recall": 0.13333333333333333,
+        "exact_match": 0.13333333333333333,
+        "invalid_citations": 0.0,
+        "latency_ms": 1553.0398335385446,
+        "normalized_exact_match": 0.13333333333333333,
+        "num_claims": 7.866666666666666,
+        "num_graph_edges": 0.13333333333333333,
+        "num_graph_nodes": 7.866666666666666,
+        "num_passages": 5.0,
+        "num_selected": 1.1333333333333333,
+        "token_estimate": 28.066666666666666,
+        "token_f1": 0.23095238095238096,
+        "unsupported_claim_rate": 0.4444444444444445
+      },
+      "num_examples": 25,
+      "num_failed": 10,
+      "seed": 0,
+      "variant": "graph_no_contradiction",
+      "warnings": [
+        "uncited claim-like sentence: 'The winner of Celebrity Apprentice 3 did not have a number-o'",
+        "uncited claim-like sentence: \"The album's third single, 'If You Ever Get Lonely', was rele\"",
+        "uncited claim-like sentence: 'The provided text does not contain information about Midge M'",
+        "uncited claim-like sentence: 'No, the documentaries Loot and Air Force, Incorporated were '",
+        "uncited claim-like sentence: 'Housman was British while James Schuyler was American.'",
+        "uncited claim-like sentence: 'The birthday of the man who played Lex Luthor in Superman IV'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.25,
+        "answer_evidence_entailment": 0.5441176470588235,
+        "citation_completeness": 0.0,
+        "citation_precision": 0.125,
+        "citation_recall": 0.125,
+        "contradiction_rate": 0.25,
+        "empty_prediction": 0.0,
+        "evidence_precision": 0.05,
+        "evidence_recall": 0.125,
+        "exact_match": 0.25,
+        "invalid_citations": 0.0,
+        "latency_ms": 1463.915144733619,
+        "normalized_exact_match": 0.25,
+        "num_claims": 9.0,
+        "num_graph_edges": 2.25,
+        "num_graph_nodes": 9.0,
+        "num_passages": 5.0,
+        "num_selected": 2.25,
+        "token_estimate": 58.5,
+        "token_f1": 0.25,
+        "unsupported_claim_rate": 0.5
+      },
+      "num_examples": 25,
+      "num_failed": 21,
+      "seed": 0,
+      "variant": "graph_with_propagation",
+      "warnings": [
+        "unresolved conflicts are present but the answer expresses no uncertainty",
+        "uncited claim-like sentence: 'The provided text does not contain information about Midge M'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.25,
+        "answer_evidence_entailment": 0.5441176470588235,
+        "citation_completeness": 0.0,
+        "citation_precision": 0.125,
+        "citation_recall": 0.125,
+        "contradiction_rate": 0.25,
+        "empty_prediction": 0.0,
+        "evidence_precision": 0.05,
+        "evidence_recall": 0.125,
+        "exact_match": 0.25,
+        "invalid_citations": 0.0,
+        "latency_ms": 1455.1739879825618,
+        "normalized_exact_match": 0.25,
+        "num_claims": 9.0,
+        "num_graph_edges": 2.25,
+        "num_graph_nodes": 9.0,
+        "num_passages": 5.0,
+        "num_selected": 2.25,
+        "token_estimate": 58.5,
+        "token_f1": 0.25,
+        "unsupported_claim_rate": 0.5
+      },
+      "num_examples": 25,
+      "num_failed": 21,
+      "seed": 0,
+      "variant": "full_egrag",
+      "warnings": [
+        "unresolved conflicts are present but the answer expresses no uncertainty",
+        "uncited claim-like sentence: 'The provided text does not contain information about Midge M'"
+      ]
+    }
+  ],
+  "seed_aggregated": {
+    "claim_only_rag": {
+      "answer_accuracy": {
+        "mean": 0.4,
+        "median": 0.4,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 0.7705882352941177,
+        "median": 0.7705882352941177,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.2,
+        "median": 0.2,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 0.4,
+        "median": 0.4,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.3,
+        "median": 0.3,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.2,
+        "median": 0.2,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 0.17,
+        "median": 0.17,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 0.4,
+        "median": 0.4,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.4,
+        "median": 0.4,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 1867.6246892195195,
+        "median": 1867.6246892195195,
+        "std": 0.0
+      },
+      "normalized_exact_match": {
+        "mean": 0.4,
+        "median": 0.4,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 7.8,
+        "median": 7.8,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 5.0,
+        "median": 5.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 7.6,
+        "median": 7.6,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 172.0,
+        "median": 172.0,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.4222222222222222,
+        "median": 0.4222222222222222,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.2,
+        "median": 0.2,
+        "std": 0.0
+      }
+    },
+    "full_egrag": {
+      "answer_accuracy": {
+        "mean": 0.25,
+        "median": 0.25,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 0.5441176470588235,
+        "median": 0.5441176470588235,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 0.125,
+        "median": 0.125,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.125,
+        "median": 0.125,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.25,
+        "median": 0.25,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 0.05,
+        "median": 0.05,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 0.125,
+        "median": 0.125,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.25,
+        "median": 0.25,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 1455.1739879825618,
+        "median": 1455.1739879825618,
+        "std": 0.0
+      },
+      "normalized_exact_match": {
+        "mean": 0.25,
+        "median": 0.25,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 9.0,
+        "median": 9.0,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 2.25,
+        "median": 2.25,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 9.0,
+        "median": 9.0,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 5.0,
+        "median": 5.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 2.25,
+        "median": 2.25,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 58.5,
+        "median": 58.5,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.25,
+        "median": 0.25,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.5,
+        "median": 0.5,
+        "std": 0.0
+      }
+    },
+    "graph_coherent_subgraph": {
+      "answer_accuracy": {
+        "mean": 0.25,
+        "median": 0.25,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 0.5441176470588235,
+        "median": 0.5441176470588235,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 0.125,
+        "median": 0.125,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.125,
+        "median": 0.125,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.25,
+        "median": 0.25,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 0.05,
+        "median": 0.05,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 0.125,
+        "median": 0.125,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.25,
+        "median": 0.25,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 1438.134122028714,
+        "median": 1438.134122028714,
+        "std": 0.0
+      },
+      "normalized_exact_match": {
+        "mean": 0.25,
+        "median": 0.25,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 9.0,
+        "median": 9.0,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 2.25,
+        "median": 2.25,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 9.0,
+        "median": 9.0,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 5.0,
+        "median": 5.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 2.25,
+        "median": 2.25,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 58.5,
+        "median": 58.5,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.25,
+        "median": 0.25,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.5,
+        "median": 0.5,
+        "std": 0.0
+      }
+    },
+    "graph_no_contradiction": {
+      "answer_accuracy": {
+        "mean": 0.13333333333333333,
+        "median": 0.13333333333333333,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 0.5741376253605356,
+        "median": 0.5741376253605356,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 0.13333333333333333,
+        "median": 0.13333333333333333,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.06666666666666667,
+        "median": 0.06666666666666667,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.26666666666666666,
+        "median": 0.26666666666666666,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 0.26666666666666666,
+        "median": 0.26666666666666666,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 0.13333333333333333,
+        "median": 0.13333333333333333,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.13333333333333333,
+        "median": 0.13333333333333333,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 1553.0398335385446,
+        "median": 1553.0398335385446,
+        "std": 0.0
+      },
+      "normalized_exact_match": {
+        "mean": 0.13333333333333333,
+        "median": 0.13333333333333333,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 7.866666666666666,
+        "median": 7.866666666666666,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.13333333333333333,
+        "median": 0.13333333333333333,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 7.866666666666666,
+        "median": 7.866666666666666,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 5.0,
+        "median": 5.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 1.1333333333333333,
+        "median": 1.1333333333333333,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 28.066666666666666,
+        "median": 28.066666666666666,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.23095238095238096,
+        "median": 0.23095238095238096,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.4444444444444445,
+        "median": 0.4444444444444445,
+        "std": 0.0
+      }
+    },
+    "graph_no_propagation": {
+      "answer_accuracy": {
+        "mean": 0.2,
+        "median": 0.2,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 0.49529411764705883,
+        "median": 0.49529411764705883,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 0.1,
+        "median": 0.1,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.1,
+        "median": 0.1,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.2,
+        "median": 0.2,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 0.04,
+        "median": 0.04,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 0.1,
+        "median": 0.1,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.2,
+        "median": 0.2,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 2013.409398170188,
+        "median": 2013.409398170188,
+        "std": 0.0
+      },
+      "normalized_exact_match": {
+        "mean": 0.2,
+        "median": 0.2,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 8.6,
+        "median": 8.6,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 8.6,
+        "median": 8.6,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 5.0,
+        "median": 5.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 54.8,
+        "median": 54.8,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.2,
+        "median": 0.2,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.6,
+        "median": 0.6,
+        "std": 0.0
+      }
+    },
+    "graph_no_temporal": {
+      "answer_accuracy": {
+        "mean": 0.25,
+        "median": 0.25,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 0.5441176470588235,
+        "median": 0.5441176470588235,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 0.125,
+        "median": 0.125,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.125,
+        "median": 0.125,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.25,
+        "median": 0.25,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 0.05,
+        "median": 0.05,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 0.125,
+        "median": 0.125,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.25,
+        "median": 0.25,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 1438.3556625107303,
+        "median": 1438.3556625107303,
+        "std": 0.0
+      },
+      "normalized_exact_match": {
+        "mean": 0.25,
+        "median": 0.25,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 9.0,
+        "median": 9.0,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 2.25,
+        "median": 2.25,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 9.0,
+        "median": 9.0,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 5.0,
+        "median": 5.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 2.25,
+        "median": 2.25,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 58.5,
+        "median": 58.5,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.25,
+        "median": 0.25,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.5,
+        "median": 0.5,
+        "std": 0.0
+      }
+    },
+    "graph_top_claim": {
+      "answer_accuracy": {
+        "mean": 0.42857142857142855,
+        "median": 0.42857142857142855,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 0.7619047619047619,
+        "median": 0.7619047619047619,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.14285714285714285,
+        "median": 0.14285714285714285,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 0.5,
+        "median": 0.5,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.42857142857142855,
+        "median": 0.42857142857142855,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 0.2833333333333333,
+        "median": 0.2833333333333333,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 0.6428571428571429,
+        "median": 0.6428571428571429,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.42857142857142855,
+        "median": 0.42857142857142855,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 1809.6077235615146,
+        "median": 1809.6077235615146,
+        "std": 0.0
+      },
+      "normalized_exact_match": {
+        "mean": 0.42857142857142855,
+        "median": 0.42857142857142855,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 7.571428571428571,
+        "median": 7.571428571428571,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 1.8571428571428572,
+        "median": 1.8571428571428572,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 7.571428571428571,
+        "median": 7.571428571428571,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 5.0,
+        "median": 5.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 7.428571428571429,
+        "median": 7.428571428571429,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 180.28571428571428,
+        "median": 180.28571428571428,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.6571428571428571,
+        "median": 0.6571428571428571,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.14285714285714285,
+        "median": 0.14285714285714285,
+        "std": 0.0
+      }
+    },
+    "graph_with_propagation": {
+      "answer_accuracy": {
+        "mean": 0.25,
+        "median": 0.25,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 0.5441176470588235,
+        "median": 0.5441176470588235,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 0.125,
+        "median": 0.125,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.125,
+        "median": 0.125,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.25,
+        "median": 0.25,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 0.05,
+        "median": 0.05,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 0.125,
+        "median": 0.125,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.25,
+        "median": 0.25,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 1463.915144733619,
+        "median": 1463.915144733619,
+        "std": 0.0
+      },
+      "normalized_exact_match": {
+        "mean": 0.25,
+        "median": 0.25,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 9.0,
+        "median": 9.0,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 2.25,
+        "median": 2.25,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 9.0,
+        "median": 9.0,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 5.0,
+        "median": 5.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 2.25,
+        "median": 2.25,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 58.5,
+        "median": 58.5,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.25,
+        "median": 0.25,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.5,
+        "median": 0.5,
+        "std": 0.0
+      }
+    },
+    "passage_rag": {},
+    "reranked_passage_rag": {}
+  }
+}

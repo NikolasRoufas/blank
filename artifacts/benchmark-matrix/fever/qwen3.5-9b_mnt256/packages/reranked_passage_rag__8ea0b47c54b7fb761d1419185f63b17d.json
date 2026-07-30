@@ -1,0 +1,75 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 30
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "Tom_Baker_-LRB-English_actor-RRB-::p0",
+      "extraction": null,
+      "extraction_confidence": 1.0,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Tom_Baker_-LRB-English_actor-RRB-::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Tom_Baker_-LRB-English_actor-RRB-",
+          "title": "Tom Baker -LRB-English actor-RRB-",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 122,
+            "source_id": "Tom_Baker_-LRB-English_actor-RRB-",
+            "start": 0,
+            "text": "In addition to performing acting roles , Baker has narrated commercials , video games , audiobooks and television series ."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": null,
+      "source_reliability": null,
+      "text": "In addition to performing acting roles , Baker has narrated commercials , video games , audiobooks and television series .",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "pkg-8ea0b47c54b7fb761d1419185f63b17d",
+  "query": {
+    "created_at": null,
+    "query_id": "8ea0b47c54b7fb761d1419185f63b17d",
+    "text": "Tom Baker is incapable of having any acting roles."
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": null,
+      "claim_id": "Tom_Baker_-LRB-English_actor-RRB-::p0",
+      "rank": 0,
+      "reason": null,
+      "selection_score": 1.0,
+      "status": "accepted",
+      "utility": null
+    }
+  ],
+  "subgraph": null
+}

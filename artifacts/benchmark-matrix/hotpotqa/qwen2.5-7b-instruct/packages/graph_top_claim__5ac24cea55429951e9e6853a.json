@@ -1,0 +1,763 @@
+{
+  "budget": {
+    "reserved_output": 16,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 235
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-a070dc43ae069d69",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Midge Mackenzie::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Midge Mackenzie",
+          "title": "Midge Mackenzie",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 108,
+            "source_id": "Midge Mackenzie",
+            "start": 0,
+            "text": "Margaret Rose MacKenzie, known as Midge Mackenzie, (6 March 1938 - 28 January 2004) was a London-born writer"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Margaret Rose MacKenzie",
+          "Midge Mackenzie",
+          "London"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Margaret Rose MacKenzie",
+        "temporal_expressions": [
+          "1938",
+          "2004"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Margaret Rose MacKenzie, known as Midge Mackenzie, (6 March 1938 - 28 January 2004) was a London-born writer",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-354ecd4e84017f5e",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Midge Mackenzie::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Midge Mackenzie",
+          "title": "Midge Mackenzie",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 229,
+            "source_id": "Midge Mackenzie",
+            "start": 113,
+            "text": "filmmaker who first become known for producing Robert Joffrey's multimedia ballet \"Astarte\" with the Joffrey Ballet,"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Robert Joffrey",
+          "Astarte",
+          "Joffrey Ballet"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Robert Joffrey",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "filmmaker who first become known for producing Robert Joffrey's multimedia ballet \"Astarte\" with the Joffrey Ballet,",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-427bc69944e93abf",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Midge Mackenzie::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Midge Mackenzie",
+          "title": "Midge Mackenzie",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 311,
+            "source_id": "Midge Mackenzie",
+            "start": 234,
+            "text": "\"Women Talking\", a documentary with interviews of Kate Millett, Betty Friedan"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Women Talking",
+          "Kate Millett",
+          "Betty Friedan"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Women Talking",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "\"Women Talking\", a documentary with interviews of Kate Millett, Betty Friedan",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-ab8c3672daedc070",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Midge Mackenzie::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Midge Mackenzie",
+          "title": "Midge Mackenzie",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 376,
+            "source_id": "Midge Mackenzie",
+            "start": 316,
+            "text": "other leading figures in the US women\u2019s liberation movement."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "US"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "US",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "other leading figures in the US women\u2019s liberation movement.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-68dd8a7e26b2fcc0",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'he' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Thum Ping Tjin::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Thum Ping Tjin",
+          "title": "Thum Ping Tjin",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 65,
+            "source_id": "Thum Ping Tjin",
+            "start": 0,
+            "text": "He is also the first Oxford University graduate student to do so."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Oxford University"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "He",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "He is also the first Oxford University graduate student to do so.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-b61e3a6b428145af",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Shoulder to Shoulder::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Shoulder to Shoulder",
+          "title": "Shoulder to Shoulder",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 52,
+            "source_id": "Shoulder to Shoulder",
+            "start": 0,
+            "text": "Shoulder to Shoulder is a 1974 BBC television serial"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Shoulder",
+          "BBC"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Shoulder",
+        "temporal_expressions": [
+          "1974"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Shoulder to Shoulder is a 1974 BBC television serial",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-d29ad885162d5b71",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Shoulder to Shoulder::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Shoulder to Shoulder",
+          "title": "Shoulder to Shoulder",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 148,
+            "source_id": "Shoulder to Shoulder",
+            "start": 57,
+            "text": "book relating the history of the women's suffrage movement, both edited by Midge Mackenzie."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Midge Mackenzie"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Midge Mackenzie",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "book relating the history of the women's suffrage movement, both edited by Midge Mackenzie.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-1f43cd76b0e66e13",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Shoulder to Shoulder::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Shoulder to Shoulder",
+          "title": "Shoulder to Shoulder",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 61,
+            "source_id": "Shoulder to Shoulder",
+            "start": 0,
+            "text": "Brown enlisted the producer Verity Lambert in the project she"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Brown",
+          "Verity Lambert"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Brown",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Brown enlisted the producer Verity Lambert in the project she",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-a4f47fe7aed079cb",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Shoulder to Shoulder::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Shoulder to Shoulder",
+          "title": "Shoulder to Shoulder",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 137,
+            "source_id": "Shoulder to Shoulder",
+            "start": 66,
+            "text": "Mackenzie were devising to dramatise the struggle for women's suffrage,"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Mackenzie"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Mackenzie",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Mackenzie were devising to dramatise the struggle for women's suffrage,",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-944d8b996cf7f694",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Shoulder to Shoulder::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Shoulder to Shoulder",
+          "title": "Shoulder to Shoulder",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 224,
+            "source_id": "Shoulder to Shoulder",
+            "start": 142,
+            "text": "the three women presented the idea to the BBC, which gave approval for the series."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "BBC"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "BBC",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "the three women presented the idea to the BBC, which gave approval for the series.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-6eae72073b56f33c",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'it' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Oxford University Liberal Democrats::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Oxford University Liberal Democrats",
+          "title": "Oxford University Liberal Democrats",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 71,
+            "source_id": "Oxford University Liberal Democrats",
+            "start": 0,
+            "text": "It is the official successor to both the Oxford University Liberal Club"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Oxford University Liberal Club"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "It",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "It is the official successor to both the Oxford University Liberal Club",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-bdc9c43856d297a8",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Oxford University Liberal Democrats::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Oxford University Liberal Democrats",
+          "title": "Oxford University Liberal Democrats",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 200,
+            "source_id": "Oxford University Liberal Democrats",
+            "start": 76,
+            "text": "the Oxford University Social Democrats, which voted to merge early in 1987, about a year in advance of the national parties."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Oxford University Social Democrats"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Oxford University Social Democrats",
+        "temporal_expressions": [
+          "1987"
+        ]
+      },
+      "source_reliability": null,
+      "text": "the Oxford University Social Democrats, which voted to merge early in 1987, about a year in advance of the national parties.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5ac24cea55429951e9e6853a",
+    "text": "Which Oxford University graduate did Midge Mackenzie interview in \"Women Talking\"?"
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.460769,
+      "claim_id": "clm-bdc9c43856d297a8",
+      "rank": 0,
+      "reason": "top base value within budget",
+      "selection_score": 0.787692,
+      "status": "accepted",
+      "utility": 0.326923
+    },
+    {
+      "belief": 0.46,
+      "claim_id": "clm-68dd8a7e26b2fcc0",
+      "rank": 1,
+      "reason": "top base value within budget",
+      "selection_score": 0.785,
+      "status": "accepted",
+      "utility": 0.325
+    },
+    {
+      "belief": 0.457273,
+      "claim_id": "clm-d29ad885162d5b71",
+      "rank": 2,
+      "reason": "top base value within budget",
+      "selection_score": 0.775455,
+      "status": "accepted",
+      "utility": 0.318182
+    },
+    {
+      "belief": 0.451053,
+      "claim_id": "clm-ab8c3672daedc070",
+      "rank": 3,
+      "reason": "top base value within budget",
+      "selection_score": 0.753685,
+      "status": "accepted",
+      "utility": 0.302632
+    },
+    {
+      "belief": 0.45,
+      "claim_id": "clm-427bc69944e93abf",
+      "rank": 4,
+      "reason": "top base value within budget",
+      "selection_score": 0.75,
+      "status": "accepted",
+      "utility": 0.3
+    },
+    {
+      "belief": 0.45,
+      "claim_id": "clm-6eae72073b56f33c",
+      "rank": 5,
+      "reason": "top base value within budget",
+      "selection_score": 0.75,
+      "status": "accepted",
+      "utility": 0.3
+    },
+    {
+      "belief": 0.45,
+      "claim_id": "clm-a4f47fe7aed079cb",
+      "rank": 6,
+      "reason": "top base value within budget",
+      "selection_score": 0.75,
+      "status": "accepted",
+      "utility": 0.3
+    },
+    {
+      "belief": 0.449048,
+      "claim_id": "clm-944d8b996cf7f694",
+      "rank": 7,
+      "reason": "top base value within budget",
+      "selection_score": 0.746667,
+      "status": "accepted",
+      "utility": 0.297619
+    },
+    {
+      "belief": 0.445385,
+      "claim_id": "clm-a070dc43ae069d69",
+      "rank": 8,
+      "reason": "top base value within budget",
+      "selection_score": 0.733847,
+      "status": "accepted",
+      "utility": 0.288462
+    },
+    {
+      "belief": 0.440526,
+      "claim_id": "clm-1f43cd76b0e66e13",
+      "rank": 9,
+      "reason": "top base value within budget",
+      "selection_score": 0.716842,
+      "status": "accepted",
+      "utility": 0.276316
+    },
+    {
+      "belief": 0.43,
+      "claim_id": "clm-354ecd4e84017f5e",
+      "rank": 10,
+      "reason": "top base value within budget",
+      "selection_score": 0.68,
+      "status": "accepted",
+      "utility": 0.25
+    }
+  ],
+  "subgraph": null
+}

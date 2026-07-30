@@ -262,15 +262,22 @@ chunker, extractor, classifier, and generator.
 | `graph_no_contradiction` | graph | contradiction edges off |
 | `full_egrag` | graph | full pipeline |
 
-`egrag experiment matrix` plans a benchmark run from a frozen config and prints
-the plan without running inference; its `--execute` path is intended for a GPU
-machine and is disabled here.
+`egrag experiment matrix` plans a real-data (HotpotQA/FEVER) benchmark run from a
+frozen config and prints the plan without running inference; its `--execute` path
+remains disabled here (that benchmark needs data not yet available offline in
+this repository — see `docs/benchmarks.md`).
 
 ```bash
 uv run egrag experiment matrix --benchmark fever --dry-run \
   --sample artifacts/benchmark-calibration/samples/fever-dev-100.json \
   --output-dir artifacts/final-matrix/out
 ```
+
+Separately, `egrag experiment run --generator huggingface` runs the existing
+synthetic-fixture experimental design (same variants/seeds/budgets as the
+fake-generator pilots) with a real local model — CUDA-required, quantization, and
+GPU/CUDA/dtype metadata are all supported; see "Qwen scale experiments (A/B/C)"
+in `docs/reproduction.md`.
 
 Driver scripts for the recorded milestones live under `scripts/`
 (`run_paper_experiments.py`, `run_bridge_eval.py`, `run_mechanism_repair.py`,
@@ -318,12 +325,15 @@ provenance retained).
 
 ## Current limitations
 
-- No final benchmark matrix has been run; there are no answer-quality benchmark
-  numbers in this repository.
+- No final benchmark matrix (HotpotQA/FEVER, real data) has been run.
+- The Qwen scale experiments (`docs/reproduction.md`) have been smoke-tested for
+  real on an NVIDIA GPU (tokenizer, model, and NLI loading; one generation; one
+  full pipeline example — see `artifacts/cuda-smoke/`), but a full multi-seed run
+  producing reportable answer-quality numbers has not yet been executed.
 - The small CPU smoke model (`Qwen2.5-0.5B-Instruct`) is only useful for
   exercising the adapters — it is not faithful enough for evaluation (it does not
   reliably copy source spans and answers even when the evidence is insufficient).
-  A larger model on a GPU is needed.
+  A larger model on a GPU is needed for evaluation-quality numbers.
 - `reranked_passage_rag` currently applies an identity reranker over BM25 order.
 - FEVER uses the gold-evidence setting rather than open retrieval; the HotpotQA
   fullwiki split has limited gold-evidence coverage, so evidence-coverage metrics

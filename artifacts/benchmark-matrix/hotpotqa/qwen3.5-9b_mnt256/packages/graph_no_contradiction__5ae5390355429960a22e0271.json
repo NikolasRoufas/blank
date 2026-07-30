@@ -1,0 +1,438 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 89
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-f26726ce90b5119e",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "List of cities in China::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "List of cities in China",
+          "title": "List of cities in China",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 228,
+            "source_id": "List of cities in China",
+            "start": 0,
+            "text": "According to the administrative divisions of China including Hong Kong and Macau, there are three level of cities, namely provincial-level (consists of municipalities and SARs), prefectural-level cities, and county-level cities."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": "the",
+        "modality": [],
+        "named_entities": [
+          "China",
+          "Hong Kong",
+          "Macau",
+          "SARs"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "China",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "According to the administrative divisions of China including Hong Kong and Macau, there are three level of cities, namely provincial-level (consists of municipalities and SARs), prefectural-level cities, and county-level cities.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-524ffb53924e02e6",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "County-level city::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "County-level city",
+          "title": "County-level city",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 132,
+            "source_id": "County-level city",
+            "start": 0,
+            "text": "County-level cities are usually governed by prefecture-level divisions, but a few are governed directly by province-level divisions."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "County"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "County",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "County-level cities are usually governed by prefecture-level divisions, but a few are governed directly by province-level divisions.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-37e5cab93af3b264",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Xinxiang\u2013Yanzhou Railway::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Xinxiang\u2013Yanzhou Railway",
+          "title": "Xinxiang\u2013Yanzhou Railway",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 78,
+            "source_id": "Xinxiang\u2013Yanzhou Railway",
+            "start": 0,
+            "text": "Major cities and towns along route include Xinxiang, Heze, Jining and Yanzhou."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Major",
+          "Xinxiang",
+          "Heze",
+          "Jining",
+          "Yanzhou"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Major",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Major cities and towns along route include Xinxiang, Heze, Jining and Yanzhou.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-7216501da6e4fba1",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "County-level city::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "County-level city",
+          "title": "County-level city",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 126,
+            "source_id": "County-level city",
+            "start": 0,
+            "text": "A county-level municipality (), county-level city, or county city is a county-level administrative division of mainland China."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "China"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "China",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "A county-level municipality (), county-level city, or county city is a county-level administrative division of mainland China.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-85c4b6a4a49d3810",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "List of cities in China::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "List of cities in China",
+          "title": "List of cities in China",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 151,
+            "source_id": "List of cities in China",
+            "start": 0,
+            "text": "As of September 2017 the PRC has a total of 662 cities: 4 municipalities, 2 SARs, 293 prefectural-level cities (including the 15 sub-provincial cities)"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "PRC",
+          "SARs"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "PRC",
+        "temporal_expressions": [
+          "2017"
+        ]
+      },
+      "source_reliability": null,
+      "text": "As of September 2017 the PRC has a total of 662 cities: 4 municipalities, 2 SARs, 293 prefectural-level cities (including the 15 sub-provincial cities)",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-c244928dc2c4543e",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "List of cities in China::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "List of cities in China",
+          "title": "List of cities in China",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 219,
+            "source_id": "List of cities in China",
+            "start": 156,
+            "text": "363 county-level cities (including the 9 sub-prefectural cities"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": null,
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "363 county-level cities (including the 9 sub-prefectural cities",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-619463e4423a614f",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "List of cities in China::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "List of cities in China",
+          "title": "List of cities in China",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 298,
+            "source_id": "List of cities in China",
+            "start": 224,
+            "text": "9 XXPC cities) not including any cities in the claimed province of Taiwan."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "XXPC",
+          "Taiwan"
+        ],
+        "negation": true,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "XXPC",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "9 XXPC cities) not including any cities in the claimed province of Taiwan.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5ae5390355429960a22e0271",
+    "text": "Are Xinxiang and Qionglai City both county-level cities?"
+  },
+  "relations": [
+    {
+      "bridge": null,
+      "direction": "directed",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "entailment",
+        "features": {
+          "entailment": 0.792383
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "entailment above threshold",
+      "relation_confidence": 0.792383,
+      "relation_id": "rel-309f0472780709ba",
+      "relation_type": "support",
+      "source_claim_id": "clm-f26726ce90b5119e",
+      "target_claim_id": "clm-7216501da6e4fba1"
+    }
+  ],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.549977,
+      "claim_id": "clm-7216501da6e4fba1",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 0.88331,
+      "status": "accepted",
+      "utility": 0.333333
+    },
+    {
+      "belief": 0.465714,
+      "claim_id": "clm-f26726ce90b5119e",
+      "rank": 1,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.805,
+      "status": "accepted",
+      "utility": 0.339286
+    }
+  ],
+  "subgraph": null
+}

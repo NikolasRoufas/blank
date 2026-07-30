@@ -1,0 +1,135 @@
+passage_rag|0|5ac31456554299741d48a1b4	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5ac31...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5ac5101455429924173fb592	GenerationError: model output has an empty or missing 'answer'
+passage_rag|0|5ade15a45542997545bbbe46	GenerationError: answer cites unknown claim id(s): ['c1', 'c4']
+passage_rag|0|5a7b43735542992d025e67cb	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5a7b4...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5ae690b055429908198fa622	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5ae69...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5ae00a27554299025d62a3bb	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5ae00...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5a79395455429970f5fffe7d	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5a793...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5ac07a17554299294b219000	GenerationError: answer cites unknown claim id(s): ['BCMA1', 'JAT1']
+passage_rag|0|5a881d2355429938390d3eeb	GenerationError: answer cites unknown claim id(s): ['c2']
+passage_rag|0|5add23e45542992ae4cec4a1	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5add2...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5a74bdce55429929fddd84e1	GenerationError: answer cites unknown claim id(s): ['c2', 'c3', 'c4']
+passage_rag|0|5ac24cea55429951e9e6853a	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5ac24...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5ac3b4e0554299741d48a2ec	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5ac3b...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5a82800855429966c78a6a2f	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5a828...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5a8a1aea5542992e4fca8508	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5a8a1...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5ae5390355429960a22e0271	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5ae53...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5a77b13655429967ab105235	GenerationError: answer cites unknown claim id(s): ['c1', 'c3']
+passage_rag|0|5ab7484c5542992aa3b8c80d	GenerationError: answer cites unknown claim id(s): ['Locus Solus (journal)', 'c1']
+passage_rag|0|5a8f08c2554299458435d530	GenerationError: answer cites unknown claim id(s): ['p0', 's0']
+passage_rag|0|5abbdb335542992ccd8e7fc1	GenerationError: answer cites unknown claim id(s): ['c4']
+passage_rag|0|5ae377415542992e3233c40a	GenerationError: answer cites unknown claim id(s): ['c1']
+passage_rag|0|5ab85c8d55429934fafe6d84	GenerationError: answer cites unknown claim id(s): ['FK Austria Wien']
+passage_rag|0|5ac270e05542992f1f2b38c9	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5ac27...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+reranked_passage_rag|0|5ac31456554299741d48a1b4	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5ac31...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+reranked_passage_rag|0|5ac5101455429924173fb592	GenerationError: model output has an empty or missing 'answer'
+reranked_passage_rag|0|5ade15a45542997545bbbe46	GenerationError: answer cites unknown claim id(s): ['c1', 'c4']
+reranked_passage_rag|0|5a7b43735542992d025e67cb	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5a7b4...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+reranked_passage_rag|0|5ae690b055429908198fa622	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5ae69...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+reranked_passage_rag|0|5ae00a27554299025d62a3bb	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5ae00...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+reranked_passage_rag|0|5a79395455429970f5fffe7d	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5a793...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+reranked_passage_rag|0|5ac07a17554299294b219000	GenerationError: answer cites unknown claim id(s): ['BCMA1', 'JAT1']
+reranked_passage_rag|0|5a881d2355429938390d3eeb	GenerationError: answer cites unknown claim id(s): ['c2']
+reranked_passage_rag|0|5add23e45542992ae4cec4a1	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5add2...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+reranked_passage_rag|0|5a74bdce55429929fddd84e1	GenerationError: answer cites unknown claim id(s): ['c2', 'c3', 'c4']
+reranked_passage_rag|0|5ac24cea55429951e9e6853a	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5ac24...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+reranked_passage_rag|0|5ac3b4e0554299741d48a2ec	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5ac3b...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+reranked_passage_rag|0|5a82800855429966c78a6a2f	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5a828...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+reranked_passage_rag|0|5a8a1aea5542992e4fca8508	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5a8a1...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+reranked_passage_rag|0|5ae5390355429960a22e0271	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5ae53...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+reranked_passage_rag|0|5a77b13655429967ab105235	GenerationError: answer cites unknown claim id(s): ['c1', 'c3']
+reranked_passage_rag|0|5ab7484c5542992aa3b8c80d	GenerationError: answer cites unknown claim id(s): ['Locus Solus (journal)', 'c1']
+reranked_passage_rag|0|5a8f08c2554299458435d530	GenerationError: answer cites unknown claim id(s): ['p0', 's0']
+reranked_passage_rag|0|5abbdb335542992ccd8e7fc1	GenerationError: answer cites unknown claim id(s): ['c4']
+reranked_passage_rag|0|5ae377415542992e3233c40a	GenerationError: answer cites unknown claim id(s): ['c1']
+reranked_passage_rag|0|5ab85c8d55429934fafe6d84	GenerationError: answer cites unknown claim id(s): ['FK Austria Wien']
+reranked_passage_rag|0|5ac270e05542992f1f2b38c9	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5ac27...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+claim_only_rag|0|5ac5101455429924173fb592	GenerationError: model output has an empty or missing 'answer'
+claim_only_rag|0|5a8e4d9855429917b4a5bd8d	GenerationError: answer cites unknown claim id(s): ['c21ddc8110d178d0', 'eb8cac1600b000f9']
+claim_only_rag|0|5add23e45542992ae4cec4a1	GenerationError: answer cites unknown claim id(s): ['c651713c6edfba59c', 'c9eff31b87c13c070', 'c9ff1fd637c1abb84', 'ce2eb140644e7998f']
+claim_only_rag|0|5a82800855429966c78a6a2f	GenerationError: answer cites unknown claim id(s): ['c1', 'c2']
+claim_only_rag|0|5a8f08c2554299458435d530	GenerationError: answer cites unknown claim id(s): ['c3', 'c4']
+claim_only_rag|0|5ae377415542992e3233c40a	GenerationError: answer cites unknown claim id(s): ['58c987faf0c8ab81']
+graph_no_propagation|0|5a881d2355429938390d3eeb	GenerationError: model output has an empty or missing 'answer'
+graph_no_propagation|0|5ac24cea55429951e9e6853a	GenerationError: model output has an empty or missing 'answer'
+graph_no_propagation|0|5a77b13655429967ab105235	GenerationError: answer cites unknown claim id(s): ['c6e8c4353101284d']
+graph_coherent_subgraph|0|5a881d2355429938390d3eeb	GenerationError: model output has an empty or missing 'answer'
+graph_coherent_subgraph|0|5a74bdce55429929fddd84e1	GenerationError: answer cites unknown claim id(s): ['c1bd0e316b0978ac']
+graph_coherent_subgraph|0|5ac24cea55429951e9e6853a	GenerationError: model output has an empty or missing 'answer'
+graph_coherent_subgraph|0|5a77b13655429967ab105235	GenerationError: answer cites unknown claim id(s): ['c6e8c4353101284d']
+graph_coherent_subgraph|0|5a8f08c2554299458435d530	GenerationError: malformed structured output: no valid top-level JSON object found in output
+graph_coherent_subgraph|0|5ab85c8d55429934fafe6d84	GenerationError: answer cites rejected evidence as support: ['clm-13f2815f865cd1f5']
+graph_no_temporal|0|5a881d2355429938390d3eeb	GenerationError: model output has an empty or missing 'answer'
+graph_no_temporal|0|5a74bdce55429929fddd84e1	GenerationError: answer cites unknown claim id(s): ['c1bd0e316b0978ac']
+graph_no_temporal|0|5ac24cea55429951e9e6853a	GenerationError: model output has an empty or missing 'answer'
+graph_no_temporal|0|5a77b13655429967ab105235	GenerationError: answer cites unknown claim id(s): ['c6e8c4353101284d']
+graph_no_temporal|0|5a8f08c2554299458435d530	GenerationError: malformed structured output: no valid top-level JSON object found in output
+graph_no_temporal|0|5ab85c8d55429934fafe6d84	GenerationError: answer cites rejected evidence as support: ['clm-13f2815f865cd1f5']
+graph_no_contradiction|0|5ac5101455429924173fb592	GenerationError: model output has an empty or missing 'answer'
+graph_no_contradiction|0|5a7b43735542992d025e67cb	GenerationError: answer cites unknown claim id(s): ['a3abf697c941ecfe']
+graph_no_contradiction|0|5ae00a27554299025d62a3bb	GenerationError: model output has an empty or missing 'answer'
+graph_no_contradiction|0|5a8e4d9855429917b4a5bd8d	GenerationError: model output has an empty or missing 'answer'
+graph_no_contradiction|0|5a881d2355429938390d3eeb	GenerationError: model output has an empty or missing 'answer'
+graph_no_contradiction|0|5ac24cea55429951e9e6853a	GenerationError: model output has an empty or missing 'answer'
+graph_no_contradiction|0|5a77b13655429967ab105235	GenerationError: answer cites unknown claim id(s): ['c6e8c4353101284d']
+graph_no_contradiction|0|5a7912f655429974737f796c	GenerationError: model output has an empty or missing 'answer'
+graph_with_propagation|0|5a881d2355429938390d3eeb	GenerationError: model output has an empty or missing 'answer'
+graph_with_propagation|0|5a74bdce55429929fddd84e1	GenerationError: answer cites unknown claim id(s): ['c1bd0e316b0978ac']
+graph_with_propagation|0|5ac24cea55429951e9e6853a	GenerationError: model output has an empty or missing 'answer'
+graph_with_propagation|0|5a77b13655429967ab105235	GenerationError: answer cites unknown claim id(s): ['c6e8c4353101284d']
+graph_with_propagation|0|5a8f08c2554299458435d530	GenerationError: malformed structured output: no valid top-level JSON object found in output
+graph_with_propagation|0|5ab85c8d55429934fafe6d84	GenerationError: answer cites rejected evidence as support: ['clm-13f2815f865cd1f5']
+full_egrag|0|5a881d2355429938390d3eeb	GenerationError: model output has an empty or missing 'answer'
+full_egrag|0|5a74bdce55429929fddd84e1	GenerationError: answer cites unknown claim id(s): ['c1bd0e316b0978ac']
+full_egrag|0|5ac24cea55429951e9e6853a	GenerationError: model output has an empty or missing 'answer'
+full_egrag|0|5a77b13655429967ab105235	GenerationError: answer cites unknown claim id(s): ['c6e8c4353101284d']
+full_egrag|0|5a8f08c2554299458435d530	GenerationError: malformed structured output: no valid top-level JSON object found in output
+full_egrag|0|5ab85c8d55429934fafe6d84	GenerationError: answer cites rejected evidence as support: ['clm-13f2815f865cd1f5']

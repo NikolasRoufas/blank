@@ -1,0 +1,153 @@
+{
+  "budget": {
+    "reserved_output": 16,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 74
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-be483999f4411bac",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Artpop::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Artpop",
+          "title": "Artpop",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 272,
+            "source_id": "Artpop",
+            "start": 0,
+            "text": "The album received generally mixed reviews from music critics , but was commercially successful , debuting at number one on the United States Billboard 200 with first-week sales of 258,000 copies , becoming Gaga 's second consecutive number-one record in the United States"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "United States Billboard",
+          "Gaga",
+          "United States"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "United States Billboard",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The album received generally mixed reviews from music critics , but was commercially successful , debuting at number one on the United States Billboard 200 with first-week sales of 258,000 copies , becoming Gaga 's second consecutive number-one record in the United States",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-c8084a38a4c55d09",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Artpop::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Artpop",
+          "title": "Artpop",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 301,
+            "source_id": "Artpop",
+            "start": 277,
+            "text": "selling 757,000 copies ."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": null,
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "selling 757,000 copies .",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "07256d35b1f24e908ea40eaa1051ab2d",
+    "text": "Artpop sold about 757,000 cats."
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.48,
+      "claim_id": "clm-c8084a38a4c55d09",
+      "rank": 0,
+      "reason": "top base value within budget",
+      "selection_score": 0.855,
+      "status": "accepted",
+      "utility": 0.375
+    },
+    {
+      "belief": 0.434762,
+      "claim_id": "clm-be483999f4411bac",
+      "rank": 1,
+      "reason": "top base value within budget",
+      "selection_score": 0.696667,
+      "status": "accepted",
+      "utility": 0.261905
+    }
+  ],
+  "subgraph": null
+}

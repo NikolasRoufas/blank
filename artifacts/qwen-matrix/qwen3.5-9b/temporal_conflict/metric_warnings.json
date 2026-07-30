@@ -1,0 +1,80 @@
+{
+  "claim_only_rag|123": [
+    "uncited claim-like sentence: 'As of 2024, the headquarters is located in Rivertown.'"
+  ],
+  "claim_only_rag|2026": [
+    "uncited claim-like sentence: 'As of 2024, the headquarters is located in Rivertown.'"
+  ],
+  "claim_only_rag|42": [
+    "uncited claim-like sentence: 'As of 2024, the headquarters is located in Rivertown.'"
+  ],
+  "full_egrag|123": [
+    "uncited claim-like sentence: 'As of 2024, the headquarters is located in Rivertown.'"
+  ],
+  "full_egrag|2026": [
+    "uncited claim-like sentence: 'As of 2024, the headquarters is located in Rivertown.'"
+  ],
+  "full_egrag|42": [
+    "uncited claim-like sentence: 'As of 2024, the headquarters is located in Rivertown.'"
+  ],
+  "graph_coherent_subgraph|123": [
+    "uncited claim-like sentence: 'As of 2024, the headquarters is located in Rivertown.'"
+  ],
+  "graph_coherent_subgraph|2026": [
+    "uncited claim-like sentence: 'As of 2024, the headquarters is located in Rivertown.'"
+  ],
+  "graph_coherent_subgraph|42": [
+    "uncited claim-like sentence: 'As of 2024, the headquarters is located in Rivertown.'"
+  ],
+  "graph_no_contradiction|123": [
+    "uncited claim-like sentence: 'As of 2024, the headquarters is located in Rivertown.'"
+  ],
+  "graph_no_contradiction|2026": [
+    "uncited claim-like sentence: 'As of 2024, the headquarters is located in Rivertown.'"
+  ],
+  "graph_no_contradiction|42": [
+    "uncited claim-like sentence: 'As of 2024, the headquarters is located in Rivertown.'"
+  ],
+  "graph_no_propagation|123": [
+    "uncited claim-like sentence: 'As of 2024, the headquarters is located in Rivertown.'"
+  ],
+  "graph_no_propagation|2026": [
+    "uncited claim-like sentence: 'As of 2024, the headquarters is located in Rivertown.'"
+  ],
+  "graph_no_propagation|42": [
+    "uncited claim-like sentence: 'As of 2024, the headquarters is located in Rivertown.'"
+  ],
+  "graph_no_temporal|123": [
+    "uncited claim-like sentence: 'As of 2024, the headquarters is located in Rivertown.'"
+  ],
+  "graph_no_temporal|2026": [
+    "uncited claim-like sentence: 'As of 2024, the headquarters is located in Rivertown.'"
+  ],
+  "graph_no_temporal|42": [
+    "uncited claim-like sentence: 'As of 2024, the headquarters is located in Rivertown.'"
+  ],
+  "graph_top_claim|123": [
+    "uncited claim-like sentence: 'As of 2024, the headquarters is located in Rivertown.'"
+  ],
+  "graph_top_claim|2026": [
+    "uncited claim-like sentence: 'As of 2024, the headquarters is located in Rivertown.'"
+  ],
+  "graph_top_claim|42": [
+    "uncited claim-like sentence: 'As of 2024, the headquarters is located in Rivertown.'"
+  ],
+  "graph_with_propagation|123": [
+    "uncited claim-like sentence: 'As of 2024, the headquarters is located in Rivertown.'"
+  ],
+  "graph_with_propagation|2026": [
+    "uncited claim-like sentence: 'As of 2024, the headquarters is located in Rivertown.'"
+  ],
+  "graph_with_propagation|42": [
+    "uncited claim-like sentence: 'As of 2024, the headquarters is located in Rivertown.'"
+  ],
+  "passage_rag|123": [],
+  "passage_rag|2026": [],
+  "passage_rag|42": [],
+  "reranked_passage_rag|123": [],
+  "reranked_passage_rag|2026": [],
+  "reranked_passage_rag|42": []
+}

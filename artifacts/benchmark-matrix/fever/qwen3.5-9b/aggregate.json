@@ -1,0 +1,1677 @@
+{
+  "per_seed": [
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 0.3333333333333333,
+        "citation_completeness": 0.0,
+        "citation_precision": 0.0,
+        "citation_recall": 0.0,
+        "contradiction_rate": 1.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 3571.9701539492235,
+        "normalized_exact_match": 0.0,
+        "num_claims": 1.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 0.0,
+        "num_passages": 1.0,
+        "num_selected": 1.0,
+        "token_estimate": 28.0,
+        "token_f1": 0.07692307692307691,
+        "unsupported_claim_rate": 0.5
+      },
+      "num_examples": 25,
+      "num_failed": 24,
+      "seed": 0,
+      "variant": "passage_rag",
+      "warnings": [
+        "uncited claim-like sentence: 'The provided evidence does not contain information about Buf'",
+        "uncited claim-like sentence: 'It only mentions Cordelia Chase appearing in comic books and'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 0.3333333333333333,
+        "citation_completeness": 0.0,
+        "citation_precision": 0.0,
+        "citation_recall": 0.0,
+        "contradiction_rate": 1.0,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 3418.30578900408,
+        "normalized_exact_match": 0.0,
+        "num_claims": 1.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 0.0,
+        "num_passages": 1.0,
+        "num_selected": 1.0,
+        "token_estimate": 28.0,
+        "token_f1": 0.07692307692307691,
+        "unsupported_claim_rate": 0.5
+      },
+      "num_examples": 25,
+      "num_failed": 24,
+      "seed": 0,
+      "variant": "reranked_passage_rag",
+      "warnings": [
+        "uncited claim-like sentence: 'The provided evidence does not contain information about Buf'",
+        "uncited claim-like sentence: 'It only mentions Cordelia Chase appearing in comic books and'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 0.3848908954607484,
+        "citation_completeness": 0.375,
+        "citation_precision": 0.375,
+        "citation_recall": 0.375,
+        "contradiction_rate": 0.875,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 3310.7342033617897,
+        "normalized_exact_match": 0.0,
+        "num_claims": 1.5,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 0.0,
+        "num_passages": 1.0,
+        "num_selected": 1.5,
+        "token_estimate": 40.625,
+        "token_f1": 0.0499791617051679,
+        "unsupported_claim_rate": 0.75
+      },
+      "num_examples": 25,
+      "num_failed": 17,
+      "seed": 0,
+      "variant": "claim_only_rag",
+      "warnings": [
+        "uncited claim-like sentence: 'The provided evidence does not state that The Bee Gees were '",
+        "uncited claim-like sentence: 'The evidence states that Aleister Crowley was English, not F'",
+        "uncited claim-like sentence: 'The provided evidence does not contain information about Buf'",
+        "uncited claim-like sentence: 'The evidence states that Shane Black was born on December 16'",
+        "uncited claim-like sentence: 'The provided evidence does not contain information regarding'",
+        "uncited claim-like sentence: 'A Milli is by a person from the United States, as it is a so'",
+        "uncited claim-like sentence: 'The provided evidence does not contain information about Sha'",
+        "uncited claim-like sentence: 'The provided evidence does not contain information about the'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 0.5662453015394192,
+        "citation_completeness": 0.7142857142857143,
+        "citation_precision": 0.7142857142857143,
+        "citation_recall": 0.7142857142857143,
+        "contradiction_rate": 0.5714285714285714,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 3127.3610328457185,
+        "normalized_exact_match": 0.0,
+        "num_claims": 1.7142857142857142,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 1.7142857142857142,
+        "num_passages": 1.0,
+        "num_selected": 1.0,
+        "token_estimate": 35.285714285714285,
+        "token_f1": 0.008403361344537815,
+        "unsupported_claim_rate": 0.35714285714285715
+      },
+      "num_examples": 25,
+      "num_failed": 18,
+      "seed": 0,
+      "variant": "graph_no_propagation",
+      "warnings": [
+        "uncited claim-like sentence: 'The provided evidence does not state that The Bee Gees were '",
+        "uncited claim-like sentence: 'The evidence states that Aleister Crowley was an English occ'",
+        "uncited claim-like sentence: 'The evidence states that Shane Black was born on December 16'",
+        "uncited claim-like sentence: 'The provided evidence does not support the claim that Michig'",
+        "uncited claim-like sentence: 'It only mentions the Upper Peninsula as a tourist destinatio'",
+        "uncited claim-like sentence: 'A Milli is by a person from the United States, as it is a so'",
+        "uncited claim-like sentence: 'The evidence states that Noah Cyrus is the younger sister of'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 0.5128422843496373,
+        "citation_completeness": 0.625,
+        "citation_precision": 0.625,
+        "citation_recall": 0.625,
+        "contradiction_rate": 0.625,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 3274.5937867293833,
+        "normalized_exact_match": 0.0,
+        "num_claims": 1.75,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 1.75,
+        "num_passages": 1.0,
+        "num_selected": 1.75,
+        "token_estimate": 42.75,
+        "token_f1": 0.02786377708978328,
+        "unsupported_claim_rate": 0.5
+      },
+      "num_examples": 25,
+      "num_failed": 17,
+      "seed": 0,
+      "variant": "graph_top_claim",
+      "warnings": [
+        "uncited claim-like sentence: 'The provided evidence does not state that The Bee Gees were '",
+        "uncited claim-like sentence: 'The evidence states that Aleister Crowley was an English occ'",
+        "uncited claim-like sentence: 'The evidence states that Shane Black was born on December 16'",
+        "uncited claim-like sentence: 'The provided evidence does not contain information about Mic'",
+        "uncited claim-like sentence: 'A Milli is by a person from the United States, as it is a so'",
+        "uncited claim-like sentence: 'The evidence states that Noah Cyrus is the younger sister of'",
+        "uncited claim-like sentence: 'The provided evidence does not contain information regarding'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 0.5662453015394192,
+        "citation_completeness": 0.7142857142857143,
+        "citation_precision": 0.7142857142857143,
+        "citation_recall": 0.7142857142857143,
+        "contradiction_rate": 0.5714285714285714,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 3175.9269806789234,
+        "normalized_exact_match": 0.0,
+        "num_claims": 1.7142857142857142,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 1.7142857142857142,
+        "num_passages": 1.0,
+        "num_selected": 1.0,
+        "token_estimate": 35.285714285714285,
+        "token_f1": 0.008403361344537815,
+        "unsupported_claim_rate": 0.35714285714285715
+      },
+      "num_examples": 25,
+      "num_failed": 18,
+      "seed": 0,
+      "variant": "graph_coherent_subgraph",
+      "warnings": [
+        "uncited claim-like sentence: 'The provided evidence does not state that The Bee Gees were '",
+        "uncited claim-like sentence: 'The evidence states that Aleister Crowley was an English occ'",
+        "uncited claim-like sentence: 'The evidence states that Shane Black was born on December 16'",
+        "uncited claim-like sentence: 'The provided evidence does not support the claim that Michig'",
+        "uncited claim-like sentence: 'It only mentions the Upper Peninsula as a tourist destinatio'",
+        "uncited claim-like sentence: 'A Milli is by a person from the United States, as it is a so'",
+        "uncited claim-like sentence: 'The evidence states that Noah Cyrus is the younger sister of'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 0.5662453015394192,
+        "citation_completeness": 0.7142857142857143,
+        "citation_precision": 0.7142857142857143,
+        "citation_recall": 0.7142857142857143,
+        "contradiction_rate": 0.5714285714285714,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 3188.6509360047057,
+        "normalized_exact_match": 0.0,
+        "num_claims": 1.7142857142857142,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 1.7142857142857142,
+        "num_passages": 1.0,
+        "num_selected": 1.0,
+        "token_estimate": 35.285714285714285,
+        "token_f1": 0.008403361344537815,
+        "unsupported_claim_rate": 0.35714285714285715
+      },
+      "num_examples": 25,
+      "num_failed": 18,
+      "seed": 0,
+      "variant": "graph_no_temporal",
+      "warnings": [
+        "uncited claim-like sentence: 'The provided evidence does not state that The Bee Gees were '",
+        "uncited claim-like sentence: 'The evidence states that Aleister Crowley was an English occ'",
+        "uncited claim-like sentence: 'The evidence states that Shane Black was born on December 16'",
+        "uncited claim-like sentence: 'The provided evidence does not support the claim that Michig'",
+        "uncited claim-like sentence: 'It only mentions the Upper Peninsula as a tourist destinatio'",
+        "uncited claim-like sentence: 'A Milli is by a person from the United States, as it is a so'",
+        "uncited claim-like sentence: 'The evidence states that Noah Cyrus is the younger sister of'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 0.5662453015394192,
+        "citation_completeness": 0.7142857142857143,
+        "citation_precision": 0.7142857142857143,
+        "citation_recall": 0.7142857142857143,
+        "contradiction_rate": 0.5714285714285714,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 3134.970626161833,
+        "normalized_exact_match": 0.0,
+        "num_claims": 1.7142857142857142,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 1.7142857142857142,
+        "num_passages": 1.0,
+        "num_selected": 1.0,
+        "token_estimate": 35.285714285714285,
+        "token_f1": 0.008403361344537815,
+        "unsupported_claim_rate": 0.35714285714285715
+      },
+      "num_examples": 25,
+      "num_failed": 18,
+      "seed": 0,
+      "variant": "graph_no_contradiction",
+      "warnings": [
+        "uncited claim-like sentence: 'The provided evidence does not state that The Bee Gees were '",
+        "uncited claim-like sentence: 'The evidence states that Aleister Crowley was an English occ'",
+        "uncited claim-like sentence: 'The evidence states that Shane Black was born on December 16'",
+        "uncited claim-like sentence: 'The provided evidence does not support the claim that Michig'",
+        "uncited claim-like sentence: 'It only mentions the Upper Peninsula as a tourist destinatio'",
+        "uncited claim-like sentence: 'A Milli is by a person from the United States, as it is a so'",
+        "uncited claim-like sentence: 'The evidence states that Noah Cyrus is the younger sister of'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 0.5662453015394192,
+        "citation_completeness": 0.7142857142857143,
+        "citation_precision": 0.7142857142857143,
+        "citation_recall": 0.7142857142857143,
+        "contradiction_rate": 0.5714285714285714,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 3112.4373409963614,
+        "normalized_exact_match": 0.0,
+        "num_claims": 1.7142857142857142,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 1.7142857142857142,
+        "num_passages": 1.0,
+        "num_selected": 1.0,
+        "token_estimate": 35.285714285714285,
+        "token_f1": 0.008403361344537815,
+        "unsupported_claim_rate": 0.35714285714285715
+      },
+      "num_examples": 25,
+      "num_failed": 18,
+      "seed": 0,
+      "variant": "graph_with_propagation",
+      "warnings": [
+        "uncited claim-like sentence: 'The provided evidence does not state that The Bee Gees were '",
+        "uncited claim-like sentence: 'The evidence states that Aleister Crowley was an English occ'",
+        "uncited claim-like sentence: 'The evidence states that Shane Black was born on December 16'",
+        "uncited claim-like sentence: 'The provided evidence does not support the claim that Michig'",
+        "uncited claim-like sentence: 'It only mentions the Upper Peninsula as a tourist destinatio'",
+        "uncited claim-like sentence: 'A Milli is by a person from the United States, as it is a so'",
+        "uncited claim-like sentence: 'The evidence states that Noah Cyrus is the younger sister of'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 0.5662453015394192,
+        "citation_completeness": 0.7142857142857143,
+        "citation_precision": 0.7142857142857143,
+        "citation_recall": 0.7142857142857143,
+        "contradiction_rate": 0.5714285714285714,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 1.0,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 3101.8772291551745,
+        "normalized_exact_match": 0.0,
+        "num_claims": 1.7142857142857142,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 1.7142857142857142,
+        "num_passages": 1.0,
+        "num_selected": 1.0,
+        "token_estimate": 35.285714285714285,
+        "token_f1": 0.008403361344537815,
+        "unsupported_claim_rate": 0.35714285714285715
+      },
+      "num_examples": 25,
+      "num_failed": 18,
+      "seed": 0,
+      "variant": "full_egrag",
+      "warnings": [
+        "uncited claim-like sentence: 'The provided evidence does not state that The Bee Gees were '",
+        "uncited claim-like sentence: 'The evidence states that Aleister Crowley was an English occ'",
+        "uncited claim-like sentence: 'The evidence states that Shane Black was born on December 16'",
+        "uncited claim-like sentence: 'The provided evidence does not support the claim that Michig'",
+        "uncited claim-like sentence: 'It only mentions the Upper Peninsula as a tourist destinatio'",
+        "uncited claim-like sentence: 'A Milli is by a person from the United States, as it is a so'",
+        "uncited claim-like sentence: 'The evidence states that Noah Cyrus is the younger sister of'"
+      ]
+    }
+  ],
+  "seed_aggregated": {
+    "claim_only_rag": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 0.3848908954607484,
+        "median": 0.3848908954607484,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.375,
+        "median": 0.375,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 0.375,
+        "median": 0.375,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.375,
+        "median": 0.375,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.875,
+        "median": 0.875,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 3310.7342033617897,
+        "median": 3310.7342033617897,
+        "std": 0.0
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 1.5,
+        "median": 1.5,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 1.5,
+        "median": 1.5,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 40.625,
+        "median": 40.625,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.0499791617051679,
+        "median": 0.0499791617051679,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.75,
+        "median": 0.75,
+        "std": 0.0
+      }
+    },
+    "full_egrag": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 0.5662453015394192,
+        "median": 0.5662453015394192,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.7142857142857143,
+        "median": 0.7142857142857143,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 0.7142857142857143,
+        "median": 0.7142857142857143,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.7142857142857143,
+        "median": 0.7142857142857143,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.5714285714285714,
+        "median": 0.5714285714285714,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 3101.8772291551745,
+        "median": 3101.8772291551745,
+        "std": 0.0
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 1.7142857142857142,
+        "median": 1.7142857142857142,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 1.7142857142857142,
+        "median": 1.7142857142857142,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 35.285714285714285,
+        "median": 35.285714285714285,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.008403361344537815,
+        "median": 0.008403361344537815,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.35714285714285715,
+        "median": 0.35714285714285715,
+        "std": 0.0
+      }
+    },
+    "graph_coherent_subgraph": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 0.5662453015394192,
+        "median": 0.5662453015394192,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.7142857142857143,
+        "median": 0.7142857142857143,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 0.7142857142857143,
+        "median": 0.7142857142857143,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.7142857142857143,
+        "median": 0.7142857142857143,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.5714285714285714,
+        "median": 0.5714285714285714,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 3175.9269806789234,
+        "median": 3175.9269806789234,
+        "std": 0.0
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 1.7142857142857142,
+        "median": 1.7142857142857142,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 1.7142857142857142,
+        "median": 1.7142857142857142,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 35.285714285714285,
+        "median": 35.285714285714285,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.008403361344537815,
+        "median": 0.008403361344537815,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.35714285714285715,
+        "median": 0.35714285714285715,
+        "std": 0.0
+      }
+    },
+    "graph_no_contradiction": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 0.5662453015394192,
+        "median": 0.5662453015394192,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.7142857142857143,
+        "median": 0.7142857142857143,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 0.7142857142857143,
+        "median": 0.7142857142857143,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.7142857142857143,
+        "median": 0.7142857142857143,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.5714285714285714,
+        "median": 0.5714285714285714,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 3134.970626161833,
+        "median": 3134.970626161833,
+        "std": 0.0
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 1.7142857142857142,
+        "median": 1.7142857142857142,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 1.7142857142857142,
+        "median": 1.7142857142857142,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 35.285714285714285,
+        "median": 35.285714285714285,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.008403361344537815,
+        "median": 0.008403361344537815,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.35714285714285715,
+        "median": 0.35714285714285715,
+        "std": 0.0
+      }
+    },
+    "graph_no_propagation": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 0.5662453015394192,
+        "median": 0.5662453015394192,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.7142857142857143,
+        "median": 0.7142857142857143,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 0.7142857142857143,
+        "median": 0.7142857142857143,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.7142857142857143,
+        "median": 0.7142857142857143,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.5714285714285714,
+        "median": 0.5714285714285714,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 3127.3610328457185,
+        "median": 3127.3610328457185,
+        "std": 0.0
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 1.7142857142857142,
+        "median": 1.7142857142857142,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 1.7142857142857142,
+        "median": 1.7142857142857142,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 35.285714285714285,
+        "median": 35.285714285714285,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.008403361344537815,
+        "median": 0.008403361344537815,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.35714285714285715,
+        "median": 0.35714285714285715,
+        "std": 0.0
+      }
+    },
+    "graph_no_temporal": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 0.5662453015394192,
+        "median": 0.5662453015394192,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.7142857142857143,
+        "median": 0.7142857142857143,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 0.7142857142857143,
+        "median": 0.7142857142857143,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.7142857142857143,
+        "median": 0.7142857142857143,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.5714285714285714,
+        "median": 0.5714285714285714,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 3188.6509360047057,
+        "median": 3188.6509360047057,
+        "std": 0.0
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 1.7142857142857142,
+        "median": 1.7142857142857142,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 1.7142857142857142,
+        "median": 1.7142857142857142,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 35.285714285714285,
+        "median": 35.285714285714285,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.008403361344537815,
+        "median": 0.008403361344537815,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.35714285714285715,
+        "median": 0.35714285714285715,
+        "std": 0.0
+      }
+    },
+    "graph_top_claim": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 0.5128422843496373,
+        "median": 0.5128422843496373,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.625,
+        "median": 0.625,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 0.625,
+        "median": 0.625,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.625,
+        "median": 0.625,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.625,
+        "median": 0.625,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 3274.5937867293833,
+        "median": 3274.5937867293833,
+        "std": 0.0
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 1.75,
+        "median": 1.75,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 1.75,
+        "median": 1.75,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 1.75,
+        "median": 1.75,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 42.75,
+        "median": 42.75,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.02786377708978328,
+        "median": 0.02786377708978328,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.5,
+        "median": 0.5,
+        "std": 0.0
+      }
+    },
+    "graph_with_propagation": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 0.5662453015394192,
+        "median": 0.5662453015394192,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.7142857142857143,
+        "median": 0.7142857142857143,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 0.7142857142857143,
+        "median": 0.7142857142857143,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.7142857142857143,
+        "median": 0.7142857142857143,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.5714285714285714,
+        "median": 0.5714285714285714,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 3112.4373409963614,
+        "median": 3112.4373409963614,
+        "std": 0.0
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 1.7142857142857142,
+        "median": 1.7142857142857142,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 1.7142857142857142,
+        "median": 1.7142857142857142,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 35.285714285714285,
+        "median": 35.285714285714285,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.008403361344537815,
+        "median": 0.008403361344537815,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.35714285714285715,
+        "median": 0.35714285714285715,
+        "std": 0.0
+      }
+    },
+    "passage_rag": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 0.3333333333333333,
+        "median": 0.3333333333333333,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 3571.9701539492235,
+        "median": 3571.9701539492235,
+        "std": 0.0
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 28.0,
+        "median": 28.0,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.07692307692307691,
+        "median": 0.07692307692307691,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.5,
+        "median": 0.5,
+        "std": 0.0
+      }
+    },
+    "reranked_passage_rag": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 0.3333333333333333,
+        "median": 0.3333333333333333,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 3418.30578900408,
+        "median": 3418.30578900408,
+        "std": 0.0
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 28.0,
+        "median": 28.0,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.07692307692307691,
+        "median": 0.07692307692307691,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.5,
+        "median": 0.5,
+        "std": 0.0
+      }
+    }
+  }
+}

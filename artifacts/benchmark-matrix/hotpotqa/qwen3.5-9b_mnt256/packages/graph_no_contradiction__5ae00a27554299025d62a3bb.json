@@ -1,0 +1,564 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 87
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-73f0e914b3341047",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Chengdu Aircraft Industry Group::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Chengdu Aircraft Industry Group",
+          "title": "Chengdu Aircraft Industry Group",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 140,
+            "source_id": "Chengdu Aircraft Industry Group",
+            "start": 0,
+            "text": "The Chengdu Aircraft Industry Group or Chengdu Aerospace Corporation, a subsidiary of AVIC, is a Chinese aerospace conglomerate that designs"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Chengdu Aircraft Industry Group",
+          "Chengdu Aerospace Corporation",
+          "AVIC",
+          "Chinese"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Chengdu Aircraft Industry Group",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The Chengdu Aircraft Industry Group or Chengdu Aerospace Corporation, a subsidiary of AVIC, is a Chinese aerospace conglomerate that designs",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-dade6cd0c98e5dde",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Chengdu Aircraft Industry Group::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Chengdu Aircraft Industry Group",
+          "title": "Chengdu Aircraft Industry Group",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 173,
+            "source_id": "Chengdu Aircraft Industry Group",
+            "start": 145,
+            "text": "manufactures combat aircraft"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": null,
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "manufactures combat aircraft",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-21c38f60b626f1cb",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Chengdu Aircraft Industry Group::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Chengdu Aircraft Industry Group",
+          "title": "Chengdu Aircraft Industry Group",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 219,
+            "source_id": "Chengdu Aircraft Industry Group",
+            "start": 178,
+            "text": "is also a manufacturer of aircraft parts."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": null,
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "is also a manufacturer of aircraft parts.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-81dc236dad0743a3",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Chengdu J-7::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Chengdu J-7",
+          "title": "Chengdu J-7",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 180,
+            "source_id": "Chengdu J-7",
+            "start": 0,
+            "text": "The Chengdu J-7 (Chinese: \u6b7c-7; third generation export version F-7; NATO Code: Fishbed) is a People's Republic of China license-built version of the Soviet Mikoyan-Gurevich MiG-21."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Chengdu J",
+          "Chinese",
+          "F",
+          "NATO Code",
+          "Fishbed",
+          "People",
+          "Republic",
+          "China",
+          "Soviet Mikoyan",
+          "Gurevich MiG"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Chengdu J",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The Chengdu J-7 (Chinese: \u6b7c-7; third generation export version F-7; NATO Code: Fishbed) is a People's Republic of China license-built version of the Soviet Mikoyan-Gurevich MiG-21.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-2fde8483c7a3d4e8",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Chengdu J-10::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Chengdu J-10",
+          "title": "Chengdu J-10",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 320,
+            "source_id": "Chengdu J-10",
+            "start": 0,
+            "text": "The Chengdu J-10 ([[Simplified Chinese characters|simplified Chinese]]: \u6b7c-10; [[Traditional Chinese characters|traditional Chinese]]: \u6bb2-10; [[NATO reporting name]] : Firebird) is a lightweight [[multirole combat aircraft|multirole]] [[fighter aircraft]] capable of all-weather operation, configured with a [[delta wing]]"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Chengdu J",
+          "Simplified Chinese",
+          "Chinese",
+          "Traditional Chinese",
+          "NATO",
+          "Firebird"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Chengdu J",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The Chengdu J-10 ([[Simplified Chinese characters|simplified Chinese]]: \u6b7c-10; [[Traditional Chinese characters|traditional Chinese]]: \u6bb2-10; [[NATO reporting name]] : Firebird) is a lightweight [[multirole combat aircraft|multirole]] [[fighter aircraft]] capable of all-weather operation, configured with a [[delta wing]]",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-db3841e83b80e99d",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Chengdu J-10::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Chengdu J-10",
+          "title": "Chengdu J-10",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 402,
+            "source_id": "Chengdu J-10",
+            "start": 325,
+            "text": "[[Canard (aeronautics)|canard]] design, with [[fly-by-wire]] flight controls,"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Canard"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Canard",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "[[Canard (aeronautics)|canard]] design, with [[fly-by-wire]] flight controls,",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-323bbcfa14b18919",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Chengdu J-10::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Chengdu J-10",
+          "title": "Chengdu J-10",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 582,
+            "source_id": "Chengdu J-10",
+            "start": 407,
+            "text": "produced by the [[People's Republic of China]]'s [[Chengdu Aircraft Industry Group|Chengdu Aircraft Corporation (CAC)]] for the [[People's Liberation Army Air Force]] (PLAAF)."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "People",
+          "Republic",
+          "China",
+          "Chengdu Aircraft Industry Group",
+          "Chengdu Aircraft Corporation",
+          "CAC",
+          "Liberation Army Air Force",
+          "PLAAF"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "People",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "produced by the [[People's Republic of China]]'s [[Chengdu Aircraft Industry Group|Chengdu Aircraft Corporation (CAC)]] for the [[People's Liberation Army Air Force]] (PLAAF).",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-cf83c6443e3cadfc",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'she' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Ayesha Farooq::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Ayesha Farooq",
+          "title": "Ayesha Farooq",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 113,
+            "source_id": "Ayesha Farooq",
+            "start": 0,
+            "text": "She now flies missions in a Chinese-made Chengdu J-7 fighter jet alongside her 24 male colleagues in Squadron 20."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Chinese",
+          "Chengdu J",
+          "Squadron"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "She",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "She now flies missions in a Chinese-made Chengdu J-7 fighter jet alongside her 24 male colleagues in Squadron 20.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-edc1770c88af9dd4",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'it' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Chengdu Aircraft Industry Group::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Chengdu Aircraft Industry Group",
+          "title": "Chengdu Aircraft Industry Group",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 169,
+            "source_id": "Chengdu Aircraft Industry Group",
+            "start": 0,
+            "text": "It was founded in 1958 (as Chengdu State Aircraft Factory No.132 Aircraft Plant) in Chengdu, Sichuan province, China to be an aircraft supplier for the Chinese military."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Chengdu State Aircraft Factory No",
+          "Aircraft Plant",
+          "Chengdu",
+          "Sichuan",
+          "China",
+          "Chinese"
+        ],
+        "negation": true,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "It",
+        "temporal_expressions": [
+          "1958"
+        ]
+      },
+      "source_reliability": null,
+      "text": "It was founded in 1958 (as Chengdu State Aircraft Factory No.132 Aircraft Plant) in Chengdu, Sichuan province, China to be an aircraft supplier for the Chinese military.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5ae00a27554299025d62a3bb",
+    "text": "What Chinese company helped develop the aircraft that preceded the Chengdu J-7?"
+  },
+  "relations": [
+    {
+      "bridge": null,
+      "direction": "directed",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "entailment",
+        "features": {
+          "entailment": 0.416824
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "entailment above threshold",
+      "relation_confidence": 0.416824,
+      "relation_id": "rel-226e7b852cb9c063",
+      "relation_type": "support",
+      "source_claim_id": "clm-edc1770c88af9dd4",
+      "target_claim_id": "clm-323bbcfa14b18919"
+    }
+  ],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.541464,
+      "claim_id": "clm-323bbcfa14b18919",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 0.843188,
+      "status": "accepted",
+      "utility": 0.301724
+    },
+    {
+      "belief": 0.455,
+      "claim_id": "clm-edc1770c88af9dd4",
+      "rank": 1,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.7675,
+      "status": "accepted",
+      "utility": 0.3125
+    }
+  ],
+  "subgraph": null
+}

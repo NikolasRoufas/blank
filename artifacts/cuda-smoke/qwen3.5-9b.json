@@ -1,0 +1,74 @@
+{
+  "args": {
+    "generator_model": "Qwen/Qwen3.5-9B",
+    "generator_revision": null,
+    "nli_model": "roberta-large-mnli",
+    "nli_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98",
+    "device": "cuda",
+    "dtype": "bfloat16",
+    "quantization": "none",
+    "disable_thinking": true,
+    "max_new_tokens": 256,
+    "require_cuda": true,
+    "output": "artifacts/cuda-smoke/qwen3.5-9b.json"
+  },
+  "gpu_report": {
+    "requested_device": "cuda",
+    "requested_dtype": "bfloat16",
+    "torch": "2.12.1+cu130",
+    "cuda_available": true,
+    "cuda_device_name": "NVIDIA GeForce RTX 3090",
+    "cuda_runtime_version": "13.0",
+    "cuda_device_count": 1,
+    "cuda_vram_total_gib": 23.6,
+    "mps_available": false,
+    "transformers": "5.12.1",
+    "selected_device": "cuda",
+    "model_dtype": "bfloat16",
+    "hf_cache_dir": "/root/.cache/huggingface/hub",
+    "hf_cache_exists": false,
+    "free_disk_gib": 7.2
+  },
+  "tokenizer": {
+    "model": "Qwen/Qwen3.5-9B",
+    "vocab_size": 248044,
+    "has_chat_template": true,
+    "seconds": 4.3
+  },
+  "generation": {
+    "resolved": {
+      "model_name": "Qwen/Qwen3.5-9B",
+      "requested_device": "cuda",
+      "requested_dtype": "bfloat16",
+      "quantization": "none",
+      "tokenizer_name_or_path": "Qwen/Qwen3.5-9B",
+      "resolved_dtype": "torch.bfloat16",
+      "resolved_device": "cuda"
+    },
+    "answer_preview": "The provided evidence states that the Eiffel Tower is located in Paris, but it does not specify the country.",
+    "abstained": false,
+    "citations": [
+      "c1"
+    ],
+    "seconds": 12.2
+  },
+  "nli": {
+    "model": "roberta-large-mnli",
+    "revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98",
+    "relation": "contradicts",
+    "entailment_ab": 0.0,
+    "contradiction": 0.999,
+    "expected_relation": "contradicts",
+    "seconds": 2.2
+  },
+  "end_to_end": {
+    "answer_preview": "The provided evidence states that the Eiffel Tower is located in Paris, but it does not specify the country.",
+    "abstained": false,
+    "citations": [
+      "clm-4aad21f4d394a632"
+    ],
+    "graph_nodes": 2,
+    "graph_edges": 0,
+    "seconds": 3.8
+  }
+}

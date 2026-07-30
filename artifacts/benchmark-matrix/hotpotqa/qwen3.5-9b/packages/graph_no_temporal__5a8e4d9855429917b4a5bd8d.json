@@ -1,0 +1,692 @@
+{
+  "budget": {
+    "reserved_output": 16,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 74
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-47d4f9576721268d",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Worldview Entertainment::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Worldview Entertainment",
+          "title": "Worldview Entertainment",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 87,
+            "source_id": "Worldview Entertainment",
+            "start": 0,
+            "text": "Worldview Entertainment is an American independent motion picture company that finances"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Worldview Entertainment",
+          "American"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Worldview Entertainment",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Worldview Entertainment is an American independent motion picture company that finances",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-9d72096b86b6d4cf",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Worldview Entertainment::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Worldview Entertainment",
+          "title": "Worldview Entertainment",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 161,
+            "source_id": "Worldview Entertainment",
+            "start": 92,
+            "text": "produces theatrical quality feature films for worldwide distribution."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": null,
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "produces theatrical quality feature films for worldwide distribution.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-eb8cac1600b000f9",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Child 44 (film)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Child 44 (film)",
+          "title": "Child 44 (film)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 95,
+            "source_id": "Child 44 (film)",
+            "start": 0,
+            "text": "Child 44 is a 2015 mystery thriller film directed by Daniel Espinosa, written by Richard Price,"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Child",
+          "Daniel Espinosa",
+          "Richard Price"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Child",
+        "temporal_expressions": [
+          "2015"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Child 44 is a 2015 mystery thriller film directed by Daniel Espinosa, written by Richard Price,",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-f378d5f5fc4fa03a",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Child 44 (film)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Child 44 (film)",
+          "title": "Child 44 (film)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 153,
+            "source_id": "Child 44 (film)",
+            "start": 100,
+            "text": "based on Tom Rob Smith's 2008 novel of the same name."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Tom Rob Smith"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Tom Rob Smith",
+        "temporal_expressions": [
+          "2008"
+        ]
+      },
+      "source_reliability": null,
+      "text": "based on Tom Rob Smith's 2008 novel of the same name.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-26d1fcd4457beb65",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Dark Places (2015 film)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Dark Places (2015 film)",
+          "title": "Dark Places (2015 film)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 78,
+            "source_id": "Dark Places (2015 film)",
+            "start": 0,
+            "text": "Dark Places is a 2015 mystery thriller film directed by Gilles Paquet-Brenner."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Dark Places",
+          "Gilles Paquet",
+          "Brenner"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Dark Places",
+        "temporal_expressions": [
+          "2015"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Dark Places is a 2015 mystery thriller film directed by Gilles Paquet-Brenner.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-c21ddc8110d178d0",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Maverick Entertainment Group::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Maverick Entertainment Group",
+          "title": "Maverick Entertainment Group",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 80,
+            "source_id": "Maverick Entertainment Group",
+            "start": 0,
+            "text": "Maverick Entertainment Group is a low-budget American independent motion picture"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Maverick Entertainment Group",
+          "American"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Maverick Entertainment Group",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Maverick Entertainment Group is a low-budget American independent motion picture",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-803110beba93d636",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Maverick Entertainment Group::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Maverick Entertainment Group",
+          "title": "Maverick Entertainment Group",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 132,
+            "source_id": "Maverick Entertainment Group",
+            "start": 85,
+            "text": "DVD distribution company founded by Doug Schwab"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "DVD",
+          "Doug Schwab"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "DVD",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "DVD distribution company founded by Doug Schwab",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-a62974ac7f600245",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Maverick Entertainment Group::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Maverick Entertainment Group",
+          "title": "Maverick Entertainment Group",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 160,
+            "source_id": "Maverick Entertainment Group",
+            "start": 137,
+            "text": "based in South Florida."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "South Florida"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "South Florida",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "based in South Florida.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-d3882414ebc7d8d8",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "A Leap for Love::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "A Leap for Love",
+          "title": "A Leap for Love",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 125,
+            "source_id": "A Leap for Love",
+            "start": 0,
+            "text": "A Leap for Love is a 1912 American short romantic drama film released on 13 April 1912 by Independent Motion Picture Company."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Leap",
+          "Love",
+          "American",
+          "Independent Motion Picture Company"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Leap",
+        "temporal_expressions": [
+          "1912"
+        ]
+      },
+      "source_reliability": null,
+      "text": "A Leap for Love is a 1912 American short romantic drama film released on 13 April 1912 by Independent Motion Picture Company.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [
+    {
+      "claim_ids": [
+        "clm-26d1fcd4457beb65",
+        "clm-eb8cac1600b000f9"
+      ],
+      "conflict_id": "conflict:0",
+      "members": [
+        {
+          "claim_id": "clm-26d1fcd4457beb65",
+          "independent_support": 0,
+          "propagated_belief": 0.490166,
+          "relation_confidence": 0.989309,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-eb8cac1600b000f9",
+          "independent_support": 0,
+          "propagated_belief": 0.483148,
+          "relation_confidence": 0.989309,
+          "source_reliability": 0.5,
+          "timestamp": null
+        }
+      ],
+      "outcome": "unresolved",
+      "preferred_claim_id": null,
+      "relation_ids": [
+        "rel-2729bff4cfeb51b4"
+      ],
+      "resolution_note": "top two competitors within margin 0.100 (0.490 vs 0.483)",
+      "resolved": false
+    },
+    {
+      "claim_ids": [
+        "clm-47d4f9576721268d",
+        "clm-c21ddc8110d178d0",
+        "clm-d3882414ebc7d8d8"
+      ],
+      "conflict_id": "conflict:1",
+      "members": [
+        {
+          "claim_id": "clm-47d4f9576721268d",
+          "independent_support": 0,
+          "propagated_belief": 0.537411,
+          "relation_confidence": 0.939581,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-c21ddc8110d178d0",
+          "independent_support": 0,
+          "propagated_belief": 0.472279,
+          "relation_confidence": 0.939581,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-d3882414ebc7d8d8",
+          "independent_support": 0,
+          "propagated_belief": 0.490886,
+          "relation_confidence": 0.817747,
+          "source_reliability": 0.5,
+          "timestamp": null
+        }
+      ],
+      "outcome": "unresolved",
+      "preferred_claim_id": null,
+      "relation_ids": [
+        "rel-93307bc9b8414817",
+        "rel-c1df738326d99657",
+        "rel-f7b57357e3af00a0"
+      ],
+      "resolution_note": "top two competitors within margin 0.100 (0.537 vs 0.491)",
+      "resolved": false
+    }
+  ],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5a8e4d9855429917b4a5bd8d",
+    "text": "Worldview Entertainment is an American independent motion picture company that produced a 2015 mystery thriller film based on a novel by who?"
+  },
+  "relations": [
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.989309
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.989309,
+      "relation_id": "rel-2729bff4cfeb51b4",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-26d1fcd4457beb65",
+      "target_claim_id": "clm-eb8cac1600b000f9"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.939581
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.939581,
+      "relation_id": "rel-c1df738326d99657",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-47d4f9576721268d",
+      "target_claim_id": "clm-c21ddc8110d178d0"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.800484
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.800484,
+      "relation_id": "rel-f7b57357e3af00a0",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-47d4f9576721268d",
+      "target_claim_id": "clm-d3882414ebc7d8d8"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.817747
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.817747,
+      "relation_id": "rel-93307bc9b8414817",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-c21ddc8110d178d0",
+      "target_claim_id": "clm-d3882414ebc7d8d8"
+    }
+  ],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.537411,
+      "claim_id": "clm-47d4f9576721268d",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 1.0,
+      "status": "disputed",
+      "utility": 0.477273
+    },
+    {
+      "belief": 0.490886,
+      "claim_id": "clm-d3882414ebc7d8d8",
+      "rank": 1,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.902176,
+      "status": "disputed",
+      "utility": 0.41129
+    },
+    {
+      "belief": 0.472279,
+      "claim_id": "clm-c21ddc8110d178d0",
+      "rank": 2,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.862279,
+      "status": "disputed",
+      "utility": 0.39
+    }
+  ],
+  "subgraph": null
+}

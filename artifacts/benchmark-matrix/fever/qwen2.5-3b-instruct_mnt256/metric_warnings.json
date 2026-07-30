@@ -1,0 +1,122 @@
+{
+  "claim_only_rag|0": [
+    "uncited claim-like sentence: 'Sebastian Stan did not have a role in a German miniseries ba'",
+    "uncited claim-like sentence: 'The Bee Gees were not producers of music based on the provid'",
+    "uncited claim-like sentence: 'Noah Cyrus is mentioned as the younger sister of Miley Cyrus'",
+    "uncited claim-like sentence: 'Shane McMahon did not win the European Championship in 1998.'",
+    "uncited claim-like sentence: 'Victoria Palace Theatre is located in Victoria Street, which'",
+    "uncited claim-like sentence: 'Middle-earth is considered a fictional place based on the pr'"
+  ],
+  "full_egrag|0": [
+    "uncited claim-like sentence: 'Sebastian Stan did not have a role in a German miniseries ba'",
+    "uncited claim-like sentence: 'The Bee Gees were not producers of music based on the provid'",
+    "uncited claim-like sentence: 'The evidence provided does not directly support the claim th'",
+    "uncited claim-like sentence: 'The Prowler was created based on the information provided.'",
+    "uncited claim-like sentence: 'Noah Cyrus is indeed the youngest sister of Miley Cyrus.'",
+    "uncited claim-like sentence: 'Tom Baker is capable of having acting roles.'",
+    "uncited claim-like sentence: 'The information provided does not support the claim about Th'",
+    "uncited claim-like sentence: 'The claim that Shane McMahon won the European Championship o'",
+    "uncited claim-like sentence: 'The First Motion Picture Unit produced more than 401 films.'",
+    "uncited claim-like sentence: 'Victoria Palace Theatre is located in Victoria Street, which'",
+    "uncited claim-like sentence: 'The information provided indicates that Dreamer (2005 film) '",
+    "uncited claim-like sentence: 'The evidence indicates that Artpop sold approximately 757,00'",
+    "uncited claim-like sentence: 'Larry Wilmore is not the writer of Les Mis\u00e9rables.'"
+  ],
+  "graph_coherent_subgraph|0": [
+    "uncited claim-like sentence: 'Sebastian Stan did not have a role in a German miniseries ba'",
+    "uncited claim-like sentence: 'The Bee Gees were not producers of music based on the provid'",
+    "uncited claim-like sentence: 'The evidence provided does not directly support the claim th'",
+    "uncited claim-like sentence: 'The Prowler was created based on the information provided.'",
+    "uncited claim-like sentence: 'Noah Cyrus is indeed the youngest sister of Miley Cyrus.'",
+    "uncited claim-like sentence: 'Tom Baker is capable of having acting roles.'",
+    "uncited claim-like sentence: 'The information provided does not support the claim about Th'",
+    "uncited claim-like sentence: 'The claim that Shane McMahon won the European Championship o'",
+    "uncited claim-like sentence: 'The First Motion Picture Unit produced more than 401 films.'",
+    "uncited claim-like sentence: 'Victoria Palace Theatre is located in Victoria Street, which'",
+    "uncited claim-like sentence: 'The information provided indicates that Dreamer (2005 film) '",
+    "uncited claim-like sentence: 'The evidence indicates that Artpop sold approximately 757,00'",
+    "uncited claim-like sentence: 'Larry Wilmore is not the writer of Les Mis\u00e9rables.'"
+  ],
+  "graph_no_contradiction|0": [
+    "uncited claim-like sentence: 'Sebastian Stan did not have a role in a German miniseries ba'",
+    "uncited claim-like sentence: 'The Bee Gees were not producers of music based on the provid'",
+    "uncited claim-like sentence: 'The evidence provided does not directly support the claim th'",
+    "uncited claim-like sentence: 'The Prowler was created based on the information provided.'",
+    "uncited claim-like sentence: 'Noah Cyrus is indeed the youngest sister of Miley Cyrus.'",
+    "uncited claim-like sentence: 'Tom Baker is capable of having acting roles.'",
+    "uncited claim-like sentence: 'The information provided does not support the claim about Th'",
+    "uncited claim-like sentence: 'The claim that Shane McMahon won the European Championship o'",
+    "uncited claim-like sentence: 'The First Motion Picture Unit produced more than 401 films.'",
+    "uncited claim-like sentence: 'Victoria Palace Theatre is located in Victoria Street, which'",
+    "uncited claim-like sentence: 'The information provided indicates that Dreamer (2005 film) '",
+    "uncited claim-like sentence: 'The evidence indicates that Artpop sold approximately 757,00'",
+    "uncited claim-like sentence: 'Larry Wilmore is not the writer of Les Mis\u00e9rables.'"
+  ],
+  "graph_no_propagation|0": [
+    "uncited claim-like sentence: 'Sebastian Stan did not have a role in a German miniseries ba'",
+    "uncited claim-like sentence: 'The Bee Gees were not producers of music based on the provid'",
+    "uncited claim-like sentence: 'The evidence provided does not directly support the claim th'",
+    "uncited claim-like sentence: 'The Prowler was created based on the information provided.'",
+    "uncited claim-like sentence: 'Noah Cyrus is indeed the youngest sister of Miley Cyrus.'",
+    "uncited claim-like sentence: 'Tom Baker is capable of having acting roles.'",
+    "uncited claim-like sentence: 'The information provided does not support the claim about Th'",
+    "uncited claim-like sentence: 'The claim that Shane McMahon won the European Championship o'",
+    "uncited claim-like sentence: 'The First Motion Picture Unit produced more than 401 films.'",
+    "uncited claim-like sentence: 'Victoria Palace Theatre is located in Victoria Street, which'",
+    "uncited claim-like sentence: 'The information provided indicates that Dreamer (2005 film) '",
+    "uncited claim-like sentence: 'The evidence indicates that Artpop sold approximately 757,00'",
+    "uncited claim-like sentence: 'Larry Wilmore is not the writer of Les Mis\u00e9rables.'"
+  ],
+  "graph_no_temporal|0": [
+    "uncited claim-like sentence: 'Sebastian Stan did not have a role in a German miniseries ba'",
+    "uncited claim-like sentence: 'The Bee Gees were not producers of music based on the provid'",
+    "uncited claim-like sentence: 'The evidence provided does not directly support the claim th'",
+    "uncited claim-like sentence: 'The Prowler was created based on the information provided.'",
+    "uncited claim-like sentence: 'Noah Cyrus is indeed the youngest sister of Miley Cyrus.'",
+    "uncited claim-like sentence: 'Tom Baker is capable of having acting roles.'",
+    "uncited claim-like sentence: 'The information provided does not support the claim about Th'",
+    "uncited claim-like sentence: 'The claim that Shane McMahon won the European Championship o'",
+    "uncited claim-like sentence: 'The First Motion Picture Unit produced more than 401 films.'",
+    "uncited claim-like sentence: 'Victoria Palace Theatre is located in Victoria Street, which'",
+    "uncited claim-like sentence: 'The information provided indicates that Dreamer (2005 film) '",
+    "uncited claim-like sentence: 'The evidence indicates that Artpop sold approximately 757,00'",
+    "uncited claim-like sentence: 'Larry Wilmore is not the writer of Les Mis\u00e9rables.'"
+  ],
+  "graph_top_claim|0": [
+    "uncited claim-like sentence: 'Sebastian Stan did not have a role in a German miniseries ba'",
+    "uncited claim-like sentence: 'The Bee Gees were not producers of music based on the provid'",
+    "uncited claim-like sentence: 'Noah Cyrus is mentioned to be the younger sister of Miley Cy'",
+    "uncited claim-like sentence: 'The claim that Shane McMahon won the European Championship o'",
+    "uncited claim-like sentence: 'Victoria Palace Theatre is located in Victoria Street, which'",
+    "uncited claim-like sentence: 'The provided evidence does not directly state who wrote the '",
+    "uncited claim-like sentence: 'It mentions that John Gatins directed the film in his direct'",
+    "uncited claim-like sentence: 'The evidence indicates that Artpop sold approximately 258,00'"
+  ],
+  "graph_with_propagation|0": [
+    "uncited claim-like sentence: 'Sebastian Stan did not have a role in a German miniseries ba'",
+    "uncited claim-like sentence: 'The Bee Gees were not producers of music based on the provid'",
+    "uncited claim-like sentence: 'The evidence provided does not directly support the claim th'",
+    "uncited claim-like sentence: 'The Prowler was created based on the information provided.'",
+    "uncited claim-like sentence: 'Noah Cyrus is indeed the youngest sister of Miley Cyrus.'",
+    "uncited claim-like sentence: 'Tom Baker is capable of having acting roles.'",
+    "uncited claim-like sentence: 'The information provided does not support the claim about Th'",
+    "uncited claim-like sentence: 'The claim that Shane McMahon won the European Championship o'",
+    "uncited claim-like sentence: 'The First Motion Picture Unit produced more than 401 films.'",
+    "uncited claim-like sentence: 'Victoria Palace Theatre is located in Victoria Street, which'",
+    "uncited claim-like sentence: 'The information provided indicates that Dreamer (2005 film) '",
+    "uncited claim-like sentence: 'The evidence indicates that Artpop sold approximately 757,00'",
+    "uncited claim-like sentence: 'Larry Wilmore is not the writer of Les Mis\u00e9rables.'"
+  ],
+  "passage_rag|0": [
+    "uncited claim-like sentence: 'Sebastian Stan did not have a role in a German miniseries.'",
+    "uncited claim-like sentence: 'The provided evidence does not support the claim that Michig'",
+    "uncited claim-like sentence: \"The information provided about The Closer's ratings does not\"",
+    "uncited claim-like sentence: 'Shane McMahon did not win the European Championship in 1998.'"
+  ],
+  "reranked_passage_rag|0": [
+    "uncited claim-like sentence: 'Sebastian Stan did not have a role in a German miniseries.'",
+    "uncited claim-like sentence: 'The provided evidence does not support the claim that Michig'",
+    "uncited claim-like sentence: \"The information provided about The Closer's ratings does not\"",
+    "uncited claim-like sentence: 'Shane McMahon did not win the European Championship in 1998.'"
+  ]
+}

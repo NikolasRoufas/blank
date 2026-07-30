@@ -1,0 +1,1729 @@
+{
+  "per_seed": [
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 0.3055021367521367,
+        "citation_completeness": 0.5833333333333334,
+        "citation_precision": 0.6666666666666666,
+        "citation_recall": 0.625,
+        "contradiction_rate": 0.5833333333333334,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 0.9583333333333334,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 12346.368497577108,
+        "normalized_exact_match": 0.0,
+        "num_claims": 1.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 0.0,
+        "num_passages": 1.0,
+        "num_selected": 1.0,
+        "token_estimate": 36.416666666666664,
+        "token_f1": 0.036591478696741855,
+        "unsupported_claim_rate": 0.7916666666666666
+      },
+      "num_examples": 25,
+      "num_failed": 13,
+      "seed": 0,
+      "variant": "passage_rag",
+      "warnings": [
+        "uncited claim-like sentence: 'Sebastian Stan had a role in a miniseries, which could be th'",
+        "uncited claim-like sentence: 'The Bee Gees were not explicitly mentioned as producers of m'",
+        "uncited claim-like sentence: 'No, Buffy Summers does not appear in a movie based on the pr'",
+        "uncited claim-like sentence: 'was a computer game developer but there is no evidence to su'",
+        "uncited claim-like sentence: 'Michigan is a tourist destination, but it is not explicitly '",
+        "uncited claim-like sentence: 'The information about Shane McMahon winning the European Cha'",
+        "uncited claim-like sentence: 'The information provided does not support the claim that Fir'",
+        "uncited claim-like sentence: 'Victoria Palace Theatre is located on Victoria Street.'",
+        "uncited claim-like sentence: \"The statement that Kellogg's products are only manufactured \"",
+        "uncited claim-like sentence: 'Viola Davis has played a supporting role in a film.'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 0.3055021367521367,
+        "citation_completeness": 0.5833333333333334,
+        "citation_precision": 0.6666666666666666,
+        "citation_recall": 0.625,
+        "contradiction_rate": 0.5833333333333334,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 0.9583333333333334,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1378.241357684601,
+        "normalized_exact_match": 0.0,
+        "num_claims": 1.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 0.0,
+        "num_passages": 1.0,
+        "num_selected": 1.0,
+        "token_estimate": 36.416666666666664,
+        "token_f1": 0.036591478696741855,
+        "unsupported_claim_rate": 0.7916666666666666
+      },
+      "num_examples": 25,
+      "num_failed": 13,
+      "seed": 0,
+      "variant": "reranked_passage_rag",
+      "warnings": [
+        "uncited claim-like sentence: 'Sebastian Stan had a role in a miniseries, which could be th'",
+        "uncited claim-like sentence: 'The Bee Gees were not explicitly mentioned as producers of m'",
+        "uncited claim-like sentence: 'No, Buffy Summers does not appear in a movie based on the pr'",
+        "uncited claim-like sentence: 'was a computer game developer but there is no evidence to su'",
+        "uncited claim-like sentence: 'Michigan is a tourist destination, but it is not explicitly '",
+        "uncited claim-like sentence: 'The information about Shane McMahon winning the European Cha'",
+        "uncited claim-like sentence: 'The information provided does not support the claim that Fir'",
+        "uncited claim-like sentence: 'Victoria Palace Theatre is located on Victoria Street.'",
+        "uncited claim-like sentence: \"The statement that Kellogg's products are only manufactured \"",
+        "uncited claim-like sentence: 'Viola Davis has played a supporting role in a film.'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 0.5713586413586413,
+        "citation_completeness": 0.7,
+        "citation_precision": 0.75,
+        "citation_recall": 0.725,
+        "contradiction_rate": 0.25,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 0.975,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1407.5493868032936,
+        "normalized_exact_match": 0.0,
+        "num_claims": 1.75,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 0.0,
+        "num_passages": 1.0,
+        "num_selected": 1.75,
+        "token_estimate": 33.85,
+        "token_f1": 0.01907268170426065,
+        "unsupported_claim_rate": 0.4
+      },
+      "num_examples": 25,
+      "num_failed": 5,
+      "seed": 0,
+      "variant": "claim_only_rag",
+      "warnings": [
+        "uncited claim-like sentence: 'The Bee Gees were not explicitly mentioned as producers of m'",
+        "uncited claim-like sentence: 'No, Buffy Summers does not appear in a movie based on the pr'",
+        "uncited claim-like sentence: 'was a computer game developer founded in 1994.'",
+        "uncited claim-like sentence: 'Shane Black was born on December 16, 1961.'",
+        "uncited claim-like sentence: 'Michigan is a top destination for recreational fishing.'",
+        "uncited claim-like sentence: 'A Milli is by a person from the United States.'",
+        "uncited claim-like sentence: 'The Prowler was created by writer-editor Stan Lee and artist'",
+        "uncited claim-like sentence: 'Noah Cyrus is the youngest sister of Miley Cyrus.'",
+        "uncited claim-like sentence: 'Tom Baker is capable of having acting roles as he has perfor'",
+        "uncited claim-like sentence: 'The information about Shane McMahon winning the European Cha'",
+        "uncited claim-like sentence: 'The First Motion Picture Unit did not produce more than 401 '",
+        "uncited claim-like sentence: 'Victoria Palace Theatre is located on Victoria Street.'",
+        "uncited claim-like sentence: 'Dreamer (2005 film) was written by John Gatins.'",
+        "uncited claim-like sentence: \"Kellogg's holds a Royal Warrant from Queen Elizabeth II.\"",
+        "uncited claim-like sentence: 'Viola Davis has played supporting roles, such as in the 2008'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 0.3728935892538834,
+        "citation_completeness": 0.625,
+        "citation_precision": 0.6875,
+        "citation_recall": 0.65625,
+        "contradiction_rate": 0.5,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 0.96875,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1433.9590112358565,
+        "normalized_exact_match": 0.0,
+        "num_claims": 1.625,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 1.625,
+        "num_passages": 1.0,
+        "num_selected": 1.0,
+        "token_estimate": 27.3125,
+        "token_f1": 0.0416603004838299,
+        "unsupported_claim_rate": 0.625
+      },
+      "num_examples": 25,
+      "num_failed": 9,
+      "seed": 0,
+      "variant": "graph_no_propagation",
+      "warnings": [
+        "uncited claim-like sentence: 'The Bee Gees were not specifically known as producers of mus'",
+        "uncited claim-like sentence: 'No, Buffy Summers does not appear in a movie based on the pr'",
+        "uncited claim-like sentence: 'Michigan is a tourist destination, but there is no specific '",
+        "uncited claim-like sentence: 'A Milli is by a person from the United States.'",
+        "uncited claim-like sentence: 'Noah Cyrus is the youngest sister of Miley Cyrus.'",
+        "uncited claim-like sentence: 'The information provided does not specify if Shane McMahon w'",
+        "uncited claim-like sentence: 'The First Motion Picture Unit did not produce more than 401 '",
+        "uncited claim-like sentence: 'Victoria Palace Theatre is located on Victoria Street but it'",
+        "uncited claim-like sentence: 'Dreamer (2005 film) was written by John Gatins.'",
+        "uncited claim-like sentence: \"Kellogg's products are not only manufactured in one country.\"",
+        "uncited claim-like sentence: 'Larry Wilmore is not the writer of Les Miserables.'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 0.4641124871001032,
+        "citation_completeness": 0.7368421052631579,
+        "citation_precision": 0.7894736842105263,
+        "citation_recall": 0.7631578947368421,
+        "contradiction_rate": 0.42105263157894735,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 0.9736842105263158,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1611.9872936366223,
+        "normalized_exact_match": 0.0,
+        "num_claims": 1.6842105263157894,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 1.6842105263157894,
+        "num_passages": 1.0,
+        "num_selected": 1.6842105263157894,
+        "token_estimate": 36.473684210526315,
+        "token_f1": 0.03310372751467749,
+        "unsupported_claim_rate": 0.5263157894736842
+      },
+      "num_examples": 25,
+      "num_failed": 6,
+      "seed": 0,
+      "variant": "graph_top_claim",
+      "warnings": [
+        "uncited claim-like sentence: 'The Bee Gees were not specifically known as producers of mus'",
+        "uncited claim-like sentence: 'No, Buffy Summers does not appear in a movie based on the pr'",
+        "uncited claim-like sentence: 'Michigan is a tourist destination, but there is no specific '",
+        "uncited claim-like sentence: 'A Milli is by a person from the United States.'",
+        "uncited claim-like sentence: 'Noah Cyrus is the youngest sister of Miley Cyrus.'",
+        "uncited claim-like sentence: 'Tom Baker is capable of having acting roles as he has perfor'",
+        "uncited claim-like sentence: 'The information provided does not specify if Shane McMahon w'",
+        "uncited claim-like sentence: 'The information provided does not support the claim that Fir'",
+        "uncited claim-like sentence: 'Victoria Palace Theatre is located on Victoria Street but it'",
+        "uncited claim-like sentence: 'Dreamer (2005 film) was directed by John Gatins.'",
+        "uncited claim-like sentence: \"Kellogg's products are not only manufactured in one country.\"",
+        "uncited claim-like sentence: 'Larry Wilmore is not the writer of Les Miserables.'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 0.3728935892538834,
+        "citation_completeness": 0.625,
+        "citation_precision": 0.6875,
+        "citation_recall": 0.65625,
+        "contradiction_rate": 0.5,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 0.96875,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1460.5325294760405,
+        "normalized_exact_match": 0.0,
+        "num_claims": 1.625,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 1.625,
+        "num_passages": 1.0,
+        "num_selected": 1.0,
+        "token_estimate": 27.3125,
+        "token_f1": 0.0416603004838299,
+        "unsupported_claim_rate": 0.625
+      },
+      "num_examples": 25,
+      "num_failed": 9,
+      "seed": 0,
+      "variant": "graph_coherent_subgraph",
+      "warnings": [
+        "uncited claim-like sentence: 'The Bee Gees were not specifically known as producers of mus'",
+        "uncited claim-like sentence: 'No, Buffy Summers does not appear in a movie based on the pr'",
+        "uncited claim-like sentence: 'Michigan is a tourist destination, but there is no specific '",
+        "uncited claim-like sentence: 'A Milli is by a person from the United States.'",
+        "uncited claim-like sentence: 'Noah Cyrus is the youngest sister of Miley Cyrus.'",
+        "uncited claim-like sentence: 'The information provided does not specify if Shane McMahon w'",
+        "uncited claim-like sentence: 'The First Motion Picture Unit did not produce more than 401 '",
+        "uncited claim-like sentence: 'Victoria Palace Theatre is located on Victoria Street but it'",
+        "uncited claim-like sentence: 'Dreamer (2005 film) was written by John Gatins.'",
+        "uncited claim-like sentence: \"Kellogg's products are not only manufactured in one country.\"",
+        "uncited claim-like sentence: 'Larry Wilmore is not the writer of Les Miserables.'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 0.3728935892538834,
+        "citation_completeness": 0.625,
+        "citation_precision": 0.6875,
+        "citation_recall": 0.65625,
+        "contradiction_rate": 0.5,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 0.96875,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1459.9067161980201,
+        "normalized_exact_match": 0.0,
+        "num_claims": 1.625,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 1.625,
+        "num_passages": 1.0,
+        "num_selected": 1.0,
+        "token_estimate": 27.3125,
+        "token_f1": 0.0416603004838299,
+        "unsupported_claim_rate": 0.625
+      },
+      "num_examples": 25,
+      "num_failed": 9,
+      "seed": 0,
+      "variant": "graph_no_temporal",
+      "warnings": [
+        "uncited claim-like sentence: 'The Bee Gees were not specifically known as producers of mus'",
+        "uncited claim-like sentence: 'No, Buffy Summers does not appear in a movie based on the pr'",
+        "uncited claim-like sentence: 'Michigan is a tourist destination, but there is no specific '",
+        "uncited claim-like sentence: 'A Milli is by a person from the United States.'",
+        "uncited claim-like sentence: 'Noah Cyrus is the youngest sister of Miley Cyrus.'",
+        "uncited claim-like sentence: 'The information provided does not specify if Shane McMahon w'",
+        "uncited claim-like sentence: 'The First Motion Picture Unit did not produce more than 401 '",
+        "uncited claim-like sentence: 'Victoria Palace Theatre is located on Victoria Street but it'",
+        "uncited claim-like sentence: 'Dreamer (2005 film) was written by John Gatins.'",
+        "uncited claim-like sentence: \"Kellogg's products are not only manufactured in one country.\"",
+        "uncited claim-like sentence: 'Larry Wilmore is not the writer of Les Miserables.'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 0.3728935892538834,
+        "citation_completeness": 0.625,
+        "citation_precision": 0.6875,
+        "citation_recall": 0.65625,
+        "contradiction_rate": 0.5,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 0.96875,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1440.5781695022597,
+        "normalized_exact_match": 0.0,
+        "num_claims": 1.625,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 1.625,
+        "num_passages": 1.0,
+        "num_selected": 1.0,
+        "token_estimate": 27.3125,
+        "token_f1": 0.0416603004838299,
+        "unsupported_claim_rate": 0.625
+      },
+      "num_examples": 25,
+      "num_failed": 9,
+      "seed": 0,
+      "variant": "graph_no_contradiction",
+      "warnings": [
+        "uncited claim-like sentence: 'The Bee Gees were not specifically known as producers of mus'",
+        "uncited claim-like sentence: 'No, Buffy Summers does not appear in a movie based on the pr'",
+        "uncited claim-like sentence: 'Michigan is a tourist destination, but there is no specific '",
+        "uncited claim-like sentence: 'A Milli is by a person from the United States.'",
+        "uncited claim-like sentence: 'Noah Cyrus is the youngest sister of Miley Cyrus.'",
+        "uncited claim-like sentence: 'The information provided does not specify if Shane McMahon w'",
+        "uncited claim-like sentence: 'The First Motion Picture Unit did not produce more than 401 '",
+        "uncited claim-like sentence: 'Victoria Palace Theatre is located on Victoria Street but it'",
+        "uncited claim-like sentence: 'Dreamer (2005 film) was written by John Gatins.'",
+        "uncited claim-like sentence: \"Kellogg's products are not only manufactured in one country.\"",
+        "uncited claim-like sentence: 'Larry Wilmore is not the writer of Les Miserables.'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 0.3728935892538834,
+        "citation_completeness": 0.625,
+        "citation_precision": 0.6875,
+        "citation_recall": 0.65625,
+        "contradiction_rate": 0.5,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 0.96875,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1468.4811045590322,
+        "normalized_exact_match": 0.0,
+        "num_claims": 1.625,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 1.625,
+        "num_passages": 1.0,
+        "num_selected": 1.0,
+        "token_estimate": 27.3125,
+        "token_f1": 0.0416603004838299,
+        "unsupported_claim_rate": 0.625
+      },
+      "num_examples": 25,
+      "num_failed": 9,
+      "seed": 0,
+      "variant": "graph_with_propagation",
+      "warnings": [
+        "uncited claim-like sentence: 'The Bee Gees were not specifically known as producers of mus'",
+        "uncited claim-like sentence: 'No, Buffy Summers does not appear in a movie based on the pr'",
+        "uncited claim-like sentence: 'Michigan is a tourist destination, but there is no specific '",
+        "uncited claim-like sentence: 'A Milli is by a person from the United States.'",
+        "uncited claim-like sentence: 'Noah Cyrus is the youngest sister of Miley Cyrus.'",
+        "uncited claim-like sentence: 'The information provided does not specify if Shane McMahon w'",
+        "uncited claim-like sentence: 'The First Motion Picture Unit did not produce more than 401 '",
+        "uncited claim-like sentence: 'Victoria Palace Theatre is located on Victoria Street but it'",
+        "uncited claim-like sentence: 'Dreamer (2005 film) was written by John Gatins.'",
+        "uncited claim-like sentence: \"Kellogg's products are not only manufactured in one country.\"",
+        "uncited claim-like sentence: 'Larry Wilmore is not the writer of Les Miserables.'"
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 0.3728935892538834,
+        "citation_completeness": 0.625,
+        "citation_precision": 0.6875,
+        "citation_recall": 0.65625,
+        "contradiction_rate": 0.5,
+        "empty_prediction": 0.0,
+        "evidence_precision": 1.0,
+        "evidence_recall": 0.96875,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1453.4163524222095,
+        "normalized_exact_match": 0.0,
+        "num_claims": 1.625,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 1.625,
+        "num_passages": 1.0,
+        "num_selected": 1.0,
+        "token_estimate": 27.3125,
+        "token_f1": 0.0416603004838299,
+        "unsupported_claim_rate": 0.625
+      },
+      "num_examples": 25,
+      "num_failed": 9,
+      "seed": 0,
+      "variant": "full_egrag",
+      "warnings": [
+        "uncited claim-like sentence: 'The Bee Gees were not specifically known as producers of mus'",
+        "uncited claim-like sentence: 'No, Buffy Summers does not appear in a movie based on the pr'",
+        "uncited claim-like sentence: 'Michigan is a tourist destination, but there is no specific '",
+        "uncited claim-like sentence: 'A Milli is by a person from the United States.'",
+        "uncited claim-like sentence: 'Noah Cyrus is the youngest sister of Miley Cyrus.'",
+        "uncited claim-like sentence: 'The information provided does not specify if Shane McMahon w'",
+        "uncited claim-like sentence: 'The First Motion Picture Unit did not produce more than 401 '",
+        "uncited claim-like sentence: 'Victoria Palace Theatre is located on Victoria Street but it'",
+        "uncited claim-like sentence: 'Dreamer (2005 film) was written by John Gatins.'",
+        "uncited claim-like sentence: \"Kellogg's products are not only manufactured in one country.\"",
+        "uncited claim-like sentence: 'Larry Wilmore is not the writer of Les Miserables.'"
+      ]
+    }
+  ],
+  "seed_aggregated": {
+    "claim_only_rag": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 0.5713586413586413,
+        "median": 0.5713586413586413,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.7,
+        "median": 0.7,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 0.75,
+        "median": 0.75,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.725,
+        "median": 0.725,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.25,
+        "median": 0.25,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 0.975,
+        "median": 0.975,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 1407.5493868032936,
+        "median": 1407.5493868032936,
+        "std": 0.0
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 1.75,
+        "median": 1.75,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 1.75,
+        "median": 1.75,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 33.85,
+        "median": 33.85,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.01907268170426065,
+        "median": 0.01907268170426065,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.4,
+        "median": 0.4,
+        "std": 0.0
+      }
+    },
+    "full_egrag": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 0.3728935892538834,
+        "median": 0.3728935892538834,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.625,
+        "median": 0.625,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 0.6875,
+        "median": 0.6875,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.65625,
+        "median": 0.65625,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.5,
+        "median": 0.5,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 0.96875,
+        "median": 0.96875,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 1453.4163524222095,
+        "median": 1453.4163524222095,
+        "std": 0.0
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 1.625,
+        "median": 1.625,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 1.625,
+        "median": 1.625,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 27.3125,
+        "median": 27.3125,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.0416603004838299,
+        "median": 0.0416603004838299,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.625,
+        "median": 0.625,
+        "std": 0.0
+      }
+    },
+    "graph_coherent_subgraph": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 0.3728935892538834,
+        "median": 0.3728935892538834,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.625,
+        "median": 0.625,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 0.6875,
+        "median": 0.6875,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.65625,
+        "median": 0.65625,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.5,
+        "median": 0.5,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 0.96875,
+        "median": 0.96875,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 1460.5325294760405,
+        "median": 1460.5325294760405,
+        "std": 0.0
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 1.625,
+        "median": 1.625,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 1.625,
+        "median": 1.625,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 27.3125,
+        "median": 27.3125,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.0416603004838299,
+        "median": 0.0416603004838299,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.625,
+        "median": 0.625,
+        "std": 0.0
+      }
+    },
+    "graph_no_contradiction": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 0.3728935892538834,
+        "median": 0.3728935892538834,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.625,
+        "median": 0.625,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 0.6875,
+        "median": 0.6875,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.65625,
+        "median": 0.65625,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.5,
+        "median": 0.5,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 0.96875,
+        "median": 0.96875,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 1440.5781695022597,
+        "median": 1440.5781695022597,
+        "std": 0.0
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 1.625,
+        "median": 1.625,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 1.625,
+        "median": 1.625,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 27.3125,
+        "median": 27.3125,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.0416603004838299,
+        "median": 0.0416603004838299,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.625,
+        "median": 0.625,
+        "std": 0.0
+      }
+    },
+    "graph_no_propagation": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 0.3728935892538834,
+        "median": 0.3728935892538834,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.625,
+        "median": 0.625,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 0.6875,
+        "median": 0.6875,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.65625,
+        "median": 0.65625,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.5,
+        "median": 0.5,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 0.96875,
+        "median": 0.96875,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 1433.9590112358565,
+        "median": 1433.9590112358565,
+        "std": 0.0
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 1.625,
+        "median": 1.625,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 1.625,
+        "median": 1.625,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 27.3125,
+        "median": 27.3125,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.0416603004838299,
+        "median": 0.0416603004838299,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.625,
+        "median": 0.625,
+        "std": 0.0
+      }
+    },
+    "graph_no_temporal": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 0.3728935892538834,
+        "median": 0.3728935892538834,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.625,
+        "median": 0.625,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 0.6875,
+        "median": 0.6875,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.65625,
+        "median": 0.65625,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.5,
+        "median": 0.5,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 0.96875,
+        "median": 0.96875,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 1459.9067161980201,
+        "median": 1459.9067161980201,
+        "std": 0.0
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 1.625,
+        "median": 1.625,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 1.625,
+        "median": 1.625,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 27.3125,
+        "median": 27.3125,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.0416603004838299,
+        "median": 0.0416603004838299,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.625,
+        "median": 0.625,
+        "std": 0.0
+      }
+    },
+    "graph_top_claim": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 0.4641124871001032,
+        "median": 0.4641124871001032,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.7368421052631579,
+        "median": 0.7368421052631579,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 0.7894736842105263,
+        "median": 0.7894736842105263,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.7631578947368421,
+        "median": 0.7631578947368421,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.42105263157894735,
+        "median": 0.42105263157894735,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 0.9736842105263158,
+        "median": 0.9736842105263158,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 1611.9872936366223,
+        "median": 1611.9872936366223,
+        "std": 0.0
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 1.6842105263157894,
+        "median": 1.6842105263157894,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 1.6842105263157894,
+        "median": 1.6842105263157894,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 1.6842105263157894,
+        "median": 1.6842105263157894,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 36.473684210526315,
+        "median": 36.473684210526315,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.03310372751467749,
+        "median": 0.03310372751467749,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.5263157894736842,
+        "median": 0.5263157894736842,
+        "std": 0.0
+      }
+    },
+    "graph_with_propagation": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 0.3728935892538834,
+        "median": 0.3728935892538834,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.625,
+        "median": 0.625,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 0.6875,
+        "median": 0.6875,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.65625,
+        "median": 0.65625,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.5,
+        "median": 0.5,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 0.96875,
+        "median": 0.96875,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 1468.4811045590322,
+        "median": 1468.4811045590322,
+        "std": 0.0
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 1.625,
+        "median": 1.625,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 1.625,
+        "median": 1.625,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 27.3125,
+        "median": 27.3125,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.0416603004838299,
+        "median": 0.0416603004838299,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.625,
+        "median": 0.625,
+        "std": 0.0
+      }
+    },
+    "passage_rag": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 0.3055021367521367,
+        "median": 0.3055021367521367,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.5833333333333334,
+        "median": 0.5833333333333334,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 0.6666666666666666,
+        "median": 0.6666666666666666,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.625,
+        "median": 0.625,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.5833333333333334,
+        "median": 0.5833333333333334,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 0.9583333333333334,
+        "median": 0.9583333333333334,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 12346.368497577108,
+        "median": 12346.368497577108,
+        "std": 0.0
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 36.416666666666664,
+        "median": 36.416666666666664,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.036591478696741855,
+        "median": 0.036591478696741855,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.7916666666666666,
+        "median": 0.7916666666666666,
+        "std": 0.0
+      }
+    },
+    "reranked_passage_rag": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 0.3055021367521367,
+        "median": 0.3055021367521367,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.5833333333333334,
+        "median": 0.5833333333333334,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 0.6666666666666666,
+        "median": 0.6666666666666666,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.625,
+        "median": 0.625,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.5833333333333334,
+        "median": 0.5833333333333334,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 0.9583333333333334,
+        "median": 0.9583333333333334,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 1378.241357684601,
+        "median": 1378.241357684601,
+        "std": 0.0
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 36.416666666666664,
+        "median": 36.416666666666664,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.036591478696741855,
+        "median": 0.036591478696741855,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.7916666666666666,
+        "median": 0.7916666666666666,
+        "std": 0.0
+      }
+    }
+  }
+}
