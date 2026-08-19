@@ -41,4 +41,21 @@ def claim_entities(claim: AtomicClaim) -> set[str]:
     return set()
 
 
-__all__ = ["claim_entities", "jaccard", "normalize", "tokens"]
+def subject_predicate_compatible(a: AtomicClaim, b: AtomicClaim) -> bool:
+    """True when both claims have the same non-empty extracted subject.
+
+    Shared by candidate-pair generation (a pairing signal) and, optionally,
+    contradiction-edge materialization (a precondition): two claims that only
+    share an entity mention -- not the same subject -- are not necessarily
+    about the same proposition, and an NLI "contradiction" between them is not
+    evidence they disagree about anything.
+    """
+
+    if a.semantics is None or b.semantics is None:
+        return False
+    sa = (a.semantics.subject or "").casefold()
+    sb = (b.semantics.subject or "").casefold()
+    return bool(sa) and sa == sb
+
+
+__all__ = ["claim_entities", "jaccard", "normalize", "subject_predicate_compatible", "tokens"]

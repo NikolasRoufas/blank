@@ -13,7 +13,7 @@ from collections.abc import Sequence
 from dataclasses import dataclass
 
 from egrag.domain.models import AtomicClaim, Query
-from egrag.graph.text_utils import claim_entities, jaccard, tokens
+from egrag.graph.text_utils import claim_entities, jaccard, subject_predicate_compatible, tokens
 from egrag.graph.types import (
     CandidateConfig,
     CandidateStats,
@@ -28,14 +28,6 @@ class CandidateResult:
 
     pairs: list[ClaimPair]
     stats: CandidateStats
-
-
-def _subject_predicate_compatible(a: AtomicClaim, b: AtomicClaim) -> bool:
-    if a.semantics is None or b.semantics is None:
-        return False
-    sa = (a.semantics.subject or "").casefold()
-    sb = (b.semantics.subject or "").casefold()
-    return bool(sa) and sa == sb
 
 
 def _temporal_overlap(a: AtomicClaim, b: AtomicClaim) -> bool:
@@ -65,7 +57,7 @@ def _pair_reasons(
         and jaccard(tokens(a.text), tokens(b.text)) >= config.lexical_overlap_threshold
     ):
         reasons.append("lexical_overlap")
-    if config.use_subject_predicate and _subject_predicate_compatible(a, b):
+    if config.use_subject_predicate and subject_predicate_compatible(a, b):
         reasons.append("subject_predicate")
     if config.use_temporal_overlap and _temporal_overlap(a, b):
         reasons.append("temporal_overlap")

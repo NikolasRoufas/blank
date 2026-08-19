@@ -68,6 +68,13 @@ class ClassificationConfig(_Frozen):
     # Mutual entailment above this is treated as a semantic duplicate.
     duplicate_threshold: float = Field(default=0.8, ge=0.0, le=1.0)
     store_neutral: bool = False  # debugging only
+    # When True, a CONTRADICTION edge additionally requires the pair to share
+    # a non-empty extracted subject (graph.text_utils.subject_predicate_compatible).
+    # Default False preserves existing behavior exactly: an NLI contradiction
+    # score alone, regardless of whether the two claims are even about the same
+    # proposition, is enough to materialize the edge. Off by default so no
+    # existing variant/config changes; opt in per-run via ClassificationConfig.
+    contradiction_requires_shared_subject: bool = False
 
 
 class DuplicateConfig(_Frozen):

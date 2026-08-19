@@ -29,6 +29,7 @@ from egrag.graph.api import EvidenceGraph
 from egrag.graph.candidates import generate_candidates
 from egrag.graph.duplicates import detect_lexical_duplicates
 from egrag.graph.temporal import SupersessionEdge, SupersessionResolver
+from egrag.graph.text_utils import subject_predicate_compatible
 from egrag.graph.types import (
     CandidateConfig,
     CandidateStats,
@@ -113,6 +114,7 @@ class GraphBuilder:
             (pair.source.claim_id, pair.target.claim_id): prob
             for pair, prob in zip(candidates.pairs, probabilities, strict=True)
         }
+        claims_by_id = {c.claim_id: c for c in claim_list}
 
         unordered_keys = sorted(
             {_canonical(p.source.claim_id, p.target.claim_id) for p in candidates.pairs}
@@ -120,7 +122,7 @@ class GraphBuilder:
         for x, y in unordered_keys:
             if (x, y) in used:
                 continue
-            relations.extend(self._edges_for_pair(x, y, prob_by_pair))
+            relations.extend(self._edges_for_pair(x, y, prob_by_pair, claims_by_id))
 
         snapshot = EvidenceGraphSnapshot(
             snapshot_id=self._snapshot_id,
@@ -153,6 +155,7 @@ class GraphBuilder:
         x: str,
         y: str,
         prob_by_pair: dict[tuple[str, str], RelationProbabilities],
+        claims_by_id: dict[str, AtomicClaim],
     ) -> list[EvidenceRelation]:
         cfg = self._classification_config
         forward = prob_by_pair.get((x, y))
@@ -166,7 +169,10 @@ class GraphBuilder:
 
         if entail_xy >= cfg.duplicate_threshold and entail_yx >= cfg.duplicate_threshold:
             return [self._duplicate_relation(x, y, round(min(entail_xy, entail_yx), 6), "semantic")]
-        if contradiction >= cfg.contradiction_threshold:
+        if contradiction >= cfg.contradiction_threshold and (
+            not cfg.contradiction_requires_shared_subject
+            or subject_predicate_compatible(claims_by_id[x], claims_by_id[y])
+        ):
             return [self._contradiction_relation(x, y, round(contradiction, 6))]
 
         edges: list[EvidenceRelation] = []
