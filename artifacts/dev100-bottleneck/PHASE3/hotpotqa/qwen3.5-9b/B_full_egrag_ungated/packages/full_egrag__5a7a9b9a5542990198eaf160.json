@@ -1,0 +1,638 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 104
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-63da2a5cf856cd2a",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Zhu (musician)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Zhu (musician)",
+          "title": "Zhu (musician)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 218,
+            "source_id": "Zhu (musician)",
+            "start": 0,
+            "text": "Steven Zhu (born 1989), known professionally as Zhu ( or ), is a Chinese American electronic musician and singer who has been active since the beginning of 2014, signed to Mind of a Genius Records and Columbia Records."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Steven Zhu",
+          "Zhu",
+          "Chinese American",
+          "Mind",
+          "Genius Records",
+          "Columbia Records"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Steven Zhu",
+        "temporal_expressions": [
+          "1989",
+          "2014"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Steven Zhu (born 1989), known professionally as Zhu ( or ), is a Chinese American electronic musician and singer who has been active since the beginning of 2014, signed to Mind of a Genius Records and Columbia Records.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-4bb76fcb3039c4d4",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Skylar Spence::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Skylar Spence",
+          "title": "Skylar Spence",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 77,
+            "source_id": "Skylar Spence",
+            "start": 0,
+            "text": "Ryan DeRobertis (born February 2, 1993, known by his stage name Skylar Spence"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Ryan DeRobertis",
+          "Skylar Spence"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Ryan DeRobertis",
+        "temporal_expressions": [
+          "February 2, 1993"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Ryan DeRobertis (born February 2, 1993, known by his stage name Skylar Spence",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-4567c7b8c7bf1848",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Skylar Spence::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Skylar Spence",
+          "title": "Skylar Spence",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 147,
+            "source_id": "Skylar Spence",
+            "start": 82,
+            "text": "formerly known as Saint Pepsi) is an American electronic musician"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Saint Pepsi",
+          "American"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Saint Pepsi",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "formerly known as Saint Pepsi) is an American electronic musician",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-695da0b1c7a6e77b",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Skylar Spence::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Skylar Spence",
+          "title": "Skylar Spence",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 196,
+            "source_id": "Skylar Spence",
+            "start": 152,
+            "text": "singer who grew up in Farmingville, New York"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Farmingville",
+          "New York"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Farmingville",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "singer who grew up in Farmingville, New York",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-a2775cd7fc35a05e",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Skylar Spence::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Skylar Spence",
+          "title": "Skylar Spence",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 254,
+            "source_id": "Skylar Spence",
+            "start": 201,
+            "text": "attended Boston College for two years studying music."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Boston College"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Boston College",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "attended Boston College for two years studying music.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-2c6934389844848c",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Maniac Meat::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Maniac Meat",
+          "title": "Maniac Meat",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 79,
+            "source_id": "Maniac Meat",
+            "start": 0,
+            "text": "Maniac Meat is the second studio album by American electronic musician Tobacco."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Maniac Meat",
+          "American",
+          "Tobacco"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Maniac Meat",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Maniac Meat is the second studio album by American electronic musician Tobacco.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-76795a558db10cc4",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Far Side Virtual::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Far Side Virtual",
+          "title": "Far Side Virtual",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 163,
+            "source_id": "Far Side Virtual",
+            "start": 0,
+            "text": "Far Side Virtual is the thirtieth studio album by the American electronic musician James Ferraro, released on October 25, 2011 by the record label Hippos in Tanks."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Far Side Virtual",
+          "American",
+          "James Ferraro",
+          "Hippos",
+          "Tanks"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Far Side Virtual",
+        "temporal_expressions": [
+          "October 25, 2011"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Far Side Virtual is the thirtieth studio album by the American electronic musician James Ferraro, released on October 25, 2011 by the record label Hippos in Tanks.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-7ab33d7b450e51e3",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'these' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "These Hopeful Machines::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "These Hopeful Machines",
+          "title": "These Hopeful Machines",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 101,
+            "source_id": "These Hopeful Machines",
+            "start": 0,
+            "text": "These Hopeful Machines is the Grammy-nominated sixth studio album by American electronic musician BT."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Hopeful Machines",
+          "Grammy",
+          "American",
+          "BT"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "These",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "These Hopeful Machines is the Grammy-nominated sixth studio album by American electronic musician BT.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [
+    {
+      "claim_ids": [
+        "clm-2c6934389844848c",
+        "clm-4567c7b8c7bf1848",
+        "clm-76795a558db10cc4",
+        "clm-7ab33d7b450e51e3"
+      ],
+      "conflict_id": "conflict:0",
+      "members": [
+        {
+          "claim_id": "clm-2c6934389844848c",
+          "independent_support": 0,
+          "propagated_belief": 0.522899,
+          "relation_confidence": 0.989491,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-4567c7b8c7bf1848",
+          "independent_support": 0,
+          "propagated_belief": 0.447442,
+          "relation_confidence": 0.770239,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-76795a558db10cc4",
+          "independent_support": 0,
+          "propagated_belief": 0.46715,
+          "relation_confidence": 0.989491,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-7ab33d7b450e51e3",
+          "independent_support": 0,
+          "propagated_belief": 0.473426,
+          "relation_confidence": 0.987795,
+          "source_reliability": 0.5,
+          "timestamp": null
+        }
+      ],
+      "outcome": "unresolved",
+      "preferred_claim_id": null,
+      "relation_ids": [
+        "rel-59104a95d9e846d6",
+        "rel-74f5f6c8f861e45c",
+        "rel-85568333e236e55f",
+        "rel-b6b97a46e0b3afc8"
+      ],
+      "resolution_note": "top two competitors within margin 0.100 (0.523 vs 0.473)",
+      "resolved": false
+    }
+  ],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5a7a9b9a5542990198eaf160",
+    "text": "When was the Chinese American electronic musician and singer who collaborated on the album I Remember born?"
+  },
+  "relations": [
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.770239
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.770239,
+      "relation_id": "rel-85568333e236e55f",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-2c6934389844848c",
+      "target_claim_id": "clm-4567c7b8c7bf1848"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.989491
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.989491,
+      "relation_id": "rel-b6b97a46e0b3afc8",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-2c6934389844848c",
+      "target_claim_id": "clm-76795a558db10cc4"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.987795
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.987795,
+      "relation_id": "rel-59104a95d9e846d6",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-2c6934389844848c",
+      "target_claim_id": "clm-7ab33d7b450e51e3"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.987786
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.987786,
+      "relation_id": "rel-74f5f6c8f861e45c",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-76795a558db10cc4",
+      "target_claim_id": "clm-7ab33d7b450e51e3"
+    }
+  ],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.522899,
+      "claim_id": "clm-2c6934389844848c",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 0.881595,
+      "status": "disputed",
+      "utility": 0.358696
+    },
+    {
+      "belief": 0.46715,
+      "claim_id": "clm-76795a558db10cc4",
+      "rank": 1,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.805385,
+      "status": "disputed",
+      "utility": 0.338235
+    },
+    {
+      "belief": 0.473426,
+      "claim_id": "clm-7ab33d7b450e51e3",
+      "rank": 2,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.81958,
+      "status": "disputed",
+      "utility": 0.346154
+    },
+    {
+      "belief": 0.447442,
+      "claim_id": "clm-4567c7b8c7bf1848",
+      "rank": 3,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.762659,
+      "status": "disputed",
+      "utility": 0.315217
+    }
+  ],
+  "subgraph": null
+}

@@ -1,0 +1,222 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 55
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-958352b31fd3f9f2",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Taylor_Lautner::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Taylor_Lautner",
+          "title": "Taylor Lautner",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 228,
+            "source_id": "Taylor_Lautner",
+            "start": 180,
+            "text": "Cassidy Cascade , joining in the second series ."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Cassidy Cascade"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Cassidy Cascade",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Cassidy Cascade , joining in the second series .",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-a9f4f9113a67a0d6",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Taylor_Lautner::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Taylor_Lautner",
+          "title": "Taylor Lautner",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 179,
+            "source_id": "Taylor_Lautner",
+            "start": 103,
+            "text": "in 2016 joined the main cast of FOX black comedy series Scream Queens as Dr."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "FOX",
+          "Scream Queens",
+          "Dr"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "FOX",
+        "temporal_expressions": [
+          "2016"
+        ]
+      },
+      "source_reliability": null,
+      "text": "in 2016 joined the main cast of FOX black comedy series Scream Queens as Dr.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-e34d75517f251758",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Taylor_Lautner::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Taylor_Lautner",
+          "title": "Taylor Lautner",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 98,
+            "source_id": "Taylor_Lautner",
+            "start": 0,
+            "text": "Since 2013 , Lautner has starred in the BBC sitcom Cuckoo as the son of the titular main character"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Since",
+          "Lautner",
+          "BBC",
+          "Cuckoo"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Since",
+        "temporal_expressions": [
+          "2013"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Since 2013 , Lautner has starred in the BBC sitcom Cuckoo as the son of the titular main character",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "pkg-3aeb9f16715c4290653516e0d1753073",
+  "query": {
+    "created_at": null,
+    "query_id": "3aeb9f16715c4290653516e0d1753073",
+    "text": "Taylor Lautner appeared on television sitcoms."
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": null,
+      "claim_id": "clm-958352b31fd3f9f2",
+      "rank": 0,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-a9f4f9113a67a0d6",
+      "rank": 1,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-e34d75517f251758",
+      "rank": 2,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    }
+  ],
+  "subgraph": null
+}

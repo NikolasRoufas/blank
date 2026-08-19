@@ -1,0 +1,220 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 55
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-657ba554f64259e3",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Dan_O'Bannon::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Dan_O'Bannon",
+          "title": "Dan O'Bannon",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 235,
+            "source_id": "Dan_O'Bannon",
+            "start": 220,
+            "text": "horror genres ."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": null,
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "horror genres .",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-a539c7fec7dd8887",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Dan_O'Bannon::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Dan_O'Bannon",
+          "title": "Dan O'Bannon",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 215,
+            "source_id": "Dan_O'Bannon",
+            "start": 166,
+            "text": "occasional actor , usually in the science fiction"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": null,
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "occasional actor , usually in the science fiction",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-d45996a559747411",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Dan_O'Bannon::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Dan_O'Bannon",
+          "title": "Dan O'Bannon",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 161,
+            "source_id": "Dan_O'Bannon",
+            "start": 0,
+            "text": "Daniel Thomas `` Dan '' O'Bannon -LRB- September 30 , 1946 -- December 17 , 2009 -RRB- was an American film screenwriter , director , visual effects supervisor ,"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Daniel Thomas",
+          "Dan",
+          "O",
+          "Bannon",
+          "LRB",
+          "RRB",
+          "American"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Daniel Thomas",
+        "temporal_expressions": [
+          "September 30",
+          "1946",
+          "December 17",
+          "2009"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Daniel Thomas `` Dan '' O'Bannon -LRB- September 30 , 1946 -- December 17 , 2009 -RRB- was an American film screenwriter , director , visual effects supervisor ,",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "pkg-2dcd3545156cc0c86d92679ea674e7d2",
+  "query": {
+    "created_at": null,
+    "query_id": "2dcd3545156cc0c86d92679ea674e7d2",
+    "text": "Dan O'Bannon was Canadian."
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": null,
+      "claim_id": "clm-657ba554f64259e3",
+      "rank": 0,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-a539c7fec7dd8887",
+      "rank": 1,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-d45996a559747411",
+      "rank": 2,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    }
+  ],
+  "subgraph": null
+}

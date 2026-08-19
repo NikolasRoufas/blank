@@ -1,0 +1,671 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 30
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-e0bbc89af46c8450",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Demolinguistic descriptors used in Canada::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Demolinguistic descriptors used in Canada",
+          "title": "Demolinguistic descriptors used in Canada",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 67,
+            "source_id": "Demolinguistic descriptors used in Canada",
+            "start": 0,
+            "text": "A number of demolinguistic descriptors are used by Canadian federal"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Canadian"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Canadian",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "A number of demolinguistic descriptors are used by Canadian federal",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-e234306dcaae4bff",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Demolinguistic descriptors used in Canada::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Demolinguistic descriptors used in Canada",
+          "title": "Demolinguistic descriptors used in Canada",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 301,
+            "source_id": "Demolinguistic descriptors used in Canada",
+            "start": 72,
+            "text": "provincial government agencies, including Statistics Canada, the Commissioner of Official Languages, the Office qu\u00e9b\u00e9cois de la langue fran\u00e7aise to assist in accurately measuring the status of the country\u2019s two official languages"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Statistics Canada",
+          "Commissioner",
+          "Official Languages",
+          "Office"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Statistics Canada",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "provincial government agencies, including Statistics Canada, the Commissioner of Official Languages, the Office qu\u00e9b\u00e9cois de la langue fran\u00e7aise to assist in accurately measuring the status of the country\u2019s two official languages",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-5d4f94839fe06f04",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'its' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Demolinguistic descriptors used in Canada::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Demolinguistic descriptors used in Canada",
+          "title": "Demolinguistic descriptors used in Canada",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 338,
+            "source_id": "Demolinguistic descriptors used in Canada",
+            "start": 306,
+            "text": "its many non-official languages."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "its",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "its many non-official languages.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-ae28fa5e2e14c2ba",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'this' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Demolinguistic descriptors used in Canada::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Demolinguistic descriptors used in Canada",
+          "title": "Demolinguistic descriptors used in Canada",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 52,
+            "source_id": "Demolinguistic descriptors used in Canada",
+            "start": 0,
+            "text": "This page provides definitions of these descriptors,"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "This",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "This page provides definitions of these descriptors,",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-103f8d7da12a4ad8",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Demolinguistic descriptors used in Canada::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Demolinguistic descriptors used in Canada",
+          "title": "Demolinguistic descriptors used in Canada",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 75,
+            "source_id": "Demolinguistic descriptors used in Canada",
+            "start": 57,
+            "text": "also records where"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": null,
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "also records where",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-4f60749008eea587",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Demolinguistic descriptors used in Canada::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Demolinguistic descriptors used in Canada",
+          "title": "Demolinguistic descriptors used in Canada",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 125,
+            "source_id": "Demolinguistic descriptors used in Canada",
+            "start": 80,
+            "text": "for how long each descriptor has been in use."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": null,
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "for how long each descriptor has been in use.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-24837c2386e5c040",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Languages of Canada::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Languages of Canada",
+          "title": "Languages of Canada",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 65,
+            "source_id": "Languages of Canada",
+            "start": 0,
+            "text": "New Brunswick is the only Canadian province that has both English"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "New Brunswick",
+          "Canadian",
+          "English"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "New Brunswick",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "New Brunswick is the only Canadian province that has both English",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-f6c5ed635328a58a",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Languages of Canada::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Languages of Canada",
+          "title": "Languages of Canada",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 156,
+            "source_id": "Languages of Canada",
+            "start": 70,
+            "text": "French as its official languages to the same extent, with constitutional entrenchment."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "French"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "French",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "French as its official languages to the same extent, with constitutional entrenchment.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-f78a621adbd209e0",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Rissiana::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Rissiana",
+          "title": "Rissiana",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 75,
+            "source_id": "Rissiana",
+            "start": 0,
+            "text": "Rissiana is a village situated near Samundri, District Faisalabd, Pakistan."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Rissiana",
+          "Samundri",
+          "District Faisalabd",
+          "Pakistan"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Rissiana",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Rissiana is a village situated near Samundri, District Faisalabd, Pakistan.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-90a2a19adf937ac8",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Rissiana::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Rissiana",
+          "title": "Rissiana",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 39,
+            "source_id": "Rissiana",
+            "start": 0,
+            "text": "Rissiana used to be called \"Case Garh,\""
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Rissiana",
+          "Case Garh"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Rissiana",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Rissiana used to be called \"Case Garh,\"",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-39b21e58c0465007",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'this' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Rissiana::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Rissiana",
+          "title": "Rissiana",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 95,
+            "source_id": "Rissiana",
+            "start": 44,
+            "text": "this name is still used in many official documents."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "this",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "this name is still used in many official documents.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [
+    {
+      "claim_ids": [
+        "clm-5d4f94839fe06f04",
+        "clm-f6c5ed635328a58a"
+      ],
+      "conflict_id": "conflict:0",
+      "members": [
+        {
+          "claim_id": "clm-5d4f94839fe06f04",
+          "independent_support": 0,
+          "propagated_belief": 0.497417,
+          "relation_confidence": 0.980095,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-f6c5ed635328a58a",
+          "independent_support": 0,
+          "propagated_belief": 0.449563,
+          "relation_confidence": 0.980095,
+          "source_reliability": 0.5,
+          "timestamp": null
+        }
+      ],
+      "outcome": "unresolved",
+      "preferred_claim_id": null,
+      "relation_ids": [
+        "rel-2b124a515ca134be"
+      ],
+      "resolution_note": "top two competitors within margin 0.100 (0.497 vs 0.450)",
+      "resolved": false
+    }
+  ],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5ab674ee5542995eadeefff2",
+    "text": "Hivange is a village in a country that has how many official languages ?"
+  },
+  "relations": [
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.980095
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.980095,
+      "relation_id": "rel-2b124a515ca134be",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-5d4f94839fe06f04",
+      "target_claim_id": "clm-f6c5ed635328a58a"
+    }
+  ],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.497417,
+      "claim_id": "clm-5d4f94839fe06f04",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 0.85456,
+      "status": "disputed",
+      "utility": 0.357143
+    },
+    {
+      "belief": 0.449563,
+      "claim_id": "clm-f6c5ed635328a58a",
+      "rank": 1,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.745018,
+      "status": "disputed",
+      "utility": 0.295455
+    }
+  ],
+  "subgraph": null
+}

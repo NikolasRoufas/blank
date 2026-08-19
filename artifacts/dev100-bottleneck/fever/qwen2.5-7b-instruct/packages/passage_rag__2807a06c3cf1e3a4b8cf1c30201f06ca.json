@@ -1,0 +1,75 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 56
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "Kellyanne_Conway::p0",
+      "extraction": null,
+      "extraction_confidence": 1.0,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Kellyanne_Conway::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Kellyanne_Conway",
+          "title": "Kellyanne Conway",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 226,
+            "source_id": "Kellyanne_Conway",
+            "start": 0,
+            "text": "In 2016 , Conway endorsed Ted Cruz in the Republican presidential primaries and chaired a pro-Cruz political action committee , Keep the Promise I , which ran advertisements critical of then Republican candidate Donald Trump ."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": null,
+      "source_reliability": null,
+      "text": "In 2016 , Conway endorsed Ted Cruz in the Republican presidential primaries and chaired a pro-Cruz political action committee , Keep the Promise I , which ran advertisements critical of then Republican candidate Donald Trump .",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "pkg-2807a06c3cf1e3a4b8cf1c30201f06ca",
+  "query": {
+    "created_at": null,
+    "query_id": "2807a06c3cf1e3a4b8cf1c30201f06ca",
+    "text": "Kellyanne Conway publicly endorsed Melania Trump."
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": null,
+      "claim_id": "Kellyanne_Conway::p0",
+      "rank": 0,
+      "reason": null,
+      "selection_score": 1.0,
+      "status": "accepted",
+      "utility": null
+    }
+  ],
+  "subgraph": null
+}

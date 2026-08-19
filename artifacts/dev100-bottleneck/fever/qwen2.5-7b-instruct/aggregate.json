@@ -1,0 +1,1046 @@
+{
+  "per_seed": [
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 0.28263558663558663,
+        "citation_completeness": 0.6,
+        "citation_precision": 0.6285714285714286,
+        "citation_recall": 0.6142857142857143,
+        "contradiction_rate": 0.5428571428571428,
+        "empty_prediction": 0.0,
+        "evidence_precision": 0.9428571428571428,
+        "evidence_recall": 0.9285714285714286,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1350.069700637167,
+        "normalized_exact_match": 0.0,
+        "num_claims": 0.9428571428571428,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 0.0,
+        "num_passages": 0.9428571428571428,
+        "num_selected": 0.9428571428571428,
+        "token_estimate": 35.42857142857143,
+        "token_f1": 0.05389321450577532,
+        "unsupported_claim_rate": 0.7571428571428571
+      },
+      "num_examples": 100,
+      "num_failed": 65,
+      "seed": 0,
+      "variant": "passage_rag",
+      "warnings": [
+        "uncited claim-like sentence: 'Viola Davis has played a supporting role in a film.'",
+        "uncited claim-like sentence: 'No, Ron Weasley is not a member of the United States Marines'",
+        "uncited claim-like sentence: 'was a computer game developer but there is no evidence to su'",
+        "uncited claim-like sentence: 'The information provided does not support the claim that Fir'",
+        "uncited claim-like sentence: 'No, Kellyanne Conway did not publicly endorse Melania Trump.'",
+        "uncited claim-like sentence: 'Danny Brown is capable of being a musician.'",
+        "uncited claim-like sentence: 'The information provided does not specify whether part of Hi'",
+        "uncited claim-like sentence: 'Sebastian Stan had a role in a miniseries, which could be th'",
+        "uncited claim-like sentence: \"The statement 'A monster is American' is not supported by th\"",
+        "uncited claim-like sentence: 'Aunt May is a fictional character that often plays a promine'",
+        "uncited claim-like sentence: 'Marjorie Gross did not write for German talk shows.'",
+        "uncited claim-like sentence: 'Invasion literature, although once influential in Britain fo'",
+        "uncited claim-like sentence: 'The Bee Gees were not explicitly mentioned as producers of m'",
+        "uncited claim-like sentence: 'Thomas Jefferson helped to organize a political party.'",
+        "uncited claim-like sentence: 'Michaela Watkins is an actress and comedian, but not a singe'",
+        "uncited claim-like sentence: 'Michigan is a tourist destination, but it is not explicitly '",
+        "uncited claim-like sentence: 'No, Buffy Summers does not appear in a movie based on the pr'",
+        "uncited claim-like sentence: 'The information about Shane McMahon winning the European Cha'",
+        "uncited claim-like sentence: 'The information provided does not support the claim that Jam'",
+        "uncited claim-like sentence: 'The statement that Michelin Guides are published by George L'",
+        "uncited claim-like sentence: 'No, Same Old Love is not only a book.'",
+        "uncited claim-like sentence: 'The information provided does not support the claim about Ma'",
+        "uncited claim-like sentence: 'Star Trek: Discovery is not part of the Star Wars media fran'",
+        "uncited claim-like sentence: 'Victoria Palace Theatre is located on Victoria Street.'",
+        "uncited claim-like sentence: 'The information provided does not support the claim about La'",
+        "uncited claim-like sentence: \"The statement that Kellogg's products are only manufactured \"",
+        "uncited claim-like sentence: \"The statement 'The horse was called a Eohippus when it had m\""
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 0.5282347912715787,
+        "citation_completeness": 0.788235294117647,
+        "citation_precision": 0.8470588235294118,
+        "citation_recall": 0.8176470588235294,
+        "contradiction_rate": 0.29411764705882354,
+        "empty_prediction": 0.0,
+        "evidence_precision": 0.9647058823529412,
+        "evidence_recall": 0.9588235294117647,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1377.365830524222,
+        "normalized_exact_match": 0.0,
+        "num_claims": 1.7529411764705882,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 0.0,
+        "num_passages": 1.035294117647059,
+        "num_selected": 1.7529411764705882,
+        "token_estimate": 37.22352941176471,
+        "token_f1": 0.02068359502251325,
+        "unsupported_claim_rate": 0.37450980392156863
+      },
+      "num_examples": 100,
+      "num_failed": 15,
+      "seed": 0,
+      "variant": "claim_only_rag",
+      "warnings": [
+        "uncited claim-like sentence: 'Viola Davis has played supporting roles, such as in the 2008'",
+        "uncited claim-like sentence: 'Ray Winstone stars in Henry VIII (TV serial).'",
+        "uncited claim-like sentence: 'Ron Weasley is not a member of the United States Marines.'",
+        "uncited claim-like sentence: \"DJ Quik's maiden name is David Marvin Blake.\"",
+        "uncited claim-like sentence: 'Fist of Legend is a remake of Fist of Fury.'",
+        "uncited claim-like sentence: 'Kleshas are not explicitly described as mental games in the '",
+        "uncited claim-like sentence: 'Tinker Tailor Soldier Spy is a motion picture.'",
+        "uncited claim-like sentence: 'was a computer game developer founded in 1994.'",
+        "uncited claim-like sentence: 'A Milli is by a person from the United States.'",
+        "uncited claim-like sentence: 'The First Motion Picture Unit did not produce more than 401 '",
+        "uncited claim-like sentence: 'Francis I of France reigned from August 30, 1515 until his d'",
+        "uncited claim-like sentence: 'Victoria (Dance Exponents song) was a single released in 198'",
+        "uncited claim-like sentence: 'Noah Cyrus is the youngest sister of Miley Cyrus.'",
+        "uncited claim-like sentence: 'Sim\u00f3n Jos\u00e9 Antonio de la Sant\u00edsima Trinidad Bol\u00edvar y Palaci'",
+        "uncited claim-like sentence: 'Taylor Lautner appeared on the BBC sitcom Cuckoo.'",
+        "uncited claim-like sentence: 'Danny Brown is not incapable of being a musician.'",
+        "uncited claim-like sentence: 'The Endless River is the fifteenth studio album of Pink Floy'",
+        "uncited claim-like sentence: 'Buffy Summers appears in both a television series and a film'",
+        "uncited claim-like sentence: 'Flaked was renewed for a six episode season, premiering in J'",
+        "uncited claim-like sentence: 'A monk practices a lifestyle characterized by abstinence fro'",
+        "uncited claim-like sentence: 'The information provided does not specify whether part of Hi'",
+        "uncited claim-like sentence: 'The CONCACAF Champions League is organized for football club'",
+        "uncited claim-like sentence: 'Mikhail Lazarev was the commander of the sloop Mirny.'",
+        "uncited claim-like sentence: 'The Prowler was created by writer-editor Stan Lee and artist'",
+        "uncited claim-like sentence: 'Aunt May is a fictional character that has appeared in most '",
+        "uncited claim-like sentence: 'Mohra got Filmfare nominations for Best Director and Best Ac'",
+        "uncited claim-like sentence: 'Marjorie Gross did not write for German talk shows.'",
+        "uncited claim-like sentence: 'Drake Bell released an extended play in 2011.'",
+        "uncited claim-like sentence: 'Invasion literature has not slipped into obscurity in recent'",
+        "uncited claim-like sentence: 'The Bee Gees were not explicitly mentioned as producers of m'",
+        "uncited claim-like sentence: 'Heavy Metal music developed in the late 1960s, with signific'",
+        "uncited claim-like sentence: 'Thomas Jefferson helped to organize a political party.'",
+        "uncited claim-like sentence: 'Tom Baker is capable of having acting roles as he has perfor'",
+        "uncited claim-like sentence: 'Michaela Watkins is an American actress and comedian, but no'",
+        "uncited claim-like sentence: 'Dreamer (2005 film) was written by John Gatins.'",
+        "uncited claim-like sentence: 'Michigan is a top destination for recreational fishing.'",
+        "uncited claim-like sentence: 'No, Buffy Summers does not appear in a movie based on the pr'",
+        "uncited claim-like sentence: 'Shane Black was born on December 16, 1961.'",
+        "uncited claim-like sentence: 'Global warming is expected to shrink permafrost areas.'",
+        "uncited claim-like sentence: 'The information about Shane McMahon winning the European Cha'",
+        "uncited claim-like sentence: 'Eddie Murphy, who starred in The Adventures of Pluto Nash, d'",
+        "uncited claim-like sentence: 'The information provided does not support the claim that Jam'",
+        "uncited claim-like sentence: 'Lost (TV series) is not a series of plays.'",
+        "uncited claim-like sentence: '$873 million was grossed by the Saw franchise.'",
+        "uncited claim-like sentence: 'The statement that Michelin Guides are published by George L'",
+        "uncited claim-like sentence: 'Michelin publishes a series of general guides to countries.'",
+        "uncited claim-like sentence: 'The information provided does not support the claim about Ma'",
+        "uncited claim-like sentence: 'Buffy Summers has been portrayed by actresses, including Kri'",
+        "uncited claim-like sentence: 'Heavy Metal music was developed in the United Kingdom and th'",
+        "uncited claim-like sentence: 'A Milli is a song by someone born in 1982.'",
+        "uncited claim-like sentence: 'Star Trek: Discovery is not part of the Star Wars media fran'",
+        "uncited claim-like sentence: 'Victoria Palace Theatre is located on Victoria Street.'",
+        "uncited claim-like sentence: 'Gal Gadot was ranked ahead of Esti Ginzburgh for highest ear'",
+        "uncited claim-like sentence: 'The information provided does not support the claim that Lar'",
+        "uncited claim-like sentence: \"Kellogg's holds a Royal Warrant from Queen Elizabeth II.\""
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 0.48712718443202746,
+        "citation_completeness": 0.7857142857142857,
+        "citation_precision": 0.8214285714285714,
+        "citation_recall": 0.8035714285714286,
+        "contradiction_rate": 0.3333333333333333,
+        "empty_prediction": 0.0,
+        "evidence_precision": 0.9642857142857143,
+        "evidence_recall": 0.9583333333333334,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1484.3216360244523,
+        "normalized_exact_match": 0.0,
+        "num_claims": 1.7380952380952381,
+        "num_graph_edges": 0.08333333333333333,
+        "num_graph_nodes": 1.7380952380952381,
+        "num_passages": 1.0357142857142858,
+        "num_selected": 1.7380952380952381,
+        "token_estimate": 38.964285714285715,
+        "token_f1": 0.023396704201657764,
+        "unsupported_claim_rate": 0.47619047619047616
+      },
+      "num_examples": 100,
+      "num_failed": 16,
+      "seed": 0,
+      "variant": "graph_top_claim",
+      "warnings": [
+        "uncited claim-like sentence: 'Ray Winstone stars in Henry VIII (TV serial).'",
+        "uncited claim-like sentence: 'There is no evidence to support the claim that Ron Weasley i'",
+        "uncited claim-like sentence: \"DJ Quik's full name is David Marvin Blake.\"",
+        "uncited claim-like sentence: 'Fist of Legend is a remake of Fist of Fury.'",
+        "uncited claim-like sentence: 'Kleshas are not explicitly described as mental games in the '",
+        "uncited claim-like sentence: 'The Battle of France in 1933 is not also known as the Fall o'",
+        "uncited claim-like sentence: 'Tinker Tailor Soldier Spy is a motion picture.'",
+        "uncited claim-like sentence: 'A Milli is by a person from the United States.'",
+        "uncited claim-like sentence: 'The information provided does not support the claim that Fir'",
+        "uncited claim-like sentence: 'Francis I of France reigned from August 30, 1515 until his d'",
+        "uncited claim-like sentence: 'Larry Wilmore is not the writer of Les Miserables.'",
+        "uncited claim-like sentence: 'Noah Cyrus is the youngest sister of Miley Cyrus.'",
+        "uncited claim-like sentence: 'Sim\u00f3n Jos\u00e9 Antonio de la Sant\u00edsima Trinidad Bol\u00edvar y Palaci'",
+        "uncited claim-like sentence: 'Kellyanne Conway did not publicly endorse Melania Trump.'",
+        "uncited claim-like sentence: 'Taylor Lautner appeared on television sitcoms including Cuck'",
+        "uncited claim-like sentence: 'Danny Brown is capable of being a musician.'",
+        "uncited claim-like sentence: 'The Endless River is the fifteenth studio album by the Engli'",
+        "unresolved conflicts are present but the answer expresses no uncertainty",
+        "uncited claim-like sentence: 'Buffy Summers appears in both a film and a television series'",
+        "uncited claim-like sentence: 'Flaked was renewed for a six episode season, premiering in J'",
+        "uncited claim-like sentence: 'A monk practices a lifestyle characterized by abstinence fro'",
+        "uncited claim-like sentence: 'The information provided does not specify whether part of Hi'",
+        "uncited claim-like sentence: 'The CONCACAF Champions League is organized for football club'",
+        "uncited claim-like sentence: 'Mikhail Lazarev was the commander of the sloop Mirny.'",
+        "uncited claim-like sentence: 'Aunt May is a fictional character that has appeared in most '",
+        "uncited claim-like sentence: 'Marjorie Gross did not write for German talk shows.'",
+        "uncited claim-like sentence: 'Drake Bell released an extended play in 2011.'",
+        "uncited claim-like sentence: 'Invasion literature has not fully slipped into obscurity in '",
+        "uncited claim-like sentence: 'The Bee Gees were not specifically known as producers of mus'",
+        "uncited claim-like sentence: 'Heavy Metal music developed in the late 1960s, with signific'",
+        "uncited claim-like sentence: 'Thomas Jefferson helped to organize a political party.'",
+        "uncited claim-like sentence: 'Tom Baker is capable of having acting roles as he has perfor'",
+        "uncited claim-like sentence: 'Michaela Watkins is an American actress and comedian, but no'",
+        "uncited claim-like sentence: 'Dreamer (2005 film) was directed by John Gatins.'",
+        "uncited claim-like sentence: 'Michigan is a tourist destination, but there is no specific '",
+        "uncited claim-like sentence: 'No, Buffy Summers does not appear in a movie based on the pr'",
+        "uncited claim-like sentence: 'Global warming is expected to shrink permafrost areas.'",
+        "uncited claim-like sentence: 'The information provided does not specify if Shane McMahon w'",
+        "uncited claim-like sentence: 'Eddie Murphy, who starred in The Adventures of Pluto Nash, d'",
+        "uncited claim-like sentence: 'The information provided does not support the claim that Jam'",
+        "uncited claim-like sentence: 'No, Lost (TV series) is not a series of plays.'",
+        "uncited claim-like sentence: 'The Saw franchise grossed over $873 million at the box offic'",
+        "uncited claim-like sentence: 'The statement that Michelin Guides are published by George L'",
+        "uncited claim-like sentence: 'The information provided does not support the claim about Ma'",
+        "uncited claim-like sentence: 'Heavy Metal music developed in the late 1960s, with early in'",
+        "uncited claim-like sentence: 'A Milli is a song by someone born in 1982.'",
+        "uncited claim-like sentence: 'Victoria Palace Theatre is located on Victoria Street but it'",
+        "uncited claim-like sentence: 'Gal Gadot was ranked behind Esti Ginzburg (not Esti Ginzburg'",
+        "uncited claim-like sentence: \"There is no information provided about Larry Wilmore's relig\"",
+        "uncited claim-like sentence: \"Kellogg's products are not only manufactured in one country.\"",
+        "uncited claim-like sentence: \"The statement 'The horse was called a Eohippus when it had m\""
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 0.44830572797922474,
+        "citation_completeness": 0.75,
+        "citation_precision": 0.8157894736842105,
+        "citation_recall": 0.7828947368421053,
+        "contradiction_rate": 0.3815789473684211,
+        "empty_prediction": 0.0,
+        "evidence_precision": 0.9605263157894737,
+        "evidence_recall": 0.9276315789473685,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1276.8149026286617,
+        "normalized_exact_match": 0.0,
+        "num_claims": 1.6973684210526316,
+        "num_graph_edges": 0.013157894736842105,
+        "num_graph_nodes": 1.6973684210526316,
+        "num_passages": 1.0394736842105263,
+        "num_selected": 0.9736842105263158,
+        "token_estimate": 25.842105263157894,
+        "token_f1": 0.03006149122635191,
+        "unsupported_claim_rate": 0.5197368421052632
+      },
+      "num_examples": 100,
+      "num_failed": 24,
+      "seed": 0,
+      "variant": "graph_no_contradiction",
+      "warnings": [
+        "uncited claim-like sentence: 'Ray Winstone stars in Henry VIII (TV serial).'",
+        "uncited claim-like sentence: 'Ron Weasley is not a member of the United States Marines.'",
+        "uncited claim-like sentence: \"DJ Quik's maiden name is David Marvin Blake.\"",
+        "uncited claim-like sentence: 'Fist of Legend is a remake of Fist of Fury.'",
+        "uncited claim-like sentence: 'Kleshas are considered the roots of samsaric existence in Bu'",
+        "uncited claim-like sentence: 'Tinker Tailor Soldier Spy is a motion picture.'",
+        "uncited claim-like sentence: 'A Milli is by a person from the United States.'",
+        "uncited claim-like sentence: 'The First Motion Picture Unit did not produce more than 401 '",
+        "uncited claim-like sentence: 'Francis I of France reigned from August 30, 1515 until his d'",
+        "uncited claim-like sentence: 'The information provided does not support the claim that Vic'",
+        "uncited claim-like sentence: \"The evidence suggests that 'Victoria' is a song by The Expon\"",
+        "uncited claim-like sentence: 'Larry Wilmore is not the writer of Les Miserables.'",
+        "uncited claim-like sentence: 'Noah Cyrus is the youngest sister of Miley Cyrus.'",
+        "uncited claim-like sentence: 'Sim\u00f3n Jos\u00e9 Antonio de la Sant\u00edsima Trinidad Bol\u00edvar y Palaci'",
+        "uncited claim-like sentence: 'The Endless River is the fifteenth studio album of Pink Floy'",
+        "uncited claim-like sentence: 'Flaked was renewed for a six episode season, premiering in J'",
+        "uncited claim-like sentence: \"A monk's lifestyle is characterized by abstinence from world\"",
+        "uncited claim-like sentence: 'The information provided does not specify whether part of Hi'",
+        "uncited claim-like sentence: 'No, the CONCACAF Champions League is not organized for footb'",
+        "uncited claim-like sentence: 'Mikhail Lazarev was not the commander of the Mirny; instead,'",
+        "uncited claim-like sentence: 'Aunt May is a fictional character that has appeared in most '",
+        "uncited claim-like sentence: 'Mohra got a Filmfare nomination for Best Supporting Actress.'",
+        "uncited claim-like sentence: 'Marjorie Gross did not write for German talk shows.'",
+        "uncited claim-like sentence: 'Drake Bell released an extended play in 2011.'",
+        "uncited claim-like sentence: 'Invasion literature has slipped into obscurity in recent yea'",
+        "uncited claim-like sentence: 'The Bee Gees were not specifically known as producers of mus'",
+        "uncited claim-like sentence: 'Heavy Metal music developed in the late 1960s.'",
+        "uncited claim-like sentence: 'Thomas Jefferson helped to organize a political party.'",
+        "uncited claim-like sentence: 'Michaela Watkins is an American actress and comedian, but no'",
+        "uncited claim-like sentence: 'Dreamer (2005 film) was written by John Gatins.'",
+        "uncited claim-like sentence: 'The Sterile Cuckoo was directed by Alan J.'",
+        "uncited claim-like sentence: ', who is not specified to be Catholic.'",
+        "uncited claim-like sentence: 'Michigan is a tourist destination, but there is no specific '",
+        "uncited claim-like sentence: 'No, Buffy Summers does not appear in a movie based on the pr'",
+        "uncited claim-like sentence: 'Global warming is expected to shrink permafrost areas.'",
+        "uncited claim-like sentence: 'The information provided does not specify if Shane McMahon w'",
+        "uncited claim-like sentence: 'Eddie Murphy, who starred in The Adventures of Pluto Nash, d'",
+        "uncited claim-like sentence: 'The information provided does not support the claim that Jam'",
+        "uncited claim-like sentence: 'No, Lost (TV series) is not a series of plays.'",
+        "uncited claim-like sentence: 'The Saw franchise grossed over $873 million at the box offic'",
+        "uncited claim-like sentence: 'The statement that Michelin Guides are published by George L'",
+        "uncited claim-like sentence: 'The information provided does not support the claim about Ma'",
+        "uncited claim-like sentence: 'Buffy Summers has been portrayed by an actress.'",
+        "uncited claim-like sentence: 'Heavy Metal music was developed in the early 1970s, largely '",
+        "uncited claim-like sentence: 'Ed Wood was not the film itself but rather a person associat'",
+        "uncited claim-like sentence: 'Victoria Palace Theatre is located on Victoria Street but it'",
+        "uncited claim-like sentence: 'Gal Gadot was ranked behind Esti Ginzburgh for highest earni'",
+        "uncited claim-like sentence: 'Hot Right Now is a single by British drum'",
+        "uncited claim-like sentence: 'The information provided does not support the claim that Lar'",
+        "uncited claim-like sentence: \"Kellogg's products are not only manufactured in one country.\"",
+        "uncited claim-like sentence: \"The statement 'The horse was called a Eohippus when it had m\""
+      ]
+    },
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 0.44455427006201,
+        "citation_completeness": 0.7333333333333333,
+        "citation_precision": 0.8,
+        "citation_recall": 0.7666666666666667,
+        "contradiction_rate": 0.38666666666666666,
+        "empty_prediction": 0.0,
+        "evidence_precision": 0.96,
+        "evidence_recall": 0.9266666666666666,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 1330.0833337241784,
+        "normalized_exact_match": 0.0,
+        "num_claims": 1.6666666666666667,
+        "num_graph_edges": 0.09333333333333334,
+        "num_graph_nodes": 1.6666666666666667,
+        "num_passages": 1.04,
+        "num_selected": 1.0266666666666666,
+        "token_estimate": 27.066666666666666,
+        "token_f1": 0.02824008888714771,
+        "unsupported_claim_rate": 0.54
+      },
+      "num_examples": 100,
+      "num_failed": 25,
+      "seed": 0,
+      "variant": "full_egrag",
+      "warnings": [
+        "uncited claim-like sentence: 'Ray Winstone stars in Henry VIII (TV serial).'",
+        "uncited claim-like sentence: 'There is no evidence to support the claim that Ron Weasley i'",
+        "uncited claim-like sentence: \"DJ Quik's maiden name is David Marvin Blake.\"",
+        "uncited claim-like sentence: 'Fist of Legend is a remake of Fist of Fury.'",
+        "uncited claim-like sentence: 'Kleshas are considered the roots of samsaric existence in Bu'",
+        "uncited claim-like sentence: 'Tinker Tailor Soldier Spy is a motion picture.'",
+        "uncited claim-like sentence: 'A Milli is by a person from the United States.'",
+        "uncited claim-like sentence: 'The First Motion Picture Unit did not produce more than 401 '",
+        "uncited claim-like sentence: 'Francis I of France reigned from August 30, 1515 until his d'",
+        "uncited claim-like sentence: 'The information provided does not support the claim that Vic'",
+        "uncited claim-like sentence: \"The evidence suggests that 'Victoria' is a song by The Expon\"",
+        "uncited claim-like sentence: 'Larry Wilmore is not the writer of Les Miserables.'",
+        "uncited claim-like sentence: 'Noah Cyrus is the youngest sister of Miley Cyrus.'",
+        "uncited claim-like sentence: 'Sim\u00f3n Jos\u00e9 Antonio de la Sant\u00edsima Trinidad Bol\u00edvar y Palaci'",
+        "uncited claim-like sentence: 'The Endless River is the fifteenth studio album of Pink Floy'",
+        "unresolved conflicts are present but the answer expresses no uncertainty",
+        "uncited claim-like sentence: 'Buffy Summers appears in both a film and a television series'",
+        "uncited claim-like sentence: 'Flaked was renewed for a six episode season, premiering in J'",
+        "uncited claim-like sentence: \"A monk's lifestyle is characterized by abstinence from world\"",
+        "uncited claim-like sentence: 'The information provided does not specify whether part of Hi'",
+        "uncited claim-like sentence: 'No, the CONCACAF Champions League is not organized for footb'",
+        "uncited claim-like sentence: 'Mikhail Lazarev was not the commander of the Mirny; instead,'",
+        "uncited claim-like sentence: 'Aunt May is a fictional character that has appeared in most '",
+        "uncited claim-like sentence: 'Marjorie Gross did not write for German talk shows.'",
+        "uncited claim-like sentence: 'Drake Bell released an extended play in 2011.'",
+        "uncited claim-like sentence: 'Invasion literature has slipped into obscurity in recent yea'",
+        "uncited claim-like sentence: 'The Bee Gees were not specifically known as producers of mus'",
+        "uncited claim-like sentence: 'Heavy Metal music developed in the late 1960s.'",
+        "uncited claim-like sentence: 'Thomas Jefferson helped to organize a political party.'",
+        "uncited claim-like sentence: 'Michaela Watkins is an American actress and comedian, but no'",
+        "uncited claim-like sentence: 'Dreamer (2005 film) was written by John Gatins.'",
+        "uncited claim-like sentence: 'The Sterile Cuckoo was directed by Alan J.'",
+        "uncited claim-like sentence: ', who is not specified to be Catholic.'",
+        "uncited claim-like sentence: 'Michigan is a tourist destination, but there is no specific '",
+        "uncited claim-like sentence: 'No, Buffy Summers does not appear in a movie based on the pr'",
+        "uncited claim-like sentence: 'Global warming is expected to shrink permafrost areas.'",
+        "uncited claim-like sentence: 'The information provided does not specify if Shane McMahon w'",
+        "uncited claim-like sentence: 'Eddie Murphy, who starred in The Adventures of Pluto Nash, d'",
+        "uncited claim-like sentence: 'The information provided does not support the claim that Jam'",
+        "uncited claim-like sentence: 'No, Lost (TV series) is not a series of plays.'",
+        "uncited claim-like sentence: 'The Saw franchise grossed over $873 million at the box offic'",
+        "uncited claim-like sentence: 'The statement that Michelin Guides are published by George L'",
+        "uncited claim-like sentence: 'The information provided does not support the claim about Ma'",
+        "uncited claim-like sentence: 'Heavy Metal music was developed in the early 1970s, with sig'",
+        "uncited claim-like sentence: 'Ed Wood was not the film itself but rather a person associat'",
+        "uncited claim-like sentence: 'Victoria Palace Theatre is located on Victoria Street but it'",
+        "uncited claim-like sentence: 'Gal Gadot was ranked behind Esti Ginzburgh for highest earni'",
+        "uncited claim-like sentence: 'Hot Right Now is a single by British drum'",
+        "uncited claim-like sentence: 'The information provided does not support the claim that Lar'",
+        "uncited claim-like sentence: \"Kellogg's products are not only manufactured in one country.\"",
+        "uncited claim-like sentence: \"The statement 'The horse was called a Eohippus when it had m\""
+      ]
+    }
+  ],
+  "seed_aggregated": {
+    "claim_only_rag": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 0.5282347912715787,
+        "median": 0.5282347912715787,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.788235294117647,
+        "median": 0.788235294117647,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 0.8470588235294118,
+        "median": 0.8470588235294118,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.8176470588235294,
+        "median": 0.8176470588235294,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.29411764705882354,
+        "median": 0.29411764705882354,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 0.9647058823529412,
+        "median": 0.9647058823529412,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 0.9588235294117647,
+        "median": 0.9588235294117647,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 1377.365830524222,
+        "median": 1377.365830524222,
+        "std": 0.0
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 1.7529411764705882,
+        "median": 1.7529411764705882,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 1.035294117647059,
+        "median": 1.035294117647059,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 1.7529411764705882,
+        "median": 1.7529411764705882,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 37.22352941176471,
+        "median": 37.22352941176471,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.02068359502251325,
+        "median": 0.02068359502251325,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.37450980392156863,
+        "median": 0.37450980392156863,
+        "std": 0.0
+      }
+    },
+    "full_egrag": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 0.44455427006201,
+        "median": 0.44455427006201,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.7333333333333333,
+        "median": 0.7333333333333333,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 0.8,
+        "median": 0.8,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.7666666666666667,
+        "median": 0.7666666666666667,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.38666666666666666,
+        "median": 0.38666666666666666,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 0.96,
+        "median": 0.96,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 0.9266666666666666,
+        "median": 0.9266666666666666,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 1330.0833337241784,
+        "median": 1330.0833337241784,
+        "std": 0.0
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 1.6666666666666667,
+        "median": 1.6666666666666667,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.09333333333333334,
+        "median": 0.09333333333333334,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 1.6666666666666667,
+        "median": 1.6666666666666667,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 1.04,
+        "median": 1.04,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 1.0266666666666666,
+        "median": 1.0266666666666666,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 27.066666666666666,
+        "median": 27.066666666666666,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.02824008888714771,
+        "median": 0.02824008888714771,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.54,
+        "median": 0.54,
+        "std": 0.0
+      }
+    },
+    "graph_no_contradiction": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 0.44830572797922474,
+        "median": 0.44830572797922474,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.75,
+        "median": 0.75,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 0.8157894736842105,
+        "median": 0.8157894736842105,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.7828947368421053,
+        "median": 0.7828947368421053,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.3815789473684211,
+        "median": 0.3815789473684211,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 0.9605263157894737,
+        "median": 0.9605263157894737,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 0.9276315789473685,
+        "median": 0.9276315789473685,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 1276.8149026286617,
+        "median": 1276.8149026286617,
+        "std": 0.0
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 1.6973684210526316,
+        "median": 1.6973684210526316,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.013157894736842105,
+        "median": 0.013157894736842105,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 1.6973684210526316,
+        "median": 1.6973684210526316,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 1.0394736842105263,
+        "median": 1.0394736842105263,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 0.9736842105263158,
+        "median": 0.9736842105263158,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 25.842105263157894,
+        "median": 25.842105263157894,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.03006149122635191,
+        "median": 0.03006149122635191,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.5197368421052632,
+        "median": 0.5197368421052632,
+        "std": 0.0
+      }
+    },
+    "graph_top_claim": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 0.48712718443202746,
+        "median": 0.48712718443202746,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.7857142857142857,
+        "median": 0.7857142857142857,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 0.8214285714285714,
+        "median": 0.8214285714285714,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.8035714285714286,
+        "median": 0.8035714285714286,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.3333333333333333,
+        "median": 0.3333333333333333,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 0.9642857142857143,
+        "median": 0.9642857142857143,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 0.9583333333333334,
+        "median": 0.9583333333333334,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 1484.3216360244523,
+        "median": 1484.3216360244523,
+        "std": 0.0
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 1.7380952380952381,
+        "median": 1.7380952380952381,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.08333333333333333,
+        "median": 0.08333333333333333,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 1.7380952380952381,
+        "median": 1.7380952380952381,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 1.0357142857142858,
+        "median": 1.0357142857142858,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 1.7380952380952381,
+        "median": 1.7380952380952381,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 38.964285714285715,
+        "median": 38.964285714285715,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.023396704201657764,
+        "median": 0.023396704201657764,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.47619047619047616,
+        "median": 0.47619047619047616,
+        "std": 0.0
+      }
+    },
+    "passage_rag": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 0.28263558663558663,
+        "median": 0.28263558663558663,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.6,
+        "median": 0.6,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 0.6285714285714286,
+        "median": 0.6285714285714286,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.6142857142857143,
+        "median": 0.6142857142857143,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.5428571428571428,
+        "median": 0.5428571428571428,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 0.9428571428571428,
+        "median": 0.9428571428571428,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 0.9285714285714286,
+        "median": 0.9285714285714286,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 1350.069700637167,
+        "median": 1350.069700637167,
+        "std": 0.0
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 0.9428571428571428,
+        "median": 0.9428571428571428,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 0.9428571428571428,
+        "median": 0.9428571428571428,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 0.9428571428571428,
+        "median": 0.9428571428571428,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 35.42857142857143,
+        "median": 35.42857142857143,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.05389321450577532,
+        "median": 0.05389321450577532,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.7571428571428571,
+        "median": 0.7571428571428571,
+        "std": 0.0
+      }
+    }
+  }
+}

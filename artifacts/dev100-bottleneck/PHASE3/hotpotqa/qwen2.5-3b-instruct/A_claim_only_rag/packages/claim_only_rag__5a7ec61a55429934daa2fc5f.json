@@ -1,0 +1,630 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 150
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-15da7d899993eaaf",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Staten Island Catapult::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Staten Island Catapult",
+          "title": "Staten Island Catapult",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 77,
+            "source_id": "Staten Island Catapult",
+            "start": 0,
+            "text": "The Staten Island Catapult is a 2005 documentary about a disgruntled commuter"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Staten Island Catapult"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Staten Island Catapult",
+        "temporal_expressions": [
+          "2005"
+        ]
+      },
+      "source_reliability": null,
+      "text": "The Staten Island Catapult is a 2005 documentary about a disgruntled commuter",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-27fdd37759991dc6",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Staten Island Catapult::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Staten Island Catapult",
+          "title": "Staten Island Catapult",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 195,
+            "source_id": "Staten Island Catapult",
+            "start": 82,
+            "text": "his proposal to build a catapult that launches individuals from Staten Island to Downtown Manhattan in 5 minutes."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Staten Island",
+          "Downtown Manhattan"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Staten Island",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "his proposal to build a catapult that launches individuals from Staten Island to Downtown Manhattan in 5 minutes.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-3426bfff7531c16e",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "St. George, Staten Island::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "St. George, Staten Island",
+          "title": "St. George, Staten Island",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 125,
+            "source_id": "St. George, Staten Island",
+            "start": 68,
+            "text": "the location of the administrative center for the borough"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": null,
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "the location of the administrative center for the borough",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-7da212bad08547a0",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "St. George, Staten Island::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "St. George, Staten Island",
+          "title": "St. George, Staten Island",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 166,
+            "source_id": "St. George, Staten Island",
+            "start": 130,
+            "text": "for the coterminous Richmond County."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Richmond County"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Richmond County",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "for the coterminous Richmond County.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-952fb7b9b25182f4",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Brian C. Bialiy::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Brian C. Bialiy",
+          "title": "Brian C. Bialiy",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 99,
+            "source_id": "Brian C. Bialiy",
+            "start": 30,
+            "text": "appeared in the award-winning documentary The Staten Island Catapult."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Staten Island Catapult"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Staten Island Catapult",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "appeared in the award-winning documentary The Staten Island Catapult.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-9f8fa3af38989162",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'it' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "St. George, Staten Island::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "St. George, Staten Island",
+          "title": "St. George, Staten Island",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 63,
+            "source_id": "St. George, Staten Island",
+            "start": 0,
+            "text": "It is the most densely developed neighborhood on Staten Island,"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Staten Island"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "It",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "It is the most densely developed neighborhood on Staten Island,",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-d227facd463d08f4",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Brian C. Bialiy::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Brian C. Bialiy",
+          "title": "Brian C. Bialiy",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 25,
+            "source_id": "Brian C. Bialiy",
+            "start": 9,
+            "text": "Bialiy worked on"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Bialiy"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Bialiy",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Bialiy worked on",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-da140fb6c0e3e748",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Staten Island Economic Development Corporation::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Staten Island Economic Development Corporation",
+          "title": "Staten Island Economic Development Corporation",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 169,
+            "source_id": "Staten Island Economic Development Corporation",
+            "start": 0,
+            "text": "Every year approximately 3,000 businesses and individuals are assisted by the SIEDC through financing assistance, tax incentives, job training and technology assistance."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Every",
+          "SIEDC"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Every",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Every year approximately 3,000 businesses and individuals are assisted by the SIEDC through financing assistance, tax incentives, job training and technology assistance.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-de9db9ade00656b4",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Brian C. Bialiy::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Brian C. Bialiy",
+          "title": "Brian C. Bialiy",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 8,
+            "source_id": "Brian C. Bialiy",
+            "start": 0,
+            "text": "Brian C."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Brian C"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Brian C",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Brian C.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-fe1ab68466888be0",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Staten Island::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Staten Island",
+          "title": "Staten Island",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 184,
+            "source_id": "Staten Island",
+            "start": 0,
+            "text": "In the southwest of the city, Staten Island is the southernmost part of both the city and state of New York, with Conference House Park at the southern tip of the island and the state."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Staten Island",
+          "New York",
+          "Conference House Park"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Staten Island",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "In the southwest of the city, Staten Island is the southernmost part of both the city and state of New York, with Conference House Park at the southern tip of the island and the state.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "pkg-5a7ec61a55429934daa2fc5f",
+  "query": {
+    "created_at": null,
+    "query_id": "5a7ec61a55429934daa2fc5f",
+    "text": "Are Staten Island Catapult and This Is Elvis both documentaries?"
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": null,
+      "claim_id": "clm-15da7d899993eaaf",
+      "rank": 0,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-27fdd37759991dc6",
+      "rank": 1,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-3426bfff7531c16e",
+      "rank": 2,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-7da212bad08547a0",
+      "rank": 3,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-952fb7b9b25182f4",
+      "rank": 4,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-9f8fa3af38989162",
+      "rank": 5,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-d227facd463d08f4",
+      "rank": 6,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-da140fb6c0e3e748",
+      "rank": 7,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-de9db9ade00656b4",
+      "rank": 8,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    }
+  ],
+  "subgraph": null
+}

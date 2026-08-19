@@ -1,0 +1,575 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 52
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-b41345ffd4aaedd2",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'he' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Charles Hastings Judd::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Charles Hastings Judd",
+          "title": "Charles Hastings Judd",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 24,
+            "source_id": "Charles Hastings Judd",
+            "start": 0,
+            "text": "He served as Chamberlain"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Chamberlain"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "He",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "He served as Chamberlain",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-e24ef6cbd370b606",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Charles Hastings Judd::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Charles Hastings Judd",
+          "title": "Charles Hastings Judd",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 75,
+            "source_id": "Charles Hastings Judd",
+            "start": 29,
+            "text": "Colonel of the military staff of King Kal\u0101kaua"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Colonel",
+          "King"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Colonel",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Colonel of the military staff of King Kal\u0101kaua",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-15d15cef6c98c193",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Charles Hastings Judd::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Charles Hastings Judd",
+          "title": "Charles Hastings Judd",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 129,
+            "source_id": "Charles Hastings Judd",
+            "start": 80,
+            "text": "traveled with the monarch on his 1881 world tour."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": null,
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "traveled with the monarch on his 1881 world tour.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-9af05115472c2fff",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'he' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "George W. Macfarlane::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "George W. Macfarlane",
+          "title": "George W. Macfarlane",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 108,
+            "source_id": "George W. Macfarlane",
+            "start": 0,
+            "text": "He served Colonel of the military staff of King Kal\u0101kaua, traveling with the monarch on his 1881 world tour."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Colonel",
+          "King"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "He",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "He served Colonel of the military staff of King Kal\u0101kaua, traveling with the monarch on his 1881 world tour.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-de3ecab43d5c85e5",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'it' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Merrie Monarch Festival::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Merrie Monarch Festival",
+          "title": "Merrie Monarch Festival",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 96,
+            "source_id": "Merrie Monarch Festival",
+            "start": 0,
+            "text": "It honors King David Kal\u0101kaua, who was called the \"Merrie Monarch\" for his patronage of the arts"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "King David",
+          "Merrie Monarch"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "It",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "It honors King David Kal\u0101kaua, who was called the \"Merrie Monarch\" for his patronage of the arts",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-eb605974da1af357",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Merrie Monarch Festival::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Merrie Monarch Festival",
+          "title": "Merrie Monarch Festival",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 199,
+            "source_id": "Merrie Monarch Festival",
+            "start": 101,
+            "text": "is credited with restoring many Hawaiian cultural traditions during his reign, including the hula."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Hawaiian"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Hawaiian",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "is credited with restoring many Hawaiian cultural traditions during his reign, including the hula.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-e81c291c522f6a2d",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Kal\u0101kaua::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Kal\u0101kaua",
+          "title": "Kal\u0101kaua",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 128,
+            "source_id": "Kal\u0101kaua",
+            "start": 0,
+            "text": "Kal\u0101kaua (November 16, 1836 \u2013 January 20, 1891), born David La\u02bb amea Kamananakapu Mahinulani Naloiaehuokalani Lumialani Kal\u0101kaua"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "David",
+          "Kamananakapu Mahinulani Naloiaehuokalani Lumialani"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "David",
+        "temporal_expressions": [
+          "November 16, 1836",
+          "January 20, 1891"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Kal\u0101kaua (November 16, 1836 \u2013 January 20, 1891), born David La\u02bb amea Kamananakapu Mahinulani Naloiaehuokalani Lumialani Kal\u0101kaua",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-b6fa693e7525b74c",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Kal\u0101kaua::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Kal\u0101kaua",
+          "title": "Kal\u0101kaua",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 244,
+            "source_id": "Kal\u0101kaua",
+            "start": 133,
+            "text": "sometimes called The Merrie Monarch, was the last king (and second to last monarch) of the Kingdom of Hawai\u02bb i."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Merrie Monarch",
+          "Kingdom"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Merrie Monarch",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "sometimes called The Merrie Monarch, was the last king (and second to last monarch) of the Kingdom of Hawai\u02bb i.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-d8be0f9c9896cef3",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Corps of Military Staff Clerks::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Corps of Military Staff Clerks",
+          "title": "Corps of Military Staff Clerks",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 72,
+            "source_id": "Corps of Military Staff Clerks",
+            "start": 0,
+            "text": "The Headquarters Corps of Military Staff Clerks was established in 1905."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Headquarters Corps",
+          "Military Staff Clerks"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Headquarters Corps",
+        "temporal_expressions": [
+          "1905"
+        ]
+      },
+      "source_reliability": null,
+      "text": "The Headquarters Corps of Military Staff Clerks was established in 1905.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5a7a276d5542996c55b2dd27",
+    "text": "Who was Chamberlain and Colonel of the military staff of The Merrie Monarch?"
+  },
+  "relations": [
+    {
+      "bridge": null,
+      "direction": "directed",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "entailment",
+        "features": {
+          "entailment": 0.993984
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "entailment above threshold",
+      "relation_confidence": 0.993984,
+      "relation_id": "rel-1dd774bd60097294",
+      "relation_type": "support",
+      "source_claim_id": "clm-9af05115472c2fff",
+      "target_claim_id": "clm-15d15cef6c98c193"
+    },
+    {
+      "bridge": null,
+      "direction": "directed",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "entailment",
+        "features": {
+          "entailment": 0.977887
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "entailment above threshold",
+      "relation_confidence": 0.977887,
+      "relation_id": "rel-a8a88ba9970acb0a",
+      "relation_type": "support",
+      "source_claim_id": "clm-9af05115472c2fff",
+      "target_claim_id": "clm-e24ef6cbd370b606"
+    }
+  ],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.593108,
+      "claim_id": "clm-e24ef6cbd370b606",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 1.0,
+      "status": "accepted",
+      "utility": 0.428571
+    },
+    {
+      "belief": 0.482174,
+      "claim_id": "clm-9af05115472c2fff",
+      "rank": 1,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.862609,
+      "status": "accepted",
+      "utility": 0.380435
+    },
+    {
+      "belief": 0.543513,
+      "claim_id": "clm-15d15cef6c98c193",
+      "rank": 2,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.849069,
+      "status": "accepted",
+      "utility": 0.305556
+    }
+  ],
+  "subgraph": null
+}

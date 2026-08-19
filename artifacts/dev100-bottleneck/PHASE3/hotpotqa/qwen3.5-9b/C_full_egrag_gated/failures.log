@@ -1,0 +1,4 @@
+full_egrag|0|5ae1d32a554299492dc91b9c	ConvergenceError: belief propagation did not converge within 50 iterations (last max_delta=1.009e-04)
+full_egrag|0|5a7b48b15542995eb53be8eb	GenerationError: answer cites unknown claim id(s): ['c1']
+full_egrag|0|5abe76c255429965af743f15	GenerationError: malformed structured output: truncated or unterminated JSON object
+full_egrag|0|5ab8f57b5542991b5579f097	GenerationError: malformed structured output: truncated or unterminated JSON object

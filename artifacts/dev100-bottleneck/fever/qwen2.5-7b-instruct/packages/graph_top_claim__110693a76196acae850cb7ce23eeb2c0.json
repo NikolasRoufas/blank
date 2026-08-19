@@ -1,0 +1,216 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 96
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-96858ee698a716e6",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Marines::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Marines",
+          "title": "Marines",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 157,
+            "source_id": "Marines",
+            "start": 0,
+            "text": "In the majority of countries , the marine force is part of the navy , but it can also be under the army like the Troupes de marine -LRB- French Marines -RRB-"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Troupes",
+          "LRB",
+          "French Marines",
+          "RRB"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Troupes",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "In the majority of countries , the marine force is part of the navy , but it can also be under the army like the Troupes de marine -LRB- French Marines -RRB-",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-7519fe33313f50b6",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Marines::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Marines",
+          "title": "Marines",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 384,
+            "source_id": "Marines",
+            "start": 162,
+            "text": "Givati Brigade -LRB- Israeli Marines -RRB- , or form an independent service branch like the United States Marine Corps -LRB- although the United States Marine Corps is under the United States Department of the Navy -RRB- ."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Givati Brigade",
+          "LRB",
+          "Israeli Marines",
+          "RRB",
+          "United States Marine Corps",
+          "United States Department",
+          "Navy"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Givati Brigade",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Givati Brigade -LRB- Israeli Marines -RRB- , or form an independent service branch like the United States Marine Corps -LRB- although the United States Marine Corps is under the United States Department of the Navy -RRB- .",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [
+    {
+      "claim_ids": [
+        "clm-7519fe33313f50b6",
+        "clm-96858ee698a716e6"
+      ],
+      "conflict_id": "conflict:0",
+      "members": [
+        {
+          "claim_id": "clm-7519fe33313f50b6",
+          "independent_support": 0,
+          "propagated_belief": 0.487979,
+          "relation_confidence": 0.794127,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-96858ee698a716e6",
+          "independent_support": 0,
+          "propagated_belief": 0.461534,
+          "relation_confidence": 0.794127,
+          "source_reliability": 0.5,
+          "timestamp": null
+        }
+      ],
+      "outcome": "unresolved",
+      "preferred_claim_id": null,
+      "relation_ids": [
+        "rel-be4b420f10aa28ab"
+      ],
+      "resolution_note": "top two competitors within margin 0.100 (0.488 vs 0.462)",
+      "resolved": false
+    }
+  ],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "110693a76196acae850cb7ce23eeb2c0",
+    "text": "Ron Weasley is a member of the United States Marines."
+  },
+  "relations": [
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.794127
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.794127,
+      "relation_id": "rel-be4b420f10aa28ab",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-7519fe33313f50b6",
+      "target_claim_id": "clm-96858ee698a716e6"
+    }
+  ],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.487979,
+      "claim_id": "clm-7519fe33313f50b6",
+      "rank": 0,
+      "reason": "top base value within budget",
+      "selection_score": 0.845122,
+      "status": "disputed",
+      "utility": 0.357143
+    },
+    {
+      "belief": 0.461534,
+      "claim_id": "clm-96858ee698a716e6",
+      "rank": 1,
+      "reason": "top base value within budget",
+      "selection_score": 0.778201,
+      "status": "disputed",
+      "utility": 0.316667
+    }
+  ],
+  "subgraph": null
+}

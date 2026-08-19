@@ -1,0 +1,285 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 100
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-1302dc3d7cf75a48",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "James_Jones_-LRB-basketball_player-RRB-::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "James_Jones_-LRB-basketball_player-RRB-",
+          "title": "James Jones -LRB-basketball player-RRB-",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 136,
+            "source_id": "James_Jones_-LRB-basketball_player-RRB-",
+            "start": 61,
+            "text": "has only missed the playoffs once -- with the Trail Blazers in 2007 -- 08 ."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Trail Blazers"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Trail Blazers",
+        "temporal_expressions": [
+          "2007"
+        ]
+      },
+      "source_reliability": null,
+      "text": "has only missed the playoffs once -- with the Trail Blazers in 2007 -- 08 .",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-7f6ead13072a6828",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "NBA_playoffs::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "NBA_playoffs",
+          "title": "NBA playoffs",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 279,
+            "source_id": "NBA_playoffs",
+            "start": 149,
+            "text": "Western Conference -LRB- called divisions , pre-1970 -RRB- , ultimately deciding the league 's season champion in the NBA Finals ."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Western Conference",
+          "LRB",
+          "RRB",
+          "NBA Finals"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Western Conference",
+        "temporal_expressions": [
+          "1970"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Western Conference -LRB- called divisions , pre-1970 -RRB- , ultimately deciding the league 's season champion in the NBA Finals .",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-99cb258b039a9a1b",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "James_Jones_-LRB-basketball_player-RRB-::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "James_Jones_-LRB-basketball_player-RRB-",
+          "title": "James Jones -LRB-basketball player-RRB-",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 56,
+            "source_id": "James_Jones_-LRB-basketball_player-RRB-",
+            "start": 0,
+            "text": "Jones has never been on an NBA team with a losing record"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Jones",
+          "NBA"
+        ],
+        "negation": true,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Jones",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Jones has never been on an NBA team with a losing record",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-bf7ae8d1c9fff093",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "NBA_playoffs::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "NBA_playoffs",
+          "title": "NBA playoffs",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 144,
+            "source_id": "NBA_playoffs",
+            "start": 0,
+            "text": "The National Basketball Association -LRB- NBA -RRB- playoffs are a best-of-seven elimination tournament among 16 teams in the Eastern Conference"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "National Basketball Association",
+          "LRB",
+          "NBA",
+          "RRB",
+          "Eastern Conference"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "National Basketball Association",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The National Basketball Association -LRB- NBA -RRB- playoffs are a best-of-seven elimination tournament among 16 teams in the Eastern Conference",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "pkg-6c1d03d904f79fc30e09862d6a688df0",
+  "query": {
+    "created_at": null,
+    "query_id": "6c1d03d904f79fc30e09862d6a688df0",
+    "text": "James Jones missed the finals once."
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": null,
+      "claim_id": "clm-1302dc3d7cf75a48",
+      "rank": 0,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-7f6ead13072a6828",
+      "rank": 1,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-99cb258b039a9a1b",
+      "rank": 2,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-bf7ae8d1c9fff093",
+      "rank": 3,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    }
+  ],
+  "subgraph": null
+}

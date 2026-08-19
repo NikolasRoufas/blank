@@ -1,0 +1,561 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 41
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-3ffe17f3f3310c07",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'he' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Nick Nolte::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Nick Nolte",
+          "title": "Nick Nolte",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 68,
+            "source_id": "Nick Nolte",
+            "start": 0,
+            "text": "He won the Golden Globe Award for Best Actor \u2013 Motion Picture Drama,"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Golden Globe Award",
+          "Best Actor",
+          "Motion Picture Drama"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "He",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "He won the Golden Globe Award for Best Actor \u2013 Motion Picture Drama,",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-22c304a82a67a391",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Nick Nolte::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Nick Nolte",
+          "title": "Nick Nolte",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 164,
+            "source_id": "Nick Nolte",
+            "start": 73,
+            "text": "was nominated for the Academy Award for Best Actor for the 1991 film \"The Prince of Tides\"."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Academy Award",
+          "Best Actor",
+          "Prince",
+          "Tides"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Academy Award",
+        "temporal_expressions": [
+          "1991"
+        ]
+      },
+      "source_reliability": null,
+      "text": "was nominated for the Academy Award for Best Actor for the 1991 film \"The Prince of Tides\".",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-730a191a4056e1b9",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Tom Cruise filmography::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Tom Cruise filmography",
+          "title": "Tom Cruise filmography",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 96,
+            "source_id": "Tom Cruise filmography",
+            "start": 0,
+            "text": "For his performance Cruise received the Golden Globe Award for Best Actor\u00a0\u2013 Motion Picture Drama"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Cruise",
+          "Golden Globe Award",
+          "Best Actor",
+          "Motion Picture Drama"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Cruise",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "For his performance Cruise received the Golden Globe Award for Best Actor \u2013 Motion Picture Drama",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-d3e993efd5b34c07",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Tom Cruise filmography::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Tom Cruise filmography",
+          "title": "Tom Cruise filmography",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 159,
+            "source_id": "Tom Cruise filmography",
+            "start": 101,
+            "text": "his first nomination for the Academy Award for Best Actor."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Academy Award",
+          "Best Actor"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Academy Award",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "his first nomination for the Academy Award for Best Actor.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-f4e858062ad6f0f8",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Golden Globe Award for Best Animated Feature Film::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Golden Globe Award for Best Animated Feature Film",
+          "title": "Golden Globe Award for Best Animated Feature Film",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 125,
+            "source_id": "Golden Globe Award for Best Animated Feature Film",
+            "start": 0,
+            "text": "The Golden Globe Award for Best Animated Feature Film was awarded for the first time at the 64th Golden Globe Awards in 2007."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Golden Globe Award",
+          "Best Animated Feature Film",
+          "Golden Globe Awards"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Golden Globe Award",
+        "temporal_expressions": [
+          "2007"
+        ]
+      },
+      "source_reliability": null,
+      "text": "The Golden Globe Award for Best Animated Feature Film was awarded for the first time at the 64th Golden Globe Awards in 2007.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-a07370c9f738bd08",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'he' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Nick Nolte::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Nick Nolte",
+          "title": "Nick Nolte",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 154,
+            "source_id": "Nick Nolte",
+            "start": 0,
+            "text": "He was also nominated for a Golden Globe Award for Best Actor \u2013 Television Series Musical or Comedy for his role in the TV series \"Graves\" (2016\u2013present)."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Golden Globe Award",
+          "Best Actor",
+          "Television Series Musical",
+          "Comedy",
+          "TV",
+          "Graves"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "He",
+        "temporal_expressions": [
+          "2016"
+        ]
+      },
+      "source_reliability": null,
+      "text": "He was also nominated for a Golden Globe Award for Best Actor \u2013 Television Series Musical or Comedy for his role in the TV series \"Graves\" (2016\u2013present).",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-fc5a34e41af10eae",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Golden Globe Award for Best Documentary Film::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Golden Globe Award for Best Documentary Film",
+          "title": "Golden Globe Award for Best Documentary Film",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 96,
+            "source_id": "Golden Globe Award for Best Documentary Film",
+            "start": 0,
+            "text": "The Golden Globe Award for Best Documentary Film was introduced for the 30th Golden Globe Awards"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Golden Globe Award",
+          "Best Documentary Film",
+          "Golden Globe Awards"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Golden Globe Award",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The Golden Globe Award for Best Documentary Film was introduced for the 30th Golden Globe Awards",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-11bbb2c973f94ff8",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Golden Globe Award for Best Documentary Film::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Golden Globe Award for Best Documentary Film",
+          "title": "Golden Globe Award for Best Documentary Film",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 149,
+            "source_id": "Golden Globe Award for Best Documentary Film",
+            "start": 101,
+            "text": "discontinued after the 34th Golden Globe Awards."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Golden Globe Awards"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Golden Globe Awards",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "discontinued after the 34th Golden Globe Awards.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [
+    {
+      "claim_ids": [
+        "clm-f4e858062ad6f0f8",
+        "clm-fc5a34e41af10eae"
+      ],
+      "conflict_id": "conflict:0",
+      "members": [
+        {
+          "claim_id": "clm-f4e858062ad6f0f8",
+          "independent_support": 0,
+          "propagated_belief": 0.486055,
+          "relation_confidence": 0.977079,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-fc5a34e41af10eae",
+          "independent_support": 0,
+          "propagated_belief": 0.49226,
+          "relation_confidence": 0.977079,
+          "source_reliability": 0.5,
+          "timestamp": null
+        }
+      ],
+      "outcome": "unresolved",
+      "preferred_claim_id": null,
+      "relation_ids": [
+        "rel-a321c1634d9c1338"
+      ],
+      "resolution_note": "top two competitors within margin 0.100 (0.492 vs 0.486)",
+      "resolved": false
+    }
+  ],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5a712beb5542994082a3e61c",
+    "text": "What Golden Globe Award actor starred in the film Little Fugitive?"
+  },
+  "relations": [
+    {
+      "bridge": null,
+      "direction": "directed",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "entailment",
+        "features": {
+          "entailment": 0.981736
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "entailment above threshold",
+      "relation_confidence": 0.981736,
+      "relation_id": "rel-31fec747f713044a",
+      "relation_type": "support",
+      "source_claim_id": "clm-730a191a4056e1b9",
+      "target_claim_id": "clm-3ffe17f3f3310c07"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.977079
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.977079,
+      "relation_id": "rel-a321c1634d9c1338",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-f4e858062ad6f0f8",
+      "target_claim_id": "clm-fc5a34e41af10eae"
+    }
+  ],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.57607,
+      "claim_id": "clm-3ffe17f3f3310c07",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 0.964959,
+      "status": "accepted",
+      "utility": 0.388889
+    },
+    {
+      "belief": 0.48,
+      "claim_id": "clm-730a191a4056e1b9",
+      "rank": 1,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.855,
+      "status": "accepted",
+      "utility": 0.375
+    }
+  ],
+  "subgraph": null
+}

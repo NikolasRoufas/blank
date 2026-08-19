@@ -1,0 +1,263 @@
+passage_rag|0|5a79395455429970f5fffe7d	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5a793...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5ac24cea55429951e9e6853a	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5ac24...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5ae00a27554299025d62a3bb	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5ae00...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5add23e45542992ae4cec4a1	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5add2...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5a8f08c2554299458435d530	GenerationError: answer cites unknown claim id(s): ['p0', 's0']
+passage_rag|0|5a77b13655429967ab105235	GenerationError: answer cites unknown claim id(s): ['c1', 'c3']
+passage_rag|0|5a881d2355429938390d3eeb	GenerationError: answer cites unknown claim id(s): ['c2']
+passage_rag|0|5ae690b055429908198fa622	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5ae69...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5ab85c8d55429934fafe6d84	GenerationError: answer cites unknown claim id(s): ['FK Austria Wien']
+passage_rag|0|5ac270e05542992f1f2b38c9	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5ac27...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5a7b43735542992d025e67cb	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5a7b4...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5ac5101455429924173fb592	GenerationError: model output has an empty or missing 'answer'
+passage_rag|0|5a7c02c45542996dd594b880	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5a7c0...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5a778b1e55429949eeb29ee3	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5a778...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5ab7f1315542991d322237d1	GenerationError: answer cites unknown claim id(s): ['808Audio']
+passage_rag|0|5a7a9b9a5542990198eaf160	GenerationError: answer cites unknown claim id(s): ['c0']
+passage_rag|0|5a83bfc8554299123d8c21a1	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5a83b...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5ab916e155429919ba4e23a4	GenerationError: answer cites unknown claim id(s): ['p0']
+passage_rag|0|5a794119554299029c4b5f3c	GenerationError: answer cites unknown claim id(s): ['c1']
+passage_rag|0|5a8a429955429930ff3c0d34	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5a8a4...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5ae7ae9a5542993210983ef2	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5ae7a...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5ab3e07e55429969a97a81e5	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5ab3e...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5ab5cd0d554299488d4d9a30	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5ab5c...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5a721a7655429971e9dc9271	GenerationError: model output has an empty or missing 'answer'
+passage_rag|0|5ab5b0f75542992aa134a38c	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5ab5b...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5ac385f8554299741d48a279	GenerationError: answer cites unknown claim id(s): ['c0']
+passage_rag|0|5ae1d32a554299492dc91b9c	GenerationError: answer cites unknown claim id(s): ['c1']
+passage_rag|0|5a7dedef5542995f4f40231a	GenerationError: answer cites unknown claim id(s): ['Ken Barrie']
+passage_rag|0|5ab9b1fd5542996be202058e	GenerationError: answer cites unknown claim id(s): ['Rod_Pacheco']
+passage_rag|0|5ade69e455429975fa854ec5	GenerationError: answer cites unknown claim id(s): ['Ankahee (2006 film)']
+passage_rag|0|5ac4f2235542996feb3fe995	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5ac4f...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5ae2b794554299495565db10	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5ae2b...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5a852cd05542997b5ce3ffb0	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5a852...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5a72d7b35542991f9a20c5be	GenerationError: model output has an empty or missing 'answer'
+passage_rag|0|5abae3b05542996606241661	GenerationError: answer cites unknown claim id(s): ['c0']
+passage_rag|0|5ab674ee5542995eadeefff2	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5ab67...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5a796bfd55429970f5fffeac	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5a796...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5a712beb5542994082a3e61c	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5a712...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5a70f1685542994082a3e40f	GenerationError: answer cites unknown claim id(s): ['c3']
+passage_rag|0|5a7a276d5542996c55b2dd27	GenerationError: answer cites unknown claim id(s): ['c0']
+passage_rag|0|5a8c42445542996e8ac88a3f	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5a8c4...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5a8afa4d55429949d91db44c	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5a8af...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5ab7bfe955429928e1fe38c2	GenerationError: answer cites unknown claim id(s): ['c0']
+passage_rag|0|5ae7fb1155429952e35ea9eb	GenerationError: model output has an empty or missing 'answer'
+passage_rag|0|5ade4801554299728e26c6ab	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5ade4...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5abe044d5542991f661060a7	GenerationError: model output has an empty or missing 'answer'
+passage_rag|0|5a8d8e4f5542994ba4e3dca7	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5a8d8...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5a86ea445542994775f60780	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5a86e...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5a7b895c5542997c3ec97206	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5a7b8...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5a7b48b15542995eb53be8eb	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5a7b4...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5ac31456554299741d48a1b4	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5ac31...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5a8a1aea5542992e4fca8508	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5a8a1...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5abbdb335542992ccd8e7fc1	GenerationError: answer cites unknown claim id(s): ['c4']
+passage_rag|0|5ae377415542992e3233c40a	GenerationError: answer cites unknown claim id(s): ['c1']
+passage_rag|0|5ac07a17554299294b219000	GenerationError: answer cites unknown claim id(s): ['BCMA1', 'JAT1']
+passage_rag|0|5a74bdce55429929fddd84e1	GenerationError: answer cites unknown claim id(s): ['c2', 'c3', 'c4']
+passage_rag|0|5ac294b955429921a00aafd0	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5ac29...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5a7c34905542996dd594b8d5	GenerationError: answer cites unknown claim id(s): ['The Young Turks']
+passage_rag|0|5ae095f055429924de1b7103	GenerationError: answer cites unknown claim id(s): ['p0', 'p3', 'p4']
+passage_rag|0|5a7323ad5542994cef4bc476	GenerationError: answer cites unknown claim id(s): ['c1']
+passage_rag|0|5a7c74a65542990527d554b0	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5a7c7...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5a8bbddf5542997f31a41db2	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5a8bb...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5a802fb8554299485f598582	GenerationError: answer cites unknown claim id(s): ['The Really Nasty Horse Racing Game']
+passage_rag|0|5ac00278554299012d1db56b	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5ac00...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5a72bd0b5542992359bc318f	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5a72b...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5abbb42555429931dba144af	GenerationError: answer cites unknown claim id(s): ['c1', 'c3']
+passage_rag|0|5a7e22ed5542995ed0d166a7	GenerationError: answer cites unknown claim id(s): ['Brothers in Arms (Bujold novel)', 'Horizon (novel)', 'Passage (Bujold novel)', 'The Curse of Chalion']
+passage_rag|0|5a7f19eb55429934daa2fcdb	GenerationError: answer cites unknown claim id(s): ['c1', 'c2', 'c3', 'c4', 'c5']
+passage_rag|0|5ab811395542990e739ec80f	GenerationError: answer cites unknown claim id(s): ['Cussonia', 'Ternstroemia']
+passage_rag|0|5ae077805542993d6555eb6e	GenerationError: answer cites unknown claim id(s): ['c1', 'c2', 'c3']
+passage_rag|0|5abe76c255429965af743f15	GenerationError: answer cites unknown claim id(s): ['B.B. King &quot;Into the Night&quot;', "Pirates of the Caribbean: Dead Man's Chest", 'Pirates of the Caribbean: On Stranger Tides']
+passage_rag|0|5a85fc995542996432c5715f	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5a85f...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5ab8f57b5542991b5579f097	GenerationError: answer cites unknown claim id(s): ['c1', 'c3']
+passage_rag|0|5a7ba83f5542995eb53be981	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5a7ba...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5ac322c95542995ef918c117	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5ac32...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5ae5390355429960a22e0271	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5ae53...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5ade15a45542997545bbbe46	GenerationError: answer cites unknown claim id(s): ['c1', 'c4']
+passage_rag|0|5ac3b4e0554299741d48a2ec	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5ac3b...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5ab7484c5542992aa3b8c80d	GenerationError: answer cites unknown claim id(s): ['Locus Solus (journal)', 'c1']
+passage_rag|0|5a82800855429966c78a6a2f	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5a828...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5abeb0da5542997ec76fd34b	GenerationError: answer cites unknown claim id(s): ['Anaganaga O Dheerudu', 'Zokkomon']
+passage_rag|0|5a8660ba55429960ec39b684	GenerationError: answer cites unknown claim id(s): ['Ozzie Zehner', 'University of New Mexico']
+passage_rag|0|5ac3ac8255429939154138ad	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5ac3a...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5a7ec61a55429934daa2fc5f	GenerationError: answer cites unknown claim id(s): ['p0']
+passage_rag|0|5adbe1c5554299438c868cc4	GenerationError: answer cites unknown claim id(s): ['c3']
+passage_rag|0|5a893fc855429951533612f0	GenerationError: answer cites unknown claim id(s): ['c1', 'c2']
+passage_rag|0|5a8778d25542994846c1cd89	GenerationError: answer cites unknown claim id(s): ['c1', 'c2', 'c3', 'c4']
+passage_rag|0|5ab25004554299722f9b4cd7	GenerationError: answer cites unknown claim id(s): ['c3']
+passage_rag|0|5adeda67554299728e26c7db	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5aded...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5a87c0945542996e4f30890b	ValidationError: 1 validation error for EvidencePackage
+  Value error, duplicate claim_id values are not allowed [type=value_error, input_value={'package_id': 'pkg-5a87c...truncated_claim_ids=())}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+passage_rag|0|5a887898554299206df2b2a2	GenerationError: answer cites unknown claim id(s): ['Perilla', 'Perilla frutescens']
+passage_rag|0|5abdbf3755429933744ab818	GenerationError: answer cites unknown claim id(s): ['R U the Girl']
+passage_rag|0|5addfe1c5542995b365fabaf	GenerationError: answer cites unknown claim id(s): ['Jacques Audiard', 'Wolfgang Becker']
+passage_rag|0|5ae25ed15542992decbdccd2	GenerationError: answer cites unknown claim id(s): ['S1', 'S2', 'S3', 'S4', 'S5']
+passage_rag|0|5ac21ac05542991316484bee	GenerationError: answer cites unknown claim id(s): ['Bon Appétit']
+claim_only_rag|0|5add23e45542992ae4cec4a1	GenerationError: answer cites unknown claim id(s): ['c651713c6edfba59c', 'c9eff31b87c13c070', 'c9ff1fd637c1abb84', 'ce2eb140644e7998f']
+claim_only_rag|0|5a8f08c2554299458435d530	GenerationError: answer cites unknown claim id(s): ['c3', 'c4']
+claim_only_rag|0|5a8e4d9855429917b4a5bd8d	GenerationError: answer cites unknown claim id(s): ['c21ddc8110d178d0', 'eb8cac1600b000f9']
+claim_only_rag|0|5ac5101455429924173fb592	GenerationError: model output has an empty or missing 'answer'
+claim_only_rag|0|5abafb6d5542992ccd8e7e92	GenerationError: model output has an empty or missing 'answer'
+claim_only_rag|0|5a721a7655429971e9dc9271	GenerationError: model output has an empty or missing 'answer'
+claim_only_rag|0|5ade69e455429975fa854ec5	GenerationError: answer cites unknown claim id(s): ['c858ac65cfc23ea96', 'e55a3a68b12290a4']
+claim_only_rag|0|5a72d7b35542991f9a20c5be	GenerationError: model output has an empty or missing 'answer'
+claim_only_rag|0|5a712beb5542994082a3e61c	GenerationError: model output has an empty or missing 'answer'
+claim_only_rag|0|5ac0dcf25542996f0d89cc2c	GenerationError: model output has an empty or missing 'answer'
+claim_only_rag|0|5ae7fb1155429952e35ea9eb	GenerationError: model output has an empty or missing 'answer'
+claim_only_rag|0|5ae377415542992e3233c40a	GenerationError: answer cites unknown claim id(s): ['58c987faf0c8ab81']
+claim_only_rag|0|5a802fb8554299485f598582	GenerationError: answer cites unknown claim id(s): ['c1']
+claim_only_rag|0|5ac00278554299012d1db56b	GenerationError: model output has an empty or missing 'answer'
+claim_only_rag|0|5a7e22ed5542995ed0d166a7	GenerationError: answer cites unknown claim id(s): ['c5dc2b7cfd90f2f2']
+claim_only_rag|0|5a82800855429966c78a6a2f	GenerationError: answer cites unknown claim id(s): ['c1', 'c2']
+claim_only_rag|0|5abeb0da5542997ec76fd34b	GenerationError: answer cites unknown claim id(s): ['c5', 'c7']
+claim_only_rag|0|5ac3ac8255429939154138ad	GenerationError: answer cites unknown claim id(s): ['c758ade420651101b', 'cda3f98821df10329']
+claim_only_rag|0|5ab25004554299722f9b4cd7	GenerationError: answer cites unknown claim id(s): ['c8', 'c9']
+claim_only_rag|0|5ae25ed15542992decbdccd2	GenerationError: answer cites unknown claim id(s): ['c1', 'c2', 'c3', 'c4', 'c5', 'c6']
+graph_top_claim|0|5a778b1e55429949eeb29ee3	GenerationError: answer cites unknown claim id(s): ['c4', 'c5']
+graph_top_claim|0|5a794119554299029c4b5f3c	GenerationError: answer cites unknown claim id(s): ['a9e44b4c2ffac810']
+graph_top_claim|0|5a72d7b35542991f9a20c5be	GenerationError: model output has an empty or missing 'answer'
+graph_top_claim|0|5a712beb5542994082a3e61c	ConvergenceError: belief propagation did not converge within 50 iterations (last max_delta=1.555e-04)
+graph_top_claim|0|5a8c42445542996e8ac88a3f	GenerationError: answer cites unknown claim id(s): ['a3358249294ccb4a', 'e1904f991d6ccc6c']
+graph_top_claim|0|5ac0dcf25542996f0d89cc2c	ConvergenceError: belief propagation did not converge within 50 iterations (last max_delta=1.075e-03)
+graph_top_claim|0|5ae7fb1155429952e35ea9eb	GenerationError: answer cites unknown claim id(s): ['c1']
+graph_top_claim|0|5a7c74a65542990527d554b0	ConvergenceError: belief propagation did not converge within 50 iterations (last max_delta=1.375e-04)
+graph_top_claim|0|5a802fb8554299485f598582	GenerationError: answer cites unknown claim id(s): ['c1']
+graph_top_claim|0|5ab8f57b5542991b5579f097	ConvergenceError: belief propagation did not converge within 50 iterations (last max_delta=1.761e-04)
+graph_top_claim|0|5ac21ac05542991316484bee	GenerationError: answer cites unknown claim id(s): ['c1', 'c2']
+graph_no_contradiction|0|5ac24cea55429951e9e6853a	GenerationError: model output has an empty or missing 'answer'
+graph_no_contradiction|0|5ae00a27554299025d62a3bb	GenerationError: model output has an empty or missing 'answer'
+graph_no_contradiction|0|5a77b13655429967ab105235	GenerationError: answer cites unknown claim id(s): ['c6e8c4353101284d']
+graph_no_contradiction|0|5a8e4d9855429917b4a5bd8d	GenerationError: model output has an empty or missing 'answer'
+graph_no_contradiction|0|5a7912f655429974737f796c	GenerationError: model output has an empty or missing 'answer'
+graph_no_contradiction|0|5a881d2355429938390d3eeb	GenerationError: model output has an empty or missing 'answer'
+graph_no_contradiction|0|5a7b43735542992d025e67cb	GenerationError: answer cites unknown claim id(s): ['a3abf697c941ecfe']
+graph_no_contradiction|0|5ac5101455429924173fb592	GenerationError: model output has an empty or missing 'answer'
+graph_no_contradiction|0|5ab3e07e55429969a97a81e5	GenerationError: model output has an empty or missing 'answer'
+graph_no_contradiction|0|5ab5cd0d554299488d4d9a30	GenerationError: model output has an empty or missing 'answer'
+graph_no_contradiction|0|5a721a7655429971e9dc9271	GenerationError: model output has an empty or missing 'answer'
+graph_no_contradiction|0|5ac385f8554299741d48a279	GenerationError: model output has an empty or missing 'answer'
+graph_no_contradiction|0|5ade69e455429975fa854ec5	GenerationError: model output has an empty or missing 'answer'
+graph_no_contradiction|0|5ae2b794554299495565db10	GenerationError: model output has an empty or missing 'answer'
+graph_no_contradiction|0|5a72d7b35542991f9a20c5be	GenerationError: model output has an empty or missing 'answer'
+graph_no_contradiction|0|5abae3b05542996606241661	GenerationError: model output has an empty or missing 'answer'
+graph_no_contradiction|0|5ab674ee5542995eadeefff2	GenerationError: model output has an empty or missing 'answer'
+graph_no_contradiction|0|5a712beb5542994082a3e61c	GenerationError: model output has an empty or missing 'answer'
+graph_no_contradiction|0|5a8c42445542996e8ac88a3f	GenerationError: model output has an empty or missing 'answer'
+graph_no_contradiction|0|5ac0dcf25542996f0d89cc2c	GenerationError: model output has an empty or missing 'answer'
+graph_no_contradiction|0|5ab7bfe955429928e1fe38c2	GenerationError: model output has an empty or missing 'answer'
+graph_no_contradiction|0|5abe044d5542991f661060a7	GenerationError: model output has an empty or missing 'answer'
+graph_no_contradiction|0|5a802fb8554299485f598582	GenerationError: answer cites unknown claim id(s): ['c1']
+graph_no_contradiction|0|5a72bd0b5542992359bc318f	GenerationError: answer cites unknown claim id(s): ['a481ca2db90c74c9']
+graph_no_contradiction|0|5ab811395542990e739ec80f	GenerationError: answer cites unknown claim id(s): ['af93727cde43ae4b']
+graph_no_contradiction|0|5a85fc995542996432c5715f	GenerationError: answer cites unknown claim id(s): ['c0e5b1630d80eb64']
+graph_no_contradiction|0|5a7ba83f5542995eb53be981	GenerationError: answer cites unknown claim id(s): ['c1']
+graph_no_contradiction|0|5a893fc855429951533612f0	GenerationError: answer cites unknown claim id(s): ['c1']
+graph_no_contradiction|0|5a8778d25542994846c1cd89	GenerationError: answer cites unknown claim id(s): ['7642c3e643f32be1', 'c8222b57fc1a7281']
+graph_no_contradiction|0|5addfe1c5542995b365fabaf	GenerationError: answer cites unknown claim id(s): ['c1']
+full_egrag|0|5ac24cea55429951e9e6853a	GenerationError: model output has an empty or missing 'answer'
+full_egrag|0|5a8f08c2554299458435d530	GenerationError: malformed structured output: no valid top-level JSON object found in output
+full_egrag|0|5a77b13655429967ab105235	GenerationError: answer cites unknown claim id(s): ['c6e8c4353101284d']
+full_egrag|0|5a881d2355429938390d3eeb	GenerationError: model output has an empty or missing 'answer'
+full_egrag|0|5ab85c8d55429934fafe6d84	GenerationError: answer cites rejected evidence as support: ['clm-13f2815f865cd1f5']
+full_egrag|0|5a721a7655429971e9dc9271	GenerationError: model output has an empty or missing 'answer'
+full_egrag|0|5ac385f8554299741d48a279	GenerationError: model output has an empty or missing 'answer'
+full_egrag|0|5ae2b794554299495565db10	GenerationError: model output has an empty or missing 'answer'
+full_egrag|0|5a72d7b35542991f9a20c5be	GenerationError: model output has an empty or missing 'answer'
+full_egrag|0|5a712beb5542994082a3e61c	ConvergenceError: belief propagation did not converge within 50 iterations (last max_delta=1.555e-04)
+full_egrag|0|5ac0dcf25542996f0d89cc2c	ConvergenceError: belief propagation did not converge within 50 iterations (last max_delta=1.075e-03)
+full_egrag|0|5a74bdce55429929fddd84e1	GenerationError: answer cites unknown claim id(s): ['c1bd0e316b0978ac']
+full_egrag|0|5ae095f055429924de1b7103	GenerationError: answer cites unknown claim id(s): ['1f67d5ed613bdf11']
+full_egrag|0|5a7c74a65542990527d554b0	ConvergenceError: belief propagation did not converge within 50 iterations (last max_delta=1.375e-04)
+full_egrag|0|5a802fb8554299485f598582	GenerationError: answer cites unknown claim id(s): ['c1']
+full_egrag|0|5a85fc995542996432c5715f	GenerationError: answer cites unknown claim id(s): ['c0e5b1630d80eb64']
+full_egrag|0|5ab8f57b5542991b5579f097	ConvergenceError: belief propagation did not converge within 50 iterations (last max_delta=1.761e-04)
+full_egrag|0|5a7ba83f5542995eb53be981	GenerationError: answer cites unknown claim id(s): ['c1']
+full_egrag|0|5ac21ac05542991316484bee	GenerationError: answer cites unknown claim id(s): ['c1', 'c4']

@@ -1,0 +1,593 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 148
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-bf5d542a31984c18",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "George Bernard Shaw::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "George Bernard Shaw",
+          "title": "George Bernard Shaw",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 257,
+            "source_id": "George Bernard Shaw",
+            "start": 0,
+            "text": "George Bernard Shaw ( ; 26 July 1856\u00a0\u2013 2 November 1950), known at his insistence simply as Bernard Shaw, was an Irish playwright, critic and polemicist whose influence on Western theatre, culture and politics extended from the 1880s to his death and beyond."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "George Bernard Shaw",
+          "Bernard Shaw",
+          "Irish",
+          "Western"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "George Bernard Shaw",
+        "temporal_expressions": [
+          "1950"
+        ]
+      },
+      "source_reliability": null,
+      "text": "George Bernard Shaw ( ; 26 July 1856 \u2013 2 November 1950), known at his insistence simply as Bernard Shaw, was an Irish playwright, critic and polemicist whose influence on Western theatre, culture and politics extended from the 1880s to his death and beyond.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-f77d96d76e19ebf5",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Jean-Paul Sartre Experience::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Jean-Paul Sartre Experience",
+          "title": "Jean-Paul Sartre Experience",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 173,
+            "source_id": "Jean-Paul Sartre Experience",
+            "start": 0,
+            "text": "The Jean-Paul Sartre Experience, later renamed JPS Experience after a lawsuit by the estate of Jean-Paul Sartre, were an indie rock band on New Zealand's Flying Nun Records."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Jean",
+          "Paul Sartre Experience",
+          "JPS Experience",
+          "Paul Sartre",
+          "New Zealand",
+          "Flying Nun Records"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Jean",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The Jean-Paul Sartre Experience, later renamed JPS Experience after a lawsuit by the estate of Jean-Paul Sartre, were an indie rock band on New Zealand's Flying Nun Records.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-855be105fac9c707",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "SHAW: The Annual of Bernard Shaw Studies::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "SHAW: The Annual of Bernard Shaw Studies",
+          "title": "SHAW: The Annual of Bernard Shaw Studies",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 84,
+            "source_id": "SHAW: The Annual of Bernard Shaw Studies",
+            "start": 0,
+            "text": "SHAW: The Annual of Bernard Shaw Studies is an academic journal devoted to the works"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "SHAW",
+          "Annual",
+          "Bernard Shaw Studies"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "SHAW",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "SHAW: The Annual of Bernard Shaw Studies is an academic journal devoted to the works",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-e0cedf371485b903",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "SHAW: The Annual of Bernard Shaw Studies::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "SHAW: The Annual of Bernard Shaw Studies",
+          "title": "SHAW: The Annual of Bernard Shaw Studies",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 117,
+            "source_id": "SHAW: The Annual of Bernard Shaw Studies",
+            "start": 89,
+            "text": "life of George Bernard Shaw."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "George Bernard Shaw"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "George Bernard Shaw",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "life of George Bernard Shaw.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-1ff67fdedfcfd13f",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Jean-Paul Sartre Experience EP::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Jean-Paul Sartre Experience EP",
+          "title": "Jean-Paul Sartre Experience EP",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 106,
+            "source_id": "Jean-Paul Sartre Experience EP",
+            "start": 0,
+            "text": "The Jean-Paul Sartre Experience is an EP by New Zealand band Jean-Paul Sartre Experience released in 1986."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Jean",
+          "Paul Sartre Experience",
+          "EP",
+          "New Zealand"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Jean",
+        "temporal_expressions": [
+          "1986"
+        ]
+      },
+      "source_reliability": null,
+      "text": "The Jean-Paul Sartre Experience is an EP by New Zealand band Jean-Paul Sartre Experience released in 1986.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-8469e8f447d1763c",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Saint Genet::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Saint Genet",
+          "title": "Saint Genet",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 18,
+            "source_id": "Saint Genet",
+            "start": 0,
+            "text": "Saint Genet, Actor"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Saint Genet",
+          "Actor"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Saint Genet",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Saint Genet, Actor",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-19c88121f3172ccc",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Saint Genet::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Saint Genet",
+          "title": "Saint Genet",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 196,
+            "source_id": "Saint Genet",
+            "start": 23,
+            "text": "Martyr (French: \"Saint Genet, com\u00e9dien et martyr\" ) is a book by the French philosopher Jean-Paul Sartre about the writer Jean Genet especially on his \"The Thief's Journal\"."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Martyr",
+          "French",
+          "Saint Genet",
+          "Jean",
+          "Paul Sartre",
+          "Jean Genet",
+          "Thief",
+          "Journal"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Martyr",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Martyr (French: \"Saint Genet, com\u00e9dien et martyr\" ) is a book by the French philosopher Jean-Paul Sartre about the writer Jean Genet especially on his \"The Thief's Journal\".",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [
+    {
+      "claim_ids": [
+        "clm-19c88121f3172ccc",
+        "clm-1ff67fdedfcfd13f",
+        "clm-8469e8f447d1763c"
+      ],
+      "conflict_id": "conflict:0",
+      "members": [
+        {
+          "claim_id": "clm-19c88121f3172ccc",
+          "independent_support": 0,
+          "propagated_belief": 0.520829,
+          "relation_confidence": 0.987166,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-1ff67fdedfcfd13f",
+          "independent_support": 0,
+          "propagated_belief": 0.450171,
+          "relation_confidence": 0.92498,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-8469e8f447d1763c",
+          "independent_support": 0,
+          "propagated_belief": 0.420052,
+          "relation_confidence": 0.987166,
+          "source_reliability": 0.5,
+          "timestamp": null
+        }
+      ],
+      "outcome": "unresolved",
+      "preferred_claim_id": null,
+      "relation_ids": [
+        "rel-1edc4486edf01f57",
+        "rel-f331492313dab54c"
+      ],
+      "resolution_note": "top two competitors within margin 0.100 (0.521 vs 0.450)",
+      "resolved": false
+    }
+  ],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5abbb42555429931dba144af",
+    "text": "Jean-Paul Sartre or George Bernard Shaw  have more influence on turn of the century literature?"
+  },
+  "relations": [
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.92498
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.92498,
+      "relation_id": "rel-1edc4486edf01f57",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-19c88121f3172ccc",
+      "target_claim_id": "clm-1ff67fdedfcfd13f"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.987166
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.987166,
+      "relation_id": "rel-f331492313dab54c",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-19c88121f3172ccc",
+      "target_claim_id": "clm-8469e8f447d1763c"
+    },
+    {
+      "bridge": null,
+      "direction": "directed",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "entailment",
+        "features": {
+          "entailment": 0.584027
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "entailment above threshold",
+      "relation_confidence": 0.584027,
+      "relation_id": "rel-06b3446f26894a0f",
+      "relation_type": "support",
+      "source_claim_id": "clm-855be105fac9c707",
+      "target_claim_id": "clm-e0cedf371485b903"
+    },
+    {
+      "bridge": null,
+      "direction": "directed",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "entailment",
+        "features": {
+          "entailment": 0.808145
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "entailment above threshold",
+      "relation_confidence": 0.808145,
+      "relation_id": "rel-6781e489b12c3735",
+      "relation_type": "support",
+      "source_claim_id": "clm-bf5d542a31984c18",
+      "target_claim_id": "clm-e0cedf371485b903"
+    }
+  ],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.548683,
+      "claim_id": "clm-e0cedf371485b903",
+      "rank": 0,
+      "reason": "top base value within budget",
+      "selection_score": 0.91633,
+      "status": "accepted",
+      "utility": 0.367647
+    },
+    {
+      "belief": 0.520829,
+      "claim_id": "clm-19c88121f3172ccc",
+      "rank": 1,
+      "reason": "top base value within budget",
+      "selection_score": 0.842258,
+      "status": "disputed",
+      "utility": 0.321429
+    },
+    {
+      "belief": 0.463333,
+      "claim_id": "clm-f77d96d76e19ebf5",
+      "rank": 2,
+      "reason": "top base value within budget",
+      "selection_score": 0.796666,
+      "status": "accepted",
+      "utility": 0.333333
+    },
+    {
+      "belief": 0.462,
+      "claim_id": "clm-855be105fac9c707",
+      "rank": 3,
+      "reason": "top base value within budget",
+      "selection_score": 0.792,
+      "status": "accepted",
+      "utility": 0.33
+    },
+    {
+      "belief": 0.450171,
+      "claim_id": "clm-1ff67fdedfcfd13f",
+      "rank": 4,
+      "reason": "top base value within budget",
+      "selection_score": 0.774245,
+      "status": "disputed",
+      "utility": 0.324074
+    },
+    {
+      "belief": 0.420052,
+      "claim_id": "clm-8469e8f447d1763c",
+      "rank": 5,
+      "reason": "top base value within budget",
+      "selection_score": 0.670052,
+      "status": "disputed",
+      "utility": 0.25
+    }
+  ],
+  "subgraph": null
+}

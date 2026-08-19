@@ -1,0 +1,40 @@
+{
+  "claims": [
+    "clm-bb4ee96bfb032409",
+    "clm-53679d2bc7d457fb",
+    "clm-edc8b7a0ed7a0a22",
+    "clm-8cecaf0552516ae4",
+    "clm-d00b3039cb12503d",
+    "clm-b78c836ad95eae1d",
+    "clm-c64dd11585f8df8a",
+    "clm-f315fa28f3a64035",
+    "clm-06df2cd9629b074a"
+  ],
+  "relations": [
+    {
+      "source": "clm-06df2cd9629b074a",
+      "target": "clm-f315fa28f3a64035",
+      "type": "contradiction"
+    },
+    {
+      "source": "clm-53679d2bc7d457fb",
+      "target": "clm-edc8b7a0ed7a0a22",
+      "type": "contradiction"
+    },
+    {
+      "source": "clm-8cecaf0552516ae4",
+      "target": "clm-d00b3039cb12503d",
+      "type": "contradiction"
+    },
+    {
+      "source": "clm-b78c836ad95eae1d",
+      "target": "clm-c64dd11585f8df8a",
+      "type": "support"
+    },
+    {
+      "source": "clm-d00b3039cb12503d",
+      "target": "clm-edc8b7a0ed7a0a22",
+      "type": "contradiction"
+    }
+  ]
+}

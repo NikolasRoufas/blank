@@ -1,0 +1,585 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 175
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-06df2cd9629b074a",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'it' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Baron Trevor::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Baron Trevor",
+          "title": "Baron Trevor",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 94,
+            "source_id": "Baron Trevor",
+            "start": 0,
+            "text": "It was created first in 1662 in the Peerage of Ireland along with the viscountcy of Dungannon."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Peerage",
+          "Ireland",
+          "Dungannon"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "It",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "It was created first in 1662 in the Peerage of Ireland along with the viscountcy of Dungannon.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-53679d2bc7d457fb",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Soaps In Depth::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Soaps In Depth",
+          "title": "Soaps In Depth",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 242,
+            "source_id": "Soaps In Depth",
+            "start": 135,
+            "text": "potential shopper individual choices from the \"Big Three\" networks: ABC Soaps In Depth, CBS Soaps In Depth,"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Big Three",
+          "ABC Soaps In Depth",
+          "CBS Soaps In Depth"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Big Three",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "potential shopper individual choices from the \"Big Three\" networks: ABC Soaps In Depth, CBS Soaps In Depth,",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-8cecaf0552516ae4",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Soaps In Depth::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Soaps In Depth",
+          "title": "Soaps In Depth",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 168,
+            "source_id": "Soaps In Depth",
+            "start": 0,
+            "text": "Soaps In Depth is a series of magazines created in 1997 by Bauer Publications to give American soap opera viewers more variety in their soap-related magazine purchases."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Soaps In Depth",
+          "Bauer Publications",
+          "American"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Soaps In Depth",
+        "temporal_expressions": [
+          "1997"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Soaps In Depth is a series of magazines created in 1997 by Bauer Publications to give American soap opera viewers more variety in their soap-related magazine purchases.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-b78c836ad95eae1d",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Soap Opera Update::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Soap Opera Update",
+          "title": "Soap Opera Update",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 119,
+            "source_id": "Soap Opera Update",
+            "start": 57,
+            "text": "releasing an annual issue to review the soaps of the past year"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": null,
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "releasing an annual issue to review the soaps of the past year",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-bb4ee96bfb032409",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Soaps In Depth::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Soaps In Depth",
+          "title": "Soaps In Depth",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 130,
+            "source_id": "Soaps In Depth",
+            "start": 0,
+            "text": "Instead of buying a magazine like \"Soap Opera Digest\", in which all soap operas are covered, \"Soaps In Depth\" gave the soap viewer"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Instead",
+          "Soap Opera Digest",
+          "Soaps In Depth"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Instead",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Instead of buying a magazine like \"Soap Opera Digest\", in which all soap operas are covered, \"Soaps In Depth\" gave the soap viewer",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-c64dd11585f8df8a",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Soap Opera Update::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Soap Opera Update",
+          "title": "Soap Opera Update",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 155,
+            "source_id": "Soap Opera Update",
+            "start": 124,
+            "text": "preview soaps for the new year."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": null,
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "preview soaps for the new year.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-d00b3039cb12503d",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Soap Opera Update::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Soap Opera Update",
+          "title": "Soap Opera Update",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 52,
+            "source_id": "Soap Opera Update",
+            "start": 0,
+            "text": "In 2006, the \"Update\" began issuing \"Soaps In Depth\""
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Update",
+          "Soaps In Depth"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Update",
+        "temporal_expressions": [
+          "2006"
+        ]
+      },
+      "source_reliability": null,
+      "text": "In 2006, the \"Update\" began issuing \"Soaps In Depth\"",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-edc8b7a0ed7a0a22",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Soaps In Depth::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Soaps In Depth",
+          "title": "Soaps In Depth",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 266,
+            "source_id": "Soaps In Depth",
+            "start": 247,
+            "text": "NBC Soaps In Depth."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "NBC Soaps In Depth"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "NBC Soaps In Depth",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "NBC Soaps In Depth.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-f315fa28f3a64035",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Baron Talbot::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Baron Talbot",
+          "title": "Baron Talbot",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 54,
+            "source_id": "Baron Talbot",
+            "start": 0,
+            "text": "The title was created first in the Peerage of England."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Peerage",
+          "England"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Peerage",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The title was created first in the Peerage of England.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "pkg-5ac294b955429921a00aafd0",
+  "query": {
+    "created_at": null,
+    "query_id": "5ac294b955429921a00aafd0",
+    "text": "Which magazine was created first, Macworld or Soaps In Depth?"
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": null,
+      "claim_id": "clm-06df2cd9629b074a",
+      "rank": 0,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-53679d2bc7d457fb",
+      "rank": 1,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-8cecaf0552516ae4",
+      "rank": 2,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-b78c836ad95eae1d",
+      "rank": 3,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-bb4ee96bfb032409",
+      "rank": 4,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-c64dd11585f8df8a",
+      "rank": 5,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-d00b3039cb12503d",
+      "rank": 6,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-edc8b7a0ed7a0a22",
+      "rank": 7,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-f315fa28f3a64035",
+      "rank": 8,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    }
+  ],
+  "subgraph": null
+}

@@ -1,0 +1,412 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 124
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-8f7c52e53fbec580",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Sam Mintz::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Sam Mintz",
+          "title": "Sam Mintz",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 200,
+            "source_id": "Sam Mintz",
+            "start": 0,
+            "text": "Sam Mintz (Belarusian: \u0421\u044d\u043c \u041c\u0456\u043d\u0446 ; July 12, 1897 \u2013 September 13, 1957) was an American screenwriter from Belarus, who was nominated in the category of Best Adapted Screenplay at the 4th Academy Awards."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Sam Mintz",
+          "Belarusian",
+          "American",
+          "Belarus",
+          "Best Adapted Screenplay",
+          "Academy Awards"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Sam Mintz",
+        "temporal_expressions": [
+          "July 12, 1897",
+          "September 13, 1957"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Sam Mintz (Belarusian: \u0421\u044d\u043c \u041c\u0456\u043d\u0446 ; July 12, 1897 \u2013 September 13, 1957) was an American screenwriter from Belarus, who was nominated in the category of Best Adapted Screenplay at the 4th Academy Awards.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-c0e5b1630d80eb64",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'he' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Sam Mintz::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Sam Mintz",
+          "title": "Sam Mintz",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 36,
+            "source_id": "Sam Mintz",
+            "start": 0,
+            "text": "He was nominated alongside Joseph L."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Joseph L"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "He",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "He was nominated alongside Joseph L.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-cb7e9f71534c4a9f",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Mabel Greer's Toyshop::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Mabel Greer's Toyshop",
+          "title": "Mabel Greer's Toyshop",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 86,
+            "source_id": "Mabel Greer's Toyshop",
+            "start": 0,
+            "text": "Members included Chris Squire, Peter Banks, Tony Kaye, Bill Bruford, and Jon Anderson."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Members",
+          "Chris Squire",
+          "Peter Banks",
+          "Tony Kaye",
+          "Bill Bruford",
+          "Jon Anderson"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Members",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Members included Chris Squire, Peter Banks, Tony Kaye, Bill Bruford, and Jon Anderson.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-cbdb8ed5d0592907",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Francis Mankiewicz::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Francis Mankiewicz",
+          "title": "Francis Mankiewicz",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 99,
+            "source_id": "Francis Mankiewicz",
+            "start": 75,
+            "text": "Mankiewicz and Herman J."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Mankiewicz",
+          "Herman J"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Mankiewicz",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Mankiewicz and Herman J.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-d256f077cc754c7a",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Francis Mankiewicz::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Francis Mankiewicz",
+          "title": "Francis Mankiewicz",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 74,
+            "source_id": "Francis Mankiewicz",
+            "start": 0,
+            "text": "His father was a second cousin to the famous Hollywood brothers, Joseph L."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Hollywood",
+          "Joseph L"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Hollywood",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "His father was a second cousin to the famous Hollywood brothers, Joseph L.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-d5698527f5ea014e",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Sleuth (1972 film)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Sleuth (1972 film)",
+          "title": "Sleuth (1972 film)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 80,
+            "source_id": "Sleuth (1972 film)",
+            "start": 0,
+            "text": "Both Olivier and Caine were nominated for Academy Awards for their performances."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Olivier",
+          "Caine",
+          "Academy Awards"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Olivier",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Both Olivier and Caine were nominated for Academy Awards for their performances.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "pkg-5a85fc995542996432c5715f",
+  "query": {
+    "created_at": null,
+    "query_id": "5a85fc995542996432c5715f",
+    "text": "Who won more academy awards,  Joseph L. Mankiewicz or Tony Kaye?"
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": null,
+      "claim_id": "clm-8f7c52e53fbec580",
+      "rank": 0,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-c0e5b1630d80eb64",
+      "rank": 1,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-cb7e9f71534c4a9f",
+      "rank": 2,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-cbdb8ed5d0592907",
+      "rank": 3,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-d256f077cc754c7a",
+      "rank": 4,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-d5698527f5ea014e",
+      "rank": 5,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    }
+  ],
+  "subgraph": null
+}

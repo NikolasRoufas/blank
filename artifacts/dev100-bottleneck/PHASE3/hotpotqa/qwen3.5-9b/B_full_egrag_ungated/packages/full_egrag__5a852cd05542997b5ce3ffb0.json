@@ -1,0 +1,564 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 101
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-8463d7532bddd810",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "George A. McCall School::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "George A. McCall School",
+          "title": "George A. McCall School",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 17,
+            "source_id": "George A. McCall School",
+            "start": 0,
+            "text": "General George A."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "General George A"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "General George A",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "General George A.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-b17e080e3c1c1802",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "George A. McCall School::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "George A. McCall School",
+          "title": "George A. McCall School",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 112,
+            "source_id": "George A. McCall School",
+            "start": 18,
+            "text": "McCall School is a public K\u20138 school in the Society Hill section of Center City, Philadelphia."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "McCall School",
+          "K",
+          "Society Hill",
+          "Center City",
+          "Philadelphia"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "McCall School",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "McCall School is a public K\u20138 school in the Society Hill section of Center City, Philadelphia.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-2eae6eb115f73e56",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Oakland, California::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Oakland, California",
+          "title": "Oakland, California",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 212,
+            "source_id": "Oakland, California",
+            "start": 0,
+            "text": "A major West Coast port city, Oakland is the largest city in the East Bay region of the San Francisco Bay Area, the third largest city overall in the San Francisco Bay Area, the eighth largest city in California,"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "West Coast",
+          "Oakland",
+          "East Bay",
+          "San Francisco Bay Area",
+          "California"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "West Coast",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "A major West Coast port city, Oakland is the largest city in the East Bay region of the San Francisco Bay Area, the third largest city overall in the San Francisco Bay Area, the eighth largest city in California,",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-e5d59aabeff1453a",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Oakland, California::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Oakland, California",
+          "title": "Oakland, California",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 302,
+            "source_id": "Oakland, California",
+            "start": 217,
+            "text": "the 45th largest city in the United States, with a population of 419,267 as of 2015 ."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "United States"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "United States",
+        "temporal_expressions": [
+          "2015"
+        ]
+      },
+      "source_reliability": null,
+      "text": "the 45th largest city in the United States, with a population of 419,267 as of 2015 .",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-22b362eef0d605dc",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "George A. McCall School::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "George A. McCall School",
+          "title": "George A. McCall School",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 83,
+            "source_id": "George A. McCall School",
+            "start": 0,
+            "text": "The school, a part of the School District of Philadelphia, is named after George A."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "School District",
+          "Philadelphia",
+          "George A"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "School District",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The school, a part of the School District of Philadelphia, is named after George A.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-2d496d467193422c",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Saint John, New Brunswick::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Saint John, New Brunswick",
+          "title": "Saint John, New Brunswick",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 95,
+            "source_id": "Saint John, New Brunswick",
+            "start": 0,
+            "text": "Saint John (] ) is the port city of the Bay of Fundy in the Canadian province of New Brunswick."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Saint John",
+          "Bay",
+          "Fundy",
+          "Canadian",
+          "New Brunswick"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Saint John",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Saint John (] ) is the port city of the Bay of Fundy in the Canadian province of New Brunswick.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-a4aecde57a1b09de",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "August Frederik Beutler::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "August Frederik Beutler",
+          "title": "August Frederik Beutler",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 137,
+            "source_id": "August Frederik Beutler",
+            "start": 0,
+            "text": "Beutler wrote a comprehensive account of his pioneering expedition which was first published in 1896 by the historian George McCall Theal"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Beutler",
+          "George McCall Theal"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Beutler",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Beutler wrote a comprehensive account of his pioneering expedition which was first published in 1896 by the historian George McCall Theal",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-0991296741f22d5c",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "August Frederik Beutler::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "August Frederik Beutler",
+          "title": "August Frederik Beutler",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 222,
+            "source_id": "August Frederik Beutler",
+            "start": 142,
+            "text": "in 1922 by the Dutch historian Everhardus Cornelis God\u00e9e Molsbergen (1875\u20131940)."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Dutch",
+          "Everhardus Cornelis",
+          "Molsbergen"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Dutch",
+        "temporal_expressions": [
+          "1922",
+          "1940"
+        ]
+      },
+      "source_reliability": null,
+      "text": "in 1922 by the Dutch historian Everhardus Cornelis God\u00e9e Molsbergen (1875\u20131940).",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [
+    {
+      "claim_ids": [
+        "clm-2d496d467193422c",
+        "clm-2eae6eb115f73e56"
+      ],
+      "conflict_id": "conflict:0",
+      "members": [
+        {
+          "claim_id": "clm-2d496d467193422c",
+          "independent_support": 1,
+          "propagated_belief": 0.616315,
+          "relation_confidence": 0.88736,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-2eae6eb115f73e56",
+          "independent_support": 0,
+          "propagated_belief": 0.430789,
+          "relation_confidence": 0.88736,
+          "source_reliability": 0.5,
+          "timestamp": null
+        }
+      ],
+      "outcome": "preferred",
+      "preferred_claim_id": "clm-2d496d467193422c",
+      "relation_ids": [
+        "rel-3a63cec6570ba86e"
+      ],
+      "resolution_note": "'clm-2d496d467193422c' leads on belief by at least the margin 0.100",
+      "resolved": true
+    }
+  ],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5a852cd05542997b5ce3ffb0",
+    "text": "The birthplace of George McCall Theal is a port city of what bay?"
+  },
+  "relations": [
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.88736
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.88736,
+      "relation_id": "rel-3a63cec6570ba86e",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-2d496d467193422c",
+      "target_claim_id": "clm-2eae6eb115f73e56"
+    },
+    {
+      "bridge": null,
+      "direction": "directed",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "entailment",
+        "features": {
+          "entailment": 0.402374
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "entailment above threshold",
+      "relation_confidence": 0.402374,
+      "relation_id": "rel-1ba83eea5dd207fd",
+      "relation_type": "support",
+      "source_claim_id": "clm-b17e080e3c1c1802",
+      "target_claim_id": "clm-2d496d467193422c"
+    }
+  ],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.616315,
+      "claim_id": "clm-2d496d467193422c",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 1.0,
+      "status": "accepted",
+      "utility": 0.4
+    },
+    {
+      "belief": 0.430789,
+      "claim_id": "clm-2eae6eb115f73e56",
+      "rank": 1,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.810419,
+      "status": "rejected",
+      "utility": 0.37963
+    },
+    {
+      "belief": 0.484545,
+      "claim_id": "clm-b17e080e3c1c1802",
+      "rank": 2,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.870909,
+      "status": "accepted",
+      "utility": 0.386364
+    }
+  ],
+  "subgraph": null
+}

@@ -1,0 +1,312 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 30
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-398d825b2e4331ba",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Mona Simpson (The Simpsons)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Mona Simpson (The Simpsons)",
+          "title": "Mona Simpson (The Simpsons)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 118,
+            "source_id": "Mona Simpson (The Simpsons)",
+            "start": 0,
+            "text": "Mona Penelope Simpson (n\u00e9e Olsen) is a recurring fictional character in the animated television series \"The Simpsons\"."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Mona Penelope Simpson",
+          "Olsen",
+          "Simpsons"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Mona Penelope Simpson",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Mona Penelope Simpson (n\u00e9e Olsen) is a recurring fictional character in the animated television series \"The Simpsons\".",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-fa5eb2e828f2dafb",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Mona Leaves-a::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Mona Leaves-a",
+          "title": "Mona Leaves-a",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 63,
+            "source_id": "Mona Leaves-a",
+            "start": 0,
+            "text": "The episode features the death of Homer's mother, Mona Simpson."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Homer",
+          "Mona Simpson"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Homer",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The episode features the death of Homer's mother, Mona Simpson.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-9670123ac0ba4f0b",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Good Night (The Simpsons short)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Good Night (The Simpsons short)",
+          "title": "Good Night (The Simpsons short)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 104,
+            "source_id": "Good Night (The Simpsons short)",
+            "start": 0,
+            "text": "After three seasons on Tracey Ullman, the shorts would be adapted into the animated show \"The Simpsons\"."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [
+          "would"
+        ],
+        "named_entities": [
+          "After",
+          "Tracey Ullman",
+          "Simpsons"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "After",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "After three seasons on Tracey Ullman, the shorts would be adapted into the animated show \"The Simpsons\".",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-b3e45a37b8e97ded",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "The Itchy &amp; Scratchy &amp; Poochie Show::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "The Itchy &amp; Scratchy &amp; Poochie Show",
+          "title": "The Itchy &amp; Scratchy &amp; Poochie Show",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 143,
+            "source_id": "The Itchy &amp; Scratchy &amp; Poochie Show",
+            "start": 0,
+            "text": "\"The Itchy & Scratchy & Poochie Show\" is the fourteenth episode in the eighth season of the American animated television series \"The Simpsons\"."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Itchy",
+          "Scratchy",
+          "Poochie Show",
+          "American",
+          "Simpsons"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Itchy",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "\"The Itchy & Scratchy & Poochie Show\" is the fourteenth episode in the eighth season of the American animated television series \"The Simpsons\".",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-4c07138dd7003fac",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "The Itchy &amp; Scratchy &amp; Poochie Show::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "The Itchy &amp; Scratchy &amp; Poochie Show",
+          "title": "The Itchy &amp; Scratchy &amp; Poochie Show",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 181,
+            "source_id": "The Itchy &amp; Scratchy &amp; Poochie Show",
+            "start": 0,
+            "text": "With \"The Itchy & Scratchy & Poochie Show\", the show's 167th episode, \"The Simpsons\" surpassed \"The Flintstones\" in the number of episodes produced for a prime-time animated series."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Itchy",
+          "Scratchy",
+          "Poochie Show",
+          "Simpsons",
+          "Flintstones"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Itchy",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "With \"The Itchy & Scratchy & Poochie Show\", the show's 167th episode, \"The Simpsons\" surpassed \"The Flintstones\" in the number of episodes produced for a prime-time animated series.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5ab5b0f75542992aa134a38c",
+    "text": "What episode did Mona Penelope Simpson  on the animated show \"The Simpsons\"die?"
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.482174,
+      "claim_id": "clm-398d825b2e4331ba",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 0.862609,
+      "status": "accepted",
+      "utility": 0.380435
+    }
+  ],
+  "subgraph": null
+}

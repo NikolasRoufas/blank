@@ -1,0 +1,155 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 35
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-9b2a51d1b696a6de",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Hot_Right_Now::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Hot_Right_Now",
+          "title": "Hot Right Now",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 151,
+            "source_id": "Hot_Right_Now",
+            "start": 52,
+            "text": "bass producer DJ Fresh , released as the second single from his third studio album , Nextlevelism ."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "DJ Fresh",
+          "Nextlevelism"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "DJ Fresh",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "bass producer DJ Fresh , released as the second single from his third studio album , Nextlevelism .",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-aa64d99cf0a3a918",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Hot_Right_Now::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Hot_Right_Now",
+          "title": "Hot Right Now",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 47,
+            "source_id": "Hot_Right_Now",
+            "start": 0,
+            "text": "`` Hot Right Now '' is a single by British drum"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Hot Right Now",
+          "British"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Hot Right Now",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "`` Hot Right Now '' is a single by British drum",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "pkg-f267f55149a78fe7f29ac835ca1de901",
+  "query": {
+    "created_at": null,
+    "query_id": "f267f55149a78fe7f29ac835ca1de901",
+    "text": "Hot Right Now is from Nextlevelism."
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": null,
+      "claim_id": "clm-9b2a51d1b696a6de",
+      "rank": 0,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-aa64d99cf0a3a918",
+      "rank": 1,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    }
+  ],
+  "subgraph": null
+}

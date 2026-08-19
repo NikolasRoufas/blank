@@ -1,0 +1,787 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 86
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-43c88f2eac6ead08",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Erik Marcisak::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Erik Marcisak",
+          "title": "Erik Marcisak",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 305,
+            "source_id": "Erik Marcisak",
+            "start": 0,
+            "text": "Erik Marcisak was named one of \"Backstage\"'s Top Ten \"Comedy Best Bets\" in 2005 for producing the controversial sketch comedy show \"Saturday Night Rewritten\", which used the previous night's \"Saturday Night Live\" as a creative jumping-off point for an entirely new sketch show that was written, rehearsed,"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Erik Marcisak",
+          "Backstage",
+          "Top Ten",
+          "Comedy Best Bets",
+          "Saturday Night Rewritten",
+          "Saturday Night Live"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Erik Marcisak",
+        "temporal_expressions": [
+          "2005"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Erik Marcisak was named one of \"Backstage\"'s Top Ten \"Comedy Best Bets\" in 2005 for producing the controversial sketch comedy show \"Saturday Night Rewritten\", which used the previous night's \"Saturday Night Live\" as a creative jumping-off point for an entirely new sketch show that was written, rehearsed,",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-a264db72942b716b",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Erik Marcisak::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Erik Marcisak",
+          "title": "Erik Marcisak",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 348,
+            "source_id": "Erik Marcisak",
+            "start": 310,
+            "text": "performed within 8 hours the next day."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": null,
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "performed within 8 hours the next day.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-a377ac6114166e76",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Frank Wolf (adventurer)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Frank Wolf (adventurer)",
+          "title": "Frank Wolf (adventurer)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 77,
+            "source_id": "Frank Wolf (adventurer)",
+            "start": 0,
+            "text": "In 2012 he was named one of Canada's Top Ten Adventurers by Explore Magazine,"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Canada",
+          "Top Ten Adventurers",
+          "Explore Magazine"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Canada",
+        "temporal_expressions": [
+          "2012"
+        ]
+      },
+      "source_reliability": null,
+      "text": "In 2012 he was named one of Canada's Top Ten Adventurers by Explore Magazine,",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-32d76daa1e7eaabb",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Frank Wolf (adventurer)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Frank Wolf (adventurer)",
+          "title": "Frank Wolf (adventurer)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 169,
+            "source_id": "Frank Wolf (adventurer)",
+            "start": 82,
+            "text": "in 2015 he was named One of Canada's Top 100 Explorers by Canadian Geographic Magazine."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "One",
+          "Canada",
+          "Top",
+          "Explorers",
+          "Canadian Geographic Magazine"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "One",
+        "temporal_expressions": [
+          "2015"
+        ]
+      },
+      "source_reliability": null,
+      "text": "in 2015 he was named One of Canada's Top 100 Explorers by Canadian Geographic Magazine.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-769b5d98c97616a8",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Stefan Kiesbye::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Stefan Kiesbye",
+          "title": "Stefan Kiesbye",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 141,
+            "source_id": "Stefan Kiesbye",
+            "start": 0,
+            "text": "His second novel,\"Your House Is on Fire, Your Children All Gone\" was a Top Ten pick of Oprah Magazine, made Entertainment Weekly\u2019s Must List,"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [
+          "Must"
+        ],
+        "named_entities": [
+          "Your House Is",
+          "Fire",
+          "Your Children All Gone",
+          "Top Ten",
+          "Oprah Magazine",
+          "Entertainment Weekly",
+          "Must List"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Your House Is",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "His second novel,\"Your House Is on Fire, Your Children All Gone\" was a Top Ten pick of Oprah Magazine, made Entertainment Weekly\u2019s Must List,",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-8a77dce8d47c1d65",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Stefan Kiesbye::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Stefan Kiesbye",
+          "title": "Stefan Kiesbye",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 213,
+            "source_id": "Stefan Kiesbye",
+            "start": 146,
+            "text": "was named one of the best books of 2012 by \"Slate\" editor Dan Kois."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Slate",
+          "Dan Kois"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Slate",
+        "temporal_expressions": [
+          "2012"
+        ]
+      },
+      "source_reliability": null,
+      "text": "was named one of the best books of 2012 by \"Slate\" editor Dan Kois.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-84c87b2123b6658d",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Backstage (magazine)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Backstage (magazine)",
+          "title": "Backstage (magazine)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 189,
+            "source_id": "Backstage (magazine)",
+            "start": 0,
+            "text": "Backstage (aka Back Stage) is an entertainment-industry brand aimed at people working in film and the performing arts, with a special focus on casting, job opportunities, and career advice."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Backstage",
+          "Back Stage"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Backstage",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Backstage (aka Back Stage) is an entertainment-industry brand aimed at people working in film and the performing arts, with a special focus on casting, job opportunities, and career advice.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-ab713f422a17ee84",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Aidan McGrath::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Aidan McGrath",
+          "title": "Aidan McGrath",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 81,
+            "source_id": "Aidan McGrath",
+            "start": 0,
+            "text": "McGrath continues to maintain a public profile in the area of political activism,"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "McGrath"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "McGrath",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "McGrath continues to maintain a public profile in the area of political activism,",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-6cbe0692d95736d6",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Aidan McGrath::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Aidan McGrath",
+          "title": "Aidan McGrath",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 194,
+            "source_id": "Aidan McGrath",
+            "start": 86,
+            "text": "in 2012 he was named one of the top ten outstanding young people of Ireland by Junior Chamber International."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Ireland",
+          "Junior Chamber International"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Ireland",
+        "temporal_expressions": [
+          "2012"
+        ]
+      },
+      "source_reliability": null,
+      "text": "in 2012 he was named one of the top ten outstanding young people of Ireland by Junior Chamber International.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [
+    {
+      "claim_ids": [
+        "clm-32d76daa1e7eaabb",
+        "clm-6cbe0692d95736d6",
+        "clm-8a77dce8d47c1d65",
+        "clm-a377ac6114166e76"
+      ],
+      "conflict_id": "conflict:0",
+      "members": [
+        {
+          "claim_id": "clm-32d76daa1e7eaabb",
+          "independent_support": 0,
+          "propagated_belief": 0.480584,
+          "relation_confidence": 0.96495,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-6cbe0692d95736d6",
+          "independent_support": 0,
+          "propagated_belief": 0.49085,
+          "relation_confidence": 0.991246,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-8a77dce8d47c1d65",
+          "independent_support": 0,
+          "propagated_belief": 0.489198,
+          "relation_confidence": 0.934542,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-a377ac6114166e76",
+          "independent_support": 0,
+          "propagated_belief": 0.500614,
+          "relation_confidence": 0.991246,
+          "source_reliability": 0.5,
+          "timestamp": null
+        }
+      ],
+      "outcome": "unresolved",
+      "preferred_claim_id": null,
+      "relation_ids": [
+        "rel-3e416bd17b131be0",
+        "rel-5d4d849d02bb5a6e",
+        "rel-65ead18d3aea85ec",
+        "rel-7e53f54d642a8174",
+        "rel-9ea404732eff5f84",
+        "rel-c7397434312c64eb"
+      ],
+      "resolution_note": "top two competitors within margin 0.100 (0.501 vs 0.491)",
+      "resolved": false
+    },
+    {
+      "claim_ids": [
+        "clm-43c88f2eac6ead08",
+        "clm-769b5d98c97616a8"
+      ],
+      "conflict_id": "conflict:1",
+      "members": [
+        {
+          "claim_id": "clm-43c88f2eac6ead08",
+          "independent_support": 0,
+          "propagated_belief": 0.496511,
+          "relation_confidence": 0.841488,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-769b5d98c97616a8",
+          "independent_support": 0,
+          "propagated_belief": 0.463106,
+          "relation_confidence": 0.841488,
+          "source_reliability": 0.5,
+          "timestamp": null
+        }
+      ],
+      "outcome": "unresolved",
+      "preferred_claim_id": null,
+      "relation_ids": [
+        "rel-481d255b186c19b6"
+      ],
+      "resolution_note": "top two competitors within margin 0.100 (0.497 vs 0.463)",
+      "resolved": false
+    }
+  ],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5ab7bfe955429928e1fe38c2",
+    "text": "Erik Marcisak was named one of Top Ten \"Comedy Best Bets\" by a brand with special focus on what ?"
+  },
+  "relations": [
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.96495
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.96495,
+      "relation_id": "rel-7e53f54d642a8174",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-32d76daa1e7eaabb",
+      "target_claim_id": "clm-6cbe0692d95736d6"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.923187
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.923187,
+      "relation_id": "rel-c7397434312c64eb",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-32d76daa1e7eaabb",
+      "target_claim_id": "clm-8a77dce8d47c1d65"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.947194
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.947194,
+      "relation_id": "rel-5d4d849d02bb5a6e",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-32d76daa1e7eaabb",
+      "target_claim_id": "clm-a377ac6114166e76"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.841488
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.841488,
+      "relation_id": "rel-481d255b186c19b6",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-43c88f2eac6ead08",
+      "target_claim_id": "clm-769b5d98c97616a8"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.921106
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.921106,
+      "relation_id": "rel-3e416bd17b131be0",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-6cbe0692d95736d6",
+      "target_claim_id": "clm-8a77dce8d47c1d65"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.991246
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.991246,
+      "relation_id": "rel-9ea404732eff5f84",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-6cbe0692d95736d6",
+      "target_claim_id": "clm-a377ac6114166e76"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.934542
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.934542,
+      "relation_id": "rel-65ead18d3aea85ec",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-8a77dce8d47c1d65",
+      "target_claim_id": "clm-a377ac6114166e76"
+    }
+  ],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.500614,
+      "claim_id": "clm-a377ac6114166e76",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 0.880244,
+      "status": "disputed",
+      "utility": 0.37963
+    },
+    {
+      "belief": 0.489198,
+      "claim_id": "clm-8a77dce8d47c1d65",
+      "rank": 1,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.854583,
+      "status": "disputed",
+      "utility": 0.365385
+    },
+    {
+      "belief": 0.49085,
+      "claim_id": "clm-6cbe0692d95736d6",
+      "rank": 2,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.857517,
+      "status": "disputed",
+      "utility": 0.366667
+    },
+    {
+      "belief": 0.480584,
+      "claim_id": "clm-32d76daa1e7eaabb",
+      "rank": 3,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.834032,
+      "status": "disputed",
+      "utility": 0.353448
+    }
+  ],
+  "subgraph": null
+}

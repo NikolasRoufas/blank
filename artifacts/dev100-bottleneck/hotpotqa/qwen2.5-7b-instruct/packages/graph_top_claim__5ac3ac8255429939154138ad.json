@@ -1,0 +1,481 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 138
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-da3f98821df10329",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Sleeper Either Class::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Sleeper Either Class",
+          "title": "Sleeper Either Class",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 28,
+            "source_id": "Sleeper Either Class",
+            "start": 0,
+            "text": "A Sleeper Either class (SLE)"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Sleeper Either",
+          "SLE"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Sleeper Either",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "A Sleeper Either class (SLE)",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-fa0d8500501f7be1",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Sleeper Either Class::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Sleeper Either Class",
+          "title": "Sleeper Either Class",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 130,
+            "source_id": "Sleeper Either Class",
+            "start": 33,
+            "text": "Sleeper Either class with Pantry (SLEP) are a type of railway sleeping car used in Great Britain."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Sleeper Either",
+          "Pantry",
+          "SLEP",
+          "Great Britain"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Sleeper Either",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Sleeper Either class with Pantry (SLEP) are a type of railway sleeping car used in Great Britain.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-758ade420651101b",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'it' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "British Royal Train::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "British Royal Train",
+          "title": "British Royal Train",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 90,
+            "source_id": "British Royal Train",
+            "start": 0,
+            "text": "It is formed from a dedicated set of claret liveried sleeper, dining and lounge carriages."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "It",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "It is formed from a dedicated set of claret liveried sleeper, dining and lounge carriages.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-2f5079ed48fc8ddb",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'they' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "British Royal Train::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "British Royal Train",
+          "title": "British Royal Train",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 44,
+            "source_id": "British Royal Train",
+            "start": 0,
+            "text": "They are arranged according to requirements,"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": "requirements",
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "They",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "They are arranged according to requirements,",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-54e6a9e23f803043",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "British Royal Train::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "British Royal Train",
+          "title": "British Royal Train",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 72,
+            "source_id": "British Royal Train",
+            "start": 49,
+            "text": "stored when not in use."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": true,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": null,
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "stored when not in use.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-c633e19f824a9941",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "British Rail Mark 5 (CAF)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "British Rail Mark 5 (CAF)",
+          "title": "British Rail Mark 5 (CAF)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 221,
+            "source_id": "British Rail Mark 5 (CAF)",
+            "start": 0,
+            "text": "The British Rail Mark 5 and Mark 5A is the designation given to new locomotive hauled rail carriages being built for operation by two train operating companies in Great Britain, Caledonian Sleeper and TransPennine Express"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "British Rail Mark",
+          "Mark",
+          "Great Britain",
+          "Caledonian Sleeper",
+          "TransPennine Express"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "British Rail Mark",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The British Rail Mark 5 and Mark 5A is the designation given to new locomotive hauled rail carriages being built for operation by two train operating companies in Great Britain, Caledonian Sleeper and TransPennine Express",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-490712b668c31727",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "British Royal Train::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "British Royal Train",
+          "title": "British Royal Train",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 39,
+            "source_id": "British Royal Train",
+            "start": 0,
+            "text": "The current stock dates from 1977-1987."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": null,
+        "temporal_expressions": [
+          "1977",
+          "1987"
+        ]
+      },
+      "source_reliability": null,
+      "text": "The current stock dates from 1977-1987.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5ac3ac8255429939154138ad",
+    "text": "APB and Sleeper are both from britain?"
+  },
+  "relations": [
+    {
+      "bridge": null,
+      "direction": "directed",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "entailment",
+        "features": {
+          "entailment": 0.659471
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "entailment above threshold",
+      "relation_confidence": 0.659471,
+      "relation_id": "rel-62abd39db04d9c74",
+      "relation_type": "support",
+      "source_claim_id": "clm-fa0d8500501f7be1",
+      "target_claim_id": "clm-da3f98821df10329"
+    }
+  ],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.461579,
+      "claim_id": "clm-758ade420651101b",
+      "rank": 0,
+      "reason": "top base value within budget",
+      "selection_score": 0.790526,
+      "status": "accepted",
+      "utility": 0.328947
+    },
+    {
+      "belief": 0.458571,
+      "claim_id": "clm-fa0d8500501f7be1",
+      "rank": 1,
+      "reason": "top base value within budget",
+      "selection_score": 0.78,
+      "status": "accepted",
+      "utility": 0.321429
+    },
+    {
+      "belief": 0.447143,
+      "claim_id": "clm-c633e19f824a9941",
+      "rank": 2,
+      "reason": "top base value within budget",
+      "selection_score": 0.74,
+      "status": "accepted",
+      "utility": 0.292857
+    },
+    {
+      "belief": 0.446667,
+      "claim_id": "clm-2f5079ed48fc8ddb",
+      "rank": 3,
+      "reason": "top base value within budget",
+      "selection_score": 0.738334,
+      "status": "accepted",
+      "utility": 0.291667
+    },
+    {
+      "belief": 0.445385,
+      "claim_id": "clm-490712b668c31727",
+      "rank": 4,
+      "reason": "top base value within budget",
+      "selection_score": 0.733847,
+      "status": "accepted",
+      "utility": 0.288462
+    },
+    {
+      "belief": 0.434762,
+      "claim_id": "clm-da3f98821df10329",
+      "rank": 5,
+      "reason": "top base value within budget",
+      "selection_score": 0.730217,
+      "status": "accepted",
+      "utility": 0.295455
+    },
+    {
+      "belief": 0.43,
+      "claim_id": "clm-54e6a9e23f803043",
+      "rank": 6,
+      "reason": "top base value within budget",
+      "selection_score": 0.68,
+      "status": "accepted",
+      "utility": 0.25
+    }
+  ],
+  "subgraph": null
+}

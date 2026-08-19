@@ -1,0 +1,966 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 19
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-388873059fe33f69",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Ralph Ince::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Ralph Ince",
+          "title": "Ralph Ince",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 53,
+            "source_id": "Ralph Ince",
+            "start": 0,
+            "text": "Ralph Ince was the brother of John Ince and Thomas H."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Ralph Ince",
+          "John Ince",
+          "Thomas H"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Ralph Ince",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Ralph Ince was the brother of John Ince and Thomas H.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-a0268b49c0bde03e",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Elinor Kershaw::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Elinor Kershaw",
+          "title": "Elinor Kershaw",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 48,
+            "source_id": "Elinor Kershaw",
+            "start": 0,
+            "text": "Elinor Kershaw, also known as Nell and Elinor K."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Elinor Kershaw",
+          "Nell",
+          "Elinor K"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Elinor Kershaw",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Elinor Kershaw, also known as Nell and Elinor K.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-e01eb694e70fbbf0",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Elinor Kershaw::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Elinor Kershaw",
+          "title": "Elinor Kershaw",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 117,
+            "source_id": "Elinor Kershaw",
+            "start": 49,
+            "text": "Ince, (November 19, 1884 \u2013 September 12, 1971) was an American stage"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Ince",
+          "American"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Ince",
+        "temporal_expressions": [
+          "November 19, 1884",
+          "September 12, 1971"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Ince, (November 19, 1884 \u2013 September 12, 1971) was an American stage",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-ee6dadcda3e86438",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Elinor Kershaw::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Elinor Kershaw",
+          "title": "Elinor Kershaw",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 179,
+            "source_id": "Elinor Kershaw",
+            "start": 122,
+            "text": "motion-picture actress; wife of Hollywood Mogul Thomas H."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Hollywood Mogul Thomas H"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Hollywood Mogul Thomas H",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "motion-picture actress; wife of Hollywood Mogul Thomas H.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-6a49c78d6f68b3a4",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Elinor Kershaw::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Elinor Kershaw",
+          "title": "Elinor Kershaw",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 239,
+            "source_id": "Elinor Kershaw",
+            "start": 180,
+            "text": "Ince, and mother of actor Richard Ince and writer Thomas H."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Ince",
+          "Richard Ince",
+          "Thomas H"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Ince",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Ince, and mother of actor Richard Ince and writer Thomas H.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-c2b17a61a9db86e7",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Elinor Kershaw::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Elinor Kershaw",
+          "title": "Elinor Kershaw",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 249,
+            "source_id": "Elinor Kershaw",
+            "start": 240,
+            "text": "Ince, Jr."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Ince",
+          "Jr"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Ince",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Ince, Jr.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-42b57916ec5fe9f4",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Thomas Ince: Hollywood's Independent Pioneer::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Thomas Ince: Hollywood's Independent Pioneer",
+          "title": "Thomas Ince: Hollywood's Independent Pioneer",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 72,
+            "source_id": "Thomas Ince: Hollywood's Independent Pioneer",
+            "start": 0,
+            "text": "Thomas Ince: Hollywood's Independent Pioneer is a biography of Thomas H."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Thomas Ince",
+          "Hollywood",
+          "Independent Pioneer",
+          "Thomas H"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Thomas Ince",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Thomas Ince: Hollywood's Independent Pioneer is a biography of Thomas H.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-f9bebab17464f1cc",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Thomas Ince: Hollywood's Independent Pioneer::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Thomas Ince: Hollywood's Independent Pioneer",
+          "title": "Thomas Ince: Hollywood's Independent Pioneer",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 101,
+            "source_id": "Thomas Ince: Hollywood's Independent Pioneer",
+            "start": 73,
+            "text": "Ince, written by Brian Taves"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Ince",
+          "Brian Taves"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Ince",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Ince, written by Brian Taves",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-346808e7608016c1",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Thomas Ince: Hollywood's Independent Pioneer::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Thomas Ince: Hollywood's Independent Pioneer",
+          "title": "Thomas Ince: Hollywood's Independent Pioneer",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 156,
+            "source_id": "Thomas Ince: Hollywood's Independent Pioneer",
+            "start": 106,
+            "text": "published by University Press of Kentucky in 2012."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "University Press",
+          "Kentucky"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "University Press",
+        "temporal_expressions": [
+          "2012"
+        ]
+      },
+      "source_reliability": null,
+      "text": "published by University Press of Kentucky in 2012.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-99bab18af99128e6",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'it' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "The Scourge of the Desert::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "The Scourge of the Desert",
+          "title": "The Scourge of the Desert",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 28,
+            "source_id": "The Scourge of the Desert",
+            "start": 0,
+            "text": "It was produced by Thomas H."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Thomas H"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "It",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "It was produced by Thomas H.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-56553e911040bf24",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "The Scourge of the Desert::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "The Scourge of the Desert",
+          "title": "The Scourge of the Desert",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 51,
+            "source_id": "The Scourge of the Desert",
+            "start": 29,
+            "text": "Ince and written by C."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Ince",
+          "C"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Ince",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Ince and written by C.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-bd87248a2e950188",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "The Scourge of the Desert::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "The Scourge of the Desert",
+          "title": "The Scourge of the Desert",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 90,
+            "source_id": "The Scourge of the Desert",
+            "start": 52,
+            "text": "Gardner Sullivan, Ince, and William H."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Gardner Sullivan",
+          "Ince",
+          "William H"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Gardner Sullivan",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Gardner Sullivan, Ince, and William H.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-b399bc9010cdf817",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "John Ince (actor)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "John Ince (actor)",
+          "title": "John Ince (actor)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 32,
+            "source_id": "John Ince (actor)",
+            "start": 0,
+            "text": "John Ince, also known as John E."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "John Ince",
+          "John E"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "John Ince",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "John Ince, also known as John E.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-a9ab77710d688801",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "John Ince (actor)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "John Ince (actor)",
+          "title": "John Ince (actor)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 95,
+            "source_id": "John Ince (actor)",
+            "start": 33,
+            "text": "Ince, (August 29, 1878 \u2013 April 10, 1947) was an American stage"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Ince",
+          "American"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Ince",
+        "temporal_expressions": [
+          "August 29, 1878",
+          "April 10, 1947"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Ince, (August 29, 1878 \u2013 April 10, 1947) was an American stage",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-41078d570a70a05a",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "John Ince (actor)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "John Ince (actor)",
+          "title": "John Ince (actor)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 139,
+            "source_id": "John Ince (actor)",
+            "start": 100,
+            "text": "motion pictures actor, a film director,"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": null,
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "motion pictures actor, a film director,",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-96764443633de217",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "John Ince (actor)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "John Ince (actor)",
+          "title": "John Ince (actor)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 175,
+            "source_id": "John Ince (actor)",
+            "start": 144,
+            "text": "the eldest brother of Thomas H."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Thomas H"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Thomas H",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "the eldest brother of Thomas H.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-7a120bc8502345a2",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "John Ince (actor)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "John Ince (actor)",
+          "title": "John Ince (actor)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 196,
+            "source_id": "John Ince (actor)",
+            "start": 176,
+            "text": "Ince and Ralph Ince."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Ince",
+          "Ralph Ince"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Ince",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Ince and Ralph Ince.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5ab8f57b5542991b5579f097",
+    "text": "Were Thomas H. Ince and Joseph McGrath of the same nationality?"
+  },
+  "relations": [
+    {
+      "bridge": null,
+      "direction": "directed",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "entailment",
+        "features": {
+          "entailment": 0.533327
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "entailment above threshold",
+      "relation_confidence": 0.533327,
+      "relation_id": "rel-5ef96c559faeb45d",
+      "relation_type": "support",
+      "source_claim_id": "clm-388873059fe33f69",
+      "target_claim_id": "clm-7a120bc8502345a2"
+    }
+  ],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.51,
+      "claim_id": "clm-388873059fe33f69",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 0.96,
+      "status": "accepted",
+      "utility": 0.45
+    },
+    {
+      "belief": 0.565873,
+      "claim_id": "clm-7a120bc8502345a2",
+      "rank": 1,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.899206,
+      "status": "accepted",
+      "utility": 0.333333
+    }
+  ],
+  "subgraph": null
+}

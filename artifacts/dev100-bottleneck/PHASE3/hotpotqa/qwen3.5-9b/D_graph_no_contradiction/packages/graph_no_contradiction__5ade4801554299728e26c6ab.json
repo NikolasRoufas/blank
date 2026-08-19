@@ -1,0 +1,734 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 30
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-7adfb1a15d30c1b1",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Wolf and Sheep::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Wolf and Sheep",
+          "title": "Wolf and Sheep",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 79,
+            "source_id": "Wolf and Sheep",
+            "start": 0,
+            "text": "Wolf and Sheep is a 2016 Danish-Afghan drama film directed by Shahrbanoo Sadat."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Wolf",
+          "Sheep",
+          "Danish",
+          "Afghan",
+          "Shahrbanoo Sadat"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Wolf",
+        "temporal_expressions": [
+          "2016"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Wolf and Sheep is a 2016 Danish-Afghan drama film directed by Shahrbanoo Sadat.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-637b514414471bef",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'it' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Wolf and Sheep::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Wolf and Sheep",
+          "title": "Wolf and Sheep",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 119,
+            "source_id": "Wolf and Sheep",
+            "start": 0,
+            "text": "It was screened in the Directors' Fortnight section at the 2016 Cannes Film Festival where it won the Art Cinema Award."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Directors",
+          "Fortnight",
+          "Cannes Film Festival",
+          "Art Cinema Award"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "It",
+        "temporal_expressions": [
+          "2016"
+        ]
+      },
+      "source_reliability": null,
+      "text": "It was screened in the Directors' Fortnight section at the 2016 Cannes Film Festival where it won the Art Cinema Award.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-a5a14d43f916a49a",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Sheep and Wolves::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Sheep and Wolves",
+          "title": "Sheep and Wolves",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 257,
+            "source_id": "Sheep and Wolves",
+            "start": 0,
+            "text": "Be-e-e-zumnoe prevrashchenie (Russian: \u0412\u043e\u043b\u043a\u0438 \u0438 \u043e\u0432\u0446\u044b: \u0431\u0435-\u0435-\u0435-\u0437\u0443\u043c\u043d\u043e\u0435 \u043f\u0440\u0435\u0432\u0440\u0430\u0449\u0435\u043d\u0438\u0435 ), released in English-speaking territories as Sheep & Wolves, is a 2016 Russian computer-animated fantasy-comedy film with a story containing elements of the fairytale \"The Wolf"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Be",
+          "Russian",
+          "English",
+          "Sheep",
+          "Wolves",
+          "Wolf"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Be",
+        "temporal_expressions": [
+          "2016"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Be-e-e-zumnoe prevrashchenie (Russian: \u0412\u043e\u043b\u043a\u0438 \u0438 \u043e\u0432\u0446\u044b: \u0431\u0435-\u0435-\u0435-\u0437\u0443\u043c\u043d\u043e\u0435 \u043f\u0440\u0435\u0432\u0440\u0430\u0449\u0435\u043d\u0438\u0435 ), released in English-speaking territories as Sheep & Wolves, is a 2016 Russian computer-animated fantasy-comedy film with a story containing elements of the fairytale \"The Wolf",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-63a4d24804b61db9",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Sheep and Wolves::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Sheep and Wolves",
+          "title": "Sheep and Wolves",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 283,
+            "source_id": "Sheep and Wolves",
+            "start": 262,
+            "text": "the Seven Young Kids\""
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Seven Young Kids"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Seven Young Kids",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "the Seven Young Kids\"",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-d6b5656d7c15e29a",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Sheep and Wolves::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Sheep and Wolves",
+          "title": "Sheep and Wolves",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 331,
+            "source_id": "Sheep and Wolves",
+            "start": 288,
+            "text": "the concepts of a Wolf in sheep's clothing."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Wolf"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Wolf",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "the concepts of a Wolf in sheep's clothing.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-24d3bc091fac5673",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "The Herd (1978 film)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "The Herd (1978 film)",
+          "title": "The Herd (1978 film)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 173,
+            "source_id": "The Herd (1978 film)",
+            "start": 0,
+            "text": "The film, which went on nationwide general release on \u00a027,\u00a01978\u00a0(1978--) , was screened in competition at the 30th Berlin International Film Festival, where it won Interfilm"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Berlin International Film Festival",
+          "Interfilm"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Berlin International Film Festival",
+        "temporal_expressions": [
+          "1978"
+        ]
+      },
+      "source_reliability": null,
+      "text": "The film, which went on nationwide general release on 27, 1978 (1978--) , was screened in competition at the 30th Berlin International Film Festival, where it won Interfilm",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-45c8ec0eff40a33e",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "The Herd (1978 film)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "The Herd (1978 film)",
+          "title": "The Herd (1978 film)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 259,
+            "source_id": "The Herd (1978 film)",
+            "start": 178,
+            "text": "OCIC Awards, the Locarno International Film Festival, where it won Golden Leopard"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "OCIC Awards",
+          "Locarno International Film Festival",
+          "Golden Leopard"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "OCIC Awards",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "OCIC Awards, the Locarno International Film Festival, where it won Golden Leopard",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-d4353d22b4b54821",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "The Herd (1978 film)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "The Herd (1978 film)",
+          "title": "The Herd (1978 film)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 432,
+            "source_id": "The Herd (1978 film)",
+            "start": 264,
+            "text": "Special Mention, was scheduled to compete in the cancelled 17th Antalya Golden Orange Film Festival, for which it received 6 Belated Golden Oranges, including Best Film"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Special Mention",
+          "Antalya Golden Orange Film Festival",
+          "Belated Golden Oranges",
+          "Best Film"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Special Mention",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Special Mention, was scheduled to compete in the cancelled 17th Antalya Golden Orange Film Festival, for which it received 6 Belated Golden Oranges, including Best Film",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-8fd066d1ec37b4e8",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "The Herd (1978 film)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "The Herd (1978 film)",
+          "title": "The Herd (1978 film)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 489,
+            "source_id": "The Herd (1978 film)",
+            "start": 437,
+            "text": "Best Director, was awarded the BFI Sutherland Trophy"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Best Director",
+          "BFI Sutherland Trophy"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Best Director",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Best Director, was awarded the BFI Sutherland Trophy",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-460ee5e9258b78fb",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "The Herd (1978 film)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "The Herd (1978 film)",
+          "title": "The Herd (1978 film)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 570,
+            "source_id": "The Herd (1978 film)",
+            "start": 494,
+            "text": "was voted one of the 10 Best Turkish Films by the Ankara Cinema Association."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Best Turkish Films",
+          "Ankara Cinema Association"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Best Turkish Films",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "was voted one of the 10 Best Turkish Films by the Ankara Cinema Association.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-70fc1fe66c1df78f",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "The Immortals (2015 film)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "The Immortals (2015 film)",
+          "title": "The Immortals (2015 film)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 131,
+            "source_id": "The Immortals (2015 film)",
+            "start": 0,
+            "text": "\"The Immortals\" (2015) was selected for the National Competition Section at the 14th Mumbai International Film Festival (MIFF) 2016"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Immortals",
+          "National Competition Section",
+          "Mumbai International Film Festival",
+          "MIFF"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Immortals",
+        "temporal_expressions": [
+          "2015",
+          "2016"
+        ]
+      },
+      "source_reliability": null,
+      "text": "\"The Immortals\" (2015) was selected for the National Competition Section at the 14th Mumbai International Film Festival (MIFF) 2016",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-1115e71f9b858a96",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "The Immortals (2015 film)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "The Immortals (2015 film)",
+          "title": "The Immortals (2015 film)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 255,
+            "source_id": "The Immortals (2015 film)",
+            "start": 136,
+            "text": "won the Special Jury Award that was presented to Shivendra Singh Dungarpur at the closing ceremony on February 3, 2016."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Special Jury Award",
+          "Shivendra Singh Dungarpur"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Special Jury Award",
+        "temporal_expressions": [
+          "February 3, 2016"
+        ]
+      },
+      "source_reliability": null,
+      "text": "won the Special Jury Award that was presented to Shivendra Singh Dungarpur at the closing ceremony on February 3, 2016.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5ade4801554299728e26c6ab",
+    "text": "Wolf and Sheep was screened at which 2016 film festival?"
+  },
+  "relations": [
+    {
+      "bridge": null,
+      "direction": "directed",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "entailment",
+        "features": {
+          "entailment": 0.505342
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "entailment above threshold",
+      "relation_confidence": 0.505342,
+      "relation_id": "rel-b2539a32602ef139",
+      "relation_type": "support",
+      "source_claim_id": "clm-7adfb1a15d30c1b1",
+      "target_claim_id": "clm-d6b5656d7c15e29a"
+    },
+    {
+      "bridge": null,
+      "direction": "directed",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "entailment",
+        "features": {
+          "entailment": 0.481493
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "entailment above threshold",
+      "relation_confidence": 0.481493,
+      "relation_id": "rel-217d5cc589b74ff6",
+      "relation_type": "support",
+      "source_claim_id": "clm-a5a14d43f916a49a",
+      "target_claim_id": "clm-d6b5656d7c15e29a"
+    }
+  ],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.484545,
+      "claim_id": "clm-637b514414471bef",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 0.870909,
+      "status": "accepted",
+      "utility": 0.386364
+    }
+  ],
+  "subgraph": null
+}

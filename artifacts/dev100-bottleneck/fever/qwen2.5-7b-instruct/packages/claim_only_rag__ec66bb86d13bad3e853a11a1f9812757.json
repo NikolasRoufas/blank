@@ -1,0 +1,98 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 40
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-d196fd1a7d28ee1f",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Star_Wars::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Star_Wars",
+          "title": "Star Wars",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 163,
+            "source_id": "Star_Wars",
+            "start": 0,
+            "text": "In 2015 , the total value of the Star Wars franchise was estimated at USD $ 42 billion , making Star Wars the second highest-grossing media franchise of all time ."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Star Wars",
+          "USD"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [
+          "42 billion"
+        ],
+        "subject": "Star Wars",
+        "temporal_expressions": [
+          "2015"
+        ]
+      },
+      "source_reliability": null,
+      "text": "In 2015 , the total value of the Star Wars franchise was estimated at USD $ 42 billion , making Star Wars the second highest-grossing media franchise of all time .",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "pkg-ec66bb86d13bad3e853a11a1f9812757",
+  "query": {
+    "created_at": null,
+    "query_id": "ec66bb86d13bad3e853a11a1f9812757",
+    "text": "Star Trek: Discovery is part of the Star Wars media franchise."
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": null,
+      "claim_id": "clm-d196fd1a7d28ee1f",
+      "rank": 0,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    }
+  ],
+  "subgraph": null
+}

@@ -1,0 +1,468 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 16
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-70acc34cb9fbf0ae",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "The Fault in Our Stars::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "The Fault in Our Stars",
+          "title": "The Fault in Our Stars",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 61,
+            "source_id": "The Fault in Our Stars",
+            "start": 0,
+            "text": "A feature film adaptation of the novel directed by Josh Boone"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Josh Boone"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Josh Boone",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "A feature film adaptation of the novel directed by Josh Boone",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-fc73d9b060100f51",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "The Fault in Our Stars::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "The Fault in Our Stars",
+          "title": "The Fault in Our Stars",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 105,
+            "source_id": "The Fault in Our Stars",
+            "start": 66,
+            "text": "starring Shailene Woodley, Ansel Elgort"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Shailene Woodley",
+          "Ansel Elgort"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Shailene Woodley",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "starring Shailene Woodley, Ansel Elgort",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-3dfeb4caac83a370",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "The Fault in Our Stars::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "The Fault in Our Stars",
+          "title": "The Fault in Our Stars",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 149,
+            "source_id": "The Fault in Our Stars",
+            "start": 110,
+            "text": "Nat Wolff was released on June 6, 2014."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Nat Wolff"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Nat Wolff",
+        "temporal_expressions": [
+          "June 6, 2014"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Nat Wolff was released on June 6, 2014.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-cc1781066b1b7111",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Angels &amp; Demons::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Angels &amp; Demons",
+          "title": "Angels &amp; Demons",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 47,
+            "source_id": "Angels &amp; Demons",
+            "start": 0,
+            "text": "A film adaptation was released on May 15, 2009."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [
+          "May"
+        ],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": null,
+        "temporal_expressions": [
+          "May 15, 2009"
+        ]
+      },
+      "source_reliability": null,
+      "text": "A film adaptation was released on May 15, 2009.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-5c3637e9059c2e2e",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Paper Towns (film)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Paper Towns (film)",
+          "title": "Paper Towns (film)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 141,
+            "source_id": "Paper Towns (film)",
+            "start": 0,
+            "text": "Paper Towns is a 2015 American mystery, comedy-drama film, directed by Jake Schreier, based on the 2008 novel of the same name by John Green."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Paper Towns",
+          "American",
+          "Jake Schreier",
+          "John Green"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Paper Towns",
+        "temporal_expressions": [
+          "2015",
+          "2008"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Paper Towns is a 2015 American mystery, comedy-drama film, directed by Jake Schreier, based on the 2008 novel of the same name by John Green.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-350c06c6d4907a8d",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Paper Towns (film)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Paper Towns (film)",
+          "title": "Paper Towns (film)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 70,
+            "source_id": "Paper Towns (film)",
+            "start": 0,
+            "text": "The film was adapted for the screen by Scott Neustadter and Michael H."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Scott Neustadter",
+          "Michael H"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Scott Neustadter",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The film was adapted for the screen by Scott Neustadter and Michael H.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-cc26775da4b96493",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Paper Towns (film)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Paper Towns (film)",
+          "title": "Paper Towns (film)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 178,
+            "source_id": "Paper Towns (film)",
+            "start": 71,
+            "text": "Weber, the same team that wrote the first film adaption of one of Green's novels, \"The Fault in Our Stars\"."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Weber",
+          "Green",
+          "Fault",
+          "Stars"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Weber",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Weber, the same team that wrote the first film adaption of one of Green's novels, \"The Fault in Our Stars\".",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-fe940b6b2527fbf9",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "John Aloysius Green::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "John Aloysius Green",
+          "title": "John Aloysius Green",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 97,
+            "source_id": "John Aloysius Green",
+            "start": 0,
+            "text": "John Aloysius Green was born in the parish of Moore, County Roscommon, Ireland, 10 December 1844."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "John Aloysius Green",
+          "Moore",
+          "County Roscommon",
+          "Ireland"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "John Aloysius Green",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "John Aloysius Green was born in the parish of Moore, County Roscommon, Ireland, 10 December 1844.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5a8afa4d55429949d91db44c",
+    "text": "Not About Angels was used in the film adaptation of what novel by John Green?"
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.49,
+      "claim_id": "clm-70acc34cb9fbf0ae",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 0.89,
+      "status": "accepted",
+      "utility": 0.4
+    }
+  ],
+  "subgraph": null
+}

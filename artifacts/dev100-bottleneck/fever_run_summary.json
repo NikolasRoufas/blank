@@ -1,0 +1,7 @@
+{
+  "benchmark": "fever",
+  "model": "qwen2.5-7b-instruct",
+  "examples": 100,
+  "seconds": 1286.0,
+  "output_dir": "artifacts/dev100-bottleneck/fever/qwen2.5-7b-instruct"
+}

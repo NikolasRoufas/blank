@@ -1,0 +1,526 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 138
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-bc22576f31704624",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'this' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "2013 German Grand Prix::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "2013 German Grand Prix",
+          "title": "2013 German Grand Prix",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 95,
+            "source_id": "2013 German Grand Prix",
+            "start": 0,
+            "text": "This is the earliest a German Grand Prix has been held in a calendar year, followed by the 1926"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "German Grand Prix"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "This",
+        "temporal_expressions": [
+          "1926"
+        ]
+      },
+      "source_reliability": null,
+      "text": "This is the earliest a German Grand Prix has been held in a calendar year, followed by the 1926",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-f9647c5c31013e18",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "2013 German Grand Prix::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "2013 German Grand Prix",
+          "title": "2013 German Grand Prix",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 130,
+            "source_id": "2013 German Grand Prix",
+            "start": 100,
+            "text": "the 2009 editions of the race."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": null,
+        "temporal_expressions": [
+          "2009"
+        ]
+      },
+      "source_reliability": null,
+      "text": "the 2009 editions of the race.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-b83d5d7a5c2f532e",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "1962 German Grand Prix::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "1962 German Grand Prix",
+          "title": "1962 German Grand Prix",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 46,
+            "source_id": "1962 German Grand Prix",
+            "start": 0,
+            "text": "John Surtees finished second for the Lola team"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "John Surtees",
+          "Lola"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "John Surtees",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "John Surtees finished second for the Lola team",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-a3a53be6f982cc4b",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "1962 German Grand Prix::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "1962 German Grand Prix",
+          "title": "1962 German Grand Prix",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 91,
+            "source_id": "1962 German Grand Prix",
+            "start": 51,
+            "text": "Porsche driver Dan Gurney came in third."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Porsche",
+          "Dan Gurney"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Porsche",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Porsche driver Dan Gurney came in third.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-be02b3fb60e4d946",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "1962 German Grand Prix::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "1962 German Grand Prix",
+          "title": "1962 German Grand Prix",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 97,
+            "source_id": "1962 German Grand Prix",
+            "start": 0,
+            "text": "The 1962 German Grand Prix was a Formula One motor race held at the N\u00fcrburgring on 5 August 1962."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "German Grand Prix",
+          "Formula One"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "German Grand Prix",
+        "temporal_expressions": [
+          "1962"
+        ]
+      },
+      "source_reliability": null,
+      "text": "The 1962 German Grand Prix was a Formula One motor race held at the N\u00fcrburgring on 5 August 1962.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-d1b395514d07cce9",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "B\u00f6rje Jansson::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "B\u00f6rje Jansson",
+          "title": "B\u00f6rje Jansson",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 98,
+            "source_id": "B\u00f6rje Jansson",
+            "start": 0,
+            "text": "B\u00f6rje Jansson (born November 10, 1942 ) was a former Grand Prix motorcycle road racer from Sweden."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Jansson",
+          "Grand Prix",
+          "Sweden"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Jansson",
+        "temporal_expressions": [
+          "November 10, 1942"
+        ]
+      },
+      "source_reliability": null,
+      "text": "B\u00f6rje Jansson (born November 10, 1942 ) was a former Grand Prix motorcycle road racer from Sweden.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-92d792bd451b091f",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Hideo Kanaya::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Hideo Kanaya",
+          "title": "Hideo Kanaya",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 136,
+            "source_id": "Hideo Kanaya",
+            "start": 0,
+            "text": "Hideo Kanaya (Shinjitai: \u91d1\u8c37 \u79c0\u592b , Hideo Kanaya , February 3, 1945 \u2013 December 19, 2013) was a Grand Prix motorcycle road racer from Japan."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Hideo Kanaya",
+          "Shinjitai",
+          "Grand Prix",
+          "Japan"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Hideo Kanaya",
+        "temporal_expressions": [
+          "February 3, 1945",
+          "December 19, 2013"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Hideo Kanaya (Shinjitai: \u91d1\u8c37 \u79c0\u592b , Hideo Kanaya , February 3, 1945 \u2013 December 19, 2013) was a Grand Prix motorcycle road racer from Japan.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [
+    {
+      "claim_ids": [
+        "clm-92d792bd451b091f",
+        "clm-d1b395514d07cce9"
+      ],
+      "conflict_id": "conflict:0",
+      "members": [
+        {
+          "claim_id": "clm-92d792bd451b091f",
+          "independent_support": 0,
+          "propagated_belief": 0.471547,
+          "relation_confidence": 0.977306,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-d1b395514d07cce9",
+          "independent_support": 0,
+          "propagated_belief": 0.47339,
+          "relation_confidence": 0.977306,
+          "source_reliability": 0.5,
+          "timestamp": null
+        }
+      ],
+      "outcome": "unresolved",
+      "preferred_claim_id": null,
+      "relation_ids": [
+        "rel-d8eb0294666e6e4a"
+      ],
+      "resolution_note": "top two competitors within margin 0.100 (0.473 vs 0.472)",
+      "resolved": false
+    }
+  ],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5ab3e07e55429969a97a81e5",
+    "text": "In the 1962 German Grand Prix, a racer came second. What did this racer found?"
+  },
+  "relations": [
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.977306
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.977306,
+      "relation_id": "rel-d8eb0294666e6e4a",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-92d792bd451b091f",
+      "target_claim_id": "clm-d1b395514d07cce9"
+    }
+  ],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.488333,
+      "claim_id": "clm-bc22576f31704624",
+      "rank": 0,
+      "reason": "top base value within budget",
+      "selection_score": 0.884166,
+      "status": "accepted",
+      "utility": 0.395833
+    },
+    {
+      "belief": 0.476154,
+      "claim_id": "clm-be02b3fb60e4d946",
+      "rank": 1,
+      "reason": "top base value within budget",
+      "selection_score": 0.841539,
+      "status": "accepted",
+      "utility": 0.365385
+    },
+    {
+      "belief": 0.47339,
+      "claim_id": "clm-d1b395514d07cce9",
+      "rank": 2,
+      "reason": "top base value within budget",
+      "selection_score": 0.797464,
+      "status": "disputed",
+      "utility": 0.324074
+    },
+    {
+      "belief": 0.471547,
+      "claim_id": "clm-92d792bd451b091f",
+      "rank": 3,
+      "reason": "top base value within budget",
+      "selection_score": 0.792976,
+      "status": "disputed",
+      "utility": 0.321429
+    },
+    {
+      "belief": 0.451053,
+      "claim_id": "clm-a3a53be6f982cc4b",
+      "rank": 4,
+      "reason": "top base value within budget",
+      "selection_score": 0.753685,
+      "status": "accepted",
+      "utility": 0.302632
+    },
+    {
+      "belief": 0.45,
+      "claim_id": "clm-b83d5d7a5c2f532e",
+      "rank": 5,
+      "reason": "top base value within budget",
+      "selection_score": 0.75,
+      "status": "accepted",
+      "utility": 0.3
+    },
+    {
+      "belief": 0.441111,
+      "claim_id": "clm-f9647c5c31013e18",
+      "rank": 6,
+      "reason": "top base value within budget",
+      "selection_score": 0.718889,
+      "status": "accepted",
+      "utility": 0.277778
+    }
+  ],
+  "subgraph": null
+}

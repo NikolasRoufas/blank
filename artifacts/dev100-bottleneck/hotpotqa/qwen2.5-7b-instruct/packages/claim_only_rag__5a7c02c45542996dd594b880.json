@@ -1,0 +1,412 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 129
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-165e3673a2224aee",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'he' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "F\u00e9lix Rienth::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "F\u00e9lix Rienth",
+          "title": "F\u00e9lix Rienth",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 127,
+            "source_id": "F\u00e9lix Rienth",
+            "start": 0,
+            "text": "He made his first opera appearance as a boy with Theater Basel as the first boy in Wolfgang Amadeus Mozart's \"The Magic Flute\"."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Theater Basel",
+          "Wolfgang Amadeus Mozart",
+          "Magic Flute"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "He",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "He made his first opera appearance as a boy with Theater Basel as the first boy in Wolfgang Amadeus Mozart's \"The Magic Flute\".",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-64b73b20431e7384",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'she' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Inga \u00c5berg::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Inga \u00c5berg",
+          "title": "Inga \u00c5berg",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 137,
+            "source_id": "Inga \u00c5berg",
+            "start": 0,
+            "text": "She was active both as an actress at the Royal Dramatic Theater, and as an opera singer at the Royal Swedish Opera between 1787 and 1810."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Royal Dramatic Theater",
+          "Royal Swedish Opera"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "She",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "She was active both as an actress at the Royal Dramatic Theater, and as an opera singer at the Royal Swedish Opera between 1787 and 1810.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-7968fffd60121d42",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Heidi Brunner::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Heidi Brunner",
+          "title": "Heidi Brunner",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 92,
+            "source_id": "Heidi Brunner",
+            "start": 0,
+            "text": "Among the roles she sang in Vienna were Adalgisa in \"Norma\", Annio in \"La clemenza di Tito\","
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Among",
+          "Vienna",
+          "Adalgisa",
+          "Norma",
+          "Annio",
+          "La",
+          "Tito"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Among",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Among the roles she sang in Vienna were Adalgisa in \"Norma\", Annio in \"La clemenza di Tito\",",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-a1bd7f0072e76d75",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Heidi Brunner::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Heidi Brunner",
+          "title": "Heidi Brunner",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 132,
+            "source_id": "Heidi Brunner",
+            "start": 97,
+            "text": "the title role in \"La Cenerentola\"."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "La Cenerentola"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "La Cenerentola",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "the title role in \"La Cenerentola\".",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-cabe6cacf64e8022",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Phillip Boykin::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Phillip Boykin",
+          "title": "Phillip Boykin",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 84,
+            "source_id": "Phillip Boykin",
+            "start": 0,
+            "text": "Phillip will play the role of Tonton Julian in the Revival of \"Once On This Island\"."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Phillip",
+          "Tonton Julian",
+          "Revival",
+          "Once On This Island"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Phillip",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Phillip will play the role of Tonton Julian in the Revival of \"Once On This Island\".",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-fa0a770356acbd6b",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Heidi Brunner::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Heidi Brunner",
+          "title": "Heidi Brunner",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 50,
+            "source_id": "Heidi Brunner",
+            "start": 0,
+            "text": "Heidi Brunner (born 1966) is a Swiss opera singer."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Heidi Brunner",
+          "Swiss"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Heidi Brunner",
+        "temporal_expressions": [
+          "1966"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Heidi Brunner (born 1966) is a Swiss opera singer.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "pkg-5a7c02c45542996dd594b880",
+  "query": {
+    "created_at": null,
+    "query_id": "5a7c02c45542996dd594b880",
+    "text": "In which theater did Heidi Brunner, a Swiss opera singer, play the role as Annio?"
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": null,
+      "claim_id": "clm-165e3673a2224aee",
+      "rank": 0,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-64b73b20431e7384",
+      "rank": 1,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-7968fffd60121d42",
+      "rank": 2,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-a1bd7f0072e76d75",
+      "rank": 3,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-cabe6cacf64e8022",
+      "rank": 4,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-fa0a770356acbd6b",
+      "rank": 5,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    }
+  ],
+  "subgraph": null
+}

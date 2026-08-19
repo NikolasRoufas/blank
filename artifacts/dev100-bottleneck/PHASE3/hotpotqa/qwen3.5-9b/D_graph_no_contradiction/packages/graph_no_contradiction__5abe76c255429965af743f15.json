@@ -1,0 +1,479 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 28
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-830fa6706f363b48",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Rango (2011 film)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Rango (2011 film)",
+          "title": "Rango (2011 film)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 174,
+            "source_id": "Rango (2011 film)",
+            "start": 0,
+            "text": "Rango is a 2011 American 3D computer-animated Western action comedy film directed by Gore Verbinski, written by John Logan, and produced by Verbinski, Graham King and John B."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Rango",
+          "American",
+          "Western",
+          "Gore Verbinski",
+          "John Logan",
+          "Verbinski",
+          "Graham King",
+          "John B"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Rango",
+        "temporal_expressions": [
+          "2011"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Rango is a 2011 American 3D computer-animated Western action comedy film directed by Gore Verbinski, written by John Logan, and produced by Verbinski, Graham King and John B.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-0ff2fa66113b8aa8",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'she' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Deborah Nadoolman Landis::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Deborah Nadoolman Landis",
+          "title": "Deborah Nadoolman Landis",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 77,
+            "source_id": "Deborah Nadoolman Landis",
+            "start": 0,
+            "text": "She is married to director John Landis; their son is screenwriter Max Landis."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "John Landis",
+          "Max Landis"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "She",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "She is married to director John Landis; their son is screenwriter Max Landis.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-0b9f0dc907555f56",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "B.B. King &quot;Into the Night&quot;::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "B.B. King &quot;Into the Night&quot;",
+          "title": "B.B. King &quot;Into the Night&quot;",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 75,
+            "source_id": "B.B. King &quot;Into the Night&quot;",
+            "start": 5,
+            "text": "King \"Into the Night\" is a 1985 documentary film directed by Jeff Okun"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "King",
+          "Into",
+          "Night",
+          "Jeff Okun"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "King",
+        "temporal_expressions": [
+          "1985"
+        ]
+      },
+      "source_reliability": null,
+      "text": "King \"Into the Night\" is a 1985 documentary film directed by Jeff Okun",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-42ef401366dc361e",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "B.B. King &quot;Into the Night&quot;::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "B.B. King &quot;Into the Night&quot;",
+          "title": "B.B. King &quot;Into the Night&quot;",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 126,
+            "source_id": "B.B. King &quot;Into the Night&quot;",
+            "start": 80,
+            "text": "co - directed by John Landis for the Universal"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "John Landis",
+          "Universal"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "John Landis",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "co - directed by John Landis for the Universal",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-dbfe1693c54b7749",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'it' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "B.B. King &quot;Into the Night&quot;::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "B.B. King &quot;Into the Night&quot;",
+          "title": "B.B. King &quot;Into the Night&quot;",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 178,
+            "source_id": "B.B. King &quot;Into the Night&quot;",
+            "start": 131,
+            "text": "it was produced by Leslie Belzberg, John Landis"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Leslie Belzberg",
+          "John Landis"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "it",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "it was produced by Leslie Belzberg, John Landis",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-e8c00b15dd979640",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "B.B. King &quot;Into the Night&quot;::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "B.B. King &quot;Into the Night&quot;",
+          "title": "B.B. King &quot;Into the Night&quot;",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 200,
+            "source_id": "B.B. King &quot;Into the Night&quot;",
+            "start": 183,
+            "text": "George Folsey Jr."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "George Folsey Jr"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "George Folsey Jr",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "George Folsey Jr.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-88411e484a1847fd",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'it' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Pirates of the Caribbean: On Stranger Tides::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Pirates of the Caribbean: On Stranger Tides",
+          "title": "Pirates of the Caribbean: On Stranger Tides",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 104,
+            "source_id": "Pirates of the Caribbean: On Stranger Tides",
+            "start": 0,
+            "text": "It is the first film in the series not to be directed by Gore Verbinski, being replaced by Rob Marshall."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Gore Verbinski",
+          "Rob Marshall"
+        ],
+        "negation": true,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "It",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "It is the first film in the series not to be directed by Gore Verbinski, being replaced by Rob Marshall.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-76425fc4ce8620cc",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'it' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Pirates of the Caribbean: Dead Man's Chest::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Pirates of the Caribbean: Dead Man's Chest",
+          "title": "Pirates of the Caribbean: Dead Man's Chest",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 110,
+            "source_id": "Pirates of the Caribbean: Dead Man's Chest",
+            "start": 0,
+            "text": "It was directed by Gore Verbinski, written by Ted Elliott and Terry Rossio, and produced by Jerry Bruckheimer."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Gore Verbinski",
+          "Ted Elliott",
+          "Terry Rossio",
+          "Jerry Bruckheimer"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "It",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "It was directed by Gore Verbinski, written by Ted Elliott and Terry Rossio, and produced by Jerry Bruckheimer.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5abe76c255429965af743f15",
+    "text": "What profession does John Landis and Gore Verbinski have in common?"
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.456087,
+      "claim_id": "clm-76425fc4ce8620cc",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 0.771304,
+      "status": "accepted",
+      "utility": 0.315217
+    }
+  ],
+  "subgraph": null
+}

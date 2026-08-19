@@ -1,0 +1,654 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 178
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-1c4339a651fc1671",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Zane Grey Museum::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Zane Grey Museum",
+          "title": "Zane Grey Museum",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 119,
+            "source_id": "Zane Grey Museum",
+            "start": 0,
+            "text": "The Zane Grey Museum in Lackawaxen Township, Pennsylvania, United States, is a former residence of the author Zane Grey"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Zane Grey Museum",
+          "Lackawaxen Township",
+          "Pennsylvania",
+          "United States",
+          "Zane Grey"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Zane Grey Museum",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The Zane Grey Museum in Lackawaxen Township, Pennsylvania, United States, is a former residence of the author Zane Grey",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-275981346125c9ad",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Zane Grey::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Zane Grey",
+          "title": "Zane Grey",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 132,
+            "source_id": "Zane Grey",
+            "start": 82,
+            "text": "author best known for his popular adventure novels"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": null,
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "author best known for his popular adventure novels",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-41ad545be873bda6",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'it' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Zane Grey Estate::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Zane Grey Estate",
+          "title": "Zane Grey Estate",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 80,
+            "source_id": "Zane Grey Estate",
+            "start": 0,
+            "text": "It was placed on the Register in 2002 for its association with author Zane Grey."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Register",
+          "Zane Grey"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "It",
+        "temporal_expressions": [
+          "2002"
+        ]
+      },
+      "source_reliability": null,
+      "text": "It was placed on the Register in 2002 for its association with author Zane Grey.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-58c987faf0c8ab81",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Zane Grey::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Zane Grey",
+          "title": "Zane Grey",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 77,
+            "source_id": "Zane Grey",
+            "start": 0,
+            "text": "Pearl Zane Grey (January 31, 1872 \u2013 October 23, 1939) was an American dentist"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Pearl Zane Grey",
+          "American"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Pearl Zane Grey",
+        "temporal_expressions": [
+          "January 31, 1872",
+          "October 23, 1939"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Pearl Zane Grey (January 31, 1872 \u2013 October 23, 1939) was an American dentist",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-815c5525d005b7da",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Romer Zane Grey::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Romer Zane Grey",
+          "title": "Romer Zane Grey",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 91,
+            "source_id": "Romer Zane Grey",
+            "start": 0,
+            "text": "Romer Zane Grey (October 1, 1909 - March 8, 1976) was the eldest son of novelist Zane Grey."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Romer Zane Grey",
+          "Zane Grey"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Romer Zane Grey",
+        "temporal_expressions": [
+          "October 1, 1909",
+          "March 8, 1976"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Romer Zane Grey (October 1, 1909 - March 8, 1976) was the eldest son of novelist Zane Grey.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-8a9f9bd5acae47ac",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Zane Grey::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Zane Grey",
+          "title": "Zane Grey",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 242,
+            "source_id": "Zane Grey",
+            "start": 197,
+            "text": "the arts; he idealized the American frontier."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "American"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "American",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "the arts; he idealized the American frontier.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-925fd70f09aaad05",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Zane Grey::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Zane Grey",
+          "title": "Zane Grey",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 192,
+            "source_id": "Zane Grey",
+            "start": 137,
+            "text": "stories associated with the Western genre in literature"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Western"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Western",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "stories associated with the Western genre in literature",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-933ec6bcda6dba80",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Zane Grey Museum::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Zane Grey Museum",
+          "title": "Zane Grey Museum",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 153,
+            "source_id": "Zane Grey Museum",
+            "start": 124,
+            "text": "is now maintained as a museum"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": null,
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "is now maintained as a museum",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-c54006b6c4786817",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Zane Grey Cabin::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Zane Grey Cabin",
+          "title": "Zane Grey Cabin",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 139,
+            "source_id": "Zane Grey Cabin",
+            "start": 0,
+            "text": "The Zane Grey Cabin on the Rogue River in Oregon is a cabin built in 1926 by Zane Grey (1872\u20131939), the master author of the American West."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Zane Grey Cabin",
+          "Rogue River",
+          "Oregon",
+          "Zane Grey",
+          "American West"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Zane Grey Cabin",
+        "temporal_expressions": [
+          "1926",
+          "1939"
+        ]
+      },
+      "source_reliability": null,
+      "text": "The Zane Grey Cabin on the Rogue River in Oregon is a cabin built in 1926 by Zane Grey (1872\u20131939), the master author of the American West.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-dd282df2065cb0c5",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Zane Grey Museum::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Zane Grey Museum",
+          "title": "Zane Grey Museum",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 202,
+            "source_id": "Zane Grey Museum",
+            "start": 158,
+            "text": "operated by the National Park Service (NPS)."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "National Park Service",
+          "NPS"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "National Park Service",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "operated by the National Park Service (NPS).",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "pkg-5ae377415542992e3233c40a",
+  "query": {
+    "created_at": null,
+    "query_id": "5ae377415542992e3233c40a",
+    "text": "Which author was a dentist, Zane Grey or Bhabananda Deka?"
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": null,
+      "claim_id": "clm-1c4339a651fc1671",
+      "rank": 0,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-275981346125c9ad",
+      "rank": 1,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-41ad545be873bda6",
+      "rank": 2,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-58c987faf0c8ab81",
+      "rank": 3,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-815c5525d005b7da",
+      "rank": 4,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-8a9f9bd5acae47ac",
+      "rank": 5,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-925fd70f09aaad05",
+      "rank": 6,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-933ec6bcda6dba80",
+      "rank": 7,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-c54006b6c4786817",
+      "rank": 8,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-dd282df2065cb0c5",
+      "rank": 9,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    }
+  ],
+  "subgraph": null
+}

@@ -1,0 +1,57 @@
+{
+  "claims": [
+    "clm-1255d9b84d938b82",
+    "clm-fcb63cf00b130660",
+    "clm-df069b709caf9d1d",
+    "clm-04469dbb632815ed",
+    "clm-bacb3a9ca2e43ff6",
+    "clm-43be4b323d47e607"
+  ],
+  "relations": [
+    {
+      "source": "clm-04469dbb632815ed",
+      "target": "clm-bacb3a9ca2e43ff6",
+      "type": "contradiction"
+    },
+    {
+      "source": "clm-04469dbb632815ed",
+      "target": "clm-df069b709caf9d1d",
+      "type": "contradiction"
+    },
+    {
+      "source": "clm-04469dbb632815ed",
+      "target": "clm-fcb63cf00b130660",
+      "type": "contradiction"
+    },
+    {
+      "source": "clm-1255d9b84d938b82",
+      "target": "clm-df069b709caf9d1d",
+      "type": "contradiction"
+    },
+    {
+      "source": "clm-1255d9b84d938b82",
+      "target": "clm-fcb63cf00b130660",
+      "type": "contradiction"
+    },
+    {
+      "source": "clm-43be4b323d47e607",
+      "target": "clm-bacb3a9ca2e43ff6",
+      "type": "contradiction"
+    },
+    {
+      "source": "clm-43be4b323d47e607",
+      "target": "clm-df069b709caf9d1d",
+      "type": "contradiction"
+    },
+    {
+      "source": "clm-bacb3a9ca2e43ff6",
+      "target": "clm-fcb63cf00b130660",
+      "type": "contradiction"
+    },
+    {
+      "source": "clm-df069b709caf9d1d",
+      "target": "clm-fcb63cf00b130660",
+      "type": "contradiction"
+    }
+  ]
+}

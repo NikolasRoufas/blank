@@ -1,0 +1,598 @@
+{
+  "qwen2.5-3b-instruct": {
+    "ungated_fails_gated_recovers": {
+      "example_id": "5a7a9b9a5542990198eaf160",
+      "conditions": {
+        "A_claim_only_rag": {
+          "present": true,
+          "failed": false,
+          "answer": "February 2, 1993",
+          "citations": [
+            "clm-4bb76fcb3039c4d4",
+            "clm-63da2a5cf856cd2a"
+          ],
+          "token_f1": 0.0,
+          "num_selected": 7,
+          "num_graph_edges": 0
+        },
+        "B_full_egrag_ungated": {
+          "present": true,
+          "failed": false,
+          "answer": "The information provided does not clearly identify the Chinese American electronic musician and singer who collaborated on the album 'I Remember'. The evidence points to American musicians such as Maniac Meat, James Ferraro, BT, and Skylar Spence (formerly known as Saint Pepsi), but none of these ar",
+          "citations": [
+            "clm-2c6934389844848c",
+            "clm-76795a558db10cc4",
+            "clm-7ab33d7b450e51e3",
+            "clm-4567c7b8c7bf1848"
+          ],
+          "token_f1": 0.0,
+          "num_selected": 4,
+          "num_graph_edges": 4,
+          "num_claims_in_package": 8,
+          "relations": [
+            {
+              "type": "contradiction",
+              "confidence": 0.770239,
+              "source_text": "Maniac Meat is the second studio album by American electronic musician Tobacco.",
+              "target_text": "formerly known as Saint Pepsi) is an American electronic musician"
+            },
+            {
+              "type": "contradiction",
+              "confidence": 0.989491,
+              "source_text": "Maniac Meat is the second studio album by American electronic musician Tobacco.",
+              "target_text": "Far Side Virtual is the thirtieth studio album by the American electronic musician James Ferraro, released on October 25, 2011 by the record label Hip"
+            },
+            {
+              "type": "contradiction",
+              "confidence": 0.987795,
+              "source_text": "Maniac Meat is the second studio album by American electronic musician Tobacco.",
+              "target_text": "These Hopeful Machines is the Grammy-nominated sixth studio album by American electronic musician BT."
+            },
+            {
+              "type": "contradiction",
+              "confidence": 0.987786,
+              "source_text": "Far Side Virtual is the thirtieth studio album by the American electronic musician James Ferraro, released on October 25, 2011 by the record label Hip",
+              "target_text": "These Hopeful Machines is the Grammy-nominated sixth studio album by American electronic musician BT."
+            }
+          ],
+          "selected_claim_texts": [
+            "Maniac Meat is the second studio album by American electronic musician Tobacco.",
+            "Far Side Virtual is the thirtieth studio album by the American electronic musician James Ferraro, released on October 25, 2011 by the record label Hip",
+            "These Hopeful Machines is the Grammy-nominated sixth studio album by American electronic musician BT.",
+            "formerly known as Saint Pepsi) is an American electronic musician"
+          ]
+        },
+        "C_full_egrag_gated": {
+          "present": true,
+          "failed": false,
+          "answer": "1989",
+          "citations": [
+            "clm-63da2a5cf856cd2a"
+          ],
+          "token_f1": 1.0,
+          "num_selected": 1,
+          "num_graph_edges": 0,
+          "num_claims_in_package": 8,
+          "relations": [],
+          "selected_claim_texts": [
+            "Steven Zhu (born 1989), known professionally as Zhu ( or ), is a Chinese American electronic musician and singer who has been active since the beginni"
+          ]
+        },
+        "D_graph_no_contradiction": {
+          "present": true,
+          "failed": false,
+          "answer": "1989",
+          "citations": [
+            "clm-63da2a5cf856cd2a"
+          ],
+          "token_f1": 1.0,
+          "num_selected": 1,
+          "num_graph_edges": 0,
+          "num_claims_in_package": 8,
+          "relations": [],
+          "selected_claim_texts": [
+            "Steven Zhu (born 1989), known professionally as Zhu ( or ), is a Chinese American electronic musician and singer who has been active since the beginni"
+          ]
+        }
+      }
+    },
+    "both_fail": {
+      "example_id": "5a778b1e55429949eeb29ee3",
+      "conditions": {
+        "A_claim_only_rag": {
+          "present": true,
+          "failed": true,
+          "answer": "",
+          "citations": [],
+          "token_f1": null,
+          "num_selected": null,
+          "num_graph_edges": null
+        },
+        "B_full_egrag_ungated": {
+          "present": true,
+          "failed": false,
+          "answer": "The Hillmen",
+          "citations": [
+            "clm-f2a85c986a64a75f"
+          ],
+          "token_f1": 0.0,
+          "num_selected": 2,
+          "num_graph_edges": 1,
+          "num_claims_in_package": 7,
+          "relations": [
+            {
+              "type": "contradiction",
+              "confidence": 0.984799,
+              "source_text": "was originally known as the Grizzly River Boys, then the Tennessee River Boys.",
+              "target_text": "The Hillmen is a studio album by The Hillmen, a southern California bluegrass band originally known as The Golden State Boys."
+            }
+          ],
+          "selected_claim_texts": [
+            "was originally known as the Grizzly River Boys, then the Tennessee River Boys.",
+            "The Hillmen is a studio album by The Hillmen, a southern California bluegrass band originally known as The Golden State Boys."
+          ]
+        },
+        "C_full_egrag_gated": {
+          "present": true,
+          "failed": false,
+          "answer": "Diamond Rio",
+          "citations": [
+            "clm-47664931bf4ebad3"
+          ],
+          "token_f1": 0.0,
+          "num_selected": 1,
+          "num_graph_edges": 0,
+          "num_claims_in_package": 7,
+          "relations": [],
+          "selected_claim_texts": [
+            "was originally known as the Grizzly River Boys, then the Tennessee River Boys."
+          ]
+        },
+        "D_graph_no_contradiction": {
+          "present": true,
+          "failed": false,
+          "answer": "Diamond Rio",
+          "citations": [
+            "clm-47664931bf4ebad3"
+          ],
+          "token_f1": 0.0,
+          "num_selected": 1,
+          "num_graph_edges": 0,
+          "num_claims_in_package": 7,
+          "relations": [],
+          "selected_claim_texts": [
+            "was originally known as the Grizzly River Boys, then the Tennessee River Boys."
+          ]
+        }
+      }
+    },
+    "no_contradiction_beats_gated": {
+      "example_id": "5abe76c255429965af743f15",
+      "conditions": {
+        "A_claim_only_rag": {
+          "present": true,
+          "failed": false,
+          "answer": "director",
+          "citations": [
+            "clm-0ff2fa66113b8aa8",
+            "clm-42ef401366dc361e",
+            "clm-830fa6706f363b48"
+          ],
+          "token_f1": 1.0,
+          "num_selected": 8,
+          "num_graph_edges": 0
+        },
+        "B_full_egrag_ungated": {
+          "present": true,
+          "failed": false,
+          "answer": "John Landis and Gore Verbinski both worked as producers.",
+          "citations": [
+            "clm-dbfe1693c54b7749",
+            "clm-88411e484a1847fd"
+          ],
+          "token_f1": 0.0,
+          "num_selected": 4,
+          "num_graph_edges": 4,
+          "num_claims_in_package": 8,
+          "relations": [
+            {
+              "type": "contradiction",
+              "confidence": 0.990977,
+              "source_text": "It was directed by Gore Verbinski, written by Ted Elliott and Terry Rossio, and produced by Jerry Bruckheimer.",
+              "target_text": "Rango is a 2011 American 3D computer-animated Western action comedy film directed by Gore Verbinski, written by John Logan, and produced by Verbinski,"
+            },
+            {
+              "type": "contradiction",
+              "confidence": 0.999361,
+              "source_text": "It was directed by Gore Verbinski, written by Ted Elliott and Terry Rossio, and produced by Jerry Bruckheimer.",
+              "target_text": "It is the first film in the series not to be directed by Gore Verbinski, being replaced by Rob Marshall."
+            },
+            {
+              "type": "contradiction",
+              "confidence": 0.993596,
+              "source_text": "It was directed by Gore Verbinski, written by Ted Elliott and Terry Rossio, and produced by Jerry Bruckheimer.",
+              "target_text": "it was produced by Leslie Belzberg, John Landis"
+            },
+            {
+              "type": "contradiction",
+              "confidence": 0.998956,
+              "source_text": "Rango is a 2011 American 3D computer-animated Western action comedy film directed by Gore Verbinski, written by John Logan, and produced by Verbinski,",
+              "target_text": "It is the first film in the series not to be directed by Gore Verbinski, being replaced by Rob Marshall."
+            }
+          ],
+          "selected_claim_texts": [
+            "It was directed by Gore Verbinski, written by Ted Elliott and Terry Rossio, and produced by Jerry Bruckheimer.",
+            "it was produced by Leslie Belzberg, John Landis",
+            "It is the first film in the series not to be directed by Gore Verbinski, being replaced by Rob Marshall.",
+            "Rango is a 2011 American 3D computer-animated Western action comedy film directed by Gore Verbinski, written by John Logan, and produced by Verbinski,"
+          ]
+        },
+        "C_full_egrag_gated": {
+          "present": true,
+          "failed": false,
+          "answer": "John Landis and Gore Verbinski both worked in the film industry.",
+          "citations": [
+            "clm-dbfe1693c54b7749",
+            "clm-76425fc4ce8620cc"
+          ],
+          "token_f1": 0.0,
+          "num_selected": 3,
+          "num_graph_edges": 2,
+          "num_claims_in_package": 8,
+          "relations": [
+            {
+              "type": "contradiction",
+              "confidence": 0.999361,
+              "source_text": "It was directed by Gore Verbinski, written by Ted Elliott and Terry Rossio, and produced by Jerry Bruckheimer.",
+              "target_text": "It is the first film in the series not to be directed by Gore Verbinski, being replaced by Rob Marshall."
+            },
+            {
+              "type": "contradiction",
+              "confidence": 0.993596,
+              "source_text": "It was directed by Gore Verbinski, written by Ted Elliott and Terry Rossio, and produced by Jerry Bruckheimer.",
+              "target_text": "it was produced by Leslie Belzberg, John Landis"
+            }
+          ],
+          "selected_claim_texts": [
+            "It was directed by Gore Verbinski, written by Ted Elliott and Terry Rossio, and produced by Jerry Bruckheimer.",
+            "it was produced by Leslie Belzberg, John Landis",
+            "It is the first film in the series not to be directed by Gore Verbinski, being replaced by Rob Marshall."
+          ]
+        },
+        "D_graph_no_contradiction": {
+          "present": true,
+          "failed": false,
+          "answer": "Film Director",
+          "citations": [
+            "clm-76425fc4ce8620cc"
+          ],
+          "token_f1": 0.6666666666666666,
+          "num_selected": 1,
+          "num_graph_edges": 0,
+          "num_claims_in_package": 8,
+          "relations": [],
+          "selected_claim_texts": [
+            "It was directed by Gore Verbinski, written by Ted Elliott and Terry Rossio, and produced by Jerry Bruckheimer."
+          ]
+        }
+      }
+    }
+  },
+  "qwen2.5-7b-instruct": {
+    "ungated_fails_gated_recovers": {
+      "example_id": "5a7323ad5542994cef4bc476",
+      "conditions": {
+        "A_claim_only_rag": {
+          "present": true,
+          "failed": false,
+          "answer": "Uncertain",
+          "citations": [
+            "clm-cc0d7b65ea04e3c2"
+          ],
+          "token_f1": 0.0,
+          "num_selected": 1,
+          "num_graph_edges": 1
+        },
+        "B_full_egrag_ungated": {
+          "present": true,
+          "failed": false,
+          "answer": "Uncertain",
+          "citations": [
+            "clm-cc0d7b65ea04e3c2"
+          ],
+          "token_f1": 0.0,
+          "num_selected": 1,
+          "num_graph_edges": 1,
+          "num_claims_in_package": 10,
+          "relations": [
+            {
+              "type": "contradiction",
+              "confidence": 0.962751,
+              "source_text": "Chantal Claret Euringer (born February 21, 1982), known as Chantal Claret, is an American singer/songwriter.",
+              "target_text": "Maxwell Scott Green (born December 15, 1984), better known as Max Green, is an American musician who is the former bassist/backing vocalist"
+            }
+          ],
+          "selected_claim_texts": [
+            "is the debut album of musician Chantal Claret, released on June 19, 2012 by The End Records"
+          ]
+        },
+        "C_full_egrag_gated": {
+          "present": true,
+          "failed": false,
+          "answer": "Chantal Claret",
+          "citations": [
+            "clm-cc0d7b65ea04e3c2"
+          ],
+          "token_f1": 1.0,
+          "num_selected": 1,
+          "num_graph_edges": 0,
+          "num_claims_in_package": 10,
+          "relations": [],
+          "selected_claim_texts": [
+            "is the debut album of musician Chantal Claret, released on June 19, 2012 by The End Records"
+          ]
+        },
+        "D_graph_no_contradiction": {
+          "present": true,
+          "failed": false,
+          "answer": "Uncertain",
+          "citations": [
+            "clm-cc0d7b65ea04e3c2"
+          ],
+          "token_f1": 0.0,
+          "num_selected": 1,
+          "num_graph_edges": 1,
+          "num_claims_in_package": 10,
+          "relations": [],
+          "selected_claim_texts": [
+            "is the debut album of musician Chantal Claret, released on June 19, 2012 by The End Records"
+          ]
+        }
+      }
+    },
+    "both_fail": {
+      "example_id": "5a72bd0b5542992359bc318f",
+      "conditions": {
+        "A_claim_only_rag": {
+          "present": true,
+          "failed": false,
+          "answer": "Uncertain",
+          "citations": [
+            "clm-a694f2d10a333285",
+            "clm-a481ca2db90c74c9",
+            "clm-ef3b038d7998eb0f"
+          ],
+          "token_f1": 0.0,
+          "num_selected": 3,
+          "num_graph_edges": 3
+        },
+        "B_full_egrag_ungated": {
+          "present": true,
+          "failed": false,
+          "answer": "Uncertain",
+          "citations": [
+            "clm-a694f2d10a333285",
+            "clm-a481ca2db90c74c9",
+            "clm-ef3b038d7998eb0f"
+          ],
+          "token_f1": 0.0,
+          "num_selected": 3,
+          "num_graph_edges": 3,
+          "num_claims_in_package": 7,
+          "relations": [
+            {
+              "type": "contradiction",
+              "confidence": 0.871818,
+              "source_text": "The ceremony was hosted by Andrea Martin",
+              "target_text": "The song was written by Andrea Martin"
+            },
+            {
+              "type": "contradiction",
+              "confidence": 0.801607,
+              "source_text": "The ceremony was hosted by Andrea Martin",
+              "target_text": "The play's cast included Tony Shalhoub, Andrea Martin, and Santino Fontana."
+            },
+            {
+              "type": "contradiction",
+              "confidence": 0.856866,
+              "source_text": "The song was written by Andrea Martin",
+              "target_text": "The play's cast included Tony Shalhoub, Andrea Martin, and Santino Fontana."
+            }
+          ],
+          "selected_claim_texts": [
+            "The song was written by Andrea Martin",
+            "The ceremony was hosted by Andrea Martin",
+            "The play's cast included Tony Shalhoub, Andrea Martin, and Santino Fontana."
+          ]
+        },
+        "C_full_egrag_gated": {
+          "present": true,
+          "failed": false,
+          "answer": "Uncertain",
+          "citations": [
+            "clm-a481ca2db90c74c9",
+            "clm-a694f2d10a333285"
+          ],
+          "token_f1": 0.0,
+          "num_selected": 2,
+          "num_graph_edges": 1,
+          "num_claims_in_package": 7,
+          "relations": [
+            {
+              "type": "contradiction",
+              "confidence": 0.871818,
+              "source_text": "The ceremony was hosted by Andrea Martin",
+              "target_text": "The song was written by Andrea Martin"
+            }
+          ],
+          "selected_claim_texts": [
+            "The ceremony was hosted by Andrea Martin",
+            "The song was written by Andrea Martin"
+          ]
+        },
+        "D_graph_no_contradiction": {
+          "present": true,
+          "failed": false,
+          "answer": "Uncertain",
+          "citations": [
+            "clm-a694f2d10a333285",
+            "clm-a481ca2db90c74c9",
+            "clm-ef3b038d7998eb0f"
+          ],
+          "token_f1": 0.0,
+          "num_selected": 3,
+          "num_graph_edges": 3
+        }
+      }
+    },
+    "no_contradiction_beats_gated": {
+      "example_id": "5a7c34905542996dd594b8d5",
+      "conditions": {
+        "A_claim_only_rag": {
+          "present": true,
+          "failed": false,
+          "answer": "Andre Agassi",
+          "citations": [
+            "clm-3ae9b93da428a6cf",
+            "clm-61be3d944849b630",
+            "clm-beff8117d16230bf"
+          ],
+          "token_f1": 0.8,
+          "num_selected": 3,
+          "num_graph_edges": 2
+        },
+        "B_full_egrag_ungated": {
+          "present": true,
+          "failed": false,
+          "answer": "Andre Agassi",
+          "citations": [
+            "clm-3ae9b93da428a6cf",
+            "clm-61be3d944849b630",
+            "clm-beff8117d16230bf"
+          ],
+          "token_f1": 0.8,
+          "num_selected": 3,
+          "num_graph_edges": 2,
+          "num_claims_in_package": 9,
+          "relations": [
+            {
+              "type": "contradiction",
+              "confidence": 0.767433,
+              "source_text": "Emanoul Aghassian (\u0627\u06cc\u0645\u0627\u0646\u0648\u0626\u0644 \u0622\u063a\u0627\u0633\u064a\u0627\u0646), Anglicized as Emmanuel \"Mike\" Agassi (born 25 December 1930 in Salmas, Iran), is a former boxer and the father a",
+              "target_text": "Pete Sampras and Andre Agassi are retired professional men's tennis players who were both ranked World No."
+            },
+            {
+              "type": "contradiction",
+              "confidence": 0.74914,
+              "source_text": "Emanoul Aghassian (\u0627\u06cc\u0645\u0627\u0646\u0648\u0626\u0644 \u0622\u063a\u0627\u0633\u064a\u0627\u0646), Anglicized as Emmanuel \"Mike\" Agassi (born 25 December 1930 in Salmas, Iran), is a former boxer and the father a",
+              "target_text": "conditioning trainer for retired tennis player Andre Agassi, from 1989 until Agassi's retirement in 2006."
+            }
+          ],
+          "selected_claim_texts": [
+            "Emanoul Aghassian (\u0627\u06cc\u0645\u0627\u0646\u0648\u0626\u0644 \u0622\u063a\u0627\u0633\u064a\u0627\u0646), Anglicized as Emmanuel \"Mike\" Agassi (born 25 December 1930 in Salmas, Iran), is a former boxer and the father a",
+            "Pete Sampras and Andre Agassi are retired professional men's tennis players who were both ranked World No.",
+            "conditioning trainer for retired tennis player Andre Agassi, from 1989 until Agassi's retirement in 2006."
+          ]
+        },
+        "C_full_egrag_gated": {
+          "present": true,
+          "failed": false,
+          "answer": "We cannot determine who was born first between Ana Kasparian and Andre Agassi based on the provided information.",
+          "citations": [],
+          "token_f1": 0.2,
+          "num_selected": 1,
+          "num_graph_edges": 0,
+          "num_claims_in_package": 9,
+          "relations": [],
+          "selected_claim_texts": [
+            "Ana Kasparian, who are often accompanied by various in-studio contributors, the program maintains an anti-establishment stance"
+          ]
+        },
+        "D_graph_no_contradiction": {
+          "present": true,
+          "failed": false,
+          "answer": "Andre Agassi",
+          "citations": [
+            "clm-3ae9b93da428a6cf",
+            "clm-61be3d944849b630",
+            "clm-beff8117d16230bf"
+          ],
+          "token_f1": 0.8,
+          "num_selected": 3,
+          "num_graph_edges": 2,
+          "num_claims_in_package": 9,
+          "relations": [],
+          "selected_claim_texts": [
+            "Ana Kasparian, who are often accompanied by various in-studio contributors, the program maintains an anti-establishment stance"
+          ]
+        }
+      }
+    }
+  },
+  "qwen3.5-9b": {
+    "both_fail": {
+      "example_id": "5a721a7655429971e9dc9271",
+      "conditions": {
+        "A_claim_only_rag": {
+          "present": true,
+          "failed": false,
+          "answer": "Based on the provided evidence, it is not possible to identify a specific actor from the show 'Murphy Brown' who also had a role in a show with Steve Howey. The evidence mentions an actor seen on 'Murphy Brown' [clm-42a3cc8f12f96cca] and mentions Steve Howey in the query, but no evidence links Steve",
+          "citations": [
+            "clm-42a3cc8f12f96cca"
+          ],
+          "token_f1": 0.0,
+          "num_selected": 8,
+          "num_graph_edges": 0
+        },
+        "B_full_egrag_ungated": {
+          "present": true,
+          "failed": false,
+          "answer": "The provided evidence states that an individual was seen on the series 'Murphy Brown', but it does not identify the actor's name, nor does it mention any other shows or fellow actors like Steve Howey. Therefore, based solely on the supplied evidence, it is impossible to determine which actor from 'M",
+          "citations": [
+            "clm-42a3cc8f12f96cca"
+          ],
+          "token_f1": 0.0,
+          "num_selected": 1,
+          "num_graph_edges": 0,
+          "num_claims_in_package": 9,
+          "relations": [],
+          "selected_claim_texts": [
+            "He was also seen on the series \"Murphy Brown\""
+          ]
+        },
+        "C_full_egrag_gated": {
+          "present": true,
+          "failed": false,
+          "answer": "The provided evidence states that an individual was seen on the series 'Murphy Brown', but it does not identify the actor's name, nor does it mention any other shows or fellow actors like Steve Howey. Therefore, based solely on the supplied evidence, it is impossible to determine which actor from 'M",
+          "citations": [
+            "clm-42a3cc8f12f96cca"
+          ],
+          "token_f1": 0.0,
+          "num_selected": 1,
+          "num_graph_edges": 0,
+          "num_claims_in_package": 9,
+          "relations": [],
+          "selected_claim_texts": [
+            "He was also seen on the series \"Murphy Brown\""
+          ]
+        },
+        "D_graph_no_contradiction": {
+          "present": true,
+          "failed": false,
+          "answer": "The provided evidence states that an individual was seen on the series 'Murphy Brown', but it does not identify the actor's name, nor does it mention any other shows or fellow actors like Steve Howey. Therefore, based solely on the supplied evidence, it is impossible to determine which actor from 'M",
+          "citations": [
+            "clm-42a3cc8f12f96cca"
+          ],
+          "token_f1": 0.0,
+          "num_selected": 1,
+          "num_graph_edges": 0,
+          "num_claims_in_package": 9,
+          "relations": [],
+          "selected_claim_texts": [
+            "He was also seen on the series \"Murphy Brown\""
+          ]
+        }
+      }
+    }
+  }
+}

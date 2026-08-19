@@ -1,0 +1,30 @@
+{
+  "bootstrap_samples": 1000,
+  "bootstrap_seed": 0,
+  "chunk_overlap": 0,
+  "chunk_size": 256,
+  "dataset": "fever",
+  "dataset_path": "artifacts/dev100-bottleneck/_raw_data/filtered/fever-dev-100.runner.jsonl",
+  "enforce_fairness": true,
+  "evidence_token_budget": 256,
+  "generator": "huggingface",
+  "generator_device": "cuda",
+  "generator_disable_thinking": false,
+  "generator_dtype": "bfloat16",
+  "generator_model": "Qwen/Qwen2.5-7B-Instruct",
+  "generator_quantization": "none",
+  "generator_revision": null,
+  "limit": null,
+  "max_new_tokens": 256,
+  "name": "fever_qwen2.5-7b-instruct_gated_dev100",
+  "output_dir": "artifacts/dev100-bottleneck/fever/qwen2.5-7b-instruct_gated",
+  "require_cuda": true,
+  "reserved_output_tokens": 64,
+  "seeds": [
+    0
+  ],
+  "top_k": 5,
+  "variants": [
+    "full_egrag"
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "per_seed": [
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.136986301369863,
+        "answer_evidence_entailment": 0.49118642997539474,
+        "citation_completeness": 0.0,
+        "citation_precision": 0.3607305936073059,
+        "citation_recall": 0.2054794520547945,
+        "contradiction_rate": 0.3287671232876712,
+        "empty_prediction": 0.0,
+        "evidence_precision": 0.3949771689497717,
+        "evidence_recall": 0.2328767123287671,
+        "exact_match": 0.1232876712328767,
+        "invalid_citations": 0.0,
+        "latency_ms": 2260.4975582081315,
+        "normalized_exact_match": 0.136986301369863,
+        "num_claims": 7.698630136986301,
+        "num_graph_edges": 0.6164383561643836,
+        "num_graph_nodes": 7.698630136986301,
+        "num_passages": 5.0,
+        "num_selected": 1.4794520547945205,
+        "token_estimate": 35.945205479452056,
+        "token_f1": 0.21371854460002168,
+        "unsupported_claim_rate": 0.58675799086758
+      },
+      "num_examples": 100,
+      "num_failed": 27,
+      "seed": 0,
+      "variant": "graph_no_contradiction",
+      "warnings": [
+        "uncited claim-like sentence: 'The provided text does not contain information about Midge M'",
+        "uncited claim-like sentence: \"Art Bell was the author of the book 'The Coming Global Super\"",
+        "uncited claim-like sentence: 'The birthday of the man who played Lex Luthor in Superman IV'",
+        "uncited claim-like sentence: \"The album's third single, 'If You Ever Get Lonely', was rele\"",
+        "uncited claim-like sentence: 'The winner of Celebrity Apprentice 3 did not have a number-o'",
+        "uncited claim-like sentence: 'The information provided does not specify which theater Heid'",
+        "uncited claim-like sentence: 'Lost Kings are an American DJ duo based in New York City.'",
+        "uncited claim-like sentence: 'The provided evidence does not contain specific information '",
+        "uncited claim-like sentence: 'The evidence provided does not contain information about a r'",
+        "uncited claim-like sentence: 'The information provided does not specify which episode Mona'",
+        "uncited claim-like sentence: \"The producer of Michel'le's birth year cannot be determined \"",
+        "uncited claim-like sentence: 'The pop artist that belongs on the Pledis Entertainment labe'",
+        "uncited claim-like sentence: 'the evidence provided does not contain information about the'",
+        "uncited claim-like sentence: 'The Benty Grange helmet adorned the archaeological artefact '",
+        "uncited claim-like sentence: 'Colonel of the military staff of King Kal\u0101kaua'",
+        "uncited claim-like sentence: 'David Koch is writing a book about the Koch family who contr'",
+        "uncited claim-like sentence: 'The woman whose museum is located in the Bolling\u2013Gatewood Ho'",
+        "uncited claim-like sentence: 'The NG postcode area is approximately 10 miles from Gamston,'",
+        "uncited claim-like sentence: \"The female character that was first introduced on 'Once Upon\"",
+        "uncited claim-like sentence: 'The apps are compatible with Microsoft Office file formats.'",
+        "uncited claim-like sentence: 'No, NRG Energy and Raymond James Financial are not based in '",
+        "uncited claim-like sentence: 'Rogell has more scope of profession as there is no informati'",
+        "uncited claim-like sentence: 'The information provided does not contain details about the '",
+        "uncited claim-like sentence: 'Based on the provided evidence, George Bernard Shaw has more'",
+        "uncited claim-like sentence: 'Lois McMaster Bujold is older than Bernard Malamud.'",
+        "uncited claim-like sentence: 'Stone Temple Pilots originated from the United States.'",
+        "uncited claim-like sentence: 'No, Lance King is a heavy metal vocalist but there is no evi'",
+        "uncited claim-like sentence: 'The provided data does not contain information about the num'",
+        "uncited claim-like sentence: 'The provided evidence does not contain information about the'",
+        "uncited claim-like sentence: 'No, Upper Crust Pizzeria is a restaurant, but there is no in'",
+        "uncited claim-like sentence: 'The Black Crowes is a rock band, but there is no direct evid'",
+        "uncited claim-like sentence: 'Housman was British while James Schuyler was American.'",
+        "uncited claim-like sentence: 'No, the documentaries Loot and Air Force, Incorporated were '",
+        "uncited claim-like sentence: 'The Chien Fran\u00e7ais Blanc et Orange is not specifically menti'",
+        "uncited claim-like sentence: '\u00c9douard Roger-Vasselin has won more events than Stefan Edber'",
+        "uncited claim-like sentence: 'Ford International Airport is not located in Oregon.'",
+        "uncited claim-like sentence: 'It appears to be associated with a naval vessel named after '",
+        "uncited claim-like sentence: 'No, Tionne Watkins has been a member of the girl group TLC, '",
+        "uncited claim-like sentence: 'No, Sorbaria and Goldenrod are not both genera of more than '"
+      ]
+    }
+  ],
+  "seed_aggregated": {
+    "graph_no_contradiction": {
+      "answer_accuracy": {
+        "mean": 0.136986301369863,
+        "median": 0.136986301369863,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 0.49118642997539474,
+        "median": 0.49118642997539474,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 0.3607305936073059,
+        "median": 0.3607305936073059,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.2054794520547945,
+        "median": 0.2054794520547945,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.3287671232876712,
+        "median": 0.3287671232876712,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 0.3949771689497717,
+        "median": 0.3949771689497717,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 0.2328767123287671,
+        "median": 0.2328767123287671,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.1232876712328767,
+        "median": 0.1232876712328767,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 2260.4975582081315,
+        "median": 2260.4975582081315,
+        "std": 0.0
+      },
+      "normalized_exact_match": {
+        "mean": 0.136986301369863,
+        "median": 0.136986301369863,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 7.698630136986301,
+        "median": 7.698630136986301,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.6164383561643836,
+        "median": 0.6164383561643836,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 7.698630136986301,
+        "median": 7.698630136986301,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 5.0,
+        "median": 5.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 1.4794520547945205,
+        "median": 1.4794520547945205,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 35.945205479452056,
+        "median": 35.945205479452056,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.21371854460002168,
+        "median": 0.21371854460002168,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.58675799086758,
+        "median": 0.58675799086758,
+        "std": 0.0
+      }
+    }
+  }
+}

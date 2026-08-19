@@ -1,0 +1,243 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 145
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "B. Reeves Eason Jr.::p0",
+      "extraction": null,
+      "extraction_confidence": 1.0,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "B. Reeves Eason Jr.::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "B. Reeves Eason Jr.",
+          "title": "B. Reeves Eason Jr.",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 219,
+            "source_id": "B. Reeves Eason Jr.",
+            "start": 0,
+            "text": "Billed as \"Master Breezy Reeves Jr.\" and \"Universal's Littlest Cowboy\", and later also known as Breezy Eason Jr., he was the son of motion picture director and actor B. Reeves Eason and his wife, the actress Jimsy Maye."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": null,
+      "source_reliability": null,
+      "text": "Billed as \"Master Breezy Reeves Jr.\" and \"Universal's Littlest Cowboy\", and later also known as Breezy Eason Jr., he was the son of motion picture director and actor B. Reeves Eason and his wife, the actress Jimsy Maye.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "Mystery Mountain (serial)::p0",
+      "extraction": null,
+      "extraction_confidence": 1.0,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Mystery Mountain (serial)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Mystery Mountain (serial)",
+          "title": "Mystery Mountain (serial)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 104,
+            "source_id": "Mystery Mountain (serial)",
+            "start": 0,
+            "text": "Distributed by Mascot Pictures, the series was a remake of Mascot's film \"The Hurricane Express\" (1932)."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": null,
+      "source_reliability": null,
+      "text": "Distributed by Mascot Pictures, the series was a remake of Mascot's film \"The Hurricane Express\" (1932).",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "The Law of the Wild::p0",
+      "extraction": null,
+      "extraction_confidence": 1.0,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "The Law of the Wild::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "The Law of the Wild",
+          "title": "The Law of the Wild",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 107,
+            "source_id": "The Law of the Wild",
+            "start": 0,
+            "text": "The Law of the Wild is a 1934 American Mascot movie serial directed by B. Reeves Eason and Armand Schaefer."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": null,
+      "source_reliability": null,
+      "text": "The Law of the Wild is a 1934 American Mascot movie serial directed by B. Reeves Eason and Armand Schaefer.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "Competition (1915 film)::p0",
+      "extraction": null,
+      "extraction_confidence": 1.0,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Competition (1915 film)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Competition (1915 film)",
+          "title": "Competition (1915 film)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 58,
+            "source_id": "Competition (1915 film)",
+            "start": 0,
+            "text": "It was Eason's directional debut, and he also acted in it."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": null,
+      "source_reliability": null,
+      "text": "It was Eason's directional debut, and he also acted in it.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "Prairie Thunder::p0",
+      "extraction": null,
+      "extraction_confidence": 1.0,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Prairie Thunder::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Prairie Thunder",
+          "title": "Prairie Thunder",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 100,
+            "source_id": "Prairie Thunder",
+            "start": 0,
+            "text": "The film stars Dick Foran, Janet Shaw, Frank Orth, Wilfred Lucas, Albert J. Smith and Yakima Canutt."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": null,
+      "source_reliability": null,
+      "text": "The film stars Dick Foran, Janet Shaw, Frank Orth, Wilfred Lucas, Albert J. Smith and Yakima Canutt.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "pkg-5ae095f055429924de1b7103",
+  "query": {
+    "created_at": null,
+    "query_id": "5ae095f055429924de1b7103",
+    "text": "Who has more scope of profession, B. Reeves Eason or Albert S. Rogell?"
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": null,
+      "claim_id": "B. Reeves Eason Jr.::p0",
+      "rank": 0,
+      "reason": null,
+      "selection_score": 1.0,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "Mystery Mountain (serial)::p0",
+      "rank": 1,
+      "reason": null,
+      "selection_score": 1.0,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "The Law of the Wild::p0",
+      "rank": 2,
+      "reason": null,
+      "selection_score": 1.0,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "Competition (1915 film)::p0",
+      "rank": 3,
+      "reason": null,
+      "selection_score": 1.0,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "Prairie Thunder::p0",
+      "rank": 4,
+      "reason": null,
+      "selection_score": 1.0,
+      "status": "accepted",
+      "utility": null
+    }
+  ],
+  "subgraph": null
+}

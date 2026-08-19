@@ -1,0 +1,458 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 14
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-36237d6d47b5b5b6",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Look At Us Now::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Look At Us Now",
+          "title": "Look At Us Now",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 54,
+            "source_id": "Look At Us Now",
+            "start": 0,
+            "text": "\"Look At Us Now\" is a song by American DJs Lost Kings."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Look At Us Now",
+          "American DJs Lost Kings"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Look At Us Now",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "\"Look At Us Now\" is a song by American DJs Lost Kings.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-06d356c78f860b87",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "When I Look at You::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "When I Look at You",
+          "title": "When I Look at You",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 60,
+            "source_id": "When I Look at You",
+            "start": 0,
+            "text": "\"When I Look at You\" is a song by American singer-songwriter"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "I Look",
+          "You",
+          "American"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "I Look",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "\"When I Look at You\" is a song by American singer-songwriter",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-8a7e35f67c1ad722",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "When I Look at You::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "When I Look at You",
+          "title": "When I Look at You",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 85,
+            "source_id": "When I Look at You",
+            "start": 65,
+            "text": "actress Miley Cyrus."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Miley Cyrus"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Miley Cyrus",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "actress Miley Cyrus.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-d5142afc5c5aa23f",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Feel Good (Gryffin and Illenium song)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Feel Good (Gryffin and Illenium song)",
+          "title": "Feel Good (Gryffin and Illenium song)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 59,
+            "source_id": "Feel Good (Gryffin and Illenium song)",
+            "start": 0,
+            "text": "\"Feel Good\" is a song by American DJs Gryffin and Illenium."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Feel Good",
+          "American DJs Gryffin",
+          "Illenium"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Feel Good",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "\"Feel Good\" is a song by American DJs Gryffin and Illenium.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-454dc5085114d770",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Phone Down::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Phone Down",
+          "title": "Phone Down",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 58,
+            "source_id": "Phone Down",
+            "start": 0,
+            "text": "\"Phone Down\" is a song recorded by American DJs Lost Kings"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Phone Down",
+          "American DJs Lost Kings"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Phone Down",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "\"Phone Down\" is a song recorded by American DJs Lost Kings",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-4297325769196a7b",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Phone Down::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Phone Down",
+          "title": "Phone Down",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 83,
+            "source_id": "Phone Down",
+            "start": 63,
+            "text": "singer Emily Warren."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Emily Warren"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Emily Warren",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "singer Emily Warren.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-573e1ec91e9fc494",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "808 Audio::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "808 Audio",
+          "title": "808 Audio",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 47,
+            "source_id": "808 Audio",
+            "start": 0,
+            "text": "808 Audio is an American headphones, earphones,"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Audio",
+          "American"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Audio",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "808 Audio is an American headphones, earphones,",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-5c926ecd37357994",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "808 Audio::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "808 Audio",
+          "title": "808 Audio",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 107,
+            "source_id": "808 Audio",
+            "start": 52,
+            "text": "wireless speakers company based in Hauppauge, New York."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Hauppauge",
+          "New York"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Hauppauge",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "wireless speakers company based in Hauppauge, New York.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5ab7f1315542991d322237d1",
+    "text": "\"Look At Us Now\" is a song by American DJs based in which city ?"
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.555,
+      "claim_id": "clm-36237d6d47b5b5b6",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 1.0,
+      "status": "accepted",
+      "utility": 0.5625
+    }
+  ],
+  "subgraph": null
+}

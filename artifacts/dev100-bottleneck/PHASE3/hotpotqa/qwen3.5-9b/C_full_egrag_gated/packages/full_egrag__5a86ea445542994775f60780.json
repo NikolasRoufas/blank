@@ -1,0 +1,418 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 25
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-2b03ef93b86ac968",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Once Upon a Time (season 5)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Once Upon a Time (season 5)",
+          "title": "Once Upon a Time (season 5)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 97,
+            "source_id": "Once Upon a Time (season 5)",
+            "start": 0,
+            "text": "The fifth season of the American ABC fantasy-drama \"Once Upon a Time\" was ordered on May 7, 2015."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [
+          "May"
+        ],
+        "named_entities": [
+          "American ABC",
+          "Once Upon",
+          "Time"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "American ABC",
+        "temporal_expressions": [
+          "May 7, 2015"
+        ]
+      },
+      "source_reliability": null,
+      "text": "The fifth season of the American ABC fantasy-drama \"Once Upon a Time\" was ordered on May 7, 2015.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-99915a578830acc6",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Zelena (Once Upon a Time)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Zelena (Once Upon a Time)",
+          "title": "Zelena (Once Upon a Time)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 123,
+            "source_id": "Zelena (Once Upon a Time)",
+            "start": 0,
+            "text": "Zelena, also known as the Wicked Witch of the West, is a fictional character in ABC's television series \"Once Upon a Time\"."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Zelena",
+          "Wicked Witch",
+          "West",
+          "ABC",
+          "Once Upon",
+          "Time"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Zelena",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Zelena, also known as the Wicked Witch of the West, is a fictional character in ABC's television series \"Once Upon a Time\".",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-789407c30f895385",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Once Upon a Time (season 5)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Once Upon a Time (season 5)",
+          "title": "Once Upon a Time (season 5)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 47,
+            "source_id": "Once Upon a Time (season 5)",
+            "start": 0,
+            "text": "On June 9, 2015, the promotion of Rebecca Mader"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Rebecca Mader"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Rebecca Mader",
+        "temporal_expressions": [
+          "June 9, 2015"
+        ]
+      },
+      "source_reliability": null,
+      "text": "On June 9, 2015, the promotion of Rebecca Mader",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-0585825eb8463aa8",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Once Upon a Time (season 5)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Once Upon a Time (season 5)",
+          "title": "Once Upon a Time (season 5)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 181,
+            "source_id": "Once Upon a Time (season 5)",
+            "start": 52,
+            "text": "Sean Maguire to series regulars was announced for the fifth season, portraying their characters Zelena / Wicked Witch of the West"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Sean Maguire",
+          "Zelena",
+          "Wicked Witch",
+          "West"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Sean Maguire",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Sean Maguire to series regulars was announced for the fifth season, portraying their characters Zelena / Wicked Witch of the West",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-fce664a7f2bb2e4a",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Once Upon a Time (season 5)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Once Upon a Time (season 5)",
+          "title": "Once Upon a Time (season 5)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 338,
+            "source_id": "Once Upon a Time (season 5)",
+            "start": 186,
+            "text": "Robin Hood, respectively, while a few days later, Michael Socha was confirmed to not be returning as a series regular as Will Scarlet / Knave of Hearts."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Robin Hood",
+          "Michael Socha",
+          "Will Scarlet",
+          "Knave",
+          "Hearts"
+        ],
+        "negation": true,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Robin Hood",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Robin Hood, respectively, while a few days later, Michael Socha was confirmed to not be returning as a series regular as Will Scarlet / Knave of Hearts.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-3608b4bf337513ac",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Monica Reyes::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Monica Reyes",
+          "title": "Monica Reyes",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 134,
+            "source_id": "Monica Reyes",
+            "start": 0,
+            "text": "The writers were required to create a character who was unlike any of the preconceived main characters that were a part of the series."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": null,
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The writers were required to create a character who was unlike any of the preconceived main characters that were a part of the series.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-18853f4b275e439e",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Zelena (Once Upon a Time)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Zelena (Once Upon a Time)",
+          "title": "Zelena (Once Upon a Time)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 208,
+            "source_id": "Zelena (Once Upon a Time)",
+            "start": 0,
+            "text": "After making recurring appearances in both the third and fourth seasons, Mader was promoted to series regular for the fifth and sixth seasons and was the fifth season's secondary antagonist in the first half."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "After",
+          "Mader"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "After",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "After making recurring appearances in both the third and fourth seasons, Mader was promoted to series regular for the fifth and sixth seasons and was the fifth season's secondary antagonist in the first half.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5a86ea445542994775f60780",
+    "text": "When was the female character that on June 9, 2015 was promoted to a series regular first introduced on \"Once Upon a Time\"?"
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.483333,
+      "claim_id": "clm-2b03ef93b86ac968",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 0.866666,
+      "status": "accepted",
+      "utility": 0.383333
+    }
+  ],
+  "subgraph": null
+}

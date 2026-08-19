@@ -1,0 +1,709 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 167
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-067b00f873ba38e1",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Portland International Airport MAX Station::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Portland International Airport MAX Station",
+          "title": "Portland International Airport MAX Station",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 150,
+            "source_id": "Portland International Airport MAX Station",
+            "start": 0,
+            "text": "The Portland International Airport station is a light rail station on the MAX Red Line in Portland, Oregon, located at Portland International Airport."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Portland International Airport",
+          "MAX Red Line",
+          "Portland",
+          "Oregon"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Portland International Airport",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The Portland International Airport station is a light rail station on the MAX Red Line in Portland, Oregon, located at Portland International Airport.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-0765d1a4b966718b",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Gerald R. Ford International Airport::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Gerald R. Ford International Airport",
+          "title": "Gerald R. Ford International Airport",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 9,
+            "source_id": "Gerald R. Ford International Airport",
+            "start": 0,
+            "text": "Gerald R."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Gerald R"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Gerald R",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Gerald R.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-1a98055026439fd0",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Pre-Commissioning Unit::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Pre-Commissioning Unit",
+          "title": "Pre-Commissioning Unit",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 33,
+            "source_id": "Pre-Commissioning Unit",
+            "start": 0,
+            "text": "Until they are commissioned, U.S."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Until",
+          "U",
+          "S"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Until",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Until they are commissioned, U.S.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-1b60b6c677829c3d",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Pre-Commissioning Unit::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Pre-Commissioning Unit",
+          "title": "Pre-Commissioning Unit",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 148,
+            "source_id": "Pre-Commissioning Unit",
+            "start": 97,
+            "text": "hull number only with no prefix, such as \"Gerald R."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Gerald R"
+        ],
+        "negation": true,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Gerald R",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "hull number only with no prefix, such as \"Gerald R.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-29aa7228ad22ee12",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Gerald R. Ford International Airport::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Gerald R. Ford International Airport",
+          "title": "Gerald R. Ford International Airport",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 175,
+            "source_id": "Gerald R. Ford International Airport",
+            "start": 10,
+            "text": "Ford International Airport (IATA: GRR,\u00a0ICAO: KGRR,\u00a0FAA LID: GRR) is a commercial airport in Cascade Township approximately 13 mi southeast of Grand Rapids, Michigan."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Ford International Airport",
+          "IATA",
+          "GRR",
+          "ICAO",
+          "KGRR",
+          "FAA LID",
+          "Cascade Township",
+          "Grand Rapids",
+          "Michigan"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Ford International Airport",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Ford International Airport (IATA: GRR, ICAO: KGRR, FAA LID: GRR) is a commercial airport in Cascade Township approximately 13 mi southeast of Grand Rapids, Michigan.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-4d123fee9f5bb0b1",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Pre-Commissioning Unit::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Pre-Commissioning Unit",
+          "title": "Pre-Commissioning Unit",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 72,
+            "source_id": "Pre-Commissioning Unit",
+            "start": 0,
+            "text": "For example, prior to its commissioning, the aircraft carrier \"Gerald R."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Gerald R"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Gerald R",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "For example, prior to its commissioning, the aircraft carrier \"Gerald R.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-545a770c0843c640",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Pre-Commissioning Unit::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Pre-Commissioning Unit",
+          "title": "Pre-Commissioning Unit",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 92,
+            "source_id": "Pre-Commissioning Unit",
+            "start": 34,
+            "text": "Navy vessels are officially identified by their given name"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Navy"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Navy",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Navy vessels are officially identified by their given name",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-5b4cff8eaf343a3f",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "PenAir::p1",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "PenAir",
+          "title": "PenAir",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 316,
+            "source_id": "PenAir",
+            "start": 275,
+            "text": "Denver International Airport in Colorado."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Denver International Airport",
+          "Colorado"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Denver International Airport",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Denver International Airport in Colorado.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-d4c7a391eb1b3b33",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Pre-Commissioning Unit::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Pre-Commissioning Unit",
+          "title": "Pre-Commissioning Unit",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 162,
+            "source_id": "Pre-Commissioning Unit",
+            "start": 73,
+            "text": "Ford\"\u00a0(CVN-78) has been described by the Navy as \"pre-commissioning unit (PCU) \"Gerald R."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Ford",
+          "CVN",
+          "Navy",
+          "PCU",
+          "Gerald R"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Ford",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Ford\" (CVN-78) has been described by the Navy as \"pre-commissioning unit (PCU) \"Gerald R.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-ebab1e9f33e1e0dd",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Pre-Commissioning Unit::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Pre-Commissioning Unit",
+          "title": "Pre-Commissioning Unit",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 164,
+            "source_id": "Pre-Commissioning Unit",
+            "start": 149,
+            "text": "Ford\" (CVN-78)."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Ford",
+          "CVN"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Ford",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Ford\" (CVN-78).",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-f80b924255e8ae01",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'its' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "PenAir::p1",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "PenAir",
+          "title": "PenAir",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 270,
+            "source_id": "PenAir",
+            "start": 88,
+            "text": "Its main base is Ted Stevens Anchorage International Airport, with other hubs located at Portland International Airport in Oregon, Boston Logan International Airport in Massachusetts"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Ted Stevens Anchorage International Airport",
+          "Portland International Airport",
+          "Oregon",
+          "Boston Logan International Airport",
+          "Massachusetts"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Its",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Its main base is Ted Stevens Anchorage International Airport, with other hubs located at Portland International Airport in Oregon, Boston Logan International Airport in Massachusetts",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "pkg-5a87c0945542996e4f30890b",
+  "query": {
+    "created_at": null,
+    "query_id": "5a87c0945542996e4f30890b",
+    "text": "Are Portland International Airport and Gerald R. Ford International Airport both located in Oregon?"
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": null,
+      "claim_id": "clm-067b00f873ba38e1",
+      "rank": 0,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-0765d1a4b966718b",
+      "rank": 1,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-1a98055026439fd0",
+      "rank": 2,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-1b60b6c677829c3d",
+      "rank": 3,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-29aa7228ad22ee12",
+      "rank": 4,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-4d123fee9f5bb0b1",
+      "rank": 5,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-545a770c0843c640",
+      "rank": 6,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-5b4cff8eaf343a3f",
+      "rank": 7,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-d4c7a391eb1b3b33",
+      "rank": 8,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-ebab1e9f33e1e0dd",
+      "rank": 9,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    }
+  ],
+  "subgraph": null
+}

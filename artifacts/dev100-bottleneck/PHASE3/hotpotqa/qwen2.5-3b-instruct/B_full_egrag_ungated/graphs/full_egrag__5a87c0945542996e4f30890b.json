@@ -1,0 +1,57 @@
+{
+  "claims": [
+    "clm-1a98055026439fd0",
+    "clm-545a770c0843c640",
+    "clm-1b60b6c677829c3d",
+    "clm-ebab1e9f33e1e0dd",
+    "clm-0765d1a4b966718b",
+    "clm-29aa7228ad22ee12",
+    "clm-4d123fee9f5bb0b1",
+    "clm-d4c7a391eb1b3b33",
+    "clm-f80b924255e8ae01",
+    "clm-5b4cff8eaf343a3f",
+    "clm-067b00f873ba38e1"
+  ],
+  "relations": [
+    {
+      "source": "clm-067b00f873ba38e1",
+      "target": "clm-f80b924255e8ae01",
+      "type": "contradiction"
+    },
+    {
+      "source": "clm-1b60b6c677829c3d",
+      "target": "clm-0765d1a4b966718b",
+      "type": "support"
+    },
+    {
+      "source": "clm-4d123fee9f5bb0b1",
+      "target": "clm-0765d1a4b966718b",
+      "type": "support"
+    },
+    {
+      "source": "clm-d4c7a391eb1b3b33",
+      "target": "clm-0765d1a4b966718b",
+      "type": "support"
+    },
+    {
+      "source": "clm-1b60b6c677829c3d",
+      "target": "clm-d4c7a391eb1b3b33",
+      "type": "contradiction"
+    },
+    {
+      "source": "clm-d4c7a391eb1b3b33",
+      "target": "clm-4d123fee9f5bb0b1",
+      "type": "support"
+    },
+    {
+      "source": "clm-545a770c0843c640",
+      "target": "clm-d4c7a391eb1b3b33",
+      "type": "contradiction"
+    },
+    {
+      "source": "clm-d4c7a391eb1b3b33",
+      "target": "clm-ebab1e9f33e1e0dd",
+      "type": "support"
+    }
+  ]
+}

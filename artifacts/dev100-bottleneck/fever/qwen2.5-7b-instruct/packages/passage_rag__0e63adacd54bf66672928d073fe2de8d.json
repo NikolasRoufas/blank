@@ -1,0 +1,75 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 26
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "Middle-earth::p0",
+      "extraction": null,
+      "extraction_confidence": 1.0,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Middle-earth::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Middle-earth",
+          "title": "Middle-earth",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 105,
+            "source_id": "Middle-earth",
+            "start": 0,
+            "text": "Middle-earth is the north continent of Earth -LRB- Arda -RRB- in an imaginary period of the Earth 's past"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": null,
+      "source_reliability": null,
+      "text": "Middle-earth is the north continent of Earth -LRB- Arda -RRB- in an imaginary period of the Earth 's past",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "pkg-0e63adacd54bf66672928d073fe2de8d",
+  "query": {
+    "created_at": null,
+    "query_id": "0e63adacd54bf66672928d073fe2de8d",
+    "text": "Middle-earth is a real place."
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": null,
+      "claim_id": "Middle-earth::p0",
+      "rank": 0,
+      "reason": null,
+      "selection_score": 1.0,
+      "status": "accepted",
+      "utility": null
+    }
+  ],
+  "subgraph": null
+}

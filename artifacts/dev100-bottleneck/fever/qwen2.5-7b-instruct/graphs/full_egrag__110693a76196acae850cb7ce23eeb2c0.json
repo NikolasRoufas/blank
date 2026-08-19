@@ -1,0 +1,13 @@
+{
+  "claims": [
+    "clm-96858ee698a716e6",
+    "clm-7519fe33313f50b6"
+  ],
+  "relations": [
+    {
+      "source": "clm-7519fe33313f50b6",
+      "target": "clm-96858ee698a716e6",
+      "type": "contradiction"
+    }
+  ]
+}

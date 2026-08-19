@@ -1,0 +1,452 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 15
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-fb0fc6fd922c0422",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Google Docs, Sheets, and Slides::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Google Docs, Sheets, and Slides",
+          "title": "Google Docs, Sheets, and Slides",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 59,
+            "source_id": "Google Docs, Sheets, and Slides",
+            "start": 0,
+            "text": "The apps are compatible with Microsoft Office file formats."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Microsoft Office"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Microsoft Office",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The apps are compatible with Microsoft Office file formats.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-4efc852240aa802b",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Google Docs, Sheets, and Slides::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Google Docs, Sheets, and Slides",
+          "title": "Google Docs, Sheets, and Slides",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 89,
+            "source_id": "Google Docs, Sheets, and Slides",
+            "start": 0,
+            "text": "The three apps are available as web applications, and as mobile apps for Android and iOS."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Android"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Android",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The three apps are available as web applications, and as mobile apps for Android and iOS.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-582e95fd491aefc8",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "List of Android app stores::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "List of Android app stores",
+          "title": "List of Android app stores",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 115,
+            "source_id": "List of Android app stores",
+            "start": 0,
+            "text": "Such apps are compiled in the Android-native APK file format which allows easy redistribution of apps to end-users."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Such",
+          "Android",
+          "APK"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Such",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Such apps are compiled in the Android-native APK file format which allows easy redistribution of apps to end-users.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-34911ed6ae4ddc42",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Google Docs, Sheets, and Slides::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Google Docs, Sheets, and Slides",
+          "title": "Google Docs, Sheets, and Slides",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 27,
+            "source_id": "Google Docs, Sheets, and Slides",
+            "start": 0,
+            "text": "Google Docs, Google Sheets,"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Google Docs",
+          "Google Sheets"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Google Docs",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Google Docs, Google Sheets,",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-69b70cb96b6be5f8",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Google Docs, Sheets, and Slides::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Google Docs, Sheets, and Slides",
+          "title": "Google Docs, Sheets, and Slides",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 81,
+            "source_id": "Google Docs, Sheets, and Slides",
+            "start": 32,
+            "text": "Google Slides are a word processor, a spreadsheet"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Google Slides"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Google Slides",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Google Slides are a word processor, a spreadsheet",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-7468f8aafdf43ba0",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Google Docs, Sheets, and Slides::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Google Docs, Sheets, and Slides",
+          "title": "Google Docs, Sheets, and Slides",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 225,
+            "source_id": "Google Docs, Sheets, and Slides",
+            "start": 86,
+            "text": "a presentation program respectively, all part of a free, web-based software office suite offered by Google within its Google Drive service."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Google",
+          "Google Drive"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Google",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "a presentation program respectively, all part of a free, web-based software office suite offered by Google within its Google Drive service.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-d9a7511672207dea",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "3D Builder::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "3D Builder",
+          "title": "3D Builder",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 33,
+            "source_id": "3D Builder",
+            "start": 0,
+            "text": "The user interface supports touch"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": null,
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The user interface supports touch",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-ed1676f44c8424f4",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "3D Builder::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "3D Builder",
+          "title": "3D Builder",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 93,
+            "source_id": "3D Builder",
+            "start": 38,
+            "text": "uses a ribbon similar to the Office Mobile tablet apps."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Office Mobile"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Office Mobile",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "uses a ribbon similar to the Office Mobile tablet apps.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5a7b48b15542995eb53be8eb",
+    "text": "These three apps that have similar functionality to Google for Education are compatible with what Microsoft file format?"
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.487143,
+      "claim_id": "clm-fb0fc6fd922c0422",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 0.88,
+      "status": "accepted",
+      "utility": 0.392857
+    }
+  ],
+  "subgraph": null
+}

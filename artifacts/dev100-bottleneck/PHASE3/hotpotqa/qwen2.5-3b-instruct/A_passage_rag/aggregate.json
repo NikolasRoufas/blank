@@ -1,0 +1,171 @@
+{
+  "per_seed": [
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.0,
+        "answer_evidence_entailment": 0.7549242424242424,
+        "citation_completeness": 0.0,
+        "citation_precision": 0.2916666666666667,
+        "citation_recall": 0.3125,
+        "contradiction_rate": 0.5,
+        "empty_prediction": 0.0,
+        "evidence_precision": 0.19375,
+        "evidence_recall": 0.4375,
+        "exact_match": 0.0,
+        "invalid_citations": 0.0,
+        "latency_ms": 2196.0054755036253,
+        "normalized_exact_match": 0.0,
+        "num_claims": 5.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 0.0,
+        "num_passages": 5.0,
+        "num_selected": 4.375,
+        "token_estimate": 166.0,
+        "token_f1": 0.008928571428571428,
+        "unsupported_claim_rate": 0.25
+      },
+      "num_examples": 100,
+      "num_failed": 92,
+      "seed": 0,
+      "variant": "passage_rag",
+      "warnings": [
+        "uncited claim-like sentence: 'Based on the provided evidence, Kettering University offers '",
+        "uncited claim-like sentence: 'No, Staten Island Catapult is a documentary, but This Is Elv'",
+        "uncited claim-like sentence: \"No, 'Chasing Coral' was released prior to 9/11: Press for Tr\"",
+        "uncited claim-like sentence: 'The Chien Fran\u00e7ais Blanc et Orange is used for hunting in pa'"
+      ]
+    }
+  ],
+  "seed_aggregated": {
+    "passage_rag": {
+      "answer_accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 0.7549242424242424,
+        "median": 0.7549242424242424,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 0.2916666666666667,
+        "median": 0.2916666666666667,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.3125,
+        "median": 0.3125,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.5,
+        "median": 0.5,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 0.19375,
+        "median": 0.19375,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 0.4375,
+        "median": 0.4375,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 2196.0054755036253,
+        "median": 2196.0054755036253,
+        "std": 0.0
+      },
+      "normalized_exact_match": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 5.0,
+        "median": 5.0,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 5.0,
+        "median": 5.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 4.375,
+        "median": 4.375,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 166.0,
+        "median": 166.0,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.008928571428571428,
+        "median": 0.008928571428571428,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.25,
+        "median": 0.25,
+        "std": 0.0
+      }
+    }
+  }
+}

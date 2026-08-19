@@ -1,0 +1,243 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 171
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "The Really Nasty Horse Racing Game::p0",
+      "extraction": null,
+      "extraction_confidence": 1.0,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "The Really Nasty Horse Racing Game::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "The Really Nasty Horse Racing Game",
+          "title": "The Really Nasty Horse Racing Game",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 78,
+            "source_id": "The Really Nasty Horse Racing Game",
+            "start": 0,
+            "text": "The Really Nasty Horse Racing Game is a board game combining luck and tactics."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": null,
+      "source_reliability": null,
+      "text": "The Really Nasty Horse Racing Game is a board game combining luck and tactics.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "Horse Racing Ireland::p0",
+      "extraction": null,
+      "extraction_confidence": 1.0,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Horse Racing Ireland::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Horse Racing Ireland",
+          "title": "Horse Racing Ireland",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 227,
+            "source_id": "Horse Racing Ireland",
+            "start": 0,
+            "text": "Like most other sports, horse racing is run on an All Ireland basis, so Horse Racing Ireland is responsible for racing in both the Republic of Ireland, which has 24 racecourses, and in Northern Ireland, which has 2 racecourses."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": null,
+      "source_reliability": null,
+      "text": "Like most other sports, horse racing is run on an All Ireland basis, so Horse Racing Ireland is responsible for racing in both the Republic of Ireland, which has 24 racecourses, and in Northern Ireland, which has 2 racecourses.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "Horse Racing (video game)::p0",
+      "extraction": null,
+      "extraction_confidence": 1.0,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Horse Racing (video game)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Horse Racing (video game)",
+          "title": "Horse Racing (video game)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 111,
+            "source_id": "Horse Racing (video game)",
+            "start": 0,
+            "text": "These horses are known by their colors (instead of their post position numbers\u2014unlike in regular horse racing)."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": null,
+      "source_reliability": null,
+      "text": "These horses are known by their colors (instead of their post position numbers\u2014unlike in regular horse racing).",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "Sega Rally Championship::p0",
+      "extraction": null,
+      "extraction_confidence": 1.0,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Sega Rally Championship::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Sega Rally Championship",
+          "title": "Sega Rally Championship",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 151,
+            "source_id": "Sega Rally Championship",
+            "start": 0,
+            "text": "As the first racing game to incorporate this feature, \"Sega Rally\" is considered to be one of the milestones in the evolution of the racing game genre."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": null,
+      "source_reliability": null,
+      "text": "As the first racing game to incorporate this feature, \"Sega Rally\" is considered to be one of the milestones in the evolution of the racing game genre.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "Kart racing game::p0",
+      "extraction": null,
+      "extraction_confidence": 1.0,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Kart racing game::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Kart racing game",
+          "title": "Kart racing game",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 129,
+            "source_id": "Kart racing game",
+            "start": 0,
+            "text": "Kart racing game, also known as cart racing game, go-kart racing game, or simply kart racer, is a subgenre of racing video games."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": null,
+      "source_reliability": null,
+      "text": "Kart racing game, also known as cart racing game, go-kart racing game, or simply kart racer, is a subgenre of racing video games.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "pkg-5a802fb8554299485f598582",
+  "query": {
+    "created_at": null,
+    "query_id": "5a802fb8554299485f598582",
+    "text": "Careers and The Really Nasty Horse Racing Game are both what kind of game?"
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": null,
+      "claim_id": "The Really Nasty Horse Racing Game::p0",
+      "rank": 0,
+      "reason": null,
+      "selection_score": 1.0,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "Horse Racing Ireland::p0",
+      "rank": 1,
+      "reason": null,
+      "selection_score": 1.0,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "Horse Racing (video game)::p0",
+      "rank": 2,
+      "reason": null,
+      "selection_score": 1.0,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "Sega Rally Championship::p0",
+      "rank": 3,
+      "reason": null,
+      "selection_score": 1.0,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "Kart racing game::p0",
+      "rank": 4,
+      "reason": null,
+      "selection_score": 1.0,
+      "status": "accepted",
+      "utility": null
+    }
+  ],
+  "subgraph": null
+}

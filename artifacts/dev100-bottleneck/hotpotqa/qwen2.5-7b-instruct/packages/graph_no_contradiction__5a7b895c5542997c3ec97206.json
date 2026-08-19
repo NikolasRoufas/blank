@@ -1,0 +1,414 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 17
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-60b0d364b0ac0b51",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'it' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Africa: The Serengeti::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Africa: The Serengeti",
+          "title": "Africa: The Serengeti",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 65,
+            "source_id": "Africa: The Serengeti",
+            "start": 0,
+            "text": "It is narrated by Academy Award-nominated actor James Earl Jones,"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Academy Award",
+          "James Earl Jones"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "It",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "It is narrated by Academy Award-nominated actor James Earl Jones,",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-8078933eca10692d",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Africa: The Serengeti::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Africa: The Serengeti",
+          "title": "Africa: The Serengeti",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 95,
+            "source_id": "Africa: The Serengeti",
+            "start": 70,
+            "text": "directed by George Casey."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "George Casey"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "George Casey",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "directed by George Casey.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-0816a4484f7d202a",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Das Bus::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Das Bus",
+          "title": "Das Bus",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 68,
+            "source_id": "Das Bus",
+            "start": 0,
+            "text": "Guest star James Earl Jones narrates the final scene of the episode."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Guest",
+          "James Earl Jones"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Guest",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Guest star James Earl Jones narrates the final scene of the episode.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-0421ce4bf8ad1d21",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Lying Lips::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Lying Lips",
+          "title": "Lying Lips",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 94,
+            "source_id": "Lying Lips",
+            "start": 0,
+            "text": "Lying Lips is a 1939 American melodrama race film by Oscar Micheaux, starring Edna Mae Harris,"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Lying Lips",
+          "American",
+          "Oscar Micheaux",
+          "Edna Mae Harris"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Lying Lips",
+        "temporal_expressions": [
+          "1939"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Lying Lips is a 1939 American melodrama race film by Oscar Micheaux, starring Edna Mae Harris,",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-5c006fd36757c029",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Lying Lips::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Lying Lips",
+          "title": "Lying Lips",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 150,
+            "source_id": "Lying Lips",
+            "start": 99,
+            "text": "Robert Earl Jones (the father of James Earl Jones)."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Robert Earl Jones",
+          "James Earl Jones"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Robert Earl Jones",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Robert Earl Jones (the father of James Earl Jones).",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-2b995c33b1842aac",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Das Bus::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Das Bus",
+          "title": "Das Bus",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 85,
+            "source_id": "Das Bus",
+            "start": 0,
+            "text": "\"Das Bus\" is the fourteenth episode of \"The Simpsons\"<nowiki>'</nowiki> ninth season."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Das Bus",
+          "Simpsons"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Das Bus",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "\"Das Bus\" is the fourteenth episode of \"The Simpsons\"<nowiki>'</nowiki> ninth season.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-1eecf5374e3ab9d8",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Alice (Moby song)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Alice (Moby song)",
+          "title": "Alice (Moby song)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 385,
+            "source_id": "Alice (Moby song)",
+            "start": 0,
+            "text": "The music video was directed by Andreas Nilsson and features a collage of footage interspersed with Jones' head performing the song, along with various clips of explosions and scientific experiments, and scenes of violence and discrimination from classic B-movies; one such scene is from the film \"Blood Tide\" which features James Earl Jones punching a watermelon in time to the music."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Andreas Nilsson",
+          "Jones",
+          "B",
+          "Blood Tide",
+          "James Earl Jones"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Andreas Nilsson",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The music video was directed by Andreas Nilsson and features a collage of footage interspersed with Jones' head performing the song, along with various clips of explosions and scientific experiments, and scenes of violence and discrimination from classic B-movies; one such scene is from the film \"Blood Tide\" which features James Earl Jones punching a watermelon in time to the music.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5a7b895c5542997c3ec97206",
+    "text": "The head writer for which show also wrote a Simpsons' episode narrated by James Earl Jones?"
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.475455,
+      "claim_id": "clm-0816a4484f7d202a",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 0.839091,
+      "status": "accepted",
+      "utility": 0.363636
+    }
+  ],
+  "subgraph": null
+}

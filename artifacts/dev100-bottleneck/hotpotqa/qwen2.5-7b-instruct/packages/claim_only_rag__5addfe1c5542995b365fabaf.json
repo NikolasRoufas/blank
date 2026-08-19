@@ -1,0 +1,356 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 119
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-0975c7c711e02c8b",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Child's Play (1992 film)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Child's Play (1992 film)",
+          "title": "Child's Play (1992 film)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 92,
+            "source_id": "Child's Play (1992 film)",
+            "start": 0,
+            "text": "Child's Play, also known as Kinderspiele, is a 1992 German film directed by Wolfgang Becker."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Child",
+          "Play",
+          "Kinderspiele",
+          "German",
+          "Wolfgang Becker"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Child",
+        "temporal_expressions": [
+          "1992"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Child's Play, also known as Kinderspiele, is a 1992 German film directed by Wolfgang Becker.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-2055e7fc0c10432a",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Schmetterlinge::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Schmetterlinge",
+          "title": "Schmetterlinge",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 60,
+            "source_id": "Schmetterlinge",
+            "start": 0,
+            "text": "Schmetterlinge is a German film directed by Wolfgang Becker."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Schmetterlinge",
+          "German",
+          "Wolfgang Becker"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Schmetterlinge",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Schmetterlinge is a German film directed by Wolfgang Becker.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-70b5e1aeef859213",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Jacques Audiard::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Jacques Audiard",
+          "title": "Jacques Audiard",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 84,
+            "source_id": "Jacques Audiard",
+            "start": 0,
+            "text": "Jacques Audiard (] ; born 30 April 1952) is a French film director and screenwriter."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Jacques Audiard",
+          "French"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Jacques Audiard",
+        "temporal_expressions": [
+          "1952"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Jacques Audiard (] ; born 30 April 1952) is a French film director and screenwriter.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-db1c45d445bb6072",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "I Was All His::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "I Was All His",
+          "title": "I Was All His",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 169,
+            "source_id": "I Was All His",
+            "start": 0,
+            "text": "I Was All His (German: Ich war ihm h\u00f6rig) is a 1958 West German drama film directed by Wolfgang Becker and starring Barbara R\u00fctting, Carlos Thompson and Wolfgang Preiss."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "I Was All His",
+          "German",
+          "Ich",
+          "West German",
+          "Wolfgang Becker",
+          "Barbara",
+          "Carlos Thompson",
+          "Wolfgang Preiss"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "I Was All His",
+        "temporal_expressions": [
+          "1958"
+        ]
+      },
+      "source_reliability": null,
+      "text": "I Was All His (German: Ich war ihm h\u00f6rig) is a 1958 West German drama film directed by Wolfgang Becker and starring Barbara R\u00fctting, Carlos Thompson and Wolfgang Preiss.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-fce18e43d715d771",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Wolfgang Becker::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Wolfgang Becker",
+          "title": "Wolfgang Becker",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 73,
+            "source_id": "Wolfgang Becker",
+            "start": 0,
+            "text": "Wolfgang Becker (born 22 June 1954) is a German film director and writer."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Wolfgang Becker",
+          "German"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Wolfgang Becker",
+        "temporal_expressions": [
+          "1954"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Wolfgang Becker (born 22 June 1954) is a German film director and writer.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "pkg-5addfe1c5542995b365fabaf",
+  "query": {
+    "created_at": null,
+    "query_id": "5addfe1c5542995b365fabaf",
+    "text": "Are Wolfgang Becker and Jacques Audiard both German film directors?"
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": null,
+      "claim_id": "clm-0975c7c711e02c8b",
+      "rank": 0,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-2055e7fc0c10432a",
+      "rank": 1,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-70b5e1aeef859213",
+      "rank": 2,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-db1c45d445bb6072",
+      "rank": 3,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-fce18e43d715d771",
+      "rank": 4,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    }
+  ],
+  "subgraph": null
+}

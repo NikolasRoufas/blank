@@ -1,0 +1,150 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 36
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-29f0689a9b7ee6be",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "DJ_Quik::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "DJ_Quik",
+          "title": "DJ Quik",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 141,
+            "source_id": "DJ_Quik",
+            "start": 0,
+            "text": "David Marvin Blake -LRB- born January 18 , 1970 -RRB- , better known by his stage name DJ Quik , is an American hip hop recording artist , DJ"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "David Marvin Blake",
+          "LRB",
+          "RRB",
+          "DJ Quik",
+          "American",
+          "DJ"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "David Marvin Blake",
+        "temporal_expressions": [
+          "January 18",
+          "1970"
+        ]
+      },
+      "source_reliability": null,
+      "text": "David Marvin Blake -LRB- born January 18 , 1970 -RRB- , better known by his stage name DJ Quik , is an American hip hop recording artist , DJ",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-d04a82706756f9d8",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "DJ_Quik::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "DJ_Quik",
+          "title": "DJ Quik",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 163,
+            "source_id": "DJ_Quik",
+            "start": 146,
+            "text": "record producer ."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": null,
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "record producer .",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "11e0bd4028238a190811e98bd1e37d04",
+    "text": "DJ Quik's maiden name is David Marvin Blake."
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.483846,
+      "claim_id": "clm-29f0689a9b7ee6be",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 0.868461,
+      "status": "accepted",
+      "utility": 0.384615
+    }
+  ],
+  "subgraph": null
+}

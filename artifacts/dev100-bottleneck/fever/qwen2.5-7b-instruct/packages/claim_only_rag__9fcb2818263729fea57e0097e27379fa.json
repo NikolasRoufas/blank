@@ -1,0 +1,99 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 49
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-6c7741b2558519dd",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'he' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "L.A._Reid::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "L.A._Reid",
+          "title": "L.A. Reid",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 199,
+            "source_id": "L.A._Reid",
+            "start": 0,
+            "text": "He has served as the chairman and CEO of Epic Records , a division of Sony Music Entertainment , the president and CEO of Arista Records , and the chairman and CEO of the Island Def Jam Music Group ."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "CEO",
+          "Epic Records",
+          "Sony Music Entertainment",
+          "Arista Records",
+          "Island Def Jam Music Group"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "He",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "He has served as the chairman and CEO of Epic Records , a division of Sony Music Entertainment , the president and CEO of Arista Records , and the chairman and CEO of the Island Def Jam Music Group .",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "pkg-9fcb2818263729fea57e0097e27379fa",
+  "query": {
+    "created_at": null,
+    "query_id": "9fcb2818263729fea57e0097e27379fa",
+    "text": "L.A. Reid hasn't served as a president."
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": null,
+      "claim_id": "clm-6c7741b2558519dd",
+      "rank": 0,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    }
+  ],
+  "subgraph": null
+}

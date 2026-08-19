@@ -1,0 +1,153 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 38
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-f3427eb146dfbe47",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Diversity_Day_-LRB-The_Office-RRB-::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Diversity_Day_-LRB-The_Office-RRB-",
+          "title": "Diversity Day -LRB-The Office-RRB-",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 115,
+            "source_id": "Diversity_Day_-LRB-The_Office-RRB-",
+            "start": 0,
+            "text": "`` Diversity Day '' is the second episode of the first season of the American comedy television series The Office ,"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Diversity Day",
+          "American",
+          "Office"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Diversity Day",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "`` Diversity Day '' is the second episode of the first season of the American comedy television series The Office ,",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-485d643b222a7d9f",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Diversity_Day_-LRB-The_Office-RRB-::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Diversity_Day_-LRB-The_Office-RRB-",
+          "title": "Diversity Day -LRB-The Office-RRB-",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 156,
+            "source_id": "Diversity_Day_-LRB-The_Office-RRB-",
+            "start": 120,
+            "text": "the show 's second episode overall ."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": null,
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "the show 's second episode overall .",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "fa474de9a4df9071ab91146c86f37a69",
+    "text": "Larry Wilmore is a Catholic."
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.441111,
+      "claim_id": "clm-f3427eb146dfbe47",
+      "rank": 0,
+      "reason": "top base value within budget",
+      "selection_score": 0.718889,
+      "status": "accepted",
+      "utility": 0.277778
+    },
+    {
+      "belief": 0.43,
+      "claim_id": "clm-485d643b222a7d9f",
+      "rank": 1,
+      "reason": "top base value within budget",
+      "selection_score": 0.68,
+      "status": "accepted",
+      "utility": 0.25
+    }
+  ],
+  "subgraph": null
+}

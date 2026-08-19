@@ -1,0 +1,350 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 108
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-308fa4bbaec11c33",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "The Curse of Chalion::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "The Curse of Chalion",
+          "title": "The Curse of Chalion",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 85,
+            "source_id": "The Curse of Chalion",
+            "start": 0,
+            "text": "The Curse of Chalion is a 2001 fantasy novel by American writer Lois McMaster Bujold."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Curse",
+          "Chalion",
+          "American",
+          "Lois McMaster Bujold"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Curse",
+        "temporal_expressions": [
+          "2001"
+        ]
+      },
+      "source_reliability": null,
+      "text": "The Curse of Chalion is a 2001 fantasy novel by American writer Lois McMaster Bujold.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-4b12931c4a78d8fc",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Horizon (novel)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Horizon (novel)",
+          "title": "Horizon (novel)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 67,
+            "source_id": "Horizon (novel)",
+            "start": 0,
+            "text": "Horizon is a fantasy novel by American writer Lois McMaster Bujold."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Horizon",
+          "American",
+          "Lois McMaster Bujold"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Horizon",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Horizon is a fantasy novel by American writer Lois McMaster Bujold.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-b8ae423562575193",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Cordelia Naismith::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Cordelia Naismith",
+          "title": "Cordelia Naismith",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 98,
+            "source_id": "Cordelia Naismith",
+            "start": 0,
+            "text": "Cordelia Naismith is the name of two fictional characters by American writer Lois McMaster Bujold."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Cordelia Naismith",
+          "American",
+          "Lois McMaster Bujold"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Cordelia Naismith",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Cordelia Naismith is the name of two fictional characters by American writer Lois McMaster Bujold.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-c5dc2b7cfd90f2f2",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Brothers in Arms (Bujold novel)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Brothers in Arms (Bujold novel)",
+          "title": "Brothers in Arms (Bujold novel)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 113,
+            "source_id": "Brothers in Arms (Bujold novel)",
+            "start": 0,
+            "text": "Brothers in Arms is a science fiction novel by American writer Lois McMaster Bujold, part of the Vorkosigan Saga."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Brothers",
+          "Arms",
+          "American",
+          "Lois McMaster Bujold",
+          "Vorkosigan Saga"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Brothers",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Brothers in Arms is a science fiction novel by American writer Lois McMaster Bujold, part of the Vorkosigan Saga.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-ff76b3c8c49065bd",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Passage (Bujold novel)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Passage (Bujold novel)",
+          "title": "Passage (Bujold novel)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 78,
+            "source_id": "Passage (Bujold novel)",
+            "start": 0,
+            "text": "Passage is a novel by American writer Lois McMaster Bujold, published in 2008."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Passage",
+          "American",
+          "Lois McMaster Bujold"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Passage",
+        "temporal_expressions": [
+          "2008"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Passage is a novel by American writer Lois McMaster Bujold, published in 2008.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "pkg-5a7e22ed5542995ed0d166a7",
+  "query": {
+    "created_at": null,
+    "query_id": "5a7e22ed5542995ed0d166a7",
+    "text": "What writer is older, Bernard Malamud or Lois McMaster Bujold?"
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": null,
+      "claim_id": "clm-308fa4bbaec11c33",
+      "rank": 0,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-4b12931c4a78d8fc",
+      "rank": 1,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-b8ae423562575193",
+      "rank": 2,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-c5dc2b7cfd90f2f2",
+      "rank": 3,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-ff76b3c8c49065bd",
+      "rank": 4,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    }
+  ],
+  "subgraph": null
+}

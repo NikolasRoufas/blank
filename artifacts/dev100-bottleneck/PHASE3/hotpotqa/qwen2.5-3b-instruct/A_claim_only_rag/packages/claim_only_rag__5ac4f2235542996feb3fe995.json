@@ -1,0 +1,541 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 181
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-04df383dfc78dc87",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Maria von Trapp::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Maria von Trapp",
+          "title": "Maria von Trapp",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 126,
+            "source_id": "Maria von Trapp",
+            "start": 0,
+            "text": "Maria Augusta von\u00a0Trapp (n\u00e9e Kutschera; 26\u00a0January 1905 \u2013 28\u00a0March 1987), also known as Baroness von\u00a0Trapp, was the stepmother"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Maria Augusta",
+          "Trapp",
+          "Kutschera",
+          "Baroness"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Maria Augusta",
+        "temporal_expressions": [
+          "1905",
+          "1987"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Maria Augusta von Trapp (n\u00e9e Kutschera; 26 January 1905 \u2013 28 March 1987), also known as Baroness von Trapp, was the stepmother",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-06032b50d931399a",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Maria von Trapp::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Maria von Trapp",
+          "title": "Maria von Trapp",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 169,
+            "source_id": "Maria von Trapp",
+            "start": 131,
+            "text": "matriarch of the Trapp Family Singers."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Trapp Family Singers"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Trapp Family Singers",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "matriarch of the Trapp Family Singers.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-2f2490778f771e78",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'she' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Maria von Trapp::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Maria von Trapp",
+          "title": "Maria von Trapp",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 78,
+            "source_id": "Maria von Trapp",
+            "start": 0,
+            "text": "She wrote \"The Story of the Trapp Family Singers\" which was published in 1949."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Story",
+          "Trapp Family Singers"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "She",
+        "temporal_expressions": [
+          "1949"
+        ]
+      },
+      "source_reliability": null,
+      "text": "She wrote \"The Story of the Trapp Family Singers\" which was published in 1949.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-801a2a86fe8c7196",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Charmian Carr::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Charmian Carr",
+          "title": "Charmian Carr",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 230,
+            "source_id": "Charmian Carr",
+            "start": 110,
+            "text": "singer best known for her role as Liesl, the eldest Von Trapp daughter in the 1965 film version of \"The Sound of Music\"."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Liesl",
+          "Von Trapp",
+          "Sound",
+          "Music"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Liesl",
+        "temporal_expressions": [
+          "1965"
+        ]
+      },
+      "source_reliability": null,
+      "text": "singer best known for her role as Liesl, the eldest Von Trapp daughter in the 1965 film version of \"The Sound of Music\".",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-84a6a0d59f6269f8",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Maria von Trapp::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Maria von Trapp",
+          "title": "Maria von Trapp",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 193,
+            "source_id": "Maria von Trapp",
+            "start": 162,
+            "text": "the 1965 film of the same name."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": null,
+        "temporal_expressions": [
+          "1965"
+        ]
+      },
+      "source_reliability": null,
+      "text": "the 1965 film of the same name.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-a2b0ce35a3f61e5e",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Maria von Trapp::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Maria von Trapp",
+          "title": "Maria von Trapp",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 157,
+            "source_id": "Maria von Trapp",
+            "start": 0,
+            "text": "The story served as the inspiration for the 1956 West German film \"The Trapp Family\", which in turn inspired the Broadway musical \"The Sound of Music\" (1959)"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "West German",
+          "Trapp Family",
+          "Broadway",
+          "Sound",
+          "Music"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "West German",
+        "temporal_expressions": [
+          "1956",
+          "1959"
+        ]
+      },
+      "source_reliability": null,
+      "text": "The story served as the inspiration for the 1956 West German film \"The Trapp Family\", which in turn inspired the Broadway musical \"The Sound of Music\" (1959)",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-ab2bfc06c2f4ef25",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'it' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Edelweiss (song)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Edelweiss (song)",
+          "title": "Edelweiss (song)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 185,
+            "source_id": "Edelweiss (song)",
+            "start": 0,
+            "text": "It was created for the 1959 Broadway production of \"The Sound of Music\" in the role originated by performer Theodore Bikel as a song for the character of Captain Georg Ludwig von Trapp."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Broadway",
+          "Sound",
+          "Music",
+          "Theodore Bikel",
+          "Captain Georg Ludwig",
+          "Trapp"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "It",
+        "temporal_expressions": [
+          "1959"
+        ]
+      },
+      "source_reliability": null,
+      "text": "It was created for the 1959 Broadway production of \"The Sound of Music\" in the role originated by performer Theodore Bikel as a song for the character of Captain Georg Ludwig von Trapp.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-ef2348e640ae1de8",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Charmian Carr::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Charmian Carr",
+          "title": "Charmian Carr",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 105,
+            "source_id": "Charmian Carr",
+            "start": 0,
+            "text": "Charmian Carr (born Charmian Anne Farnon; December 27, 1942 \u2013 September 17, 2016) was an American actress"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Charmian Carr",
+          "Charmian Anne Farnon",
+          "American"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Charmian Carr",
+        "temporal_expressions": [
+          "December 27, 1942",
+          "September 17, 2016"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Charmian Carr (born Charmian Anne Farnon; December 27, 1942 \u2013 September 17, 2016) was an American actress",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "pkg-5ac4f2235542996feb3fe995",
+  "query": {
+    "created_at": null,
+    "query_id": "5ac4f2235542996feb3fe995",
+    "text": "The elder sister of Darleen Carr is best known for her role as which Von Trapp daughter in \"The Sound of Music?\""
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": null,
+      "claim_id": "clm-04df383dfc78dc87",
+      "rank": 0,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-06032b50d931399a",
+      "rank": 1,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-2f2490778f771e78",
+      "rank": 2,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-801a2a86fe8c7196",
+      "rank": 3,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-84a6a0d59f6269f8",
+      "rank": 4,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-a2b0ce35a3f61e5e",
+      "rank": 5,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-ab2bfc06c2f4ef25",
+      "rank": 6,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    }
+  ],
+  "subgraph": null
+}

@@ -1,0 +1,348 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 102
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-18f7373f699cab31",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Boyz n da Hood::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Boyz n da Hood",
+          "title": "Boyz n da Hood",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 79,
+            "source_id": "Boyz n da Hood",
+            "start": 0,
+            "text": "Boyz N Da Hood is an American Southern gangsta rap group from Atlanta, Georgia."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Boyz N Da Hood",
+          "American Southern",
+          "Atlanta",
+          "Georgia"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Boyz N Da Hood",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Boyz N Da Hood is an American Southern gangsta rap group from Atlanta, Georgia.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-9a8f9224c540e3b7",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Boyz n da Hood (disambiguation)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Boyz n da Hood (disambiguation)",
+          "title": "Boyz n da Hood (disambiguation)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 57,
+            "source_id": "Boyz n da Hood (disambiguation)",
+            "start": 0,
+            "text": "Boyz n da Hood is an American Southern gangsta rap group."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Boyz",
+          "Hood",
+          "American Southern"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Boyz",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Boyz n da Hood is an American Southern gangsta rap group.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-a377b4c029f9037e",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Back Up n da Chevy::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Back Up n da Chevy",
+          "title": "Back Up n da Chevy",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 98,
+            "source_id": "Back Up n da Chevy",
+            "start": 0,
+            "text": "Back Up n da Chevy is the second album from rap group Boyz n da Hood, released on October 2, 2007."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Back Up",
+          "Chevy",
+          "Boyz",
+          "Hood"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Back Up",
+        "temporal_expressions": [
+          "October 2, 2007"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Back Up n da Chevy is the second album from rap group Boyz n da Hood, released on October 2, 2007.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-bd4286fb578be24d",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Boyz n da Hood (album)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Boyz n da Hood (album)",
+          "title": "Boyz n da Hood (album)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 92,
+            "source_id": "Boyz n da Hood (album)",
+            "start": 0,
+            "text": "Boyz N Da Hood is the debut album by hip hop group Boyz N Da Hood released on June 21, 2005."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Boyz N Da Hood"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Boyz N Da Hood",
+        "temporal_expressions": [
+          "June 21, 2005"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Boyz N Da Hood is the debut album by hip hop group Boyz N Da Hood released on June 21, 2005.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-e6649d8202aae96b",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Everybody Know Me::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Everybody Know Me",
+          "title": "Everybody Know Me",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 90,
+            "source_id": "Everybody Know Me",
+            "start": 0,
+            "text": "\"Everybody Know Me\" is the first single from the Boyz N Da Hood album, Back Up n da Chevy."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Everybody Know Me",
+          "Boyz N Da Hood",
+          "Back Up",
+          "Chevy"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Everybody Know Me",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "\"Everybody Know Me\" is the first single from the Boyz N Da Hood album, Back Up n da Chevy.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "pkg-5a845b2d5542996488c2e520",
+  "query": {
+    "created_at": null,
+    "query_id": "5a845b2d5542996488c2e520",
+    "text": "Back Up n da Chevy was an album by the rap group from what city?"
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": null,
+      "claim_id": "clm-18f7373f699cab31",
+      "rank": 0,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-9a8f9224c540e3b7",
+      "rank": 1,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-a377b4c029f9037e",
+      "rank": 2,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-bd4286fb578be24d",
+      "rank": 3,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-e6649d8202aae96b",
+      "rank": 4,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    }
+  ],
+  "subgraph": null
+}

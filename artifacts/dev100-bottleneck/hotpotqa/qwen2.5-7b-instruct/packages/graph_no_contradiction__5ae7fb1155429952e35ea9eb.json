@@ -1,0 +1,481 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 9
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-45a99803546139a5",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'he' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Joseph-Berlioz Randriamihaja::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Joseph-Berlioz Randriamihaja",
+          "title": "Joseph-Berlioz Randriamihaja",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 51,
+            "source_id": "Joseph-Berlioz Randriamihaja",
+            "start": 0,
+            "text": "He is the current Malagasy record holder in hurdles"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Malagasy"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "He",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "He is the current Malagasy record holder in hurdles",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-0ba0e39cad61f140",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Joseph-Berlioz Randriamihaja::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Joseph-Berlioz Randriamihaja",
+          "title": "Joseph-Berlioz Randriamihaja",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 90,
+            "source_id": "Joseph-Berlioz Randriamihaja",
+            "start": 56,
+            "text": "former record holder in decathlon."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": null,
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "former record holder in decathlon.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-64e09214b315a869",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "I Am Bolt::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "I Am Bolt",
+          "title": "I Am Bolt",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 131,
+            "source_id": "I Am Bolt",
+            "start": 0,
+            "text": "I Am Bolt is a 2016 Hollywood biographical sports film co-directed by Benjamin Turner and Gabe Turner and produced by Leo Pearlman."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "I Am Bolt",
+          "Hollywood",
+          "Benjamin Turner",
+          "Gabe Turner",
+          "Leo Pearlman"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "I Am Bolt",
+        "temporal_expressions": [
+          "2016"
+        ]
+      },
+      "source_reliability": null,
+      "text": "I Am Bolt is a 2016 Hollywood biographical sports film co-directed by Benjamin Turner and Gabe Turner and produced by Leo Pearlman.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-3d20dde547a94365",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'he' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Richard Thompson (sprinter)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Richard Thompson (sprinter)",
+          "title": "Richard Thompson (sprinter)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 239,
+            "source_id": "Richard Thompson (sprinter)",
+            "start": 0,
+            "text": "He occasionally runs the 200\u00a0meters and he has the second fastest time by a Trinidad and Tobago athlete and the 127th best of all-time from all countries in a best time of 20.18, 0.99 seconds slower than the World Record holder Usain Bolt."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Trinidad",
+          "Tobago",
+          "World Record",
+          "Usain Bolt"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [
+          "20.18",
+          "0.99"
+        ],
+        "subject": "He",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "He occasionally runs the 200 meters and he has the second fastest time by a Trinidad and Tobago athlete and the 127th best of all-time from all countries in a best time of 20.18, 0.99 seconds slower than the World Record holder Usain Bolt.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-0a7076c6e71e1f2f",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'he' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Jerry Schumacher::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Jerry Schumacher",
+          "title": "Jerry Schumacher",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 38,
+            "source_id": "Jerry Schumacher",
+            "start": 0,
+            "text": "He has coached Olympic bronze medalist"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Olympic"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "He",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "He has coached Olympic bronze medalist",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-f5ff7be0c4971886",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Jerry Schumacher::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Jerry Schumacher",
+          "title": "Jerry Schumacher",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 271,
+            "source_id": "Jerry Schumacher",
+            "start": 43,
+            "text": "the former American women's 10k record holder Shalane Flanagan, former Canadian 10k record holder Simon Bairu, the former men's American 10k record holder Chris Solinsky, the men's American two mile record holder Matt Tegenkamp,"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "American",
+          "Shalane Flanagan",
+          "Canadian",
+          "Simon Bairu",
+          "Chris Solinsky",
+          "Matt Tegenkamp"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "American",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "the former American women's 10k record holder Shalane Flanagan, former Canadian 10k record holder Simon Bairu, the former men's American 10k record holder Chris Solinsky, the men's American two mile record holder Matt Tegenkamp,",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-ed9aa65d59d504d2",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Jerry Schumacher::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Jerry Schumacher",
+          "title": "Jerry Schumacher",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 321,
+            "source_id": "Jerry Schumacher",
+            "start": 276,
+            "text": "the women's NCAA 10k record holder Lisa Koll."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "NCAA",
+          "Lisa Koll"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "NCAA",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "the women's NCAA 10k record holder Lisa Koll.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-f1aa10cb60c3615b",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Kozo Haraguchi::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Kozo Haraguchi",
+          "title": "Kozo Haraguchi",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 245,
+            "source_id": "Kozo Haraguchi",
+            "start": 0,
+            "text": "Kozo Haraguchi (\u539f\u53e3 \u5e78\u4e09 , Haraguchi K\u014dz\u014d , June 20, 1910 in Kobayashi, Miyazaki \u2013 January 11, 2011 in Miyazaki City, Kyushu) was a track and field athlete and former World Masters Athletics record holder in the 100 m sprint for men aged 90\u201394 (18."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Kozo Haraguchi",
+          "Haraguchi",
+          "Kobayashi",
+          "Miyazaki",
+          "Miyazaki City",
+          "Kyushu",
+          "World Masters Athletics"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Kozo Haraguchi",
+        "temporal_expressions": [
+          "June 20, 1910",
+          "January 11, 2011"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Kozo Haraguchi (\u539f\u53e3 \u5e78\u4e09 , Haraguchi K\u014dz\u014d , June 20, 1910 in Kobayashi, Miyazaki \u2013 January 11, 2011 in Miyazaki City, Kyushu) was a track and field athlete and former World Masters Athletics record holder in the 100 m sprint for men aged 90\u201394 (18.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5ae7fb1155429952e35ea9eb",
+    "text": "In what event was Harold Davis a former record holder, but now is held by Usain Bolt?"
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.474444,
+      "claim_id": "clm-0ba0e39cad61f140",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 0.835555,
+      "status": "accepted",
+      "utility": 0.361111
+    }
+  ],
+  "subgraph": null
+}

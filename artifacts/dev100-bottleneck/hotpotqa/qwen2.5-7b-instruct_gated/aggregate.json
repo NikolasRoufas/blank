@@ -1,0 +1,192 @@
+{
+  "per_seed": [
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.33783783783783783,
+        "answer_evidence_entailment": 0.48502385207106563,
+        "citation_completeness": 0.0,
+        "citation_precision": 0.4155405405405405,
+        "citation_recall": 0.23648648648648649,
+        "contradiction_rate": 0.21621621621621623,
+        "empty_prediction": 0.0,
+        "evidence_precision": 0.43806306306306303,
+        "evidence_recall": 0.27702702702702703,
+        "exact_match": 0.1891891891891892,
+        "invalid_citations": 0.0,
+        "latency_ms": 1664.3153464774023,
+        "normalized_exact_match": 0.33783783783783783,
+        "num_claims": 7.905405405405405,
+        "num_graph_edges": 1.2432432432432432,
+        "num_graph_nodes": 7.905405405405405,
+        "num_passages": 5.0,
+        "num_selected": 1.8108108108108107,
+        "token_estimate": 41.432432432432435,
+        "token_f1": 0.3779027623622218,
+        "unsupported_claim_rate": 0.581081081081081
+      },
+      "num_examples": 100,
+      "num_failed": 26,
+      "seed": 0,
+      "variant": "full_egrag",
+      "warnings": [
+        "uncited claim-like sentence: 'The information provided does not specify which Chinese comp'",
+        "uncited claim-like sentence: 'The information provided does not specify the theater where '",
+        "uncited claim-like sentence: \"The worth of the logo that appears alongside the 'Just Do It\"",
+        "uncited claim-like sentence: 'White love was what number of single created by a record lab'",
+        "uncited claim-like sentence: \"Mona Penelope Simpson has not died on the animated show 'The\"",
+        "uncited claim-like sentence: 'More population data is needed to determine the most populou'",
+        "uncited claim-like sentence: 'The information provided is conflicting and does not specify'",
+        "unresolved conflicts are present but the answer expresses no uncertainty",
+        "uncited claim-like sentence: 'The identity of Chamberlain and Colonel of the military staf'",
+        "uncited claim-like sentence: 'It is uncertain which association the woman whose museum is '",
+        "uncited claim-like sentence: 'The distance between the NG postcode area and Gamston, Rushc'",
+        "uncited claim-like sentence: 'The female character was first introduced before the fifth s'",
+        "uncited claim-like sentence: 'The head writer for Das Bus also wrote an episode of The Sim'",
+        "uncited claim-like sentence: 'We cannot determine who was born first between Ana Kasparian'",
+        "uncited claim-like sentence: 'Lance King is a heavy metal vocalist, but there is no inform'",
+        "uncited claim-like sentence: 'The information provided does not specify the previous names'",
+        "uncited claim-like sentence: 'Therefore, based on the given evidence, I cannot determine w'",
+        "uncited claim-like sentence: 'Anaganaga O Dheerudu was connected with Disney through Shrut'",
+        "uncited claim-like sentence: 'The information provided does not specify whether APB and Sl'",
+        "uncited claim-like sentence: 'Staten Island Catapult is a documentary but the status of Th'",
+        "uncited claim-like sentence: 'It is uncertain whether the Chien Fran\u00e7ais Blanc et Orange a'",
+        "uncited claim-like sentence: 'Broughtonia is not mentioned to be a type of mint, but Peril'",
+        "uncited claim-like sentence: 'Tionne Watkins has been a member of a girl group, but there '",
+        "uncited claim-like sentence: 'Goldenrod is a genus of more than 50 flowering plants, but S'",
+        "uncited claim-like sentence: 'Yes, both American Heritage and Bon App\u00e9tit are published in'"
+      ]
+    }
+  ],
+  "seed_aggregated": {
+    "full_egrag": {
+      "answer_accuracy": {
+        "mean": 0.33783783783783783,
+        "median": 0.33783783783783783,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 0.48502385207106563,
+        "median": 0.48502385207106563,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 0.4155405405405405,
+        "median": 0.4155405405405405,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.23648648648648649,
+        "median": 0.23648648648648649,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.21621621621621623,
+        "median": 0.21621621621621623,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 0.43806306306306303,
+        "median": 0.43806306306306303,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 0.27702702702702703,
+        "median": 0.27702702702702703,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.1891891891891892,
+        "median": 0.1891891891891892,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 1664.3153464774023,
+        "median": 1664.3153464774023,
+        "std": 0.0
+      },
+      "normalized_exact_match": {
+        "mean": 0.33783783783783783,
+        "median": 0.33783783783783783,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 7.905405405405405,
+        "median": 7.905405405405405,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 1.2432432432432432,
+        "median": 1.2432432432432432,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 7.905405405405405,
+        "median": 7.905405405405405,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 5.0,
+        "median": 5.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 1.8108108108108107,
+        "median": 1.8108108108108107,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 41.432432432432435,
+        "median": 41.432432432432435,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.3779027623622218,
+        "median": 0.3779027623622218,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.581081081081081,
+        "median": 0.581081081081081,
+        "std": 0.0
+      }
+    }
+  }
+}

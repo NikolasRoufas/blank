@@ -1,0 +1,458 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 158
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-17910250a8279ac9",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Pledis Entertainment::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Pledis Entertainment",
+          "title": "Pledis Entertainment",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 112,
+            "source_id": "Pledis Entertainment",
+            "start": 59,
+            "text": "entertainment agency founded in 2007 by Han Sung-soo."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Han Sung"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Han Sung",
+        "temporal_expressions": [
+          "2007"
+        ]
+      },
+      "source_reliability": null,
+      "text": "entertainment agency founded in 2007 by Han Sung-soo.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-2124f38de89d35cf",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Pledis Entertainment::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Pledis Entertainment",
+          "title": "Pledis Entertainment",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 54,
+            "source_id": "Pledis Entertainment",
+            "start": 0,
+            "text": "Pledis Entertainment () is a South Korean record label"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Pledis Entertainment",
+          "South Korean"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Pledis Entertainment",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Pledis Entertainment () is a South Korean record label",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-4b4fbb7b7711c9b2",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "List of AKB48 members::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "List of AKB48 members",
+          "title": "List of AKB48 members",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 149,
+            "source_id": "List of AKB48 members",
+            "start": 0,
+            "text": "s of 06, 2017 the group consists of 125 members, divided among several teams: Team A with 13 members, Team K with 15 members, Team B with 13 members,"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Team A",
+          "Team K",
+          "Team B"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Team A",
+        "temporal_expressions": [
+          "2017"
+        ]
+      },
+      "source_reliability": null,
+      "text": "s of 06, 2017 the group consists of 125 members, divided among several teams: Team A with 13 members, Team K with 15 members, Team B with 13 members,",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-4b5461f8ae6d7a19",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Wan Chai District Council::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Wan Chai District Council",
+          "title": "Wan Chai District Council",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 140,
+            "source_id": "Wan Chai District Council",
+            "start": 0,
+            "text": "Wan Chai District currently consists of 13 members, of which the district is divided into 13 constituencies, electing a total of 13 members."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Wan Chai District"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Wan Chai District",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Wan Chai District currently consists of 13 members, of which the district is divided into 13 constituencies, electing a total of 13 members.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-71d851ced940da07",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Yuehua Entertainment::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Yuehua Entertainment",
+          "title": "Yuehua Entertainment",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 118,
+            "source_id": "Yuehua Entertainment",
+            "start": 0,
+            "text": "Yuehua Entertainment has partnerships with the South Korean companies Pledis Entertainment and Starship Entertainment."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Yuehua Entertainment",
+          "South Korean",
+          "Pledis Entertainment",
+          "Starship Entertainment"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Yuehua Entertainment",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Yuehua Entertainment has partnerships with the South Korean companies Pledis Entertainment and Starship Entertainment.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-ad1e2d7566481ce4",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "List of AKB48 members::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "List of AKB48 members",
+          "title": "List of AKB48 members",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 279,
+            "source_id": "List of AKB48 members",
+            "start": 154,
+            "text": "Team 4 with 17 members, Team 8 with 46 members, the last of which have 3 members serving concurrently with other AKB48 teams."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Team",
+          "AKB48"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Team",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Team 4 with 17 members, Team 8 with 46 members, the last of which have 3 members serving concurrently with other AKB48 teams.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-e1858e55ede47e04",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Happy Pledis 2nd Album::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Happy Pledis 2nd Album",
+          "title": "Happy Pledis 2nd Album",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 161,
+            "source_id": "Happy Pledis 2nd Album",
+            "start": 0,
+            "text": "As NU'EST and Hello Venus hadn't officially debuted then, the album doesn't include all the members of the two groups, and NU'EST went by the name \"Pledis Boys\"."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "NU",
+          "EST",
+          "Hello Venus",
+          "Pledis Boys"
+        ],
+        "negation": true,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "NU",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "As NU'EST and Hello Venus hadn't officially debuted then, the album doesn't include all the members of the two groups, and NU'EST went by the name \"Pledis Boys\".",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "pkg-5a72d7b35542991f9a20c5be",
+  "query": {
+    "created_at": null,
+    "query_id": "5a72d7b35542991f9a20c5be",
+    "text": "What is the name of the pop artist that belongs on the Pledis Entertainment label and has 13 members?"
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": null,
+      "claim_id": "clm-17910250a8279ac9",
+      "rank": 0,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-2124f38de89d35cf",
+      "rank": 1,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-4b4fbb7b7711c9b2",
+      "rank": 2,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-4b5461f8ae6d7a19",
+      "rank": 3,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-71d851ced940da07",
+      "rank": 4,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-ad1e2d7566481ce4",
+      "rank": 5,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    }
+  ],
+  "subgraph": null
+}

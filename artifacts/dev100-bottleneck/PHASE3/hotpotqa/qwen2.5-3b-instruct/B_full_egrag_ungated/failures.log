@@ -1,0 +1,32 @@
+full_egrag|0|5a7912f655429974737f796c	GenerationError: model output has an empty or missing 'answer'
+full_egrag|0|5a881d2355429938390d3eeb	GenerationError: model output has an empty or missing 'answer'
+full_egrag|0|5ab85c8d55429934fafe6d84	GenerationError: answer cites rejected evidence as support: ['clm-13f2815f865cd1f5']
+full_egrag|0|5ac270e05542992f1f2b38c9	GenerationError: model output has an empty or missing 'answer'
+full_egrag|0|5a794119554299029c4b5f3c	GenerationError: answer cites unknown claim id(s): ['c-a9e44b4c2ffac810', 'c4c9e3f0c031baff2']
+full_egrag|0|5a8a429955429930ff3c0d34	GenerationError: answer cites unknown claim id(s): ['clm-0b8e5a0d50500000']
+full_egrag|0|5ae7ae9a5542993210983ef2	GenerationError: answer cites unknown claim id(s): ['c29d0f1d00951daf2']
+full_egrag|0|5abafb6d5542992ccd8e7e92	GenerationError: answer cites unknown claim id(s): ['c1']
+full_egrag|0|5a721a7655429971e9dc9271	GenerationError: answer cites unknown claim id(s): ['clm-42a3cc8f12f96cca8']
+full_egrag|0|5ac385f8554299741d48a279	GenerationError: answer cites unknown claim id(s): ['c1']
+full_egrag|0|5ab9b1fd5542996be202058e	GenerationError: model output has an empty or missing 'answer'
+full_egrag|0|5a852cd05542997b5ce3ffb0	GenerationError: answer cites unknown claim id(s): ['c17e080e3c1c1802', 'c2d496d467193422c']
+full_egrag|0|5a72d7b35542991f9a20c5be	GenerationError: answer cites unknown claim id(s): ['source=Yuehua Entertainment belief=0.47 utility=0.35']
+full_egrag|0|5abae3b05542996606241661	GenerationError: model output has an empty or missing 'answer'
+full_egrag|0|5a796bfd55429970f5fffeac	GenerationError: answer cites unknown claim id(s): ['c1', 'c2']
+full_egrag|0|5a712beb5542994082a3e61c	ConvergenceError: belief propagation did not converge within 50 iterations (last max_delta=1.555e-04)
+full_egrag|0|5a7a276d5542996c55b2dd27	GenerationError: model output has an empty or missing 'answer'
+full_egrag|0|5ac0dcf25542996f0d89cc2c	ConvergenceError: belief propagation did not converge within 50 iterations (last max_delta=1.075e-03)
+full_egrag|0|5ab7bfe955429928e1fe38c2	GenerationError: answer cites unknown claim id(s): ['clm-32d76daa1e7eaabb1', 'source']
+full_egrag|0|5abe044d5542991f661060a7	GenerationError: model output has an empty or missing 'answer'
+full_egrag|0|5ae377415542992e3233c40a	GenerationError: answer cites unknown claim id(s): ['source']
+full_egrag|0|5ac07a17554299294b219000	GenerationError: model output has an empty or missing 'answer'
+full_egrag|0|5a74bdce55429929fddd84e1	GenerationError: answer cites unknown claim id(s): ['clm-acd4c7753fc44ba']
+full_egrag|0|5a7c74a65542990527d554b0	ConvergenceError: belief propagation did not converge within 50 iterations (last max_delta=1.375e-04)
+full_egrag|0|5a7f19eb55429934daa2fcdb	GenerationError: model output has an empty or missing 'answer'
+full_egrag|0|5ab8f57b5542991b5579f097	ConvergenceError: belief propagation did not converge within 50 iterations (last max_delta=1.761e-04)
+full_egrag|0|5ac3b4e0554299741d48a2ec	GenerationError: model output has an empty or missing 'answer'
+full_egrag|0|5a8660ba55429960ec39b684	GenerationError: answer cites unknown claim id(s): ['c1', 'c2']
+full_egrag|0|5ac3ac8255429939154138ad	GenerationError: answer cites unknown claim id(s): ['source']
+full_egrag|0|5a7ec61a55429934daa2fc5f	GenerationError: answer cites unknown claim id(s): ['clm-6a8b8e899993eb0']
+full_egrag|0|5ab25004554299722f9b4cd7	GenerationError: model output has an empty or missing 'answer'
+full_egrag|0|5abdbf3755429933744ab818	GenerationError: model output has an empty or missing 'answer'

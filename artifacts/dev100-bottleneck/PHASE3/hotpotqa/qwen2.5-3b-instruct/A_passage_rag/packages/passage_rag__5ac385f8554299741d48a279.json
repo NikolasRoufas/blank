@@ -1,0 +1,243 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 190
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "John Paul Jones Memorial Park::p0",
+      "extraction": null,
+      "extraction_confidence": 1.0,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "John Paul Jones Memorial Park::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "John Paul Jones Memorial Park",
+          "title": "John Paul Jones Memorial Park",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 117,
+            "source_id": "John Paul Jones Memorial Park",
+            "start": 0,
+            "text": "Its centerpiece is a memorial commemorating the soldiers and sailors of the state of Maine, designed by Bashka Paeff."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": null,
+      "source_reliability": null,
+      "text": "Its centerpiece is a memorial commemorating the soldiers and sailors of the state of Maine, designed by Bashka Paeff.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "Thomas James Reeves::p0",
+      "extraction": null,
+      "extraction_confidence": 1.0,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Thomas James Reeves::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Thomas James Reeves",
+          "title": "Thomas James Reeves",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 136,
+            "source_id": "Thomas James Reeves",
+            "start": 0,
+            "text": "Reeves was killed during the Japanese surprise attack on Pearl Harbor on December 7, 1941, and posthumously received the Medal of Honor."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": null,
+      "source_reliability": null,
+      "text": "Reeves was killed during the Japanese surprise attack on Pearl Harbor on December 7, 1941, and posthumously received the Medal of Honor.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "Frederick Douglass Memorial::p0",
+      "extraction": null,
+      "extraction_confidence": 1.0,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Frederick Douglass Memorial::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Frederick Douglass Memorial",
+          "title": "Frederick Douglass Memorial",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 145,
+            "source_id": "Frederick Douglass Memorial",
+            "start": 0,
+            "text": "The memorial includes an 8-foot bronze sculpture depicting Douglass by Gabriel Koren and a large circle and fountain designed by Algernon Miller."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": null,
+      "source_reliability": null,
+      "text": "The memorial includes an 8-foot bronze sculpture depicting Douglass by Gabriel Koren and a large circle and fountain designed by Algernon Miller.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "USS Arizona Memorial::p0",
+      "extraction": null,
+      "extraction_confidence": 1.0,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "USS Arizona Memorial::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "USS Arizona Memorial",
+          "title": "USS Arizona Memorial",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 254,
+            "source_id": "USS Arizona Memorial",
+            "start": 0,
+            "text": "The USS \"Arizona\" Memorial, at Pearl Harbor in Honolulu, Hawaii, marks the resting place of 1,102 of the 1,177 sailors and Marines killed on  during the Japanese surprise attack on Pearl Harbor on December 7, 1941 and commemorates the events of that day."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": null,
+      "source_reliability": null,
+      "text": "The USS \"Arizona\" Memorial, at Pearl Harbor in Honolulu, Hawaii, marks the resting place of 1,102 of the 1,177 sailors and Marines killed on  during the Japanese surprise attack on Pearl Harbor on December 7, 1941 and commemorates the events of that day.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "Battle of Savanur::p0",
+      "extraction": null,
+      "extraction_confidence": 1.0,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Battle of Savanur::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Battle of Savanur",
+          "title": "Battle of Savanur",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 114,
+            "source_id": "Battle of Savanur",
+            "start": 0,
+            "text": "The Marathas, however, were informed by their spies about Tipu's surprise attack and had evacuated their position."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": null,
+      "source_reliability": null,
+      "text": "The Marathas, however, were informed by their spies about Tipu's surprise attack and had evacuated their position.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "pkg-5ac385f8554299741d48a279",
+  "query": {
+    "created_at": null,
+    "query_id": "5ac385f8554299741d48a279",
+    "text": "The memorial commemorating a 1941 Japanese surprise attack was designed by whom?"
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": null,
+      "claim_id": "John Paul Jones Memorial Park::p0",
+      "rank": 0,
+      "reason": null,
+      "selection_score": 1.0,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "Thomas James Reeves::p0",
+      "rank": 1,
+      "reason": null,
+      "selection_score": 1.0,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "Frederick Douglass Memorial::p0",
+      "rank": 2,
+      "reason": null,
+      "selection_score": 1.0,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "USS Arizona Memorial::p0",
+      "rank": 3,
+      "reason": null,
+      "selection_score": 1.0,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "Battle of Savanur::p0",
+      "rank": 4,
+      "reason": null,
+      "selection_score": 1.0,
+      "status": "accepted",
+      "utility": null
+    }
+  ],
+  "subgraph": null
+}

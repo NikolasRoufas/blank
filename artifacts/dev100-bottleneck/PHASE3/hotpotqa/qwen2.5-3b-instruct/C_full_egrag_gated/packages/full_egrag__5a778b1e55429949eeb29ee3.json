@@ -1,0 +1,413 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 20
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-c897dba1c9cfa6bd",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Diamond Rio::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Diamond Rio",
+          "title": "Diamond Rio",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 102,
+            "source_id": "Diamond Rio",
+            "start": 0,
+            "text": "The band was founded in 1982 as an attraction for the Opryland USA theme park in Nashville, Tennessee,"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Opryland USA",
+          "Nashville",
+          "Tennessee"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Opryland USA",
+        "temporal_expressions": [
+          "1982"
+        ]
+      },
+      "source_reliability": null,
+      "text": "The band was founded in 1982 as an attraction for the Opryland USA theme park in Nashville, Tennessee,",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-47664931bf4ebad3",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Diamond Rio::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Diamond Rio",
+          "title": "Diamond Rio",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 185,
+            "source_id": "Diamond Rio",
+            "start": 107,
+            "text": "was originally known as the Grizzly River Boys, then the Tennessee River Boys."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Grizzly River Boys",
+          "Tennessee River Boys"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Grizzly River Boys",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "was originally known as the Grizzly River Boys, then the Tennessee River Boys.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-f2a85c986a64a75f",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "The Hillmen (album)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "The Hillmen (album)",
+          "title": "The Hillmen (album)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 125,
+            "source_id": "The Hillmen (album)",
+            "start": 0,
+            "text": "The Hillmen is a studio album by The Hillmen, a southern California bluegrass band originally known as The Golden State Boys."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Hillmen",
+          "California",
+          "Golden State Boys"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Hillmen",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The Hillmen is a studio album by The Hillmen, a southern California bluegrass band originally known as The Golden State Boys.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-bafeaa9c62e3f6e1",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'it' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Grizzly River Run::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Grizzly River Run",
+          "title": "Grizzly River Run",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 137,
+            "source_id": "Grizzly River Run",
+            "start": 0,
+            "text": "It is similar to Kali River Rapids in Disney's Animal Kingdom but distinctive as the rafts are engineered to spin as they descend chutes."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Kali River Rapids",
+          "Disney",
+          "Animal Kingdom"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "It",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "It is similar to Kali River Rapids in Disney's Animal Kingdom but distinctive as the rafts are engineered to spin as they descend chutes.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-27a2317918520f30",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Casey Braxton::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Casey Braxton",
+          "title": "Casey Braxton",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 90,
+            "source_id": "Casey Braxton",
+            "start": 0,
+            "text": "Casey is characterised as being a \"modern day \"Rebel Without a Cause\"\"; who is intelligent"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Casey",
+          "Rebel Without",
+          "Cause"
+        ],
+        "negation": true,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Casey",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Casey is characterised as being a \"modern day \"Rebel Without a Cause\"\"; who is intelligent",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-68eba21d5166ffeb",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Casey Braxton::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Casey Braxton",
+          "title": "Casey Braxton",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 134,
+            "source_id": "Casey Braxton",
+            "start": 95,
+            "text": "unsure about what he wants out of life."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": null,
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "unsure about what he wants out of life.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-f97b102ae35d029a",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Casey Braxton::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Casey Braxton",
+          "title": "Casey Braxton",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 108,
+            "source_id": "Casey Braxton",
+            "start": 0,
+            "text": "In late 2010 the Seven Network began airing trailers for a new trio of characters known as \"The River Boys\"."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Seven Network",
+          "River Boys"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Seven Network",
+        "temporal_expressions": [
+          "2010"
+        ]
+      },
+      "source_reliability": null,
+      "text": "In late 2010 the Seven Network began airing trailers for a new trio of characters known as \"The River Boys\".",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5a778b1e55429949eeb29ee3",
+    "text": "What band is a tribute to a band originally known as the Grizzly River Boys?"
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.5175,
+      "claim_id": "clm-47664931bf4ebad3",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 0.98625,
+      "status": "accepted",
+      "utility": 0.46875
+    }
+  ],
+  "subgraph": null
+}

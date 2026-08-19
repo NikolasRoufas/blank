@@ -1,0 +1,480 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 20
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-cc536dc08e76adcc",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Andrea Martin (canoeist)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Andrea Martin (canoeist)",
+          "title": "Andrea Martin (canoeist)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 130,
+            "source_id": "Andrea Martin (canoeist)",
+            "start": 0,
+            "text": "Andrea Martin (born April 23, 1967 in Erbach im Odenwald, Germany) is a West Germany sprint canoer who competed in the late 1980s."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Andrea Martin",
+          "Erbach",
+          "Odenwald",
+          "Germany",
+          "West Germany"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Andrea Martin",
+        "temporal_expressions": [
+          "April 23, 1967"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Andrea Martin (born April 23, 1967 in Erbach im Odenwald, Germany) is a West Germany sprint canoer who competed in the late 1980s.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-a481ca2db90c74c9",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Juno Awards of 1985::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Juno Awards of 1985",
+          "title": "Juno Awards of 1985",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 40,
+            "source_id": "Juno Awards of 1985",
+            "start": 0,
+            "text": "The ceremony was hosted by Andrea Martin"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Andrea Martin"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Andrea Martin",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The ceremony was hosted by Andrea Martin",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-7f649868a1c9f017",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Juno Awards of 1985::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Juno Awards of 1985",
+          "title": "Juno Awards of 1985",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 93,
+            "source_id": "Juno Awards of 1985",
+            "start": 45,
+            "text": "Martin Short at the Harbour Castle Hilton Hotel."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Martin Short",
+          "Harbour Castle Hilton Hotel"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Martin Short",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Martin Short at the Harbour Castle Hilton Hotel.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-ef3b038d7998eb0f",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Matthew Schechter::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Matthew Schechter",
+          "title": "Matthew Schechter",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 75,
+            "source_id": "Matthew Schechter",
+            "start": 0,
+            "text": "The play's cast included Tony Shalhoub, Andrea Martin, and Santino Fontana."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Tony Shalhoub",
+          "Andrea Martin",
+          "Santino Fontana"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Tony Shalhoub",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The play's cast included Tony Shalhoub, Andrea Martin, and Santino Fontana.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-a694f2d10a333285",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Only Love (The Braxtons song)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Only Love (The Braxtons song)",
+          "title": "Only Love (The Braxtons song)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 37,
+            "source_id": "Only Love (The Braxtons song)",
+            "start": 0,
+            "text": "The song was written by Andrea Martin"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Andrea Martin"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Andrea Martin",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The song was written by Andrea Martin",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-2960689b227c6c20",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Only Love (The Braxtons song)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Only Love (The Braxtons song)",
+          "title": "Only Love (The Braxtons song)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 77,
+            "source_id": "Only Love (The Braxtons song)",
+            "start": 42,
+            "text": "produced by Allen \"Allstar\" Gordon."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Allen",
+          "Allstar",
+          "Gordon"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Allen",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "produced by Allen \"Allstar\" Gordon.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-7511394bf43703b3",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Matthew Schechter::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Matthew Schechter",
+          "title": "Matthew Schechter",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 145,
+            "source_id": "Matthew Schechter",
+            "start": 0,
+            "text": "Subsequently, Schechter joined the 2013 cast of Richard III, where he played \"Prince Edward\" among fellow actors Samuel Barnett and Mark Rylance."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Subsequently",
+          "Schechter",
+          "Richard III",
+          "Prince Edward",
+          "Samuel Barnett",
+          "Mark Rylance"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Subsequently",
+        "temporal_expressions": [
+          "2013"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Subsequently, Schechter joined the 2013 cast of Richard III, where he played \"Prince Edward\" among fellow actors Samuel Barnett and Mark Rylance.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [
+    {
+      "claim_ids": [
+        "clm-a481ca2db90c74c9",
+        "clm-a694f2d10a333285"
+      ],
+      "conflict_id": "conflict:0",
+      "members": [
+        {
+          "claim_id": "clm-a481ca2db90c74c9",
+          "independent_support": 0,
+          "propagated_belief": 0.471081,
+          "relation_confidence": 0.871818,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-a694f2d10a333285",
+          "independent_support": 0,
+          "propagated_belief": 0.471081,
+          "relation_confidence": 0.871818,
+          "source_reliability": 0.5,
+          "timestamp": null
+        }
+      ],
+      "outcome": "unresolved",
+      "preferred_claim_id": null,
+      "relation_ids": [
+        "rel-d90e8d50b5f6cf4a"
+      ],
+      "resolution_note": "top two competitors within margin 0.100 (0.471 vs 0.471)",
+      "resolved": false
+    }
+  ],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5a72bd0b5542992359bc318f",
+    "text": "Who achieved more academically, Andrea Martin or Mark Hoplamazian?"
+  },
+  "relations": [
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.871818
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.871818,
+      "relation_id": "rel-d90e8d50b5f6cf4a",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-a481ca2db90c74c9",
+      "target_claim_id": "clm-a694f2d10a333285"
+    }
+  ],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.471081,
+      "claim_id": "clm-a481ca2db90c74c9",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 0.79251,
+      "status": "disputed",
+      "utility": 0.321429
+    },
+    {
+      "belief": 0.471081,
+      "claim_id": "clm-a694f2d10a333285",
+      "rank": 1,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.79251,
+      "status": "disputed",
+      "utility": 0.321429
+    }
+  ],
+  "subgraph": null
+}

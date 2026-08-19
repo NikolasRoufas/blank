@@ -1,0 +1,243 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 99
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "Chiwetel Ejiofor::p0",
+      "extraction": null,
+      "extraction_confidence": 1.0,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Chiwetel Ejiofor::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Chiwetel Ejiofor",
+          "title": "Chiwetel Ejiofor",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 71,
+            "source_id": "Chiwetel Ejiofor",
+            "start": 0,
+            "text": "Chiwetel Umeadi Ejiofor, CBE ( ; born 10 July 1977) is a British actor."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": null,
+      "source_reliability": null,
+      "text": "Chiwetel Umeadi Ejiofor, CBE ( ; born 10 July 1977) is a British actor.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "Sinan Tuzcu::p0",
+      "extraction": null,
+      "extraction_confidence": 1.0,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Sinan Tuzcu::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Sinan Tuzcu",
+          "title": "Sinan Tuzcu",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 51,
+            "source_id": "Sinan Tuzcu",
+            "start": 0,
+            "text": "Sinan Tuzcu (born 10 July 1977) is a Turkish actor."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": null,
+      "source_reliability": null,
+      "text": "Sinan Tuzcu (born 10 July 1977) is a Turkish actor.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "Jos\u00e9 Marcos Garay::p0",
+      "extraction": null,
+      "extraction_confidence": 1.0,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Jos\u00e9 Marcos Garay::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Jos\u00e9 Marcos Garay",
+          "title": "Jos\u00e9 Marcos Garay",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 70,
+            "source_id": "Jos\u00e9 Marcos Garay",
+            "start": 0,
+            "text": "Jos\u00e9 Marcos Garay \u00c1lvarez (born 10 July 1977) is a Mexican footballer."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": null,
+      "source_reliability": null,
+      "text": "Jos\u00e9 Marcos Garay \u00c1lvarez (born 10 July 1977) is a Mexican footballer.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "Jamba (footballer)::p0",
+      "extraction": null,
+      "extraction_confidence": 1.0,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Jamba (footballer)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Jamba (footballer)",
+          "title": "Jamba (footballer)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 78,
+            "source_id": "Jamba (footballer)",
+            "start": 0,
+            "text": "Jo\u00e3o Pereira (born 10 July 1977 in Benguela), is a retired Angolan footballer."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": null,
+      "source_reliability": null,
+      "text": "Jo\u00e3o Pereira (born 10 July 1977 in Benguela), is a retired Angolan footballer.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "Solomon Northup::p0",
+      "extraction": null,
+      "extraction_confidence": 1.0,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Solomon Northup::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Solomon Northup",
+          "title": "Solomon Northup",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 138,
+            "source_id": "Solomon Northup",
+            "start": 0,
+            "text": "Solomon Northup (July 10, 1807 or 1808\u00a0\u2013 \u20091863 ) was an American abolitionist and the primary author of the memoir \"Twelve Years a Slave\"."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": null,
+      "source_reliability": null,
+      "text": "Solomon Northup (July 10, 1807 or 1808\u00a0\u2013 \u20091863 ) was an American abolitionist and the primary author of the memoir \"Twelve Years a Slave\".",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "pkg-5ab916e155429919ba4e23a4",
+  "query": {
+    "created_at": null,
+    "query_id": "5ab916e155429919ba4e23a4",
+    "text": "12 Years a Slave starred what British actor born 10 July 1977)"
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": null,
+      "claim_id": "Chiwetel Ejiofor::p0",
+      "rank": 0,
+      "reason": null,
+      "selection_score": 1.0,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "Sinan Tuzcu::p0",
+      "rank": 1,
+      "reason": null,
+      "selection_score": 1.0,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "Jos\u00e9 Marcos Garay::p0",
+      "rank": 2,
+      "reason": null,
+      "selection_score": 1.0,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "Jamba (footballer)::p0",
+      "rank": 3,
+      "reason": null,
+      "selection_score": 1.0,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "Solomon Northup::p0",
+      "rank": 4,
+      "reason": null,
+      "selection_score": 1.0,
+      "status": "accepted",
+      "utility": null
+    }
+  ],
+  "subgraph": null
+}

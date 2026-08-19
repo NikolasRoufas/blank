@@ -1,0 +1,26 @@
+{
+  "claims": [
+    "clm-3e4cf2b729942090",
+    "clm-5b04f6841ca2e29c",
+    "clm-e8889656d7b24a34",
+    "clm-25ceacdd79567e5e",
+    "clm-017c827081d72002"
+  ],
+  "relations": [
+    {
+      "source": "clm-25ceacdd79567e5e",
+      "target": "clm-5b04f6841ca2e29c",
+      "type": "support"
+    },
+    {
+      "source": "clm-3e4cf2b729942090",
+      "target": "clm-5b04f6841ca2e29c",
+      "type": "support"
+    },
+    {
+      "source": "clm-e8889656d7b24a34",
+      "target": "clm-5b04f6841ca2e29c",
+      "type": "support"
+    }
+  ]
+}

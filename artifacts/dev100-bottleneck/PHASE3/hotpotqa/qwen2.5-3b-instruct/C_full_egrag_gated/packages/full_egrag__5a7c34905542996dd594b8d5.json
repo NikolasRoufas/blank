@@ -1,0 +1,527 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 32
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-356d99f98acc6f7e",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "The Young Turks::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "The Young Turks",
+          "title": "The Young Turks",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 28,
+            "source_id": "The Young Turks",
+            "start": 0,
+            "text": "Currently co-hosted by Uygur"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Currently",
+          "Uygur"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Currently",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Currently co-hosted by Uygur",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-33541054cf95b816",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "The Young Turks::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "The Young Turks",
+          "title": "The Young Turks",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 159,
+            "source_id": "The Young Turks",
+            "start": 33,
+            "text": "Ana Kasparian, who are often accompanied by various in-studio contributors, the program maintains an anti-establishment stance"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Ana Kasparian"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Ana Kasparian",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Ana Kasparian, who are often accompanied by various in-studio contributors, the program maintains an anti-establishment stance",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-42c66b88beacaf59",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "The Young Turks::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "The Young Turks",
+          "title": "The Young Turks",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 217,
+            "source_id": "The Young Turks",
+            "start": 164,
+            "text": "provides commentary on topics of varying news genres."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": null,
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "provides commentary on topics of varying news genres.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-a98c9d0b308fc23d",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Gil Reyes (tennis)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Gil Reyes (tennis)",
+          "title": "Gil Reyes (tennis)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 94,
+            "source_id": "Gil Reyes (tennis)",
+            "start": 0,
+            "text": "Gil Reyes (born 1952) is an American fitness trainer who spent seventeen years as the strength"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Gil Reyes",
+          "American"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Gil Reyes",
+        "temporal_expressions": [
+          "1952"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Gil Reyes (born 1952) is an American fitness trainer who spent seventeen years as the strength",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-beff8117d16230bf",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Gil Reyes (tennis)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Gil Reyes (tennis)",
+          "title": "Gil Reyes (tennis)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 204,
+            "source_id": "Gil Reyes (tennis)",
+            "start": 99,
+            "text": "conditioning trainer for retired tennis player Andre Agassi, from 1989 until Agassi's retirement in 2006."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Andre Agassi",
+          "Agassi"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Andre Agassi",
+        "temporal_expressions": [
+          "1989",
+          "2006"
+        ]
+      },
+      "source_reliability": null,
+      "text": "conditioning trainer for retired tennis player Andre Agassi, from 1989 until Agassi's retirement in 2006.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-2fb420917b25b7c0",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'this' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "2000 Australian Open \u2013 Men's Singles::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "2000 Australian Open \u2013 Men's Singles",
+          "title": "2000 Australian Open \u2013 Men's Singles",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 182,
+            "source_id": "2000 Australian Open \u2013 Men's Singles",
+            "start": 0,
+            "text": "This was the first time Agassi made 4 consecutive grand slam finals, if not for his loss to Pete Sampras in the 1999 Wimbledon final, Agassi would have won a non-calendar grand slam."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [
+          "would"
+        ],
+        "named_entities": [
+          "Agassi",
+          "Pete Sampras",
+          "Wimbledon"
+        ],
+        "negation": true,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "This",
+        "temporal_expressions": [
+          "1999"
+        ]
+      },
+      "source_reliability": null,
+      "text": "This was the first time Agassi made 4 consecutive grand slam finals, if not for his loss to Pete Sampras in the 1999 Wimbledon final, Agassi would have won a non-calendar grand slam.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-3ae9b93da428a6cf",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Emmanuel Agassi::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Emmanuel Agassi",
+          "title": "Emmanuel Agassi",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 182,
+            "source_id": "Emmanuel Agassi",
+            "start": 0,
+            "text": "Emanoul Aghassian (\u0627\u06cc\u0645\u0627\u0646\u0648\u0626\u0644 \u0622\u063a\u0627\u0633\u064a\u0627\u0646), Anglicized as Emmanuel \"Mike\" Agassi (born 25 December 1930 in Salmas, Iran), is a former boxer and the father and former coach of Andre Agassi."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Emanoul Aghassian",
+          "Anglicized",
+          "Emmanuel",
+          "Mike",
+          "Agassi",
+          "Salmas",
+          "Iran",
+          "Andre Agassi"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Emanoul Aghassian",
+        "temporal_expressions": [
+          "1930"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Emanoul Aghassian (\u0627\u06cc\u0645\u0627\u0646\u0648\u0626\u0644 \u0622\u063a\u0627\u0633\u064a\u0627\u0646), Anglicized as Emmanuel \"Mike\" Agassi (born 25 December 1930 in Salmas, Iran), is a former boxer and the father and former coach of Andre Agassi.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-61be3d944849b630",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Agassi\u2013Sampras rivalry::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Agassi\u2013Sampras rivalry",
+          "title": "Agassi\u2013Sampras rivalry",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 106,
+            "source_id": "Agassi\u2013Sampras rivalry",
+            "start": 0,
+            "text": "Pete Sampras and Andre Agassi are retired professional men's tennis players who were both ranked World No."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Pete Sampras",
+          "Andre Agassi",
+          "World No"
+        ],
+        "negation": true,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Pete Sampras",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Pete Sampras and Andre Agassi are retired professional men's tennis players who were both ranked World No.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-fa24d9edba9980b3",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Agassi\u2013Sampras rivalry::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Agassi\u2013Sampras rivalry",
+          "title": "Agassi\u2013Sampras rivalry",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 232,
+            "source_id": "Agassi\u2013Sampras rivalry",
+            "start": 107,
+            "text": "1 during the 1990s, Sampras holding the world's top-rank spot for a then-record 286 weeks while Agassi held it for 101 weeks."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Sampras",
+          "Agassi"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Sampras",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "1 during the 1990s, Sampras holding the world's top-rank spot for a then-record 286 weeks while Agassi held it for 101 weeks.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5a7c34905542996dd594b8d5",
+    "text": "Who was born first, Ana Kasparian or Andre Agassi?"
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.455,
+      "claim_id": "clm-33541054cf95b816",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 0.7675,
+      "status": "accepted",
+      "utility": 0.3125
+    }
+  ],
+  "subgraph": null
+}

@@ -1,0 +1,243 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 185
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "Jeff Orlowski::p0",
+      "extraction": null,
+      "extraction_confidence": 1.0,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Jeff Orlowski::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Jeff Orlowski",
+          "title": "Jeff Orlowski",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 133,
+            "source_id": "Jeff Orlowski",
+            "start": 0,
+            "text": "He is best known for both directing and producing the Emmy Award-winning documentary \"Chasing Ice\" (2012) and \"Chasing Coral\" (2017)."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": null,
+      "source_reliability": null,
+      "text": "He is best known for both directing and producing the Emmy Award-winning documentary \"Chasing Ice\" (2012) and \"Chasing Coral\" (2017).",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "Lolitawork Libretto::p0",
+      "extraction": null,
+      "extraction_confidence": 1.0,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Lolitawork Libretto::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Lolitawork Libretto",
+          "title": "Lolitawork Libretto",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 123,
+            "source_id": "Lolitawork Libretto",
+            "start": 0,
+            "text": "A promotional music video for the song \"Lolitawork Libretto ~Storytelling by Solita~\" was also released prior to the album."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": null,
+      "source_reliability": null,
+      "text": "A promotional music video for the song \"Lolitawork Libretto ~Storytelling by Solita~\" was also released prior to the album.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "Chasing Coral::p0",
+      "extraction": null,
+      "extraction_confidence": 1.0,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Chasing Coral::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Chasing Coral",
+          "title": "Chasing Coral",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 234,
+            "source_id": "Chasing Coral",
+            "start": 0,
+            "text": "Chasing Coral is a 2017 documentary film about a team of divers, scientists and photographers around the world who document the disappearance of coral reefs. \"Chasing Coral\" was produced by Exposure Labs and directed by Jeff Orlowski."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": null,
+      "source_reliability": null,
+      "text": "Chasing Coral is a 2017 documentary film about a team of divers, scientists and photographers around the world who document the disappearance of coral reefs. \"Chasing Coral\" was produced by Exposure Labs and directed by Jeff Orlowski.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "2 steg fr\u00e5n Paradise::p0",
+      "extraction": null,
+      "extraction_confidence": 1.0,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "2 steg fr\u00e5n Paradise::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "2 steg fr\u00e5n Paradise",
+          "title": "2 steg fr\u00e5n Paradise",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 128,
+            "source_id": "2 steg fr\u00e5n Paradise",
+            "start": 0,
+            "text": "\"A double A-side single featuring \"Saknade te havs\" and \"River en vacker dr\u00f6m\" was released prior to the album, on September 11."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": null,
+      "source_reliability": null,
+      "text": "\"A double A-side single featuring \"Saknade te havs\" and \"River en vacker dr\u00f6m\" was released prior to the album, on September 11.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "Not Without Love::p0",
+      "extraction": null,
+      "extraction_confidence": 1.0,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Not Without Love::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Not Without Love",
+          "title": "Not Without Love",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 130,
+            "source_id": "Not Without Love",
+            "start": 0,
+            "text": "The album's lead single \"A Breath or Two\" was released prior to the album, and reached No. 11 on Christian contemporary hit radio."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": null,
+      "source_reliability": null,
+      "text": "The album's lead single \"A Breath or Two\" was released prior to the album, and reached No. 11 on Christian contemporary hit radio.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "pkg-5adbe1c5554299438c868cc4",
+  "query": {
+    "created_at": null,
+    "query_id": "5adbe1c5554299438c868cc4",
+    "text": "Was 9/11: Press for Truth released prior to Chasing Coral?"
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": null,
+      "claim_id": "Jeff Orlowski::p0",
+      "rank": 0,
+      "reason": null,
+      "selection_score": 1.0,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "Lolitawork Libretto::p0",
+      "rank": 1,
+      "reason": null,
+      "selection_score": 1.0,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "Chasing Coral::p0",
+      "rank": 2,
+      "reason": null,
+      "selection_score": 1.0,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "2 steg fr\u00e5n Paradise::p0",
+      "rank": 3,
+      "reason": null,
+      "selection_score": 1.0,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "Not Without Love::p0",
+      "rank": 4,
+      "reason": null,
+      "selection_score": 1.0,
+      "status": "accepted",
+      "utility": null
+    }
+  ],
+  "subgraph": null
+}

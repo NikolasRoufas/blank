@@ -1,0 +1,33 @@
+{
+  "claims": [
+    "clm-fdbe3e2d7e37d5bc",
+    "clm-bf9686b38157d3e0",
+    "clm-27d780884ffce96f",
+    "clm-3b60c51fbd52ed46",
+    "clm-309b84e966b3b16a",
+    "clm-d39df117d7c6e9df",
+    "clm-1306ca38dc7577fb",
+    "clm-76876ea4fe28e45e",
+    "clm-e1748d63a351c1f4",
+    "clm-647f168a7b4317a4",
+    "clm-9378dce46d957cc2",
+    "clm-704298d0cc94dd56"
+  ],
+  "relations": [
+    {
+      "source": "clm-309b84e966b3b16a",
+      "target": "clm-27d780884ffce96f",
+      "type": "support"
+    },
+    {
+      "source": "clm-3b60c51fbd52ed46",
+      "target": "clm-647f168a7b4317a4",
+      "type": "contradiction"
+    },
+    {
+      "source": "clm-647f168a7b4317a4",
+      "target": "clm-9378dce46d957cc2",
+      "type": "contradiction"
+    }
+  ]
+}

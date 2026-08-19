@@ -1,0 +1,557 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 25
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-b0093f85976c321b",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Maria Redaelli::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Maria Redaelli",
+          "title": "Maria Redaelli",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 252,
+            "source_id": "Maria Redaelli",
+            "start": 0,
+            "text": "At the time of her death, just one day shy of her 114th birthday, she was the oldest living person in Italy, the oldest living person in Europe and the fourth oldest living person in the world (behind Jiroemon Kimura, Misao Okawa, and Gertrude Weaver)."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Italy",
+          "Europe",
+          "Jiroemon Kimura",
+          "Misao Okawa",
+          "Gertrude Weaver"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Italy",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "At the time of her death, just one day shy of her 114th birthday, she was the oldest living person in Italy, the oldest living person in Europe and the fourth oldest living person in the world (behind Jiroemon Kimura, Misao Okawa, and Gertrude Weaver).",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-5c6d414418d5fcd3",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Lobby Lud::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Lobby Lud",
+          "title": "Lobby Lud",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 32,
+            "source_id": "Lobby Lud",
+            "start": 0,
+            "text": "Readers were given a pass phrase"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Readers"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Readers",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Readers were given a pass phrase",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-188485fbe080acde",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Lobby Lud::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Lobby Lud",
+          "title": "Lobby Lud",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 47,
+            "source_id": "Lobby Lud",
+            "start": 37,
+            "text": "had to try"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": null,
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "had to try",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-fb8d4538fb6779c5",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Lobby Lud::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Lobby Lud",
+          "title": "Lobby Lud",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 75,
+            "source_id": "Lobby Lud",
+            "start": 52,
+            "text": "guess both the location"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": null,
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "guess both the location",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-ebc7af8a658d9ab7",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Lobby Lud::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Lobby Lud",
+          "title": "Lobby Lud",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 118,
+            "source_id": "Lobby Lud",
+            "start": 80,
+            "text": "the person described by the reporters."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": null,
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "the person described by the reporters.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-d903bef5e7614582",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'he' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Kashiram Thapa::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Kashiram Thapa",
+          "title": "Kashiram Thapa",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 98,
+            "source_id": "Kashiram Thapa",
+            "start": 0,
+            "text": "He was considered to be a courageous and ambitious person who was good in dealings and organizing."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "He",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "He was considered to be a courageous and ambitious person who was good in dealings and organizing.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-9105eb789c9b637d",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'they' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Lobby Lud::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Lobby Lud",
+          "title": "Lobby Lud",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 58,
+            "source_id": "Lobby Lud",
+            "start": 0,
+            "text": "They also described a person they happened to see that day"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "They",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "They also described a person they happened to see that day",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-95393b22023c819b",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Lobby Lud::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Lobby Lud",
+          "title": "Lobby Lud",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 112,
+            "source_id": "Lobby Lud",
+            "start": 63,
+            "text": "declared him to be the \"Lobby Lud\" of that issue."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Lobby Lud"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Lobby Lud",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "declared him to be the \"Lobby Lud\" of that issue.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-4cd702ff71a92b14",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Duchy of Tridentum::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Duchy of Tridentum",
+          "title": "Duchy of Tridentum",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 104,
+            "source_id": "Duchy of Tridentum",
+            "start": 0,
+            "text": "The separate Lombard duchy of Brescia was united with Tridentum in the person of Alagis, a fervent Arian"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Lombard",
+          "Brescia",
+          "Tridentum",
+          "Alagis",
+          "Arian"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Lombard",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The separate Lombard duchy of Brescia was united with Tridentum in the person of Alagis, a fervent Arian",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-68330d8926707d3a",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Duchy of Tridentum::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Duchy of Tridentum",
+          "title": "Duchy of Tridentum",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 203,
+            "source_id": "Duchy of Tridentum",
+            "start": 109,
+            "text": "opponent of the Lombard king, Perctarit, who was killed in the battle of Cornate d'Adda (688)."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Lombard",
+          "Perctarit",
+          "Cornate",
+          "Adda"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Lombard",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "opponent of the Lombard king, Perctarit, who was killed in the battle of Cornate d'Adda (688).",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5a8bbddf5542997f31a41db2",
+    "text": "Was Without the King and Italy in a Day directed by the same person?"
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.473478,
+      "claim_id": "clm-d903bef5e7614582",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 0.832174,
+      "status": "accepted",
+      "utility": 0.358696
+    }
+  ],
+  "subgraph": null
+}

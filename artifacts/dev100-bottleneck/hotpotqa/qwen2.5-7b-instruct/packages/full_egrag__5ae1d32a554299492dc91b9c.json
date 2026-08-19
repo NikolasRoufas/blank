@@ -1,0 +1,1227 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 140
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-a4496030104d3971",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Fifty Shades (novel series)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Fifty Shades (novel series)",
+          "title": "Fifty Shades (novel series)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 76,
+            "source_id": "Fifty Shades (novel series)",
+            "start": 0,
+            "text": "The trilogy consists of \"Fifty Shades of Grey\" (2011), \"Fifty Shades Darker\""
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Fifty Shades",
+          "Grey",
+          "Fifty Shades Darker"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Fifty Shades",
+        "temporal_expressions": [
+          "2011"
+        ]
+      },
+      "source_reliability": null,
+      "text": "The trilogy consists of \"Fifty Shades of Grey\" (2011), \"Fifty Shades Darker\"",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-c534bc15b1be2049",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Fifty Shades (novel series)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Fifty Shades (novel series)",
+          "title": "Fifty Shades (novel series)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 109,
+            "source_id": "Fifty Shades (novel series)",
+            "start": 81,
+            "text": "\"Fifty Shades Freed\" (2012)."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Fifty Shades Freed"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Fifty Shades Freed",
+        "temporal_expressions": [
+          "2012"
+        ]
+      },
+      "source_reliability": null,
+      "text": "\"Fifty Shades Freed\" (2012).",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-21c62bbf9b4f271f",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Fifty Shades of Oy Vey: A Parody::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Fifty Shades of Oy Vey: A Parody",
+          "title": "Fifty Shades of Oy Vey: A Parody",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 40,
+            "source_id": "Fifty Shades of Oy Vey: A Parody",
+            "start": 0,
+            "text": "Fifty Shades of Oy Vey: A Parody by E.L."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Fifty Shades",
+          "Oy Vey",
+          "Parody",
+          "E",
+          "L"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Fifty Shades",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Fifty Shades of Oy Vey: A Parody by E.L.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-7bb310874df8d41e",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Fifty Shades of Oy Vey: A Parody::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Fifty Shades of Oy Vey: A Parody",
+          "title": "Fifty Shades of Oy Vey: A Parody",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 75,
+            "source_id": "Fifty Shades of Oy Vey: A Parody",
+            "start": 41,
+            "text": "Jamesbergstein is a parody of E.L."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Jamesbergstein",
+          "E",
+          "L"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Jamesbergstein",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Jamesbergstein is a parody of E.L.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-16aff8d0c354c527",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Fifty Shades of Oy Vey: A Parody::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Fifty Shades of Oy Vey: A Parody",
+          "title": "Fifty Shades of Oy Vey: A Parody",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 106,
+            "source_id": "Fifty Shades of Oy Vey: A Parody",
+            "start": 76,
+            "text": "James' \"Fifty Shades of Grey\"."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "James",
+          "Fifty Shades",
+          "Grey"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "James",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "James' \"Fifty Shades of Grey\".",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-808a6dc728d91fc4",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Fifty Shades Darker::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Fifty Shades Darker",
+          "title": "Fifty Shades Darker",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 110,
+            "source_id": "Fifty Shades Darker",
+            "start": 0,
+            "text": "The first and third volumes, \"Fifty Shades of Grey\" and \"Fifty Shades Freed\", were published in 2011 and 2012."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Fifty Shades",
+          "Grey",
+          "Fifty Shades Freed"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Fifty Shades",
+        "temporal_expressions": [
+          "2011",
+          "2012"
+        ]
+      },
+      "source_reliability": null,
+      "text": "The first and third volumes, \"Fifty Shades of Grey\" and \"Fifty Shades Freed\", were published in 2011 and 2012.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-38f7e0ef92601418",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'it' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Fifty Shades Freed (film)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Fifty Shades Freed (film)",
+          "title": "Fifty Shades Freed (film)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 51,
+            "source_id": "Fifty Shades Freed (film)",
+            "start": 0,
+            "text": "It is the final film in the \"Fifty Shades\" trilogy,"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Fifty Shades"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "It",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "It is the final film in the \"Fifty Shades\" trilogy,",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-2cf36f84e3f9f4e8",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Fifty Shades Freed (film)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Fifty Shades Freed (film)",
+          "title": "Fifty Shades Freed (film)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 97,
+            "source_id": "Fifty Shades Freed (film)",
+            "start": 56,
+            "text": "a sequel to \"Fifty Shades of Grey\" (2015)"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Fifty Shades",
+          "Grey"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Fifty Shades",
+        "temporal_expressions": [
+          "2015"
+        ]
+      },
+      "source_reliability": null,
+      "text": "a sequel to \"Fifty Shades of Grey\" (2015)",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-8be7d2c9d49cd65c",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Fifty Shades Freed (film)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Fifty Shades Freed (film)",
+          "title": "Fifty Shades Freed (film)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 131,
+            "source_id": "Fifty Shades Freed (film)",
+            "start": 102,
+            "text": "\"Fifty Shades Darker\" (2017)."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Fifty Shades Darker"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Fifty Shades Darker",
+        "temporal_expressions": [
+          "2017"
+        ]
+      },
+      "source_reliability": null,
+      "text": "\"Fifty Shades Darker\" (2017).",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-dc4b7190cd2bc384",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Fifty Shades Darker (film)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Fifty Shades Darker (film)",
+          "title": "Fifty Shades Darker (film)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 108,
+            "source_id": "Fifty Shades Darker (film)",
+            "start": 0,
+            "text": "The second film in the \"Fifty Shades\" film series, it is the sequel to the 2015 film \"Fifty Shades of Grey\"."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Fifty Shades",
+          "Grey"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Fifty Shades",
+        "temporal_expressions": [
+          "2015"
+        ]
+      },
+      "source_reliability": null,
+      "text": "The second film in the \"Fifty Shades\" film series, it is the sequel to the 2015 film \"Fifty Shades of Grey\".",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [
+    {
+      "claim_ids": [
+        "clm-16aff8d0c354c527",
+        "clm-21c62bbf9b4f271f",
+        "clm-2cf36f84e3f9f4e8",
+        "clm-38f7e0ef92601418",
+        "clm-7bb310874df8d41e",
+        "clm-808a6dc728d91fc4",
+        "clm-8be7d2c9d49cd65c",
+        "clm-a4496030104d3971",
+        "clm-c534bc15b1be2049",
+        "clm-dc4b7190cd2bc384"
+      ],
+      "conflict_id": "conflict:0",
+      "members": [
+        {
+          "claim_id": "clm-16aff8d0c354c527",
+          "independent_support": 0,
+          "propagated_belief": 0.856382,
+          "relation_confidence": 0.976729,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-21c62bbf9b4f271f",
+          "independent_support": 0,
+          "propagated_belief": 0.175425,
+          "relation_confidence": 0.976729,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-2cf36f84e3f9f4e8",
+          "independent_support": 1,
+          "propagated_belief": 0.898769,
+          "relation_confidence": 0.981716,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-38f7e0ef92601418",
+          "independent_support": 0,
+          "propagated_belief": 0.551295,
+          "relation_confidence": 0.996606,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-7bb310874df8d41e",
+          "independent_support": 0,
+          "propagated_belief": 0.598397,
+          "relation_confidence": 0.959796,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-808a6dc728d91fc4",
+          "independent_support": 0,
+          "propagated_belief": 0.360529,
+          "relation_confidence": 0.981716,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-8be7d2c9d49cd65c",
+          "independent_support": 0,
+          "propagated_belief": 0.223189,
+          "relation_confidence": 0.996605,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-a4496030104d3971",
+          "independent_support": 0,
+          "propagated_belief": 0.468562,
+          "relation_confidence": 0.973253,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-c534bc15b1be2049",
+          "independent_support": 1,
+          "propagated_belief": 0.223202,
+          "relation_confidence": 0.996605,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-dc4b7190cd2bc384",
+          "independent_support": 0,
+          "propagated_belief": 0.664367,
+          "relation_confidence": 0.996606,
+          "source_reliability": 0.5,
+          "timestamp": null
+        }
+      ],
+      "outcome": "unresolved",
+      "preferred_claim_id": null,
+      "relation_ids": [
+        "rel-301e411e087a2d4a",
+        "rel-41a3710216dc5c9f",
+        "rel-50e09b65d44ea5f6",
+        "rel-572070d0f92d5dac",
+        "rel-59601d8013d39374",
+        "rel-5dc1c8aac5f57f75",
+        "rel-6501ed23baa946aa",
+        "rel-663c47cc0e1920f0",
+        "rel-6f740af28ddc0aeb",
+        "rel-8058fc5e277e95af",
+        "rel-83f61dcfd6f67d71",
+        "rel-84519837f64b067f",
+        "rel-8e818118b53ac409",
+        "rel-93b2f0c29c5fc3a1",
+        "rel-a330a301bcd307f0",
+        "rel-acdcab40f45684ed",
+        "rel-afcde2c029cd54b1",
+        "rel-e1153ddf75b71561",
+        "rel-f3c35fdca1a9e6fa",
+        "rel-fb368621427b507d"
+      ],
+      "resolution_note": "top two competitors within margin 0.100 (0.899 vs 0.856)",
+      "resolved": false
+    }
+  ],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5ae1d32a554299492dc91b9c",
+    "text": "What year did Fifty Shades of Grey release?"
+  },
+  "relations": [
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.976729
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.976729,
+      "relation_id": "rel-59601d8013d39374",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-16aff8d0c354c527",
+      "target_claim_id": "clm-21c62bbf9b4f271f"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.976616
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.976616,
+      "relation_id": "rel-6501ed23baa946aa",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-16aff8d0c354c527",
+      "target_claim_id": "clm-8be7d2c9d49cd65c"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.969104
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.969104,
+      "relation_id": "rel-8e818118b53ac409",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-16aff8d0c354c527",
+      "target_claim_id": "clm-c534bc15b1be2049"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.88318
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.88318,
+      "relation_id": "rel-6f740af28ddc0aeb",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-21c62bbf9b4f271f",
+      "target_claim_id": "clm-2cf36f84e3f9f4e8"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.780218
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.780218,
+      "relation_id": "rel-301e411e087a2d4a",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-21c62bbf9b4f271f",
+      "target_claim_id": "clm-38f7e0ef92601418"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.959796
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.959796,
+      "relation_id": "rel-5dc1c8aac5f57f75",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-21c62bbf9b4f271f",
+      "target_claim_id": "clm-7bb310874df8d41e"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.938636
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.938636,
+      "relation_id": "rel-8058fc5e277e95af",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-21c62bbf9b4f271f",
+      "target_claim_id": "clm-808a6dc728d91fc4"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.973253
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.973253,
+      "relation_id": "rel-50e09b65d44ea5f6",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-21c62bbf9b4f271f",
+      "target_claim_id": "clm-a4496030104d3971"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.863344
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.863344,
+      "relation_id": "rel-83f61dcfd6f67d71",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-21c62bbf9b4f271f",
+      "target_claim_id": "clm-dc4b7190cd2bc384"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.981716
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.981716,
+      "relation_id": "rel-fb368621427b507d",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-2cf36f84e3f9f4e8",
+      "target_claim_id": "clm-808a6dc728d91fc4"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.788168
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.788168,
+      "relation_id": "rel-a330a301bcd307f0",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-2cf36f84e3f9f4e8",
+      "target_claim_id": "clm-8be7d2c9d49cd65c"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.959703
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.959703,
+      "relation_id": "rel-f3c35fdca1a9e6fa",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-2cf36f84e3f9f4e8",
+      "target_claim_id": "clm-a4496030104d3971"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.892484
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.892484,
+      "relation_id": "rel-572070d0f92d5dac",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-2cf36f84e3f9f4e8",
+      "target_claim_id": "clm-c534bc15b1be2049"
+    },
+    {
+      "bridge": null,
+      "direction": "directed",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "entailment",
+        "features": {
+          "entailment": 0.988722
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "entailment above threshold",
+      "relation_confidence": 0.988722,
+      "relation_id": "rel-387f8e84431d9af8",
+      "relation_type": "support",
+      "source_claim_id": "clm-dc4b7190cd2bc384",
+      "target_claim_id": "clm-2cf36f84e3f9f4e8"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.721707
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.721707,
+      "relation_id": "rel-663c47cc0e1920f0",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-38f7e0ef92601418",
+      "target_claim_id": "clm-808a6dc728d91fc4"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.996606
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.996606,
+      "relation_id": "rel-acdcab40f45684ed",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-38f7e0ef92601418",
+      "target_claim_id": "clm-dc4b7190cd2bc384"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.764231
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.764231,
+      "relation_id": "rel-afcde2c029cd54b1",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-808a6dc728d91fc4",
+      "target_claim_id": "clm-a4496030104d3971"
+    },
+    {
+      "bridge": null,
+      "direction": "directed",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "entailment",
+        "features": {
+          "entailment": 0.949443
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "entailment above threshold",
+      "relation_confidence": 0.949443,
+      "relation_id": "rel-e24e42637ca403f0",
+      "relation_type": "support",
+      "source_claim_id": "clm-808a6dc728d91fc4",
+      "target_claim_id": "clm-c534bc15b1be2049"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.964862
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.964862,
+      "relation_id": "rel-41a3710216dc5c9f",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-808a6dc728d91fc4",
+      "target_claim_id": "clm-dc4b7190cd2bc384"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.935801
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.935801,
+      "relation_id": "rel-84519837f64b067f",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-8be7d2c9d49cd65c",
+      "target_claim_id": "clm-a4496030104d3971"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.996605
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.996605,
+      "relation_id": "rel-93b2f0c29c5fc3a1",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-8be7d2c9d49cd65c",
+      "target_claim_id": "clm-c534bc15b1be2049"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.914413
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.914413,
+      "relation_id": "rel-e1153ddf75b71561",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-a4496030104d3971",
+      "target_claim_id": "clm-dc4b7190cd2bc384"
+    }
+  ],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.856382,
+      "claim_id": "clm-16aff8d0c354c527",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 1.0,
+      "status": "disputed",
+      "utility": 0.472222
+    },
+    {
+      "belief": 0.223202,
+      "claim_id": "clm-c534bc15b1be2049",
+      "rank": 1,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.573202,
+      "status": "disputed",
+      "utility": 0.35
+    },
+    {
+      "belief": 0.898769,
+      "claim_id": "clm-2cf36f84e3f9f4e8",
+      "rank": 2,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 1.0,
+      "status": "disputed",
+      "utility": 0.416667
+    },
+    {
+      "belief": 0.360529,
+      "claim_id": "clm-808a6dc728d91fc4",
+      "rank": 3,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.715792,
+      "status": "disputed",
+      "utility": 0.355263
+    },
+    {
+      "belief": 0.664367,
+      "claim_id": "clm-dc4b7190cd2bc384",
+      "rank": 4,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 1.0,
+      "status": "disputed",
+      "utility": 0.361111
+    },
+    {
+      "belief": 0.468562,
+      "claim_id": "clm-a4496030104d3971",
+      "rank": 5,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.872408,
+      "status": "disputed",
+      "utility": 0.403846
+    },
+    {
+      "belief": 0.551295,
+      "claim_id": "clm-38f7e0ef92601418",
+      "rank": 6,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.867962,
+      "status": "disputed",
+      "utility": 0.316667
+    },
+    {
+      "belief": 0.223189,
+      "claim_id": "clm-8be7d2c9d49cd65c",
+      "rank": 7,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.573189,
+      "status": "disputed",
+      "utility": 0.35
+    },
+    {
+      "belief": 0.175425,
+      "claim_id": "clm-21c62bbf9b4f271f",
+      "rank": 8,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.525425,
+      "status": "disputed",
+      "utility": 0.35
+    },
+    {
+      "belief": 0.598397,
+      "claim_id": "clm-7bb310874df8d41e",
+      "rank": 9,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.884111,
+      "status": "disputed",
+      "utility": 0.285714
+    }
+  ],
+  "subgraph": null
+}

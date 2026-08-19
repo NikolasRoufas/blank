@@ -1,0 +1,525 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 131
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-1c87fd353695d90a",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "1920 (film)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "1920 (film)",
+          "title": "1920 (film)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 46,
+            "source_id": "1920 (film)",
+            "start": 0,
+            "text": "The film stars debutant actors Rajneesh Duggal"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Rajneesh Duggal"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Rajneesh Duggal",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The film stars debutant actors Rajneesh Duggal",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-21066e677bc57b63",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "1920 (film)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "1920 (film)",
+          "title": "1920 (film)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 126,
+            "source_id": "1920 (film)",
+            "start": 89,
+            "text": "Indraneil Sengupta in a special role."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Indraneil Sengupta"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Indraneil Sengupta",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Indraneil Sengupta in a special role.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-356c3211dbdfdfe8",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "1920 (film)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "1920 (film)",
+          "title": "1920 (film)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 84,
+            "source_id": "1920 (film)",
+            "start": 51,
+            "text": "Adah Sharma as the married couple"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Adah Sharma"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Adah Sharma",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Adah Sharma as the married couple",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-613bd60f7dc6f06d",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Udanchhoo::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Udanchhoo",
+          "title": "Udanchhoo",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 100,
+            "source_id": "Udanchhoo",
+            "start": 0,
+            "text": "Udanchhoo is an upcoming Hindi Feature Film, starring Rajneesh Duggal & Sayyeshaa in the lead roles."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Udanchhoo",
+          "Hindi Feature Film",
+          "Rajneesh Duggal",
+          "Sayyeshaa"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Udanchhoo",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Udanchhoo is an upcoming Hindi Feature Film, starring Rajneesh Duggal & Sayyeshaa in the lead roles.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-858ac65cfc23ea96",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'this' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Ankahee (2006 film)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Ankahee (2006 film)",
+          "title": "Ankahee (2006 film)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 147,
+            "source_id": "Ankahee (2006 film)",
+            "start": 0,
+            "text": "This movie was based upon the life of former Miss Universe Sushmita Sen, who was publicly in a relationship with Indian film director Vikram Bhatt."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Miss Universe Sushmita Sen",
+          "Indian",
+          "Vikram Bhatt"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "This",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "This movie was based upon the life of former Miss Universe Sushmita Sen, who was publicly in a relationship with Indian film director Vikram Bhatt.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-9ed9895bccef705a",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Rajneesh Duggal::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Rajneesh Duggal",
+          "title": "Rajneesh Duggal",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 59,
+            "source_id": "Rajneesh Duggal",
+            "start": 44,
+            "text": "a former model."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": null,
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "a former model.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-c582dd06faa2274f",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Rajneesh Duggal::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Rajneesh Duggal",
+          "title": "Rajneesh Duggal",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 39,
+            "source_id": "Rajneesh Duggal",
+            "start": 0,
+            "text": "Rajneesh Duggal is an Indian film actor"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Rajneesh Duggal",
+          "Indian"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Rajneesh Duggal",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Rajneesh Duggal is an Indian film actor",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-e55a3a68b12290a4",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Phhir::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Phhir",
+          "title": "Phhir",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 120,
+            "source_id": "Phhir",
+            "start": 0,
+            "text": "Phhir (English: Again ) is an Indian romance and thriller film starring Rajneesh Duggal, Adah Sharma, and Roshni Chopra."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Phhir",
+          "English",
+          "Again",
+          "Indian",
+          "Rajneesh Duggal",
+          "Adah Sharma",
+          "Roshni Chopra"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Phhir",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Phhir (English: Again ) is an Indian romance and thriller film starring Rajneesh Duggal, Adah Sharma, and Roshni Chopra.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "pkg-5ade69e455429975fa854ec5",
+  "query": {
+    "created_at": null,
+    "query_id": "5ade69e455429975fa854ec5",
+    "text": "What director worked with Vikram Bhatt on a film starring actors Rajneesh Duggal and Adah Sharma?"
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": null,
+      "claim_id": "clm-1c87fd353695d90a",
+      "rank": 0,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-21066e677bc57b63",
+      "rank": 1,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-356c3211dbdfdfe8",
+      "rank": 2,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-613bd60f7dc6f06d",
+      "rank": 3,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-858ac65cfc23ea96",
+      "rank": 4,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-9ed9895bccef705a",
+      "rank": 5,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-c582dd06faa2274f",
+      "rank": 6,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-e55a3a68b12290a4",
+      "rank": 7,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    }
+  ],
+  "subgraph": null
+}

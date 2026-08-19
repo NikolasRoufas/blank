@@ -1,0 +1,226 @@
+{
+  "per_seed": [
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.07352941176470588,
+        "answer_evidence_entailment": 0.4135699836003227,
+        "citation_completeness": 0.014705882352941176,
+        "citation_precision": 0.2946078431372549,
+        "citation_recall": 0.23529411764705882,
+        "contradiction_rate": 0.4852941176470588,
+        "empty_prediction": 0.0,
+        "evidence_precision": 0.2696078431372549,
+        "evidence_recall": 0.25735294117647056,
+        "exact_match": 0.058823529411764705,
+        "invalid_citations": 0.0,
+        "latency_ms": 3269.9105362647542,
+        "normalized_exact_match": 0.07352941176470588,
+        "num_claims": 7.720588235294118,
+        "num_graph_edges": 3.1176470588235294,
+        "num_graph_nodes": 7.720588235294118,
+        "num_passages": 5.0,
+        "num_selected": 2.588235294117647,
+        "token_estimate": 65.26470588235294,
+        "token_f1": 0.1416331139586765,
+        "unsupported_claim_rate": 0.6715686274509803
+      },
+      "num_examples": 100,
+      "num_failed": 32,
+      "seed": 0,
+      "variant": "full_egrag",
+      "warnings": [
+        "uncited claim-like sentence: 'The provided text does not contain information about Midge M'",
+        "unresolved conflicts are present but the answer expresses no uncertainty",
+        "uncited claim-like sentence: 'The Chengdu Aircraft Industry Group helped develop the aircr'",
+        "uncited claim-like sentence: \"Art Bell was the author of the book 'The Coming Global Super\"",
+        "uncited claim-like sentence: 'The evidence provided does not clearly identify the author o'",
+        "uncited claim-like sentence: 'The provided information does not specify which city Jamell '",
+        "uncited claim-like sentence: 'The information provided does not specify which theater Heid'",
+        "uncited claim-like sentence: 'The provided evidence does not clearly state the city where '",
+        "uncited claim-like sentence: 'The information provided does not clearly identify the Chine'",
+        "uncited claim-like sentence: 'The evidence points to American musicians such as Maniac Mea'",
+        "uncited claim-like sentence: 'The provided evidence does not contain specific information '",
+        "uncited claim-like sentence: 'The album Back Up n da Chevy was from the city Atlanta.'",
+        "uncited claim-like sentence: 'The evidence provided does not contain information about a r'",
+        "uncited claim-like sentence: 'The provided evidence does not clearly state who assisted i4'",
+        "uncited claim-like sentence: 'The information provided does not specify which episode Mona'",
+        "uncited claim-like sentence: 'The evidence provided does not clearly state the release yea'",
+        "uncited claim-like sentence: 'However, based on some of the information, it seems to be pa'",
+        "uncited claim-like sentence: \"Given this, 'Fifty Shades of Grey' likely came out before 'F\"",
+        "uncited claim-like sentence: \"The producer of Michel'le's birth year cannot be determined \"",
+        "uncited claim-like sentence: 'The provided evidence does not specify the number of officia'",
+        "uncited claim-like sentence: 'The evidence provided does not directly address the specific'",
+        "uncited claim-like sentence: 'Wolf and Sheep was screened at the 2016 Danish-Afghan film f'",
+        "uncited claim-like sentence: 'The NG postcode area is approximately 10 miles from Gamston,'",
+        "uncited claim-like sentence: \"The female character that was first introduced on 'Once Upon\"",
+        "uncited claim-like sentence: 'The head writer for the show that featured an episode narrat'",
+        "uncited claim-like sentence: 'The apps are compatible with Microsoft Office file formats.'",
+        "uncited claim-like sentence: 'Based on the provided evidence, Myles Kennedy is associated '",
+        "uncited claim-like sentence: 'However, there is no direct evidence linking SafetySuit to a'",
+        "uncited claim-like sentence: 'Neither NRG Energy nor Raymond James Financial is based in G'",
+        "uncited claim-like sentence: 'Based on the provided evidence, Soaps In Depth was created i'",
+        "uncited claim-like sentence: 'However, there is conflicting information regarding the exac'",
+        "uncited claim-like sentence: 'The provided disputed evidence does not contain specific bir'",
+        "uncited claim-like sentence: 'The provided information does not clearly indicate who has m'",
+        "uncited claim-like sentence: 'Based on the available information, Chantal Claret is older '",
+        "uncited claim-like sentence: 'The information provided does not contain details about the '",
+        "uncited claim-like sentence: 'Neither Raj Kapoor nor Mike Cahill have professions based on'",
+        "uncited claim-like sentence: 'Insufficient information provided to determine who achieved '",
+        "uncited claim-like sentence: 'The evidence provided does not clearly indicate which of Jea'",
+        "uncited claim-like sentence: 'Based on the provided evidence, Lois McMaster Bujold is an A'",
+        "uncited claim-like sentence: \"Bernard Malamud, known for works such as 'The Fixer,' was bo\"",
+        "uncited claim-like sentence: 'Therefore, Lois McMaster Bujold is older than Bernard Malamu'",
+        "uncited claim-like sentence: 'No, Lance King is a heavy metal vocalist but there is no evi'",
+        "uncited claim-like sentence: 'John Landis and Gore Verbinski both worked as producers.'",
+        "uncited claim-like sentence: 'The provided data does not contain information about the num'",
+        "uncited claim-like sentence: 'The evidence does not clearly state whether Xinxiang and Qio'",
+        "uncited claim-like sentence: 'No, Upper Crust Pizzeria is a restaurant, but there is no in'",
+        "uncited claim-like sentence: 'Housman has British nationality while there is no clear info'",
+        "uncited claim-like sentence: 'The provided evidence does not conclusively state whether bo'",
+        "uncited claim-like sentence: 'No, Anaganaga O Dheerudu was not connected with Disney.'",
+        "uncited claim-like sentence: \"No, 'Chasing Coral' was not released prior to '9/11: Press f\"",
+        "uncited claim-like sentence: 'The provided evidence does not definitively state whether th'",
+        "uncited claim-like sentence: 'For the Chien Fran\u00e7ais Blanc et Orange, the available inform'",
+        "uncited claim-like sentence: 'There is insufficient information provided to determine if S'",
+        "uncited claim-like sentence: 'Water dropwort is in the family Apiaceae, but there is no in'",
+        "uncited claim-like sentence: 'No, Portland International Airport is located in Oregon, but'",
+        "uncited claim-like sentence: 'No, Broughtonia and Perilla are not both types of mint.'",
+        "uncited claim-like sentence: 'Neither Sorbaria nor Goldenrod are genera of more than 50 fl'",
+        "uncited claim-like sentence: 'The evidence provided does not conclusively determine whethe'",
+        "uncited claim-like sentence: 'While there is some indirect support suggesting Bon App\u00e9tit '"
+      ]
+    }
+  ],
+  "seed_aggregated": {
+    "full_egrag": {
+      "answer_accuracy": {
+        "mean": 0.07352941176470588,
+        "median": 0.07352941176470588,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 0.4135699836003227,
+        "median": 0.4135699836003227,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.014705882352941176,
+        "median": 0.014705882352941176,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 0.2946078431372549,
+        "median": 0.2946078431372549,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.23529411764705882,
+        "median": 0.23529411764705882,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.4852941176470588,
+        "median": 0.4852941176470588,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 0.2696078431372549,
+        "median": 0.2696078431372549,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 0.25735294117647056,
+        "median": 0.25735294117647056,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.058823529411764705,
+        "median": 0.058823529411764705,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 3269.9105362647542,
+        "median": 3269.9105362647542,
+        "std": 0.0
+      },
+      "normalized_exact_match": {
+        "mean": 0.07352941176470588,
+        "median": 0.07352941176470588,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 7.720588235294118,
+        "median": 7.720588235294118,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 3.1176470588235294,
+        "median": 3.1176470588235294,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 7.720588235294118,
+        "median": 7.720588235294118,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 5.0,
+        "median": 5.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 2.588235294117647,
+        "median": 2.588235294117647,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 65.26470588235294,
+        "median": 65.26470588235294,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.1416331139586765,
+        "median": 0.1416331139586765,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.6715686274509803,
+        "median": 0.6715686274509803,
+        "std": 0.0
+      }
+    }
+  }
+}

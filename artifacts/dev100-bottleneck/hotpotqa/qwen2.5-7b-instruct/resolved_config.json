@@ -1,0 +1,34 @@
+{
+  "bootstrap_samples": 1000,
+  "bootstrap_seed": 0,
+  "chunk_overlap": 0,
+  "chunk_size": 256,
+  "dataset": "hotpotqa",
+  "dataset_path": "artifacts/dev100-bottleneck/_raw_data/filtered/hotpot-dev-100.runner.jsonl",
+  "enforce_fairness": true,
+  "evidence_token_budget": 256,
+  "generator": "huggingface",
+  "generator_device": "cuda",
+  "generator_disable_thinking": false,
+  "generator_dtype": "bfloat16",
+  "generator_model": "Qwen/Qwen2.5-7B-Instruct",
+  "generator_quantization": "none",
+  "generator_revision": null,
+  "limit": null,
+  "max_new_tokens": 256,
+  "name": "hotpotqa_qwen2.5-7b-instruct_dev100",
+  "output_dir": "artifacts/dev100-bottleneck/hotpotqa/qwen2.5-7b-instruct",
+  "require_cuda": true,
+  "reserved_output_tokens": 64,
+  "seeds": [
+    0
+  ],
+  "top_k": 5,
+  "variants": [
+    "passage_rag",
+    "claim_only_rag",
+    "graph_top_claim",
+    "graph_no_contradiction",
+    "full_egrag"
+  ]
+}

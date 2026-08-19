@@ -1,0 +1,31 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 0
+  },
+  "claims": [],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "pkg-4fff820332ad512fe8351476693f72cf",
+  "query": {
+    "created_at": null,
+    "query_id": "4fff820332ad512fe8351476693f72cf",
+    "text": "Angela Bassett is vegetarian."
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [],
+  "subgraph": null
+}

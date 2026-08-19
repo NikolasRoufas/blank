@@ -1,0 +1,530 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 22
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-0029570afc0d7940",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Superman IV: The Quest for Peace::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Superman IV: The Quest for Peace",
+          "title": "Superman IV: The Quest for Peace",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 88,
+            "source_id": "Superman IV: The Quest for Peace",
+            "start": 0,
+            "text": "Superman IV: The Quest for Peace is a 1987 American superhero film directed by Sidney J."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Superman IV",
+          "Quest",
+          "Peace",
+          "American",
+          "Sidney J"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Superman IV",
+        "temporal_expressions": [
+          "1987"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Superman IV: The Quest for Peace is a 1987 American superhero film directed by Sidney J.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-c9f731970f9c74f0",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Superman IV: The Quest for Peace::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Superman IV: The Quest for Peace",
+          "title": "Superman IV: The Quest for Peace",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 138,
+            "source_id": "Superman IV: The Quest for Peace",
+            "start": 89,
+            "text": "Furie, based on the DC Comics character Superman."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Furie",
+          "DC Comics",
+          "Superman"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Furie",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Furie, based on the DC Comics character Superman.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-86d553abe0bcc8ec",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Superman IV: The Quest for Peace::p1",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Superman IV: The Quest for Peace",
+          "title": "Superman IV: The Quest for Peace",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 341,
+            "source_id": "Superman IV: The Quest for Peace",
+            "start": 231,
+            "text": "Gene Hackman returned as Lex Luthor, who creates an evil solar-powered version of Superman called Nuclear Man."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Gene Hackman",
+          "Lex Luthor",
+          "Superman",
+          "Nuclear Man"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Gene Hackman",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Gene Hackman returned as Lex Luthor, who creates an evil solar-powered version of Superman called Nuclear Man.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-3233b6124d59314b",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Lex Luthor: Man of Steel::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Lex Luthor: Man of Steel",
+          "title": "Lex Luthor: Man of Steel",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 145,
+            "source_id": "Lex Luthor: Man of Steel",
+            "start": 0,
+            "text": "Lex Luthor: Man of Steel (later collected as simply Luthor) is a five-issue monthly American comic book limited series written by Brian Azzarello"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Lex Luthor",
+          "Man",
+          "Steel",
+          "Luthor",
+          "American",
+          "Brian Azzarello"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Lex Luthor",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Lex Luthor: Man of Steel (later collected as simply Luthor) is a five-issue monthly American comic book limited series written by Brian Azzarello",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-f825ea5ac44b872a",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Lex Luthor: Man of Steel::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Lex Luthor: Man of Steel",
+          "title": "Lex Luthor: Man of Steel",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 242,
+            "source_id": "Lex Luthor: Man of Steel",
+            "start": 150,
+            "text": "illustrated by Lee Bermejo, which features Superman's nemesis Lex Luthor as the protagonist."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Lee Bermejo",
+          "Superman",
+          "Lex Luthor"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Lee Bermejo",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "illustrated by Lee Bermejo, which features Superman's nemesis Lex Luthor as the protagonist.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-528466e993b5c133",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Lex Luthor (Smallville)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Lex Luthor (Smallville)",
+          "title": "Lex Luthor (Smallville)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 74,
+            "source_id": "Lex Luthor (Smallville)",
+            "start": 0,
+            "text": "The character of Lex Luthor, first created for comic books by Jerry Siegel"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Lex Luthor",
+          "Jerry Siegel"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Lex Luthor",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The character of Lex Luthor, first created for comic books by Jerry Siegel",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-cc9a416ca49734b8",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Lex Luthor (Smallville)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Lex Luthor (Smallville)",
+          "title": "Lex Luthor (Smallville)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 172,
+            "source_id": "Lex Luthor (Smallville)",
+            "start": 79,
+            "text": "Joe Shuster in 1940 as nemesis of Superman, was adapted to television in 2001 by Alfred Gough"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Joe Shuster",
+          "Superman",
+          "Alfred Gough"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Joe Shuster",
+        "temporal_expressions": [
+          "1940",
+          "2001"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Joe Shuster in 1940 as nemesis of Superman, was adapted to television in 2001 by Alfred Gough",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-1f884c19b4e8196a",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Lex Luthor (Smallville)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Lex Luthor (Smallville)",
+          "title": "Lex Luthor (Smallville)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 284,
+            "source_id": "Lex Luthor (Smallville)",
+            "start": 177,
+            "text": "Miles Millar\u2014this is only the third time the character has been adapted to a live action television series."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Miles Millar"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Miles Millar",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Miles Millar\u2014this is only the third time the character has been adapted to a live action television series.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-17f3659ddde6ee01",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Lionel Luthor::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Lionel Luthor",
+          "title": "Lionel Luthor",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 114,
+            "source_id": "Lionel Luthor",
+            "start": 0,
+            "text": "In \"Smallville\", Lionel Luthor is the father of Lex Luthor (Michael Rosenbaum), and founder and CEO of LuthorCorp."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Smallville",
+          "Lionel Luthor",
+          "Lex Luthor",
+          "Michael Rosenbaum",
+          "CEO",
+          "LuthorCorp"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Smallville",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "In \"Smallville\", Lionel Luthor is the father of Lex Luthor (Michael Rosenbaum), and founder and CEO of LuthorCorp.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5a7912f655429974737f796c",
+    "text": "What is the birthday of the man who played Lex Luthor in Superman IV: The Quest for Peace?"
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.486,
+      "claim_id": "clm-0029570afc0d7940",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 0.876,
+      "status": "accepted",
+      "utility": 0.39
+    }
+  ],
+  "subgraph": null
+}

@@ -1,0 +1,251 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 9
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-729e96d6925f87ad",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "List_of_accolades_received_by_Bajirao_Mastani::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "List_of_accolades_received_by_Bajirao_Mastani",
+          "title": "List of accolades received by Bajirao Mastani",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 93,
+            "source_id": "List_of_accolades_received_by_Bajirao_Mastani",
+            "start": 0,
+            "text": "Bajirao Mastani received thirteen nominations at the 22nd Screen Awards including Best Film ,"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Bajirao Mastani",
+          "Screen Awards",
+          "Best Film"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Bajirao Mastani",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Bajirao Mastani received thirteen nominations at the 22nd Screen Awards including Best Film ,",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-15e0ff6ade1d9be9",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "List_of_accolades_received_by_Bajirao_Mastani::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "List_of_accolades_received_by_Bajirao_Mastani",
+          "title": "List of accolades received by Bajirao Mastani",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 126,
+            "source_id": "List_of_accolades_received_by_Bajirao_Mastani",
+            "start": 98,
+            "text": "Best Director for Bhansali ,"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Best Director",
+          "Bhansali"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Best Director",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Best Director for Bhansali ,",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-336fdc361aa7702b",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "List_of_accolades_received_by_Bajirao_Mastani::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "List_of_accolades_received_by_Bajirao_Mastani",
+          "title": "List of accolades received by Bajirao Mastani",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 173,
+            "source_id": "List_of_accolades_received_by_Bajirao_Mastani",
+            "start": 131,
+            "text": "won seven including Best Actor for Singh ,"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Best Actor",
+          "Singh"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Best Actor",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "won seven including Best Actor for Singh ,",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-226f96d0ad452343",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "List_of_accolades_received_by_Bajirao_Mastani::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "List_of_accolades_received_by_Bajirao_Mastani",
+          "title": "List of accolades received by Bajirao Mastani",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 214,
+            "source_id": "List_of_accolades_received_by_Bajirao_Mastani",
+            "start": 178,
+            "text": "Best Supporting Actress for Chopra ."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Best Supporting Actress",
+          "Chopra"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Best Supporting Actress",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Best Supporting Actress for Chopra .",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "6c1cefd28772e31f9d9350d89832667b",
+    "text": "Mohra got Filmfare nominations for Best Film, Best Director, Best Actor, Best Supporting Actress, Best Male Debut, Best Story, Best Editing, Best Cinematography, and Best Art Direction."
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.47,
+      "claim_id": "clm-226f96d0ad452343",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 0.82,
+      "status": "accepted",
+      "utility": 0.35
+    }
+  ],
+  "subgraph": null
+}

@@ -1,0 +1,145 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 9
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-fe78fd396e4cffa8",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "The_Endless_River::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "The_Endless_River",
+          "title": "The Endless River",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 34,
+            "source_id": "The_Endless_River",
+            "start": 0,
+            "text": "The Endless River is the fifteenth"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Endless River"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Endless River",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The Endless River is the fifteenth",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-f03142ba558a2e09",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "The_Endless_River::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "The_Endless_River",
+          "title": "The Endless River",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 95,
+            "source_id": "The_Endless_River",
+            "start": 39,
+            "text": "final studio album by the English rock band Pink Floyd ."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "English",
+          "Pink Floyd"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "English",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "final studio album by the English rock band Pink Floyd .",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "3ecefb48d62eef1ba832bc2fa7e7cbf1",
+    "text": "The Endless River is the fifteenth studio album of Pink Floyd."
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.53,
+      "claim_id": "clm-fe78fd396e4cffa8",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 1.0,
+      "status": "accepted",
+      "utility": 0.5
+    }
+  ],
+  "subgraph": null
+}

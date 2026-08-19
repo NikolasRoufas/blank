@@ -1,0 +1,226 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 89
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-208c8f77f720cfad",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Sim\u00f3n_Bol\u00edvar::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Sim\u00f3n_Bol\u00edvar",
+          "title": "Sim\u00f3n Bol\u00edvar",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 309,
+            "source_id": "Sim\u00f3n_Bol\u00edvar",
+            "start": 195,
+            "text": "political leader who played a leading role in the establishment of Venezuela , Bolivia , Colombia , Ecuador , Peru"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Venezuela",
+          "Bolivia",
+          "Colombia",
+          "Ecuador",
+          "Peru"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Venezuela",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "political leader who played a leading role in the establishment of Venezuela , Bolivia , Colombia , Ecuador , Peru",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-7c211f4321d47ff7",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Sim\u00f3n_Bol\u00edvar::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Sim\u00f3n_Bol\u00edvar",
+          "title": "Sim\u00f3n Bol\u00edvar",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 190,
+            "source_id": "Sim\u00f3n_Bol\u00edvar",
+            "start": 0,
+            "text": "Sim\u00f3n Jos\u00e9 Antonio de la Sant\u00edsima Trinidad Bol\u00edvar y Palacios -LRB- -LSB- si\u02c8mon bo\u02c8li\u03b2ar -RSB- ; 24 July 1783 -- 17 December 1830 -RRB- , known as El Libertador , was a Venezuelan military"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Antonio",
+          "Trinidad",
+          "Palacios",
+          "LRB",
+          "LSB",
+          "RSB",
+          "RRB",
+          "El Libertador",
+          "Venezuelan"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Antonio",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Sim\u00f3n Jos\u00e9 Antonio de la Sant\u00edsima Trinidad Bol\u00edvar y Palacios -LRB- -LSB- si\u02c8mon bo\u02c8li\u03b2ar -RSB- ; 24 July 1783 -- 17 December 1830 -RRB- , known as El Libertador , was a Venezuelan military",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-fca06c4f67d66245",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Sim\u00f3n_Bol\u00edvar::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Sim\u00f3n_Bol\u00edvar",
+          "title": "Sim\u00f3n Bol\u00edvar",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 372,
+            "source_id": "Sim\u00f3n_Bol\u00edvar",
+            "start": 314,
+            "text": "Panama as sovereign states , independent of Spanish rule ."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Panama",
+          "Spanish"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Panama",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Panama as sovereign states , independent of Spanish rule .",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "pkg-2732a9cc0d5e9b56ea1d3a1770f5b89a",
+  "query": {
+    "created_at": null,
+    "query_id": "2732a9cc0d5e9b56ea1d3a1770f5b89a",
+    "text": "Sim\u00f3n Bol\u00edvar's maiden name is Sim\u00f3n Jos\u00e9 Antonio de la Sant\u00edsima Trinidad Bol\u00edvar y Palacios."
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": null,
+      "claim_id": "clm-208c8f77f720cfad",
+      "rank": 0,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-7c211f4321d47ff7",
+      "rank": 1,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-fca06c4f67d66245",
+      "rank": 2,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    }
+  ],
+  "subgraph": null
+}

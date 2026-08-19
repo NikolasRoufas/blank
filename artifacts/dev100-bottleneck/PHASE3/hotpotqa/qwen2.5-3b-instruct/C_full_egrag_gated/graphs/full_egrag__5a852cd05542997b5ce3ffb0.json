@@ -1,0 +1,19 @@
+{
+  "claims": [
+    "clm-8463d7532bddd810",
+    "clm-b17e080e3c1c1802",
+    "clm-2eae6eb115f73e56",
+    "clm-e5d59aabeff1453a",
+    "clm-22b362eef0d605dc",
+    "clm-2d496d467193422c",
+    "clm-a4aecde57a1b09de",
+    "clm-0991296741f22d5c"
+  ],
+  "relations": [
+    {
+      "source": "clm-b17e080e3c1c1802",
+      "target": "clm-2d496d467193422c",
+      "type": "support"
+    }
+  ]
+}

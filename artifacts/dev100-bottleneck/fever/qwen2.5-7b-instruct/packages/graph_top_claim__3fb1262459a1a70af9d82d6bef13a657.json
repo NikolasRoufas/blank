@@ -1,0 +1,149 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 38
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-01371b6834925c7d",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Asceticism::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Asceticism",
+          "title": "Asceticism",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 63,
+            "source_id": "Asceticism",
+            "start": 0,
+            "text": "The practitioners of these religions eschewed worldly pleasures"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": null,
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The practitioners of these religions eschewed worldly pleasures",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-15484bfd3afd58e5",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Asceticism::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Asceticism",
+          "title": "Asceticism",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 155,
+            "source_id": "Asceticism",
+            "start": 68,
+            "text": "led an abstinent lifestyle , in the pursuit of redemption , salvation or spirituality ."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": null,
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "led an abstinent lifestyle , in the pursuit of redemption , salvation or spirituality .",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "3fb1262459a1a70af9d82d6bef13a657",
+    "text": "A monk practices a lifestyle characterized by abstinence from worldly sins."
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.441765,
+      "claim_id": "clm-01371b6834925c7d",
+      "rank": 0,
+      "reason": "top base value within budget",
+      "selection_score": 0.721177,
+      "status": "accepted",
+      "utility": 0.279412
+    },
+    {
+      "belief": 0.439524,
+      "claim_id": "clm-15484bfd3afd58e5",
+      "rank": 1,
+      "reason": "top base value within budget",
+      "selection_score": 0.713334,
+      "status": "accepted",
+      "utility": 0.27381
+    }
+  ],
+  "subgraph": null
+}

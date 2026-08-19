@@ -1,0 +1,668 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 162
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-6c11bc312a731a05",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Park So-yeon (singer)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Park So-yeon (singer)",
+          "title": "Park So-yeon (singer)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 111,
+            "source_id": "Park So-yeon (singer)",
+            "start": 0,
+            "text": "Park So-yeon (born October 5, 1987), better known mononymously as Soyeon, is a South Korean singer and actress."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Park So",
+          "Soyeon",
+          "South Korean"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Park So",
+        "temporal_expressions": [
+          "October 5, 1987"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Park So-yeon (born October 5, 1987), better known mononymously as Soyeon, is a South Korean singer and actress.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-e3c356a8d3f4793c",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "R U the Girl::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "R U the Girl",
+          "title": "R U the Girl",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 42,
+            "source_id": "R U the Girl",
+            "start": 0,
+            "text": "The series featured Tionne \"T-Boz\" Watkins"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Tionne",
+          "T",
+          "Boz",
+          "Watkins"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Tionne",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The series featured Tionne \"T-Boz\" Watkins",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-7674f141af473b0c",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "R U the Girl::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "R U the Girl",
+          "title": "R U the Girl",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 218,
+            "source_id": "R U the Girl",
+            "start": 47,
+            "text": "Rozonda \"Chilli\" Thomas, the remaining members of the all-girl R&B group TLC whose former member, Lisa \"Left Eye\" Lopes, died in a car crash in Honduras on April 25, 2002."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Rozonda",
+          "Chilli",
+          "Thomas",
+          "R",
+          "B",
+          "TLC",
+          "Lisa",
+          "Left Eye",
+          "Lopes",
+          "Honduras"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Rozonda",
+        "temporal_expressions": [
+          "April 25, 2002"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Rozonda \"Chilli\" Thomas, the remaining members of the all-girl R&B group TLC whose former member, Lisa \"Left Eye\" Lopes, died in a car crash in Honduras on April 25, 2002.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-be08949fba9f7639",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'it' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "2nd APAN Star Awards::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "2nd APAN Star Awards",
+          "title": "2nd APAN Star Awards",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 182,
+            "source_id": "2nd APAN Star Awards",
+            "start": 0,
+            "text": "It was held at the Hall of Jeongsimhwa International Cultural Center, Chungnam National University in Daejeon on November 16, 2013 and hosted by T-ara's Park So-yeon and Lee Hwi-jae."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Hall",
+          "Jeongsimhwa International Cultural Center",
+          "Chungnam National University",
+          "Daejeon",
+          "T",
+          "Park So",
+          "Lee Hwi"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "It",
+        "temporal_expressions": [
+          "November 16, 2013"
+        ]
+      },
+      "source_reliability": null,
+      "text": "It was held at the Hall of Jeongsimhwa International Cultural Center, Chungnam National University in Daejeon on November 16, 2013 and hosted by T-ara's Park So-yeon and Lee Hwi-jae.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-aa694aff832673e8",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'it' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "3rd APAN Star Awards::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "3rd APAN Star Awards",
+          "title": "3rd APAN Star Awards",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 183,
+            "source_id": "3rd APAN Star Awards",
+            "start": 0,
+            "text": "It was held at the Hall of Jeongsimhwa International Cultural Center, Chungnam National University in Daejeon on November 15, 2014 and hosted by T-ara's Park So-yeon and Kim Sung-joo."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Hall",
+          "Jeongsimhwa International Cultural Center",
+          "Chungnam National University",
+          "Daejeon",
+          "T",
+          "Park So",
+          "Kim Sung"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "It",
+        "temporal_expressions": [
+          "November 15, 2014"
+        ]
+      },
+      "source_reliability": null,
+      "text": "It was held at the Hall of Jeongsimhwa International Cultural Center, Chungnam National University in Daejeon on November 15, 2014 and hosted by T-ara's Park So-yeon and Kim Sung-joo.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-656d9e2895b9dd6c",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "TLC (group)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "TLC (group)",
+          "title": "TLC (group)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 111,
+            "source_id": "TLC (group)",
+            "start": 0,
+            "text": "TLC is an American girl group whose original line-up consisted of Tionne \"T-Boz\" Watkins, Lisa \"Left Eye\" Lopes"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "TLC",
+          "American",
+          "Tionne",
+          "T",
+          "Boz",
+          "Watkins",
+          "Lisa",
+          "Left Eye",
+          "Lopes"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "TLC",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "TLC is an American girl group whose original line-up consisted of Tionne \"T-Boz\" Watkins, Lisa \"Left Eye\" Lopes",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-5ef6635746febb03",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "TLC (group)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "TLC (group)",
+          "title": "TLC (group)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 140,
+            "source_id": "TLC (group)",
+            "start": 116,
+            "text": "Rozonda \"Chilli\" Thomas."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Rozonda",
+          "Chilli",
+          "Thomas"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Rozonda",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Rozonda \"Chilli\" Thomas.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [
+    {
+      "claim_ids": [
+        "clm-656d9e2895b9dd6c",
+        "clm-7674f141af473b0c"
+      ],
+      "conflict_id": "conflict:0",
+      "members": [
+        {
+          "claim_id": "clm-656d9e2895b9dd6c",
+          "independent_support": 0,
+          "propagated_belief": 0.480741,
+          "relation_confidence": 0.916743,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-7674f141af473b0c",
+          "independent_support": 0,
+          "propagated_belief": 0.464415,
+          "relation_confidence": 0.916743,
+          "source_reliability": 0.5,
+          "timestamp": null
+        }
+      ],
+      "outcome": "unresolved",
+      "preferred_claim_id": null,
+      "relation_ids": [
+        "rel-52fdf53db3e4ee56"
+      ],
+      "resolution_note": "top two competitors within margin 0.100 (0.481 vs 0.464)",
+      "resolved": false
+    },
+    {
+      "claim_ids": [
+        "clm-aa694aff832673e8",
+        "clm-be08949fba9f7639",
+        "clm-e3c356a8d3f4793c"
+      ],
+      "conflict_id": "conflict:1",
+      "members": [
+        {
+          "claim_id": "clm-aa694aff832673e8",
+          "independent_support": 0,
+          "propagated_belief": 0.486323,
+          "relation_confidence": 0.994067,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-be08949fba9f7639",
+          "independent_support": 0,
+          "propagated_belief": 0.435262,
+          "relation_confidence": 0.994067,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-e3c356a8d3f4793c",
+          "independent_support": 1,
+          "propagated_belief": 0.567328,
+          "relation_confidence": 0.78178,
+          "source_reliability": 0.5,
+          "timestamp": null
+        }
+      ],
+      "outcome": "unresolved",
+      "preferred_claim_id": null,
+      "relation_ids": [
+        "rel-7ef3f027f47cfda3",
+        "rel-eef7052f5b1a86a6"
+      ],
+      "resolution_note": "top two competitors within margin 0.100 (0.567 vs 0.486)",
+      "resolved": false
+    }
+  ],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5abdbf3755429933744ab818",
+    "text": "Have Tionne Watkins and Park So-yeon both been members of a girl group?"
+  },
+  "relations": [
+    {
+      "bridge": null,
+      "direction": "directed",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "entailment",
+        "features": {
+          "entailment": 0.947767
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "entailment above threshold",
+      "relation_confidence": 0.947767,
+      "relation_id": "rel-4f9f032e8b2bdf9f",
+      "relation_type": "support",
+      "source_claim_id": "clm-7674f141af473b0c",
+      "target_claim_id": "clm-5ef6635746febb03"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.916743
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.916743,
+      "relation_id": "rel-52fdf53db3e4ee56",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-656d9e2895b9dd6c",
+      "target_claim_id": "clm-7674f141af473b0c"
+    },
+    {
+      "bridge": null,
+      "direction": "directed",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "entailment",
+        "features": {
+          "entailment": 0.903515
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "entailment above threshold",
+      "relation_confidence": 0.903515,
+      "relation_id": "rel-42ba178c05b0dcb4",
+      "relation_type": "support",
+      "source_claim_id": "clm-656d9e2895b9dd6c",
+      "target_claim_id": "clm-e3c356a8d3f4793c"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.994067
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.994067,
+      "relation_id": "rel-eef7052f5b1a86a6",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-aa694aff832673e8",
+      "target_claim_id": "clm-be08949fba9f7639"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.78178
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.78178,
+      "relation_id": "rel-7ef3f027f47cfda3",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-be08949fba9f7639",
+      "target_claim_id": "clm-e3c356a8d3f4793c"
+    }
+  ],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.567328,
+      "claim_id": "clm-e3c356a8d3f4793c",
+      "rank": 0,
+      "reason": "top base value within budget",
+      "selection_score": 0.86996,
+      "status": "disputed",
+      "utility": 0.302632
+    },
+    {
+      "belief": 0.480741,
+      "claim_id": "clm-656d9e2895b9dd6c",
+      "rank": 1,
+      "reason": "top base value within budget",
+      "selection_score": 0.816948,
+      "status": "disputed",
+      "utility": 0.336207
+    },
+    {
+      "belief": 0.465714,
+      "claim_id": "clm-6c11bc312a731a05",
+      "rank": 2,
+      "reason": "top base value within budget",
+      "selection_score": 0.805,
+      "status": "accepted",
+      "utility": 0.339286
+    },
+    {
+      "belief": 0.486323,
+      "claim_id": "clm-aa694aff832673e8",
+      "rank": 3,
+      "reason": "top base value within budget",
+      "selection_score": 0.797299,
+      "status": "disputed",
+      "utility": 0.310976
+    },
+    {
+      "belief": 0.464415,
+      "claim_id": "clm-7674f141af473b0c",
+      "rank": 4,
+      "reason": "top base value within budget",
+      "selection_score": 0.778518,
+      "status": "disputed",
+      "utility": 0.314103
+    },
+    {
+      "belief": 0.513172,
+      "claim_id": "clm-5ef6635746febb03",
+      "rank": 5,
+      "reason": "top base value within budget",
+      "selection_score": 0.763172,
+      "status": "accepted",
+      "utility": 0.25
+    }
+  ],
+  "subgraph": null
+}

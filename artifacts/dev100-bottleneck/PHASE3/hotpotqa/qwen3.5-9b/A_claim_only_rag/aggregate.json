@@ -1,0 +1,250 @@
+{
+  "per_seed": [
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.02857142857142857,
+        "answer_evidence_entailment": 0.5288281834610775,
+        "citation_completeness": 0.14285714285714285,
+        "citation_precision": 0.45595238095238094,
+        "citation_recall": 0.32142857142857145,
+        "contradiction_rate": 0.7,
+        "empty_prediction": 0.0,
+        "evidence_precision": 0.20142857142857143,
+        "evidence_recall": 0.4142857142857143,
+        "exact_match": 0.02857142857142857,
+        "invalid_citations": 0.0,
+        "latency_ms": 6231.588810278169,
+        "normalized_exact_match": 0.02857142857142857,
+        "num_claims": 7.7,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 0.0,
+        "num_passages": 5.0,
+        "num_selected": 7.128571428571429,
+        "token_estimate": 158.1,
+        "token_f1": 0.10836487033724379,
+        "unsupported_claim_rate": 0.48928571428571427
+      },
+      "num_examples": 100,
+      "num_failed": 30,
+      "seed": 0,
+      "variant": "claim_only_rag",
+      "warnings": [
+        "uncited claim-like sentence: \"The lead character in the 1960s sitcom 'Get Smart' was Maxwe\"",
+        "uncited claim-like sentence: 'The show also featured Barbara Feldon, an American actress b'",
+        "uncited claim-like sentence: 'The provided evidence does not contain information about whi'",
+        "uncited claim-like sentence: \"The evidence mentions that 'Women Talking' included intervie\"",
+        "uncited claim-like sentence: 'The provided evidence does not contain information about the'",
+        "uncited claim-like sentence: \"The author of the book 'The Coming Global Superstorm' and th\"",
+        "uncited claim-like sentence: \"Sian Gibson co-wrote the British sitcom 'Peter Kay's Car Sha\"",
+        "uncited claim-like sentence: \"The evidence mentions 'Dark Places' is a 2015 mystery thrill\"",
+        "uncited claim-like sentence: 'The evidence states that Raphael Holzhauser plays for Austri'",
+        "uncited claim-like sentence: 'The evidence mentions Signal Mountain in Tennessee but does '",
+        "uncited claim-like sentence: 'Ratatouille and PlayStation 3 share the medium of video game'",
+        "uncited claim-like sentence: 'The name of the number-one single featuring the winner of Ce'",
+        "uncited claim-like sentence: 'The provided evidence states that \"Look At Us Now\" is a song'",
+        "uncited claim-like sentence: 'The Chinese American electronic musician and singer who coll'",
+        "uncited claim-like sentence: 'The provided evidence does not state the monetary worth of t'",
+        "uncited claim-like sentence: \"It mentions that the campaign increased Nike's share of the \"",
+        "uncited claim-like sentence: '2 billion between 1988 and 1998, but it does not assign a sp'",
+        "uncited claim-like sentence: \"The song by Soft Cell that was sampled in Rihanna's song 'SO\"",
+        "uncited claim-like sentence: 'John Surtees, who finished second in the 1962 German Grand P'",
+        "uncited claim-like sentence: 'The provided evidence does not contain information about a s'",
+        "uncited claim-like sentence: 'The evidence mentions that Starship Entertainment was establ'",
+        "uncited claim-like sentence: 'The State of Nevada assisted in bond financing for the Las V'",
+        "uncited claim-like sentence: 'Based on the provided evidence, it is not possible to identi'",
+        "uncited claim-like sentence: \"Mona Simpson died in the episode titled 'Mona Leaves-a'.\"",
+        "uncited claim-like sentence: 'The provided evidence does not state who designed the memori'",
+        "uncited claim-like sentence: 'It mentions the USS Arizona Memorial commemorates the events'",
+        "uncited claim-like sentence: 'The most populous city in Riverside County, where Caleb Steg'",
+        "uncited claim-like sentence: 'The evidence does not state the director of the film starrin'",
+        "uncited claim-like sentence: \"It only identifies the film as 'Phhir' and lists the actors,\"",
+        "uncited claim-like sentence: \"The producer of Michel'le is not identified in the provided \"",
+        "uncited claim-like sentence: \"The evidence states that Michel'le Denise Toussaint was born\"",
+        "uncited claim-like sentence: 'The provided evidence does not contain the name of a pop art'",
+        "uncited claim-like sentence: 'The evidence mentions Pledis Entertainment is a South Korean'",
+        "uncited claim-like sentence: 'The archaeological artefact excavated by Thomas Bateman on 3'",
+        "uncited claim-like sentence: '4 was published in 1801 and dedicated to Count Moritz von Fr'",
+        "uncited claim-like sentence: 'Macfarlane was the Chamberlain and Colonel of the military s'",
+        "uncited claim-like sentence: \"Erik Marcisak was named one of Top Ten 'Comedy Best Bets' by\"",
+        "uncited claim-like sentence: 'The NG postcode area covers Nottinghamshire (except for the '",
+        "uncited claim-like sentence: 'Therefore, Gamston is within the area covered by the NG post'",
+        "uncited claim-like sentence: 'Rebecca Mader, who plays the female character Zelena (Wicked'",
+        "uncited claim-like sentence: 'She was first introduced in the third season after making re'",
+        "uncited claim-like sentence: 'The evidence mentions that James Earl Jones narrates the fin'",
+        "uncited claim-like sentence: 'The provided evidence states that Raymond James Financial is'",
+        "uncited claim-like sentence: 'Pearl Zane Grey was an American dentist, but the evidence do'",
+        "uncited claim-like sentence: 'The evidence identifies Zane Grey as an author best known fo'",
+        "uncited claim-like sentence: 'There is no evidence provided regarding Bhabananda Deka.'",
+        "uncited claim-like sentence: 'Both Jos\u00e9 Aponte de la Torre Airport and Boulder City Munici'",
+        "uncited claim-like sentence: 'The provided evidence does not contain the birth dates for e'",
+        "uncited claim-like sentence: 'The provided evidence does not contain information about Alb'",
+        "uncited claim-like sentence: 'Rogell or a comparison of the professional scope between B.'",
+        "uncited claim-like sentence: \"The provided evidence does not contain information about 'Ca\"",
+        "uncited claim-like sentence: \"The evidence only describes 'The Really Nasty Horse Racing G\"",
+        "uncited claim-like sentence: 'The provided evidence does not contain information regarding'",
+        "uncited claim-like sentence: 'The provided evidence does not contain information about Ber'",
+        "uncited claim-like sentence: 'Stone Temple Pilots originated from the United States, as th'",
+        "uncited claim-like sentence: 'There is no evidence provided regarding the origin of Milky '",
+        "uncited claim-like sentence: 'Based on the provided evidence, Cussonia is native to the Af'",
+        "uncited claim-like sentence: 'The evidence does not explicitly state the continent where b'",
+        "uncited claim-like sentence: 'Therefore, the specific continent where both have a distribu'",
+        "uncited claim-like sentence: 'Both John Landis and Gore Verbinski are directors.'",
+        "uncited claim-like sentence: 'The provided evidence does not contain information about how'",
+        "uncited claim-like sentence: 'Mankiewicz or Tony Kaye won, nor does it state who won more.'",
+        "uncited claim-like sentence: 'Ince or Joseph McGrath, so it is impossible to determine if '",
+        "uncited claim-like sentence: 'The provided evidence does not contain birth dates for eithe'",
+        "uncited claim-like sentence: 'Watercolor Artist had one previous name (Watercolor Magic), '",
+        "uncited claim-like sentence: 'The provided evidence does not state whether Xinxiang or Qio'",
+        "uncited claim-like sentence: 'Yes, both Upper Crust Pizzeria and Eatza Pizza are restauran'",
+        "uncited claim-like sentence: \"Upper Crust Pizzeria is described as a 'chain of pizzeria re\"",
+        "uncited claim-like sentence: 'The provided evidence confirms that The Black Crowes are a r'",
+        "uncited claim-like sentence: 'Housman, so it is impossible to determine if they have the s'",
+        "uncited claim-like sentence: 'The provided evidence does not state that either Monkey King'",
+        "uncited claim-like sentence: 'It mentions that Monkey Kingdom is a production company foun'",
+        "uncited claim-like sentence: 'The provided evidence indicates that Sleeper classes (such a'",
+        "uncited claim-like sentence: 'However, the evidence does not contain any information regar'",
+        "uncited claim-like sentence: \"Yes, 'The Staten Island Catapult' is a documentary, but the \"",
+        "uncited claim-like sentence: 'It mentions the Grand Anglo-Fran\u00e7ais Blanc et Orange, which '",
+        "uncited claim-like sentence: 'Therefore, based solely on the supplied evidence, it is not '",
+        "uncited claim-like sentence: 'Portland International Airport is located in Oregon, but Ger'",
+        "uncited claim-like sentence: 'Ford International Airport is located in Michigan, not Orego'",
+        "uncited claim-like sentence: 'Yes, both Tionne Watkins and Park So-yeon have been members '",
+        "uncited claim-like sentence: \"Tionne 'T-Boz' Watkins was a member of the American girl gro\"",
+        "uncited claim-like sentence: 'Yes, Wolfgang Becker is a German film director, but Jacques '",
+        "uncited claim-like sentence: 'It only lists specific species of Goldenrod and mentions tha'"
+      ]
+    }
+  ],
+  "seed_aggregated": {
+    "claim_only_rag": {
+      "answer_accuracy": {
+        "mean": 0.02857142857142857,
+        "median": 0.02857142857142857,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 0.5288281834610775,
+        "median": 0.5288281834610775,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.14285714285714285,
+        "median": 0.14285714285714285,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 0.45595238095238094,
+        "median": 0.45595238095238094,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.32142857142857145,
+        "median": 0.32142857142857145,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.7,
+        "median": 0.7,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 0.20142857142857143,
+        "median": 0.20142857142857143,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 0.4142857142857143,
+        "median": 0.4142857142857143,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.02857142857142857,
+        "median": 0.02857142857142857,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 6231.588810278169,
+        "median": 6231.588810278169,
+        "std": 0.0
+      },
+      "normalized_exact_match": {
+        "mean": 0.02857142857142857,
+        "median": 0.02857142857142857,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 7.7,
+        "median": 7.7,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 5.0,
+        "median": 5.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 7.128571428571429,
+        "median": 7.128571428571429,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 158.1,
+        "median": 158.1,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.10836487033724379,
+        "median": 0.10836487033724379,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.48928571428571427,
+        "median": 0.48928571428571427,
+        "std": 0.0
+      }
+    }
+  }
+}

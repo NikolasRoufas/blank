@@ -1,0 +1,97 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 19
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-d7f3d61d876bbb37",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Savages_-LRB-2012_film-RRB-::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Savages_-LRB-2012_film-RRB-",
+          "title": "Savages -LRB-2012 film-RRB-",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 73,
+            "source_id": "Savages_-LRB-2012_film-RRB-",
+            "start": 0,
+            "text": "Savages is a 2012 American crime thriller film directed by Oliver Stone ."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Savages",
+          "American",
+          "Oliver Stone"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Savages",
+        "temporal_expressions": [
+          "2012"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Savages is a 2012 American crime thriller film directed by Oliver Stone .",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "9362803f3c22e8c28d96a5a91b3ec649",
+    "text": "Savages was created in 1954."
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.4425,
+      "claim_id": "clm-d7f3d61d876bbb37",
+      "rank": 0,
+      "reason": "top base value within budget",
+      "selection_score": 0.72375,
+      "status": "accepted",
+      "utility": 0.28125
+    }
+  ],
+  "subgraph": null
+}

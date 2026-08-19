@@ -1,0 +1,868 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 185
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-fdbe3e2d7e37d5bc",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'he' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Jeff Orlowski::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Jeff Orlowski",
+          "title": "Jeff Orlowski",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 35,
+            "source_id": "Jeff Orlowski",
+            "start": 0,
+            "text": "He is best known for both directing"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "He",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "He is best known for both directing",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-bf9686b38157d3e0",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Jeff Orlowski::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Jeff Orlowski",
+          "title": "Jeff Orlowski",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 105,
+            "source_id": "Jeff Orlowski",
+            "start": 40,
+            "text": "producing the Emmy Award-winning documentary \"Chasing Ice\" (2012)"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Emmy Award",
+          "Chasing Ice"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Emmy Award",
+        "temporal_expressions": [
+          "2012"
+        ]
+      },
+      "source_reliability": null,
+      "text": "producing the Emmy Award-winning documentary \"Chasing Ice\" (2012)",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-27d780884ffce96f",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Jeff Orlowski::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Jeff Orlowski",
+          "title": "Jeff Orlowski",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 133,
+            "source_id": "Jeff Orlowski",
+            "start": 110,
+            "text": "\"Chasing Coral\" (2017)."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Chasing Coral"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Chasing Coral",
+        "temporal_expressions": [
+          "2017"
+        ]
+      },
+      "source_reliability": null,
+      "text": "\"Chasing Coral\" (2017).",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-3b60c51fbd52ed46",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Lolitawork Libretto::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Lolitawork Libretto",
+          "title": "Lolitawork Libretto",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 123,
+            "source_id": "Lolitawork Libretto",
+            "start": 0,
+            "text": "A promotional music video for the song \"Lolitawork Libretto ~Storytelling by Solita~\" was also released prior to the album."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Lolitawork Libretto",
+          "Storytelling",
+          "Solita"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Lolitawork Libretto",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "A promotional music video for the song \"Lolitawork Libretto ~Storytelling by Solita~\" was also released prior to the album.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-309b84e966b3b16a",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Chasing Coral::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Chasing Coral",
+          "title": "Chasing Coral",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 75,
+            "source_id": "Chasing Coral",
+            "start": 0,
+            "text": "Chasing Coral is a 2017 documentary film about a team of divers, scientists"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Chasing Coral"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Chasing Coral",
+        "temporal_expressions": [
+          "2017"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Chasing Coral is a 2017 documentary film about a team of divers, scientists",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-d39df117d7c6e9df",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Chasing Coral::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Chasing Coral",
+          "title": "Chasing Coral",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 157,
+            "source_id": "Chasing Coral",
+            "start": 80,
+            "text": "photographers around the world who document the disappearance of coral reefs."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": null,
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "photographers around the world who document the disappearance of coral reefs.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-1306ca38dc7577fb",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Chasing Coral::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Chasing Coral",
+          "title": "Chasing Coral",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 203,
+            "source_id": "Chasing Coral",
+            "start": 158,
+            "text": "\"Chasing Coral\" was produced by Exposure Labs"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Chasing Coral",
+          "Exposure Labs"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Chasing Coral",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "\"Chasing Coral\" was produced by Exposure Labs",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-76876ea4fe28e45e",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Chasing Coral::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Chasing Coral",
+          "title": "Chasing Coral",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 234,
+            "source_id": "Chasing Coral",
+            "start": 208,
+            "text": "directed by Jeff Orlowski."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Jeff Orlowski"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Jeff Orlowski",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "directed by Jeff Orlowski.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-e1748d63a351c1f4",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "2 steg fr\u00e5n Paradise::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "2 steg fr\u00e5n Paradise",
+          "title": "2 steg fr\u00e5n Paradise",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 51,
+            "source_id": "2 steg fr\u00e5n Paradise",
+            "start": 0,
+            "text": "\"A double A-side single featuring \"Saknade te havs\""
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Saknade"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Saknade",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "\"A double A-side single featuring \"Saknade te havs\"",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-647f168a7b4317a4",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "2 steg fr\u00e5n Paradise::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "2 steg fr\u00e5n Paradise",
+          "title": "2 steg fr\u00e5n Paradise",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 128,
+            "source_id": "2 steg fr\u00e5n Paradise",
+            "start": 56,
+            "text": "\"River en vacker dr\u00f6m\" was released prior to the album, on September 11."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "River"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "River",
+        "temporal_expressions": [
+          "September 11"
+        ]
+      },
+      "source_reliability": null,
+      "text": "\"River en vacker dr\u00f6m\" was released prior to the album, on September 11.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-9378dce46d957cc2",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Not Without Love::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Not Without Love",
+          "title": "Not Without Love",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 90,
+            "source_id": "Not Without Love",
+            "start": 0,
+            "text": "The album's lead single \"A Breath or Two\" was released prior to the album, and reached No."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Breath",
+          "Two"
+        ],
+        "negation": true,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Breath",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The album's lead single \"A Breath or Two\" was released prior to the album, and reached No.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-704298d0cc94dd56",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Not Without Love::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Not Without Love",
+          "title": "Not Without Love",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 130,
+            "source_id": "Not Without Love",
+            "start": 91,
+            "text": "11 on Christian contemporary hit radio."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Christian"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Christian",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "11 on Christian contemporary hit radio.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [
+    {
+      "claim_ids": [
+        "clm-3b60c51fbd52ed46",
+        "clm-647f168a7b4317a4",
+        "clm-9378dce46d957cc2"
+      ],
+      "conflict_id": "conflict:0",
+      "members": [
+        {
+          "claim_id": "clm-3b60c51fbd52ed46",
+          "independent_support": 0,
+          "propagated_belief": 0.466896,
+          "relation_confidence": 0.794502,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-647f168a7b4317a4",
+          "independent_support": 0,
+          "propagated_belief": 0.512272,
+          "relation_confidence": 0.942944,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-9378dce46d957cc2",
+          "independent_support": 0,
+          "propagated_belief": 0.459133,
+          "relation_confidence": 0.942944,
+          "source_reliability": 0.5,
+          "timestamp": null
+        }
+      ],
+      "outcome": "unresolved",
+      "preferred_claim_id": null,
+      "relation_ids": [
+        "rel-8ec28d32cc2e8d82",
+        "rel-944f2e54e62b4fae"
+      ],
+      "resolution_note": "top two competitors within margin 0.100 (0.512 vs 0.467)",
+      "resolved": false
+    }
+  ],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5adbe1c5554299438c868cc4",
+    "text": "Was 9/11: Press for Truth released prior to Chasing Coral?"
+  },
+  "relations": [
+    {
+      "bridge": null,
+      "direction": "directed",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "entailment",
+        "features": {
+          "entailment": 0.974164
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "entailment above threshold",
+      "relation_confidence": 0.974164,
+      "relation_id": "rel-f4a1aec7418fd582",
+      "relation_type": "support",
+      "source_claim_id": "clm-309b84e966b3b16a",
+      "target_claim_id": "clm-27d780884ffce96f"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.794502
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.794502,
+      "relation_id": "rel-8ec28d32cc2e8d82",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-3b60c51fbd52ed46",
+      "target_claim_id": "clm-647f168a7b4317a4"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.942944
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.942944,
+      "relation_id": "rel-944f2e54e62b4fae",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-647f168a7b4317a4",
+      "target_claim_id": "clm-9378dce46d957cc2"
+    }
+  ],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.512272,
+      "claim_id": "clm-647f168a7b4317a4",
+      "rank": 0,
+      "reason": "top base value within budget",
+      "selection_score": 0.887272,
+      "status": "disputed",
+      "utility": 0.375
+    },
+    {
+      "belief": 0.538779,
+      "claim_id": "clm-27d780884ffce96f",
+      "rank": 1,
+      "reason": "top base value within budget",
+      "selection_score": 0.872112,
+      "status": "accepted",
+      "utility": 0.333333
+    },
+    {
+      "belief": 0.466896,
+      "claim_id": "clm-3b60c51fbd52ed46",
+      "rank": 2,
+      "reason": "top base value within budget",
+      "selection_score": 0.821063,
+      "status": "disputed",
+      "utility": 0.354167
+    },
+    {
+      "belief": 0.47,
+      "claim_id": "clm-1306ca38dc7577fb",
+      "rank": 3,
+      "reason": "top base value within budget",
+      "selection_score": 0.82,
+      "status": "accepted",
+      "utility": 0.35
+    },
+    {
+      "belief": 0.459133,
+      "claim_id": "clm-9378dce46d957cc2",
+      "rank": 4,
+      "reason": "top base value within budget",
+      "selection_score": 0.79609,
+      "status": "disputed",
+      "utility": 0.336957
+    },
+    {
+      "belief": 0.449048,
+      "claim_id": "clm-309b84e966b3b16a",
+      "rank": 5,
+      "reason": "top base value within budget",
+      "selection_score": 0.746667,
+      "status": "accepted",
+      "utility": 0.297619
+    },
+    {
+      "belief": 0.4425,
+      "claim_id": "clm-704298d0cc94dd56",
+      "rank": 6,
+      "reason": "top base value within budget",
+      "selection_score": 0.72375,
+      "status": "accepted",
+      "utility": 0.28125
+    },
+    {
+      "belief": 0.441765,
+      "claim_id": "clm-fdbe3e2d7e37d5bc",
+      "rank": 7,
+      "reason": "top base value within budget",
+      "selection_score": 0.721177,
+      "status": "accepted",
+      "utility": 0.279412
+    },
+    {
+      "belief": 0.440526,
+      "claim_id": "clm-bf9686b38157d3e0",
+      "rank": 8,
+      "reason": "top base value within budget",
+      "selection_score": 0.716842,
+      "status": "accepted",
+      "utility": 0.276316
+    },
+    {
+      "belief": 0.44,
+      "claim_id": "clm-d39df117d7c6e9df",
+      "rank": 9,
+      "reason": "top base value within budget",
+      "selection_score": 0.715,
+      "status": "accepted",
+      "utility": 0.275
+    },
+    {
+      "belief": 0.43,
+      "claim_id": "clm-76876ea4fe28e45e",
+      "rank": 10,
+      "reason": "top base value within budget",
+      "selection_score": 0.68,
+      "status": "accepted",
+      "utility": 0.25
+    },
+    {
+      "belief": 0.43,
+      "claim_id": "clm-e1748d63a351c1f4",
+      "rank": 11,
+      "reason": "top base value within budget",
+      "selection_score": 0.68,
+      "status": "accepted",
+      "utility": 0.25
+    }
+  ],
+  "subgraph": null
+}

@@ -1,0 +1,355 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 179
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-70b103693c48d982",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "2008 Stone Temple Pilots Reunion Tour::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "2008 Stone Temple Pilots Reunion Tour",
+          "title": "2008 Stone Temple Pilots Reunion Tour",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 158,
+            "source_id": "2008 Stone Temple Pilots Reunion Tour",
+            "start": 0,
+            "text": "The 2008 Stone Temple Pilots Reunion Tour was a 75-date reunion tour for the popular American rock band Stone Temple Pilots, who originally disbanded in 2003."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Stone Temple Pilots Reunion Tour",
+          "American",
+          "Stone Temple Pilots"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Stone Temple Pilots Reunion Tour",
+        "temporal_expressions": [
+          "2008",
+          "2003"
+        ]
+      },
+      "source_reliability": null,
+      "text": "The 2008 Stone Temple Pilots Reunion Tour was a 75-date reunion tour for the popular American rock band Stone Temple Pilots, who originally disbanded in 2003.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-75214bfcc29fbcbd",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Stone Temple Pilots (album)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Stone Temple Pilots (album)",
+          "title": "Stone Temple Pilots (album)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 88,
+            "source_id": "Stone Temple Pilots (album)",
+            "start": 0,
+            "text": "Stone Temple Pilots is the sixth studio album by American rock band Stone Temple Pilots."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Stone Temple Pilots",
+          "American"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Stone Temple Pilots",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Stone Temple Pilots is the sixth studio album by American rock band Stone Temple Pilots.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-998353d1e59e640e",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Cinnamon (song)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Cinnamon (song)",
+          "title": "Cinnamon (song)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 63,
+            "source_id": "Cinnamon (song)",
+            "start": 0,
+            "text": "\"Cinnamon\" is a song by American rock band Stone Temple Pilots."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Cinnamon",
+          "American",
+          "Stone Temple Pilots"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Cinnamon",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "\"Cinnamon\" is a song by American rock band Stone Temple Pilots.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-af214d1e80f7bfc9",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Between the Lines (Stone Temple Pilots song)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Between the Lines (Stone Temple Pilots song)",
+          "title": "Between the Lines (Stone Temple Pilots song)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 132,
+            "source_id": "Between the Lines (Stone Temple Pilots song)",
+            "start": 0,
+            "text": "\"Between the Lines\" is the first single from the American rock band Stone Temple Pilots's sixth studio album, \"Stone Temple Pilots\"."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Between",
+          "Lines",
+          "American",
+          "Stone Temple Pilots"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Between",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "\"Between the Lines\" is the first single from the American rock band Stone Temple Pilots's sixth studio album, \"Stone Temple Pilots\".",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-f900aaaa1d5bd453",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "The Family Values Tour 2001::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "The Family Values Tour 2001",
+          "title": "The Family Values Tour 2001",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 283,
+            "source_id": "The Family Values Tour 2001",
+            "start": 0,
+            "text": "The hit song \"Wonderful\", the only single off the album, is performed live during the \"Family Values 2001 Tour\" by American rock band Stone Temple Pilots, which features additional vocals from Chester Bennington of Linkin Park who would eventually become the band's vocalist in 2013."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [
+          "would"
+        ],
+        "named_entities": [
+          "Wonderful",
+          "Family Values",
+          "Tour",
+          "American",
+          "Stone Temple Pilots",
+          "Chester Bennington",
+          "Linkin Park"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Wonderful",
+        "temporal_expressions": [
+          "2001",
+          "2013"
+        ]
+      },
+      "source_reliability": null,
+      "text": "The hit song \"Wonderful\", the only single off the album, is performed live during the \"Family Values 2001 Tour\" by American rock band Stone Temple Pilots, which features additional vocals from Chester Bennington of Linkin Park who would eventually become the band's vocalist in 2013.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "pkg-5a7f19eb55429934daa2fcdb",
+  "query": {
+    "created_at": null,
+    "query_id": "5a7f19eb55429934daa2fcdb",
+    "text": "Which band originated from the United States, Milky Chance or Stone Temple Pilots?"
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": null,
+      "claim_id": "clm-70b103693c48d982",
+      "rank": 0,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-75214bfcc29fbcbd",
+      "rank": 1,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-998353d1e59e640e",
+      "rank": 2,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-af214d1e80f7bfc9",
+      "rank": 3,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-f900aaaa1d5bd453",
+      "rank": 4,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    }
+  ],
+  "subgraph": null
+}

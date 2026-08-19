@@ -1,0 +1,80 @@
+{
+  "phase": 3,
+  "research_question": "Does the graph-construction bottleneck (spurious CONTRADICTION edges) discovered on Qwen2.5-7B-Instruct generalize across Qwen model scales?",
+  "git_commit": "4ce38a1d7e9704dcd40b4d57186df091d0e0c085",
+  "git_commit_message": "fix(graph): gate contradiction edges by subject compatibility",
+  "hardware": {"gpu": "NVIDIA GeForce RTX 3090", "vram_gb": 24},
+  "nli_model": "roberta-large-mnli",
+  "nli_model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98",
+  "classification_thresholds": {"entailment_threshold": 0.4, "contradiction_threshold": 0.7, "duplicate_threshold": 0.8},
+  "retrieval": {"retriever": "BM25", "top_k": 5},
+  "chunking": {"chunk_size": 256, "chunk_overlap": 0},
+  "extraction": "SentenceClaimExtractor (deterministic rule-based, unchanged from Phase 1/2)",
+  "generation": {"evidence_token_budget": 256, "reserved_output_tokens": 64, "max_new_tokens": 256,
+                 "decoding": "deterministic (do_sample=False)", "dtype": "bfloat16", "device": "cuda", "seed": 0},
+  "dataset": {
+    "benchmark": "hotpotqa",
+    "split": "validation (development)",
+    "sample": "artifacts/benchmark-calibration/samples/hotpot-dev-100.json (frozen, not regenerated)",
+    "filtered_runner_jsonl": "artifacts/dev100-bottleneck/_raw_data/filtered/hotpot-dev-100.runner.jsonl",
+    "filtered_runner_jsonl_sha256": "1bb6c6d48d4033e51fcb3d3c8f4cd4a8334f8a01c7f6bd02a8cd983eb8e98599",
+    "identical_to_phase1_2": true
+  },
+  "conditions": [
+    {"id": "A_claim_only_rag", "variant": "claim_only_rag", "contradiction_requires_shared_subject": false},
+    {"id": "B_full_egrag_ungated", "variant": "full_egrag", "contradiction_requires_shared_subject": false},
+    {"id": "C_full_egrag_gated", "variant": "full_egrag", "contradiction_requires_shared_subject": true},
+    {"id": "D_graph_no_contradiction", "variant": "graph_no_contradiction", "contradiction_requires_shared_subject": false}
+  ],
+  "models": [
+    {
+      "model_key": "qwen2.5-3b-instruct",
+      "model_id": "Qwen/Qwen2.5-3B-Instruct",
+      "disable_thinking": false,
+      "benchmark": "hotpotqa",
+      "run_start_utc": "2026-08-19T~16:52Z",
+      "run_seconds_per_condition": {"A_claim_only_rag": 487, "B_full_egrag_ungated": 597, "C_full_egrag_gated": 468, "D_graph_no_contradiction": 455},
+      "output_dir": "artifacts/dev100-bottleneck/PHASE3/hotpotqa/qwen2.5-3b-instruct/",
+      "log": "logs/phase3_3b_hotpotqa.log (session-local, not committed)"
+    },
+    {
+      "model_key": "qwen2.5-7b-instruct",
+      "model_id": "Qwen/Qwen2.5-7B-Instruct",
+      "disable_thinking": false,
+      "benchmark": "hotpotqa",
+      "note": "Phase 1/2 reference -- NOT re-run in Phase 3. Reused from artifacts/dev100-bottleneck/hotpotqa/qwen2.5-7b-instruct/ (A/B/D) and artifacts/dev100-bottleneck/hotpotqa/qwen2.5-7b-instruct_gated/ (C).",
+      "output_dir": "artifacts/dev100-bottleneck/hotpotqa/qwen2.5-7b-instruct{,_gated}/"
+    },
+    {
+      "model_key": "qwen3.5-9b",
+      "model_id": "Qwen/Qwen3.5-9B",
+      "disable_thinking": true,
+      "benchmark": "hotpotqa",
+      "run_start_utc": "2026-08-19T~17:05Z",
+      "run_seconds_per_condition": {"A_claim_only_rag": 1221, "B_full_egrag_ungated": 1331, "C_full_egrag_gated": 1043, "D_graph_no_contradiction": 975},
+      "output_dir": "artifacts/dev100-bottleneck/PHASE3/hotpotqa/qwen3.5-9b/",
+      "log": "logs/phase3_9b_hotpotqa.log (session-local, not committed)",
+      "known_caveat": "Qwen3.5-9B is a different Qwen generation from 2.5-3B/7B (different architecture/training/decoding defaults), not a same-family scale point -- documented pre-existing limitation in docs/reproduction.md and artifacts/qwen-matrix/ACL_REPORT.md, not introduced by this investigation."
+    }
+  ],
+  "fever": {"status": "not run in Phase 3 -- explicitly skipped, see PHASE3_REPORT.md rationale (FEVER graphs are near-edgeless regardless of model scale per Phase 1/2, mechanism does not manifest there)"},
+  "statistics": "egrag.experiments.stats.paired_comparison, paired percentile bootstrap over per-example deltas, 2000 resamples, seed=0, 95% CI, restricted to examples where both compared conditions succeeded. Same methodology as Phase 1/2, unchanged.",
+  "scripts": [
+    "scripts/run_phase3.py",
+    "scripts/analyze_phase3.py",
+    "scripts/phase3_qualitative_examples.py"
+  ],
+  "artifacts_written": [
+    "artifacts/dev100-bottleneck/PHASE3/hotpotqa/qwen2.5-3b-instruct/{A,B,C,D}/",
+    "artifacts/dev100-bottleneck/PHASE3/hotpotqa/qwen3.5-9b/{A,B,C,D}/",
+    "artifacts/dev100-bottleneck/PHASE3/phase3_analysis.json",
+    "artifacts/dev100-bottleneck/PHASE3/PHASE3_REPORT.md",
+    "artifacts/dev100-bottleneck/PHASE3/qualitative_examples.json",
+    "artifacts/dev100-bottleneck/PHASE3/manifest.json"
+  ],
+  "integrity": {
+    "phase1_phase2_artifacts_modified": false,
+    "frozen_dev100_sample_regenerated": false,
+    "tests_after_experiment": "442 passed, 7 skipped (pre-existing), ruff/mypy clean -- unchanged from pre-experiment state"
+  }
+}

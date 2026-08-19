@@ -1,0 +1,568 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 23
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-19fb08783ff4b393",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Starship Entertainment::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Starship Entertainment",
+          "title": "Starship Entertainment",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 92,
+            "source_id": "Starship Entertainment",
+            "start": 0,
+            "text": "Starship Entertainment () is a South Korean record label established in 2008 by Kim Shi Dae."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Starship Entertainment",
+          "South Korean",
+          "Kim Shi Dae"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Starship Entertainment",
+        "temporal_expressions": [
+          "2008"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Starship Entertainment () is a South Korean record label established in 2008 by Kim Shi Dae.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-40d568889ed84a33",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Charlotte (Air Traffic song)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Charlotte (Air Traffic song)",
+          "title": "Charlotte (Air Traffic song)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 57,
+            "source_id": "Charlotte (Air Traffic song)",
+            "start": 0,
+            "text": "The single was released as the fifth in a series of black"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": null,
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The single was released as the fifth in a series of black",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-1e3444c4e2e78973",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Charlotte (Air Traffic song)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Charlotte (Air Traffic song)",
+          "title": "Charlotte (Air Traffic song)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 218,
+            "source_id": "Charlotte (Air Traffic song)",
+            "start": 62,
+            "text": "white vinyls by Label Fandango - the independent record label of live music promotion company Club Fandango - which was the band's record label at the time."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Label Fandango",
+          "Club Fandango"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Label Fandango",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "white vinyls by Label Fandango - the independent record label of live music promotion company Club Fandango - which was the band's record label at the time.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-dc5cb5b4f8030190",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "White Love (Speed song)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "White Love (Speed song)",
+          "title": "White Love (Speed song)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 54,
+            "source_id": "White Love (Speed song)",
+            "start": 0,
+            "text": "\"White Love\" is a single by Japanese girl group Speed."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "White Love",
+          "Japanese",
+          "Speed"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "White Love",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "\"White Love\" is a single by Japanese girl group Speed.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-9ccca3adce604a6b",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'it' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Melt! (Siouxsie and the Banshees song)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Melt! (Siouxsie and the Banshees song)",
+          "title": "Melt! (Siouxsie and the Banshees song)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 117,
+            "source_id": "Melt! (Siouxsie and the Banshees song)",
+            "start": 0,
+            "text": "It was released in 1982 by record label Polydor as a double A-sided single with the song \"Il est n\u00e9, le divin Enfant\""
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Polydor",
+          "Il",
+          "Enfant"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "It",
+        "temporal_expressions": [
+          "1982"
+        ]
+      },
+      "source_reliability": null,
+      "text": "It was released in 1982 by record label Polydor as a double A-sided single with the song \"Il est n\u00e9, le divin Enfant\"",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-2a8b803eb596a1e5",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Melt! (Siouxsie and the Banshees song)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Melt! (Siouxsie and the Banshees song)",
+          "title": "Melt! (Siouxsie and the Banshees song)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 135,
+            "source_id": "Melt! (Siouxsie and the Banshees song)",
+            "start": 122,
+            "text": "is the second"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": null,
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "is the second",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-4fa70fd0b08bdd9b",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Melt! (Siouxsie and the Banshees song)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Melt! (Siouxsie and the Banshees song)",
+          "title": "Melt! (Siouxsie and the Banshees song)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 277,
+            "source_id": "Melt! (Siouxsie and the Banshees song)",
+            "start": 140,
+            "text": "final single from the band's fifth studio album, \"A Kiss in the Dreamhouse\" (\"Il est n\u00e9, le divin Enfant\" does not appear on that album)."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Kiss",
+          "Dreamhouse",
+          "Il",
+          "Enfant"
+        ],
+        "negation": true,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Kiss",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "final single from the band's fifth studio album, \"A Kiss in the Dreamhouse\" (\"Il est n\u00e9, le divin Enfant\" does not appear on that album).",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-a3188e77c0447286",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Epitaph Records::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Epitaph Records",
+          "title": "Epitaph Records",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 48,
+            "source_id": "Epitaph Records",
+            "start": 0,
+            "text": "The label was originally \"just a logo and a P.O."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "P",
+          "O"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "P",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The label was originally \"just a logo and a P.O.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-3ef143b5f74d0fc9",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Epitaph Records::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Epitaph Records",
+          "title": "Epitaph Records",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 178,
+            "source_id": "Epitaph Records",
+            "start": 49,
+            "text": "box\" created in the 1980s for the purpose of selling Bad Religion records, but has evolved into a large independent record label."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Bad Religion"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Bad Religion",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "box\" created in the 1980s for the purpose of selling Bad Religion records, but has evolved into a large independent record label.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [
+    {
+      "claim_ids": [
+        "clm-4fa70fd0b08bdd9b",
+        "clm-9ccca3adce604a6b"
+      ],
+      "conflict_id": "conflict:0",
+      "members": [
+        {
+          "claim_id": "clm-4fa70fd0b08bdd9b",
+          "independent_support": 0,
+          "propagated_belief": 0.449434,
+          "relation_confidence": 0.995399,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-9ccca3adce604a6b",
+          "independent_support": 0,
+          "propagated_belief": 0.503522,
+          "relation_confidence": 0.995399,
+          "source_reliability": 0.5,
+          "timestamp": null
+        }
+      ],
+      "outcome": "unresolved",
+      "preferred_claim_id": null,
+      "relation_ids": [
+        "rel-3a1ab1dbef9cfbda"
+      ],
+      "resolution_note": "top two competitors within margin 0.100 (0.504 vs 0.449)",
+      "resolved": false
+    }
+  ],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5abafb6d5542992ccd8e7e92",
+    "text": "White love was what number of single created by a record label est in 2008 by Kim Shi Dao?"
+  },
+  "relations": [
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.995399
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.995399,
+      "relation_id": "rel-3a1ab1dbef9cfbda",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-4fa70fd0b08bdd9b",
+      "target_claim_id": "clm-9ccca3adce604a6b"
+    }
+  ],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.494,
+      "claim_id": "clm-19fb08783ff4b393",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 0.904,
+      "status": "accepted",
+      "utility": 0.41
+    }
+  ],
+  "subgraph": null
+}

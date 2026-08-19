@@ -1,0 +1,588 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 102
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-22b24c256e559beb",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Chiwetel Ejiofor::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Chiwetel Ejiofor",
+          "title": "Chiwetel Ejiofor",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 71,
+            "source_id": "Chiwetel Ejiofor",
+            "start": 0,
+            "text": "Chiwetel Umeadi Ejiofor, CBE ( ; born 10 July 1977) is a British actor."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Chiwetel Umeadi Ejiofor",
+          "CBE",
+          "British"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Chiwetel Umeadi Ejiofor",
+        "temporal_expressions": [
+          "1977"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Chiwetel Umeadi Ejiofor, CBE ( ; born 10 July 1977) is a British actor.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-13b3013c9e8794f0",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Sinan Tuzcu::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Sinan Tuzcu",
+          "title": "Sinan Tuzcu",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 51,
+            "source_id": "Sinan Tuzcu",
+            "start": 0,
+            "text": "Sinan Tuzcu (born 10 July 1977) is a Turkish actor."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Sinan Tuzcu",
+          "Turkish"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Sinan Tuzcu",
+        "temporal_expressions": [
+          "1977"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Sinan Tuzcu (born 10 July 1977) is a Turkish actor.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-8f2a4edb591005b6",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Jos\u00e9 Marcos Garay::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Jos\u00e9 Marcos Garay",
+          "title": "Jos\u00e9 Marcos Garay",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 70,
+            "source_id": "Jos\u00e9 Marcos Garay",
+            "start": 0,
+            "text": "Jos\u00e9 Marcos Garay \u00c1lvarez (born 10 July 1977) is a Mexican footballer."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Marcos Garay",
+          "Mexican"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Marcos Garay",
+        "temporal_expressions": [
+          "1977"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Jos\u00e9 Marcos Garay \u00c1lvarez (born 10 July 1977) is a Mexican footballer.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-3cf797409668ac5f",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Jamba (footballer)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Jamba (footballer)",
+          "title": "Jamba (footballer)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 78,
+            "source_id": "Jamba (footballer)",
+            "start": 0,
+            "text": "Jo\u00e3o Pereira (born 10 July 1977 in Benguela), is a retired Angolan footballer."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Pereira",
+          "Benguela",
+          "Angolan"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Pereira",
+        "temporal_expressions": [
+          "1977"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Jo\u00e3o Pereira (born 10 July 1977 in Benguela), is a retired Angolan footballer.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-503ee7498cb2fbc0",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Solomon Northup::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Solomon Northup",
+          "title": "Solomon Northup",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 77,
+            "source_id": "Solomon Northup",
+            "start": 0,
+            "text": "Solomon Northup (July 10, 1807 or 1808\u00a0\u2013 \u20091863 ) was an American abolitionist"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Solomon Northup",
+          "American"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Solomon Northup",
+        "temporal_expressions": [
+          "July 10, 1807"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Solomon Northup (July 10, 1807 or 1808 \u2013 1863 ) was an American abolitionist",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-f194591bd5358d61",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Solomon Northup::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Solomon Northup",
+          "title": "Solomon Northup",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 138,
+            "source_id": "Solomon Northup",
+            "start": 82,
+            "text": "the primary author of the memoir \"Twelve Years a Slave\"."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Twelve Years",
+          "Slave"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Twelve Years",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "the primary author of the memoir \"Twelve Years a Slave\".",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [
+    {
+      "claim_ids": [
+        "clm-13b3013c9e8794f0",
+        "clm-22b24c256e559beb",
+        "clm-3cf797409668ac5f",
+        "clm-8f2a4edb591005b6"
+      ],
+      "conflict_id": "conflict:0",
+      "members": [
+        {
+          "claim_id": "clm-13b3013c9e8794f0",
+          "independent_support": 0,
+          "propagated_belief": 0.51779,
+          "relation_confidence": 0.981055,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-22b24c256e559beb",
+          "independent_support": 0,
+          "propagated_belief": 0.530648,
+          "relation_confidence": 0.981055,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-3cf797409668ac5f",
+          "independent_support": 0,
+          "propagated_belief": 0.466682,
+          "relation_confidence": 0.982519,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-8f2a4edb591005b6",
+          "independent_support": 0,
+          "propagated_belief": 0.4758,
+          "relation_confidence": 0.982519,
+          "source_reliability": 0.5,
+          "timestamp": null
+        }
+      ],
+      "outcome": "unresolved",
+      "preferred_claim_id": null,
+      "relation_ids": [
+        "rel-004890740363cc37",
+        "rel-163d441f461bbc48",
+        "rel-29f05f39e13748ff",
+        "rel-a9a93576f7200f07",
+        "rel-bad1680d55b31fbe",
+        "rel-fd07e8d82c1c5018"
+      ],
+      "resolution_note": "top two competitors within margin 0.100 (0.531 vs 0.518)",
+      "resolved": false
+    }
+  ],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5ab916e155429919ba4e23a4",
+    "text": "12 Years a Slave starred what British actor born 10 July 1977)"
+  },
+  "relations": [
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.981055
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.981055,
+      "relation_id": "rel-fd07e8d82c1c5018",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-13b3013c9e8794f0",
+      "target_claim_id": "clm-22b24c256e559beb"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.96614
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.96614,
+      "relation_id": "rel-29f05f39e13748ff",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-13b3013c9e8794f0",
+      "target_claim_id": "clm-3cf797409668ac5f"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.977917
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.977917,
+      "relation_id": "rel-004890740363cc37",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-13b3013c9e8794f0",
+      "target_claim_id": "clm-8f2a4edb591005b6"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.939732
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.939732,
+      "relation_id": "rel-a9a93576f7200f07",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-22b24c256e559beb",
+      "target_claim_id": "clm-3cf797409668ac5f"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.95362
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.95362,
+      "relation_id": "rel-bad1680d55b31fbe",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-22b24c256e559beb",
+      "target_claim_id": "clm-8f2a4edb591005b6"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.982519
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.982519,
+      "relation_id": "rel-163d441f461bbc48",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-3cf797409668ac5f",
+      "target_claim_id": "clm-8f2a4edb591005b6"
+    }
+  ],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.530648,
+      "claim_id": "clm-22b24c256e559beb",
+      "rank": 0,
+      "reason": "top base value within budget",
+      "selection_score": 0.98653,
+      "status": "disputed",
+      "utility": 0.455882
+    },
+    {
+      "belief": 0.51779,
+      "claim_id": "clm-13b3013c9e8794f0",
+      "rank": 1,
+      "reason": "top base value within budget",
+      "selection_score": 0.95529,
+      "status": "disputed",
+      "utility": 0.4375
+    },
+    {
+      "belief": 0.4758,
+      "claim_id": "clm-8f2a4edb591005b6",
+      "rank": 2,
+      "reason": "top base value within budget",
+      "selection_score": 0.857379,
+      "status": "disputed",
+      "utility": 0.381579
+    },
+    {
+      "belief": 0.466682,
+      "claim_id": "clm-3cf797409668ac5f",
+      "rank": 3,
+      "reason": "top base value within budget",
+      "selection_score": 0.83573,
+      "status": "disputed",
+      "utility": 0.369048
+    },
+    {
+      "belief": 0.463333,
+      "claim_id": "clm-f194591bd5358d61",
+      "rank": 4,
+      "reason": "top base value within budget",
+      "selection_score": 0.796666,
+      "status": "accepted",
+      "utility": 0.333333
+    },
+    {
+      "belief": 0.448182,
+      "claim_id": "clm-503ee7498cb2fbc0",
+      "rank": 5,
+      "reason": "top base value within budget",
+      "selection_score": 0.743637,
+      "status": "accepted",
+      "utility": 0.295455
+    }
+  ],
+  "subgraph": null
+}

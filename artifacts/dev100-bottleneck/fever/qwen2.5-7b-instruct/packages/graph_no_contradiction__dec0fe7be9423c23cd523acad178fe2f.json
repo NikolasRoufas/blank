@@ -1,0 +1,203 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 13
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-df4a641bd75df479",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Buffy_Summers::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Buffy_Summers",
+          "title": "Buffy Summers",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 51,
+            "source_id": "Buffy_Summers",
+            "start": 0,
+            "text": "Buffy was portrayed by Kristy Swanson in the film ,"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Buffy",
+          "Kristy Swanson"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Buffy",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Buffy was portrayed by Kristy Swanson in the film ,",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-9f93d24ba8a6596a",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Buffy_Summers::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Buffy_Summers",
+          "title": "Buffy Summers",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 113,
+            "source_id": "Buffy_Summers",
+            "start": 56,
+            "text": "later by Sarah Michelle Gellar in the television series ."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Sarah Michelle Gellar"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Sarah Michelle Gellar",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "later by Sarah Michelle Gellar in the television series .",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-b0ba1ae692a60bc7",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Sarah_Michelle_Gellar::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Sarah_Michelle_Gellar",
+          "title": "Sarah Michelle Gellar",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 122,
+            "source_id": "Sarah_Michelle_Gellar",
+            "start": 0,
+            "text": "Sarah Michelle Prinze -LRB- n\u00e9e Gellar ; born April 14 , 1977 -RRB- is an American actress , producer , and entrepreneur ."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Sarah Michelle Prinze",
+          "LRB",
+          "Gellar",
+          "RRB",
+          "American"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Sarah Michelle Prinze",
+        "temporal_expressions": [
+          "April 14",
+          "1977"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Sarah Michelle Prinze -LRB- n\u00e9e Gellar ; born April 14 , 1977 -RRB- is an American actress , producer , and entrepreneur .",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "dec0fe7be9423c23cd523acad178fe2f",
+    "text": "Buffy Summers has been portrayed by an actress."
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.472857,
+      "claim_id": "clm-df4a641bd75df479",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 0.83,
+      "status": "accepted",
+      "utility": 0.357143
+    }
+  ],
+  "subgraph": null
+}

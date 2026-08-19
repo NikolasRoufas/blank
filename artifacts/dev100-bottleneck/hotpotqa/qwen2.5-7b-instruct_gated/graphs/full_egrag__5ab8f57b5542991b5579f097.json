@@ -1,0 +1,93 @@
+{
+  "claims": [
+    "clm-388873059fe33f69",
+    "clm-a0268b49c0bde03e",
+    "clm-e01eb694e70fbbf0",
+    "clm-ee6dadcda3e86438",
+    "clm-6a49c78d6f68b3a4",
+    "clm-c2b17a61a9db86e7",
+    "clm-42b57916ec5fe9f4",
+    "clm-f9bebab17464f1cc",
+    "clm-346808e7608016c1",
+    "clm-99bab18af99128e6",
+    "clm-56553e911040bf24",
+    "clm-bd87248a2e950188",
+    "clm-b399bc9010cdf817",
+    "clm-a9ab77710d688801",
+    "clm-41078d570a70a05a",
+    "clm-96764443633de217",
+    "clm-7a120bc8502345a2"
+  ],
+  "relations": [
+    {
+      "source": "clm-388873059fe33f69",
+      "target": "clm-7a120bc8502345a2",
+      "type": "support"
+    },
+    {
+      "source": "clm-56553e911040bf24",
+      "target": "clm-6a49c78d6f68b3a4",
+      "type": "contradiction"
+    },
+    {
+      "source": "clm-56553e911040bf24",
+      "target": "clm-7a120bc8502345a2",
+      "type": "contradiction"
+    },
+    {
+      "source": "clm-56553e911040bf24",
+      "target": "clm-c2b17a61a9db86e7",
+      "type": "contradiction"
+    },
+    {
+      "source": "clm-56553e911040bf24",
+      "target": "clm-f9bebab17464f1cc",
+      "type": "contradiction"
+    },
+    {
+      "source": "clm-6a49c78d6f68b3a4",
+      "target": "clm-7a120bc8502345a2",
+      "type": "contradiction"
+    },
+    {
+      "source": "clm-6a49c78d6f68b3a4",
+      "target": "clm-c2b17a61a9db86e7",
+      "type": "contradiction"
+    },
+    {
+      "source": "clm-6a49c78d6f68b3a4",
+      "target": "clm-f9bebab17464f1cc",
+      "type": "contradiction"
+    },
+    {
+      "source": "clm-7a120bc8502345a2",
+      "target": "clm-c2b17a61a9db86e7",
+      "type": "contradiction"
+    },
+    {
+      "source": "clm-7a120bc8502345a2",
+      "target": "clm-f9bebab17464f1cc",
+      "type": "contradiction"
+    },
+    {
+      "source": "clm-a9ab77710d688801",
+      "target": "clm-c2b17a61a9db86e7",
+      "type": "contradiction"
+    },
+    {
+      "source": "clm-a9ab77710d688801",
+      "target": "clm-e01eb694e70fbbf0",
+      "type": "contradiction"
+    },
+    {
+      "source": "clm-c2b17a61a9db86e7",
+      "target": "clm-e01eb694e70fbbf0",
+      "type": "contradiction"
+    },
+    {
+      "source": "clm-c2b17a61a9db86e7",
+      "target": "clm-f9bebab17464f1cc",
+      "type": "contradiction"
+    }
+  ]
+}

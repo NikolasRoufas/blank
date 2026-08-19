@@ -1,0 +1,943 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 186
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-913159c4a9645f91",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Grand Anglo-Fran\u00e7ais Blanc et Orange::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Grand Anglo-Fran\u00e7ais Blanc et Orange",
+          "title": "Grand Anglo-Fran\u00e7ais Blanc et Orange",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 109,
+            "source_id": "Grand Anglo-Fran\u00e7ais Blanc et Orange",
+            "start": 0,
+            "text": "The Grand Anglo-Fran\u00e7ais Blanc et Orange (FCI No.324) translated into English as the Great Anglo-French White"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Grand Anglo",
+          "Blanc",
+          "Orange",
+          "FCI No",
+          "English",
+          "Great Anglo",
+          "French White"
+        ],
+        "negation": true,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Grand Anglo",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The Grand Anglo-Fran\u00e7ais Blanc et Orange (FCI No.324) translated into English as the Great Anglo-French White",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-19ee05deaf54a09c",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Grand Anglo-Fran\u00e7ais Blanc et Orange::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Grand Anglo-Fran\u00e7ais Blanc et Orange",
+          "title": "Grand Anglo-Fran\u00e7ais Blanc et Orange",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 196,
+            "source_id": "Grand Anglo-Fran\u00e7ais Blanc et Orange",
+            "start": 114,
+            "text": "Orange Hound, is a breed of dog used in hunting as a scenthound, usually in packs."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Orange Hound"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Orange Hound",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Orange Hound, is a breed of dog used in hunting as a scenthound, usually in packs.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-f967b93f3243e43f",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Chien Fran\u00e7ais Blanc et Orange::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Chien Fran\u00e7ais Blanc et Orange",
+          "title": "Chien Fran\u00e7ais Blanc et Orange",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 112,
+            "source_id": "Chien Fran\u00e7ais Blanc et Orange",
+            "start": 0,
+            "text": "The Chien Fran\u00e7ais Blanc et Orange (FCI No.316) is a breed of dog of the scenthound type, originating in France."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Chien",
+          "Blanc",
+          "Orange",
+          "FCI No",
+          "France"
+        ],
+        "negation": true,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Chien",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The Chien Fran\u00e7ais Blanc et Orange (FCI No.316) is a breed of dog of the scenthound type, originating in France.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-3780731151ceed8c",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Grand Anglo-Fran\u00e7ais Blanc et Noir::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Grand Anglo-Fran\u00e7ais Blanc et Noir",
+          "title": "Grand Anglo-Fran\u00e7ais Blanc et Noir",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 107,
+            "source_id": "Grand Anglo-Fran\u00e7ais Blanc et Noir",
+            "start": 0,
+            "text": "The Grand Anglo-Fran\u00e7ais Blanc et Noir (FCI No.323) translated into English as the Great Anglo-French White"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Grand Anglo",
+          "Blanc",
+          "Noir",
+          "FCI No",
+          "English",
+          "Great Anglo",
+          "French White"
+        ],
+        "negation": true,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Grand Anglo",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The Grand Anglo-Fran\u00e7ais Blanc et Noir (FCI No.323) translated into English as the Great Anglo-French White",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-cf75369228750ca5",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Grand Anglo-Fran\u00e7ais Blanc et Noir::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Grand Anglo-Fran\u00e7ais Blanc et Noir",
+          "title": "Grand Anglo-Fran\u00e7ais Blanc et Noir",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 193,
+            "source_id": "Grand Anglo-Fran\u00e7ais Blanc et Noir",
+            "start": 112,
+            "text": "Black Hound, is a breed of dog used in hunting as a scenthound, usually in packs."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Black Hound"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Black Hound",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Black Hound, is a breed of dog used in hunting as a scenthound, usually in packs.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-278ce4f3e15dd3a4",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Chien Fran\u00e7ais Blanc et Noir::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Chien Fran\u00e7ais Blanc et Noir",
+          "title": "Chien Fran\u00e7ais Blanc et Noir",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 89,
+            "source_id": "Chien Fran\u00e7ais Blanc et Noir",
+            "start": 0,
+            "text": "The Chien Fran\u00e7ais Blanc et Noir (FCI No.220) translated into English as the French White"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Chien",
+          "Blanc",
+          "Noir",
+          "FCI No",
+          "English",
+          "French White"
+        ],
+        "negation": true,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Chien",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The Chien Fran\u00e7ais Blanc et Noir (FCI No.220) translated into English as the French White",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-3b5c299624434d5d",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Chien Fran\u00e7ais Blanc et Noir::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Chien Fran\u00e7ais Blanc et Noir",
+          "title": "Chien Fran\u00e7ais Blanc et Noir",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 171,
+            "source_id": "Chien Fran\u00e7ais Blanc et Noir",
+            "start": 94,
+            "text": "Black Hound, is a breed of dog of the scenthound type, originating in France."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Black Hound",
+          "France"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Black Hound",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Black Hound, is a breed of dog of the scenthound type, originating in France.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-a4d76a8b04e6de13",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Braque Francais::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Braque Francais",
+          "title": "Braque Francais",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 157,
+            "source_id": "Braque Francais",
+            "start": 0,
+            "text": "There are two breeds of Braque fran\u00e7ais, both from the south of France, the Braque fran\u00e7ais, type Gascogne (French Pointing Dog - Gascogne type, larger size)"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Braque",
+          "France",
+          "Gascogne",
+          "French Pointing Dog"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Braque",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "There are two breeds of Braque fran\u00e7ais, both from the south of France, the Braque fran\u00e7ais, type Gascogne (French Pointing Dog - Gascogne type, larger size)",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-082d3f235a82581c",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Braque Francais::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Braque Francais",
+          "title": "Braque Francais",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 320,
+            "source_id": "Braque Francais",
+            "start": 162,
+            "text": "the Braque fran\u00e7ais, type Pyr\u00e9n\u00e9es (French Pointing Dog - Pyrenean type, smaller size) They are popular hunting dogs in France, but are seldom seen elsewhere."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Braque",
+          "French Pointing Dog",
+          "Pyrenean",
+          "France"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Braque",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "the Braque fran\u00e7ais, type Pyr\u00e9n\u00e9es (French Pointing Dog - Pyrenean type, smaller size) They are popular hunting dogs in France, but are seldom seen elsewhere.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [
+    {
+      "claim_ids": [
+        "clm-082d3f235a82581c",
+        "clm-19ee05deaf54a09c",
+        "clm-278ce4f3e15dd3a4",
+        "clm-3780731151ceed8c",
+        "clm-3b5c299624434d5d",
+        "clm-913159c4a9645f91",
+        "clm-a4d76a8b04e6de13",
+        "clm-cf75369228750ca5",
+        "clm-f967b93f3243e43f"
+      ],
+      "conflict_id": "conflict:0",
+      "members": [
+        {
+          "claim_id": "clm-082d3f235a82581c",
+          "independent_support": 0,
+          "propagated_belief": 0.476991,
+          "relation_confidence": 0.904502,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-19ee05deaf54a09c",
+          "independent_support": 0,
+          "propagated_belief": 0.539853,
+          "relation_confidence": 0.998371,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-278ce4f3e15dd3a4",
+          "independent_support": 0,
+          "propagated_belief": 0.483551,
+          "relation_confidence": 0.976923,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-3780731151ceed8c",
+          "independent_support": 0,
+          "propagated_belief": 0.461371,
+          "relation_confidence": 0.971786,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-3b5c299624434d5d",
+          "independent_support": 0,
+          "propagated_belief": 0.426753,
+          "relation_confidence": 0.998371,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-913159c4a9645f91",
+          "independent_support": 0,
+          "propagated_belief": 0.47657,
+          "relation_confidence": 0.976923,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-a4d76a8b04e6de13",
+          "independent_support": 0,
+          "propagated_belief": 0.475125,
+          "relation_confidence": 0.921014,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-cf75369228750ca5",
+          "independent_support": 0,
+          "propagated_belief": 0.448815,
+          "relation_confidence": 0.998208,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-f967b93f3243e43f",
+          "independent_support": 0,
+          "propagated_belief": 0.543817,
+          "relation_confidence": 0.960513,
+          "source_reliability": 0.5,
+          "timestamp": null
+        }
+      ],
+      "outcome": "unresolved",
+      "preferred_claim_id": null,
+      "relation_ids": [
+        "rel-04581dbf4c6f26f9",
+        "rel-241904328c1a6a1a",
+        "rel-2fc751bccbaec62d",
+        "rel-62cc239efe4808da",
+        "rel-749bed2621b1d933",
+        "rel-8c1da9b9fa8a7604",
+        "rel-907955edad6d4160",
+        "rel-9308d2fac53f4b65",
+        "rel-a49399f85c899888",
+        "rel-a6c270a1b825f0f2",
+        "rel-ae212e29596e6cd4",
+        "rel-c0c25f5bdb4c4c26",
+        "rel-d51292aad2c768a4"
+      ],
+      "resolution_note": "top two competitors within margin 0.100 (0.544 vs 0.540)",
+      "resolved": false
+    }
+  ],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5a893fc855429951533612f0",
+    "text": "Are the Chien Fran\u00e7ais Blanc et Orange and Cretan Hound both used for hunting in packs?"
+  },
+  "relations": [
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.904502
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.904502,
+      "relation_id": "rel-04581dbf4c6f26f9",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-082d3f235a82581c",
+      "target_claim_id": "clm-3b5c299624434d5d"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.878334
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.878334,
+      "relation_id": "rel-241904328c1a6a1a",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-082d3f235a82581c",
+      "target_claim_id": "clm-f967b93f3243e43f"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.998371
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.998371,
+      "relation_id": "rel-d51292aad2c768a4",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-19ee05deaf54a09c",
+      "target_claim_id": "clm-3b5c299624434d5d"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.998208
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.998208,
+      "relation_id": "rel-9308d2fac53f4b65",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-19ee05deaf54a09c",
+      "target_claim_id": "clm-cf75369228750ca5"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.971786
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.971786,
+      "relation_id": "rel-907955edad6d4160",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-278ce4f3e15dd3a4",
+      "target_claim_id": "clm-3780731151ceed8c"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.976923
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.976923,
+      "relation_id": "rel-ae212e29596e6cd4",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-278ce4f3e15dd3a4",
+      "target_claim_id": "clm-913159c4a9645f91"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.960513
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.960513,
+      "relation_id": "rel-2fc751bccbaec62d",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-278ce4f3e15dd3a4",
+      "target_claim_id": "clm-f967b93f3243e43f"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.942565
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.942565,
+      "relation_id": "rel-a49399f85c899888",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-3780731151ceed8c",
+      "target_claim_id": "clm-913159c4a9645f91"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.956672
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.956672,
+      "relation_id": "rel-a6c270a1b825f0f2",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-3780731151ceed8c",
+      "target_claim_id": "clm-f967b93f3243e43f"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.921014
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.921014,
+      "relation_id": "rel-8c1da9b9fa8a7604",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-3b5c299624434d5d",
+      "target_claim_id": "clm-a4d76a8b04e6de13"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.883886
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.883886,
+      "relation_id": "rel-62cc239efe4808da",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-3b5c299624434d5d",
+      "target_claim_id": "clm-f967b93f3243e43f"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.957892
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.957892,
+      "relation_id": "rel-c0c25f5bdb4c4c26",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-913159c4a9645f91",
+      "target_claim_id": "clm-f967b93f3243e43f"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.895566
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.895566,
+      "relation_id": "rel-749bed2621b1d933",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-a4d76a8b04e6de13",
+      "target_claim_id": "clm-f967b93f3243e43f"
+    }
+  ],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.543817,
+      "claim_id": "clm-f967b93f3243e43f",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 0.931748,
+      "status": "disputed",
+      "utility": 0.387931
+    },
+    {
+      "belief": 0.476991,
+      "claim_id": "clm-082d3f235a82581c",
+      "rank": 1,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.810324,
+      "status": "disputed",
+      "utility": 0.333333
+    },
+    {
+      "belief": 0.483551,
+      "claim_id": "clm-278ce4f3e15dd3a4",
+      "rank": 2,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.844662,
+      "status": "disputed",
+      "utility": 0.361111
+    },
+    {
+      "belief": 0.47657,
+      "claim_id": "clm-913159c4a9645f91",
+      "rank": 3,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.830018,
+      "status": "disputed",
+      "utility": 0.353448
+    },
+    {
+      "belief": 0.461371,
+      "claim_id": "clm-3780731151ceed8c",
+      "rank": 4,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.794704,
+      "status": "disputed",
+      "utility": 0.333333
+    },
+    {
+      "belief": 0.475125,
+      "claim_id": "clm-a4d76a8b04e6de13",
+      "rank": 5,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.80325,
+      "status": "disputed",
+      "utility": 0.328125
+    }
+  ],
+  "subgraph": null
+}

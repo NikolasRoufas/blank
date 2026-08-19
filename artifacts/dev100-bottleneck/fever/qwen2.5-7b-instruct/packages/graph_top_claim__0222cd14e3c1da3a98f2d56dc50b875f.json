@@ -1,0 +1,221 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 61
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-ea75edb250be5ff5",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Terry_Crews::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Terry_Crews",
+          "title": "Terry Crews",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 45,
+            "source_id": "Terry_Crews",
+            "start": 0,
+            "text": "In football , Crews played as a defensive end"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Crews"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Crews",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "In football , Crews played as a defensive end",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-8c6fc28a6e37cfaf",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Terry_Crews::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Terry_Crews",
+          "title": "Terry Crews",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 154,
+            "source_id": "Terry_Crews",
+            "start": 50,
+            "text": "linebacker in the National Football League -LRB- NFL -RRB- for the Los Angeles Rams , San Diego Chargers"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "National Football League",
+          "LRB",
+          "NFL",
+          "RRB",
+          "Los Angeles Rams",
+          "San Diego Chargers"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "National Football League",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "linebacker in the National Football League -LRB- NFL -RRB- for the Los Angeles Rams , San Diego Chargers",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-5d51acc3ba2c14dc",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Terry_Crews::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Terry_Crews",
+          "title": "Terry Crews",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 250,
+            "source_id": "Terry_Crews",
+            "start": 159,
+            "text": "Washington Redskins , as well as in the World League of American Football with Rhein Fire ."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Washington Redskins",
+          "World League",
+          "American Football",
+          "Rhein Fire"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Washington Redskins",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Washington Redskins , as well as in the World League of American Football with Rhein Fire .",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "0222cd14e3c1da3a98f2d56dc50b875f",
+    "text": "Terry Crews was only a quarterback."
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.463333,
+      "claim_id": "clm-ea75edb250be5ff5",
+      "rank": 0,
+      "reason": "top base value within budget",
+      "selection_score": 0.796666,
+      "status": "accepted",
+      "utility": 0.333333
+    },
+    {
+      "belief": 0.43,
+      "claim_id": "clm-5d51acc3ba2c14dc",
+      "rank": 1,
+      "reason": "top base value within budget",
+      "selection_score": 0.68,
+      "status": "accepted",
+      "utility": 0.25
+    },
+    {
+      "belief": 0.43,
+      "claim_id": "clm-8c6fc28a6e37cfaf",
+      "rank": 2,
+      "reason": "top base value within budget",
+      "selection_score": 0.68,
+      "status": "accepted",
+      "utility": 0.25
+    }
+  ],
+  "subgraph": null
+}

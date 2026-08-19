@@ -1,0 +1,404 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 70
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-2838727bee822c63",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Senran Kagura: Bon App\u00e9tit!::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Senran Kagura: Bon App\u00e9tit!",
+          "title": "Senran Kagura: Bon App\u00e9tit!",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 28,
+            "source_id": "Senran Kagura: Bon App\u00e9tit!",
+            "start": 0,
+            "text": "\"Senran Kagura Bon App\u00e9tit!\""
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Senran Kagura Bon"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Senran Kagura Bon",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "\"Senran Kagura Bon App\u00e9tit!\"",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-46a0d250413d41af",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Sean Brock::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Sean Brock",
+          "title": "Sean Brock",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 77,
+            "source_id": "Sean Brock",
+            "start": 0,
+            "text": "Bon App\u00e9tit Magazine named Husk the \u201cBest New Restaurant in America\u201d in 2011."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Bon",
+          "Magazine",
+          "Husk",
+          "Best New Restaurant",
+          "America"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Bon",
+        "temporal_expressions": [
+          "2011"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Bon App\u00e9tit Magazine named Husk the \u201cBest New Restaurant in America\u201d in 2011.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-4b902250a88453aa",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Bon App\u00e9tit::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Bon App\u00e9tit",
+          "title": "Bon App\u00e9tit",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 90,
+            "source_id": "Bon App\u00e9tit",
+            "start": 36,
+            "text": "entertaining magazine published monthly by Cond\u00e9 Nast."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Nast"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Nast",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "entertaining magazine published monthly by Cond\u00e9 Nast.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-a7422622cf1b9523",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Bon App\u00e9tit::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Bon App\u00e9tit",
+          "title": "Bon App\u00e9tit",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 31,
+            "source_id": "Bon App\u00e9tit",
+            "start": 0,
+            "text": "Bon App\u00e9tit is an American food"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Bon",
+          "American"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Bon",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Bon App\u00e9tit is an American food",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-be557c8f0198dc7a",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Cooking Mama 5: Bon App\u00e9tit!::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Cooking Mama 5: Bon App\u00e9tit!",
+          "title": "Cooking Mama 5: Bon App\u00e9tit!",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 28,
+            "source_id": "Cooking Mama 5: Bon App\u00e9tit!",
+            "start": 0,
+            "text": "Cooking Mama 5: Bon App\u00e9tit!"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Cooking Mama",
+          "Bon"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Cooking Mama",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Cooking Mama 5: Bon App\u00e9tit!",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-c1b10ac55b538150",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Rose's Luxury::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Rose's Luxury",
+          "title": "Rose's Luxury",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 69,
+            "source_id": "Rose's Luxury",
+            "start": 0,
+            "text": "In 2014 Bon App\u00e9tit rated it as 'the best new restaurant in America'."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Bon",
+          "America"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Bon",
+        "temporal_expressions": [
+          "2014"
+        ]
+      },
+      "source_reliability": null,
+      "text": "In 2014 Bon App\u00e9tit rated it as 'the best new restaurant in America'.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "pkg-5ac21ac05542991316484bee",
+  "query": {
+    "created_at": null,
+    "query_id": "5ac21ac05542991316484bee",
+    "text": "Are the magazines American Heritage and Bon App\u00e9tit both published in America?"
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": null,
+      "claim_id": "clm-2838727bee822c63",
+      "rank": 0,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-46a0d250413d41af",
+      "rank": 1,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-4b902250a88453aa",
+      "rank": 2,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-a7422622cf1b9523",
+      "rank": 3,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-be557c8f0198dc7a",
+      "rank": 4,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-c1b10ac55b538150",
+      "rank": 5,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    }
+  ],
+  "subgraph": null
+}

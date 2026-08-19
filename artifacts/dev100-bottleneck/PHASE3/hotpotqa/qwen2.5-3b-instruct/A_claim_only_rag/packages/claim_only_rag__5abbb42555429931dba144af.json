@@ -1,0 +1,469 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 165
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-19c88121f3172ccc",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Saint Genet::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Saint Genet",
+          "title": "Saint Genet",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 196,
+            "source_id": "Saint Genet",
+            "start": 23,
+            "text": "Martyr (French: \"Saint Genet, com\u00e9dien et martyr\" ) is a book by the French philosopher Jean-Paul Sartre about the writer Jean Genet especially on his \"The Thief's Journal\"."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Martyr",
+          "French",
+          "Saint Genet",
+          "Jean",
+          "Paul Sartre",
+          "Jean Genet",
+          "Thief",
+          "Journal"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Martyr",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Martyr (French: \"Saint Genet, com\u00e9dien et martyr\" ) is a book by the French philosopher Jean-Paul Sartre about the writer Jean Genet especially on his \"The Thief's Journal\".",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-1ff67fdedfcfd13f",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Jean-Paul Sartre Experience EP::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Jean-Paul Sartre Experience EP",
+          "title": "Jean-Paul Sartre Experience EP",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 106,
+            "source_id": "Jean-Paul Sartre Experience EP",
+            "start": 0,
+            "text": "The Jean-Paul Sartre Experience is an EP by New Zealand band Jean-Paul Sartre Experience released in 1986."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Jean",
+          "Paul Sartre Experience",
+          "EP",
+          "New Zealand"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Jean",
+        "temporal_expressions": [
+          "1986"
+        ]
+      },
+      "source_reliability": null,
+      "text": "The Jean-Paul Sartre Experience is an EP by New Zealand band Jean-Paul Sartre Experience released in 1986.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-8469e8f447d1763c",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Saint Genet::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Saint Genet",
+          "title": "Saint Genet",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 18,
+            "source_id": "Saint Genet",
+            "start": 0,
+            "text": "Saint Genet, Actor"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Saint Genet",
+          "Actor"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Saint Genet",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Saint Genet, Actor",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-855be105fac9c707",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "SHAW: The Annual of Bernard Shaw Studies::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "SHAW: The Annual of Bernard Shaw Studies",
+          "title": "SHAW: The Annual of Bernard Shaw Studies",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 84,
+            "source_id": "SHAW: The Annual of Bernard Shaw Studies",
+            "start": 0,
+            "text": "SHAW: The Annual of Bernard Shaw Studies is an academic journal devoted to the works"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "SHAW",
+          "Annual",
+          "Bernard Shaw Studies"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "SHAW",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "SHAW: The Annual of Bernard Shaw Studies is an academic journal devoted to the works",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-bf5d542a31984c18",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "George Bernard Shaw::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "George Bernard Shaw",
+          "title": "George Bernard Shaw",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 257,
+            "source_id": "George Bernard Shaw",
+            "start": 0,
+            "text": "George Bernard Shaw ( ; 26 July 1856\u00a0\u2013 2 November 1950), known at his insistence simply as Bernard Shaw, was an Irish playwright, critic and polemicist whose influence on Western theatre, culture and politics extended from the 1880s to his death and beyond."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "George Bernard Shaw",
+          "Bernard Shaw",
+          "Irish",
+          "Western"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "George Bernard Shaw",
+        "temporal_expressions": [
+          "1950"
+        ]
+      },
+      "source_reliability": null,
+      "text": "George Bernard Shaw ( ; 26 July 1856 \u2013 2 November 1950), known at his insistence simply as Bernard Shaw, was an Irish playwright, critic and polemicist whose influence on Western theatre, culture and politics extended from the 1880s to his death and beyond.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-e0cedf371485b903",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "SHAW: The Annual of Bernard Shaw Studies::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "SHAW: The Annual of Bernard Shaw Studies",
+          "title": "SHAW: The Annual of Bernard Shaw Studies",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 117,
+            "source_id": "SHAW: The Annual of Bernard Shaw Studies",
+            "start": 89,
+            "text": "life of George Bernard Shaw."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "George Bernard Shaw"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "George Bernard Shaw",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "life of George Bernard Shaw.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-f77d96d76e19ebf5",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Jean-Paul Sartre Experience::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Jean-Paul Sartre Experience",
+          "title": "Jean-Paul Sartre Experience",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 173,
+            "source_id": "Jean-Paul Sartre Experience",
+            "start": 0,
+            "text": "The Jean-Paul Sartre Experience, later renamed JPS Experience after a lawsuit by the estate of Jean-Paul Sartre, were an indie rock band on New Zealand's Flying Nun Records."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Jean",
+          "Paul Sartre Experience",
+          "JPS Experience",
+          "Paul Sartre",
+          "New Zealand",
+          "Flying Nun Records"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Jean",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The Jean-Paul Sartre Experience, later renamed JPS Experience after a lawsuit by the estate of Jean-Paul Sartre, were an indie rock band on New Zealand's Flying Nun Records.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "pkg-5abbb42555429931dba144af",
+  "query": {
+    "created_at": null,
+    "query_id": "5abbb42555429931dba144af",
+    "text": "Jean-Paul Sartre or George Bernard Shaw  have more influence on turn of the century literature?"
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": null,
+      "claim_id": "clm-19c88121f3172ccc",
+      "rank": 0,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-1ff67fdedfcfd13f",
+      "rank": 1,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-8469e8f447d1763c",
+      "rank": 2,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-855be105fac9c707",
+      "rank": 3,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-bf5d542a31984c18",
+      "rank": 4,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-e0cedf371485b903",
+      "rank": 5,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    }
+  ],
+  "subgraph": null
+}

@@ -1,0 +1,730 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 15
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-e1904f991d6ccc6c",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Mary Williams (activist)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Mary Williams (activist)",
+          "title": "Mary Williams (activist)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 46,
+            "source_id": "Mary Williams (activist)",
+            "start": 0,
+            "text": "The memoir details being adopted by Jane Fonda"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Jane Fonda"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Jane Fonda",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The memoir details being adopted by Jane Fonda",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-a3358249294ccb4a",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Mary Williams (activist)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Mary Williams (activist)",
+          "title": "Mary Williams (activist)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 161,
+            "source_id": "Mary Williams (activist)",
+            "start": 51,
+            "text": "Tom Hayden in her adolescence, as well as growing up as a daughter of Black Panthers before Fonda adopted her."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Tom Hayden",
+          "Black Panthers",
+          "Fonda"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Tom Hayden",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Tom Hayden in her adolescence, as well as growing up as a daughter of Black Panthers before Fonda adopted her.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-2c3a8f68c85d7e5c",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Tom Hayden::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Tom Hayden",
+          "title": "Tom Hayden",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 87,
+            "source_id": "Tom Hayden",
+            "start": 0,
+            "text": "Thomas Emmet \"Tom\" Hayden (December 11, 1939 \u2013 October 23, 2016) was an American social"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Thomas Emmet",
+          "Tom",
+          "Hayden",
+          "American"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Thomas Emmet",
+        "temporal_expressions": [
+          "December 11, 1939",
+          "October 23, 2016"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Thomas Emmet \"Tom\" Hayden (December 11, 1939 \u2013 October 23, 2016) was an American social",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-139274dd3da278c7",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Tom Hayden::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Tom Hayden",
+          "title": "Tom Hayden",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 118,
+            "source_id": "Tom Hayden",
+            "start": 92,
+            "text": "political activist, author"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": null,
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "political activist, author",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-2a59e8d343873cc0",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Tom Hayden::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Tom Hayden",
+          "title": "Tom Hayden",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 164,
+            "source_id": "Tom Hayden",
+            "start": 123,
+            "text": "politician, who was director of the Peace"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Peace"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Peace",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "politician, who was director of the Peace",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-2c95d70842243784",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Tom Hayden::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Tom Hayden",
+          "title": "Tom Hayden",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 227,
+            "source_id": "Tom Hayden",
+            "start": 169,
+            "text": "Justice Resource Center in Los Angeles County, California."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Justice Resource Center",
+          "Los Angeles County",
+          "California"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Justice Resource Center",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Justice Resource Center in Los Angeles County, California.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-fb492dbc63e1bf0f",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Women of Color Resource Center::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Women of Color Resource Center",
+          "title": "Women of Color Resource Center",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 71,
+            "source_id": "Women of Color Resource Center",
+            "start": 0,
+            "text": "The Women of Color Resource Center was founded in 1990 by Linda Burnham"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Women",
+          "Color Resource Center",
+          "Linda Burnham"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Women",
+        "temporal_expressions": [
+          "1990"
+        ]
+      },
+      "source_reliability": null,
+      "text": "The Women of Color Resource Center was founded in 1990 by Linda Burnham",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-07ece5b9609ad0f2",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Women of Color Resource Center::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Women of Color Resource Center",
+          "title": "Women of Color Resource Center",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 150,
+            "source_id": "Women of Color Resource Center",
+            "start": 76,
+            "text": "Miriam Ching Louie; Burnham served as its Executive Director for 18 years."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Miriam Ching Louie",
+          "Burnham",
+          "Executive Director"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Miriam Ching Louie",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Miriam Ching Louie; Burnham served as its Executive Director for 18 years.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-b41af9baa0ba01df",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Mary Williams (activist)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Mary Williams (activist)",
+          "title": "Mary Williams (activist)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 74,
+            "source_id": "Mary Williams (activist)",
+            "start": 0,
+            "text": "Mary Luana Williams (born October 13, 1967) is an American social activist"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Mary Luana Williams",
+          "American"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Mary Luana Williams",
+        "temporal_expressions": [
+          "October 13, 1967"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Mary Luana Williams (born October 13, 1967) is an American social activist",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-5ce290a54281bbd1",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Mary Williams (activist)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Mary Williams (activist)",
+          "title": "Mary Williams (activist)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 142,
+            "source_id": "Mary Williams (activist)",
+            "start": 79,
+            "text": "writer who penned \"The Lost Daughter: A Memoir\" about her life."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Lost Daughter",
+          "Memoir"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Lost Daughter",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "writer who penned \"The Lost Daughter: A Memoir\" about her life.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-d2fe35bee86584dd",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Oklahoma Criminal Justice Resource Center::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Oklahoma Criminal Justice Resource Center",
+          "title": "Oklahoma Criminal Justice Resource Center",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 93,
+            "source_id": "Oklahoma Criminal Justice Resource Center",
+            "start": 0,
+            "text": "The Oklahoma Criminal Justice Resource Center (OCJRC) was an agency of the State of Oklahoma."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Oklahoma Criminal Justice Resource Center",
+          "OCJRC",
+          "State",
+          "Oklahoma"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Oklahoma Criminal Justice Resource Center",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The Oklahoma Criminal Justice Resource Center (OCJRC) was an agency of the State of Oklahoma.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [
+    {
+      "claim_ids": [
+        "clm-2c3a8f68c85d7e5c",
+        "clm-b41af9baa0ba01df"
+      ],
+      "conflict_id": "conflict:0",
+      "members": [
+        {
+          "claim_id": "clm-2c3a8f68c85d7e5c",
+          "independent_support": 0,
+          "propagated_belief": 0.466851,
+          "relation_confidence": 0.979339,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-b41af9baa0ba01df",
+          "independent_support": 0,
+          "propagated_belief": 0.45729,
+          "relation_confidence": 0.979339,
+          "source_reliability": 0.5,
+          "timestamp": null
+        }
+      ],
+      "outcome": "unresolved",
+      "preferred_claim_id": null,
+      "relation_ids": [
+        "rel-22b90a1449cefb2c"
+      ],
+      "resolution_note": "top two competitors within margin 0.100 (0.467 vs 0.457)",
+      "resolved": false
+    },
+    {
+      "claim_ids": [
+        "clm-d2fe35bee86584dd",
+        "clm-fb492dbc63e1bf0f"
+      ],
+      "conflict_id": "conflict:1",
+      "members": [
+        {
+          "claim_id": "clm-d2fe35bee86584dd",
+          "independent_support": 0,
+          "propagated_belief": 0.474259,
+          "relation_confidence": 0.908147,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-fb492dbc63e1bf0f",
+          "independent_support": 0,
+          "propagated_belief": 0.485308,
+          "relation_confidence": 0.908147,
+          "source_reliability": 0.5,
+          "timestamp": null
+        }
+      ],
+      "outcome": "unresolved",
+      "preferred_claim_id": null,
+      "relation_ids": [
+        "rel-e0e4ada9e693de02"
+      ],
+      "resolution_note": "top two competitors within margin 0.100 (0.485 vs 0.474)",
+      "resolved": false
+    }
+  ],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5a8c42445542996e8ac88a3f",
+    "text": "What revolutionary group was writer Mary Williams raised by before being adopted by director of the Peace and Justice Resource Center in Los Angeles County Tom Hayden?"
+  },
+  "relations": [
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.979339
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.979339,
+      "relation_id": "rel-22b90a1449cefb2c",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-2c3a8f68c85d7e5c",
+      "target_claim_id": "clm-b41af9baa0ba01df"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.908147
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.908147,
+      "relation_id": "rel-e0e4ada9e693de02",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-d2fe35bee86584dd",
+      "target_claim_id": "clm-fb492dbc63e1bf0f"
+    }
+  ],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.481852,
+      "claim_id": "clm-2c95d70842243784",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 0.861482,
+      "status": "accepted",
+      "utility": 0.37963
+    }
+  ],
+  "subgraph": null
+}

@@ -1,0 +1,41 @@
+claim_only_rag|0|5a79395455429970f5fffe7d	GenerationError: answer cites unknown claim id(s): ['c0da6c77a02089810', 'c3120729158b6ea60', 'c5ed76c8d29157dd']
+claim_only_rag|0|5a8e4d9855429917b4a5bd8d	GenerationError: answer cites unknown claim id(s): ['c1', 'c2', 'c5']
+claim_only_rag|0|5a881d2355429938390d3eeb	GenerationError: answer cites unknown claim id(s): ['c3c89629c63028f45', 'c5d2f8a4393df49ae']
+claim_only_rag|0|5ae690b055429908198fa622	GenerationError: answer cites unknown claim id(s): ['c4515a5462f49a82a', 'c9fbb4adb37e08ff9']
+claim_only_rag|0|5ac270e05542992f1f2b38c9	GenerationError: answer cites unknown claim id(s): ['c2', 'c3']
+claim_only_rag|0|5a7b43735542992d025e67cb	GenerationError: answer cites unknown claim id(s): ['c36e46ae629ec78e4', 'c47401940e0135867', 'c479fd35a3a4a8203']
+claim_only_rag|0|5a7c02c45542996dd594b880	GenerationError: answer cites unknown claim id(s): ['c1', 'c3']
+claim_only_rag|0|5a778b1e55429949eeb29ee3	GenerationError: model output has an empty or missing 'answer'
+claim_only_rag|0|5ab7f1315542991d322237d1	GenerationError: answer cites unknown claim id(s): ['c[clm-06d356c78f860b87]']
+claim_only_rag|0|5a83bfc8554299123d8c21a1	GenerationError: answer cites unknown claim id(s): ['c1', 'c2', 'c3', 'c5']
+claim_only_rag|0|5ae7ae9a5542993210983ef2	GenerationError: answer cites unknown claim id(s): ['c1', 'c2']
+claim_only_rag|0|5ab3e07e55429969a97a81e5	GenerationError: answer cites unknown claim id(s): ['c2', 'c3']
+claim_only_rag|0|5a721a7655429971e9dc9271	GenerationError: answer cites unknown claim id(s): ['c2', 'c3']
+claim_only_rag|0|5ab5b0f75542992aa134a38c	GenerationError: answer cites unknown claim id(s): ['c1', 'c3', 'c4', 'c5']
+claim_only_rag|0|5ac385f8554299741d48a279	GenerationError: answer cites unknown claim id(s): ['c632c1a83956b0a4']
+claim_only_rag|0|5ae2b794554299495565db10	GenerationError: answer cites unknown claim id(s): ['c9bd6100a87ecb95e']
+claim_only_rag|0|5a796bfd55429970f5fffeac	GenerationError: answer cites unknown claim id(s): ['c3a1b2515b9e8b9871', 'c3f018d0394066392']
+claim_only_rag|0|5a70f1685542994082a3e40f	GenerationError: answer cites unknown claim id(s): ['c1', 'c3']
+claim_only_rag|0|5a7a276d5542996c55b2dd27	GenerationError: model output has an empty or missing 'answer'
+claim_only_rag|0|5a8afa4d55429949d91db44c	GenerationError: answer cites unknown claim id(s): ['c5c3637e9059c2e2e', 'c70acc34cb9fbf0ae']
+claim_only_rag|0|5ade4801554299728e26c6ab	GenerationError: answer cites unknown claim id(s): ['c6']
+claim_only_rag|0|5a8d8e4f5542994ba4e3dca7	GenerationError: answer cites unknown claim id(s): ['c4', 'c7']
+claim_only_rag|0|5a86ea445542994775f60780	GenerationError: answer cites unknown claim id(s): ['c1', 'c2']
+claim_only_rag|0|5ae377415542992e3233c40a	GenerationError: model output has an empty or missing 'answer'
+claim_only_rag|0|5ac07a17554299294b219000	GenerationError: answer cites unknown claim id(s): ['c2', 'c5']
+claim_only_rag|0|5a7323ad5542994cef4bc476	GenerationError: answer cites unknown claim id(s): ['c1', 'c385c5e6c6b17c7a3', 'c6f983dd44d6724e3']
+claim_only_rag|0|5a7c74a65542990527d554b0	GenerationError: model output has an empty or missing 'answer'
+claim_only_rag|0|5a802fb8554299485f598582	GenerationError: answer cites unknown claim id(s): ['c1']
+claim_only_rag|0|5ac00278554299012d1db56b	GenerationError: answer cites unknown claim id(s): ['c10', 'c2']
+claim_only_rag|0|5a7f19eb55429934daa2fcdb	GenerationError: answer cites unknown claim id(s): ['c70b103693c48d982', 'c998353d1e59e640e', 'caf214d1e80f7bfc9', 'cf900aaaa1d5bd453']
+claim_only_rag|0|5ae077805542993d6555eb6e	GenerationError: model output has an empty or missing 'answer'
+claim_only_rag|0|5ab7484c5542992aa3b8c80d	GenerationError: malformed structured output: truncated or unterminated JSON object
+claim_only_rag|0|5abeb0da5542997ec76fd34b	GenerationError: answer cites unknown claim id(s): ['c56bbd531a0772ef7', 'c8077bf2944a75ebf']
+claim_only_rag|0|5a8660ba55429960ec39b684	GenerationError: answer cites unknown claim id(s): ['c1', 'c176e7f2d3fd39284', 'c421e6d798238131c', 'c5396fc889dad07da']
+claim_only_rag|0|5a893fc855429951533612f0	GenerationError: answer cites unknown claim id(s): ['c19ee05deaf54a09c', 'c913159c4a9645f91']
+claim_only_rag|0|5a8778d25542994846c1cd89	GenerationError: model output has an empty or missing 'answer'
+claim_only_rag|0|5ab25004554299722f9b4cd7	GenerationError: model output has an empty or missing 'answer'
+claim_only_rag|0|5adeda67554299728e26c7db	GenerationError: answer cites unknown claim id(s): ['c11', 'c3', 'c5']
+claim_only_rag|0|5a87c0945542996e4f30890b	GenerationError: answer cites unknown claim id(s): ['c1', 'c29aa7228ad22ee12']
+claim_only_rag|0|5abdbf3755429933744ab818	GenerationError: answer cites unknown claim id(s): ['c2', 'c5']
+claim_only_rag|0|5addfe1c5542995b365fabaf	GenerationError: answer cites unknown claim id(s): ['c1', 'c10', 'c2', 'c7', 'c9']

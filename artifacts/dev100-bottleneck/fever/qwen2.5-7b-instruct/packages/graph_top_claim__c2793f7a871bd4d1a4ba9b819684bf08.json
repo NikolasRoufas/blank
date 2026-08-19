@@ -1,0 +1,93 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 20
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-190724b966058908",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Saw_-LRB-franchise-RRB-::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Saw_-LRB-franchise-RRB-",
+          "title": "Saw -LRB-franchise-RRB-",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 79,
+            "source_id": "Saw_-LRB-franchise-RRB-",
+            "start": 0,
+            "text": "The films collectively grossed over $ 873 million at the box office worldwide ."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [
+          "873 million"
+        ],
+        "subject": null,
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The films collectively grossed over $ 873 million at the box office worldwide .",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "c2793f7a871bd4d1a4ba9b819684bf08",
+    "text": "$873 million was grossed by the Saw franchise."
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.483333,
+      "claim_id": "clm-190724b966058908",
+      "rank": 0,
+      "reason": "top base value within budget",
+      "selection_score": 0.866666,
+      "status": "accepted",
+      "utility": 0.383333
+    }
+  ],
+  "subgraph": null
+}

@@ -1,0 +1,75 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 62
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "Terry_Crews::p0",
+      "extraction": null,
+      "extraction_confidence": 1.0,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Terry_Crews::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Terry_Crews",
+          "title": "Terry Crews",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 250,
+            "source_id": "Terry_Crews",
+            "start": 0,
+            "text": "In football , Crews played as a defensive end and linebacker in the National Football League -LRB- NFL -RRB- for the Los Angeles Rams , San Diego Chargers and Washington Redskins , as well as in the World League of American Football with Rhein Fire ."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": null,
+      "source_reliability": null,
+      "text": "In football , Crews played as a defensive end and linebacker in the National Football League -LRB- NFL -RRB- for the Los Angeles Rams , San Diego Chargers and Washington Redskins , as well as in the World League of American Football with Rhein Fire .",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "pkg-0222cd14e3c1da3a98f2d56dc50b875f",
+  "query": {
+    "created_at": null,
+    "query_id": "0222cd14e3c1da3a98f2d56dc50b875f",
+    "text": "Terry Crews was only a quarterback."
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": null,
+      "claim_id": "Terry_Crews::p0",
+      "rank": 0,
+      "reason": null,
+      "selection_score": 1.0,
+      "status": "accepted",
+      "utility": null
+    }
+  ],
+  "subgraph": null
+}

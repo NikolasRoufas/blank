@@ -1,0 +1,19 @@
+{
+  "claims": [
+    "clm-ef2348e640ae1de8",
+    "clm-801a2a86fe8c7196",
+    "clm-ab2bfc06c2f4ef25",
+    "clm-a2b0ce35a3f61e5e",
+    "clm-84a6a0d59f6269f8",
+    "clm-2f2490778f771e78",
+    "clm-04df383dfc78dc87",
+    "clm-06032b50d931399a"
+  ],
+  "relations": [
+    {
+      "source": "clm-801a2a86fe8c7196",
+      "target": "clm-ab2bfc06c2f4ef25",
+      "type": "contradiction"
+    }
+  ]
+}

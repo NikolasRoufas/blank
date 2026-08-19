@@ -1,0 +1,195 @@
+{
+  "per_seed": [
+    {
+      "metric_kinds": {
+        "answer_accuracy": "deterministic",
+        "answer_evidence_entailment": "heuristic",
+        "citation_completeness": "deterministic",
+        "citation_precision": "deterministic",
+        "citation_recall": "deterministic",
+        "contradiction_rate": "heuristic",
+        "empty_prediction": "deterministic",
+        "evidence_precision": "deterministic",
+        "evidence_recall": "deterministic",
+        "exact_match": "deterministic",
+        "invalid_citations": "deterministic",
+        "latency_ms": "deterministic",
+        "normalized_exact_match": "deterministic",
+        "num_claims": "deterministic",
+        "num_graph_edges": "deterministic",
+        "num_graph_nodes": "deterministic",
+        "num_passages": "deterministic",
+        "num_selected": "deterministic",
+        "token_estimate": "deterministic",
+        "token_f1": "deterministic",
+        "unsupported_claim_rate": "heuristic"
+      },
+      "metrics": {
+        "answer_accuracy": 0.047619047619047616,
+        "answer_evidence_entailment": 0.3981067964562824,
+        "citation_completeness": 0.047619047619047616,
+        "citation_precision": 0.09523809523809523,
+        "citation_recall": 0.07142857142857142,
+        "contradiction_rate": 0.9523809523809523,
+        "empty_prediction": 0.0,
+        "evidence_precision": 0.1253968253968254,
+        "evidence_recall": 0.2857142857142857,
+        "exact_match": 0.047619047619047616,
+        "invalid_citations": 0.0,
+        "latency_ms": 5710.745844158477,
+        "normalized_exact_match": 0.047619047619047616,
+        "num_claims": 5.0,
+        "num_graph_edges": 0.0,
+        "num_graph_nodes": 0.0,
+        "num_passages": 5.0,
+        "num_selected": 4.523809523809524,
+        "token_estimate": 155.28571428571428,
+        "token_f1": 0.08328986681521244,
+        "unsupported_claim_rate": 0.6817460317460318
+      },
+      "num_examples": 100,
+      "num_failed": 79,
+      "seed": 0,
+      "variant": "passage_rag",
+      "warnings": [
+        "uncited claim-like sentence: 'The provided evidence does not contain the birthday of the m'",
+        "uncited claim-like sentence: 'The provided evidence does not contain the name of the numbe'",
+        "uncited claim-like sentence: 'The provided evidence does not contain information about a s'",
+        "uncited claim-like sentence: \"The evidence mentions a record label 'Starship Entertainment\"",
+        "uncited claim-like sentence: \"It also mentions a single 'White Love' by the group Speed, b\"",
+        "uncited claim-like sentence: 'The provided evidence does not contain information about the'",
+        "uncited claim-like sentence: 'The evidence does not contain information about which Englis'",
+        "uncited claim-like sentence: \"It mentions that 'chalk and cheese' is an English binomial p\"",
+        "uncited claim-like sentence: 'The evidence mentions that Vikram Bhatt was in a relationshi'",
+        "uncited claim-like sentence: \"The film 'Phhir' stars Rajneesh Duggal and Adah Sharma, but \"",
+        "uncited claim-like sentence: 'The provided evidence does not contain information about Har'",
+        "uncited claim-like sentence: 'The evidence does not contain information about a woman whos'",
+        "uncited claim-like sentence: 'The provided evidence states that Raymond James Financial is'",
+        "uncited claim-like sentence: 'The provided evidence does not contain the birth dates for A'",
+        "uncited claim-like sentence: 'The provided evidence does not contain information about Alb'",
+        "uncited claim-like sentence: 'Rogell or a comparison of the professional scope between B.'",
+        "uncited claim-like sentence: 'The Really Nasty Horse Racing Game is a board game.'",
+        "uncited claim-like sentence: \"There is no evidence provided that identifies 'Careers' as a\"",
+        "uncited claim-like sentence: 'The provided evidence does not contain information about Ber'",
+        "uncited claim-like sentence: 'The Afrotropics is the region where the Cussonia genus is na'",
+        "uncited claim-like sentence: 'Ince and Joseph McGrath were of the same nationality.'",
+        "uncited claim-like sentence: 'Ince was American, as indicated by his wife Elinor Kershaw b'",
+        "uncited claim-like sentence: 'However, the provided evidence does not contain any informat'",
+        "uncited claim-like sentence: 'The provided evidence does not contain information regarding'",
+        "uncited claim-like sentence: 'Housman, so it is impossible to determine if they have the s'",
+        "uncited claim-like sentence: 'The provided evidence states that the Chien Fran\u00e7ais Blanc e'",
+        "uncited claim-like sentence: 'The evidence does not contain any information regarding the '",
+        "uncited claim-like sentence: 'It only lists specific species within the genus Solidago.'"
+      ]
+    }
+  ],
+  "seed_aggregated": {
+    "passage_rag": {
+      "answer_accuracy": {
+        "mean": 0.047619047619047616,
+        "median": 0.047619047619047616,
+        "std": 0.0
+      },
+      "answer_evidence_entailment": {
+        "mean": 0.3981067964562824,
+        "median": 0.3981067964562824,
+        "std": 0.0
+      },
+      "citation_completeness": {
+        "mean": 0.047619047619047616,
+        "median": 0.047619047619047616,
+        "std": 0.0
+      },
+      "citation_precision": {
+        "mean": 0.09523809523809523,
+        "median": 0.09523809523809523,
+        "std": 0.0
+      },
+      "citation_recall": {
+        "mean": 0.07142857142857142,
+        "median": 0.07142857142857142,
+        "std": 0.0
+      },
+      "contradiction_rate": {
+        "mean": 0.9523809523809523,
+        "median": 0.9523809523809523,
+        "std": 0.0
+      },
+      "empty_prediction": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "evidence_precision": {
+        "mean": 0.1253968253968254,
+        "median": 0.1253968253968254,
+        "std": 0.0
+      },
+      "evidence_recall": {
+        "mean": 0.2857142857142857,
+        "median": 0.2857142857142857,
+        "std": 0.0
+      },
+      "exact_match": {
+        "mean": 0.047619047619047616,
+        "median": 0.047619047619047616,
+        "std": 0.0
+      },
+      "invalid_citations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "latency_ms": {
+        "mean": 5710.745844158477,
+        "median": 5710.745844158477,
+        "std": 0.0
+      },
+      "normalized_exact_match": {
+        "mean": 0.047619047619047616,
+        "median": 0.047619047619047616,
+        "std": 0.0
+      },
+      "num_claims": {
+        "mean": 5.0,
+        "median": 5.0,
+        "std": 0.0
+      },
+      "num_graph_edges": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_graph_nodes": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "num_passages": {
+        "mean": 5.0,
+        "median": 5.0,
+        "std": 0.0
+      },
+      "num_selected": {
+        "mean": 4.523809523809524,
+        "median": 4.523809523809524,
+        "std": 0.0
+      },
+      "token_estimate": {
+        "mean": 155.28571428571428,
+        "median": 155.28571428571428,
+        "std": 0.0
+      },
+      "token_f1": {
+        "mean": 0.08328986681521244,
+        "median": 0.08328986681521244,
+        "std": 0.0
+      },
+      "unsupported_claim_rate": {
+        "mean": 0.6817460317460318,
+        "median": 0.6817460317460318,
+        "std": 0.0
+      }
+    }
+  }
+}

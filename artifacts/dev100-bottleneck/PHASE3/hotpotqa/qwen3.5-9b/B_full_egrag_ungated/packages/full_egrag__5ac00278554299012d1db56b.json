@@ -1,0 +1,631 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 105
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-290542ca8d7554b0",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Karan Kapoor::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Karan Kapoor",
+          "title": "Karan Kapoor",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 37,
+            "source_id": "Karan Kapoor",
+            "start": 0,
+            "text": "Karan later moved towards photography"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Karan"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Karan",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Karan later moved towards photography",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-64eaea33cf637e73",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Karan Kapoor::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Karan Kapoor",
+          "title": "Karan Kapoor",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 115,
+            "source_id": "Karan Kapoor",
+            "start": 42,
+            "text": "decided to be a part of this profession though he worked as an actor too."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": null,
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "decided to be a part of this profession though he worked as an actor too.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-7dd83b8092b23789",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Karan Kapoor::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Karan Kapoor",
+          "title": "Karan Kapoor",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 104,
+            "source_id": "Karan Kapoor",
+            "start": 0,
+            "text": "His paternal grandfather was Prithviraj Kapoor and his paternal uncles are Raj Kapoor and Shammi Kapoor."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Prithviraj Kapoor",
+          "Raj Kapoor",
+          "Shammi Kapoor"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Prithviraj Kapoor",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "His paternal grandfather was Prithviraj Kapoor and his paternal uncles are Raj Kapoor and Shammi Kapoor.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-26051ee3ed8cacc4",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Ram Teri Ganga Maili::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Ram Teri Ganga Maili",
+          "title": "Ram Teri Ganga Maili",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 25,
+            "source_id": "Ram Teri Ganga Maili",
+            "start": 0,
+            "text": "The movie stars Mandakini"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Mandakini"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Mandakini",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The movie stars Mandakini",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-2c3c89a380616e74",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Ram Teri Ganga Maili::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Ram Teri Ganga Maili",
+          "title": "Ram Teri Ganga Maili",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 62,
+            "source_id": "Ram Teri Ganga Maili",
+            "start": 30,
+            "text": "Rajiv Kapoor, son of Raj Kapoor."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Rajiv Kapoor",
+          "Raj Kapoor"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Rajiv Kapoor",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Rajiv Kapoor, son of Raj Kapoor.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-a7d735f3daf327a2",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Shree 420::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Shree 420",
+          "title": "Shree 420",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 211,
+            "source_id": "Shree 420",
+            "start": 0,
+            "text": "Shree 420 (\"Hindi\" \u0936\u094d\u0930\u0940 \u096a\u0968\u0966, translation: \"Sir 420\", also transliterated as Shri 420) is a 1955 Hindi film, directed and produced by Raj Kapoor, written by Khwaja Ahmad Abbas, and starring Raj Kapoor and Nargis."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Shree",
+          "Hindi",
+          "Sir",
+          "Shri",
+          "Raj Kapoor",
+          "Khwaja Ahmad Abbas",
+          "Nargis"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Shree",
+        "temporal_expressions": [
+          "1955"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Shree 420 (\"Hindi\" \u0936\u094d\u0930\u0940 \u096a\u0968\u0966, translation: \"Sir 420\", also transliterated as Shri 420) is a 1955 Hindi film, directed and produced by Raj Kapoor, written by Khwaja Ahmad Abbas, and starring Raj Kapoor and Nargis.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-998abb351efbd367",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'this' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Aag (1948 film)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Aag (1948 film)",
+          "title": "Aag (1948 film)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 43,
+            "source_id": "Aag (1948 film)",
+            "start": 0,
+            "text": "This was the first film in which Raj Kapoor"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Raj Kapoor"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "This",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "This was the first film in which Raj Kapoor",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-3db7652311f927ba",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Aag (1948 film)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Aag (1948 film)",
+          "title": "Aag (1948 film)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 73,
+            "source_id": "Aag (1948 film)",
+            "start": 48,
+            "text": "Nargis appeared together."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Nargis"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Nargis",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Nargis appeared together.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [
+    {
+      "claim_ids": [
+        "clm-2c3c89a380616e74",
+        "clm-7dd83b8092b23789",
+        "clm-998abb351efbd367",
+        "clm-a7d735f3daf327a2"
+      ],
+      "conflict_id": "conflict:0",
+      "members": [
+        {
+          "claim_id": "clm-2c3c89a380616e74",
+          "independent_support": 0,
+          "propagated_belief": 0.524362,
+          "relation_confidence": 0.823645,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-7dd83b8092b23789",
+          "independent_support": 0,
+          "propagated_belief": 0.455823,
+          "relation_confidence": 0.790427,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-998abb351efbd367",
+          "independent_support": 0,
+          "propagated_belief": 0.446545,
+          "relation_confidence": 0.70809,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-a7d735f3daf327a2",
+          "independent_support": 0,
+          "propagated_belief": 0.439547,
+          "relation_confidence": 0.823645,
+          "source_reliability": 0.5,
+          "timestamp": null
+        }
+      ],
+      "outcome": "unresolved",
+      "preferred_claim_id": null,
+      "relation_ids": [
+        "rel-08a1e7e789a5f374",
+        "rel-452ad4df5bfbf3ef",
+        "rel-a82857f62b95d719"
+      ],
+      "resolution_note": "top two competitors within margin 0.100 (0.524 vs 0.456)",
+      "resolved": false
+    }
+  ],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5ac00278554299012d1db56b",
+    "text": "What profession do Raj Kapoor and Mike Cahill share?"
+  },
+  "relations": [
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.790427
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.790427,
+      "relation_id": "rel-08a1e7e789a5f374",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-2c3c89a380616e74",
+      "target_claim_id": "clm-7dd83b8092b23789"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.70809
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.70809,
+      "relation_id": "rel-a82857f62b95d719",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-2c3c89a380616e74",
+      "target_claim_id": "clm-998abb351efbd367"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.823645
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.823645,
+      "relation_id": "rel-452ad4df5bfbf3ef",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-2c3c89a380616e74",
+      "target_claim_id": "clm-a7d735f3daf327a2"
+    },
+    {
+      "bridge": null,
+      "direction": "directed",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "entailment",
+        "features": {
+          "entailment": 0.981987
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "entailment above threshold",
+      "relation_confidence": 0.981987,
+      "relation_id": "rel-ac43809c9368e808",
+      "relation_type": "support",
+      "source_claim_id": "clm-a7d735f3daf327a2",
+      "target_claim_id": "clm-3db7652311f927ba"
+    }
+  ],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.524362,
+      "claim_id": "clm-2c3c89a380616e74",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 0.857695,
+      "status": "disputed",
+      "utility": 0.333333
+    },
+    {
+      "belief": 0.455823,
+      "claim_id": "clm-7dd83b8092b23789",
+      "rank": 1,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.794058,
+      "status": "disputed",
+      "utility": 0.338235
+    },
+    {
+      "belief": 0.446545,
+      "claim_id": "clm-998abb351efbd367",
+      "rank": 2,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.759045,
+      "status": "disputed",
+      "utility": 0.3125
+    },
+    {
+      "belief": 0.439547,
+      "claim_id": "clm-a7d735f3daf327a2",
+      "rank": 3,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.737934,
+      "status": "disputed",
+      "utility": 0.298387
+    },
+    {
+      "belief": 0.500428,
+      "claim_id": "clm-3db7652311f927ba",
+      "rank": 4,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.750428,
+      "status": "accepted",
+      "utility": 0.25
+    }
+  ],
+  "subgraph": null
+}

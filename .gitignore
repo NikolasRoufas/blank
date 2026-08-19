@@ -43,3 +43,4 @@ artifacts/**/_cache/
 # Mirrored third-party benchmark source data (downloaded, not committed --
 # large datasets are not checked in; re-download via docs/reproduction.md).
 artifacts/benchmark-matrix/_raw_data/
+artifacts/dev100-bottleneck/_raw_data/

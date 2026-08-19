@@ -1,0 +1,14 @@
+full_egrag|0|5a79395455429970f5fffe7d	GenerationError: malformed structured output: truncated or unterminated JSON object
+full_egrag|0|5a8f08c2554299458435d530	GenerationError: malformed structured output: truncated or unterminated JSON object
+full_egrag|0|5ae1d32a554299492dc91b9c	GenerationError: malformed structured output: truncated or unterminated JSON object
+full_egrag|0|5a7dedef5542995f4f40231a	GenerationError: malformed structured output: truncated or unterminated JSON object
+full_egrag|0|5a712beb5542994082a3e61c	ConvergenceError: belief propagation did not converge within 50 iterations (last max_delta=1.555e-04)
+full_egrag|0|5a70f1685542994082a3e40f	GenerationError: malformed structured output: truncated or unterminated JSON object
+full_egrag|0|5ac0dcf25542996f0d89cc2c	ConvergenceError: belief propagation did not converge within 50 iterations (last max_delta=1.075e-03)
+full_egrag|0|5a7b48b15542995eb53be8eb	GenerationError: answer cites unknown claim id(s): ['c1']
+full_egrag|0|5ac294b955429921a00aafd0	GenerationError: answer cites unknown claim id(s): ['c8cecaf0552516ae4', 'cd00b3039cb12503d']
+full_egrag|0|5a7c74a65542990527d554b0	ConvergenceError: belief propagation did not converge within 50 iterations (last max_delta=1.375e-04)
+full_egrag|0|5abe76c255429965af743f15	GenerationError: malformed structured output: truncated or unterminated JSON object
+full_egrag|0|5ab8f57b5542991b5579f097	ConvergenceError: belief propagation did not converge within 50 iterations (last max_delta=1.761e-04)
+full_egrag|0|5ac3b4e0554299741d48a2ec	GenerationError: malformed structured output: truncated or unterminated JSON object
+full_egrag|0|5ae25ed15542992decbdccd2	GenerationError: malformed structured output: truncated or unterminated JSON object

@@ -1,0 +1,444 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 133
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-f9264d982661dedd",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Lance King::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Lance King",
+          "title": "Lance King",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 129,
+            "source_id": "Lance King",
+            "start": 0,
+            "text": "Lance King (born November 23, 1962) is an American heavy metal vocalist specializing in melodic rock progressive and power metal."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Lance King",
+          "American"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Lance King",
+        "temporal_expressions": [
+          "November 23, 1962"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Lance King (born November 23, 1962) is an American heavy metal vocalist specializing in melodic rock progressive and power metal.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-773cbc92fb411d5e",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Avian (band)::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Avian (band)",
+          "title": "Avian (band)",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 36,
+            "source_id": "Avian (band)",
+            "start": 0,
+            "text": "The band features singer Lance King."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Lance King"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Lance King",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The band features singer Lance King.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-a83690b956ee31e3",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "A Moment in Chiros::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "A Moment in Chiros",
+          "title": "A Moment in Chiros",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 201,
+            "source_id": "A Moment in Chiros",
+            "start": 0,
+            "text": "A Moment in Chiros is American heavy metal vocalist Lance King's studio debut album as a solo artist, featuring the musical contributions of many of his friends, contemporaries and business associates."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Moment",
+          "Chiros",
+          "American",
+          "Lance King"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Moment",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "A Moment in Chiros is American heavy metal vocalist Lance King's studio debut album as a solo artist, featuring the musical contributions of many of his friends, contemporaries and business associates.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-918cc37bbbbc2c94",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Og\u00fcn Sanl\u0131soy::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Og\u00fcn Sanl\u0131soy",
+          "title": "Og\u00fcn Sanl\u0131soy",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 40,
+            "source_id": "Og\u00fcn Sanl\u0131soy",
+            "start": 0,
+            "text": "Og\u00fcn Sanl\u0131soy is a Turkish rock musician"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Turkish"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Turkish",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Og\u00fcn Sanl\u0131soy is a Turkish rock musician",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-4144a50e5fc720bd",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Og\u00fcn Sanl\u0131soy::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Og\u00fcn Sanl\u0131soy",
+          "title": "Og\u00fcn Sanl\u0131soy",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 89,
+            "source_id": "Og\u00fcn Sanl\u0131soy",
+            "start": 45,
+            "text": "pioneer among Turkish heavy metal vocalists."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Turkish"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Turkish",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "pioneer among Turkish heavy metal vocalists.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-21ac8482c9fd1e97",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'he' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Sully Erna::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Sully Erna",
+          "title": "Sully Erna",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 73,
+            "source_id": "Sully Erna",
+            "start": 0,
+            "text": "He was ranked 47th in the Top 100 Heavy Metal Vocalists by \"Hit Parader\"."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Top",
+          "Heavy Metal Vocalists",
+          "Hit Parader"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "He",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "He was ranked 47th in the Top 100 Heavy Metal Vocalists by \"Hit Parader\".",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5ae077805542993d6555eb6e",
+    "text": "Are Lance King and Han Seung-yeon both heavy metal vocalists?"
+  },
+  "relations": [
+    {
+      "bridge": null,
+      "direction": "directed",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "entailment",
+        "features": {
+          "entailment": 0.790781
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "entailment above threshold",
+      "relation_confidence": 0.790781,
+      "relation_id": "rel-3418913255035bb4",
+      "relation_type": "support",
+      "source_claim_id": "clm-a83690b956ee31e3",
+      "target_claim_id": "clm-773cbc92fb411d5e"
+    },
+    {
+      "bridge": null,
+      "direction": "directed",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "entailment",
+        "features": {
+          "entailment": 0.93959
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "entailment above threshold",
+      "relation_confidence": 0.93959,
+      "relation_id": "rel-5f7f55ac6c4fb9ab",
+      "relation_type": "support",
+      "source_claim_id": "clm-f9264d982661dedd",
+      "target_claim_id": "clm-773cbc92fb411d5e"
+    }
+  ],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.559973,
+      "claim_id": "clm-773cbc92fb411d5e",
+      "rank": 0,
+      "reason": "top base value within budget",
+      "selection_score": 0.87664,
+      "status": "accepted",
+      "utility": 0.316667
+    },
+    {
+      "belief": 0.472857,
+      "claim_id": "clm-4144a50e5fc720bd",
+      "rank": 1,
+      "reason": "top base value within budget",
+      "selection_score": 0.83,
+      "status": "accepted",
+      "utility": 0.357143
+    },
+    {
+      "belief": 0.47,
+      "claim_id": "clm-f9264d982661dedd",
+      "rank": 2,
+      "reason": "top base value within budget",
+      "selection_score": 0.82,
+      "status": "accepted",
+      "utility": 0.35
+    },
+    {
+      "belief": 0.457778,
+      "claim_id": "clm-a83690b956ee31e3",
+      "rank": 3,
+      "reason": "top base value within budget",
+      "selection_score": 0.777222,
+      "status": "accepted",
+      "utility": 0.319444
+    },
+    {
+      "belief": 0.457273,
+      "claim_id": "clm-21ac8482c9fd1e97",
+      "rank": 4,
+      "reason": "top base value within budget",
+      "selection_score": 0.775455,
+      "status": "accepted",
+      "utility": 0.318182
+    },
+    {
+      "belief": 0.43,
+      "claim_id": "clm-918cc37bbbbc2c94",
+      "rank": 5,
+      "reason": "top base value within budget",
+      "selection_score": 0.68,
+      "status": "accepted",
+      "utility": 0.25
+    }
+  ],
+  "subgraph": null
+}

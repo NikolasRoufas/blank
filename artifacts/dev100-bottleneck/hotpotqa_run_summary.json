@@ -1,0 +1,7 @@
+{
+  "benchmark": "hotpotqa",
+  "model": "qwen2.5-7b-instruct",
+  "examples": 100,
+  "seconds": 1485.6,
+  "output_dir": "artifacts/dev100-bottleneck/hotpotqa/qwen2.5-7b-instruct"
+}

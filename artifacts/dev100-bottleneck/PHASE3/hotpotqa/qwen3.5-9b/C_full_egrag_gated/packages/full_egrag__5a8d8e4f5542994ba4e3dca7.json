@@ -1,0 +1,547 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 45
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-ac84f56f8955ef4f",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'it' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Gamston, Rushcliffe::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Gamston, Rushcliffe",
+          "title": "Gamston, Rushcliffe",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 58,
+            "source_id": "Gamston, Rushcliffe",
+            "start": 0,
+            "text": "It is situated approximately 3 mi south-east of Nottingham"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Nottingham"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "It",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "It is situated approximately 3 mi south-east of Nottingham",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-db8002e644259df1",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Gamston, Rushcliffe::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Gamston, Rushcliffe",
+          "title": "Gamston, Rushcliffe",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 109,
+            "source_id": "Gamston, Rushcliffe",
+            "start": 63,
+            "text": "is part of the West Bridgford postcode of NG2."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "West Bridgford",
+          "NG2"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "West Bridgford",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "is part of the West Bridgford postcode of NG2.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-d10bbbce5d16afd1",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Gamston, Rushcliffe::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Gamston, Rushcliffe",
+          "title": "Gamston, Rushcliffe",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 31,
+            "source_id": "Gamston, Rushcliffe",
+            "start": 0,
+            "text": "Gamston is a ward, civil parish"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Gamston"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Gamston",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Gamston is a ward, civil parish",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-972a66801a575d42",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Gamston, Rushcliffe::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Gamston, Rushcliffe",
+          "title": "Gamston, Rushcliffe",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 119,
+            "source_id": "Gamston, Rushcliffe",
+            "start": 36,
+            "text": "a suburb of West Bridgford, in the Rushcliffe district of Nottinghamshire, England."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "West Bridgford",
+          "Rushcliffe",
+          "Nottinghamshire",
+          "England"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "West Bridgford",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "a suburb of West Bridgford, in the Rushcliffe district of Nottinghamshire, England.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-4dbc6dd281a11a05",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "NG postcode area::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "NG postcode area",
+          "title": "NG postcode area",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 179,
+            "source_id": "NG postcode area",
+            "start": 0,
+            "text": "The NG postcode area, also known as the Nottingham postcode area, is a group of postcode districts around Nottingham that covers Nottinghamshire (except for the Bassetlaw district"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "NG",
+          "Nottingham",
+          "Nottinghamshire",
+          "Bassetlaw"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "NG",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The NG postcode area, also known as the Nottingham postcode area, is a group of postcode districts around Nottingham that covers Nottinghamshire (except for the Bassetlaw district",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-563ad99751301e27",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "NG postcode area::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "NG postcode area",
+          "title": "NG postcode area",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 272,
+            "source_id": "NG postcode area",
+            "start": 184,
+            "text": "the far southwest of Rushcliffe borough), south east Derbyshire, south west Lincolnshire"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Rushcliffe",
+          "Derbyshire",
+          "Lincolnshire"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Rushcliffe",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "the far southwest of Rushcliffe borough), south east Derbyshire, south west Lincolnshire",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-b0ac040a839df230",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "NG postcode area::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "NG postcode area",
+          "title": "NG postcode area",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 311,
+            "source_id": "NG postcode area",
+            "start": 277,
+            "text": "part of north east Leicestershire."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Leicestershire"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Leicestershire",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "part of north east Leicestershire.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-bc0d66709bd4ce2e",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "TN postcode area::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "TN postcode area",
+          "title": "TN postcode area",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 160,
+            "source_id": "TN postcode area",
+            "start": 0,
+            "text": "All post in the TN postcode area is sorted at the Royal Mail Sorting Office in Rochester which also sorts all mail from the adjoining ME (Medway) postcode area."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "All",
+          "TN",
+          "Royal Mail Sorting Office",
+          "Rochester",
+          "ME",
+          "Medway"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "All",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "All post in the TN postcode area is sorted at the Royal Mail Sorting Office in Rochester which also sorts all mail from the adjoining ME (Medway) postcode area.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-ae111d81c3993d17",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'these' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "TN postcode area::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "TN postcode area",
+          "title": "TN postcode area",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 472,
+            "source_id": "TN postcode area",
+            "start": 0,
+            "text": "These postcode districts cover an extensive area from the Greater London border at Westerham to the Sussex coast, including south Kent (including Tunbridge Wells, Tonbridge, Ashford, Sevenoaks, Cranbrook, Edenbridge, New Romney, Romney Marsh and Tenterden) and northern and eastern East Sussex (including Hastings, Battle, Bexhill-on-Sea, Crowborough, Etchingham, Hartfield, Heathfield, Mayfield, Robertsbridge, Rye, St Leonards-on-Sea, Uckfield, Wadhurst and Winchelsea)."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Greater London",
+          "Westerham",
+          "Sussex",
+          "Kent",
+          "Tunbridge Wells",
+          "Tonbridge",
+          "Ashford",
+          "Sevenoaks",
+          "Cranbrook",
+          "Edenbridge",
+          "New Romney",
+          "Romney Marsh",
+          "Tenterden",
+          "East Sussex",
+          "Hastings",
+          "Battle",
+          "Bexhill",
+          "Sea",
+          "Crowborough",
+          "Etchingham",
+          "Hartfield",
+          "Heathfield",
+          "Mayfield",
+          "Robertsbridge",
+          "Rye",
+          "St Leonards",
+          "Uckfield",
+          "Wadhurst",
+          "Winchelsea"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "These",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "These postcode districts cover an extensive area from the Greater London border at Westerham to the Sussex coast, including south Kent (including Tunbridge Wells, Tonbridge, Ashford, Sevenoaks, Cranbrook, Edenbridge, New Romney, Romney Marsh and Tenterden) and northern and eastern East Sussex (including Hastings, Battle, Bexhill-on-Sea, Crowborough, Etchingham, Hartfield, Heathfield, Mayfield, Robertsbridge, Rye, St Leonards-on-Sea, Uckfield, Wadhurst and Winchelsea).",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5a8d8e4f5542994ba4e3dca7",
+    "text": "The NG postcode area is situated approximately how many miles from Gamston, Rushcliffe?"
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.464483,
+      "claim_id": "clm-4dbc6dd281a11a05",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 0.80069,
+      "status": "accepted",
+      "utility": 0.336207
+    }
+  ],
+  "subgraph": null
+}

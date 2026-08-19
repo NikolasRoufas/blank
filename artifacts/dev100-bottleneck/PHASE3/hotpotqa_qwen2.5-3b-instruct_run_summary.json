@@ -1,0 +1,42 @@
+[
+  {
+    "benchmark": "hotpotqa",
+    "model_key": "qwen2.5-3b-instruct",
+    "condition": "A_claim_only_rag",
+    "variant": "claim_only_rag",
+    "contradiction_requires_shared_subject": false,
+    "examples": 100,
+    "seconds": 487.4,
+    "output_dir": "artifacts/dev100-bottleneck/PHASE3/hotpotqa/qwen2.5-3b-instruct/A_claim_only_rag"
+  },
+  {
+    "benchmark": "hotpotqa",
+    "model_key": "qwen2.5-3b-instruct",
+    "condition": "B_full_egrag_ungated",
+    "variant": "full_egrag",
+    "contradiction_requires_shared_subject": false,
+    "examples": 100,
+    "seconds": 596.9,
+    "output_dir": "artifacts/dev100-bottleneck/PHASE3/hotpotqa/qwen2.5-3b-instruct/B_full_egrag_ungated"
+  },
+  {
+    "benchmark": "hotpotqa",
+    "model_key": "qwen2.5-3b-instruct",
+    "condition": "C_full_egrag_gated",
+    "variant": "full_egrag",
+    "contradiction_requires_shared_subject": true,
+    "examples": 100,
+    "seconds": 467.9,
+    "output_dir": "artifacts/dev100-bottleneck/PHASE3/hotpotqa/qwen2.5-3b-instruct/C_full_egrag_gated"
+  },
+  {
+    "benchmark": "hotpotqa",
+    "model_key": "qwen2.5-3b-instruct",
+    "condition": "D_graph_no_contradiction",
+    "variant": "graph_no_contradiction",
+    "contradiction_requires_shared_subject": false,
+    "examples": 100,
+    "seconds": 455.5,
+    "output_dir": "artifacts/dev100-bottleneck/PHASE3/hotpotqa/qwen2.5-3b-instruct/D_graph_no_contradiction"
+  }
+]

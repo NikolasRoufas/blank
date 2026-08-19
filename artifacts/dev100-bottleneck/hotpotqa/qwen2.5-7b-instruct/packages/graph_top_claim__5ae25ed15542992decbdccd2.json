@@ -1,0 +1,739 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 169
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-f54b46fb0117d05b",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Brintonia::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Brintonia",
+          "title": "Brintonia",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 126,
+            "source_id": "Brintonia",
+            "start": 0,
+            "text": "Brintonia is a monotypic genus of flowering plants in the sunflower family, containing the single species Brintonia discoidea."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Brintonia"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Brintonia",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Brintonia is a monotypic genus of flowering plants in the sunflower family, containing the single species Brintonia discoidea.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-200f1e9c79775c7e",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Solidago curtisii::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Solidago curtisii",
+          "title": "Solidago curtisii",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 52,
+            "source_id": "Solidago curtisii",
+            "start": 0,
+            "text": "Solidago curtisii, commonly called Curtis' goldenrod"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Solidago",
+          "Curtis"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Solidago",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Solidago curtisii, commonly called Curtis' goldenrod",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-4521923e4beca898",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Solidago curtisii::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Solidago curtisii",
+          "title": "Solidago curtisii",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 159,
+            "source_id": "Solidago curtisii",
+            "start": 57,
+            "text": "mountain decumbent goldenrod, is a North American species of flowering plants in the sunflower family."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "North American"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "North American",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "mountain decumbent goldenrod, is a North American species of flowering plants in the sunflower family.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-114d51f9c6a3c628",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Solidago rupestris::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Solidago rupestris",
+          "title": "Solidago rupestris",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 136,
+            "source_id": "Solidago rupestris",
+            "start": 0,
+            "text": "Solidago rupestris , the rock goldenrod or riverbank goldenrod, is a North American species of flowering plants in the sunflower family."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Solidago",
+          "North American"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Solidago",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Solidago rupestris , the rock goldenrod or riverbank goldenrod, is a North American species of flowering plants in the sunflower family.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-952e90711631ac8c",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Solidago rugosa::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Solidago rugosa",
+          "title": "Solidago rugosa",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 143,
+            "source_id": "Solidago rugosa",
+            "start": 0,
+            "text": "Solidago rugosa, the wrinkleleaf goldenrod or rough-stemmed goldenrod, is a North American species of flowering plants in the sunflower family."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Solidago",
+          "North American"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Solidago",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Solidago rugosa, the wrinkleleaf goldenrod or rough-stemmed goldenrod, is a North American species of flowering plants in the sunflower family.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-0188eb1ee6a373a4",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Solidago speciosa::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Solidago speciosa",
+          "title": "Solidago speciosa",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 112,
+            "source_id": "Solidago speciosa",
+            "start": 0,
+            "text": "Solidago speciosa, the showy goldenrod, is a North American species of flowering plants in the sunflower family."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Solidago",
+          "North American"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Solidago",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Solidago speciosa, the showy goldenrod, is a North American species of flowering plants in the sunflower family.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [
+    {
+      "claim_ids": [
+        "clm-0188eb1ee6a373a4",
+        "clm-114d51f9c6a3c628",
+        "clm-200f1e9c79775c7e",
+        "clm-4521923e4beca898",
+        "clm-952e90711631ac8c",
+        "clm-f54b46fb0117d05b"
+      ],
+      "conflict_id": "conflict:0",
+      "members": [
+        {
+          "claim_id": "clm-0188eb1ee6a373a4",
+          "independent_support": 0,
+          "propagated_belief": 0.514294,
+          "relation_confidence": 0.981092,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-114d51f9c6a3c628",
+          "independent_support": 0,
+          "propagated_belief": 0.508265,
+          "relation_confidence": 0.979529,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-200f1e9c79775c7e",
+          "independent_support": 0,
+          "propagated_belief": 0.427999,
+          "relation_confidence": 0.963025,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-4521923e4beca898",
+          "independent_support": 0,
+          "propagated_belief": 0.470152,
+          "relation_confidence": 0.981092,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-952e90711631ac8c",
+          "independent_support": 0,
+          "propagated_belief": 0.505725,
+          "relation_confidence": 0.979529,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-f54b46fb0117d05b",
+          "independent_support": 0,
+          "propagated_belief": 0.471133,
+          "relation_confidence": 0.813219,
+          "source_reliability": 0.5,
+          "timestamp": null
+        }
+      ],
+      "outcome": "unresolved",
+      "preferred_claim_id": null,
+      "relation_ids": [
+        "rel-01eea2545ea36916",
+        "rel-01efb59f4f8e595d",
+        "rel-1c8c3984ab517be8",
+        "rel-35fbc32afaec4511",
+        "rel-4ba9f8d2a4315b90",
+        "rel-58642c6aa2621dce",
+        "rel-68b3cf76a83a4893",
+        "rel-7dc86c00eb374851",
+        "rel-a3ed78a81bffcbe8",
+        "rel-b626fc49c623de70",
+        "rel-b7ef8e61840f59bb",
+        "rel-ca6fff8abf38d631",
+        "rel-f8538a460122490f"
+      ],
+      "resolution_note": "top two competitors within margin 0.100 (0.514 vs 0.508)",
+      "resolved": false
+    }
+  ],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5ae25ed15542992decbdccd2",
+    "text": "Both Sorbaria and Goldenrod are a genus of more than 50 flowering plants?"
+  },
+  "relations": [
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.948382
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.948382,
+      "relation_id": "rel-ca6fff8abf38d631",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-0188eb1ee6a373a4",
+      "target_claim_id": "clm-114d51f9c6a3c628"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.945862
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.945862,
+      "relation_id": "rel-1c8c3984ab517be8",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-0188eb1ee6a373a4",
+      "target_claim_id": "clm-200f1e9c79775c7e"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.981092
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.981092,
+      "relation_id": "rel-4ba9f8d2a4315b90",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-0188eb1ee6a373a4",
+      "target_claim_id": "clm-4521923e4beca898"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.978117
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.978117,
+      "relation_id": "rel-01eea2545ea36916",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-0188eb1ee6a373a4",
+      "target_claim_id": "clm-952e90711631ac8c"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.813219
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.813219,
+      "relation_id": "rel-b626fc49c623de70",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-0188eb1ee6a373a4",
+      "target_claim_id": "clm-f54b46fb0117d05b"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.963025
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.963025,
+      "relation_id": "rel-01efb59f4f8e595d",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-114d51f9c6a3c628",
+      "target_claim_id": "clm-200f1e9c79775c7e"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.976632
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.976632,
+      "relation_id": "rel-35fbc32afaec4511",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-114d51f9c6a3c628",
+      "target_claim_id": "clm-4521923e4beca898"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.979529
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.979529,
+      "relation_id": "rel-58642c6aa2621dce",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-114d51f9c6a3c628",
+      "target_claim_id": "clm-952e90711631ac8c"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.774736
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.774736,
+      "relation_id": "rel-7dc86c00eb374851",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-114d51f9c6a3c628",
+      "target_claim_id": "clm-f54b46fb0117d05b"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.961266
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.961266,
+      "relation_id": "rel-b7ef8e61840f59bb",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-200f1e9c79775c7e",
+      "target_claim_id": "clm-952e90711631ac8c"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.97086
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.97086,
+      "relation_id": "rel-68b3cf76a83a4893",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-4521923e4beca898",
+      "target_claim_id": "clm-952e90711631ac8c"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.718446
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.718446,
+      "relation_id": "rel-f8538a460122490f",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-4521923e4beca898",
+      "target_claim_id": "clm-f54b46fb0117d05b"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.804458
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.804458,
+      "relation_id": "rel-a3ed78a81bffcbe8",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-952e90711631ac8c",
+      "target_claim_id": "clm-f54b46fb0117d05b"
+    }
+  ],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.514294,
+      "claim_id": "clm-0188eb1ee6a373a4",
+      "rank": 0,
+      "reason": "top base value within budget",
+      "selection_score": 0.868461,
+      "status": "disputed",
+      "utility": 0.354167
+    },
+    {
+      "belief": 0.508265,
+      "claim_id": "clm-114d51f9c6a3c628",
+      "rank": 1,
+      "reason": "top base value within budget",
+      "selection_score": 0.854419,
+      "status": "disputed",
+      "utility": 0.346154
+    },
+    {
+      "belief": 0.505725,
+      "claim_id": "clm-952e90711631ac8c",
+      "rank": 2,
+      "reason": "top base value within budget",
+      "selection_score": 0.848318,
+      "status": "disputed",
+      "utility": 0.342593
+    },
+    {
+      "belief": 0.470152,
+      "claim_id": "clm-4521923e4beca898",
+      "rank": 3,
+      "reason": "top base value within budget",
+      "selection_score": 0.828848,
+      "status": "disputed",
+      "utility": 0.358696
+    },
+    {
+      "belief": 0.471133,
+      "claim_id": "clm-f54b46fb0117d05b",
+      "rank": 4,
+      "reason": "top base value within budget",
+      "selection_score": 0.8253,
+      "status": "disputed",
+      "utility": 0.354167
+    },
+    {
+      "belief": 0.427999,
+      "claim_id": "clm-200f1e9c79775c7e",
+      "rank": 5,
+      "reason": "top base value within budget",
+      "selection_score": 0.705777,
+      "status": "disputed",
+      "utility": 0.277778
+    }
+  ],
+  "subgraph": null
+}

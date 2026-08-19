@@ -1,0 +1,99 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 23
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-ba021f3a37e25ba0",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'it' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Fist_of_Legend::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Fist_of_Legend",
+          "title": "Fist of Legend",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 89,
+            "source_id": "Fist_of_Legend",
+            "start": 0,
+            "text": "It is a remake of the 1972 Fist of Fury , which starred Bruce Lee as the lead character ."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Fist",
+          "Fury",
+          "Bruce Lee"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "It",
+        "temporal_expressions": [
+          "1972"
+        ]
+      },
+      "source_reliability": null,
+      "text": "It is a remake of the 1972 Fist of Fury , which starred Bruce Lee as the lead character .",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "14f910dfbf75d703ff801ed84cc885d5",
+    "text": "Fist of Legend is a remake of Fist of Fury."
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.500588,
+      "claim_id": "clm-ba021f3a37e25ba0",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 0.927059,
+      "status": "accepted",
+      "utility": 0.426471
+    }
+  ],
+  "subgraph": null
+}

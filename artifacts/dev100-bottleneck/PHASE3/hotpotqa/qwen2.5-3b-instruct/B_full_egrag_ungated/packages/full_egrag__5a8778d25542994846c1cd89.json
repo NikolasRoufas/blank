@@ -1,0 +1,536 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 114
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-c8222b57fc1a7281",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "2014 Hall of Fame Tennis Championships \u2013 Doubles::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "2014 Hall of Fame Tennis Championships \u2013 Doubles",
+          "title": "2014 Hall of Fame Tennis Championships \u2013 Doubles",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 115,
+            "source_id": "2014 Hall of Fame Tennis Championships \u2013 Doubles",
+            "start": 0,
+            "text": "Nicolas Mahut and \u00c9douard Roger-Vasselin were the defending champions, but Roger-Vasselin chose not to participate."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Nicolas Mahut",
+          "Roger",
+          "Vasselin"
+        ],
+        "negation": true,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Nicolas Mahut",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Nicolas Mahut and \u00c9douard Roger-Vasselin were the defending champions, but Roger-Vasselin chose not to participate.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-ab07519d4f7a40da",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "2012 Troph\u00e9e des Alpilles \u2013 Doubles::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "2012 Troph\u00e9e des Alpilles \u2013 Doubles",
+          "title": "2012 Troph\u00e9e des Alpilles \u2013 Doubles",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 124,
+            "source_id": "2012 Troph\u00e9e des Alpilles \u2013 Doubles",
+            "start": 0,
+            "text": "Pierre-Hugues Herbert and \u00c9douard Roger-Vasselin were the defending champions but Roger-Vasselin decided not to participate."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Pierre",
+          "Hugues Herbert",
+          "Roger",
+          "Vasselin"
+        ],
+        "negation": true,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Pierre",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Pierre-Hugues Herbert and \u00c9douard Roger-Vasselin were the defending champions but Roger-Vasselin decided not to participate.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-7642c3e643f32be1",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "2011 BNP Paribas Primrose Bordeaux \u2013 Doubles::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "2011 BNP Paribas Primrose Bordeaux \u2013 Doubles",
+          "title": "2011 BNP Paribas Primrose Bordeaux \u2013 Doubles",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 126,
+            "source_id": "2011 BNP Paribas Primrose Bordeaux \u2013 Doubles",
+            "start": 0,
+            "text": "Nicolas Mahut and \u00c9douard Roger-Vasselin were the defending champions; however, Roger-Vasselin chose not to compete this year."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Nicolas Mahut",
+          "Roger",
+          "Vasselin"
+        ],
+        "negation": true,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Nicolas Mahut",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Nicolas Mahut and \u00c9douard Roger-Vasselin were the defending champions; however, Roger-Vasselin chose not to compete this year.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-f1556cf1e7ba30f1",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "\u00c9douard Roger-Vasselin::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "\u00c9douard Roger-Vasselin",
+          "title": "\u00c9douard Roger-Vasselin",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 87,
+            "source_id": "\u00c9douard Roger-Vasselin",
+            "start": 0,
+            "text": "\u00c9douard Roger-Vasselin (] ; born 28 November 1983) is a male tennis player from France."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Roger",
+          "Vasselin",
+          "France"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Roger",
+        "temporal_expressions": [
+          "1983"
+        ]
+      },
+      "source_reliability": null,
+      "text": "\u00c9douard Roger-Vasselin (] ; born 28 November 1983) is a male tennis player from France.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-628f7b34bce26629",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Becker\u2013Edberg rivalry::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Becker\u2013Edberg rivalry",
+          "title": "Becker\u2013Edberg rivalry",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 91,
+            "source_id": "Becker\u2013Edberg rivalry",
+            "start": 0,
+            "text": "Edberg and Becker also reached the world Tour Finals in 1989 which Edberg won in Four sets."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Edberg",
+          "Becker",
+          "Tour Finals",
+          "Four"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Edberg",
+        "temporal_expressions": [
+          "1989"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Edberg and Becker also reached the world Tour Finals in 1989 which Edberg won in Four sets.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [
+    {
+      "claim_ids": [
+        "clm-7642c3e643f32be1",
+        "clm-ab07519d4f7a40da",
+        "clm-c8222b57fc1a7281",
+        "clm-f1556cf1e7ba30f1"
+      ],
+      "conflict_id": "conflict:0",
+      "members": [
+        {
+          "claim_id": "clm-7642c3e643f32be1",
+          "independent_support": 1,
+          "propagated_belief": 0.802969,
+          "relation_confidence": 0.867635,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-ab07519d4f7a40da",
+          "independent_support": 0,
+          "propagated_belief": 0.278875,
+          "relation_confidence": 0.967178,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-c8222b57fc1a7281",
+          "independent_support": 1,
+          "propagated_belief": 0.835729,
+          "relation_confidence": 0.960321,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-f1556cf1e7ba30f1",
+          "independent_support": 0,
+          "propagated_belief": 0.302229,
+          "relation_confidence": 0.967178,
+          "source_reliability": 0.5,
+          "timestamp": null
+        }
+      ],
+      "outcome": "unresolved",
+      "preferred_claim_id": null,
+      "relation_ids": [
+        "rel-07ea12262e2e3fa2",
+        "rel-0e7f6510c7bbea24",
+        "rel-302e7972b0463276",
+        "rel-36144c444b3a7ddb",
+        "rel-a247963c25676e0f"
+      ],
+      "resolution_note": "top two competitors within margin 0.100 (0.836 vs 0.803)",
+      "resolved": false
+    }
+  ],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5a8778d25542994846c1cd89",
+    "text": "Has Stefan Edberg won more events than  \u00c9douard Roger-Vasselin?"
+  },
+  "relations": [
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.867635
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.867635,
+      "relation_id": "rel-0e7f6510c7bbea24",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-7642c3e643f32be1",
+      "target_claim_id": "clm-ab07519d4f7a40da"
+    },
+    {
+      "bridge": null,
+      "direction": "directed",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "entailment",
+        "features": {
+          "entailment": 0.993588
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "entailment above threshold",
+      "relation_confidence": 0.993588,
+      "relation_id": "rel-9d306b0a9772a885",
+      "relation_type": "support",
+      "source_claim_id": "clm-7642c3e643f32be1",
+      "target_claim_id": "clm-c8222b57fc1a7281"
+    },
+    {
+      "bridge": null,
+      "direction": "directed",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "entailment",
+        "features": {
+          "entailment": 0.751858
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "entailment above threshold",
+      "relation_confidence": 0.751858,
+      "relation_id": "rel-aa91bcb4c63ca893",
+      "relation_type": "support",
+      "source_claim_id": "clm-c8222b57fc1a7281",
+      "target_claim_id": "clm-7642c3e643f32be1"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.749173
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.749173,
+      "relation_id": "rel-302e7972b0463276",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-7642c3e643f32be1",
+      "target_claim_id": "clm-f1556cf1e7ba30f1"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.940145
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.940145,
+      "relation_id": "rel-36144c444b3a7ddb",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-ab07519d4f7a40da",
+      "target_claim_id": "clm-c8222b57fc1a7281"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.967178
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.967178,
+      "relation_id": "rel-07ea12262e2e3fa2",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-ab07519d4f7a40da",
+      "target_claim_id": "clm-f1556cf1e7ba30f1"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.960321
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.960321,
+      "relation_id": "rel-a247963c25676e0f",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-c8222b57fc1a7281",
+      "target_claim_id": "clm-f1556cf1e7ba30f1"
+    }
+  ],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.835729,
+      "claim_id": "clm-c8222b57fc1a7281",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 1.0,
+      "status": "disputed",
+      "utility": 0.318182
+    },
+    {
+      "belief": 0.802969,
+      "claim_id": "clm-7642c3e643f32be1",
+      "rank": 1,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 1.0,
+      "status": "disputed",
+      "utility": 0.3125
+    },
+    {
+      "belief": 0.302229,
+      "claim_id": "clm-f1556cf1e7ba30f1",
+      "rank": 2,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.623658,
+      "status": "disputed",
+      "utility": 0.321429
+    },
+    {
+      "belief": 0.278875,
+      "claim_id": "clm-ab07519d4f7a40da",
+      "rank": 3,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.594092,
+      "status": "disputed",
+      "utility": 0.315217
+    }
+  ],
+  "subgraph": null
+}

@@ -1,0 +1,145 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 25
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-1031d89795a485cd",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Economics_of_global_warming::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Economics_of_global_warming",
+          "title": "Economics of global warming",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 98,
+            "source_id": "Economics_of_global_warming",
+            "start": 0,
+            "text": "In other areas , the cost of global warming policies may divert resources away from other socially"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [
+          "may"
+        ],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": null,
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "In other areas , the cost of global warming policies may divert resources away from other socially",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-53aff110a09db8e4",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Economics_of_global_warming::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Economics_of_global_warming",
+          "title": "Economics of global warming",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 202,
+            "source_id": "Economics_of_global_warming",
+            "start": 103,
+            "text": "environmentally beneficial investments -LRB- the opportunity costs of climate change policy -RRB- ."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "LRB",
+          "RRB"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "LRB",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "environmentally beneficial investments -LRB- the opportunity costs of climate change policy -RRB- .",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "a11b58373f8591360d391389878bb1e7",
+    "text": "Global warming is expected to shrink permafrost areas."
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.46,
+      "claim_id": "clm-1031d89795a485cd",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 0.785,
+      "status": "accepted",
+      "utility": 0.325
+    }
+  ],
+  "subgraph": null
+}

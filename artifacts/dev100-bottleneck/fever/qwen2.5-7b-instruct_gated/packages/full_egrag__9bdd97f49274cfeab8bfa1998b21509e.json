@@ -1,0 +1,290 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 38
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-ca9b208bd922ca06",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Roja::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Roja",
+          "title": "Roja",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 84,
+            "source_id": "Roja",
+            "start": 0,
+            "text": "Roja -LRB- Rose -RRB- is a 1992 Indian Tamil-language romantic thriller film written"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Roja",
+          "LRB",
+          "Rose",
+          "RRB",
+          "Indian Tamil"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Roja",
+        "temporal_expressions": [
+          "1992"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Roja -LRB- Rose -RRB- is a 1992 Indian Tamil-language romantic thriller film written",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-66ffa1ea7f0441b0",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Roja::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Roja",
+          "title": "Roja",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 114,
+            "source_id": "Roja",
+            "start": 89,
+            "text": "directed by Mani Ratnam ."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Mani Ratnam"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Mani Ratnam",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "directed by Mani Ratnam .",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-89befb38e669bedf",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Mani_Ratnam::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Mani_Ratnam",
+          "title": "Mani Ratnam",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 121,
+            "source_id": "Mani_Ratnam",
+            "start": 0,
+            "text": "Mani Ratnam is well known for his `` Political trilogy '' consisting of Roja -LRB- 1992 -RRB- , Bombay -LRB- 1995 -RRB- ,"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Mani Ratnam",
+          "Political",
+          "Roja",
+          "LRB",
+          "RRB",
+          "Bombay"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Mani Ratnam",
+        "temporal_expressions": [
+          "1992",
+          "1995"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Mani Ratnam is well known for his `` Political trilogy '' consisting of Roja -LRB- 1992 -RRB- , Bombay -LRB- 1995 -RRB- ,",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-880055df0965064d",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Mani_Ratnam::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Mani_Ratnam",
+          "title": "Mani Ratnam",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 134,
+            "source_id": "Mani_Ratnam",
+            "start": 126,
+            "text": "Dil Se ."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Dil Se"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Dil Se",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Dil Se .",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "9bdd97f49274cfeab8bfa1998b21509e",
+    "text": "Mani Ratnam makes films."
+  },
+  "relations": [
+    {
+      "bridge": null,
+      "direction": "directed",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "entailment",
+        "features": {
+          "entailment": 0.883838
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "entailment above threshold",
+      "relation_confidence": 0.883838,
+      "relation_id": "rel-9f3b7080d0e687d8",
+      "relation_type": "support",
+      "source_claim_id": "clm-89befb38e669bedf",
+      "target_claim_id": "clm-66ffa1ea7f0441b0"
+    }
+  ],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.575764,
+      "claim_id": "clm-66ffa1ea7f0441b0",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 0.992431,
+      "status": "accepted",
+      "utility": 0.416667
+    },
+    {
+      "belief": 0.451053,
+      "claim_id": "clm-89befb38e669bedf",
+      "rank": 1,
+      "reason": "selected: positive marginal gain",
+      "selection_score": 0.753685,
+      "status": "accepted",
+      "utility": 0.302632
+    }
+  ],
+  "subgraph": null
+}

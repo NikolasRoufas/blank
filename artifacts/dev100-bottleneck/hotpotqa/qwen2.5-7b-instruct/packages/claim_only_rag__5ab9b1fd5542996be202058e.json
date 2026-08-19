@@ -1,0 +1,479 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 176
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-03524d9f3df65eff",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'he' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Rod Pacheco::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Rod Pacheco",
+          "title": "Rod Pacheco",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 151,
+            "source_id": "Rod Pacheco",
+            "start": 0,
+            "text": "He served in the Riverside County District Attorney's Office as a Deputy District Attorney, Chief Deputy District Attorney, Assistant District Attorney"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Riverside County District Attorney",
+          "Office",
+          "Deputy District Attorney",
+          "Chief Deputy District Attorney",
+          "Assistant District Attorney"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "He",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "He served in the Riverside County District Attorney's Office as a Deputy District Attorney, Chief Deputy District Attorney, Assistant District Attorney",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-503f688a3a1fca89",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Caleb Stegall::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Caleb Stegall",
+          "title": "Caleb Stegall",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 63,
+            "source_id": "Caleb Stegall",
+            "start": 0,
+            "text": "Caleb Stegall (born September 20, 1971) is an American attorney"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Caleb Stegall",
+          "American"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Caleb Stegall",
+        "temporal_expressions": [
+          "September 20, 1971"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Caleb Stegall (born September 20, 1971) is an American attorney",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-7ce3972d5c318e6b",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Caleb Stegall::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Caleb Stegall",
+          "title": "Caleb Stegall",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 101,
+            "source_id": "Caleb Stegall",
+            "start": 68,
+            "text": "writer residing in Perry, Kansas."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Perry",
+          "Kansas"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Perry",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "writer residing in Perry, Kansas.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-8165ea06289fa69c",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Kings County District Attorney::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Kings County District Attorney",
+          "title": "Kings County District Attorney",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 145,
+            "source_id": "Kings County District Attorney",
+            "start": 0,
+            "text": "The Kings County District Attorney is the elected district attorney for Kings County, coterminous with the Borough of Brooklyn, in New York City."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Kings County District Attorney",
+          "Kings County",
+          "Borough",
+          "Brooklyn",
+          "New York City"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Kings County District Attorney",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The Kings County District Attorney is the elected district attorney for Kings County, coterminous with the Borough of Brooklyn, in New York City.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-a770c9602e87e29b",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Bronx County District Attorney::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Bronx County District Attorney",
+          "title": "Bronx County District Attorney",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 155,
+            "source_id": "Bronx County District Attorney",
+            "start": 0,
+            "text": "The Bronx County District Attorney is the elected district attorney for Bronx County, which is coterminous with the Borough of the Bronx, in New York City."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Bronx County District Attorney",
+          "Bronx County",
+          "Borough",
+          "Bronx",
+          "New York City"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Bronx County District Attorney",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "The Bronx County District Attorney is the elected district attorney for Bronx County, which is coterminous with the Borough of the Bronx, in New York City.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-bb0085ba668ca196",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Rod Pacheco::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Rod Pacheco",
+          "title": "Rod Pacheco",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 229,
+            "source_id": "Rod Pacheco",
+            "start": 156,
+            "text": "then as District Attorney from 2007\u20132010 in Riverside County, California."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "District Attorney",
+          "Riverside County",
+          "California"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "District Attorney",
+        "temporal_expressions": [
+          "2007",
+          "2010"
+        ]
+      },
+      "source_reliability": null,
+      "text": "then as District Attorney from 2007\u20132010 in Riverside County, California.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-ea46e7e618d1f031",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Rosemary Lehmberg::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Rosemary Lehmberg",
+          "title": "Rosemary Lehmberg",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 97,
+            "source_id": "Rosemary Lehmberg",
+            "start": 0,
+            "text": "Lehmberg served eight years as Travis County\u2019s district attorney before retiring in January 2017."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Lehmberg",
+          "Travis County"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Lehmberg",
+        "temporal_expressions": [
+          "2017"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Lehmberg served eight years as Travis County\u2019s district attorney before retiring in January 2017.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "pkg-5ab9b1fd5542996be202058e",
+  "query": {
+    "created_at": null,
+    "query_id": "5ab9b1fd5542996be202058e",
+    "text": "What is the most populous city in the county where Caleb Stegall served as District attorney?"
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": null,
+      "claim_id": "clm-03524d9f3df65eff",
+      "rank": 0,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-503f688a3a1fca89",
+      "rank": 1,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-7ce3972d5c318e6b",
+      "rank": 2,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-8165ea06289fa69c",
+      "rank": 3,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-a770c9602e87e29b",
+      "rank": 4,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-bb0085ba668ca196",
+      "rank": 5,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-ea46e7e618d1f031",
+      "rank": 6,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    }
+  ],
+  "subgraph": null
+}

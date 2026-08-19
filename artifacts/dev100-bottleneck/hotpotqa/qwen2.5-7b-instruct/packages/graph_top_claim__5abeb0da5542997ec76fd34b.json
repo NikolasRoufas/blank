@@ -1,0 +1,720 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 188
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-0939139632d4fcd7",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'she' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Shruti Haasan filmography::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Shruti Haasan filmography",
+          "title": "Shruti Haasan filmography",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 62,
+            "source_id": "Shruti Haasan filmography",
+            "start": 0,
+            "text": "She played the female lead in the films \"Anaganaga O Dheerudu\""
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Anaganaga O Dheerudu"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "She",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "She played the female lead in the films \"Anaganaga O Dheerudu\"",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-ddbcd124a95a4ef3",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Shruti Haasan filmography::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Shruti Haasan filmography",
+          "title": "Shruti Haasan filmography",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 107,
+            "source_id": "Shruti Haasan filmography",
+            "start": 67,
+            "text": "\"7aum Arivu\"; both were released in 2011"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Arivu"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Arivu",
+        "temporal_expressions": [
+          "2011"
+        ]
+      },
+      "source_reliability": null,
+      "text": "\"7aum Arivu\"; both were released in 2011",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-bea0acf654f0561c",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Shruti Haasan filmography::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Shruti Haasan filmography",
+          "title": "Shruti Haasan filmography",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 205,
+            "source_id": "Shruti Haasan filmography",
+            "start": 112,
+            "text": "together earned her the Best Female Debut \u2013 South at the 59th Filmfare Awards South ceremony."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Best Female Debut",
+          "South",
+          "Filmfare Awards South"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Best Female Debut",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "together earned her the Best Female Debut \u2013 South at the 59th Filmfare Awards South ceremony.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-c461324070854bfd",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Zokkomon::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Zokkomon",
+          "title": "Zokkomon",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 213,
+            "source_id": "Zokkomon",
+            "start": 0,
+            "text": "Starring \"Darsheel Safary\" in the leading role, \"Zokkomon\" is Disney's fourth involvement in a production for the Indian market (after the computer-animated \"Roadside Romeo\", Tollywood movie \"Anaganaga O Dheerudu\""
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Starring",
+          "Darsheel Safary",
+          "Zokkomon",
+          "Disney",
+          "Indian",
+          "Roadside Romeo",
+          "Tollywood",
+          "Anaganaga O Dheerudu"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Starring",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Starring \"Darsheel Safary\" in the leading role, \"Zokkomon\" is Disney's fourth involvement in a production for the Indian market (after the computer-animated \"Roadside Romeo\", Tollywood movie \"Anaganaga O Dheerudu\"",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-5de0f9e3cd406510",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Zokkomon::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Zokkomon",
+          "title": "Zokkomon",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 252,
+            "source_id": "Zokkomon",
+            "start": 218,
+            "text": "the live-action \"Do Dooni Chaar\")."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Do Dooni Chaar"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Do Dooni Chaar",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "the live-action \"Do Dooni Chaar\").",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-b89d9f5ebfa036b7",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Anaganaga O Dheerudu::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Anaganaga O Dheerudu",
+          "title": "Anaganaga O Dheerudu",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 171,
+            "source_id": "Anaganaga O Dheerudu",
+            "start": 0,
+            "text": "Anaganaga O Dheerudu (English: \"Once Upon a Warrior\" ) is a 2011 Indian Telugu fantasy-adventure film directed by debutant Prakash Kovelamudi in his first mainstream film."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Anaganaga O Dheerudu",
+          "English",
+          "Once Upon",
+          "Warrior",
+          "Indian Telugu",
+          "Prakash Kovelamudi"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Anaganaga O Dheerudu",
+        "temporal_expressions": [
+          "2011"
+        ]
+      },
+      "source_reliability": null,
+      "text": "Anaganaga O Dheerudu (English: \"Once Upon a Warrior\" ) is a 2011 Indian Telugu fantasy-adventure film directed by debutant Prakash Kovelamudi in his first mainstream film.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-56bbd531a0772ef7",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'he' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Yuri Lowenthal::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Yuri Lowenthal",
+          "title": "Yuri Lowenthal",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 128,
+            "source_id": "Yuri Lowenthal",
+            "start": 0,
+            "text": "He has a production company Monkey Kingdom Productions with his wife, Tara Platt, where they have produced several feature films"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Monkey Kingdom Productions",
+          "Tara Platt"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "He",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "He has a production company Monkey Kingdom Productions with his wife, Tara Platt, where they have produced several feature films",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-47711952829ac1ef",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Yuri Lowenthal::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Yuri Lowenthal",
+          "title": "Yuri Lowenthal",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 178,
+            "source_id": "Yuri Lowenthal",
+            "start": 133,
+            "text": "a live-action web series called \"Shelf Life\"."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Shelf Life"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Shelf Life",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "a live-action web series called \"Shelf Life\".",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-7f23daba1d0302fa",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'she' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Tara Platt::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Tara Platt",
+          "title": "Tara Platt",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 169,
+            "source_id": "Tara Platt",
+            "start": 0,
+            "text": "She has a production company Monkey Kingdom Productions with her husband, Yuri Lowenthal, where they have produced several films that have made the film festival rounds,"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Monkey Kingdom Productions",
+          "Yuri Lowenthal"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "She",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "She has a production company Monkey Kingdom Productions with her husband, Yuri Lowenthal, where they have produced several films that have made the film festival rounds,",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-8077bf2944a75ebf",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Tara Platt::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Tara Platt",
+          "title": "Tara Platt",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 219,
+            "source_id": "Tara Platt",
+            "start": 174,
+            "text": "a live-action web series called \"Shelf Life\"."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Shelf Life"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Shelf Life",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "a live-action web series called \"Shelf Life\".",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [
+    {
+      "claim_ids": [
+        "clm-56bbd531a0772ef7",
+        "clm-7f23daba1d0302fa"
+      ],
+      "conflict_id": "conflict:0",
+      "members": [
+        {
+          "claim_id": "clm-56bbd531a0772ef7",
+          "independent_support": 0,
+          "propagated_belief": 0.468729,
+          "relation_confidence": 0.948573,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-7f23daba1d0302fa",
+          "independent_support": 0,
+          "propagated_belief": 0.46301,
+          "relation_confidence": 0.948573,
+          "source_reliability": 0.5,
+          "timestamp": null
+        }
+      ],
+      "outcome": "unresolved",
+      "preferred_claim_id": null,
+      "relation_ids": [
+        "rel-d5d66631523252eb"
+      ],
+      "resolution_note": "top two competitors within margin 0.100 (0.469 vs 0.463)",
+      "resolved": false
+    }
+  ],
+  "duplicate_groups": [
+    [
+      "clm-47711952829ac1ef",
+      "clm-8077bf2944a75ebf"
+    ]
+  ],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5abeb0da5542997ec76fd34b",
+    "text": "Were both Monkey Kingdom and Anaganaga O Dheerudu connected with Disney?"
+  },
+  "relations": [
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "lexical-duplicate",
+        "classifier_version": "1.0.0",
+        "created_at": null,
+        "explanation": "exact duplicate",
+        "features": {
+          "duplicate": 1.0
+        },
+        "model_revision": null
+      },
+      "rationale": "exact duplicate (symmetric)",
+      "relation_confidence": 1.0,
+      "relation_id": "rel-128206a1879c2e73",
+      "relation_type": "duplicate",
+      "source_claim_id": "clm-47711952829ac1ef",
+      "target_claim_id": "clm-8077bf2944a75ebf"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.948573
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.948573,
+      "relation_id": "rel-d5d66631523252eb",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-56bbd531a0772ef7",
+      "target_claim_id": "clm-7f23daba1d0302fa"
+    }
+  ],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.463333,
+      "claim_id": "clm-0939139632d4fcd7",
+      "rank": 0,
+      "reason": "top base value within budget",
+      "selection_score": 0.796666,
+      "status": "accepted",
+      "utility": 0.333333
+    },
+    {
+      "belief": 0.468729,
+      "claim_id": "clm-56bbd531a0772ef7",
+      "rank": 1,
+      "reason": "top base value within budget",
+      "selection_score": 0.7723,
+      "status": "disputed",
+      "utility": 0.303571
+    },
+    {
+      "belief": 0.455,
+      "claim_id": "clm-ddbcd124a95a4ef3",
+      "rank": 2,
+      "reason": "top base value within budget",
+      "selection_score": 0.7675,
+      "status": "accepted",
+      "utility": 0.3125
+    },
+    {
+      "belief": 0.452857,
+      "claim_id": "clm-c461324070854bfd",
+      "rank": 3,
+      "reason": "top base value within budget",
+      "selection_score": 0.76,
+      "status": "accepted",
+      "utility": 0.307143
+    },
+    {
+      "belief": 0.46301,
+      "claim_id": "clm-7f23daba1d0302fa",
+      "rank": 4,
+      "reason": "top base value within budget",
+      "selection_score": 0.758465,
+      "status": "disputed",
+      "utility": 0.295455
+    },
+    {
+      "belief": 0.43,
+      "claim_id": "clm-47711952829ac1ef",
+      "rank": 5,
+      "reason": "top base value within budget",
+      "selection_score": 0.68,
+      "status": "accepted",
+      "utility": 0.25
+    },
+    {
+      "belief": 0.43,
+      "claim_id": "clm-5de0f9e3cd406510",
+      "rank": 6,
+      "reason": "top base value within budget",
+      "selection_score": 0.68,
+      "status": "accepted",
+      "utility": 0.25
+    },
+    {
+      "belief": 0.43,
+      "claim_id": "clm-8077bf2944a75ebf",
+      "rank": 7,
+      "reason": "top base value within budget",
+      "selection_score": 0.68,
+      "status": "accepted",
+      "utility": 0.25
+    }
+  ],
+  "subgraph": null
+}

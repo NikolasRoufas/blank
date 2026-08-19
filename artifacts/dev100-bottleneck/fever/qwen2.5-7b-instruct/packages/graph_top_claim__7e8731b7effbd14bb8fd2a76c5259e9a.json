@@ -1,0 +1,99 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 40
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-efa4689011eb7da7",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Sancho_Panza::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Sancho_Panza",
+          "title": "Sancho Panza",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 158,
+            "source_id": "Sancho_Panza",
+            "start": 0,
+            "text": "Sancho Panza -LSB- \u02c8sant\u0283o \u02c8pan\u03b8a -RSB- is a fictional character in the novel Don Quixote written by Spanish author Don Miguel de Cervantes Saavedra in 1605 ."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Sancho Panza",
+          "LSB",
+          "RSB",
+          "Don Quixote",
+          "Spanish",
+          "Don Miguel",
+          "Cervantes Saavedra"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Sancho Panza",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Sancho Panza -LSB- \u02c8sant\u0283o \u02c8pan\u03b8a -RSB- is a fictional character in the novel Don Quixote written by Spanish author Don Miguel de Cervantes Saavedra in 1605 .",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "7e8731b7effbd14bb8fd2a76c5259e9a",
+    "text": "Sancho Panza is a fictional character."
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.478,
+      "claim_id": "clm-efa4689011eb7da7",
+      "rank": 0,
+      "reason": "top base value within budget",
+      "selection_score": 0.848,
+      "status": "accepted",
+      "utility": 0.37
+    }
+  ],
+  "subgraph": null
+}

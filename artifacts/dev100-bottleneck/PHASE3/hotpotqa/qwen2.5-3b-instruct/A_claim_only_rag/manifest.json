@@ -1,0 +1,99 @@
+{
+  "dataset": "hotpotqa",
+  "dataset_fingerprint": "c33e05ba2f9fe168a1063b357f83eb3faf9a7c8d4f411e63424a9ec6762a6b8c",
+  "egrag_version": "0.1.0",
+  "ended_at": "2026-08-19T16:01:56.564644Z",
+  "environment": {
+    "cuda_available": "true",
+    "cuda_runtime_version": "13.0",
+    "gpu_count": "1",
+    "gpu_name": "NVIDIA GeForce RTX 3090",
+    "gpu_vram_total_gib": "23.6",
+    "implementation": "CPython",
+    "platform": "Linux-5.15.0-186-generic-x86_64-with-glibc2.39",
+    "python": "3.12.3",
+    "torch_installed": "true",
+    "torch_used_this_run": "true",
+    "torch_version": "2.12.1+cu130",
+    "transformers_installed": "true",
+    "transformers_used_this_run": "true",
+    "transformers_version": "5.12.1"
+  },
+  "evidence_token_budget": 256,
+  "experiment_name": "phase3_hotpotqa_qwen2.5-3b-instruct_A_claim_only_rag",
+  "fairness_enforced": true,
+  "generator": "huggingface",
+  "generator_device": "cuda",
+  "generator_disable_thinking": false,
+  "generator_dtype": "bfloat16",
+  "generator_model": "Qwen/Qwen2.5-3B-Instruct",
+  "generator_quantization": "none",
+  "generator_resolved": {
+    "model_name": "Qwen/Qwen2.5-3B-Instruct",
+    "quantization": "none",
+    "requested_device": "cuda",
+    "requested_dtype": "bfloat16",
+    "resolved_device": "cuda",
+    "resolved_dtype": "torch.bfloat16",
+    "tokenizer_name_or_path": "Qwen/Qwen2.5-3B-Instruct"
+  },
+  "generator_revision": null,
+  "git_commit": "4ce38a1d7e9704dcd40b4d57186df091d0e0c085",
+  "num_examples": 100,
+  "reserved_output_tokens": 64,
+  "resolved_config": {
+    "bootstrap_samples": 1000,
+    "bootstrap_seed": 0,
+    "chunk_overlap": 0,
+    "chunk_size": 256,
+    "dataset": "hotpotqa",
+    "dataset_path": "artifacts/dev100-bottleneck/_raw_data/filtered/hotpot-dev-100.runner.jsonl",
+    "enforce_fairness": true,
+    "evidence_token_budget": 256,
+    "generator": "huggingface",
+    "generator_device": "cuda",
+    "generator_disable_thinking": false,
+    "generator_dtype": "bfloat16",
+    "generator_model": "Qwen/Qwen2.5-3B-Instruct",
+    "generator_quantization": "none",
+    "generator_revision": null,
+    "limit": null,
+    "max_new_tokens": 256,
+    "name": "phase3_hotpotqa_qwen2.5-3b-instruct_A_claim_only_rag",
+    "output_dir": "artifacts/dev100-bottleneck/PHASE3/hotpotqa/qwen2.5-3b-instruct/A_claim_only_rag",
+    "require_cuda": true,
+    "reserved_output_tokens": 64,
+    "seeds": [
+      0
+    ],
+    "top_k": 5,
+    "variants": [
+      "claim_only_rag"
+    ]
+  },
+  "schema_version": "1.6.0",
+  "seeds": [
+    0
+  ],
+  "started_at": "2026-08-19T15:57:49.383781Z",
+  "top_k": 5,
+  "variants": [
+    {
+      "contradiction": true,
+      "description": "Claim-level RAG without a graph.",
+      "evidence_budget_override": null,
+      "family": "claim",
+      "generator_override": null,
+      "isolates": [
+        "claim_extraction"
+      ],
+      "name": "claim_only_rag",
+      "propagation": true,
+      "rerank": false,
+      "selection": "greedy",
+      "temporal": true,
+      "top_k_override": null
+    }
+  ],
+  "warnings": []
+}

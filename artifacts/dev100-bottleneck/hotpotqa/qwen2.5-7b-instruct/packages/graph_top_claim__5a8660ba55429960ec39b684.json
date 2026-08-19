@@ -1,0 +1,813 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 189
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-ac20bdd8d3397897",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Shingwauk Kinoomaage Gamig::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Shingwauk Kinoomaage Gamig",
+          "title": "Shingwauk Kinoomaage Gamig",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 125,
+            "source_id": "Shingwauk Kinoomaage Gamig",
+            "start": 0,
+            "text": "Shingwauk Kinoomaage Gamig is one of the Aboriginal Institutes in Ontario's post-secondary system which partner with colleges"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Shingwauk Kinoomaage Gamig",
+          "Aboriginal Institutes",
+          "Ontario"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Shingwauk Kinoomaage Gamig",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Shingwauk Kinoomaage Gamig is one of the Aboriginal Institutes in Ontario's post-secondary system which partner with colleges",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-44c27840a4d8897a",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Shingwauk Kinoomaage Gamig::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Shingwauk Kinoomaage Gamig",
+          "title": "Shingwauk Kinoomaage Gamig",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 223,
+            "source_id": "Shingwauk Kinoomaage Gamig",
+            "start": 130,
+            "text": "universities to offer post-secondary programs geared specifically toward Indigenous students."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Indigenous"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Indigenous",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "universities to offer post-secondary programs geared specifically toward Indigenous students.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-12f46abcef14251f",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'he' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Ozzie Zehner::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Ozzie Zehner",
+          "title": "Ozzie Zehner",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 45,
+            "source_id": "Ozzie Zehner",
+            "start": 0,
+            "text": "He received degrees from Kettering University"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Kettering University"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "He",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "He received degrees from Kettering University",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-a662598a9629c100",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Ozzie Zehner::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Ozzie Zehner",
+          "title": "Ozzie Zehner",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 78,
+            "source_id": "Ozzie Zehner",
+            "start": 50,
+            "text": "the University of Amsterdam."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "University",
+          "Amsterdam"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "University",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "the University of Amsterdam.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-9832b161b6f2dc0a",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Universidad Azteca::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Universidad Azteca",
+          "title": "Universidad Azteca",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 105,
+            "source_id": "Universidad Azteca",
+            "start": 0,
+            "text": "According to the Mexican Higher Education laws Universidad Azteca is authorised to offer study programmes"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": "the",
+        "modality": [],
+        "named_entities": [
+          "Mexican Higher Education",
+          "Universidad Azteca"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Mexican Higher Education",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "According to the Mexican Higher Education laws Universidad Azteca is authorised to offer study programmes",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-91117b5769570ea1",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Universidad Azteca::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Universidad Azteca",
+          "title": "Universidad Azteca",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 133,
+            "source_id": "Universidad Azteca",
+            "start": 110,
+            "text": "award degrees with RVOE"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "RVOE"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "RVOE",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "award degrees with RVOE",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-949259f7df7d05cd",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Universidad Azteca::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Universidad Azteca",
+          "title": "Universidad Azteca",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 165,
+            "source_id": "Universidad Azteca",
+            "start": 138,
+            "text": "offer autonomous programmes"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": null,
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "offer autonomous programmes",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-7258110b47aa88b6",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Universidad Azteca::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Universidad Azteca",
+          "title": "Universidad Azteca",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 211,
+            "source_id": "Universidad Azteca",
+            "start": 170,
+            "text": "award academic degrees of the university."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": null,
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "award academic degrees of the university.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-176e7f2d3fd39284",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": [
+          "ambiguous pronoun 'it' left unresolved"
+        ]
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "University of New Mexico::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "University of New Mexico",
+          "title": "University of New Mexico",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 153,
+            "source_id": "University of New Mexico",
+            "start": 0,
+            "text": "It is New Mexico's flagship research institution, the largest post-secondary institution in the state in total enrollment across all campuses as of 2012,"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "New Mexico"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "It",
+        "temporal_expressions": [
+          "2012"
+        ]
+      },
+      "source_reliability": null,
+      "text": "It is New Mexico's flagship research institution, the largest post-secondary institution in the state in total enrollment across all campuses as of 2012,",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-421e6d798238131c",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "University of New Mexico::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "University of New Mexico",
+          "title": "University of New Mexico",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 195,
+            "source_id": "University of New Mexico",
+            "start": 158,
+            "text": "one of the state's largest employers."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": null,
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "one of the state's largest employers.",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-5396fc889dad07da",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "Kettering University::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "Kettering University",
+          "title": "Kettering University",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 290,
+            "source_id": "Kettering University",
+            "start": 0,
+            "text": "Kettering University (formerly General Motors Institute of Technology) is a private cooperative education and experiential learning-based university in Flint, Michigan, offering bachelor's and master's degrees in STEM (Science, Technology, Engineering, and Mathematics) and business fields."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Kettering University",
+          "General Motors Institute",
+          "Technology",
+          "Flint",
+          "Michigan",
+          "STEM",
+          "Science",
+          "Engineering",
+          "Mathematics"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Kettering University",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Kettering University (formerly General Motors Institute of Technology) is a private cooperative education and experiential learning-based university in Flint, Michigan, offering bachelor's and master's degrees in STEM (Science, Technology, Engineering, and Mathematics) and business fields.",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [
+    {
+      "claim_ids": [
+        "clm-176e7f2d3fd39284",
+        "clm-ac20bdd8d3397897"
+      ],
+      "conflict_id": "conflict:0",
+      "members": [
+        {
+          "claim_id": "clm-176e7f2d3fd39284",
+          "independent_support": 0,
+          "propagated_belief": 0.48468,
+          "relation_confidence": 0.998101,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-ac20bdd8d3397897",
+          "independent_support": 0,
+          "propagated_belief": 0.459148,
+          "relation_confidence": 0.998101,
+          "source_reliability": 0.5,
+          "timestamp": null
+        }
+      ],
+      "outcome": "unresolved",
+      "preferred_claim_id": null,
+      "relation_ids": [
+        "rel-9d49dd399db4f449"
+      ],
+      "resolution_note": "top two competitors within margin 0.100 (0.485 vs 0.459)",
+      "resolved": false
+    },
+    {
+      "claim_ids": [
+        "clm-421e6d798238131c",
+        "clm-a662598a9629c100"
+      ],
+      "conflict_id": "conflict:1",
+      "members": [
+        {
+          "claim_id": "clm-421e6d798238131c",
+          "independent_support": 0,
+          "propagated_belief": 0.449465,
+          "relation_confidence": 0.720479,
+          "source_reliability": 0.5,
+          "timestamp": null
+        },
+        {
+          "claim_id": "clm-a662598a9629c100",
+          "independent_support": 0,
+          "propagated_belief": 0.476653,
+          "relation_confidence": 0.720479,
+          "source_reliability": 0.5,
+          "timestamp": null
+        }
+      ],
+      "outcome": "unresolved",
+      "preferred_claim_id": null,
+      "relation_ids": [
+        "rel-00d735bcb6b6179c"
+      ],
+      "resolution_note": "top two competitors within margin 0.100 (0.477 vs 0.449)",
+      "resolved": false
+    }
+  ],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "5a8660ba55429960ec39b684",
+    "text": "Do both Kettering University and University of New Mexico offer post-secondary degrees?"
+  },
+  "relations": [
+    {
+      "bridge": null,
+      "direction": "directed",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "entailment",
+        "features": {
+          "entailment": 0.577596
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "entailment above threshold",
+      "relation_confidence": 0.577596,
+      "relation_id": "rel-aa3e69ada31222db",
+      "relation_type": "support",
+      "source_claim_id": "clm-12f46abcef14251f",
+      "target_claim_id": "clm-7258110b47aa88b6"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.998101
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.998101,
+      "relation_id": "rel-9d49dd399db4f449",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-176e7f2d3fd39284",
+      "target_claim_id": "clm-ac20bdd8d3397897"
+    },
+    {
+      "bridge": null,
+      "direction": "symmetric",
+      "metadata": {
+        "classifier_id": "huggingface-nli",
+        "classifier_version": "roberta-large-mnli",
+        "created_at": null,
+        "explanation": "contradiction",
+        "features": {
+          "contradiction": 0.720479
+        },
+        "model_revision": "2a8f12d27941090092df78e4ba6f0928eb5eac98"
+      },
+      "rationale": "contradiction above threshold (symmetric)",
+      "relation_confidence": 0.720479,
+      "relation_id": "rel-00d735bcb6b6179c",
+      "relation_type": "contradiction",
+      "source_claim_id": "clm-421e6d798238131c",
+      "target_claim_id": "clm-a662598a9629c100"
+    }
+  ],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.56149,
+      "claim_id": "clm-7258110b47aa88b6",
+      "rank": 0,
+      "reason": "top base value within budget",
+      "selection_score": 0.91149,
+      "status": "accepted",
+      "utility": 0.35
+    },
+    {
+      "belief": 0.48468,
+      "claim_id": "clm-176e7f2d3fd39284",
+      "rank": 1,
+      "reason": "top base value within budget",
+      "selection_score": 0.820887,
+      "status": "disputed",
+      "utility": 0.336207
+    },
+    {
+      "belief": 0.47,
+      "claim_id": "clm-12f46abcef14251f",
+      "rank": 2,
+      "reason": "top base value within budget",
+      "selection_score": 0.82,
+      "status": "accepted",
+      "utility": 0.35
+    },
+    {
+      "belief": 0.476653,
+      "claim_id": "clm-a662598a9629c100",
+      "rank": 3,
+      "reason": "top base value within budget",
+      "selection_score": 0.798082,
+      "status": "disputed",
+      "utility": 0.321429
+    },
+    {
+      "belief": 0.46,
+      "claim_id": "clm-44c27840a4d8897a",
+      "rank": 4,
+      "reason": "top base value within budget",
+      "selection_score": 0.785,
+      "status": "accepted",
+      "utility": 0.325
+    },
+    {
+      "belief": 0.456316,
+      "claim_id": "clm-5396fc889dad07da",
+      "rank": 5,
+      "reason": "top base value within budget",
+      "selection_score": 0.772105,
+      "status": "accepted",
+      "utility": 0.315789
+    },
+    {
+      "belief": 0.444286,
+      "claim_id": "clm-949259f7df7d05cd",
+      "rank": 6,
+      "reason": "top base value within budget",
+      "selection_score": 0.73,
+      "status": "accepted",
+      "utility": 0.285714
+    },
+    {
+      "belief": 0.449465,
+      "claim_id": "clm-421e6d798238131c",
+      "rank": 7,
+      "reason": "top base value within budget",
+      "selection_score": 0.727243,
+      "status": "disputed",
+      "utility": 0.277778
+    },
+    {
+      "belief": 0.443333,
+      "claim_id": "clm-91117b5769570ea1",
+      "rank": 8,
+      "reason": "top base value within budget",
+      "selection_score": 0.726666,
+      "status": "accepted",
+      "utility": 0.283333
+    }
+  ],
+  "subgraph": null
+}

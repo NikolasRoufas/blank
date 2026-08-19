@@ -1,0 +1,93 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 53
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-425f4308b61d8598",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "District::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "District",
+          "title": "District",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 210,
+            "source_id": "District",
+            "start": 0,
+            "text": "Across the world , areas known as `` districts '' vary greatly in size , spanning entire regions or counties , several municipalities , subdivisions of municipalities , school district , or political district ."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Across"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Across",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "Across the world , areas known as `` districts '' vary greatly in size , spanning entire regions or counties , several municipalities , subdivisions of municipalities , school district , or political district .",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "package",
+  "query": {
+    "created_at": null,
+    "query_id": "4de42c08f00050aa74e80735d01b8990",
+    "text": "Part of Hindu Kush is in the Punjab District."
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": 0.458571,
+      "claim_id": "clm-425f4308b61d8598",
+      "rank": 0,
+      "reason": "seed: highest base value",
+      "selection_score": 0.78,
+      "status": "accepted",
+      "utility": 0.321429
+    }
+  ],
+  "subgraph": null
+}

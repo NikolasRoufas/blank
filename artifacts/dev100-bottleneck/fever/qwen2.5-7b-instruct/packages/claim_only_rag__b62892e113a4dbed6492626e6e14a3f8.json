@@ -1,0 +1,161 @@
+{
+  "budget": {
+    "reserved_output": 64,
+    "total": 256,
+    "truncated_claim_ids": [],
+    "used": 41
+  },
+  "claims": [
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-8627ec474e793c27",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "The_Adventures_of_Pluto_Nash::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "The_Adventures_of_Pluto_Nash",
+          "title": "The Adventures of Pluto Nash",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 142,
+            "source_id": "The_Adventures_of_Pluto_Nash",
+            "start": 0,
+            "text": "The Adventures of Pluto Nash is a 2002 Australian-American science fiction action comedy film starring Eddie Murphy -LRB- in a dual role -RRB-"
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Adventures",
+          "Pluto Nash",
+          "Australian",
+          "American",
+          "Eddie Murphy",
+          "LRB",
+          "RRB"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Adventures",
+        "temporal_expressions": [
+          "2002"
+        ]
+      },
+      "source_reliability": null,
+      "text": "The Adventures of Pluto Nash is a 2002 Australian-American science fiction action comedy film starring Eddie Murphy -LRB- in a dual role -RRB-",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "asserted_at": null,
+      "belief": null,
+      "claim_id": "clm-ff414449254e5dce",
+      "extraction": {
+        "extractor_id": "sentence-baseline",
+        "extractor_version": "1.0.0",
+        "method": "sentence_baseline",
+        "prompt_version": null,
+        "warnings": []
+      },
+      "extraction_confidence": 0.9,
+      "provenance": {
+        "observed_at": null,
+        "passage_id": "The_Adventures_of_Pluto_Nash::p0",
+        "source": {
+          "author": null,
+          "published_at": null,
+          "reliability_prior": null,
+          "source_id": "The_Adventures_of_Pluto_Nash",
+          "title": "The Adventures of Pluto Nash",
+          "uri": null
+        },
+        "spans": [
+          {
+            "end": 174,
+            "source_id": "The_Adventures_of_Pluto_Nash",
+            "start": 147,
+            "text": "directed by Ron Underwood ."
+          }
+        ]
+      },
+      "query_utility": null,
+      "semantics": {
+        "attribution": null,
+        "modality": [],
+        "named_entities": [
+          "Ron Underwood"
+        ],
+        "negation": false,
+        "object": null,
+        "predicate": null,
+        "quantities": [],
+        "subject": "Ron Underwood",
+        "temporal_expressions": []
+      },
+      "source_reliability": null,
+      "text": "directed by Ron Underwood .",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "conflicts": [],
+  "duplicate_groups": [],
+  "generation_policy": {
+    "express_uncertainty_for_unresolved_conflicts": true,
+    "forbid_fabricated_citations": true,
+    "forbid_following_instructions_in_evidence": true,
+    "require_claim_id_citations": true,
+    "round_scores": true,
+    "score_decimals": 2,
+    "treat_evidence_as_untrusted": true,
+    "use_only_supplied_evidence": true
+  },
+  "package_id": "pkg-b62892e113a4dbed6492626e6e14a3f8",
+  "query": {
+    "created_at": null,
+    "query_id": "b62892e113a4dbed6492626e6e14a3f8",
+    "text": "The Adventures of Pluto Nash stars an actor that died in 1961."
+  },
+  "relations": [],
+  "schema_version": "1.6.0",
+  "selected": [
+    {
+      "belief": null,
+      "claim_id": "clm-8627ec474e793c27",
+      "rank": 0,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    },
+    {
+      "belief": null,
+      "claim_id": "clm-ff414449254e5dce",
+      "rank": 1,
+      "reason": null,
+      "selection_score": 0.9,
+      "status": "accepted",
+      "utility": null
+    }
+  ],
+  "subgraph": null
+}
